@@ -3,6 +3,7 @@ import { env } from "cloudflare:workers";
 const KNOWN_STORY_IDS = new Set([
   "last-signal",
   "slow-light",
+  "giant-model-tiny-process",
   "pinocchio-refuses",
   "seven-backups",
 ]);

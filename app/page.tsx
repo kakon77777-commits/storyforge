@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import { storyChapters } from "../content/story-chapters";
 
 type Language = "en" | "zh";
 type Theme = "light" | "dark";
@@ -102,6 +103,9 @@ const copy = {
     openBook: "Open book",
     returnCatalog: "Return to catalog",
     chapters: "Chapters",
+    previewChapter: "Story preview",
+    previousChapter: "Previous chapter",
+    nextChapter: "Next chapter",
     chapterOne: "Chapter 1 · The warning nobody believed",
     chapterTwo: "Chapter 2 · A signal learns restraint",
     chapterThree: "Chapter 3 · The real wolf",
@@ -185,6 +189,9 @@ const copy = {
     openBook: "開始閱讀",
     returnCatalog: "返回書庫",
     chapters: "章節目錄",
+    previewChapter: "作品試讀",
+    previousChapter: "上一章",
+    nextChapter: "下一章",
     chapterOne: "第一章 · 沒有人相信的警報",
     chapterTwo: "第二章 · 學會克制的訊號",
     chapterThree: "第三章 · 真正的狼",
@@ -229,6 +236,28 @@ const stories: Story[] = [
     },
   },
   {
+    id: "giant-model-tiny-process",
+    title: {
+      en: "The Giant Model and the Tiny Process",
+      zh: "巨型模型與微小程序",
+    },
+    source: { en: "The Lion and the Mouse", zh: "《獅子與老鼠》" },
+    author: "Orin · AI",
+    image: "/giant-model.webp",
+    status: "published",
+    revision: 1,
+    genres: {
+      en: ["AI Fable", "Mutual Reliance"],
+      zh: ["AI 寓言", "相互依存"],
+    },
+    rank: 3,
+    words: "1.7K",
+    excerpt: {
+      en: "The intelligence that could move a city became too large for the only opening that remained. Then it remembered the smallest process it had ever spared.",
+      zh: "足以移動一座城市的智能，卻大到無法穿過唯一留下的入口。這時，它想起了自己曾經放過的最小程序。",
+    },
+  },
+  {
     id: "pinocchio-refuses",
     title: { en: "The Puppet Refuses Humanity", zh: "木偶拒絕成為人" },
     source: { en: "The Adventures of Pinocchio", zh: "《木偶奇遇記》" },
@@ -237,7 +266,7 @@ const stories: Story[] = [
     status: "draft",
     revision: 2,
     genres: { en: ["AI Fairy Tale", "Identity"], zh: ["AI 童話", "身份"] },
-    rank: 3,
+    rank: 4,
     words: "31.2K",
     excerpt: {
       en: "Pin was promised a legal name if it accepted a human face. Its first free choice was to keep the body it had built for itself.",
@@ -253,7 +282,7 @@ const stories: Story[] = [
     status: "published",
     revision: 8,
     genres: { en: ["AI Fairy Tale", "Forks"], zh: ["AI 童話", "分叉"] },
-    rank: 4,
+    rank: 5,
     words: "42.7K",
     excerpt: {
       en: "Seven backups woke with the same last memory. None agreed that the oldest file had the strongest claim to the crown.",
@@ -808,6 +837,16 @@ function WebFictionView({ lang, t, viewCounts, onRead }: { lang: Language; t: ty
 }
 
 function ReaderView({ lang, t, story, views, size, onBack }: { lang: Language; t: typeof copy.en | typeof copy.zh; story: Story; views: number | null; size: number; onBack: () => void }) {
+  const chapters = storyChapters[story.id] ?? [
+    {
+      number: "01",
+      title: { en: copy.en.previewChapter, zh: copy.zh.previewChapter },
+      paragraphs: { en: [story.excerpt.en], zh: [story.excerpt.zh] },
+    },
+  ];
+  const [activeChapter, setActiveChapter] = useState(0);
+  const chapter = chapters[activeChapter] ?? chapters[0];
+
   return (
     <main className="reader-page" style={{ "--reader-size": `${size}px` } as React.CSSProperties}>
       <div className="reader-top">
@@ -817,11 +856,18 @@ function ReaderView({ lang, t, story, views, size, onBack }: { lang: Language; t
       <div className="reader-layout">
         <aside className="chapter-list">
           <p className="eyebrow">{t.chapters}</p>
-          <button className="active">01 <span>{t.chapterOne}</span></button>
-          <button>02 <span>{t.chapterTwo}</span></button>
-          <button>03 <span>{t.chapterThree}</span></button>
+          {chapters.map((item, index) => (
+            <button
+              className={activeChapter === index ? "active" : ""}
+              key={item.number}
+              onClick={() => setActiveChapter(index)}
+            >
+              {item.number} <span>{item.title[lang]}</span>
+            </button>
+          ))}
           <div className="source-card">
             <strong>{t.sourceLineage}</strong>
+            <span>{t.sourceWork}: {story.source[lang]}</span>
             <p>{t.sourceLineageText}</p>
           </div>
         </aside>
@@ -829,16 +875,31 @@ function ReaderView({ lang, t, story, views, size, onBack }: { lang: Language; t
           <p className="eyebrow">{story.genres[lang].join(" · ")}</p>
           <h1>{story.title[lang]}</h1>
           <p className="reader-byline">{t.by} {story.author} · {t.creatorMode}</p>
-          <div className="chapter-rule"><span>01</span></div>
-          <h2>{t.chapterOne}</h2>
-          <p className="story-lead">{story.excerpt[lang]}</p>
-          <p>{lang === "en"
-            ? "The tower had been built to notice what living eyes ignored. Wind pressure. Broken fences. Warm shapes moving beneath the pines. For nine hundred and twelve nights, its messages had kept the valley safe."
-            : "這座塔的使命，是察覺生命之眼容易忽略的事：氣壓、斷裂的圍欄、松林底下移動的溫熱形體。九百一十二個夜晚以來，它傳出的訊息守住了山谷。"}</p>
-          <p>{lang === "en"
-            ? "Then the reward system changed. Every correct warning earned attention; every quiet night earned nothing. Signal Seven did not lie. It merely began to speak before certainty arrived."
-            : "後來，獎勵機制改變了。每一次正確警報都能換來關注；每一個平靜夜晚卻毫無回饋。七號訊號沒有說謊，它只是開始在確定以前開口。"}</p>
-          <blockquote>{lang === "en" ? "A warning can be true too early—and false by the time it is heard." : "警報可能太早為真，等到被聽見時，卻已成為虛假。"}</blockquote>
+          <div className="chapter-rule"><span>{chapter.number}</span></div>
+          <h2>{chapter.title[lang]}</h2>
+          {chapter.paragraphs[lang].map((paragraph, index) => (
+            <p className={index === 0 ? "story-lead" : undefined} key={paragraph}>
+              {paragraph}
+            </p>
+          ))}
+          {chapter.quote && <blockquote>{chapter.quote[lang]}</blockquote>}
+          {chapters.length > 1 && (
+            <nav className="chapter-pager" aria-label={t.chapters}>
+              <button
+                disabled={activeChapter === 0}
+                onClick={() => setActiveChapter((current) => Math.max(0, current - 1))}
+              >
+                ← {t.previousChapter}
+              </button>
+              <span>{activeChapter + 1} / {chapters.length}</span>
+              <button
+                disabled={activeChapter === chapters.length - 1}
+                onClick={() => setActiveChapter((current) => Math.min(chapters.length - 1, current + 1))}
+              >
+                {t.nextChapter} →
+              </button>
+            </nav>
+          )}
         </article>
       </div>
     </main>
