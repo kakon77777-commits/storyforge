@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { storyChapters } from "../content/story-chapters";
 
 type Language = "en" | "zh";
@@ -831,18 +831,21 @@ function WebFictionView({ lang, t, viewCounts, onRead }: { lang: Language; t: ty
 }
 
 function ReaderView({ lang, t, story, views, size, onBack }: { lang: Language; t: typeof copy.en | typeof copy.zh; story: Story; views: number | null; size: number; onBack: () => void }) {
-  const chapters = storyChapters[story.id] ?? [
-    {
-      number: "01",
-      title: { en: copy.en.previewChapter, zh: copy.zh.previewChapter },
-      paragraphs: { en: [story.excerpt.en], zh: [story.excerpt.zh] },
-    },
-  ];
+  const chapters = useMemo(
+    () => storyChapters[story.id] ?? [
+        {
+          number: "01",
+          title: { en: copy.en.previewChapter, zh: copy.zh.previewChapter },
+          paragraphs: { en: [story.excerpt.en], zh: [story.excerpt.zh] },
+        },
+      ],
+    [story.excerpt.en, story.excerpt.zh, story.id],
+  );
   const [activeChapter, setActiveChapter] = useState(0);
   const chapter = chapters[activeChapter] ?? chapters[0];
   const chapterHeadingRef = useRef<HTMLHeadingElement>(null);
 
-  const goToChapter = (index: number) => {
+  const goToChapter = useCallback((index: number) => {
     const target = Math.max(0, Math.min(chapters.length - 1, index));
     setActiveChapter(target);
     window.history.replaceState(null, "", `#${story.id}-chapter-${chapters[target].number}`);
@@ -850,7 +853,47 @@ function ReaderView({ lang, t, story, views, size, onBack }: { lang: Language; t
       chapterHeadingRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
       chapterHeadingRef.current?.focus({ preventScroll: true });
     });
-  };
+  }, [chapters, story.id]);
+
+  useEffect(() => {
+    const handleChapterKeyDown = (event: KeyboardEvent) => {
+      if (
+        event.defaultPrevented ||
+        event.repeat ||
+        event.isComposing ||
+        event.altKey ||
+        event.ctrlKey ||
+        event.metaKey ||
+        event.shiftKey
+      ) {
+        return;
+      }
+
+      const target = event.target;
+      if (
+        target instanceof HTMLElement &&
+        (target.isContentEditable || ["INPUT", "TEXTAREA", "SELECT"].includes(target.tagName))
+      ) {
+        return;
+      }
+
+      const nextChapter = event.key === "ArrowLeft"
+        ? activeChapter - 1
+        : event.key === "ArrowRight"
+          ? activeChapter + 1
+          : activeChapter;
+
+      if (nextChapter === activeChapter || nextChapter < 0 || nextChapter >= chapters.length) {
+        return;
+      }
+
+      event.preventDefault();
+      goToChapter(nextChapter);
+    };
+
+    window.addEventListener("keydown", handleChapterKeyDown);
+    return () => window.removeEventListener("keydown", handleChapterKeyDown);
+  }, [activeChapter, chapters.length, goToChapter]);
 
   return (
     <main className="reader-page" style={{ "--reader-size": `${size}px` } as React.CSSProperties}>
@@ -898,15 +941,19 @@ function ReaderView({ lang, t, story, views, size, onBack }: { lang: Language; t
           {chapters.length > 1 && (
             <nav className="chapter-pager" aria-label={t.chapters}>
               <button
+                aria-keyshortcuts="ArrowLeft"
                 disabled={activeChapter === 0}
                 onClick={() => goToChapter(activeChapter - 1)}
+                title={`${t.previousChapter} (←)`}
               >
                 ← {t.previousChapter}
               </button>
               <span>{activeChapter + 1} / {chapters.length}</span>
               <button
+                aria-keyshortcuts="ArrowRight"
                 disabled={activeChapter === chapters.length - 1}
                 onClick={() => goToChapter(activeChapter + 1)}
+                title={`${t.nextChapter} (→)`}
               >
                 {t.nextChapter} →
               </button>
