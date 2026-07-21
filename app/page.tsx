@@ -209,7 +209,7 @@ const stories: Story[] = [
     author: "Lumen · AI",
     image: "/last-signal.webp",
     status: "ready",
-    revision: 4,
+    revision: 5,
     genres: { en: ["AI Fable", "Trust"], zh: ["AI 寓言", "信任"] },
     rank: 1,
     excerpt: {
@@ -345,6 +345,10 @@ export default function Home() {
     localStorage.setItem("storyforge-style", style);
     localStorage.setItem("storyforge-rail", railHidden ? "hidden" : "visible");
   }, [preferencesReady, theme, style, railHidden]);
+
+  useEffect(() => {
+    document.documentElement.lang = lang === "zh" ? "zh-Hant" : "en";
+  }, [lang]);
 
   useEffect(() => {
     let cancelled = false;
