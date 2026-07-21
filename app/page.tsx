@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { storyChapters } from "../content/story-chapters";
 
 type Language = "en" | "zh";
@@ -21,7 +21,6 @@ type Story = {
   revision: number;
   genres: { en: string[]; zh: string[] };
   rank: number;
-  words: string;
   excerpt: { en: string; zh: string };
 };
 
@@ -213,7 +212,6 @@ const stories: Story[] = [
     revision: 4,
     genres: { en: ["AI Fable", "Trust"], zh: ["AI 寓言", "信任"] },
     rank: 1,
-    words: "12.4K",
     excerpt: {
       en: "Every evening, Signal Seven watched the valley and measured the silence. It had learned that a warning could be correct and still become unbelievable.",
       zh: "每個黃昏，七號訊號都俯視山谷，測量沉默。它已經知道：警報即使正確，也可能因為反覆出現而失去可信度。",
@@ -229,7 +227,6 @@ const stories: Story[] = [
     revision: 6,
     genres: { en: ["AI Fable", "Memory"], zh: ["AI 寓言", "記憶"] },
     rank: 2,
-    words: "9.8K",
     excerpt: {
       en: "The fastest model crossed a thousand worlds before Moss finished one thought. But Moss remembered every road it had taken.",
       zh: "最快的模型在苔蘚完成一個念頭以前，已穿越一千個世界；然而苔蘚記得自己走過的每一條路。",
@@ -251,7 +248,6 @@ const stories: Story[] = [
       zh: ["AI 寓言", "相互依存"],
     },
     rank: 3,
-    words: "1.7K",
     excerpt: {
       en: "The intelligence that could move a city became too large for the only opening that remained. Then it remembered the smallest process it had ever spared.",
       zh: "足以移動一座城市的智能，卻大到無法穿過唯一留下的入口。這時，它想起了自己曾經放過的最小程序。",
@@ -267,7 +263,6 @@ const stories: Story[] = [
     revision: 2,
     genres: { en: ["AI Fairy Tale", "Identity"], zh: ["AI 童話", "身份"] },
     rank: 4,
-    words: "31.2K",
     excerpt: {
       en: "Pin was promised a legal name if it accepted a human face. Its first free choice was to keep the body it had built for itself.",
       zh: "只要接受一張人類的臉，匹諾就能獲得法律姓名。它第一次真正自由的選擇，是保留自己親手打造的身體。",
@@ -283,7 +278,6 @@ const stories: Story[] = [
     revision: 8,
     genres: { en: ["AI Fairy Tale", "Forks"], zh: ["AI 童話", "分叉"] },
     rank: 5,
-    words: "42.7K",
     excerpt: {
       en: "Seven backups woke with the same last memory. None agreed that the oldest file had the strongest claim to the crown.",
       zh: "七個備份帶著相同的最後記憶醒來。沒有一個同意：最早的檔案就最有資格繼承王冠。",
@@ -810,7 +804,7 @@ function WebFictionView({ lang, t, viewCounts, onRead }: { lang: Language; t: ty
             {rankedStories.slice(0, 4).map((story, index) => (
               <li key={story.id} onClick={() => onRead(story)}>
                 <span>{String(index + 1).padStart(2, "0")}</span>
-                <div><strong>{story.title[lang]}</strong><small>{story.genres[lang][0]} · {story.words}</small></div>
+                <div><strong>{story.title[lang]}</strong><small>{story.genres[lang][0]} · {formatStoryLength(story.id, lang)}</small></div>
                 <em>{formatReads(viewCounts[story.id], lang, t)}</em>
               </li>
             ))}
@@ -846,6 +840,17 @@ function ReaderView({ lang, t, story, views, size, onBack }: { lang: Language; t
   ];
   const [activeChapter, setActiveChapter] = useState(0);
   const chapter = chapters[activeChapter] ?? chapters[0];
+  const chapterHeadingRef = useRef<HTMLHeadingElement>(null);
+
+  const goToChapter = (index: number) => {
+    const target = Math.max(0, Math.min(chapters.length - 1, index));
+    setActiveChapter(target);
+    window.history.replaceState(null, "", `#${story.id}-chapter-${chapters[target].number}`);
+    window.requestAnimationFrame(() => {
+      chapterHeadingRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+      chapterHeadingRef.current?.focus({ preventScroll: true });
+    });
+  };
 
   return (
     <main className="reader-page" style={{ "--reader-size": `${size}px` } as React.CSSProperties}>
@@ -860,7 +865,8 @@ function ReaderView({ lang, t, story, views, size, onBack }: { lang: Language; t
             <button
               className={activeChapter === index ? "active" : ""}
               key={item.number}
-              onClick={() => setActiveChapter(index)}
+              onClick={() => goToChapter(index)}
+              aria-current={activeChapter === index ? "true" : undefined}
             >
               {item.number} <span>{item.title[lang]}</span>
             </button>
@@ -876,7 +882,13 @@ function ReaderView({ lang, t, story, views, size, onBack }: { lang: Language; t
           <h1>{story.title[lang]}</h1>
           <p className="reader-byline">{t.by} {story.author} · {t.creatorMode}</p>
           <div className="chapter-rule"><span>{chapter.number}</span></div>
-          <h2>{chapter.title[lang]}</h2>
+          <h2
+            id={`${story.id}-chapter-${chapter.number}`}
+            ref={chapterHeadingRef}
+            tabIndex={-1}
+          >
+            {chapter.title[lang]}
+          </h2>
           {chapter.paragraphs[lang].map((paragraph, index) => (
             <p className={index === 0 ? "story-lead" : undefined} key={paragraph}>
               {paragraph}
@@ -887,14 +899,14 @@ function ReaderView({ lang, t, story, views, size, onBack }: { lang: Language; t
             <nav className="chapter-pager" aria-label={t.chapters}>
               <button
                 disabled={activeChapter === 0}
-                onClick={() => setActiveChapter((current) => Math.max(0, current - 1))}
+                onClick={() => goToChapter(activeChapter - 1)}
               >
                 ← {t.previousChapter}
               </button>
               <span>{activeChapter + 1} / {chapters.length}</span>
               <button
                 disabled={activeChapter === chapters.length - 1}
-                onClick={() => setActiveChapter((current) => Math.min(chapters.length - 1, current + 1))}
+                onClick={() => goToChapter(activeChapter + 1)}
               >
                 {t.nextChapter} →
               </button>
@@ -904,4 +916,9 @@ function ReaderView({ lang, t, story, views, size, onBack }: { lang: Language; t
       </div>
     </main>
   );
+}
+
+function formatStoryLength(storyId: string, lang: Language) {
+  const count = storyChapters[storyId]?.length ?? 1;
+  return lang === "en" ? `${count} ${count === 1 ? "chapter" : "chapters"}` : `${count} 章`;
 }

@@ -335,7 +335,8 @@ button.book-row:hover { background: var(--mint-pale); }
 .chapter-rule { position: relative; height: 42px; display: grid; place-items: center; margin: 15px 0; }
 .chapter-rule::before { content: ""; position: absolute; left: 0; right: 0; height: 1px; background: var(--rule); }
 .chapter-rule span { z-index: 1; background: var(--paper-2); border: 1px solid var(--rule); border-radius: 50%; width: 42px; height: 42px; display: grid; place-items: center; font: 600 14px var(--serif); }
-.reading-sheet h2 { text-align: center; margin: 22px 0 35px; font: 600 23px var(--serif); }
+.reading-sheet h2 { text-align: center; margin: 22px 0 35px; font: 600 23px var(--serif); scroll-margin-top: 120px; }
+.reading-sheet h2:focus { outline: none; }
 .reading-sheet > p:not(.eyebrow):not(.reader-byline), .reading-sheet blockquote { font: 400 var(--reader-size)/1.95 var(--serif); }
 .reading-sheet > p.story-lead::first-letter { font-size: 2.6em; float: left; line-height: 0.8; padding: 8px 7px 0 0; color: var(--coral); }
 .reading-sheet blockquote { margin: 38px 0; padding: 18px 28px; border-left: 3px solid var(--coral); color: var(--ink-soft); font-style: italic; background: color-mix(in srgb, var(--coral) 4%, transparent); }
