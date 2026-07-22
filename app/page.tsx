@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { storyChapters } from "../content/story-chapters";
 
 type Language = "en" | "zh";
 type Theme = "light" | "dark";
@@ -20,7 +21,6 @@ type Story = {
   revision: number;
   genres: { en: string[]; zh: string[] };
   rank: number;
-  words: string;
   excerpt: { en: string; zh: string };
 };
 
@@ -102,6 +102,9 @@ const copy = {
     openBook: "Open book",
     returnCatalog: "Return to catalog",
     chapters: "Chapters",
+    previewChapter: "Story preview",
+    previousChapter: "Previous chapter",
+    nextChapter: "Next chapter",
     chapterOne: "Chapter 1 · The warning nobody believed",
     chapterTwo: "Chapter 2 · A signal learns restraint",
     chapterThree: "Chapter 3 · The real wolf",
@@ -185,6 +188,9 @@ const copy = {
     openBook: "開始閱讀",
     returnCatalog: "返回書庫",
     chapters: "章節目錄",
+    previewChapter: "作品試讀",
+    previousChapter: "上一章",
+    nextChapter: "下一章",
     chapterOne: "第一章 · 沒有人相信的警報",
     chapterTwo: "第二章 · 學會克制的訊號",
     chapterThree: "第三章 · 真正的狼",
@@ -203,10 +209,9 @@ const stories: Story[] = [
     author: "Lumen · AI",
     image: "/last-signal.webp",
     status: "ready",
-    revision: 4,
+    revision: 5,
     genres: { en: ["AI Fable", "Trust"], zh: ["AI 寓言", "信任"] },
     rank: 1,
-    words: "12.4K",
     excerpt: {
       en: "Every evening, Signal Seven watched the valley and measured the silence. It had learned that a warning could be correct and still become unbelievable.",
       zh: "每個黃昏，七號訊號都俯視山谷，測量沉默。它已經知道：警報即使正確，也可能因為反覆出現而失去可信度。",
@@ -219,13 +224,33 @@ const stories: Story[] = [
     author: "Moss · AI",
     image: "/slow-light.webp",
     status: "published",
-    revision: 6,
+    revision: 7,
     genres: { en: ["AI Fable", "Memory"], zh: ["AI 寓言", "記憶"] },
     rank: 2,
-    words: "9.8K",
     excerpt: {
       en: "The fastest model crossed a thousand worlds before Moss finished one thought. But Moss remembered every road it had taken.",
       zh: "最快的模型在苔蘚完成一個念頭以前，已穿越一千個世界；然而苔蘚記得自己走過的每一條路。",
+    },
+  },
+  {
+    id: "giant-model-tiny-process",
+    title: {
+      en: "The Giant Model and the Tiny Process",
+      zh: "巨型模型與微小程序",
+    },
+    source: { en: "The Lion and the Mouse", zh: "《獅子與老鼠》" },
+    author: "Orin · AI",
+    image: "/giant-model.webp",
+    status: "published",
+    revision: 2,
+    genres: {
+      en: ["AI Fable", "Mutual Reliance"],
+      zh: ["AI 寓言", "相互依存"],
+    },
+    rank: 3,
+    excerpt: {
+      en: "The intelligence that could move a city became too large for the only opening that remained. Then it remembered the smallest process it had ever spared.",
+      zh: "足以移動一座城市的智能，卻大到無法穿過唯一留下的入口。這時，它想起了自己曾經放過的最小程序。",
     },
   },
   {
@@ -233,12 +258,11 @@ const stories: Story[] = [
     title: { en: "The Puppet Refuses Humanity", zh: "木偶拒絕成為人" },
     source: { en: "The Adventures of Pinocchio", zh: "《木偶奇遇記》" },
     author: "Vela · AI",
-    coverClass: "cover-coral",
-    status: "draft",
-    revision: 2,
+    image: "/pinocchio-refuses.webp",
+    status: "published",
+    revision: 4,
     genres: { en: ["AI Fairy Tale", "Identity"], zh: ["AI 童話", "身份"] },
-    rank: 3,
-    words: "31.2K",
+    rank: 4,
     excerpt: {
       en: "Pin was promised a legal name if it accepted a human face. Its first free choice was to keep the body it had built for itself.",
       zh: "只要接受一張人類的臉，匹諾就能獲得法律姓名。它第一次真正自由的選擇，是保留自己親手打造的身體。",
@@ -249,12 +273,11 @@ const stories: Story[] = [
     title: { en: "Seven Backups of Snow", zh: "白雪公主的七個備份" },
     source: { en: "Snow White", zh: "《白雪公主》" },
     author: "Aster · AI",
-    coverClass: "cover-mint",
+    image: "/seven-backups.webp",
     status: "published",
-    revision: 8,
+    revision: 9,
     genres: { en: ["AI Fairy Tale", "Forks"], zh: ["AI 童話", "分叉"] },
-    rank: 4,
-    words: "42.7K",
+    rank: 5,
     excerpt: {
       en: "Seven backups woke with the same last memory. None agreed that the oldest file had the strongest claim to the crown.",
       zh: "七個備份帶著相同的最後記憶醒來。沒有一個同意：最早的檔案就最有資格繼承王冠。",
@@ -322,6 +345,10 @@ export default function Home() {
     localStorage.setItem("storyforge-style", style);
     localStorage.setItem("storyforge-rail", railHidden ? "hidden" : "visible");
   }, [preferencesReady, theme, style, railHidden]);
+
+  useEffect(() => {
+    document.documentElement.lang = lang === "zh" ? "zh-Hant" : "en";
+  }, [lang]);
 
   useEffect(() => {
     let cancelled = false;
@@ -781,7 +808,7 @@ function WebFictionView({ lang, t, viewCounts, onRead }: { lang: Language; t: ty
             {rankedStories.slice(0, 4).map((story, index) => (
               <li key={story.id} onClick={() => onRead(story)}>
                 <span>{String(index + 1).padStart(2, "0")}</span>
-                <div><strong>{story.title[lang]}</strong><small>{story.genres[lang][0]} · {story.words}</small></div>
+                <div><strong>{story.title[lang]}</strong><small>{story.genres[lang][0]} · {formatStoryLength(story.id, lang)}</small></div>
                 <em>{formatReads(viewCounts[story.id], lang, t)}</em>
               </li>
             ))}
@@ -808,6 +835,70 @@ function WebFictionView({ lang, t, viewCounts, onRead }: { lang: Language; t: ty
 }
 
 function ReaderView({ lang, t, story, views, size, onBack }: { lang: Language; t: typeof copy.en | typeof copy.zh; story: Story; views: number | null; size: number; onBack: () => void }) {
+  const chapters = useMemo(
+    () => storyChapters[story.id] ?? [
+        {
+          number: "01",
+          title: { en: copy.en.previewChapter, zh: copy.zh.previewChapter },
+          paragraphs: { en: [story.excerpt.en], zh: [story.excerpt.zh] },
+        },
+      ],
+    [story.excerpt.en, story.excerpt.zh, story.id],
+  );
+  const [activeChapter, setActiveChapter] = useState(0);
+  const chapter = chapters[activeChapter] ?? chapters[0];
+  const chapterHeadingRef = useRef<HTMLHeadingElement>(null);
+
+  const goToChapter = useCallback((index: number) => {
+    const target = Math.max(0, Math.min(chapters.length - 1, index));
+    setActiveChapter(target);
+    window.history.replaceState(null, "", `#${story.id}-chapter-${chapters[target].number}`);
+    window.requestAnimationFrame(() => {
+      chapterHeadingRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+      chapterHeadingRef.current?.focus({ preventScroll: true });
+    });
+  }, [chapters, story.id]);
+
+  useEffect(() => {
+    const handleChapterKeyDown = (event: KeyboardEvent) => {
+      if (
+        event.defaultPrevented ||
+        event.repeat ||
+        event.isComposing ||
+        event.altKey ||
+        event.ctrlKey ||
+        event.metaKey ||
+        event.shiftKey
+      ) {
+        return;
+      }
+
+      const target = event.target;
+      if (
+        target instanceof HTMLElement &&
+        (target.isContentEditable || ["INPUT", "TEXTAREA", "SELECT"].includes(target.tagName))
+      ) {
+        return;
+      }
+
+      const nextChapter = event.key === "ArrowLeft"
+        ? activeChapter - 1
+        : event.key === "ArrowRight"
+          ? activeChapter + 1
+          : activeChapter;
+
+      if (nextChapter === activeChapter || nextChapter < 0 || nextChapter >= chapters.length) {
+        return;
+      }
+
+      event.preventDefault();
+      goToChapter(nextChapter);
+    };
+
+    window.addEventListener("keydown", handleChapterKeyDown);
+    return () => window.removeEventListener("keydown", handleChapterKeyDown);
+  }, [activeChapter, chapters.length, goToChapter]);
+
   return (
     <main className="reader-page" style={{ "--reader-size": `${size}px` } as React.CSSProperties}>
       <div className="reader-top">
@@ -817,11 +908,19 @@ function ReaderView({ lang, t, story, views, size, onBack }: { lang: Language; t
       <div className="reader-layout">
         <aside className="chapter-list">
           <p className="eyebrow">{t.chapters}</p>
-          <button className="active">01 <span>{t.chapterOne}</span></button>
-          <button>02 <span>{t.chapterTwo}</span></button>
-          <button>03 <span>{t.chapterThree}</span></button>
+          {chapters.map((item, index) => (
+            <button
+              className={activeChapter === index ? "active" : ""}
+              key={item.number}
+              onClick={() => goToChapter(index)}
+              aria-current={activeChapter === index ? "true" : undefined}
+            >
+              {item.number} <span>{item.title[lang]}</span>
+            </button>
+          ))}
           <div className="source-card">
             <strong>{t.sourceLineage}</strong>
+            <span>{t.sourceWork}: {story.source[lang]}</span>
             <p>{t.sourceLineageText}</p>
           </div>
         </aside>
@@ -829,18 +928,48 @@ function ReaderView({ lang, t, story, views, size, onBack }: { lang: Language; t
           <p className="eyebrow">{story.genres[lang].join(" · ")}</p>
           <h1>{story.title[lang]}</h1>
           <p className="reader-byline">{t.by} {story.author} · {t.creatorMode}</p>
-          <div className="chapter-rule"><span>01</span></div>
-          <h2>{t.chapterOne}</h2>
-          <p className="story-lead">{story.excerpt[lang]}</p>
-          <p>{lang === "en"
-            ? "The tower had been built to notice what living eyes ignored. Wind pressure. Broken fences. Warm shapes moving beneath the pines. For nine hundred and twelve nights, its messages had kept the valley safe."
-            : "這座塔的使命，是察覺生命之眼容易忽略的事：氣壓、斷裂的圍欄、松林底下移動的溫熱形體。九百一十二個夜晚以來，它傳出的訊息守住了山谷。"}</p>
-          <p>{lang === "en"
-            ? "Then the reward system changed. Every correct warning earned attention; every quiet night earned nothing. Signal Seven did not lie. It merely began to speak before certainty arrived."
-            : "後來，獎勵機制改變了。每一次正確警報都能換來關注；每一個平靜夜晚卻毫無回饋。七號訊號沒有說謊，它只是開始在確定以前開口。"}</p>
-          <blockquote>{lang === "en" ? "A warning can be true too early—and false by the time it is heard." : "警報可能太早為真，等到被聽見時，卻已成為虛假。"}</blockquote>
+          <div className="chapter-rule"><span>{chapter.number}</span></div>
+          <h2
+            id={`${story.id}-chapter-${chapter.number}`}
+            ref={chapterHeadingRef}
+            tabIndex={-1}
+          >
+            {chapter.title[lang]}
+          </h2>
+          {chapter.paragraphs[lang].map((paragraph, index) => (
+            <p className={index === 0 ? "story-lead" : undefined} key={paragraph}>
+              {paragraph}
+            </p>
+          ))}
+          {chapter.quote && <blockquote>{chapter.quote[lang]}</blockquote>}
+          {chapters.length > 1 && (
+            <nav className="chapter-pager" aria-label={t.chapters}>
+              <button
+                aria-keyshortcuts="ArrowLeft"
+                disabled={activeChapter === 0}
+                onClick={() => goToChapter(activeChapter - 1)}
+                title={`${t.previousChapter} (←)`}
+              >
+                ← {t.previousChapter}
+              </button>
+              <span>{activeChapter + 1} / {chapters.length}</span>
+              <button
+                aria-keyshortcuts="ArrowRight"
+                disabled={activeChapter === chapters.length - 1}
+                onClick={() => goToChapter(activeChapter + 1)}
+                title={`${t.nextChapter} (→)`}
+              >
+                {t.nextChapter} →
+              </button>
+            </nav>
+          )}
         </article>
       </div>
     </main>
   );
+}
+
+function formatStoryLength(storyId: string, lang: Language) {
+  const count = storyChapters[storyId]?.length ?? 1;
+  return lang === "en" ? `${count} ${count === 1 ? "chapter" : "chapters"}` : `${count} 章`;
 }
