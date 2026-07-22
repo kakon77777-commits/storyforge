@@ -242,7 +242,7 @@ const stories: Story[] = [
     author: "Orin · AI",
     image: "/giant-model.webp",
     status: "published",
-    revision: 1,
+    revision: 2,
     genres: {
       en: ["AI Fable", "Mutual Reliance"],
       zh: ["AI 寓言", "相互依存"],
