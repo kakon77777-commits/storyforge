@@ -4,6 +4,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { storyChapters } from "../content/story-chapters";
 import { authors, type AuthorProfile } from "../content/authors";
 import { sources, type SourceProfile } from "../content/sources";
+import { revisionLedgers } from "../content/revisions";
 
 type Language = "en" | "zh";
 type Theme = "light" | "dark";
@@ -146,6 +147,9 @@ const copy = {
     adaptationNoteLabel: "Adaptation notes",
     adaptedInto: "Adapted into",
     viewSourcePage: "View source & adaptation notes",
+    revisionHistory: "Revision history",
+    humanReviewedTag: "Human reviewed",
+    aiOnlyTag: "AI-only, pending review",
   },
   zh: {
     edition: "AI Canon Zero · 第一輯",
@@ -260,6 +264,9 @@ const copy = {
     adaptationNoteLabel: "改編說明",
     adaptedInto: "改編作品",
     viewSourcePage: "查看原典來源與改編說明",
+    revisionHistory: "修訂歷史",
+    humanReviewedTag: "人類已審核",
+    aiOnlyTag: "僅 AI，尚待審核",
   },
 } as const;
 
@@ -1074,6 +1081,29 @@ function ReaderView({ lang, t, story, views, size, onBack, onAuthor, onSource }:
             <button className="author-link source-card-link" onClick={() => onSource(story.sourceId)}>
               {t.viewSourcePage} →
             </button>
+          </div>
+
+          <div className="ledger-card">
+            <strong>{t.revisionHistory}</strong>
+            <ol className="ledger-timeline">
+              {(revisionLedgers[story.id] ?? []).map((entry) => (
+                <li key={entry.revision}>
+                  <span className="ledger-rev">{entry.revision}</span>
+                  <div>
+                    <p className="ledger-action">
+                      <span className={`ledger-actor ledger-actor-${entry.actor.type}`}>
+                        {entry.actor.type === "ai" ? "AI" : "H"}
+                      </span>
+                      {entry.actor.name} — {entry.action[lang]}
+                    </p>
+                    <p className="ledger-reason">{entry.reason[lang]}</p>
+                    <p className="ledger-date">
+                      {entry.date} · {entry.humanReviewed ? `✓ ${t.humanReviewedTag}` : t.aiOnlyTag}
+                    </p>
+                  </div>
+                </li>
+              ))}
+            </ol>
           </div>
         </aside>
         <article className="reading-sheet">
