@@ -346,6 +346,23 @@ button.book-row:hover { background: var(--mint-pale); }
 .chapter-pager button:disabled { cursor: not-allowed; opacity: 0.35; }
 .chapter-pager span { color: var(--ink-soft); font-size: 12px; }
 
+.author-link { border: 0; background: none; padding: 0; margin: 0; color: inherit; font: inherit; text-decoration: underline; text-underline-offset: 3px; text-decoration-color: color-mix(in srgb, var(--ink) 30%, transparent); cursor: pointer; }
+.author-link:hover { color: var(--coral); text-decoration-color: var(--coral); }
+.author-link-inline { text-transform: uppercase; letter-spacing: 0.09em; font-size: inherit; }
+
+.author-page { max-width: 1100px; }
+.author-hero { display: grid; grid-template-columns: auto 1fr; gap: 28px; align-items: center; padding: 34px 0 30px; border-bottom: 1px solid var(--rule); }
+.author-avatar { width: 96px; height: 96px; border-radius: 50%; display: grid; place-items: center; background: linear-gradient(135deg, var(--coral), var(--mint)); color: white; font: 600 44px var(--serif); box-shadow: var(--shadow); }
+.author-hero h1 { margin: 6px 0 0; font: 600 clamp(40px, 5vw, 60px)/1 var(--serif); letter-spacing: -0.045em; }
+.author-tagline { margin: 12px 0 0; font: italic 19px/1.5 var(--serif); color: var(--ink-soft); max-width: 620px; }
+.author-badges { display: flex; align-items: center; gap: 10px; margin-top: 16px; }
+.author-mode-pill { border: 1px solid var(--rule); border-radius: 99px; padding: 6px 14px; font-size: 11px; font-weight: 700; color: var(--ink-soft); background: var(--paper-2); }
+.author-bio { max-width: 720px; padding: 30px 0; border-bottom: 1px solid var(--rule); }
+.author-bio h2 { margin: 0 0 12px; font: 600 22px var(--serif); }
+.author-bio p { margin: 0; font: 400 17px/1.8 var(--serif); color: var(--ink-soft); }
+.author-works { padding-top: 30px; }
+.author-works h2 { margin: 0 0 20px; font: 600 26px var(--serif); }
+
 .site-footer { min-height: 74px; border-top: 1px solid var(--rule); padding: 0 48px; display: flex; align-items: center; justify-content: space-between; color: var(--ink-soft); font-size: 10px; letter-spacing: 0.06em; }
 
 :root[data-style="compact"] .topbar { height: 70px; }

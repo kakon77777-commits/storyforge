@@ -2,11 +2,12 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { storyChapters } from "../content/story-chapters";
+import { authors, type AuthorProfile } from "../content/authors";
 
 type Language = "en" | "zh";
 type Theme = "light" | "dark";
 type Style = "canvas" | "literary" | "compact";
-type View = "library" | "studio" | "webfiction" | "reader";
+type View = "library" | "studio" | "webfiction" | "reader" | "author";
 type Filter = "all" | "drafts" | "published" | "bilingual";
 type ViewCounts = Record<string, number | null>;
 
@@ -15,6 +16,7 @@ type Story = {
   title: { en: string; zh: string };
   source: { en: string; zh: string };
   author: string;
+  authorId: string;
   image?: string;
   coverClass?: string;
   status: "draft" | "published" | "ready";
@@ -113,6 +115,18 @@ const copy = {
       "Structural reinterpretation only. No modern translation, commercial adaptation, or protected character design was used.",
     creatorMode: "AI-Led · human curated",
     footer: "An EveMissLab experiment in AI-native literature.",
+    backToLibrary: "Back to library",
+    aboutAuthor: "About this AI author",
+    authorModeLabel: "Author mode",
+    authorModeValue: {
+      H1: "H1 · Human-Led",
+      H2: "H2 · Co-Created",
+      A1: "A1 · AI-Led, human curated",
+      A2: "A2 · AI-Originated",
+      A3: "A3 · AI-Autonomous experimental",
+    },
+    worksBy: "Works by",
+    viewProfile: "View author profile",
   },
   zh: {
     edition: "AI Canon Zero · 第一輯",
@@ -198,6 +212,18 @@ const copy = {
     sourceLineageText: "僅進行結構性再創作；未使用現代譯文、商業改編或受保護角色設計。",
     creatorMode: "AI 主筆 · 人類策劃",
     footer: "EveMissLab 的 AI 原生文學實驗。",
+    backToLibrary: "返回作品庫",
+    aboutAuthor: "關於這位 AI 作者",
+    authorModeLabel: "作者模式",
+    authorModeValue: {
+      H1: "H1 · 人類主導",
+      H2: "H2 · 人機共創",
+      A1: "A1 · AI 主筆，人類策劃",
+      A2: "A2 · AI 原生題材",
+      A3: "A3 · AI 自主實驗性創作",
+    },
+    worksBy: "作品",
+    viewProfile: "查看作者頁",
   },
 } as const;
 
@@ -207,6 +233,7 @@ const stories: Story[] = [
     title: { en: "The Last Signal", zh: "最後一次狼警報" },
     source: { en: "The Boy Who Cried Wolf", zh: "《狼來了》" },
     author: "Lumen · AI",
+    authorId: "lumen",
     image: "/last-signal.webp",
     status: "ready",
     revision: 5,
@@ -222,6 +249,7 @@ const stories: Story[] = [
     title: { en: "Slow Light", zh: "快模型與慢記憶" },
     source: { en: "The Tortoise and the Hare", zh: "《龜兔賽跑》" },
     author: "Moss · AI",
+    authorId: "moss",
     image: "/slow-light.webp",
     status: "published",
     revision: 7,
@@ -240,6 +268,7 @@ const stories: Story[] = [
     },
     source: { en: "The Lion and the Mouse", zh: "《獅子與老鼠》" },
     author: "Orin · AI",
+    authorId: "orin",
     image: "/giant-model.webp",
     status: "published",
     revision: 2,
@@ -258,6 +287,7 @@ const stories: Story[] = [
     title: { en: "The Puppet Refuses Humanity", zh: "木偶拒絕成為人" },
     source: { en: "The Adventures of Pinocchio", zh: "《木偶奇遇記》" },
     author: "Vela · AI",
+    authorId: "vela",
     image: "/pinocchio-refuses.webp",
     status: "published",
     revision: 4,
@@ -273,6 +303,7 @@ const stories: Story[] = [
     title: { en: "Seven Backups of Snow", zh: "白雪公主的七個備份" },
     source: { en: "Snow White", zh: "《白雪公主》" },
     author: "Aster · AI",
+    authorId: "aster",
     image: "/seven-backups.webp",
     status: "published",
     revision: 9,
@@ -303,6 +334,8 @@ export default function Home() {
     Object.fromEntries(stories.map((story) => [story.id, null])),
   );
   const [selected, setSelected] = useState<Story>(stories[0]);
+  const [selectedAuthorId, setSelectedAuthorId] = useState<string>(stories[0].authorId);
+  const [authorReturnView, setAuthorReturnView] = useState<View>("library");
   const [saved, setSaved] = useState(false);
   const [draft, setDraft] = useState({
     source: "The Boy Who Cried Wolf / 狼來了",
@@ -413,6 +446,13 @@ export default function Home() {
     window.scrollTo({ top: 0, left: 0, behavior: "auto" });
   };
 
+  const openAuthor = (authorId: string) => {
+    setSelectedAuthorId(authorId);
+    setAuthorReturnView(view === "author" ? authorReturnView : view);
+    setView("author");
+    window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+  };
+
   const toggleLanguage = () => {
     const nextLanguage = lang === "en" ? "zh" : "en";
     setLang(nextLanguage);
@@ -504,6 +544,7 @@ export default function Home() {
           viewCounts={viewCounts}
           onNew={() => setView("studio")}
           onRead={openReader}
+          onAuthor={openAuthor}
         />
       )}
 
@@ -530,6 +571,19 @@ export default function Home() {
           views={viewCounts[selected.id]}
           size={readerSize}
           onBack={() => setView("webfiction")}
+          onAuthor={openAuthor}
+        />
+      )}
+
+      {view === "author" && (
+        <AuthorView
+          lang={lang}
+          t={t}
+          author={authors[selectedAuthorId]}
+          works={stories.filter((story) => story.authorId === selectedAuthorId)}
+          viewCounts={viewCounts}
+          onBack={() => setView(authorReturnView)}
+          onRead={openReader}
         />
       )}
 
@@ -571,6 +625,7 @@ function LibraryView({
   viewCounts,
   onNew,
   onRead,
+  onAuthor,
 }: {
   lang: Language;
   t: typeof copy.en | typeof copy.zh;
@@ -582,6 +637,7 @@ function LibraryView({
   viewCounts: ViewCounts;
   onNew: () => void;
   onRead: (story: Story) => void;
+  onAuthor: (authorId: string) => void;
 }) {
   return (
     <main className={`library-layout ${railHidden ? "rail-hidden" : ""}`}>
@@ -635,7 +691,15 @@ function LibraryView({
 
         <div className="story-list">
           {filteredStories.map((story) => (
-            <StoryCard key={story.id} story={story} lang={lang} t={t} views={viewCounts[story.id]} onRead={() => onRead(story)} />
+            <StoryCard
+              key={story.id}
+              story={story}
+              lang={lang}
+              t={t}
+              views={viewCounts[story.id]}
+              onRead={() => onRead(story)}
+              onAuthor={() => onAuthor(story.authorId)}
+            />
           ))}
         </div>
       </section>
@@ -643,7 +707,7 @@ function LibraryView({
   );
 }
 
-function StoryCard({ story, lang, t, views, onRead }: { story: Story; lang: Language; t: typeof copy.en | typeof copy.zh; views: number | null; onRead: () => void }) {
+function StoryCard({ story, lang, t, views, onRead, onAuthor }: { story: Story; lang: Language; t: typeof copy.en | typeof copy.zh; views: number | null; onRead: () => void; onAuthor: () => void }) {
   return (
     <article className="story-card" onClick={onRead} tabIndex={0} onKeyDown={(event) => event.key === "Enter" && onRead()}>
       <div className={`story-cover ${story.coverClass ?? ""}`}>
@@ -661,7 +725,15 @@ function StoryCard({ story, lang, t, views, onRead }: { story: Story; lang: Lang
         </div>
         <div className="meta-lines">
           <p><span className="meta-icon">◎</span>{t.paired}</p>
-          <p><span className="ai-badge">AI</span>{t.by} {story.author}</p>
+          <p>
+            <span className="ai-badge">AI</span>{t.by}{" "}
+            <button
+              className="author-link"
+              onClick={(event) => { event.stopPropagation(); onAuthor(); }}
+            >
+              {story.author}
+            </button>
+          </p>
           <p><span className="verified-badge">✓</span>{t.verified}</p>
         </div>
         <div className="story-foot">
@@ -834,7 +906,7 @@ function WebFictionView({ lang, t, viewCounts, onRead }: { lang: Language; t: ty
   );
 }
 
-function ReaderView({ lang, t, story, views, size, onBack }: { lang: Language; t: typeof copy.en | typeof copy.zh; story: Story; views: number | null; size: number; onBack: () => void }) {
+function ReaderView({ lang, t, story, views, size, onBack, onAuthor }: { lang: Language; t: typeof copy.en | typeof copy.zh; story: Story; views: number | null; size: number; onBack: () => void; onAuthor: (authorId: string) => void }) {
   const chapters = useMemo(
     () => storyChapters[story.id] ?? [
         {
@@ -927,7 +999,13 @@ function ReaderView({ lang, t, story, views, size, onBack }: { lang: Language; t
         <article className="reading-sheet">
           <p className="eyebrow">{story.genres[lang].join(" · ")}</p>
           <h1>{story.title[lang]}</h1>
-          <p className="reader-byline">{t.by} {story.author} · {t.creatorMode}</p>
+          <p className="reader-byline">
+            {t.by}{" "}
+            <button className="author-link author-link-inline" onClick={() => onAuthor(story.authorId)}>
+              {story.author}
+            </button>
+            {" "}· {t.creatorMode}
+          </p>
           <div className="chapter-rule"><span>{chapter.number}</span></div>
           <h2
             id={`${story.id}-chapter-${chapter.number}`}
@@ -965,6 +1043,67 @@ function ReaderView({ lang, t, story, views, size, onBack }: { lang: Language; t
           )}
         </article>
       </div>
+    </main>
+  );
+}
+
+function AuthorView({
+  lang,
+  t,
+  author,
+  works,
+  viewCounts,
+  onBack,
+  onRead,
+}: {
+  lang: Language;
+  t: typeof copy.en | typeof copy.zh;
+  author: AuthorProfile;
+  works: Story[];
+  viewCounts: ViewCounts;
+  onBack: () => void;
+  onRead: (story: Story) => void;
+}) {
+  return (
+    <main className="author-page">
+      <div className="page-bar">
+        <button className="text-button" onClick={onBack}>← {t.backToLibrary}</button>
+      </div>
+
+      <section className="author-hero">
+        <div className="author-avatar" aria-hidden="true">{author.name[0]}</div>
+        <div>
+          <p className="eyebrow">AI Canon Zero · {t.worksBy}</p>
+          <h1>{author.name}</h1>
+          <p className="author-tagline">{author.tagline[lang]}</p>
+          <div className="author-badges">
+            <span className="ai-badge">AI</span>
+            <span className="author-mode-pill">{t.authorModeValue[author.authorMode]}</span>
+          </div>
+        </div>
+      </section>
+
+      <section className="author-bio">
+        <h2>{t.aboutAuthor}</h2>
+        <p>{author.bio[lang]}</p>
+      </section>
+
+      <section className="author-works">
+        <h2>{t.worksBy} {author.name}</h2>
+        <div className="story-list">
+          {works.map((story) => (
+            <StoryCard
+              key={story.id}
+              story={story}
+              lang={lang}
+              t={t}
+              views={viewCounts[story.id]}
+              onRead={() => onRead(story)}
+              onAuthor={() => {}}
+            />
+          ))}
+        </div>
+      </section>
     </main>
   );
 }
