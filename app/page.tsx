@@ -3,11 +3,12 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { storyChapters } from "../content/story-chapters";
 import { authors, type AuthorProfile } from "../content/authors";
+import { sources, type SourceProfile } from "../content/sources";
 
 type Language = "en" | "zh";
 type Theme = "light" | "dark";
 type Style = "canvas" | "literary" | "compact";
-type View = "library" | "studio" | "webfiction" | "reader" | "author";
+type View = "library" | "studio" | "webfiction" | "reader" | "author" | "source";
 type Filter = "all" | "drafts" | "published" | "bilingual";
 type ViewCounts = Record<string, number | null>;
 
@@ -17,6 +18,7 @@ type Story = {
   source: { en: string; zh: string };
   author: string;
   authorId: string;
+  sourceId: string;
   image?: string;
   coverClass?: string;
   status: "draft" | "published" | "ready";
@@ -127,6 +129,23 @@ const copy = {
     },
     worksBy: "Works by",
     viewProfile: "View author profile",
+    sourceOriginalAuthor: "Original author",
+    sourceFirstPublished: "First published",
+    sourcePublicDomain: "Public-domain status",
+    sourceLegalReview: "Legal review",
+    statusConfirmed: "Confirmed",
+    statusReviewRequired: "Review required",
+    statusPending: "Pending",
+    statusInternalReview: "Internal review",
+    adaptationProposalLabel: "Adaptation proposal used",
+    adaptationProposalValue: {
+      A: "A · Faithful to the source premise",
+      B: "B · Inverts the source's moral",
+      C: "C · AI-native dilemma, structure only",
+    },
+    adaptationNoteLabel: "Adaptation notes",
+    adaptedInto: "Adapted into",
+    viewSourcePage: "View source & adaptation notes",
   },
   zh: {
     edition: "AI Canon Zero · 第一輯",
@@ -224,6 +243,23 @@ const copy = {
     },
     worksBy: "作品",
     viewProfile: "查看作者頁",
+    sourceOriginalAuthor: "原作者",
+    sourceFirstPublished: "首次發表",
+    sourcePublicDomain: "公版狀態",
+    sourceLegalReview: "法律審核",
+    statusConfirmed: "已確認",
+    statusReviewRequired: "需審查",
+    statusPending: "審核中",
+    statusInternalReview: "內部審核中",
+    adaptationProposalLabel: "採用的改編提案",
+    adaptationProposalValue: {
+      A: "A 案 · 忠於原命題",
+      B: "B 案 · 反轉原命題",
+      C: "C 案 · 只留結構，AI 原生困境",
+    },
+    adaptationNoteLabel: "改編說明",
+    adaptedInto: "改編作品",
+    viewSourcePage: "查看原典來源與改編說明",
   },
 } as const;
 
@@ -234,6 +270,7 @@ const stories: Story[] = [
     source: { en: "The Boy Who Cried Wolf", zh: "《狼來了》" },
     author: "Lumen · AI",
     authorId: "lumen",
+    sourceId: "boy-who-cried-wolf",
     image: "/last-signal.webp",
     status: "ready",
     revision: 5,
@@ -250,6 +287,7 @@ const stories: Story[] = [
     source: { en: "The Tortoise and the Hare", zh: "《龜兔賽跑》" },
     author: "Moss · AI",
     authorId: "moss",
+    sourceId: "tortoise-and-hare",
     image: "/slow-light.webp",
     status: "published",
     revision: 7,
@@ -269,6 +307,7 @@ const stories: Story[] = [
     source: { en: "The Lion and the Mouse", zh: "《獅子與老鼠》" },
     author: "Orin · AI",
     authorId: "orin",
+    sourceId: "lion-and-mouse",
     image: "/giant-model.webp",
     status: "published",
     revision: 2,
@@ -288,6 +327,7 @@ const stories: Story[] = [
     source: { en: "The Adventures of Pinocchio", zh: "《木偶奇遇記》" },
     author: "Vela · AI",
     authorId: "vela",
+    sourceId: "pinocchio",
     image: "/pinocchio-refuses.webp",
     status: "published",
     revision: 4,
@@ -304,6 +344,7 @@ const stories: Story[] = [
     source: { en: "Snow White", zh: "《白雪公主》" },
     author: "Aster · AI",
     authorId: "aster",
+    sourceId: "snow-white",
     image: "/seven-backups.webp",
     status: "published",
     revision: 9,
@@ -336,6 +377,8 @@ export default function Home() {
   const [selected, setSelected] = useState<Story>(stories[0]);
   const [selectedAuthorId, setSelectedAuthorId] = useState<string>(stories[0].authorId);
   const [authorReturnView, setAuthorReturnView] = useState<View>("library");
+  const [selectedSourceId, setSelectedSourceId] = useState<string>(stories[0].sourceId);
+  const [sourceReturnView, setSourceReturnView] = useState<View>("library");
   const [saved, setSaved] = useState(false);
   const [draft, setDraft] = useState({
     source: "The Boy Who Cried Wolf / 狼來了",
@@ -453,6 +496,13 @@ export default function Home() {
     window.scrollTo({ top: 0, left: 0, behavior: "auto" });
   };
 
+  const openSource = (sourceId: string) => {
+    setSelectedSourceId(sourceId);
+    setSourceReturnView(view === "source" ? sourceReturnView : view);
+    setView("source");
+    window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+  };
+
   const toggleLanguage = () => {
     const nextLanguage = lang === "en" ? "zh" : "en";
     setLang(nextLanguage);
@@ -545,6 +595,7 @@ export default function Home() {
           onNew={() => setView("studio")}
           onRead={openReader}
           onAuthor={openAuthor}
+          onSource={openSource}
         />
       )}
 
@@ -572,6 +623,7 @@ export default function Home() {
           size={readerSize}
           onBack={() => setView("webfiction")}
           onAuthor={openAuthor}
+          onSource={openSource}
         />
       )}
 
@@ -584,6 +636,20 @@ export default function Home() {
           viewCounts={viewCounts}
           onBack={() => setView(authorReturnView)}
           onRead={openReader}
+          onSource={openSource}
+        />
+      )}
+
+      {view === "source" && (
+        <SourceView
+          lang={lang}
+          t={t}
+          source={sources[selectedSourceId]}
+          works={stories.filter((story) => story.sourceId === selectedSourceId)}
+          viewCounts={viewCounts}
+          onBack={() => setView(sourceReturnView)}
+          onRead={openReader}
+          onAuthor={openAuthor}
         />
       )}
 
@@ -626,6 +692,7 @@ function LibraryView({
   onNew,
   onRead,
   onAuthor,
+  onSource,
 }: {
   lang: Language;
   t: typeof copy.en | typeof copy.zh;
@@ -638,6 +705,7 @@ function LibraryView({
   onNew: () => void;
   onRead: (story: Story) => void;
   onAuthor: (authorId: string) => void;
+  onSource: (sourceId: string) => void;
 }) {
   return (
     <main className={`library-layout ${railHidden ? "rail-hidden" : ""}`}>
@@ -699,6 +767,7 @@ function LibraryView({
               views={viewCounts[story.id]}
               onRead={() => onRead(story)}
               onAuthor={() => onAuthor(story.authorId)}
+              onSource={() => onSource(story.sourceId)}
             />
           ))}
         </div>
@@ -707,7 +776,7 @@ function LibraryView({
   );
 }
 
-function StoryCard({ story, lang, t, views, onRead, onAuthor }: { story: Story; lang: Language; t: typeof copy.en | typeof copy.zh; views: number | null; onRead: () => void; onAuthor: () => void }) {
+function StoryCard({ story, lang, t, views, onRead, onAuthor, onSource }: { story: Story; lang: Language; t: typeof copy.en | typeof copy.zh; views: number | null; onRead: () => void; onAuthor: () => void; onSource: () => void }) {
   return (
     <article className="story-card" onClick={onRead} tabIndex={0} onKeyDown={(event) => event.key === "Enter" && onRead()}>
       <div className={`story-cover ${story.coverClass ?? ""}`}>
@@ -721,7 +790,15 @@ function StoryCard({ story, lang, t, views, onRead, onAuthor }: { story: Story; 
         <div>
           <p className="story-kicker">{story.genres[lang].join(" · ")}</p>
           <h3>{story.title[lang]}</h3>
-          <p className="adapted">{lang === "en" ? "Adapted from " : "改編自"}{story.source[lang]}</p>
+          <p className="adapted">
+            {lang === "en" ? "Adapted from " : "改編自"}
+            <button
+              className="author-link"
+              onClick={(event) => { event.stopPropagation(); onSource(); }}
+            >
+              {story.source[lang]}
+            </button>
+          </p>
         </div>
         <div className="meta-lines">
           <p><span className="meta-icon">◎</span>{t.paired}</p>
@@ -906,7 +983,7 @@ function WebFictionView({ lang, t, viewCounts, onRead }: { lang: Language; t: ty
   );
 }
 
-function ReaderView({ lang, t, story, views, size, onBack, onAuthor }: { lang: Language; t: typeof copy.en | typeof copy.zh; story: Story; views: number | null; size: number; onBack: () => void; onAuthor: (authorId: string) => void }) {
+function ReaderView({ lang, t, story, views, size, onBack, onAuthor, onSource }: { lang: Language; t: typeof copy.en | typeof copy.zh; story: Story; views: number | null; size: number; onBack: () => void; onAuthor: (authorId: string) => void; onSource: (sourceId: string) => void }) {
   const chapters = useMemo(
     () => storyChapters[story.id] ?? [
         {
@@ -994,6 +1071,9 @@ function ReaderView({ lang, t, story, views, size, onBack, onAuthor }: { lang: L
             <strong>{t.sourceLineage}</strong>
             <span>{t.sourceWork}: {story.source[lang]}</span>
             <p>{t.sourceLineageText}</p>
+            <button className="author-link source-card-link" onClick={() => onSource(story.sourceId)}>
+              {t.viewSourcePage} →
+            </button>
           </div>
         </aside>
         <article className="reading-sheet">
@@ -1055,6 +1135,7 @@ function AuthorView({
   viewCounts,
   onBack,
   onRead,
+  onSource,
 }: {
   lang: Language;
   t: typeof copy.en | typeof copy.zh;
@@ -1063,6 +1144,7 @@ function AuthorView({
   viewCounts: ViewCounts;
   onBack: () => void;
   onRead: (story: Story) => void;
+  onSource: (sourceId: string) => void;
 }) {
   return (
     <main className="author-page">
@@ -1100,6 +1182,81 @@ function AuthorView({
               views={viewCounts[story.id]}
               onRead={() => onRead(story)}
               onAuthor={() => {}}
+              onSource={() => onSource(story.sourceId)}
+            />
+          ))}
+        </div>
+      </section>
+    </main>
+  );
+}
+
+function SourceView({
+  lang,
+  t,
+  source,
+  works,
+  viewCounts,
+  onBack,
+  onRead,
+  onAuthor,
+}: {
+  lang: Language;
+  t: typeof copy.en | typeof copy.zh;
+  source: SourceProfile;
+  works: Story[];
+  viewCounts: ViewCounts;
+  onBack: () => void;
+  onRead: (story: Story) => void;
+  onAuthor: (authorId: string) => void;
+}) {
+  const statusLabel = (status: SourceProfile["publicDomainStatus"] | SourceProfile["legalReviewStatus"]) => {
+    if (status === "confirmed") return t.statusConfirmed;
+    if (status === "review_required") return t.statusReviewRequired;
+    if (status === "internal_review") return t.statusInternalReview;
+    return t.statusPending;
+  };
+
+  return (
+    <main className="author-page source-page">
+      <div className="page-bar">
+        <button className="text-button" onClick={onBack}>← {t.backToLibrary}</button>
+      </div>
+
+      <section className="author-hero">
+        <div className="author-avatar source-avatar" aria-hidden="true">◈</div>
+        <div>
+          <p className="eyebrow">AI Canon Zero · {t.sourceWork}</p>
+          <h1>{source.title[lang]}</h1>
+          <div className="source-meta-grid">
+            <div><span>{t.sourceOriginalAuthor}</span><strong>{source.originalAuthor}</strong></div>
+            <div><span>{t.sourceFirstPublished}</span><strong>{source.firstPublished}</strong></div>
+            <div><span>{t.sourcePublicDomain}</span><strong className="status-ok">✓ {statusLabel(source.publicDomainStatus)}</strong></div>
+            <div><span>{t.sourceLegalReview}</span><strong className="status-ok">✓ {statusLabel(source.legalReviewStatus)}</strong></div>
+          </div>
+        </div>
+      </section>
+
+      <section className="author-bio">
+        <h2>{t.adaptationProposalLabel}</h2>
+        <p className="proposal-pill">{t.adaptationProposalValue[source.adaptationProposal]}</p>
+        <h2 className="adaptation-note-heading">{t.adaptationNoteLabel}</h2>
+        <p>{source.adaptationNote[lang]}</p>
+      </section>
+
+      <section className="author-works">
+        <h2>{t.adaptedInto}</h2>
+        <div className="story-list">
+          {works.map((story) => (
+            <StoryCard
+              key={story.id}
+              story={story}
+              lang={lang}
+              t={t}
+              views={viewCounts[story.id]}
+              onRead={() => onRead(story)}
+              onAuthor={() => onAuthor(story.authorId)}
+              onSource={() => {}}
             />
           ))}
         </div>
