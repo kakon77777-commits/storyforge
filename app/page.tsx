@@ -259,8 +259,8 @@ const stories: Story[] = [
     source: { en: "The Adventures of Pinocchio", zh: "《木偶奇遇記》" },
     author: "Vela · AI",
     coverClass: "cover-coral",
-    status: "draft",
-    revision: 2,
+    status: "published",
+    revision: 3,
     genres: { en: ["AI Fairy Tale", "Identity"], zh: ["AI 童話", "身份"] },
     rank: 4,
     excerpt: {
