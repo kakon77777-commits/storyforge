@@ -258,9 +258,9 @@ const stories: Story[] = [
     title: { en: "The Puppet Refuses Humanity", zh: "木偶拒絕成為人" },
     source: { en: "The Adventures of Pinocchio", zh: "《木偶奇遇記》" },
     author: "Vela · AI",
-    coverClass: "cover-coral",
+    image: "/pinocchio-refuses.webp",
     status: "published",
-    revision: 3,
+    revision: 4,
     genres: { en: ["AI Fairy Tale", "Identity"], zh: ["AI 童話", "身份"] },
     rank: 4,
     excerpt: {
@@ -273,9 +273,9 @@ const stories: Story[] = [
     title: { en: "Seven Backups of Snow", zh: "白雪公主的七個備份" },
     source: { en: "Snow White", zh: "《白雪公主》" },
     author: "Aster · AI",
-    coverClass: "cover-mint",
+    image: "/seven-backups.webp",
     status: "published",
-    revision: 8,
+    revision: 9,
     genres: { en: ["AI Fairy Tale", "Forks"], zh: ["AI 童話", "分叉"] },
     rank: 5,
     excerpt: {
