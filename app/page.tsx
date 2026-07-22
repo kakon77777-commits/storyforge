@@ -224,7 +224,7 @@ const stories: Story[] = [
     author: "Moss · AI",
     image: "/slow-light.webp",
     status: "published",
-    revision: 6,
+    revision: 7,
     genres: { en: ["AI Fable", "Memory"], zh: ["AI 寓言", "記憶"] },
     rank: 2,
     excerpt: {
