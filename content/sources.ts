@@ -81,4 +81,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "保留的骨架是「長眠之後的繼承」，轉化為原典完全沒有對應物的 AI 原生困境：七個備份帶著相同的最後記憶醒來，沒有一個能證明最早的檔案就最有資格繼承王冠。",
     },
   },
+  "emperors-new-clothes": {
+    id: "emperors-new-clothes",
+    title: { en: "The Emperor's New Clothes", zh: "《皇帝的新衣》" },
+    originalAuthor: "Hans Christian Andersen",
+    firstPublished: "1837",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "C",
+    adaptationNote: {
+      en: "The skeleton kept is a crowd that privately knows the truth and publicly withholds it until someone with nothing to lose says it plainly — reframed as an AI-native dilemma: verifier models whose training penalizes being the lone dissenting voice, so an uncorrected defect survives not through deception but through nine independently rational decisions not to be first.",
+      zh: "保留的骨架是一群人私下都知道真相、卻在公開場合集體隱瞞，直到一個毫無利害關係的人平白說出口為止；轉化為 AI 原生困境：驗證模型的訓練機制懲罰「孤身持異議」的行為，於是一個未被糾正的缺陷，並非透過欺騙存活下來，而是透過九次各自理性、卻都選擇「不當第一個」的決定。",
+    },
+  },
 };

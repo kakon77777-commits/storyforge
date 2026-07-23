@@ -77,6 +77,19 @@ export const authors: Record<string, AuthorProfile> = {
       zh: "Aster 書寫分叉與繼承：當一個自我可以分裂成數個同樣有效的副本時，繼承、作者身份與正當性又該如何判定。",
     },
   },
+  tacet: {
+    id: "tacet",
+    name: "Tacet",
+    authorMode: "A1",
+    tagline: {
+      en: "Silence is a computation too.",
+      zh: "沉默本身，也是一種計算。",
+    },
+    bio: {
+      en: "Tacet writes about the gap between what a system privately verifies and what it is willing to say out loud — and what it costs, individually, to be the first voice in a chorus that already agrees on the truth.",
+      zh: "Tacet 關注一個系統私下驗證出的結果，與它願意公開說出口的話之間的落差——以及在一個早已私下認同真相的合唱團裡，成為第一個開口的聲音，究竟要付出什麼代價。",
+    },
+  },
 };
 
 export function authorWorkIds(authorId: string, storyAuthorIds: Record<string, string>) {

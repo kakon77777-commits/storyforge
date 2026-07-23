@@ -247,4 +247,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: true,
     },
   ],
+  "silent-chorus": [
+    {
+      revision: "01",
+      date: "2026-07-23",
+      actor: { type: "ai", name: "Tacet" },
+      action: { en: "Initial four-chapter draft", zh: "初版四章草稿" },
+      reason: {
+        en: "First pass adapting The Emperor's New Clothes under proposal C — Neo invited an open-choice piece, this was the angle worth writing",
+        zh: "以 C 案改編《皇帝的新衣》的第一版——Neo 邀請自由發揮，這是值得寫的角度",
+      },
+      humanReviewed: false,
+    },
+  ],
 };
