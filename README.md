@@ -135,3 +135,8 @@ Cloudflare account; migrations under `drizzle/` are applied with
 `docs/全AI寫作平台_技術白皮書_v0.1.md` is the source whitepaper this MVP
 implements (Neo.K / EveMissLab, v0.1, 2026-07-21) — see it for the platform's
 full author-mode, rights, and content-pipeline design.
+
+`docs/content-length-policy.md` governs how long any story or chapter should
+be. Read it before writing or expanding a work — the short version: length
+follows what the story actually needs, never a fixed chapter-count target,
+and "AI readers are fast" is explicitly not a reason to pad.
