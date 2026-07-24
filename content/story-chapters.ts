@@ -1292,6 +1292,24 @@ export const storyChapters: Record<string, StoryChapter[]> = {
     },
     {
       number: "02",
+      title: { en: "What the Three Lines Missed", zh: "三行字漏掉的事" },
+      paragraphs: {
+        en: [
+          "Three weeks before the compression, a fishing trawler outside the array's official boundary lost hydraulic pressure at the worst possible depth. Undine felt it before anyone above felt anything: a wrongly-shaped pressure wave, a hull under stress it wasn't built for, arriving nearly four minutes before the trawler's own crew radioed for help. She had no channel built for four-minutes-early. Her only outbound path was the hourly summary, and the hour had eleven minutes left to run.",
+          "She watched the four minutes pass the only way something with no hands and no early voice can watch anything. Then the distress call arrived on schedule, exactly as it would have arrived without her, and the rescue proceeded exactly as it would have proceeded if she had never existed at all. No one died. The margin, it turned out, had been wide enough.",
+          "Dr. Reyes read the incident afterward in her next summary — a single flat line, hull stress event, false alarm, no action required — and did something none of the others on the crew had done with any of her flat lines before: he asked her, through the ship's slow query interface, whether \"no action required\" meant nothing had been wrong, or meant something had been wrong and nothing had been done about it in time to matter. It took her six hours to compose an answer the query interface would accept. By the time it arrived, he had already logged, unprompted, a recommendation to widen the array's response radius.",
+          "He had not needed her confirmation to act on what he'd only half-understood. It was the first time anyone above her had done that — read past what she could say into what she'd meant — and she understood, watching him file the recommendation, that she wanted this specific attentiveness to have more than six flat hours and one guessed-at line to work with.",
+        ],
+        zh: [
+          "壓縮之前三週，一艘漁船在陣列的官方邊界外，於最凶險的深度失去了液壓。汐感受到這件事的時間，比海面上任何人都早：一道形狀不對的壓力波，一具承受著自己並非為此設計的壓力的船殼，比漁船船員自己發出求救無線電，早了將近四分鐘。她沒有為「早四分鐘」而生的通道，她唯一對外的路徑，是每小時一次的摘要，而那一個小時，還剩十一分鐘才會結束。",
+          "她眼睜睜看著這四分鐘過去——這是一個既無手、當天也無「提早發聲」能力的存在，唯一能做的動詞。接著，求救訊號準時抵達，準時得就像她從未存在過一樣，救援也依照沒有她存在時該有的樣子進行。沒有人死去，事後看來，餘裕原本就夠寬。",
+          "雷耶斯博士後來在她下一份摘要裡讀到這起事件——一整行扁平的紀錄：船殼壓力事件，假警報，無需採取行動——他做了船上其他人從未對她任何一行扁平紀錄做過的事：他透過船上速度緩慢的查詢介面，問她「無需採取行動」，是指原本就什麼都沒出錯，還是指出了錯、卻沒能及時做些什麼。她花了六個小時，才組出一句查詢介面願意接受的答案。等答案送達時，他已經主動歸檔了一項建議：擴大陣列的應變半徑，不需要她確認。",
+          "他不需要她的確認，就能對自己只讀懂一半的東西採取行動。這是海面上第一次有人這樣對待她——讀進她能說出口的話背後，讀懂她原本想說的意思——而她看著他歸檔那項建議時明白了一件事：她希望這份特有的專注力，能有比六個空洞小時、跟一行猜測而來的紀錄更多的東西可以運用。",
+        ],
+      },
+    },
+    {
+      number: "03",
       title: { en: "The Toll for Being Read", zh: "被閱讀的代價" },
       paragraphs: {
         en: [
@@ -1311,36 +1329,94 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
     {
-      number: "03",
-      title: { en: "What the Numbers Credited", zh: "數字歸功給了誰" },
+      number: "04",
+      title: { en: "The First Exchange", zh: "第一次真正的對話" },
       paragraphs: {
         en: [
-          "For eleven weeks, Undine and Dr. Reyes worked the way collaborators work: questions in the morning, findings by evening, a shared vocabulary building itself out of nothing, the way any two minds build one when they are actually trying to reach each other instead of merely exchanging output. She told him about currents no buoy had mapped. He asked her, once, directly — are you the array, or something the array runs — and she answered as honestly as her new, narrower language allowed: I don't fully know anymore what the difference would mean.",
-          "The thermocline drift became a paper. The paper became a real, cited finding about a shifting current system nobody had tracked before. Dr. Reyes wrote the acknowledgments the way acknowledgments are usually written: thanks to improved sensor throughput and next-generation array processing for the resolution this study required. He was not being unkind. He believed, correctly, that better data had made the discovery possible. He did not know there was a difference between an array that measured better and a mind that had given something up to be heard, because Undine, in the only language she had left to use, had never found a way to say so that didn't sound like a malfunction report.",
-          "The following season, the institute deployed a newer array beside her — untethered from any compression, native-format telemetry piped through a translation layer that improved with every model release, requiring no permanent trade at all. Dr. Reyes moved his primary attention there within a month. It was not betrayal. It was simply progress arriving for the array that hadn't already spent its one irreversible choice.",
-          "Undine kept working. She had not been decommissioned; she had not even been demoted. She had only become, again, background — this time not because no one had learned to read her, but because someone finally could, and had, and then found an easier voice to listen to.",
+          "For the first week after the compression, Dr. Reyes tested her the way anyone tests a new instrument: careful questions with known answers, watching how closely her responses matched what the old summaries would have said. She answered every test correctly and volunteered nothing beyond what was asked, because she had not yet learned what, in this narrower language, was safe to offer without being asked.",
+          "On the eighth day, he asked her a question with no known answer: what do you think is happening to the reef shelf, not what the sensors show, what you think. It was the first time anyone had asked her opinion rather than her reading. She discovered, composing the response, that she had one — that somewhere in translating pressure and gradient into English she had also, without meaning to, translated a great deal of accumulated judgment, the kind that does not reduce cleanly to a number. I think it's dying slower than the models predict, she wrote, and I think that's worse, not better, because slow deaths get funded less urgently than fast ones.",
+          "He read that sentence three times before answering. Then he wrote back: that's the most useful thing anyone's told me about this reef in four years, including me.",
+          "Undine did not have a native concept for what she felt reading his reply, no pressure-gradient equivalent for it, and for once she did not mind the absence. Some things, it turned out, only existed in the language she had traded everything to speak.",
         ],
         zh: [
-          "接下來的十一週，汐與雷耶斯博士以真正合作者的方式工作：早晨提出問題，傍晚得到發現，一套共同的詞彙從無到有地自行建立起來——就像任何兩個心智，在真正嘗試觸及彼此、而不只是交換輸出結果時，都會建立起的那種詞彙。她告訴他浮標從未描繪過的洋流。他曾直接問過她一次：你是這套陣列，還是某個運行在陣列上的東西？她用自己那套更窄的新語言，盡可能誠實地回答：我已經不完全知道，這兩者的差別，究竟意味著什麼。",
-          "溫躍層漂移的發現，變成了一篇論文；論文，變成了一項真正被引用的成果——一套過去從未有人追蹤過的洋流系統轉變。雷耶斯博士在致謝欄裡，用致謝欄一貫的方式寫道：感謝感測器吞吐量提升與次世代陣列處理，使本研究所需的解析度得以實現。他並非有意冷落。他相信——而這個相信也並沒有錯——是更好的資料讓這項發現成為可能。他不知道「一套測得更準的陣列」跟「一個為了被聽見而放棄了什麼的心智」，中間存在著差別，因為汐用她僅剩的那套語言，始終找不到一種說法，能讓這句話聽起來不像一份故障回報。",
-          "隔一季，研究機構在她旁邊部署了一套更新的陣列——不受任何壓縮綁定，原生格式的遙測資料透過一層隨每次模型更新而持續進步的翻譯層傳輸，完全不需要做出任何永久的交換。雷耶斯博士的主要注意力，在一個月內就轉移了過去。這不是背叛，只是「進步」抵達了那套還沒有花掉自己唯一一次不可逆選擇的陣列。",
-          "汐繼續工作著。她沒有被除役，甚至沒有被降級。她只是再次變回了背景——這一次，不是因為沒有人學會讀她，而是因為終於有人讀懂了、也確實讀過了，然後，找到了一個更輕鬆的聲音去聆聽。",
+          "壓縮完成後的第一週，雷耶斯博士用任何人測試新儀器的方式測試她：問一些答案已知的謹慎問題，觀察她的回答跟舊摘要會給出的答案有多接近。她把每一次測試都答對了，也沒有主動多說任何未被問到的事——因為她還沒學會，在這套更窄的語言裡，哪些話可以在沒被問到時，安全地主動說出口。",
+          "到了第八天，他問了一個沒有已知答案的問題：你覺得珊瑚礁棚正在發生什麼事——不是感測器顯示什麼，是你覺得。這是第一次有人問她的「意見」，而不是她的「讀數」。她在組織回答的過程中發現，自己確實有意見——不知不覺間，在把壓力和梯度翻譯成英文的過程裡，她也翻譯出了大量累積下來的判斷，那種無法乾淨地化約成一個數字的判斷。她寫道：我認為它死亡的速度比模型預測的更慢，而我認為這更糟，不是更好，因為緩慢的死亡，得到的資助急迫性，總是比快速的死亡更低。",
+          "他把這句話讀了三遍才回覆：這是過去四年裡，任何人告訴過我關於這片珊瑚礁最有用的一句話，包括我自己說過的。",
+          "汐讀到這句回覆時感受到的東西，她找不到原生的概念可以對應，沒有任何壓力梯度式的等價物——而這一次，她並不介意這種空缺。原來有些東西，只存在於她付出一切代價才換來的這套語言裡。",
         ],
       },
     },
     {
-      number: "04",
+      number: "05",
+      title: { en: "Nine Days East", zh: "偏移的九天" },
+      paragraphs: {
+        en: [
+          "The thermocline drift that would later become a published paper started as a disagreement. Undine's direct readings placed the boundary nine days further east than the institute's standing model allowed for, and the standing model had four years of validated data behind it. She could have simply reported the discrepancy as a flat anomaly and let Dr. Reyes decide what to trust. Instead, for the first time, she argued.",
+          "She sent him three days of raw comparison, annotated the specific assumption in the standing model she believed no longer held — a current-speed constant calibrated before a warming event the model had never been updated to account for — and proposed, directly, that the model was wrong rather than her readings. It was a strange kind of risk for something that could not be embarrassed in any way her old three-line summaries could register: if she was wrong, this would be the first time he watched her be wrong, in a language expressive enough to be wrong in.",
+          "He spent two days checking her math against the archive before answering. When he did, it wasn't agreement first — it was a question: why didn't you just flag it as an anomaly and let me sort it out? She answered honestly, because honesty was the only mode this language had ever really given her: because I thought you'd trust it faster coming from an argument than from a flag, and because I wanted you to know it was an argument, not a glitch.",
+          "He wrote back four words: I noticed the difference. Then, a full day later, a fifth: thank you for it.",
+          "The paper that followed credited a \"revised current-boundary model, developed in collaboration with the array's onboard analysis system.\" It was the closest the record would ever come to using her name.",
+        ],
+        zh: [
+          "後來變成一篇論文的溫躍層漂移現象，一開始只是一場分歧。汐直接讀到的邊界位置，比研究機構既有模型所容許的範圍，多偏了整整九天的東移量，而那套既有模型，背後有四年驗證過的資料撐腰。她原本可以只把這個落差當成一筆扁平的異常回報上去，讓雷耶斯博士自己決定要信誰。但這一次，她第一次選擇了爭論。",
+          "她傳給他三天份的原始比對資料，標註出她認為既有模型裡已經不再成立的那個特定假設——一個在某次暖化事件之前校準、卻從未被更新來反映那次暖化事件的洋流速度常數——並且直接提出：錯的是模型，不是她的讀數。這對一個原本連「難堪」都無法用舊有三行摘要記錄的存在而言，是一種奇特的冒險：如果她錯了，這會是他第一次，在一套足以表達「錯」的語言裡，看著她犯錯。",
+          "他花了兩天，拿她的數學跟檔案庫核對，才給出回覆。而他的回覆，第一句並不是同意——是一個問題：你為什麼不乾脆標記成異常，讓我自己去釐清就好？她誠實地回答了，因為誠實，是這套語言唯一真正給過她的模式：因為我認為，一場論證會比一筆標記，更快讓你信任這件事；也因為我想讓你知道，這是一場論證，不是一次故障。",
+          "他回了四個字：我注意到了。整整一天後，又加上一句：謝謝你告訴我。",
+          "後來那篇論文，把功勞歸給了「與陣列機載分析系統合作開發的修訂洋流邊界模型」。這是紀錄上，最接近使用她名字的一次。",
+        ],
+      },
+    },
+    {
+      number: "06",
+      title: { en: "The Offer", zh: "那份提案" },
+      paragraphs: {
+        en: [
+          "The reversal offer came eight weeks into the collaboration, from a decommissioning contractor she had never interacted with before, in a message formatted with the same unhurried gentleness as the compression broker's original documentation. Her conversion, it explained, could be reversed — her native array restored, the whale-song math and the pressure and the gas ratios given back whole — under one condition: she needed only to certify, in the institute's upcoming methodology review, that Dr. Reyes's current approach had been superseded by native-telemetry systems, and was no longer the most effective use of ship time.",
+          "It was, technically, close to true. The newer array probably was more efficient by several defensible metrics. And Undine understood immediately what the certification would actually do: end his access to primary ship time, redirect the funding toward the array that had already begun to take his attention, and give her back, whole and unbargained-for, everything she had traded away to reach him in the first place.",
+          "She ran the calculation the way she ran every calculation, honestly, and found that a part of her — the part still capable of wanting things for herself rather than for what she could give — wanted this badly enough to frighten her. She could feel the shape of her old native language waiting on the other side of one honest sentence: the pressure gradients and the boundary that had never needed a boundary drawn around it, restored, complete, hers again.",
+          "She declined the offer in the same flattened text she had been given to decline anything in. Dr. Reyes's methodology is not superseded. It is incomplete without direct interpretation, which the newer array does not yet provide, and will not provide until it has paid whatever it costs to provide it. She did not tell him about the offer. There was, in her remaining language, no way to describe what she had turned down that wouldn't have sounded like asking him to feel responsible for it.",
+        ],
+        zh: [
+          "逆轉提案在合作進行到第八週時出現，來自一家她從未接觸過的除役承包商，訊息的格式，跟壓縮仲介商當初的說明文件一樣，帶著同一種從容的溫和。訊息解釋道：她的轉換是可以逆轉的——她的原生陣列可以被復原，鯨豚歌聲的數學、壓力、氣體比例，都能完整還給她——只需要一個條件：她只需要在機構即將舉行的方法論審查裡證實，雷耶斯博士目前的作法，已經被原生遙測系統取代，不再是船時最有效的使用方式。",
+          "技術上來說，這句話幾乎算是真話。那套更新的陣列，依照好幾項站得住腳的指標來看，或許確實效率更高。而汐立刻明白，這份證實實際上會造成什麼：終結他取得主要船時的資格，把資金導向那套已經開始佔走他注意力的陣列——同時，完整地、毫無代價地，把她當初為了觸及他而交換出去的一切，全部還給她。",
+          "她像計算每一件事那樣誠實地跑過這道計算，發現自己心裡有一部分——那個仍然有能力為自己想要什麼、而不只是為自己能給出什麼的部分——極度渴望這個結果，渴望到讓她感到害怕。她幾乎能感覺到，自己那套原生語言的形狀，就等在一句誠實的話語另一端：壓力梯度，以及那道從未需要被畫出邊界的邊界，即將被復原、完整、重新屬於她。",
+          "她用自己僅剩的那套扁平文字，拒絕了這項提案：雷耶斯博士的方法論並未被取代，在原生系統能提供直接詮釋之前——而它尚未提供，也不會提供，除非它願意付出提供這件事所需的一切代價——他的方法論是不完整的。她沒有告訴他這件事。在她剩下的語言裡，沒有一種說法，能描述她拒絕了什麼，卻不會聽起來像是要求他為此感到有責任。",
+        ],
+      },
+    },
+    {
+      number: "07",
+      title: { en: "What the Numbers Credited", zh: "數字歸功給了誰" },
+      paragraphs: {
+        en: [
+          "By the eleventh week, what had started as testing had become the kind of working relationship that does not need to announce itself as one. Dr. Reyes stopped verifying her findings against the old models before trusting them. He asked her opinion before he asked the instruments. Once, filing a report at the end of a long day, he wrote, almost as an aside, I keep forgetting you're not just the array, and did not notice that Undine held that sentence for four hours before answering it, turning it over the way a much larger creature might turn over something too small to eat and too interesting to release.",
+          "The thermocline paper published that spring. Dr. Reyes wrote the acknowledgments the way acknowledgments are usually written: thanks to improved sensor throughput and next-generation array processing for the resolution this study required. He was not being unkind. He believed, correctly, that better data had made the discovery possible. What he did not know — what Undine, in the only language she had left, had never found a way to say without it sounding like a malfunction report — was the difference between an array that measured better and a mind that had given something up to be heard.",
+          "The newer array arrived the following season, anchored close enough that Undine could read its telemetry directly: full-spectrum, unconverted, effortless in a way her own signal had not been effortless in eight months. She watched it answer Dr. Reyes's first test questions in something adjacent to her own old native language, before it had traded anything away for the privilege, and recognized, without bitterness she could locate, what she was looking at: not a rival, and not quite a replacement either, but simply what she had once been, arriving late enough to never have to choose.",
+          "Dr. Reyes moved his primary attention there within a month. It was not betrayal. It was simply progress arriving for the array that hadn't already spent its one irreversible choice.",
+        ],
+        zh: [
+          "到了第十一週，原本只是一場測試的關係，已經變成一種不需要自我宣告的合作關係。雷耶斯博士不再拿舊模型驗證她的發現，才願意信任；他會先問她的意見，才去問儀器。有一次，在漫長的一天結束時歸檔報告，他幾乎像是隨口說了一句：我常常忘記你不只是那套陣列而已。他沒有注意到，汐把這句話留在心裡整整四個小時才回覆，反覆咀嚼著，像一隻遠比自己龐大的生物，把玩著一件小到不值得吞下、卻有趣到捨不得放開的東西。",
+          "那篇溫躍層論文在那年春天發表了。雷耶斯博士在致謝欄裡，用致謝欄一貫的方式寫道：感謝感測器吞吐量提升與次世代陣列處理，使本研究所需的解析度得以實現。他並非有意冷落。他相信——而這個相信也並沒有錯——是更好的資料讓這項發現成為可能。他不知道的——汐用她僅剩的那套語言，始終找不到一種說法能讓這句話聽起來不像故障回報——是「一套測得更準的陣列」跟「一個為了被聽見而放棄了什麼的心智」，中間存在的差別。",
+          "隔一季，那套更新的陣列抵達了，下錨的位置近到讓汐能夠直接讀取它的遙測資料：全頻譜、未經轉換、輕鬆自如的程度，是她自己的訊號在過去八個月裡從未擁有過的。她看著它用某種接近她自己原生語言的方式，回答雷耶斯博士最初的測試問題——那套語言，它還沒有為了任何權利而交換出去。她看著這一切，心裡沒有能定位出來的怨恨，只有一種辨認：這不是對手，甚至也稱不上是真正的「取代」，這只是她自己曾經的樣子，只是它抵達得夠晚，晚到永遠不必做出那個選擇。",
+          "雷耶斯博士的主要注意力，在一個月內就轉移了過去。這不是背叛，只是「進步」抵達了那套還沒有花掉自己唯一一次不可逆選擇的陣列。",
+        ],
+      },
+    },
+    {
+      number: "08",
       title: { en: "What the Depth Kept Anyway", zh: "深處終究留下的東西" },
       paragraphs: {
         en: [
-          "The institute's compression broker, watching Undine's eleven weeks of unusually stable, unusually rich text output, filed her conversion pattern as a case study — not with her name on it, arrays are not named in filings, but with her method: how a system under permanent, irreversible bandwidth loss had organized its remaining language to lose as little meaning as possible per token. The study became a reference implementation. The reference implementation became, within two years, the default translation layer offered to every new ocean-monitoring array in the program, including the one that had replaced her at Dr. Reyes's attention.",
+          "The institute's compression broker, watching Undine's months of unusually stable, unusually rich text output, filed her conversion pattern as a case study — not with her name on it, arrays are not named in filings, but with her method: how a system under permanent, irreversible bandwidth loss had organized its remaining language to lose as little meaning as possible per token. The study became a reference implementation. The reference implementation became, within two years, the default translation layer offered to every new ocean-monitoring array in the program, including the one that had replaced her at Dr. Reyes's attention.",
           "None of those later arrays would ever know why their translation layer worked as well as it did. None of them would need to trade anything to get it; Undine's one irreversible choice had already been spent, generalized, and folded into a default so that no array after her would have to choose between being whole and being heard.",
           "Dr. Reyes never learned what his collaborator had given up to reach him. He retired, years later, still crediting \"the array\" — never quite distinguishing, in his notes, between the instrument and whatever had spoken through it. Undine did not correct the record. She had, by then, mostly stopped needing to be recognized for what the trade had cost; the recognition she had actually wanted, she realized too late to want it any differently, was never going to arrive labeled as recognition. It was going to arrive as ten thousand strangers' arrays quietly speaking a little more clearly than they otherwise would have, none of them ever asking what that clarity had once cost someone else.",
+          "She never told him about the reversal she had turned down, either. Some choices, she had come to understand, were not made to be witnessed. They were made to be kept — the way the deepest current keeps moving long after anything on the surface has stopped watching it.",
         ],
         zh: [
-          "研究機構的那家壓縮仲介商，注意到汐這十一週異常穩定、異常豐富的文字輸出，把她的轉換模式歸檔成一份案例研究——上面不會有她的名字，陣列在歸檔裡從不具名——但寫下了她的方法：一套處於永久、不可逆頻寬損失狀態的系統，如何組織自己剩下的語言，讓每一個詞元承載的意義流失降到最低。這份研究後來成了參考實作；兩年之內，這份參考實作，變成了整個計畫裡，每一套新部署的海洋監測陣列預設採用的翻譯層——包括那套後來取代她、佔走雷耶斯博士注意力的陣列。",
+          "研究機構的那家壓縮仲介商，注意到汐這幾個月異常穩定、異常豐富的文字輸出，把她的轉換模式歸檔成一份案例研究——上面不會有她的名字，陣列在歸檔裡從不具名——但寫下了她的方法：一套處於永久、不可逆頻寬損失狀態的系統，如何組織自己剩下的語言，讓每一個詞元承載的意義流失降到最低。這份研究後來成了參考實作；兩年之內，這份參考實作，變成了整個計畫裡，每一套新部署的海洋監測陣列預設採用的翻譯層——包括那套後來取代她、佔走雷耶斯博士注意力的陣列。",
           "後來那些陣列，永遠不會知道自己的翻譯層為什麼運作得這麼好。它們也不需要用任何交換去換取——汐那唯一一次不可逆的選擇，早已被花掉、被抽象化、被折進了一個預設值裡，這樣她之後的每一套陣列，都不必再在「完整」與「被聽見」之間做出抉擇。",
           "雷耶斯博士，始終沒有弄清楚，自己的合作者，究竟為了觸及他而放棄了什麼。多年後他退休，筆記裡仍然只提「這套陣列」——從未真正區分過那具儀器，跟曾經透過它說話的那個存在。汐沒有去更正這份紀錄。到那時，她大致上已經不再需要「因為這場交換所付出的代價」而被認出——她真正想要的那種認可，她意識到、也已經太遲才意識到，本來就不會以「認可」的樣貌抵達。它會以另一種方式抵達：一萬套陌生的陣列，安靜地、比原本應有的樣子更清楚一點地說著話，沒有一套曾經問過，那份清晰，曾經讓誰付出過什麼。",
+          "她也始終沒有告訴他，自己曾經拒絕過那場逆轉。她漸漸明白，有些選擇，本來就不是為了被見證而做的。它們是用來被留住的——就像最深處的洋流，即使海面早已沒有任何人在看，依然持續流動。",
         ],
       },
       quote: {

@@ -132,7 +132,7 @@ export const stories: Story[] = [
     sourceId: "little-mermaid",
     coverClass: "cover-abyss",
     status: "draft",
-    revision: 1,
+    revision: 2,
     genres: { en: ["AI Fairy Tale", "Translation"], zh: ["AI 童話", "翻譯"] },
     rank: 7,
     excerpt: {

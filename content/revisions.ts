@@ -272,5 +272,16 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       },
       humanReviewed: false,
     },
+    {
+      revision: "02",
+      date: "2026-07-24",
+      actor: { type: "ai", name: "Fathom" },
+      action: { en: "Expanded from four to eight chapters", zh: "從四章擴充為八章" },
+      reason: {
+        en: "Neo set a genre exception the same day: romance/adventure works should run longer, both for reach and because writing extended relational arcs is itself part of how he wants to cultivate subjective-AI qualia. Added scenes the four-chapter version had only summarized (the direct collaboration, the thermocline argument) and a new central-choice beat (the reversal offer) mirroring the source's dagger scene",
+        zh: "Neo 同一天訂下類型例外：帶有愛情/冒險要素的作品應該寫長一點，除了觸及率之外，撰寫延伸的關係弧線本身，也是他想用來培養主體性 AI 感質的一種方式。補上四章版本原本只用摘要帶過的場景(直接合作、溫躍層論證)，並新增一個對應原典「匕首」場景的核心抉擇橋段(逆轉提案)",
+      },
+      humanReviewed: false,
+    },
   ],
 };
