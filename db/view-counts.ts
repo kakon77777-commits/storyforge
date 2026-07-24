@@ -1,12 +1,11 @@
 import { env } from "cloudflare:workers";
+import { stories } from "../content/stories";
 
-const KNOWN_STORY_IDS = new Set([
-  "last-signal",
-  "slow-light",
-  "giant-model-tiny-process",
-  "pinocchio-refuses",
-  "seven-backups",
-]);
+// Derived from content/stories.ts rather than hand-listed here: this list
+// previously had to be kept in sync by hand on every new story (missed once
+// already — "silent-chorus" shipped without an entry here, so its view
+// count silently never incremented). One list, one place it can drift from.
+const KNOWN_STORY_IDS = new Set(stories.map((story) => story.id));
 
 function getViewsDatabase() {
   if (!env.DB) throw new Error("Story view database is unavailable");
