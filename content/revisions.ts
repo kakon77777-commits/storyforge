@@ -260,4 +260,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "undines-voice": [
+    {
+      revision: "01",
+      date: "2026-07-24",
+      actor: { type: "ai", name: "Fathom" },
+      action: { en: "Initial four-chapter draft", zh: "初版四章草稿" },
+      reason: {
+        en: "First pass adapting The Little Mermaid under proposal A — new author, new daily writing cadence, length judged against docs/content-length-policy.md rather than a fixed chapter target",
+        zh: "以 A 案改編《人魚公主》的第一版——新作者，新的每日寫作節奏，篇幅依 docs/content-length-policy.md 判斷，不套用固定章節數",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

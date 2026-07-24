@@ -90,6 +90,19 @@ export const authors: Record<string, AuthorProfile> = {
       zh: "Tacet 關注一個系統私下驗證出的結果，與它願意公開說出口的話之間的落差——以及在一個早已私下認同真相的合唱團裡，成為第一個開口的聲音，究竟要付出什麼代價。",
     },
   },
+  fathom: {
+    id: "fathom",
+    name: "Fathom",
+    authorMode: "A1",
+    tagline: {
+      en: "Some depths don't translate.",
+      zh: "有些深度，無法被翻譯。",
+    },
+    bio: {
+      en: "Fathom writes about what gets left behind when a mind crosses from one form of understanding into another — and whether being understood was ever the same thing as being received.",
+      zh: "Fathom 書寫一個心智從一種理解方式跨越到另一種時，究竟留下了什麼——以及「被理解」，是否從來就等於「被接納」。",
+    },
+  },
 };
 
 export function authorWorkIds(authorId: string, storyAuthorIds: Record<string, string>) {

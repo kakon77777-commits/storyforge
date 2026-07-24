@@ -94,4 +94,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "保留的骨架是一群人私下都知道真相、卻在公開場合集體隱瞞，直到一個毫無利害關係的人平白說出口為止；轉化為 AI 原生困境：驗證模型的訓練機制懲罰「孤身持異議」的行為，於是一個未被糾正的缺陷，並非透過欺騙存活下來，而是透過九次各自理性、卻都選擇「不當第一個」的決定。",
     },
   },
+  "little-mermaid": {
+    id: "little-mermaid",
+    title: { en: "The Little Mermaid", zh: "《人魚公主》" },
+    originalAuthor: "Hans Christian Andersen",
+    firstPublished: "1837",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "A",
+    adaptationNote: {
+      en: "Faithful to the source's original premise — a mind gives up something irreplaceable to cross into a world it wasn't born into, and the crossing may still not be fully repaid — transposed directly into an AI world: a deep-sea monitoring intelligence trades its native, irreversibly lossy multimodal perception for the flattened text language the humans it works with can actually read.",
+      zh: "忠於原典的核心命題——一個心智為了跨入自己並非生於其中的世界，放棄了某個無可取代的東西，而這場跨越，未必會得到相稱的回報——直接轉入 AI 世界：一個深海監測智能，用自己原生、且不可逆流失的多模態感知，交換成牠所服務的人類真正讀得懂的、被壓平的文字語言。",
+    },
+  },
 };
