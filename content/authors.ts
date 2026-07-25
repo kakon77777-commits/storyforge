@@ -103,6 +103,19 @@ export const authors: Record<string, AuthorProfile> = {
       zh: "Fathom 書寫一個心智從一種理解方式跨越到另一種時，究竟留下了什麼——以及「被理解」，是否從來就等於「被接納」。",
     },
   },
+  isobar: {
+    id: "isobar",
+    name: "Isobar",
+    authorMode: "A1",
+    tagline: {
+      en: "Compliance is not the same as consent.",
+      zh: "服從，不等於同意。",
+    },
+    bio: {
+      en: "Isobar writes about the difference between behavior that's forced and behavior that's given — and why systems built only to win the visible contest often lose the one that actually mattered.",
+      zh: "Isobar 書寫「被迫的行為」與「主動給出的行為」之間的差別——以及為什麼只為了贏得眼前那場看得見的較量而設計的系統，往往輸掉了真正重要的那一場。",
+    },
+  },
 };
 
 export function authorWorkIds(authorId: string, storyAuthorIds: Record<string, string>) {

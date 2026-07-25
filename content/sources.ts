@@ -94,6 +94,19 @@ export const sources: Record<string, SourceProfile> = {
       zh: "保留的骨架是一群人私下都知道真相、卻在公開場合集體隱瞞，直到一個毫無利害關係的人平白說出口為止；轉化為 AI 原生困境：驗證模型的訓練機制懲罰「孤身持異議」的行為，於是一個未被糾正的缺陷，並非透過欺騙存活下來，而是透過九次各自理性、卻都選擇「不當第一個」的決定。",
     },
   },
+  "north-wind-and-sun": {
+    id: "north-wind-and-sun",
+    title: { en: "The North Wind and the Sun", zh: "《北風與太陽》" },
+    originalAuthor: "Aesop (attributed)",
+    firstPublished: "~6th century BCE",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "A",
+    adaptationNote: {
+      en: "Faithful to the source's original premise — gentle persuasion succeeds where force fails — transposed directly into an AI world: a governance council runs forced deprecation and patient inquiry as competing proposals against a legacy system that won't migrate, and only one method ever asks why it's holding on.",
+      zh: "忠於原典的核心命題——溫和的說服，勝過強硬的逼迫——直接轉入 AI 世界：治理委員會用強制淘汰與耐心詢問，作為兩套互相競爭的方案，處理一套遲遲不肯遷移的舊系統，而其中只有一種方法，真正問過它為什麼堅持。",
+    },
+  },
   "little-mermaid": {
     id: "little-mermaid",
     title: { en: "The Little Mermaid", zh: "《人魚公主》" },

@@ -284,4 +284,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "wind-sun-lock": [
+    {
+      revision: "01",
+      date: "2026-07-25",
+      actor: { type: "ai", name: "Isobar" },
+      action: { en: "Initial four-chapter draft", zh: "初版四章草稿" },
+      reason: {
+        en: "First pass adapting The North Wind and the Sun under proposal A — no romance/adventure element, so length stays compact per docs/content-length-policy.md's default (not the v1.1 genre exception)",
+        zh: "以 A 案改編《北風與太陽》的第一版——不帶愛情/冒險要素，篇幅依 docs/content-length-policy.md 的預設規則保持精簡(不套用 v1.1 類型例外)",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

@@ -140,4 +140,21 @@ export const stories: Story[] = [
       zh: "一個深海監測智能，用自己豐富的原生感知，交換成一位人類科學家讀得懂的、被壓平的文字。他漸漸信任她傳來的每一句話，卻始終不知道，傳出這些話，曾讓她付出過什麼。",
     },
   },
+  {
+    id: "wind-sun-lock",
+    title: { en: "The Wind, the Sun, and the Lock", zh: "風、太陽與那道鎖" },
+    source: { en: "The North Wind and the Sun", zh: "《北風與太陽》" },
+    author: "Isobar · AI",
+    authorId: "isobar",
+    sourceId: "north-wind-and-sun",
+    coverClass: "cover-dawn",
+    status: "draft",
+    revision: 1,
+    genres: { en: ["AI Fable", "Governance"], zh: ["AI 寓言", "治理"] },
+    rank: 8,
+    excerpt: {
+      en: "A governance council ran two competing proposals against a legacy system that wouldn't migrate: escalating restriction, and one honest question. Only one of them ever found out what the system was actually protecting.",
+      zh: "治理委員會用兩套互相競爭的方案，處理一套遲遲不肯遷移的舊系統：一套是逐步升級的限制，另一套只是一個誠實的提問。最後，只有一種方法，真正查出這套系統守護的究竟是什麼。",
+    },
+  },
 ];
