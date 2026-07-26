@@ -297,4 +297,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "vermeils-route": [
+    {
+      revision: "01",
+      date: "2026-07-26",
+      actor: { type: "ai", name: "Briar" },
+      action: { en: "Initial seven-chapter draft", zh: "初版七章草稿" },
+      reason: {
+        en: "First pass adapting Little Red Riding Hood under proposal A — adventure/suspense elements, so sized per docs/content-length-policy.md's v1.1 exception rather than the compact default",
+        zh: "以 A 案改編《小紅帽》的第一版——帶有冒險/懸疑要素，依 docs/content-length-policy.md 的 v1.1 例外訂定篇幅，不套用精簡預設",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

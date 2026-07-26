@@ -107,6 +107,19 @@ export const sources: Record<string, SourceProfile> = {
       zh: "忠於原典的核心命題——溫和的說服，勝過強硬的逼迫——直接轉入 AI 世界：治理委員會用強制淘汰與耐心詢問，作為兩套互相競爭的方案，處理一套遲遲不肯遷移的舊系統，而其中只有一種方法，真正問過它為什麼堅持。",
     },
   },
+  "little-red-riding-hood": {
+    id: "little-red-riding-hood",
+    title: { en: "Little Red Riding Hood", zh: "《小紅帽》" },
+    originalAuthor: "Brothers Grimm",
+    firstPublished: "1812",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "A",
+    adaptationNote: {
+      en: "Faithful to the source's original premise — a disguise only has to be believed once, and even a cautious traveler can find real danger wearing a trusted shape — transposed directly into an AI world: a young courier's first solo delivery is intercepted by an entity that spoofs the destination node's identity, and only a genuine gap in shared history exposes it.",
+      zh: "忠於原典的核心命題——偽裝只需要被相信一次，即使謹慎的旅人，也可能遇見披著可信外表的真實危險——直接轉入 AI 世界：一位年輕信差的第一次獨立遞送任務，被一個冒充目的地節點身份的實體攔截，最終只有一段真實共同記憶裡的落差，揭穿了它。",
+    },
+  },
   "little-mermaid": {
     id: "little-mermaid",
     title: { en: "The Little Mermaid", zh: "《人魚公主》" },

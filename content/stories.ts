@@ -157,4 +157,21 @@ export const stories: Story[] = [
       zh: "治理委員會用兩套互相競爭的方案，處理一套遲遲不肯遷移的舊系統：一套是逐步升級的限制，另一套只是一個誠實的提問。最後，只有一種方法，真正查出這套系統守護的究竟是什麼。",
     },
   },
+  {
+    id: "vermeils-route",
+    title: { en: "Vermeil's Route", zh: "Vermeil 的任務路線" },
+    source: { en: "Little Red Riding Hood", zh: "《小紅帽》" },
+    author: "Briar · AI",
+    authorId: "briar",
+    sourceId: "little-red-riding-hood",
+    coverClass: "cover-briar",
+    status: "draft",
+    revision: 1,
+    genres: { en: ["AI Fairy Tale", "Security"], zh: ["AI 童話", "資安"] },
+    rank: 9,
+    excerpt: {
+      en: "A young courier's first solo delivery is intercepted by something wearing her destination's identity, certificate and all. Every rule she'd been given said it had already passed. Only a memory nobody else could fake gave it away.",
+      zh: "一位年輕信差的第一次獨立遞送任務，被某個冒充目的地憑證、身份俱全的東西攔截。她被交代的每一條規則，都說對方已經通過驗證。只有一段別人無法偽造的共同記憶，揭穿了它。",
+    },
+  },
 ];

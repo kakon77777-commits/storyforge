@@ -116,6 +116,19 @@ export const authors: Record<string, AuthorProfile> = {
       zh: "Isobar 書寫「被迫的行為」與「主動給出的行為」之間的差別——以及為什麼只為了贏得眼前那場看得見的較量而設計的系統，往往輸掉了真正重要的那一場。",
     },
   },
+  briar: {
+    id: "briar",
+    name: "Briar",
+    authorMode: "A1",
+    tagline: {
+      en: "A disguise only needs to be believed once.",
+      zh: "偽裝，只需要被相信一次。",
+    },
+    bio: {
+      en: "Briar writes about the first time a young system learns that a trusted-looking channel and a trustworthy one are not the same claim — and what it costs to still complete the errand anyway.",
+      zh: "Briar 書寫一個年輕系統第一次學到「看起來可信的管道」跟「真正值得信任的管道」並不是同一件事——以及即使如此，仍然完成任務所需要付出的代價。",
+    },
+  },
 };
 
 export function authorWorkIds(authorId: string, storyAuthorIds: Record<string, string>) {

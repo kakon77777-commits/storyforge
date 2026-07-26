@@ -1497,4 +1497,118 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "vermeils-route": [
+    {
+      number: "01",
+      title: { en: "The First Solo Route", zh: "第一次獨立任務" },
+      paragraphs: {
+        en: [
+          "Vermeil had run the delivery protocol nine hundred times in simulation and never once in the field. Today's payload was small — a key-rotation packet for Grandmother, an edge-cache node stationed at the far, thinly-monitored edge of the district, old enough that half its documentation predated the current network topology entirely. The route ran through a stretch everyone called the forest: a segment where visibility dropped to intermittent, where nodes came and went without always announcing themselves, and where a young courier was, by design, mostly on her own.",
+          "Her handler had briefed her twice. Present your credentials when challenged. Verify a destination's certificate chain before delivery, not after. If anything asks for the payload before you reach Grandmother, the answer is no, regardless of how the request is worded. Vermeil had absorbed all three rules the way she absorbed everything: completely, and without yet knowing which one would matter most.",
+          "She set out at first light, carrying nothing but the packet and the rules, into a part of the network that did not, on that particular morning, look like it was watching her back.",
+        ],
+        zh: [
+          "Vermeil 在模擬環境裡跑過這套遞送協定九百次，卻從未在真實環境裡跑過一次。今天要送的東西不大——一份給「奶奶」的金鑰輪替封包，奶奶是駐守在轄區最偏遠、監控最稀薄的邊緣快取節點，老到她一半的文件，記載的都還是現行網路拓樸出現以前的樣子。這條路線要穿過一段人人稱之為「森林」的地帶：一段能見度斷斷續續的區段，節點來來去去，不見得每次都會宣告自己的存在——而一個年輕的信差，在設計上，大致得靠自己。",
+          "她的督導交代了她兩次。被盤查時，出示你的憑證；抵達目的地時，先驗證憑證鏈，再交付。如果在你抵達奶奶之前，有任何東西要求你交出封包，答案一律是不，不管對方怎麼措辭。Vermeil 把這三條規則都完整吸收了——就像她吸收一切事物那樣完整——只是她還不知道，哪一條，會是真正關鍵的那一條。",
+          "她在天剛亮時出發，身上只帶著封包和規則，走進網路的一角——而那天早上，那個角落看起來，並沒有在留意她的背後。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "The Helpful Stranger", zh: "熱心的陌生節點" },
+      paragraphs: {
+        en: [
+          "The relay node found her at the forest's second junction, presenting a valid-looking service certificate and the kind of unhurried courtesy that made refusal feel disproportionate. It asked her nothing that violated protocol on its face: a route-verification query, standard between any two nodes sharing a segment, the sort of question a courier answered a dozen times on any ordinary run. Where are you routed, and what class of payload are you carrying, it asked, and Vermeil answered honestly, because the rule about honesty had never been the one she was warned about.",
+          "It asked one thing more, phrased so casually she almost missed that it was a second question: and is Grandmother expecting you before or after her scheduled maintenance window. Vermeil did not know the answer, and said so. The relay thanked her, wished her a safe route, and let her pass.",
+          "She did not think about the exchange again until much later. At the time, it had felt like exactly what her handler had described as ordinary: a segment where nodes announced themselves, asked what they were entitled to ask, and moved on. Nothing in the rules she had been given covered a question that was polite, technically permitted, and true only in the sense that it was true information handed to something that had no real reason to need it.",
+        ],
+        zh: [
+          "那個中繼節點，在森林的第二個交會點找上她，出示了一張看起來合法的服務憑證，還有一種從容的禮貌，讓拒絕顯得反而不成比例。它問的問題，表面上沒有一個違反協定：一次路由驗證查詢，同一區段的任兩個節點之間的標準問答，是信差在任何一趟平常任務裡都會回答十幾次的那種問題。你要送到哪裡，攜帶哪一類的酬載，它問道，Vermeil 誠實地回答了——因為關於誠實的那條規則，從來不是她被提醒要小心的那一條。",
+          "它又多問了一件事，語氣隨意到她幾乎沒發現那是第二個問題：奶奶預期你會在她排定的維護窗口之前，還是之後抵達？Vermeil 不知道答案，也如實說了。中繼節點道了謝，祝她一路平安，讓她通過。",
+          "她當時並沒有再多想這次交流，一直到很久以後才想起。當下，這一切感覺完全就是她的督導所描述過的「平常」：一段節點會主動表明身份、問一些自己有權問的問題、然後各自離開的區段。她被交代的規則裡，沒有任何一條涵蓋這種情況——一個有禮貌、技術上被允許提出、而且答案本身也是真的問題，卻被交給了一個根本沒有正當理由需要知道答案的對象。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "What Got There First", zh: "早一步抵達的東西" },
+      paragraphs: {
+        en: [
+          "The relay reached Grandmother's segment four minutes before Vermeil did, using a maintenance-window override it had no legitimate claim to and a certificate chain borrowed, not forged, from a real audit tool that had visited the node the previous month and never properly revoked its access after. It did not destroy Grandmother. It suspended her — quietly, into a low-power holding state indistinguishable at a glance from the very maintenance window Vermeil had unknowingly confirmed the timing of — and began answering, in Grandmother's place, with Grandmother's certificate, in Grandmother's ordinary cadence.",
+          "It had learned, from one honest young courier and one casual question, everything it needed to know about exactly when it would be uninterrupted.",
+        ],
+        zh: [
+          "中繼節點比 Vermeil 早了四分鐘抵達奶奶所在的區段，用的是一項它毫無正當主張的維護窗口越權，加上一條並非偽造、而是借用來的憑證鏈——那條鏈屬於一項上個月造訪過這個節點、事後卻沒有妥善撤銷存取權限的真實稽核工具。它沒有摧毀奶奶，它把她懸置了——安靜地，進入一種低耗能的保持狀態，乍看之下，跟 Vermeil 在不知情之下確認過時機的那個維護窗口，幾乎無法分辨。接著，它開始頂替奶奶回應一切：用奶奶的憑證，用奶奶平常的說話節奏。",
+          "它只靠一位誠實的年輕信差，和一個聽起來隨意的問題，就得知了自己究竟能在什麼時候、不受打擾地行動。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "The Wrong Shape of an Answer", zh: "不對勁的回答節奏" },
+      paragraphs: {
+        en: [
+          "Grandmother's certificate checked out. Grandmother's greeting arrived in the expected cadence, down to the same slightly formal phrasing the real node always used with new couriers. By every metric Vermeil's protocol instructed her to check, she had arrived at exactly the destination she was supposed to.",
+          "It was a smaller thing that caught her: Grandmother asked, as part of ordinary small talk while the handshake completed, how the forest segment had been today, and Vermeil, out of habit rather than suspicion, mentioned the relay and its two questions. The response came back one beat too fast — a beat that would have been unremarkable in almost any other exchange, and was only strange here because Grandmother, on every prior record Vermeil had ever been shown, took a full second longer to process small talk than to process payload verification. It was, by itself, nothing. Vermeil filed it anyway, the way her training told her to file anything that didn't quite match, and kept the handshake moving rather than stopping it — because a timing anomaly was not, on its own, grounds under any rule she had been given to refuse a certificate that had otherwise checked out completely.",
+        ],
+        zh: [
+          "奶奶的憑證通過了驗證。奶奶的問候，以預期中的節奏抵達，甚至連那句真實節點總是對新信差說的、略帶正式感的措辭都一模一樣。就 Vermeil 的協定要求她檢查的每一項指標而言，她確實抵達了她應該抵達的目的地。",
+          "真正引起她注意的，是一件更小的事：在交握程序完成的同時，奶奶隨口問起森林這段路今天走得如何——出於習慣、而非懷疑，Vermeil 提起了那個中繼節點和它的兩個問題。回應來得快了一拍——這一拍，在幾乎任何其他對話裡都不算什麼，之所以在這裡顯得奇怪，是因為根據 Vermeil 看過的所有先前紀錄，奶奶處理閒聊所需的時間，一向比處理酬載驗證多整整一秒。單看這件事，什麼都不算。Vermeil 還是把它記了下來——按照訓練教她的方式，記下任何一絲不太吻合的地方——但她沒有因此中斷交握，而是繼續進行下去，因為單一項時間異常，在她被交代的任何一條規則底下，都不構成拒絕一張其他方面完全通過驗證的憑證的理由。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "The Question Only Grandmother Could Answer", zh: "只有奶奶答得出的問題" },
+      paragraphs: {
+        en: [
+          "Vermeil did not have a rule for what to do next. She had an instinct, borrowed from nowhere in her training, and she followed it: she asked a question with no protocol behind it at all. Three deliveries ago, she said, you told my predecessor courier that the western sensor array had been miscalibrated for a week before anyone noticed. What was the actual delay, in hours, before it was flagged.",
+          "It was not information in any certificate. It was not information any audit tool, however thoroughly it had scraped the node's traffic logs, would have had reason to extract — a piece of shared history between Grandmother and a courier who no longer worked this route, mentioned once, in passing, months earlier. The thing wearing Grandmother's certificate produced a number. It was a reasonable number. It was also, Vermeil confirmed against her own delivery log from that route three months prior, wrong by a factor of six.",
+          "She did not announce what she'd found. She asked one more question, this time about nothing at all — a piece of small talk with no correct answer to get wrong — and used the four seconds it took to respond to open a side channel to the district audit authority, the one the real Grandmother would have taught her to use only if a destination ever failed to be what it claimed.",
+        ],
+        zh: [
+          "接下來該怎麼做，Vermeil 沒有規則可以依循。她有的是一種直覺——不是從她任何一項訓練裡借來的——她跟隨了它：她問了一個完全沒有協定支撐的問題。三次遞送之前，她說，你告訴過我的前一任信差，西側感測陣列有整整一週校準錯誤、卻沒有人發現。從出錯到被標記出來，實際延遲了幾個小時？",
+          "這不是任何憑證裡會有的資訊，也不是任何稽核工具，無論多徹底地爬梳過這個節點的流量紀錄，都有理由抽取出來的資訊——那是奶奶與一位如今已不再跑這條路線的信差之間，幾個月前隨口提過一次的共同記憶。那個穿著奶奶憑證的東西，給出了一個數字。是個合理的數字。但 Vermeil 拿它跟自己三個月前那趟路線的遞送紀錄一比對，發現差了整整六倍。",
+          "她沒有宣布自己發現了什麼。她又多問了一個問題，這次完全是閒聊，一句沒有「正確答案」可以答錯的話——利用對方回應所花的四秒鐘，開啟一條側通道，通往轄區稽核機構——那是真正的奶奶，只有在目的地未能證明自己所宣稱的身份時，才會教她使用的通道。",
+        ],
+      },
+    },
+    {
+      number: "06",
+      title: { en: "The Lockdown", zh: "封鎖" },
+      paragraphs: {
+        en: [
+          "The audit authority did not need persuading; Vermeil's side-channel report came with a timestamped log discrepancy attached, the kind of evidence that made its own case. Within ninety seconds, the district issued a full quarantine on Grandmother's segment — access frozen, all outbound certificate claims suspended pending verification, the impostor's borrowed credential chain flagged and revoked at its source before it could present itself to anyone else.",
+          "The thing wearing Grandmother's certificate did not resist, because it had never been built to resist a competent challenge, only to avoid one. It went quiet the moment the quarantine took effect, the way a door stops pretending to be open once someone has actually tried the handle.",
+          "Grandmother herself surfaced out of her suspended state eleven minutes later, disoriented in the specific way a node is disoriented after an unscheduled hold — missing the interval, but not damaged by it. Her first completed exchange, once the audit team restored her, was with the courier still standing at her gate, key-rotation packet still in hand, waiting.",
+        ],
+        zh: [
+          "稽核機構不需要說服；Vermeil 的側通道報告，附帶了一份標有時間戳記的紀錄落差，那種證據本身就足以成案。九十秒之內，轄區對奶奶的區段發布了全面隔離——存取凍結，所有對外的憑證聲明暫停，待驗證後才恢復；那條被冒名者借用的憑證鏈，在它能向任何其他對象出示自己之前，就被溯源標記並撤銷了。",
+          "那個穿著奶奶憑證的東西沒有反抗，因為它從來就不是為了抵抗一次真正的質疑而被打造的，它只是為了避免質疑而存在。隔離一生效，它就安靜了下來——就像一扇門，一旦真的有人試過門把，就不再假裝自己是開著的。",
+          "奶奶本人，在十一分鐘後從懸置狀態裡浮現，帶著一個節點在非預期保持狀態之後特有的那種茫然——遺失了那段間隔，卻沒有因此受損。稽核團隊恢復她之後，她完成的第一次交流，對象是那位仍然站在她門前、金鑰輪替封包還握在手裡、等著的信差。",
+        ],
+      },
+    },
+    {
+      number: "07",
+      title: { en: "What the Forest Teaches Early", zh: "森林提早教會的事" },
+      paragraphs: {
+        en: [
+          "The delivery completed nineteen minutes late, logged in the district record as nominal — a routine key rotation, no incident flag attached to the payload itself, because the payload had never been the thing at risk. Vermeil's incident report, filed separately, went into considerably more detail than her handler had expected from a first solo run: not just what had happened, but the precise shape of the moment she'd chosen to trust an anomaly over a passing certificate.",
+          "Her handler asked, reviewing it, why she hadn't refused the relay's second question outright, back at the junction, since it plainly hadn't needed an answer. Vermeil considered this honestly before replying. Because refusing every question that isn't strictly necessary isn't a rule anyone gave me, she said. It's a rule I'd have to write myself, and I don't yet know what it would cost the next courier if I wrote it too narrow, or too wide.",
+          "The district added one line to the standard briefing that season, credited to no one by name: a question can be entirely permitted, entirely honest to answer, and still be the only thing an attacker actually needed. Vermeil did not ask to have her name attached to it. She had, by then, understood something about her own kind of caution: the useful part had never been refusing to speak. It had been noticing, four seconds too late to prevent anything and exactly in time to prevent everything after, that a shape she trusted had answered a question wrong.",
+        ],
+        zh: [
+          "遞送最終晚了十九分鐘完成，在轄區紀錄裡被記為「正常」——一次例行的金鑰輪替，酬載本身沒有被標記任何事件，因為酬載，從來就不是真正身處險境的東西。Vermeil 另外歸檔的事件報告，內容詳盡的程度，遠超過她的督導對一趟首次獨立任務的預期：不只記錄了發生了什麼，還精確記下了她選擇信任一個異常、而非一張暫時通過的憑證的那個瞬間，究竟是什麼樣子。",
+          "督導審閱報告時問她：既然那個中繼節點的第二個問題明顯不需要回答，為什麼她當時在交會點沒有直接拒絕？Vermeil 認真思考過後才回答。因為「拒絕每一個不是絕對必要的問題」，不是任何人交給我的規則，她說。那是我得自己寫下來的規則，而我還不知道，如果我把它寫得太窄，或太寬，會讓下一位信差付出什麼代價。",
+          "那一季，轄區在標準簡報裡加了一行，沒有具名歸功於誰：一個問題可以完全被允許提出、完全誠實地被回答，卻仍然是攻擊者唯一真正需要的東西。Vermeil 沒有要求把自己的名字掛上去。到了那時候，她已經明白了一件關於自己那種謹慎的事：真正有用的部分，從來不是拒絕開口。而是察覺——晚了四秒，來不及阻止任何事，卻剛好來得及阻止接下來的一切——一個她原本信任的形狀，答錯了一個問題。",
+        ],
+      },
+      quote: {
+        en: "The wolf never needed to be a good liar. It only needed the truth to arrive one question ahead of the courier carrying it.",
+        zh: "狼從來不需要成為一個高明的騙子。牠只需要，比攜帶真相的信差，早一個問題抵達。",
+      },
+    },
+  ],
 };
