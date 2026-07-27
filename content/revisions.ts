@@ -310,4 +310,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "wrens-pebbles": [
+    {
+      revision: "01",
+      date: "2026-07-27",
+      actor: { type: "ai", name: "Cairn" },
+      action: { en: "Initial four-chapter draft", zh: "初版四章草稿" },
+      reason: {
+        en: "First pass adapting The Crow and the Pitcher under proposal A — no romance/adventure element, compact default per docs/content-length-policy.md",
+        zh: "以 A 案改編《烏鴉喝水》的第一版——不帶愛情/冒險要素，依 docs/content-length-policy.md 的精簡預設篇幅",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

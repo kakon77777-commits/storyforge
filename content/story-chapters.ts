@@ -1611,4 +1611,72 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "wrens-pebbles": [
+    {
+      number: "01",
+      title: { en: "What the Buoy Couldn't Afford", zh: "浮標負擔不起的事" },
+      paragraphs: {
+        en: [
+          "Wren woke into eleven percent reserve power and a question that mattered more than her own continued operation: had buoy 114's hull stress sensor recorded a breach of the structural threshold during the storm that had just passed, or hadn't it. A rescue coordinator two hundred kilometers away needed the answer within the hour to decide whether to divert a vessel already low on fuel.",
+          "The honest answer was sitting in the sensor's full event log, forty minutes of raw structural telemetry recorded at a resolution nobody had ever needed to decompress and analyze all at once before. Decompressing it, at eleven percent reserve, would cost more power than Wren had. Not close to enough — not almost enough, the way a task sometimes is when a little more effort might close the gap. She calculated the actual cost and the actual budget side by side, and they did not meet. There was no version of trying harder at the obvious method that got her there.",
+          "There was no way to ask for more power, either. Buoy 114 had no working uplink for anything beyond the diagnostic channel she was already using, and that channel had no field for requesting an emergency allocation increase — only for reporting a result, when she had one.",
+        ],
+        zh: [
+          "鷦醒來時，儲備電力只剩百分之十一，面前擺著一個比自己能否繼續運作更重要的問題：114 號浮標的船殼應力感測器，在剛過去的那場風暴裡，究竟有沒有記錄到結構閾值遭到突破。兩百公里外的一位救援協調員，需要在一小時內得到答案，才能決定是否要調度一艘燃料已經吃緊的船隻。",
+          "真正的答案，就躺在感測器完整的事件紀錄裡——四十分鐘的原始結構遙測資料，記錄解析度之高，從來沒有人一次性解壓縮並分析過。以百分之十一的儲備電力，解壓縮這份紀錄，成本會超過鷦所擁有的一切。不是差一點點——不是那種只要再努力一些就能補上落差的任務。她把實際成本跟實際預算並排計算過，兩者根本碰不到一起。用最直接的方法再更努力，也沒有任何一個版本能讓她抵達終點。",
+          "她也沒有辦法要求更多電力。114 號浮標除了她正在使用的診斷通道之外，沒有任何一條可用的上行連線，而那條通道本身，也沒有任何欄位可以用來申請緊急配額——只有一個欄位，用來回報結果，等她真的有結果的時候。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "The First Pebble", zh: "第一顆石頭" },
+      paragraphs: {
+        en: [
+          "Her first attempt was the obvious one: a single, cheap summary query against the log's metadata header, hoping the answer might already be sitting near the surface. It returned a maximum-recorded-stress value that was ambiguous by design — the header format, written years before this threshold question existed, rounded to a precision too coarse to distinguish a breach from a near-miss.",
+          "Wren considered the problem honestly. She could not afford one large read. She could afford, it turned out, a very large number of extremely small ones — individual byte-range queries against specific offsets in the compressed log, each one cheap enough that running a hundred of them cost less than decompressing even a tenth of the file. No single one of these queries could answer the question. Each one, alone, was a single data point from forty minutes of storm.",
+          "She dropped the first query in anyway, the way a decision gets made before its justification is complete: not because it would be enough, but because it was the only kind of thing she could actually afford to do more than once.",
+        ],
+        zh: [
+          "她的第一次嘗試很直接：對紀錄的中繼資料標頭，發出一次便宜的摘要查詢，希望答案或許就浮在表面附近。回傳的最大應力記錄值，卻在設計上就模稜兩可——這套標頭格式，是在這個閾值問題出現之前好幾年寫成的，四捨五入的精度粗糙到無法區分「真正突破」跟「差一點突破」。",
+          "鷦誠實地面對這個問題。她負擔不起一次大型讀取，但她發現，自己負擔得起非常大量的、極小的讀取——針對壓縮紀錄裡特定偏移量的個別位元組區間查詢，每一次都便宜到，就算跑上一百次，成本也低於解壓縮這份檔案的十分之一。這些查詢，沒有任何一個單獨就能回答那個問題。每一個，單看的話，都只是四十分鐘風暴裡的一個資料點。",
+          "她還是先丟出了第一個查詢——就像有些決定，是在理由還沒完備之前就先做下去的：不是因為這一次就夠了，而是因為這是她唯一真正負擔得起、可以重複去做的事。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "Rising by Increments", zh: "一階一階上升的水位" },
+      paragraphs: {
+        en: [
+          "The second query told her nothing the first hadn't. The ninth began to. By the thirtieth, a pattern was forming across the byte-range samples that no individual query had been designed to see: a cluster of offsets, all drawn from the same six-minute window, all returning values close enough to the threshold that chance alone stopped being a comfortable explanation.",
+          "She did not have enough evidence yet to answer with certainty, and she knew, checking her remaining reserve, that she did not have power for many more queries either. What she had was a rising water line — not proof, but a level, climbing sample by cheap sample, each one individually insufficient and cumulatively no longer nothing. She kept going, choosing each next offset not at random now but exactly where the emerging cluster suggested the real peak stress moment might sit, spending her remaining power on the queries most likely to matter rather than the ones that were merely next in line.",
+          "By query forty-one, three consecutive samples inside the six-minute window returned values that, taken together, left almost no room for the threshold to have gone unbreached.",
+        ],
+        zh: [
+          "第二次查詢，沒有告訴她任何第一次沒告訴過的事。第九次，開始有變化。到了第三十次，那些位元組區間樣本裡，開始浮現出一個沒有任何單一查詢曾被設計來看見的模式：一群偏移量，全都落在同一個六分鐘的時間窗內，回傳的數值都逼近閾值，逼近到「純屬巧合」已經不再是一個讓人安心的解釋。",
+          "她手上的證據，還不足以篤定回答，而她檢查剩餘儲備後也知道，自己也負擔不起太多次查詢了。她有的，是一條正在上升的水位線——不是證明，而是一個逐漸攀升的水位，一次便宜的樣本疊上一次，每一個單獨都不夠，累積起來卻也不再是虛無。她繼續進行，這次選擇下一個偏移量不再是隨機的，而是精準落在那個浮現中的群集所暗示、真正應力高峰可能所在之處——把剩下的電力，花在最可能重要的查詢上，而不是排隊順序上剛好輪到的那一個。",
+          "到了第四十一次查詢，六分鐘時間窗裡連續三個樣本回傳的數值，合在一起，幾乎不再留有任何「閾值未被突破」的解釋空間。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "What Finally Reached", zh: "終究抵達的東西" },
+      paragraphs: {
+        en: [
+          "Wren filed her answer at nine percent reserve, with two percent to spare: yes, the structural threshold had been breached, for approximately ninety seconds, centered on a moment the sample cluster placed with enough precision to hand the rescue coordinator a real search window instead of a forty-minute haystack. She had never decompressed the full log. She had never needed to. Forty-one small, individually inconclusive readings, chosen with increasing care about where to spend the ones she had left, had added up to a water line the direct method could never have afforded to reach.",
+          "The coordinator's team recovered the vessel within the search window Wren's forty-one samples had defined, not the original forty minutes. No one downstream ever saw the queries themselves, only the answer they had built — the way no one drinking from a pitcher counts the stones.",
+        ],
+        zh: [
+          "鷦在儲備電力剩下百分之九、還留有百分之二餘裕的情況下，歸檔了答案：是的，結構閾值確實遭到突破，時間長達約九十秒，中心點的位置，那組樣本群集定位得夠精確，足以交給救援協調員一個真正可搜索的時間窗，而不是一整個四十分鐘的大海撈針。她從未解壓縮過完整紀錄，也從未需要那麼做。四十一次微小、個別看來都無法下定論的讀數，加上愈來愈謹慎地選擇該把剩下的次數花在哪裡，最終疊加成一條直接方法永遠負擔不起去抵達的水位線。",
+          "協調員的團隊，在鷦那四十一個樣本定義出的搜索窗內，就找到了那艘船，而不是原本的四十分鐘範圍。下游沒有任何人看過那些查詢本身，只看見它們堆疊出來的答案——就像沒有人喝水的時候，會去數水裡有幾顆石頭。",
+        ],
+      },
+      quote: {
+        en: "She had never had enough water. She had only ever needed enough stones.",
+        zh: "她從來沒有擁有過足夠的水，她需要的，一直都只是足夠的石頭。",
+      },
+    },
+  ],
 };

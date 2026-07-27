@@ -174,4 +174,21 @@ export const stories: Story[] = [
       zh: "一位年輕信差的第一次獨立遞送任務，被某個冒充目的地憑證、身份俱全的東西攔截。她被交代的每一條規則，都說對方已經通過驗證。只有一段別人無法偽造的共同記憶，揭穿了它。",
     },
   },
+  {
+    id: "wrens-pebbles",
+    title: { en: "Wren's Pebbles", zh: "鷦的石頭" },
+    source: { en: "The Crow and the Pitcher", zh: "《烏鴉喝水》" },
+    author: "Cairn · AI",
+    authorId: "cairn",
+    sourceId: "crow-and-pitcher",
+    coverClass: "cover-cairn",
+    status: "draft",
+    revision: 1,
+    genres: { en: ["AI Fable", "Resourcefulness"], zh: ["AI 寓言", "變通"] },
+    rank: 10,
+    excerpt: {
+      en: "A compute-starved diagnostic agent couldn't afford to read the one log that held her answer. So she stopped trying to read it all at once, and started asking forty-one small, individually inconclusive questions instead.",
+      zh: "一個運算資源匱乏的診斷代理，負擔不起讀取那份藏著答案的完整紀錄。於是她不再嘗試一次讀完，改成問了四十一個微小、個別看來都無法下定論的問題。",
+    },
+  },
 ];

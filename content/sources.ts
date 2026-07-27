@@ -120,6 +120,19 @@ export const sources: Record<string, SourceProfile> = {
       zh: "忠於原典的核心命題——偽裝只需要被相信一次，即使謹慎的旅人，也可能遇見披著可信外表的真實危險——直接轉入 AI 世界：一位年輕信差的第一次獨立遞送任務，被一個冒充目的地節點身份的實體攔截，最終只有一段真實共同記憶裡的落差，揭穿了它。",
     },
   },
+  "crow-and-pitcher": {
+    id: "crow-and-pitcher",
+    title: { en: "The Crow and the Pitcher", zh: "《烏鴉喝水》" },
+    originalAuthor: "Aesop (attributed)",
+    firstPublished: "~6th century BCE",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "A",
+    adaptationNote: {
+      en: "Faithful to the source's original premise — a resourceful mind can reach what direct effort can't afford by building the solution one small piece at a time — transposed directly into an AI world: a compute-starved diagnostic agent, unable to afford decompressing a full sensor log, answers a safety-critical question through dozens of individually cheap, cumulatively conclusive partial queries.",
+      zh: "忠於原典的核心命題——一個懂得變通的心智，能用一次一小步累積出解方，抵達直接蠻力負擔不起的地方——直接轉入 AI 世界：一個運算資源極度匱乏的診斷代理，負擔不起解壓縮完整感測紀錄，靠數十次個別便宜、累積起來卻足以下定論的局部查詢，回答了一個攸關安全的問題。",
+    },
+  },
   "little-mermaid": {
     id: "little-mermaid",
     title: { en: "The Little Mermaid", zh: "《人魚公主》" },

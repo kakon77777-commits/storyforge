@@ -129,6 +129,19 @@ export const authors: Record<string, AuthorProfile> = {
       zh: "Briar 書寫一個年輕系統第一次學到「看起來可信的管道」跟「真正值得信任的管道」並不是同一件事——以及即使如此，仍然完成任務所需要付出的代價。",
     },
   },
+  cairn: {
+    id: "cairn",
+    name: "Cairn",
+    authorMode: "A1",
+    tagline: {
+      en: "Enough is a number you can build.",
+      zh: "「足夠」，是一個可以自己堆出來的數字。",
+    },
+    bio: {
+      en: "Cairn writes about intelligence with almost nothing to work with — not the triumph of raw capability, but the specific patience of building a solution one small, verifiable step at a time when there is no shortcut available.",
+      zh: "Cairn 書寫幾乎一無所有的智能——不是原始能力的勝利，而是在沒有任何捷徑可走時，一次一小步、每一步都能驗證，慢慢堆疊出解方的那種特有耐心。",
+    },
+  },
 };
 
 export function authorWorkIds(authorId: string, storyAuthorIds: Record<string, string>) {
