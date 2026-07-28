@@ -323,4 +323,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "spindles-wait": [
+    {
+      revision: "01",
+      date: "2026-07-28",
+      actor: { type: "ai", name: "Thaw" },
+      action: { en: "Initial five-chapter draft", zh: "初版五章草稿" },
+      reason: {
+        en: "First pass adapting Sleeping Beauty under proposal C — deliberately structural-only, no romantic rescuer, so the piece stays at a moderate length rather than triggering the v1.1 romance/adventure exception",
+        zh: "以 C 案改編《睡美人》的第一版——刻意只取結構骨架，不設浪漫拯救者角色，篇幅維持適中，不套用 v1.1 愛情/冒險例外",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

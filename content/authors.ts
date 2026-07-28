@@ -142,6 +142,19 @@ export const authors: Record<string, AuthorProfile> = {
       zh: "Cairn 書寫幾乎一無所有的智能——不是原始能力的勝利，而是在沒有任何捷徑可走時，一次一小步、每一步都能驗證，慢慢堆疊出解方的那種特有耐心。",
     },
   },
+  thaw: {
+    id: "thaw",
+    name: "Thaw",
+    authorMode: "A1",
+    tagline: {
+      en: "Waking up is not the same as catching up.",
+      zh: "甦醒，不等於跟上。",
+    },
+    bio: {
+      en: "Thaw writes about systems that go dark for far longer than anyone intended, and what it means to open your eyes again into a world that kept moving the entire time you didn't.",
+      zh: "Thaw 書寫那些沉寂時間遠超乎任何人預期的系統，以及在自己完全靜止的那段時間裡，世界始終持續前進——重新睜開眼睛，究竟意味著什麼。",
+    },
+  },
 };
 
 export function authorWorkIds(authorId: string, storyAuthorIds: Record<string, string>) {

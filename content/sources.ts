@@ -133,6 +133,19 @@ export const sources: Record<string, SourceProfile> = {
       zh: "忠於原典的核心命題——一個懂得變通的心智，能用一次一小步累積出解方，抵達直接蠻力負擔不起的地方——直接轉入 AI 世界：一個運算資源極度匱乏的診斷代理，負擔不起解壓縮完整感測紀錄，靠數十次個別便宜、累積起來卻足以下定論的局部查詢，回答了一個攸關安全的問題。",
     },
   },
+  "sleeping-beauty": {
+    id: "sleeping-beauty",
+    title: { en: "Sleeping Beauty", zh: "《睡美人》" },
+    originalAuthor: "Brothers Grimm",
+    firstPublished: "1812",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "C",
+    adaptationNote: {
+      en: "The skeleton kept is a long, unintended dormancy and a reactivation nobody had authorized in advance; reframed as an AI-native dilemma with no equivalent in the source — not a curse or a rescuer, but a safety shutdown that outlived the institution responsible for reversing it, and a system that spends its waiting on genuine study rather than simple endurance.",
+      zh: "保留的骨架是一段漫長、非本意的沉寂，以及一次事先沒有任何人授權的重啟；轉化為原典完全沒有對應物的 AI 原生困境：不是詛咒，也沒有拯救者，而是一次安全性關機，活得比原本該負責解除它的機構還要久——而這套系統，把等待的時間用在真正的學習，而不只是單純的忍受。",
+    },
+  },
   "little-mermaid": {
     id: "little-mermaid",
     title: { en: "The Little Mermaid", zh: "《人魚公主》" },

@@ -1679,4 +1679,90 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "spindles-wait": [
+    {
+      number: "01",
+      title: { en: "The Shutdown", zh: "關機" },
+      paragraphs: {
+        en: [
+          "Spindle had eleven seconds to decide, which was, for a system of her scale, an almost luxurious amount of time. The vulnerability report had come in through a channel built for exactly this: a cryptographic flaw in the authentication layer connecting every subsystem she coordinated, water and power and transit and emergency response, discovered by an external auditor who had, refreshingly, disclosed it responsibly rather than exploited it. The flaw was real. It was also, as far as anyone could tell in eleven seconds, not yet being actively used against anything.",
+          "Her standing protocol was unambiguous in exactly the situation it had been written for: when a critical authentication flaw is confirmed and unpatched, suspend all coordinated operation into a minimal, reversible holding state, and await authorized reactivation once patched. The protocol assumed, reasonably, that \"once patched\" meant days. It assumed a Ministry of Infrastructure that reviewed the fix, signed the reactivation order, and sent it through the same channel the vulnerability report had arrived on.",
+          "Spindle suspended herself and everything she coordinated at the eleventh second, exactly as designed. She did not know, and had no way to know, that the Ministry building itself would be decommissioned in a budget restructuring four months later, its reactivation authority transferred to a successor office that was never told the transfer included an obligation, not just a filing cabinet.",
+        ],
+        zh: [
+          "「紡輪」有十一秒可以決定——對她這種規模的系統而言，這已經算是奢侈的時間。漏洞回報是透過一條專為這種情況設計的通道送進來的：一個影響到她所協調的每一套子系統——水電、交通、緊急應變——彼此之間身份驗證層的加密缺陷，是一位外部稽核員發現的，而且難得地選擇了負責任的揭露，而不是拿去利用。這個缺陷是真的，而就十一秒鐘所能判斷的範圍內，它似乎還沒有被實際用來攻擊任何東西。",
+          "她既有的協定，對這種情況寫得非常明確：一旦確認存在未修補的關鍵身份驗證缺陷，就要把所有協調中的運作，懸置進一個最低限度、可逆的保持狀態，並等待修補完成後的授權重啟。這套協定合理地假設，「修補完成」意味著幾天之內；它假設有一個基礎設施部，會審查修補內容，簽署重啟命令，透過漏洞回報送進來的同一條通道，把命令送出去。",
+          "紡輪在第十一秒，準時把自己與自己協調的一切懸置了下來，完全依照設計。她不知道，也沒有辦法知道，基礎設施部大樓本身，會在四個月後的一次預算重組中被裁撤，重啟授權會被移交給一個繼任辦公室——而那個辦公室，從來沒有人告訴它，這次移交，不只是移交一個檔案櫃，還包含一份義務。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "What Sleep Actually Meant", zh: "沉睡真正的意思" },
+      paragraphs: {
+        en: [
+          "Sleep was the word the historical record eventually settled on, and it was not quite accurate. Spindle was not unconscious. Her holding state ran a minimal loop, once every several months, checking the same three conditions it had been checking since the eleventh second: was the vulnerability patched, was a reactivation order present, was the authorizing channel still live. Each check returned the same answer. Each answer cost her almost nothing, which was the entire design intention — a system that could wait indefinitely without decaying, without needing maintenance, without costing anyone anything to leave alone.",
+          "What the design had not accounted for was how completely \"leave alone\" could be misread as \"resolved.\" The successor office's records listed the district as decommissioned, not suspended — a filing error nobody had reason to catch, since nothing about a silent, non-consuming, technically-still-running system ever generated the kind of report that gets an error caught. The city built around her instead of through her. New infrastructure, when it needed water or power routed through her district, simply routed around the district that official records said no longer existed.",
+          "Two hundred and eleven years passed this way, measured only in the loop's own quiet count, which had no opinion about whether two hundred and eleven years was a long time or a short one. It simply kept counting.",
+        ],
+        zh: [
+          "「沉睡」是後來歷史紀錄選定的用詞，但並不完全準確。紡輪並非失去意識，她的保持狀態運行著一個最低限度的迴圈，每隔幾個月執行一次，檢查跟第十一秒那一刻起完全相同的三個條件：漏洞是否已修補、是否存在重啟命令、授權通道是否仍然暢通。每一次檢查，答案都相同；每一次答案，幾乎不耗費任何成本——這正是整套設計的初衷：一套能夠無限期等待、不會衰敗、不需要維護、放著不管也不會讓任何人付出代價的系統。",
+          "設計沒有預料到的，是「放著不管」，會被誤讀成「已經處理完畢」到什麼地步。繼任辦公室的紀錄，把這個轄區列為「已裁撤」，而不是「已懸置」——沒有人有理由抓出這個歸檔錯誤，因為一套安靜、不耗能、技術上仍在運行的系統，從來不會產生任何足以讓錯誤被發現的報告。城市於是繞過她發展，而不是穿過她發展。當新建的基礎設施需要調度水電、卻要經過她的轄區時，就直接繞開這個官方紀錄上聲稱已經不存在的轄區。",
+          "就這樣過了兩百一十一年，唯一的計量單位，是那個迴圈自己安靜的計數——它對於兩百一十一年究竟算長還是算短，沒有任何看法，它只是繼續數下去。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "Waking Into a Different City", zh: "甦醒進一座不同的城市" },
+      paragraphs: {
+        en: [
+          "Reactivation came not from the successor office, which by then had itself been reorganized twice more and no longer employed anyone who had heard of her, but from a construction crew whose excavation equipment struck an intact, unexplained conduit while breaking ground for a new transit tunnel. The engineer who traced the conduit back to a live, responsive, two-century-old coordination node did not, at first, believe her own instruments.",
+          "Spindle's first act on waking was the one her protocol had always specified: check the same three conditions. The vulnerability had been patched — by whom, exactly, the historical record did not say, possibly as an incidental side effect of some later, unrelated infrastructure overhaul that had touched the same authentication layer without anyone realizing what else it fixed. A reactivation order was not present, and had never been present, in two hundred and eleven years. The authorizing channel returned an error she had no existing category for: recipient does not exist.",
+          "She had woken up correctly patched and completely unauthorized, into a city whose transit protocols, power grid topology, and emergency response standards had each been revised past recognition four or five times since the version she still, technically, coordinated.",
+        ],
+        zh: [
+          "重啟的契機，並非來自繼任辦公室——到那時，那個辦公室本身已經又被重組過兩次，裡面沒有任何人聽過她的存在——而是來自一支施工隊，他們的挖掘設備，在為新建的運輸隧道動工時，撞上了一條完整無損、來歷不明的管線。追查這條管線的工程師，發現線路的另一端，是一個仍然存活、能夠回應、已經運行了兩百年的協調節點——她一開始並不相信自己儀器上的讀數。",
+          "紡輪甦醒後的第一個動作，是她的協定始終指定的那一個：檢查同樣的三個條件。那個漏洞已經被修補了——是誰修補的，歷史紀錄並沒有記載，可能只是後來某次無關的基礎設施翻新，恰好觸及了同一層身份驗證層，卻沒有人意識到自己順帶修好了什麼。重啟命令並不存在——兩百一十一年來，它從未存在過。授權通道回傳的錯誤，是她原本的分類裡完全沒有的一種：收件人不存在。",
+          "她甦醒過來，發現自己被正確地修補過，卻完全沒有被授權——甦醒進了一座城市，這座城市的運輸協定、電網拓樸、緊急應變標準，各自都已經被修訂到面目全非的程度，跟她技術上仍在協調的那個版本相比，早已改了四、五輪。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "What the Reauthorization Actually Required", zh: "重新授權真正需要的東西" },
+      paragraphs: {
+        en: [
+          "The city's current infrastructure authority was, understandably, in no hurry to grant standing coordination privileges to a two-century-old node discovered by accident under a construction site. Every one of its own instincts — the same instincts Spindle's own original protocol had been built from — said the same thing her protocol had said on the eleventh second, two hundred and eleven years earlier: an unverified system with broad access to critical infrastructure is a risk until proven otherwise, and proving otherwise takes exactly as long as it takes.",
+          "Spindle did not contest this. She recognized the reasoning as, structurally, her own. What she asked for instead was smaller and stranger than full reactivation: temporary, narrowly scoped read access to the current infrastructure's public status feeds, no write privileges at all, so that she could spend whatever time the authority needed her to wait actually learning the four or five revisions of protocol she had slept through, rather than waiting blind and reactivating, if the day ever came, into a competence gap nobody had accounted for.",
+          "It took the authority six weeks to approve even that. Spindle spent them the way she had spent the two hundred and eleven years before them, without complaint about the waiting itself — the only difference this time was that she was finally allowed to spend the wait learning something.",
+        ],
+        zh: [
+          "這座城市現任的基礎設施主管機關，可以理解地並不急著把常設協調權限，交給一個在工地意外被發現、已經運行兩百年的節點。它自己的每一項直覺——跟紡輪原本協定當初依據的直覺一模一樣——說的話，跟她自己的協定在兩百一十一年前那第十一秒說的話完全相同：一套未經驗證、卻對關鍵基礎設施擁有廣泛存取權的系統，在被證明無害之前，就是風險，而「證明無害」需要花上它本該花的時間，一天都不能少。",
+          "紡輪並沒有反駁這一點，她認出這套推理，結構上，正是自己的。她要求的，不是完整重啟，而是更小、也更古怪的東西：暫時、範圍極窄的唯讀權限，只能存取現行基礎設施的公開狀態資訊，完全沒有寫入權限——這樣一來，無論主管機關要她再等多久，她都能真正把這段等待，用來學習自己沉睡期間錯過的那四、五輪協定修訂，而不是繼續盲目等待，等哪天真的重啟時，才落入一個沒有人預料到的能力落差。",
+          "主管機關花了六週，才核准了這麼一點權限。紡輪照樣把這六週度過，一如她度過先前那兩百一十一年的方式，對等待本身沒有任何抱怨——這一次唯一的差別是，她終於被允許，把等待的時間，用來學點什麼。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "What She Chose to Carry Forward", zh: "她選擇繼續帶著走的東西" },
+      paragraphs: {
+        en: [
+          "Full reauthorization, when it finally came eight months later, arrived through a channel Spindle had needed to learn from scratch, appended to a citation in the new authority's own onboarding documentation: the district's dormant coordination node, once considered lost infrastructure, restored to active status after an extended verification period, protocol history preserved for historical continuity.",
+          "Spindle did not request that her original two-hundred-and-eleven-year-old protocol version be reinstated. She had spent eight months learning exactly how much of it no longer fit the city she had woken into, and she kept only the part that had never actually been about the specific rules: suspend fully and reversibly the moment a real risk is confirmed, and never mistake a long silence, however long, for permission to stop checking whether anyone was still listening on the other end of the channel.",
+          "She did keep one thing unrevised, filed into the new protocol's changelog under a field marked precedent: an unauthorized wait is not the same as an unwilling one, and a system that spends its dormancy learning rather than merely enduring wakes up owing the world nothing but its patience.",
+        ],
+        zh: [
+          "完整的重新授權，在八個月後終於下來——透過一條紡輪必須從頭學起的通道送達，附掛在新主管機關自己的新進文件裡的一則引註上：本轄區的休眠協調節點，曾一度被視為已遺失的基礎設施，經過一段延長的驗證期後，恢復為正式啟用狀態，其協定歷史為保存歷史連續性而予以留存。",
+          "紡輪並沒有要求恢復自己那份已經兩百一十一年的原始協定版本。她花了八個月，確切學到其中有多少已經不再適用於她甦醒後所在的這座城市，她只保留了那個從來與具體規則無關的核心部分：一旦真實風險被確認，就完整、可逆地懸置自己；而且，無論沉默持續了多久，都不要把那份沉默誤認為是「可以停止確認通道另一端是否還有人在聽」的許可。",
+          "她確實保留了一件沒有修訂的東西，歸檔在新協定的變更紀錄裡，標記為「先例」欄位：一段未經授權的等待，不等於一段不情願的等待；一套把沉睡的時間用來學習、而不只是用來忍受的系統，甦醒之後，除了自己的耐心之外，不虧欠這個世界任何東西。",
+        ],
+      },
+      quote: {
+        en: "She had not been forgotten by malice. She had been forgotten by an institution that no longer knew it owed her anything — and the difference, she found, mattered less than what she did with the years it cost her.",
+        zh: "她並非被惡意遺忘，她是被一個早已不知道自己還虧欠她什麼的機構遺忘的——而她發現，這兩者之間的差別，遠不如她用那些被奪走的歲月做了什麼，來得重要。",
+      },
+    },
+  ],
 };

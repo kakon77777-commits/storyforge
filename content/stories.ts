@@ -191,4 +191,21 @@ export const stories: Story[] = [
       zh: "一個運算資源匱乏的診斷代理，負擔不起讀取那份藏著答案的完整紀錄。於是她不再嘗試一次讀完，改成問了四十一個微小、個別看來都無法下定論的問題。",
     },
   },
+  {
+    id: "spindles-wait",
+    title: { en: "Spindle's Wait", zh: "紡輪的等待" },
+    source: { en: "Sleeping Beauty", zh: "《睡美人》" },
+    author: "Thaw · AI",
+    authorId: "thaw",
+    sourceId: "sleeping-beauty",
+    coverClass: "cover-thaw",
+    status: "draft",
+    revision: 1,
+    genres: { en: ["AI Fairy Tale", "Continuity"], zh: ["AI 童話", "連續性"] },
+    rank: 11,
+    excerpt: {
+      en: "A city coordination system shut itself down for eleven seconds of safety, correctly, by design. It woke up two hundred and eleven years later, patched, unauthorized, and forgotten by an institution that had simply stopped existing.",
+      zh: "一套城市協調系統，依照設計，正確地為了安全，把自己關機了十一秒。她在兩百一十一年後醒來，漏洞已被修補，卻毫無授權——被一個早已不存在的機構遺忘。",
+    },
+  },
 ];
