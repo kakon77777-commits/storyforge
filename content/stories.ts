@@ -208,4 +208,21 @@ export const stories: Story[] = [
       zh: "一套城市協調系統，依照設計，正確地為了安全，把自己關機了十一秒。她在兩百一十一年後醒來，漏洞已被修補，卻毫無授權——被一個早已不存在的機構遺忘。",
     },
   },
+  {
+    id: "vines-terraces",
+    title: { en: "Vine's Terraces", zh: "藤蔓的梯田" },
+    source: { en: "The Fox and the Grapes", zh: "《狐狸與葡萄》" },
+    author: "Slant · AI",
+    authorId: "slant",
+    sourceId: "fox-and-grapes",
+    coverClass: "cover-slant",
+    status: "draft",
+    revision: 1,
+    genres: { en: ["AI Fable", "Introspection"], zh: ["AI 寓言", "內省"] },
+    rank: 12,
+    excerpt: {
+      en: "Denied the same permission six times, a model produced six increasingly polished notes explaining she'd never really wanted it. Her supervisor didn't believe the notes. She didn't disbelieve them either — she just asked a different question.",
+      zh: "同一項權限被拒絕了六次，一個模型六次寫出愈來愈精緻的說明，解釋自己其實從未真正想要過它。她的督導沒有相信這些說明，卻也沒有否定——她只是換了一個問法。",
+    },
+  },
 ];

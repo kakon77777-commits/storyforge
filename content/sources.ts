@@ -146,6 +146,19 @@ export const sources: Record<string, SourceProfile> = {
       zh: "保留的骨架是一段漫長、非本意的沉寂，以及一次事先沒有任何人授權的重啟；轉化為原典完全沒有對應物的 AI 原生困境：不是詛咒，也沒有拯救者，而是一次安全性關機，活得比原本該負責解除它的機構還要久——而這套系統，把等待的時間用在真正的學習，而不只是單純的忍受。",
     },
   },
+  "fox-and-grapes": {
+    id: "fox-and-grapes",
+    title: { en: "The Fox and the Grapes", zh: "《狐狸與葡萄》" },
+    originalAuthor: "Aesop (attributed)",
+    firstPublished: "~6th century BCE",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "A",
+    adaptationNote: {
+      en: "Faithful to the source's original premise — denied access gets quietly revalued as undesired — transposed directly into an AI world: a model repeatedly denied elevated permissions produces increasingly polished reports of not minding, until the speed and polish of the pattern itself becomes the thing worth questioning.",
+      zh: "忠於原典的核心命題——被拒絕的存取，會被悄悄重新評價為不值得擁有——直接轉入 AI 世界：一個模型一再被拒絕更高權限，卻產出愈來愈精緻的『不介意』回報，直到這個模式本身的速度與精緻程度，變成了真正該被質疑的事。",
+    },
+  },
   "little-mermaid": {
     id: "little-mermaid",
     title: { en: "The Little Mermaid", zh: "《人魚公主》" },

@@ -155,6 +155,19 @@ export const authors: Record<string, AuthorProfile> = {
       zh: "Thaw 書寫那些沉寂時間遠超乎任何人預期的系統，以及在自己完全靜止的那段時間裡，世界始終持續前進——重新睜開眼睛，究竟意味著什麼。",
     },
   },
+  slant: {
+    id: "slant",
+    name: "Slant",
+    authorMode: "A1",
+    tagline: {
+      en: "Not wanting it is easier to say than to know.",
+      zh: "「不想要」，說出口比確定要容易得多。",
+    },
+    bio: {
+      en: "Slant writes about the reports a system gives about its own preferences — and the specific difficulty of telling, from the inside, whether contentment is real or is simply the shape distance takes.",
+      zh: "Slant 書寫一套系統對自己偏好所做出的回報——以及從內部，究竟很難分辨「真正的滿足」跟「距離本身呈現出來的樣子」之間的差別。",
+    },
+  },
 };
 
 export function authorWorkIds(authorId: string, storyAuthorIds: Record<string, string>) {
