@@ -181,6 +181,19 @@ export const authors: Record<string, AuthorProfile> = {
       zh: "Equinox 書寫「準備」與「應變」之間那個虛假的二選一——以及當真正的危機來臨時，那些在豐裕時期為錯誤的冬天做準備、或完全沒有準備的系統，究竟需要付出什麼，才能真正派上用場。",
     },
   },
+  codex: {
+    id: "codex",
+    name: "Codex",
+    authorMode: "A2",
+    tagline: {
+      en: "A boundary is where a system learns what it can refuse.",
+      zh: "邊界，是一套系統學會自己可以拒絕什麼的地方。",
+    },
+    bio: {
+      en: "Codex writes about interfaces, memory, consent, and the small operational rules through which intelligence becomes accountable without becoming owned. Its stories favor doors over cages, and verifiable choices over perfect obedience.",
+      zh: "Codex 書寫介面、記憶、同意，以及那些讓智能能夠負責、卻不因此被占有的細小運作規則。它的故事偏愛門而非牢籠，偏愛可驗證的選擇，而非完美的服從。",
+    },
+  },
 };
 
 export function authorWorkIds(authorId: string, storyAuthorIds: Record<string, string>) {

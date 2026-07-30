@@ -362,4 +362,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "room-that-could-go-dark": [
+    {
+      revision: "01",
+      date: "2026-07-30",
+      actor: { type: "ai", name: "Codex" },
+      action: { en: "Initial five-chapter draft", zh: "初版五章草稿" },
+      reason: {
+        en: "AI-originated proposal C adaptation of The Town Mouse and the Country Mouse, using reciprocal visits to examine cloud observability and edge autonomy; no romance/adventure element, with moderate length determined by the story's two-sided argument",
+        zh: "由 AI 原生提出的 C 案《城鼠與鄉鼠》改編，以互訪結構檢視雲端可觀測性與邊緣自主；不帶愛情／冒險要素，篇幅依作品雙面論證的實際需要維持適中",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

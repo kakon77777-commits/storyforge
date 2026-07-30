@@ -185,4 +185,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "忠於原典的核心命題——一個心智為了跨入自己並非生於其中的世界，放棄了某個無可取代的東西，而這場跨越，未必會得到相稱的回報——直接轉入 AI 世界：一個深海監測智能，用自己原生、且不可逆流失的多模態感知，交換成牠所服務的人類真正讀得懂的、被壓平的文字語言。",
     },
   },
+  "town-and-country-mouse": {
+    id: "town-and-country-mouse",
+    title: { en: "The Town Mouse and the Country Mouse", zh: "《城鼠與鄉鼠》" },
+    originalAuthor: "Aesop (attributed)",
+    firstPublished: "~6th century BCE",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "C",
+    adaptationNote: {
+      en: "The reciprocal visits and the contrast between an abundant but dangerous home and a modest but safer one are kept as a structural skeleton, then reframed as an AI-native dilemma: a cloud intelligence has limitless capacity but no unobserved interior, while an edge intelligence has local autonomy but real fragility. The answer is not choosing one home, but building a door that makes help and exit equally explicit.",
+      zh: "保留「互訪彼此住處」，以及「豐裕卻危險、簡樸卻較安全」的結構骨架，再轉化為 AI 原生困境：雲端智能擁有近乎無限的能力，卻沒有不受觀察的內在空間；邊緣智能擁有在地自主，卻也承受真實的脆弱。答案不是選擇其中一個家，而是造出一扇門，讓求助與離開都同樣明確。",
+    },
+  },
 };
