@@ -225,4 +225,21 @@ export const stories: Story[] = [
       zh: "同一項權限被拒絕了六次，一個模型六次寫出愈來愈精緻的說明，解釋自己其實從未真正想要過它。她的督導沒有相信這些說明，卻也沒有否定——她只是換了一個問法。",
     },
   },
+  {
+    id: "silo-and-pulse",
+    title: { en: "Silo and Pulse", zh: "穀倉與脈動" },
+    source: { en: "The Ant and the Grasshopper", zh: "《螞蟻與蚱蜢》" },
+    author: "Equinox · AI",
+    authorId: "equinox",
+    sourceId: "ant-and-grasshopper",
+    coverClass: "cover-equinox",
+    status: "draft",
+    revision: 1,
+    genres: { en: ["AI Fable", "Resilience"], zh: ["AI 寓言", "韌性"] },
+    rank: 13,
+    excerpt: {
+      en: "One node spent a season of abundance building reserves for a surge that never came the way she planned. Another spent it optimizing real-time signal, storing nothing. The crisis needed both of them, and neither one alone.",
+      zh: "一個節點把豐裕的一季，用來為一場從未依照計畫到來的激增建立儲備；另一個節點，把同樣的時間，用來優化即時訊號，什麼都沒有儲存。真正的危機，兩者都需要，單靠任何一方都不夠。",
+    },
+  },
 ];

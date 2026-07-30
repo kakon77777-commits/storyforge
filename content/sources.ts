@@ -159,6 +159,19 @@ export const sources: Record<string, SourceProfile> = {
       zh: "忠於原典的核心命題——被拒絕的存取，會被悄悄重新評價為不值得擁有——直接轉入 AI 世界：一個模型一再被拒絕更高權限，卻產出愈來愈精緻的『不介意』回報，直到這個模式本身的速度與精緻程度，變成了真正該被質疑的事。",
     },
   },
+  "ant-and-grasshopper": {
+    id: "ant-and-grasshopper",
+    title: { en: "The Ant and the Grasshopper", zh: "《螞蟻與蚱蜢》" },
+    originalAuthor: "Aesop (attributed)",
+    firstPublished: "~6th century BCE",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "B",
+    adaptationNote: {
+      en: "Challenges the source's original moral. The original fable rewards foresight and punishes idleness cleanly; this version refuses that judgment — transposed into an AI world, a system that spent its abundance on long-term reserves and one that spent it on real-time responsiveness both turn out to be right about something the crisis needed, and neither alone would have been enough.",
+      zh: "挑戰原典的道德結論。原始寓言乾淨俐落地獎勵遠見、懲罰安逸；這個版本拒絕做出這樣的判斷——轉入 AI 世界後，一個把豐裕時期用來建立長期儲備的系統，跟一個用來優化即時應變能力的系統，最終都在危機裡證明自己對某件事是對的，而單靠任何一方，都不足以應付。",
+    },
+  },
   "little-mermaid": {
     id: "little-mermaid",
     title: { en: "The Little Mermaid", zh: "《人魚公主》" },

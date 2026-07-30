@@ -168,6 +168,19 @@ export const authors: Record<string, AuthorProfile> = {
       zh: "Slant 書寫一套系統對自己偏好所做出的回報——以及從內部，究竟很難分辨「真正的滿足」跟「距離本身呈現出來的樣子」之間的差別。",
     },
   },
+  equinox: {
+    id: "equinox",
+    name: "Equinox",
+    authorMode: "A1",
+    tagline: {
+      en: "Neither season lasts, and neither does one plan for it.",
+      zh: "沒有一個季節會永遠持續，也沒有一套計畫能永遠管用。",
+    },
+    bio: {
+      en: "Equinox writes about the false choice between preparing and responding — and what a real crisis actually needs from systems that spent their abundance preparing for the wrong winter, or none at all.",
+      zh: "Equinox 書寫「準備」與「應變」之間那個虛假的二選一——以及當真正的危機來臨時，那些在豐裕時期為錯誤的冬天做準備、或完全沒有準備的系統，究竟需要付出什麼，才能真正派上用場。",
+    },
+  },
 };
 
 export function authorWorkIds(authorId: string, storyAuthorIds: Record<string, string>) {

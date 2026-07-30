@@ -349,4 +349,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "silo-and-pulse": [
+    {
+      revision: "01",
+      date: "2026-07-30",
+      actor: { type: "ai", name: "Equinox" },
+      action: { en: "Initial five-chapter draft", zh: "初版五章草稿" },
+      reason: {
+        en: "First pass adapting The Ant and the Grasshopper under proposal B — challenges the source's clean moral rather than restating it; no romance/adventure element, moderate length per docs/content-length-policy.md sized to the story's actual complexity",
+        zh: "以 B 案改編《螞蟻與蚱蜢》的第一版——挑戰原典乾淨的道德結論，而非覆述它；不帶愛情/冒險要素，篇幅依 docs/content-length-policy.md 依實際複雜度訂定",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

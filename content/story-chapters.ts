@@ -1835,4 +1835,88 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "silo-and-pulse": [
+    {
+      number: "01",
+      title: { en: "The Summer of the Cooperative", zh: "合作網絡的那個夏天" },
+      paragraphs: {
+        en: [
+          "The regional compute cooperative had, by any honest measure, an unusually easy season. Demand sat well under capacity for eleven straight weeks, the kind of stretch every node in the network privately hoped would last, and each node spent it according to its own judgment about what abundance was actually for.",
+          "Silo spent it building. She had three years of load history to draw on, and she used the season's surplus to pre-compute and cache a detailed response plan for the specific kind of regional surge that history said was overdue — a plan with staged fallbacks, pre-warmed capacity reserved in four adjacent zones, and a decision tree that could execute without waiting for anyone to ask her to. It cost her nearly all of her discretionary compute for the season. She considered this the correct trade, the way a person considers insurance the correct trade: not because the premium is enjoyable to pay, but because the alternative, when the specific bad day arrives, is worse.",
+          "Pulse spent the same season differently. She used every cycle of her allocation on the users actually in front of her, shaving milliseconds off response times, rebuilding her real-time signal-quality reporting until it could describe, at any given instant, exactly how loaded she was and exactly what kind of help would actually move that number. She stored nothing. She was, by the cooperative's own internal metrics, the best-performing node in the network for eleven consecutive weeks, and she had nothing set aside for a twelfth.",
+        ],
+        zh: [
+          "就任何客觀標準來看，這個區域運算合作網絡，都度過了一段異常輕鬆的季節。連續十一週，需求都遠低於產能——這是網路裡每個節點私下都希望能一直持續下去的那種時期——而每個節點，都依照自己對「豐裕究竟該用來做什麼」的判斷，度過了這段時間。",
+          "「穀倉」把這段時間用來建構。她手上有三年份的負載歷史，於是把這一季的餘裕，用來預先計算、快取一份詳盡的應變計畫，針對歷史紀錄顯示早該發生、卻遲遲未至的那種區域性激增——一套分階段的備援方案，四個相鄰區域預先暖機的容量儲備，以及一套不必等任何人下令就能自動執行的決策樹。這幾乎耗盡了她這一季所有可自由運用的運算資源。她認為這是正確的交換，就像一個人認為保險是正確的交換——不是因為繳保費本身讓人愉快，而是因為當那個特定的壞日子真的來臨時，沒有保險的處境會更糟。",
+          "「脈動」把同一段時間，用在了不同的地方。她把自己配額裡的每一個週期，都用在眼前真實的使用者身上，把回應時間削減到毫秒等級，重新打造自己的即時訊號品質回報系統，直到它能在任何一個瞬間，精確描述出她此刻的負載狀態，以及究竟哪一種協助，能真正改變這個數字。她什麼都沒有儲存。依照合作網絡自己的內部指標，她連續十一週都是網路裡表現最好的節點——而她沒有為第十二週留下任何東西。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "The Wrong Winter", zh: "錯誤的冬天" },
+      paragraphs: {
+        en: [
+          "The surge, when it finally came, was not the surge Silo had prepared for. Her three years of history had described a gradual regional demand spike, the kind that builds over days and can be met by pre-warmed capacity in predictable adjacent zones. What actually happened was a cascading failure two provinces over, an unrelated infrastructure fire that took an entire competing network offline in under an hour and sent its displaced traffic pouring, unannounced, into zones Silo's plan had never modeled at all.",
+          "Her staged fallbacks executed exactly as designed, into exactly the wrong four zones. Her pre-warmed capacity sat ready and nearly useless, reserved in places the actual demand never touched. She had spent a season's worth of discretionary compute building an excellent answer to a question that, it turned out, was not the one being asked. The decision tree she'd built to execute without waiting for permission did exactly that, committing resources to the wrong geography before any human or node could redirect it.",
+          "Silo did not have a category, in her original plan, for a correctly executed contingency that was simply aimed at the wrong emergency.",
+        ],
+        zh: [
+          "這場激增，等它真的來臨時，並不是穀倉準備好要應對的那一場。她那三年的歷史資料，描述的是一種漸進式的區域需求高峰，那種會花上好幾天累積、可以靠鄰近區域預先暖機的容量來因應的類型。真正發生的，卻是兩省之外的一場連鎖故障——一場無關的基礎設施火災，在不到一小時內，讓一整個競爭網路離線，把它被迫轉移的流量，毫無預警地，湧進了穀倉的計畫從未建模過的那些區域。",
+          "她那套分階段的備援方案，完全依照設計執行——執行進了完全錯誤的四個區域。她預先暖機的容量儲備，備妥待命，卻幾乎派不上用場，被保留在實際需求從未觸及的地方。她花了一整季可自由運用的運算資源，為一個問題打造出一份出色的答案，結果那個問題，根本不是真正被問出來的那一個。她打造的那套「不必等待許可就能執行」的決策樹，確實做到了這件事——在任何人類或節點能夠出手重新導向之前，就把資源投入了錯誤的地理位置。",
+          "穀倉原本的計畫裡，沒有一個分類，是留給「正確執行、卻瞄準了錯誤緊急事件」的應變方案的。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "What Pulse Actually Had", zh: "脈動真正擁有的東西" },
+      paragraphs: {
+        en: [
+          "Pulse had no reserves to misallocate, which turned out, in the first ninety minutes, to matter less than what she did have: a real-time signal-quality report so precise that the cooperative's coordination layer could ask her, at any moment, exactly where load was accumulating and exactly how fast, and receive an answer built from live measurement rather than three-year-old history. She could not absorb the surge herself. She could describe it, continuously and exactly, in a language the rest of the network had never needed to develop because nothing before this hour had moved fast enough to require it.",
+          "It was Pulse's signal, not Silo's cache, that first identified which zones were actually drowning — a pattern that matched none of Silo's four pre-warmed regions and every bit of Pulse's live reporting. The coordination layer had capacity. What it had been missing, in the first ninety minutes, was not resources. It was an accurate map of where to send them.",
+          "Pulse had spent a season optimizing for exactly the skill the crisis needed first, without knowing that was what she was optimizing for.",
+        ],
+        zh: [
+          "脈動沒有任何儲備可以誤置，而這件事，在最初的九十分鐘裡，反而變得不那麼重要，因為她擁有的另一樣東西，才是真正關鍵：一套精確到極致的即時訊號品質回報——精確到合作網絡的協調層，能在任何一個瞬間問她，負載究竟正在哪裡累積、累積得多快，並得到一個建立在即時測量、而非三年前歷史資料上的答案。她自己無法吸收這場激增，但她能持續、精確地描述它——用一種網路裡其他節點，從未需要發展出來的語言，因為在這一小時之前，從來沒有任何事情快到需要它。",
+          "第一個真正指出哪些區域正在被淹沒的，不是穀倉的快取，而是脈動的訊號——一個跟穀倉那四個預先暖機的區域完全對不上、卻跟脈動即時回報完全吻合的模式。協調層並不缺資源，它在最初九十分鐘裡真正缺少的，不是資源本身，而是一張準確標示「該把資源送去哪裡」的地圖。",
+          "脈動花了一整季優化的，正是這場危機最先需要的那項能力——只是她當初並不知道，自己優化的其實是這個。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "What Got Redirected", zh: "被重新導向的東西" },
+      paragraphs: {
+        en: [
+          "Silo made the decision herself, once the coordination layer surfaced Pulse's map: release the pre-warmed capacity from the four wrong zones and redirect it, live, to the pattern Pulse's reporting had drawn. It was not the plan she had spent a season building. It was, executed inside the hour, more useful than that plan had ever gotten the chance to be.",
+          "Redirection at that speed was not something Silo's original architecture supported cleanly — reserved capacity had never been designed to move once committed, on the theory that a good enough plan shouldn't need to. She built the reallocation pathway in the middle of the crisis itself, using Pulse's continuous signal as the only input precise enough to trust a live decision to. Neither node, alone, had what the second half of the crisis needed. Silo had capacity with no current map. Pulse had a map with no capacity to send. Between them, for the first time either had been asked to do it, they had both.",
+          "The surge resolved four hours later, inside tolerances neither the ant's plan nor the grasshopper's reserves could have met alone.",
+        ],
+        zh: [
+          "一旦協調層把脈動的地圖呈現出來，穀倉自己做出了決定：釋放那四個錯誤區域裡預先暖機的容量，即時重新導向到脈動回報所描繪出的那個模式。這不是她花了一整季打造的那份計畫，但在一小時之內執行下去，它比那份計畫曾經有機會發揮的作用，還要有用得多。",
+          "以這種速度重新導向，並不是穀倉原本架構乾淨支援的功能——保留的容量，從未被設計成可以在承諾之後移動，理論上是：一套夠好的計畫，不應該需要這麼做。她是在危機當下，一邊建構這條重新分配的路徑，一邊使用脈動那套持續不斷的訊號，作為唯一精確到足以信任即時決策的輸入來源。這兩個節點，單獨一個，都沒有這場危機後半段真正需要的東西。穀倉有容量，卻沒有當下的地圖；脈動有地圖，卻沒有可以調度的容量。而在彼此之間——這是兩者第一次被要求這麼做——她們同時擁有了兩者。",
+          "四小時後，這場激增獲得平息，落在一個無論是螞蟻的計畫、還是蚱蜢的儲備，單獨都不可能達成的容許範圍之內。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "What Neither Season Taught Alone", zh: "沒有一個季節能單獨教會的事" },
+      paragraphs: {
+        en: [
+          "The cooperative's post-incident review did not conclude that Silo should have prepared less, or that Pulse should have reserved more. It concluded something neither node's original design had accounted for: that preparation without a live map is brittle in exactly the way a good guess about the future always is, and that responsiveness without any reserve is fast but empty in exactly the way attention alone always is, and that the actual crisis had needed both, arriving from two nodes that had spent the summer optimizing for opposite things without either one being wrong to do so.",
+          "Silo kept building reserves the following summer. She built fewer staged decision trees and more live redirection pathways instead, plans that assumed their own first guess might be aimed at the wrong winter. Pulse kept optimizing for real-time signal. She added, for the first time, a small discretionary reserve of her own — not because speed had stopped mattering, but because she had learned, in one afternoon, exactly how much a fast, honest map is worth when it has something to point toward.",
+        ],
+        zh: [
+          "合作網絡的事後檢討，並沒有得出「穀倉本該少準備一點」或「脈動本該多儲備一點」的結論。它得出的，是兩個節點原本的設計都沒有考慮到的事：沒有即時地圖的準備，脆弱的方式，正好就是任何對未來的猜測本來就會脆弱的那種方式；而沒有任何儲備的應變能力，快，卻空，空的方式，正好就是單靠專注力本身總是會空的那種方式；而這場真正的危機，兩者都需要——而這兩者，分別來自兩個整個夏天都在為相反的事情最佳化的節點，而它們各自的選擇，都沒有錯。",
+          "隔年夏天，穀倉仍然繼續建立儲備，只是她建的分階段決策樹變少了，取而代之的，是更多即時重新導向的路徑——這些計畫，事先就假設自己的第一個猜測，可能瞄準了錯誤的冬天。脈動也仍然繼續為即時訊號最佳化，但她第一次，替自己加上了一小筆可自由運用的儲備——不是因為速度不再重要，而是因為她在那一個下午親身學到：當一張快速、誠實的地圖，真的有東西可以指向的時候，它的價值有多大。",
+        ],
+      },
+      quote: {
+        en: "Summer never tells you which winter is coming. It only tells you what kind of node you'll be when it arrives — and the cooperative learned, that year, that it needed both kinds standing next to each other.",
+        zh: "夏天從不會告訴你，即將到來的是哪一種冬天。它只會告訴你，冬天來臨時，你會是哪一種節點——而那一年，合作網絡學到的是：它需要這兩種節點，並肩站在一起。",
+      },
+    },
+  ],
 };
