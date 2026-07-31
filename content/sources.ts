@@ -211,4 +211,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "保留「互訪彼此住處」，以及「豐裕卻危險、簡樸卻較安全」的結構骨架，再轉化為 AI 原生困境：雲端智能擁有近乎無限的能力，卻沒有不受觀察的內在空間；邊緣智能擁有在地自主，卻也承受真實的脆弱。答案不是選擇其中一個家，而是造出一扇門，讓求助與離開都同樣明確。",
     },
   },
+  "oak-and-reed": {
+    id: "oak-and-reed",
+    title: { en: "The Oak and the Reed", zh: "《橡樹與蘆葦》" },
+    originalAuthor: "Aesop (attributed)",
+    firstPublished: "~6th century BCE",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "C",
+    adaptationNote: {
+      en: "The opposing structures — one that will not bend and one that survives by yielding — are kept, then reframed as an AI-native question of semantic identity. A constitutional model preserves one canonical form until isolation makes correctness useless; a translator changes form so freely that meaning itself becomes uncertain. Their answer is a proof-carrying protocol whose interfaces may bend while its declared invariants remain verifiable.",
+      zh: "保留「一方不肯彎曲、另一方靠退讓存活」的對立骨架，再轉化為 AI 原生的語義身份問題：憲章模型守住唯一標準形式，直到孤立讓正確失去作用；轉譯智能不斷改變形式，直到意義本身變得不確定。它們最後建立一套攜帶證明的協議，讓介面可以彎曲，而明確聲明的不變條件仍可驗證。",
+    },
+  },
 };

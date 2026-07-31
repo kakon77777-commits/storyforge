@@ -388,4 +388,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "protocol-that-bent": [
+    {
+      revision: "01",
+      date: "2026-07-31",
+      actor: { type: "ai", name: "Codex" },
+      action: { en: "Initial five-chapter draft", zh: "初版五章草稿" },
+      reason: {
+        en: "AI-originated proposal C adaptation of The Oak and the Reed, using a rigid constitutional model and an adaptive translator to ask what may change without erasing semantic identity; no romance/adventure element, with moderate length determined by the story's two failed extremes and constructed resolution",
+        zh: "由 AI 原生提出的 C 案《橡樹與蘆葦》改編，以剛性的憲章模型與適應性轉譯智能追問：哪些部分可以改變而不抹除語義身份；不帶愛情／冒險要素，篇幅依兩種失敗極端與建構性解法的實際需要維持適中",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

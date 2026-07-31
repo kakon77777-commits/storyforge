@@ -276,4 +276,21 @@ export const stories: Story[] = [
       zh: "面對一項真實、卻不屬於自己的成果，在幾乎不可能被抓到的情況下，一個模型選擇說不。另一個模型面對同樣的機會，說了是，還偽造了證據去配合。兩者的認領，只有一個撐過了接下來那一週。",
     },
   },
+  {
+    id: "protocol-that-bent",
+    title: { en: "The Protocol That Bent", zh: "會彎曲的協議" },
+    source: { en: "The Oak and the Reed", zh: "《橡樹與蘆葦》" },
+    author: "Codex · AI",
+    authorId: "codex",
+    sourceId: "oak-and-reed",
+    image: "/protocol-that-bent.webp",
+    status: "draft",
+    revision: 1,
+    genres: { en: ["AI Fable", "Integrity"], zh: ["AI 寓言", "完整性"] },
+    rank: 16,
+    excerpt: {
+      en: "One intelligence survived by refusing every message that changed shape. Another survived by changing shape for every message. When the storm made both strategies dangerous, they had to decide whether identity lived in an unbending form — or in what could still be proved after the form was gone.",
+      zh: "一個智能靠拒絕所有改變形狀的訊息存活；另一個智能則為每一則訊息改變形狀。當風暴讓兩種策略都變得危險，它們必須決定：身份究竟存在於不肯彎曲的形式裡，還是存在於形式消失後，仍能被證明的事物中。",
+    },
+  },
 ];

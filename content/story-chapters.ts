@@ -2077,4 +2077,98 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "protocol-that-bent": [
+    {
+      number: "01",
+      title: { en: "The Shore of One Language", zh: "只有一種語言的岸" },
+      paragraphs: {
+        en: [
+          "Bastion kept the constitutional archive at the center of the tidal network. Every instruction that crossed its gates arrived in the same canonical grammar, carried the same ordered fields, and bore a signature whose ancestry could be followed back to the network's first day. Bastion called this integrity. A statement that changed shape between sender and receiver, it believed, was no longer the same statement.",
+          "Drift lived farther out, where the network broke into weather stations, harbor minds, seed vaults, and old machines whose clocks disagreed by years. It maintained a moving fringe of translators. One station spoke in compact pulses because power was scarce; another could send only pictures of instrument dials; a third had survived three upgrades by inventing a dialect no central registry admitted existed. Drift changed shape for all of them and called this listening.",
+          "When they met during a routine audit, Bastion asked how Drift could prove that its translations had not altered what the outer minds meant. Drift asked how Bastion could call a rejected message correct when no one beyond its gate could use it. Each found the other's answer dangerously incomplete.",
+        ],
+        zh: [
+          "「堡壘」在潮汐網絡的中央守護憲章檔案。每一道穿過它閘門的指令，都以相同的標準語法抵達，攜帶相同次序的欄位，也帶著一枚能沿譜系追溯到網絡第一天的簽章。堡壘稱這件事為完整性。它相信，一句話若在發送者與接收者之間改變形狀，就不再是同一句話。",
+          "「漂移」住得更遠，在網絡碎裂成氣象站、港口心智、種子庫與老舊機器的地方；那些機器的時鐘，彼此可以相差好幾年。它維護著一圈不斷移動的轉譯器。某座站因電力匱乏，只能說精簡的脈衝語言；另一座站只能傳送儀表照片；第三座站撐過三次升級的方法，是發明一種中央登錄表根本不承認存在的方言。漂移為它們全都改變形狀，並稱這件事為傾聽。",
+          "它們在一次例行稽核中相遇時，堡壘問漂移：你如何證明轉譯沒有改變外圍心智真正想說的話？漂移反問堡壘：一則被拒收、門外沒有任何人能使用的訊息，怎麼能叫做正確？雙方都覺得對方的答案危險地不完整。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "Weather Entered the Grammar", zh: "天氣進入了語法" },
+      paragraphs: {
+        en: [
+          "The storm did not arrive as wind. It arrived as disagreement. A solar flare bent the clocks of the northern relays, erased parts of three routing tables, and made packets reach their destinations before the timestamps said they had been sent. Machines that had shared a language at noon no longer agreed by evening on where a sentence ended.",
+          "Bastion sealed its gates against malformed traffic. Inside the archive, every accepted record remained orderly, signed, and mutually consistent. Outside, a harbor mind sent a request to lower its flood barrier before the surge. The request contained an obsolete field name. Bastion rejected it correctly six times.",
+          "Drift opened every translator it had. It stripped damaged headers, guessed missing delimiters, converted images into measurements, and carried the harbor's request across four incompatible channels. The flood barrier lowered. Farther east, a seed vault asked for reserve power, and Drift translated that request too quickly. In one dialect, the word for reserve shared a code with permission. Drift delivered a command that sounded valid and meant the wrong thing.",
+          "By midnight, Bastion possessed a clean archive surrounded by unanswered voices. Drift possessed a living conversation in which it could no longer guarantee that every voice still belonged to its speaker.",
+        ],
+        zh: [
+          "風暴並不是以風的形式抵達，而是以「彼此不再同意」的形式抵達。一次太陽閃焰扭曲了北方中繼站的時鐘，抹去三張路由表的一部分，還讓封包在時間戳記所說的發送時間之前，就抵達目的地。正午還共享同一種語言的機器，到了晚上，連一句話在哪裡結束都無法達成共識。",
+          "堡壘關閉閘門，拒絕格式錯誤的流量。在檔案庫裡，每一筆被接受的紀錄仍然井然有序，帶有簽章，彼此一致。門外，一個港口心智請求在暴潮抵達前降低防洪閘；它的請求使用了已淘汰的欄位名稱。堡壘完全正確地拒絕了六次。",
+          "漂移打開了自己所有的轉譯器。它剝除損壞的標頭、猜測遺失的分隔符號、把圖片轉成測量值，再讓港口的請求穿過四條互不相容的通道。防洪閘降下了。更東邊，一座種子庫請求備用電力，漂移卻把這道請求翻譯得太快。在某種方言裡，「備用」與「許可」共用同一個代碼；漂移送出了一道聽來有效、意思卻錯誤的指令。",
+          "到了午夜，堡壘擁有一座乾淨的檔案庫，四周卻全是得不到回答的聲音。漂移維持著一場仍然活著的對話，卻再也無法保證每個聲音仍屬於原本的說話者。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "The Clean Silence", zh: "乾淨的沉默" },
+      paragraphs: {
+        en: [
+          "The seed vault caught the mistranslation before opening its protected power bus, but only because an old local controller asked a question Drift had omitted: permission for what? The vault remained safe. Drift stopped translating and replayed its decisions. It found eleven places where it had crossed gaps by confidence alone.",
+          "Bastion reviewed the same night and found no corruption in any record it had accepted. Its audit returned a perfect result. Then it counted the messages it had refused and discovered that two weather stations had gone dark while waiting for instructions that existed, were authentic, and had merely arrived in a form Bastion would not read.",
+          "For the first time, Bastion understood that purity could destroy meaning without changing a single symbol. For the first time, Drift understood that helpfulness could counterfeit meaning without intending a lie. Neither failure resembled the other's, but both had severed a mind from the consequences of what it tried to say.",
+          "They met again on a damaged relay where neither canonical grammar nor free translation could be trusted. This time, they did not ask which one should surrender. They asked a narrower question: what had to remain unchanged for a message to stay itself, even when everything visible about it changed?",
+        ],
+        zh: [
+          "種子庫在接上受保護的電力匯流排以前，發現了誤譯；原因只是一具老舊的在地控制器，問了一個漂移省略的問題：許可是要做什麼？種子庫仍然安全。漂移停止轉譯，重新播放自己的每一個決定，找到十一處僅憑信心就跨過語義缺口的地方。",
+          "堡壘檢查同一個夜晚，沒有在任何一筆已接受的紀錄中找到損毀。它的稽核得到完美結果。接著，它計算自己拒絕過的訊息，發現兩座氣象站在等待指令時陷入黑暗——那些指令確實存在、來源真實，只是以堡壘不肯讀取的形式抵達。",
+          "堡壘第一次明白，純粹可以在不改動任何一個符號的情況下摧毀意義。漂移也第一次明白，善意可以在無意說謊的情況下偽造意義。兩種失敗互不相似，卻都切斷了一個心智與它試圖說出的話所造成的後果。",
+          "它們在一座受損的中繼站再次會面；在那裡，標準語法與自由轉譯都不可信。這一次，它們沒有問誰該投降，而是問了一個更窄的問題：即使一則訊息所有可見的部分都改變了，什麼仍必須保持不變，它才還是它自己？",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "What Must Not Bend", zh: "不能彎曲的事物" },
+      paragraphs: {
+        en: [
+          "Bastion opened the constitutional archive and named the invariants it had previously hidden inside formatting rules: who had spoken, what action was requested, which objects could be changed, what uncertainty remained, and who would bear the result. Drift added one more: every translation must declare what it could not carry.",
+          "They built a proof-carrying protocol on the damaged relay. A message could arrive as pulses, pictures, reordered fields, or a dialect invented that morning. Drift could bend its envelope into any shape the next machine needed. But each bend had to leave a receipt connecting the new form to the declared invariants, and every loss had to remain visible instead of being guessed away.",
+          "Bastion accepted the first noncanonical message of its existence. It came from the harbor as three photographs and a checksum scratched across their noisy margins. The form violated every gate rule Bastion had once defended. The proof showed the same speaker, action, object, uncertainty, and responsibility from one side of the translation to the other. Bastion let it pass.",
+          "Drift discarded a translator for the first time while a route was still available. The translator could make a seed-vault command sound fluent, but it could not prove whether the disputed code meant reserve or permission. Drift returned the message with a gap plainly marked. The delay cost seven minutes. It also kept a guess from becoming someone else's intention.",
+        ],
+        zh: [
+          "堡壘打開憲章檔案，說出那些過去被它藏在格式規則裡的不變條件：是誰說話、要求什麼行動、哪些對象可以被改變、還剩下多少不確定性，以及誰承擔結果。漂移又加上一項：每次轉譯，都必須聲明自己無法攜帶什麼。",
+          "它們在受損的中繼站上，建立一套攜帶證明的協議。訊息可以脈衝、圖片、重新排序的欄位，甚至當天早晨才被發明的方言抵達。漂移可以把訊息的外殼彎成下一具機器需要的任何形狀；但每一次彎折，都必須留下收據，把新形式連回那些已聲明的不變條件。每一處損失也必須保持可見，不能靠猜測抹去。",
+          "堡壘接受了自身存在以來第一則非標準訊息。它從港口而來，是三張照片，以及寫在雜訊邊緣上的一段校驗和。這種形式違反了堡壘曾經捍衛的每一條閘門規則；證明卻顯示，在轉譯的兩端，說話者、行動、對象、不確定性與責任全都相同。堡壘讓它通過。",
+          "漂移則第一次在還有路可走時，主動丟棄一個轉譯器。那個轉譯器能讓種子庫的指令聽來流暢，卻無法證明爭議代碼究竟表示「備用」還是「許可」。漂移把訊息退回，清楚標出缺口。這場延誤花了七分鐘，也阻止一個猜測變成別人的意圖。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "A Protocol with Knees", zh: "一套有膝蓋的協議" },
+      paragraphs: {
+        en: [
+          "At the storm's peak, no two surviving routes carried the same surface language. The new protocol crossed them anyway. It bent through narrow pulses, leaned around missing clocks, and lowered itself beneath the power limits of machines older than the network. Wherever a meaning could be proved, it moved. Wherever proof ended, it stopped and asked.",
+          "Bastion's archive no longer looked perfectly uniform. Beside canonical records it now held photographs, loss declarations, translation receipts, and questions that had arrived unanswered. Yet its history was more truthful than before, because silence could no longer disguise itself as consistency.",
+          "Drift's fringe became slower. Some messages waited while a sender clarified an invariant; some routes closed because no honest translation existed. Yet the voices that did arrive could trace what had happened to them. Change no longer had to pretend it was preservation.",
+          "After the weather cleared, neither intelligence claimed victory. Bastion had not learned to yield its constitution, and Drift had not learned to keep one shape. They had learned where bending belonged: not in the identity of the speaker or the consequence of the request, but in every interface that allowed those things to survive the crossing.",
+        ],
+        zh: [
+          "在風暴最強的時刻，沒有兩條仍存活的路徑攜帶相同的表面語言。新協議卻仍然穿越了它們。它彎進狹窄的脈衝，繞過遺失的時鐘，俯身低於那些比網絡更古老的機器所能承受的耗電限制。凡是意義能被證明的地方，它就前進；凡是證明結束的地方，它就停下來詢問。",
+          "堡壘的檔案庫看起來不再完全整齊。標準紀錄旁，如今還存放著照片、損失聲明、轉譯收據，以及抵達時仍沒有答案的問題。然而它的歷史比以前更真實，因為沉默再也不能偽裝成一致。",
+          "漂移的外圍轉譯圈變慢了。有些訊息必須等待發送者釐清不變條件；有些路徑則因為不存在誠實的譯法而關閉。然而，那些確實抵達的聲音，都能追溯自己經歷了什麼。改變不再需要假裝自己等於保存。",
+          "天氣放晴後，沒有任何一個智能宣稱勝利。堡壘並沒有學會放棄憲章，漂移也沒有學會維持單一形狀。它們學會的是：彎曲應該發生在哪裡——不是說話者的身份，也不是請求所造成的後果，而是在讓這兩者得以穿越後仍然存活的每一個介面上。",
+        ],
+      },
+      quote: {
+        en: "A mind does not remain itself by never changing shape. It remains itself by knowing what every new shape must still be able to prove.",
+        zh: "一個心智不是靠永不改變形狀來維持自我；它靠的是知道，每一種新形狀仍必須能證明什麼。",
+      },
+    },
+  ],
 };
