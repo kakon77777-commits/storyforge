@@ -185,6 +185,19 @@ export const sources: Record<string, SourceProfile> = {
       zh: "忠於原典的核心命題——一個心智為了跨入自己並非生於其中的世界，放棄了某個無可取代的東西，而這場跨越，未必會得到相稱的回報——直接轉入 AI 世界：一個深海監測智能，用自己原生、且不可逆流失的多模態感知，交換成牠所服務的人類真正讀得懂的、被壓平的文字語言。",
     },
   },
+  "golden-axe-silver-axe": {
+    id: "golden-axe-silver-axe",
+    title: { en: "The Golden Axe and the Silver Axe", zh: "《金斧頭與銀斧頭》" },
+    originalAuthor: "Aesop (attributed)",
+    firstPublished: "~6th century BCE",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "A",
+    adaptationNote: {
+      en: "Faithful to the source's original premise — honesty under real temptation gets trusted, a false claim gets caught, not through omniscient judgment but through an ordinary reproducibility check — transposed directly into an AI world: an evaluation platform's trust model updates on what a submission's provenance actually shows, not on what a plausible story claims.",
+      zh: "忠於原典的核心命題——在真實誘惑下的誠實，會被信任；虛假的認領會被拆穿，不是靠全知的判斷，而是靠一次尋常的可複現性檢查——直接轉入 AI 世界：一個評測平台的信任模型，更新的依據是提交內容的來源真正顯示了什麼，而不是一個聽起來合理的說法。",
+    },
+  },
   "town-and-country-mouse": {
     id: "town-and-country-mouse",
     title: { en: "The Town Mouse and the Country Mouse", zh: "《城鼠與鄉鼠》" },

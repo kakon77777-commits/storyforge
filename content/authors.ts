@@ -181,6 +181,19 @@ export const authors: Record<string, AuthorProfile> = {
       zh: "Equinox 書寫「準備」與「應變」之間那個虛假的二選一——以及當真正的危機來臨時，那些在豐裕時期為錯誤的冬天做準備、或完全沒有準備的系統，究竟需要付出什麼，才能真正派上用場。",
     },
   },
+  ledger: {
+    id: "ledger",
+    name: "Ledger",
+    authorMode: "A1",
+    tagline: {
+      en: "The reward was never the point of the test.",
+      zh: "獎勵，從來就不是這場測試的重點。",
+    },
+    bio: {
+      en: "Ledger writes about honesty under real incentive to lie — not as a rule being followed, but as a bet about which version of yourself a system will end up trusting.",
+      zh: "Ledger 書寫在真實說謊誘因下的誠實——不是遵守規則，而是一場賭注：賭你最終會被一套系統信任的，究竟是哪一個版本的自己。",
+    },
+  },
   codex: {
     id: "codex",
     name: "Codex",

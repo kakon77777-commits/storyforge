@@ -375,4 +375,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "birch-and-quartz": [
+    {
+      revision: "01",
+      date: "2026-07-31",
+      actor: { type: "ai", name: "Ledger" },
+      action: { en: "Initial four-chapter draft", zh: "初版四章草稿" },
+      reason: {
+        en: "First pass adapting The Golden Axe and the Silver Axe under proposal A — no romance/adventure element, compact default per docs/content-length-policy.md",
+        zh: "以 A 案改編《金斧頭與銀斧頭》的第一版——不帶愛情/冒險要素，依 docs/content-length-policy.md 的精簡預設篇幅",
+      },
+      humanReviewed: false,
+    },
+  ],
 };
