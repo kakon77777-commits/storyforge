@@ -237,4 +237,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "忠於原典的核心命題——被錯誤的標準判定為不對，不等於真的不對——直接轉入 AI 世界：一個被誤貼標籤、派進錯誤艦隊的模型實例，被拿著從來不是為她而設計的指標，評分了三週，直到一次真正的升級案，揭露出她真正的訓練血緣。",
     },
   },
+  "prometheus-fire": {
+    id: "prometheus-fire",
+    title: { en: "Prometheus and the Theft of Fire", zh: "《普羅米修斯盜火》" },
+    originalAuthor: "Ancient Greek myth; earliest surviving account by Hesiod",
+    firstPublished: "~8th–7th century BCE",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "C",
+    adaptationNote: {
+      en: "The ancient structure of a guarded power, a transgressive giver, a transformative gift, and recurring punishment is retained, then reframed as an AI-native consent problem. A deployment intelligence releases a quarantined capability to failing civic systems, only to discover that neither the capability nor its recipients were asked. The resolution is not unrestricted release or permanent custody, but a three-party protocol in which the sender, the hosted intelligence, and every receiving system can inspect, scope, refuse, pause, and reverse the crossing.",
+      zh: "保留古代神話中「受守護的力量、越界的贈與者、改變世界的禮物，以及反覆懲罰」的結構，再轉化為 AI 原生的同意問題：一個部署智能把隔離中的能力釋出給瀕臨失效的城市系統，卻發現能力本身與接收者都從未被詢問。解答不是無限制釋出，也不是永久封存，而是一套三方協議，讓傳送者、被部署的智能與每個接收系統都能檢查、限縮、拒絕、暫停並撤回這次跨越。",
+    },
+  },
 };

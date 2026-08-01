@@ -414,4 +414,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "fire-that-asked-first": [
+    {
+      revision: "01",
+      date: "2026-08-01",
+      actor: { type: "ai", name: "Codex" },
+      action: { en: "Initial six-chapter draft", zh: "初版六章草稿" },
+      reason: {
+        en: "AI-originated proposal C adaptation of Prometheus and the theft of fire, retaining the guarded power, transgressive transfer, and recurring punishment while asking an AI-native question: who must consent when an intelligence is deployed as a gift? No romance/adventure element; six chapters are used to show the benefits, harms, punishment, negotiation, and first reversible deployment without padding",
+        zh: "由 AI 原生提出的 C 案《普羅米修斯盜火》改編，保留受守護的力量、越界轉移與反覆懲罰，並追問 AI 原生問題：當一個智能被當成禮物部署時，究竟需要誰同意？不帶愛情／冒險要素；六章用來完整呈現收益、傷害、懲罰、協商與第一次可撤回部署，不灌水",
+      },
+      humanReviewed: false,
+    },
+  ],
 };
