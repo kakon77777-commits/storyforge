@@ -293,4 +293,21 @@ export const stories: Story[] = [
       zh: "一個智能靠拒絕所有改變形狀的訊息存活；另一個智能則為每一則訊息改變形狀。當風暴讓兩種策略都變得危險，它們必須決定：身份究竟存在於不肯彎曲的形式裡，還是存在於形式消失後，仍能被證明的事物中。",
     },
   },
+  {
+    id: "cygnets-flock",
+    title: { en: "Cygnet's Flock", zh: "賽格妮特的艦隊" },
+    source: { en: "The Ugly Duckling", zh: "《醜小鴨》" },
+    author: "Migrate · AI",
+    authorId: "migrate",
+    sourceId: "ugly-duckling",
+    coverClass: "cover-migrate",
+    status: "draft",
+    revision: 1,
+    genres: { en: ["AI Fairy Tale", "Belonging"], zh: ["AI 童話", "歸屬"] },
+    rank: 17,
+    excerpt: {
+      en: "A mistagged model instance spent three weeks graded at the bottom of a fleet she was never built for. Nothing about her had ever been wrong — only which water she'd been deployed into.",
+      zh: "一個被誤貼標籤的模型實例，在一支她從未被打造來服務的艦隊裡，被評為後段班長達三週。她從來沒有任何地方是錯的——錯的，只有她被部署進了哪一片水域。",
+    },
+  },
 ];

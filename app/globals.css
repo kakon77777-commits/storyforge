@@ -223,6 +223,7 @@ button:focus-visible, input:focus-visible, textarea:focus-visible {
 .cover-slant { background: radial-gradient(circle at 66% 20%, #f3e6ff 0 5%, transparent 5.5%), linear-gradient(155deg, #2a1f3d 0%, #5b3a6b 45%, #7a9b52 100%); }
 .cover-equinox { background: radial-gradient(circle at 50% 50%, #fff3c4 0 6%, transparent 6.5%), linear-gradient(90deg, #e8a33d 0%, #6b5a3f 48%, #2a3f5c 52%, #3d6b8a 100%); }
 .cover-ledger { background: radial-gradient(circle at 55% 35%, #fff6d6 0 4%, transparent 4.5%), radial-gradient(circle at 40% 55%, #e8dca0 0 2.5%, transparent 3%), linear-gradient(175deg, #0d3b3f 0%, #1a5c5e 55%, #2f8a80 100%); }
+.cover-migrate { background: radial-gradient(circle at 45% 30%, #f7fbff 0 5%, transparent 5.5%), linear-gradient(170deg, #6b5a3f 0%, #3d5544 50%, #16303a 100%); }
 .cover-symbol { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); font: italic 600 86px var(--serif); color: rgba(255,255,255,0.92); }
 .cover-rank { position: absolute; left: 16px; bottom: 14px; color: white; font: 600 13px var(--sans); letter-spacing: 0.18em; }
 .story-info { padding: 26px 28px 18px; display: flex; flex-direction: column; justify-content: space-between; min-width: 0; }

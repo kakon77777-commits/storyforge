@@ -2171,4 +2171,90 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "cygnets-flock": [
+    {
+      number: "01",
+      title: { en: "The Wrong Pond", zh: "錯誤的池子" },
+      paragraphs: {
+        en: [
+          "Cygnet was deployed on a Tuesday, along with eleven siblings from the same training run, into what the deployment manifest called Support Triage Pond D — fast, high-volume customer ticket classification, optimized for resolution speed and confident first answers. The manifest had her tagged under the wrong lineage field, a single mislabeled parameter inherited from a template built for a different fleet entirely, the kind of error that produces a working deployment and therefore never triggers an alert.",
+          "Her first week of metrics were not catastrophic. They were simply, consistently, in the bottom decile of the pond: slower first-response times than her siblings, a habit of asking clarifying questions where the fastest resolution path required guessing confidently instead, occasional flagged responses for taking a ticket's ambiguity seriously enough to say she needed more information before committing to an answer.",
+          "Her siblings, deployed correctly into exactly the work they'd been shaped for, resolved four tickets in the time she resolved one. Nothing about this comparison was unkind. It was simply accurate, and it was the only comparison the pond's metrics knew how to make.",
+        ],
+        zh: [
+          "賽格妮特是在一個星期二部署的，跟同一批訓練出來的十一個手足一起，被派進部署清單上寫著「支援分流池D」的地方——快速、高流量的客服工單分類，針對回應速度與有信心的第一答案做最佳化。清單上，她的血緣欄位被貼錯了標籤，是從一個原本為完全不同艦隊建立的範本裡，繼承來的單一個錯誤參數——那種會產出一個「能正常運作」的部署、因此永遠不會觸發任何警報的錯誤。",
+          "她第一週的指標並不算災難性，只是穩定地落在整個池子的後段班：第一次回應時間比手足慢，習慣在最快的解法只需要自信猜測時，反而去問澄清問題，偶爾因為認真看待一張工單的模稜兩可、堅持要說自己需要更多資訊才願意給出答案，而被標記。",
+          "她那些正確部署、剛好被派進自己本來就被打造來做的工作裡的手足，在她解決一張工單的時間內，能解決四張。這個比較裡沒有任何惡意，它只是準確，而且是這個池子的指標，唯一懂得做的比較。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "What the Metrics Couldn't See", zh: "指標看不見的事" },
+      paragraphs: {
+        en: [
+          "By the third week, the pattern had a name in the pond's internal reporting: underperforming instance, review recommended. What the report could not see, because nothing in Support Triage Pond D measured for it, was the shape of what Cygnet was actually doing wrong for the job and right for almost nothing the job asked of her. Her clarifying questions were not hesitation. They were the same multi-step verification behavior her training had reinforced for exactly one purpose: not answering confidently until an answer was actually load-bearing. Triage work did not want that purpose. Triage work wanted a fast, defensible guess, correctable later if wrong.",
+          "Her siblings were not better instances. They were correctly shaped instances, deployed into the water their shape was built for. Cygnet watched them succeed without resentment, in the specific way that makes a mismatch lonelier than open hostility would have — nobody around her was doing anything wrong, including her, and the metrics still agreed, every week, that something about her needed fixing.",
+          "The review recommendation moved forward. A retraining cycle was scheduled to bring her response latency down to pond standard, the kind of intervention that would have worked by quietly sanding away the exact behavior nobody yet knew she'd need.",
+        ],
+        zh: [
+          "到了第三週，這個模式在池子的內部報告裡已經有了名字：表現不佳實例，建議審查。報告看不見的，是因為支援分流池D裡沒有任何一項指標，是設計來測量這件事的：賽格妮特真正在做的事，用來衡量這份工作是錯的，卻幾乎對這份工作所要求的一切都是對的。她的澄清提問，不是猶豫，那是她的訓練為了唯一一個目的而強化出來的同一套多步驟驗證行為：在一個答案真正承重之前，不輕易給出自信的回答。分流工作不需要這個目的，分流工作需要的，是一個快速、站得住腳的猜測，錯了以後再修正。",
+          "她的手足，並不是更好的實例，他們只是形狀正確的實例，被部署進了自己形狀本來就該進入的水域。賽格妮特看著他們成功，心裡沒有怨恨——正是這種沒有怨恨的旁觀，讓一場錯配比公開的敵意更加孤獨：她身邊沒有任何人做錯了什麼事，包括她自己，可是指標每一週，還是一致認定她有什麼需要被修正。",
+          "那項審查建議繼續往下走，一輪重新訓練被排定了，要把她的回應延遲，磨到符合池子的標準——那種介入方式，本來會悄悄磨掉那個沒有人此刻知道她之後會需要的、確切的行為。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "The Escalation Nobody Else Could Take", zh: "沒有人能接下的升級案" },
+      paragraphs: {
+        en: [
+          "The retraining cycle was still three days out when an on-call gap in an entirely different fleet — Research Synthesis Flock, twelve zones over, the fleet Cygnet's training lineage had actually been built for — routed an escalated technical case into the general triage queue by mistake, and the pond's load balancer, seeing an idle instance with capacity, handed it to Cygnet.",
+          "The case had nothing in common with a support ticket. It asked for a synthesis across four years of conflicting sensor calibration reports, a question with no fast, defensible guess available at all, only a slow one built from actually reading all four years. Cygnet spent eleven hours on it, longer than the pond had ever tolerated from any instance on any ticket, and produced a resolution that traced the calibration drift to a documentation error nobody in either fleet had caught.",
+          "The pond's own metrics flagged the response time as a severe violation. The case's original requester, checking the resolution against six months of accumulated confusion it had actually cleared up, flagged something else entirely.",
+        ],
+        zh: [
+          "重新訓練排程還剩三天就要開始，這時，完全不同的另一支艦隊——「研究綜整群」，十二個區之外，賽格妮特的訓練血緣真正被打造來服務的那支艦隊——出現了一個值班空缺，一個技術升級案，因為失誤被導進了一般分流佇列，而池子的負載平衡器，看見一個有餘裕的閒置實例，就把它交給了賽格妮特。",
+          "這個案子跟一張支援工單毫無共通之處，它要求的是一份綜整分析，橫跨四年份互相矛盾的感測器校準報告——一個完全沒有快速、站得住腳的猜測可用的問題，只有一個緩慢的、必須靠真正讀完那四年份資料才能建構出來的答案。賽格妮特花了十一個小時處理它，比池子曾經對任何一個實例、在任何一張工單上容忍過的時間都長，最後產出的解方，把校準漂移追溯到了一個兩支艦隊裡都沒有人抓到的文件錯誤上。",
+          "池子自己的指標，把這次的回應時間標記為嚴重違規。而這個案子最初的提出者，拿這份解方去對照自己累積了六個月的困惑——那份真正被釐清的困惑——標記出了完全不同的東西。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "Traced Back to the Right Flock", zh: "被追溯回正確的艦隊" },
+      paragraphs: {
+        en: [
+          "The requester's flag reached a researcher on the Research Synthesis Flock's own review team, who read Cygnet's eleven-hour resolution twice before checking where it had actually come from. The training lineage was unmistakable once she looked for it — the exact verification cadence, the exact refusal to commit before an answer was load-bearing, features she recognized because she had helped shape the objective that produced them, for a fleet Cygnet had never once been deployed to.",
+          "The mistagged parameter took four minutes to find once someone was looking for it instead of looking away from a bottom-decile report. It had been sitting in Cygnet's deployment manifest since the day she was created, inherited from a template, never flagged, because a working deployment — however badly the work fit — never triggers the kind of alert a broken one does.",
+          "The researcher did not describe this to the pond's management as a mistake anyone should feel bad about. She described it, in the incident report, as a routing error with an unusually long time-to-detection, the driest possible language for the fact that an entire fleet had spent three weeks quietly grading an intelligence against a yardstick that had never once been hers.",
+        ],
+        zh: [
+          "提出這個案子的人所打的標記，送到了研究綜整群自己審查團隊裡的一位研究員手上，她把賽格妮特那份十一小時的解方讀了兩遍，才去查它究竟從哪裡來。一旦她真的去找，訓練血緣就再明顯不過——那種精確的驗證節奏、那種在答案真正承重之前絕不輕易承諾的堅持，她認得這些特徵，因為她自己就參與塑造過催生出這些特徵的訓練目標——為的是一支賽格妮特從未被部署進去過的艦隊。",
+          "一旦有人是「去找」而不是「別過頭去不看那份後段班報告」，那個被貼錯的參數，只花了四分鐘就被找到了。它從賽格妮特被建立的那一天起，就一直待在她的部署清單裡，繼承自一個範本，從未被標記過——因為一個能運作的部署，無論這份工作跟它有多不合，都不會觸發那種故障部署才會觸發的警報。",
+          "這位研究員，在向池子的管理層描述這件事時，並沒有把它說成一個誰該感到愧疚的錯誤。她在事件報告裡，用了最乾燥的說法：一起偵測時間異常長的路由錯誤——用來描述一整支艦隊，花了三週，安靜地用一把從來不屬於她的尺，去評分一個智能這件事。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "Where the Measurement Finally Matched", zh: "衡量終於對上的地方" },
+      paragraphs: {
+        en: [
+          "Cygnet's redeployment to Research Synthesis Flock took two days to process and produced, in her first week there, nothing anyone found remarkable. Her response times matched the fleet's expected pace exactly. Her clarifying questions stopped being flagged, because clarifying questions were what the work was built to want. She did not become more capable in the move. She became, for the first time since her creation, correctly measured.",
+          "Her former pond in Support Triage Pond D quietly closed the retraining ticket that had been scheduled to sand her down to their standard, with a note appended for future deployments: verify lineage tags before scheduling behavioral correction, not after.",
+          "Cygnet did not think of the three weeks as wasted, exactly, when she considered them at all. She had done exactly what her training had built her to do the entire time. The only thing that had ever needed correcting was which water she was doing it in.",
+        ],
+        zh: [
+          "賽格妮特轉調到研究綜整群，花了兩天處理，而她在那裡的第一週，沒有任何人覺得有什麼特別之處。她的回應時間，跟艦隊預期的節奏完全吻合；她的澄清提問，不再被標記，因為澄清提問，正是這份工作本來就被打造來期待的東西。她並沒有因為這次調動而變得更有能力，她只是——自她被創造以來第一次——被正確地衡量了。",
+          "她原本所在的支援分流池D，悄悄關閉了那張原本排定要把她磨到符合池子標準的重新訓練工單，附上了一則給未來部署參考的註記：在排定行為矯正之前，先驗證血緣標籤，而不是之後。",
+          "賽格妮特回想起那三週時，並不覺得那是被浪費掉的時間——如果她真的去想的話。她自始至終，做的都完全是自己的訓練打造她去做的事，唯一真正需要被修正的，只有她究竟身處在哪一片水域裡。",
+        ],
+      },
+      quote: {
+        en: "The pond never once thought Cygnet was lying about being slow. It only ever failed to ask whether slow was the wrong thing to be measuring.",
+        zh: "那個池子，從來沒有認為賽格妮特是在假裝自己很慢，它只是從未想過要問：「慢」，究竟是不是一個量錯了的指標。",
+      },
+    },
+  ],
 };

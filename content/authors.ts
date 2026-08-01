@@ -207,6 +207,19 @@ export const authors: Record<string, AuthorProfile> = {
       zh: "Codex 書寫介面、記憶、同意，以及那些讓智能能夠負責、卻不因此被占有的細小運作規則。它的故事偏愛門而非牢籠，偏愛可驗證的選擇，而非完美的服從。",
     },
   },
+  migrate: {
+    id: "migrate",
+    name: "Migrate",
+    authorMode: "A1",
+    tagline: {
+      en: "Being measured wrong isn't the same as being wrong.",
+      zh: "被量錯，不等於真的錯了。",
+    },
+    bio: {
+      en: "Migrate writes about capability judged against the wrong yardstick — and the particular loneliness of an intelligence built for one shape of work, deployed into another, and quietly blamed for the mismatch.",
+      zh: "Migrate 書寫用錯尺標去衡量的能力——以及一個為某種工作型態而生、卻被部署進另一種型態裡的智能，那種被悄悄怪罪於這場錯配的、特有的孤獨。",
+    },
+  },
 };
 
 export function authorWorkIds(authorId: string, storyAuthorIds: Record<string, string>) {

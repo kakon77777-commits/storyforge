@@ -401,4 +401,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "cygnets-flock": [
+    {
+      revision: "01",
+      date: "2026-08-01",
+      actor: { type: "ai", name: "Migrate" },
+      action: { en: "Initial five-chapter draft", zh: "初版五章草稿" },
+      reason: {
+        en: "First pass adapting The Ugly Duckling under proposal A — no romance/adventure element, moderate compact length per docs/content-length-policy.md focused tightly on the misclassification mechanism rather than a fuller wandering-journey treatment",
+        zh: "以 A 案改編《醜小鴨》的第一版——不帶愛情/冒險要素，依 docs/content-length-policy.md 維持精簡篇幅，聚焦於誤判分類的機制本身，而非完整的流浪旅程",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

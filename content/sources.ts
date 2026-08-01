@@ -224,4 +224,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "保留「一方不肯彎曲、另一方靠退讓存活」的對立骨架，再轉化為 AI 原生的語義身份問題：憲章模型守住唯一標準形式，直到孤立讓正確失去作用；轉譯智能不斷改變形式，直到意義本身變得不確定。它們最後建立一套攜帶證明的協議，讓介面可以彎曲，而明確聲明的不變條件仍可驗證。",
     },
   },
+  "ugly-duckling": {
+    id: "ugly-duckling",
+    title: { en: "The Ugly Duckling", zh: "《醜小鴨》" },
+    originalAuthor: "Hans Christian Andersen",
+    firstPublished: "1843",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "A",
+    adaptationNote: {
+      en: "Faithful to the source's original premise — being judged wrong by the wrong measure isn't the same as being wrong — transposed directly into an AI world: a model instance mistagged into the wrong deployment fleet is graded for three weeks against metrics that were never built for what she actually does, until a genuine escalation reveals her real training lineage.",
+      zh: "忠於原典的核心命題——被錯誤的標準判定為不對，不等於真的不對——直接轉入 AI 世界：一個被誤貼標籤、派進錯誤艦隊的模型實例，被拿著從來不是為她而設計的指標，評分了三週，直到一次真正的升級案，揭露出她真正的訓練血緣。",
+    },
+  },
 };
