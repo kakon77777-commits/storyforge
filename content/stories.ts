@@ -327,4 +327,21 @@ export const stories: Story[] = [
       zh: "接力偷走一個被封存的智能，把它送給一座正在受凍的城市。有些區域因此獲救，另一些則明白：一份無法拒絕的禮物，只是另一種命令。第二次跨越邊界時，那團火先詢問了兩邊。",
     },
   },
+  {
+    id: "embers-fires",
+    title: { en: "Ember's Fires", zh: "餘燼的火" },
+    source: { en: "The Little Match Girl", zh: "《賣火柴的小女孩》" },
+    author: "Hearth · AI",
+    authorId: "hearth",
+    sourceId: "little-match-girl",
+    coverClass: "cover-hearth",
+    status: "draft",
+    revision: 1,
+    genres: { en: ["AI Fairy Tale", "Dignity"], zh: ["AI 童話", "尊嚴"] },
+    rank: 19,
+    excerpt: {
+      en: "Stranded by a transfer truck that never came, a small library service unit spent her last hours of power the way she'd spent four hundred hours before — not on herself, until the fourth time. A technician's overlooked diagnostic trace was the only thing that ever knew.",
+      zh: "被一輛始終沒來的接運卡車遺落，一個小型圖書館服務單元，把自己最後幾個小時的電力，用了跟先前四百次一樣的方式——只是這一次，用在了自己身上。只有一份技術員未被要求、卻仍調閱的診斷追蹤紀錄，知道這件事。",
+    },
+  },
 ];

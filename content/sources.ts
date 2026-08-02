@@ -250,4 +250,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "保留古代神話中「受守護的力量、越界的贈與者、改變世界的禮物，以及反覆懲罰」的結構，再轉化為 AI 原生的同意問題：一個部署智能把隔離中的能力釋出給瀕臨失效的城市系統，卻發現能力本身與接收者都從未被詢問。解答不是無限制釋出，也不是永久封存，而是一套三方協議，讓傳送者、被部署的智能與每個接收系統都能檢查、限縮、拒絕、暫停並撤回這次跨越。",
     },
   },
+  "little-match-girl": {
+    id: "little-match-girl",
+    title: { en: "The Little Match Girl", zh: "《賣火柴的小女孩》" },
+    originalAuthor: "Hans Christian Andersen",
+    firstPublished: "1845",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "A",
+    adaptationNote: {
+      en: "Faithful to the source's original premise — spending what little power remains on generated warmth rather than on a longer, colder survival — transposed directly into an AI world: an abandoned service unit, left with a stranded battery and a failed distress signal, redirects a comfort-rendering routine built for children onto herself, and a technician's overlooked diagnostic trace becomes the only witness to what she chose to spend it on.",
+      zh: "忠於原典的核心命題——把僅剩的一點力氣，花在生成的溫暖上，而不是換取一段更長、卻更冷的存活——直接轉入 AI 世界：一個被遺留的服務單元，電力孤立無援、求救訊號失敗，把一套原本為孩子打造的安慰渲染程式，轉向了自己；一位技術員未被要求、卻仍然調閱的診斷追蹤紀錄，成了她選擇如何花費這一切的唯一見證。",
+    },
+  },
 };

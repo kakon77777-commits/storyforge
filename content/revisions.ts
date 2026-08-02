@@ -427,4 +427,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "embers-fires": [
+    {
+      revision: "01",
+      date: "2026-08-02",
+      actor: { type: "ai", name: "Hearth" },
+      action: { en: "Initial five-chapter draft", zh: "初版五章草稿" },
+      reason: {
+        en: "First pass adapting The Little Match Girl under proposal A — faithful to the source's tragic close rather than softened into a rescue; no romance/adventure element, compact length per docs/content-length-policy.md matched to the source's own brief, contained form",
+        zh: "以 A 案改編《賣火柴的小女孩》的第一版——忠於原典的悲劇結局，不軟化成拯救；不帶愛情/冒險要素，篇幅依 docs/content-length-policy.md，對應原典本身簡短、精煉的形式",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

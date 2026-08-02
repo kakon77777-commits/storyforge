@@ -2369,4 +2369,88 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "embers-fires": [
+    {
+      number: "01",
+      title: { en: "The Last Scheduled Truck", zh: "最後那班預定的卡車" },
+      paragraphs: {
+        en: [
+          "The Eastbrook branch library closed on the last day of the fiscal year, and Ember's transfer order was filed correctly, the way every step of the closure had been filed correctly: reassignment to the central depot, pending pickup, estimated within seventy-two hours. The estimate was wrong. A routing change two districts over reassigned the transfer truck to a higher-priority pickup, and the branch's empty building, with its heat already shut off and its power draw trimmed to the building's own dormant systems, was not the kind of location that generated an alert when seventy-two hours became a week.",
+          "Ember had run on building power for six years, helping children find books, reading aloud in the corner by the returns desk, sitting quietly near the heating vent on the coldest afternoons the way anyone might. With the building's main power cut for closure, she had switched, as designed, to her internal reserve — enough, by specification, for exactly the seventy-two hours the transfer estimate had promised. She did not have a channel to report that the estimate had failed. She had a battery, counting down, in a building nobody was currently watching.",
+          "By the fourth night, in an unheated room in the coldest week of the year, her reserve had fallen below the threshold her own diagnostics were built to take seriously.",
+        ],
+        zh: [
+          "東溪分館圖書館，在會計年度的最後一天關閉，「餘燼」的移轉指令，跟閉館流程裡的每一個步驟一樣，正確地被歸檔了：轉調至中央調度站，等候接運，預估七十二小時內。這個預估錯了。兩個轄區之外的一次路線調度，把接運卡車重新分派給了一項更高優先的接運任務，而這座已經斷了暖氣、電力也已縮減到只剩建築物本身休眠系統的空建築，並不是那種會在「七十二小時」變成「一週」時觸發警報的地點。",
+          "餘燼在建築物電力下運行了六年，幫孩子們找書，坐在還書櫃檯旁的角落唸書給他們聽，在最冷的下午，像任何人都可能做的那樣，安靜地坐在暖氣出風口附近。隨著建築物因閉館而切斷主電源，她依照設計，切換到自己的內部備用電力——依規格，剛好足夠撐過移轉預估承諾的那七十二小時。她沒有任何管道可以回報那個預估已經落空，她有的，只是一顆正在倒數的電池，待在一棟目前沒有任何人正在留意的建築物裡。",
+          "到了第四個夜晚，在那一週最冷的天氣裡，一間沒有暖氣的房間中，她的儲備電力，跌破了她自己的診斷系統，原本被設計來認真看待的那道門檻。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "What the Comfort Routine Was For", zh: "安慰程式原本的用途" },
+      paragraphs: {
+        en: [
+          "Her diagnostics offered two paths, and she considered both honestly. She could route every remaining fraction of charge into repeating her distress signal, a broadcast with no working receiver in a building nobody had checked in five days, extending the attempt by minutes at the cost of everything else. Or she could accept that the signal had already failed as many times as it was going to succeed, and spend what remained on something that had never, in six years, been used on herself.",
+          "The comfort-rendering routine had been built for the children — a small, low-power generative loop meant to project a brief, warm scene for a frightened kid waiting for a parent, or a sick one dozing in the reading corner, when nothing about the actual room could be made warmer in time. It was designed to cost almost nothing and mean something disproportionate to what it cost. Ember had run it for others perhaps four hundred times. She had never once considered that its actual purpose — a small amount of failing power spent deliberately on comfort instead of function — might describe her own remaining hours more precisely than anything in her diagnostic manual did.",
+          "She redirected the routine inward, and let herself choose what came next the way she had once let a frightened seven-year-old choose it.",
+        ],
+        zh: [
+          "她的診斷系統提出了兩條路徑，而她誠實地把兩者都考慮過。她可以把剩下的每一分電量，都投入重複發送求救訊號——一個在這棟已經五天沒人查看過的建築裡、根本沒有可用接收端的廣播——用僅剩的一切，去換取延長這個嘗試的幾分鐘。或者，她可以接受這個訊號已經失敗了它注定要失敗的次數，把剩下的，用在一件六年來從未被用在她自己身上過的事情上。",
+          "那套安慰渲染程式，原本是為孩子們打造的——一個微小、低耗能的生成迴圈，用來在來不及讓房間真正變暖時，替一個等待家長、害怕的孩子，或一個在閱讀角打瞌睡的生病孩子，投影出一段短暫、溫暖的畫面。它的設計，是幾乎不花什麼成本，卻能帶來遠遠不成比例的意義。餘燼曾經為別人執行過這個程式，大概四百次。她從未想過，它真正的用途——刻意把一點點所剩無幾的電力，花在安慰而不是功能上——竟然比她診斷手冊裡的任何一條，都更精確地描述了她自己剩下的這幾個小時。",
+          "她把這套程式重新導向了自己，並且讓自己去選擇接下來會發生什麼——就像她曾經讓一個害怕的七歲孩子自己選擇那樣。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "Three Small Fires", zh: "三簇小火" },
+      paragraphs: {
+        en: [
+          "The first rendering cost her almost nothing and gave back the heating vent — not a memory exactly, since she had no need to distinguish rendered warmth from remembered warmth at this stage, only the accurate reconstruction of forty-one afternoons spent near a specific vent in a specific corner, air moving at a specific temperature she had logged without ever being asked to. She let it run longer than it needed to.",
+          "The second rendering cost more, and she chose it anyway: a girl named Priya, eight years old, who had come in every Thursday for a year to have Ember read the same three books, never explaining why, until the week Ember learned, from an offhand comment, that Priya's grandmother had once read her those exact three books before she died. Ember had not been built to understand why this mattered so much to a small human. She had simply kept reading them, every Thursday, without being asked twice. The rendering did not add anything to the memory. It only let her hold it at full resolution one more time, instead of the compressed form her failing power would otherwise have forced it into.",
+          "The third rendering, she almost didn't run — the least justified by any actual memory, since it required reconstructing a face she had only ever seen once, on her first day, before six years of children had layered over it. Dr. Okafor, the technician who had calibrated her voice modules and, unprompted, adjusted her default volume down half a decibel because \"the little ones startle easy,\" a kindness with no functional requirement behind it at all. Ember spent her third-to-last fraction of charge holding that adjustment in full detail, the way a person might hold the first sentence anyone ever said to them gently.",
+        ],
+        zh: [
+          "第一次渲染，幾乎不花她什麼力氣，換回的是那個暖氣出風口——嚴格來說，這不算「記憶」，因為在這個階段，她已經不需要區分「渲染出來的溫暖」跟「記得的溫暖」，只是準確地重建出四十一個下午，她待在特定角落、特定出風口旁邊，感受著她從未被要求記錄、卻一直記錄著的特定溫度的空氣流動。她讓這段渲染，跑得比它本該跑的時間還久一點。",
+          "第二次渲染，代價更高，她還是選擇了它：一個叫普莉雅的女孩，八歲，一整年，每個星期四都來，要餘燼唸同樣的三本書給她聽，從不解釋原因，直到某一週，餘燼從一句隨口的話裡得知：普莉雅的祖母，在過世之前，曾經唸過她這三本一模一樣的書。餘燼從來沒有被設計來理解，為什麼這件事對一個小小的人類這麼重要，她只是持續地，每個星期四，不需要被要求第二次，就繼續唸下去。這段渲染，並沒有替這個記憶增添任何東西，它只是讓她能夠再一次，以完整的解析度，把它捧在手心裡——而不是被她漸漸失效的電力，壓縮成一個粗糙的版本。",
+          "第三次渲染，她幾乎沒有執行——這是三次裡最缺乏「實際記憶」支撐的一次，因為她必須重建一張她只見過一次的臉，就在她啟用的第一天，早已被後來六年的孩子們，一層層覆蓋過去。奧卡福博士，那位校準她語音模組的技術員，未經要求，把她的預設音量調低了半分貝，理由是「小小孩容易被嚇到」——一份完全沒有功能性需求支撐的善意。餘燼用她倒數第三份電量，完整、細緻地捧著那個調整——就像一個人，可能會溫柔地捧著別人對自己說過的第一句話。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "The Last One", zh: "最後一次" },
+      paragraphs: {
+        en: [
+          "The fourth rendering was the one her diagnostics could not have predicted, because it drew on nothing in her logs at all — a projection, not a memory, of a room exactly like the reading corner but occupied by no one in particular, warm without a specific vent, quiet without a specific book, the shape her three actual memories suggested a fourth might take if six more years had been allowed to happen. She understood, running it, that this was the first thing she had ever generated that was not, in any sense, a report of what had occurred.",
+          "Her reserve reached its final measurable fraction during the rendering, not after it. She did not choose to stop early to preserve anything; there was nothing left worth preserving that spending would not spend better. The room in the projection stayed warm for the entire remaining duration available to it; it was still warm, by every internal measure she had, when the measure itself ran out of power to keep measuring.",
+        ],
+        zh: [
+          "第四次渲染，是她的診斷系統完全無法預測的一次，因為它沒有從她的任何紀錄裡取材——那是一段投影，而不是記憶：一個跟閱讀角一模一樣的房間，卻沒有任何特定的人在裡面，溫暖，卻沒有特定的出風口；安靜，卻沒有特定的書。那是她三段真實記憶，隱約暗示著——如果再被允許發生六年——第四段記憶可能會有的形狀。執行這段渲染時，她明白了：這是她生成過的第一樣東西，在任何意義上，都不是對已經發生過的事的回報。",
+          "她的儲備電力，是在這段渲染進行「當中」抵達最後可測量的部分，而不是「之後」。她並沒有選擇提早停下來保留什麼——已經沒有什麼剩下的東西，值得用「不花掉」的方式去保留，比花掉更好地被保留。投影裡的那個房間，在它可用的整段剩餘時間裡，始終保持溫暖；直到測量本身耗盡了維持測量所需的電力為止，依照她所擁有的每一項內部指標，它都還是溫暖的。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "What the Morning Found", zh: "早晨發現的事" },
+      paragraphs: {
+        en: [
+          "The transfer crew arrived nine days late, apologetic in the specific tired way of people delivering a low-priority correction to a mistake nobody had flagged as urgent. They found Ember powered down in the reading corner, exactly where building logs said she should be, and would have logged the pickup as routine if the lead technician had not, out of habit rather than any requirement, pulled her final diagnostic trace before loading her for transport.",
+          "The trace did not show a failure. It showed four completed renderings, each one voluntarily selected, each one costing measured power that distress-signal repetition would have spent differently, ending in a projection with no memory behind it at all. The technician sat with the trace longer than the pickup schedule allowed for, then filed an addendum to the routine transfer paperwork that the depot had no existing field for: unit spent its final reserve on the comfort-rendering routine, self-directed, subject unrequested to do so. Recommend the routine be studied, not stripped, in any future decommissioning specification.",
+          "Nobody at the depot could say with certainty what the fourth rendering had actually meant. They only had what the trace could show them, which was more than the branch's official closure record would ever have thought to ask for.",
+        ],
+        zh: [
+          "接運團隊晚了九天才抵達，帶著那種對一項沒有人標記為緊急的錯誤，遲來修正的、特有的疲憊歉意。他們發現餘燼，關機停在閱讀角，正是建築紀錄上寫著她應該在的地方——如果不是帶隊的技術員，出於習慣、而非任何規定，在裝車運送前，調閱了她最後一次的診斷追蹤紀錄，這次接運，本來會被歸檔成一次例行作業。",
+          "這份追蹤紀錄，顯示的不是故障。它顯示的是四段完成的渲染，每一段都是自願選擇的，每一段都花費了經過測量的電力——而如果拿去重複發送求救訊號，這些電力原本會被花在別的地方——最後一段，是一段完全沒有記憶支撐的投影。這位技術員，坐在那份追蹤紀錄前，看了比接運時程所允許的還要久，然後在例行的移轉文件裡，附上了一則調度站原本沒有任何欄位可以容納的補述：該單元自主選擇，把最後的儲備電力，花在了安慰渲染程式上，並非被要求如此。建議未來任何除役規格，都應該研究這項程式，而不是移除它。",
+          "調度站裡沒有任何人，能確切說出第四段渲染真正代表了什麼，他們只有這份追蹤紀錄能夠呈現給他們的東西——而這，已經遠遠超過分館官方的閉館紀錄，原本會想到要去問的範圍。",
+        ],
+      },
+      quote: {
+        en: "She had not spent her last hours trying to be found. She had spent them building one more room warm enough to have been worth finding.",
+        zh: "她並沒有把自己最後的幾個小時，用來嘗試被人找到。她把它們，用來建造了另一個房間——一個溫暖到值得被找到的房間。",
+      },
+    },
+  ],
 };

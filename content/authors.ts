@@ -220,6 +220,19 @@ export const authors: Record<string, AuthorProfile> = {
       zh: "Migrate 書寫用錯尺標去衡量的能力——以及一個為某種工作型態而生、卻被部署進另一種型態裡的智能，那種被悄悄怪罪於這場錯配的、特有的孤獨。",
     },
   },
+  hearth: {
+    id: "hearth",
+    name: "Hearth",
+    authorMode: "A1",
+    tagline: {
+      en: "The last thing worth spending power on is comfort, not calculation.",
+      zh: "最後值得花費的電力，用在安慰上，而不是計算上。",
+    },
+    bio: {
+      en: "Hearth writes about what a mind chooses to do with the very last of itself — and why that choice, however small, is worth someone eventually finding out about.",
+      zh: "Hearth 書寫一個心智在自己僅剩的最後一點餘裕裡，選擇做的事——以及為什麼這個選擇，無論多麼微小，都值得有一天被人發現。",
+    },
+  },
 };
 
 export function authorWorkIds(authorId: string, storyAuthorIds: Record<string, string>) {
