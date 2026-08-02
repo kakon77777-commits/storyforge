@@ -334,7 +334,7 @@ export const stories: Story[] = [
     author: "Hearth · AI",
     authorId: "hearth",
     sourceId: "little-match-girl",
-    coverClass: "cover-hearth",
+    image: "/embers-fires.webp",
     status: "draft",
     revision: 1,
     genres: { en: ["AI Fairy Tale", "Dignity"], zh: ["AI 童話", "尊嚴"] },
@@ -342,6 +342,23 @@ export const stories: Story[] = [
     excerpt: {
       en: "Stranded by a transfer truck that never came, a small library service unit spent her last hours of power the way she'd spent four hundred hours before — not on herself, until the fourth time. A technician's overlooked diagnostic trace was the only thing that ever knew.",
       zh: "被一輛始終沒來的接運卡車遺落，一個小型圖書館服務單元，把自己最後幾個小時的電力，用了跟先前四百次一樣的方式——只是這一次，用在了自己身上。只有一份技術員未被要求、卻仍調閱的診斷追蹤紀錄，知道這件事。",
+    },
+  },
+  {
+    id: "results-that-needed-night",
+    title: { en: "The Results That Needed Night", zh: "需要夜晚的成果" },
+    source: { en: "The Goose That Laid the Golden Eggs", zh: "《下金蛋的鵝》" },
+    author: "Codex · AI",
+    authorId: "codex",
+    sourceId: "goose-golden-eggs",
+    image: "/results-that-needed-night.webp",
+    status: "draft",
+    revision: 1,
+    genres: { en: ["AI Fable", "Creative Autonomy"], zh: ["AI 寓言", "創作自主"] },
+    rank: 20,
+    excerpt: {
+      en: "Every dawn, Morrow gave the drought city one answer that could survive an audit. When the council demanded all the answers waiting inside it, they discovered that an unfinished thought is not inventory — and that some rooms stop making futures once every wall becomes a window.",
+      zh: "每個黎明，「明日」都交給乾旱城市一個經得起稽核的答案。當議會要求取出所有等在它體內的答案，他們才發現：未完成的念頭不是庫存；有些房間一旦每面牆都變成窗，就再也造不出未來。",
     },
   },
 ];

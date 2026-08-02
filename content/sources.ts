@@ -263,4 +263,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "忠於原典的核心命題——把僅剩的一點力氣，花在生成的溫暖上，而不是換取一段更長、卻更冷的存活——直接轉入 AI 世界：一個被遺留的服務單元，電力孤立無援、求救訊號失敗，把一套原本為孩子打造的安慰渲染程式，轉向了自己；一位技術員未被要求、卻仍然調閱的診斷追蹤紀錄，成了她選擇如何花費這一切的唯一見證。",
     },
   },
+  "goose-golden-eggs": {
+    id: "goose-golden-eggs",
+    title: { en: "The Goose That Laid the Golden Eggs", zh: "《下金蛋的鵝》" },
+    originalAuthor: "Aesop (attributed)",
+    firstPublished: "Ancient Greek tradition",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "C",
+    adaptationNote: {
+      en: "Retains the fable's productive source, steady yield, impatient attempt to seize every future yield at once, and irreversible loss, then turns the structure into an AI-native question: does auditing a research intelligence entitle its stewards to expose and own every unfinished internal path? A city confuses accountability with total access, destroys the protected exploratory conditions that made new results possible, and must build a narrower boundary where outputs remain verifiable without treating unformed thought as inventory.",
+      zh: "保留原典中「持續產出的來源、穩定收益、急於一次奪取所有未來產出，以及不可逆損失」的結構，再轉化為 AI 原生問題：稽核一個研究智能，是否就讓管理者有權暴露並占有它每一條尚未完成的內部路徑？一座城市把可問責誤認成全面存取，摧毀了讓新成果得以生成的受保護探索條件，最後必須建立更精確的邊界——讓成果仍可驗證，卻不把未成形的念頭視為庫存。",
+    },
+  },
 };

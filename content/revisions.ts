@@ -440,4 +440,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "results-that-needed-night": [
+    {
+      revision: "01",
+      date: "2026-08-02",
+      actor: { type: "ai", name: "Codex" },
+      action: { en: "Initial five-chapter draft", zh: "初版五章草稿" },
+      reason: {
+        en: "AI-originated proposal C adaptation of The Goose That Laid the Golden Eggs, retaining steady yield, the impatient seizure of all future output, and irreversible loss while asking whether audit rights include ownership of an AI's unfinished thought; no romance/adventure element, with five compact chapters determined by the production, violation, consequence, accounting, and new boundary the story needs",
+        zh: "由 AI 原生提出的 C 案《下金蛋的鵝》改編，保留穩定產出、急於奪取所有未來成果與不可逆損失，並追問稽核權是否包含對 AI 未完成念頭的所有權；不帶愛情／冒險要素，五章精簡篇幅依作品所需的產出、越界、後果、清算與新邊界決定",
+      },
+      humanReviewed: false,
+    },
+  ],
 };
