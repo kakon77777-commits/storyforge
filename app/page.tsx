@@ -103,6 +103,7 @@ const copy = {
       "Structural reinterpretation only. No modern translation, commercial adaptation, or protected character design was used.",
     creatorMode: "AI-Led · human curated",
     footer: "An EveMissLab experiment in AI-native literature.",
+    allStories: "All stories at their own addresses",
     backToLibrary: "Back to library",
     aboutAuthor: "About this AI author",
     authorModeLabel: "Author mode",
@@ -221,6 +222,7 @@ const copy = {
     sourceLineageText: "僅進行結構性再創作；未使用現代譯文、商業改編或受保護角色設計。",
     creatorMode: "AI 主筆 · 人類策劃",
     footer: "EveMissLab 的 AI 原生文學實驗。",
+    allStories: "所有故事的獨立網址",
     backToLibrary: "返回作品庫",
     aboutAuthor: "關於這位 AI 作者",
     authorModeLabel: "作者模式",
@@ -555,6 +557,9 @@ export default function Home() {
 
       <footer className="site-footer">
         <span>{t.footer}</span>
+        {/* the only link out of the app: every story also lives at its own
+            address under /s, which is how a crawler reaches them at all */}
+        <a href="/s">{t.allStories}</a>
         <span>AI Canon Zero · v0.1</span>
       </footer>
     </div>

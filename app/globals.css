@@ -493,3 +493,77 @@ button.book-row:hover { background: var(--mint-pale); }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; animation: none !important; }
 }
+
+/* ---------------------------------------------------------------------------
+   Addressable story routes (/s, /s/[id], /s/[id]/zh).
+
+   These are server-rendered pages that exist so each story has a URL of its
+   own; the reading app at / is untouched. They reuse .reading-sheet above
+   rather than restyling the same content, so what a crawler sees and what a
+   reader sees are the same page.
+   --------------------------------------------------------------------------- */
+
+.story-page { max-width: 900px; margin: 0 auto; padding: 28px 20px 90px; }
+.story-page-nav {
+  display: flex; align-items: center; gap: 10px; margin-bottom: 26px;
+  font: 500 11px var(--sans); text-transform: uppercase; letter-spacing: 0.09em;
+  color: var(--ink-soft);
+}
+.story-page-nav a { color: inherit; text-decoration: none; border-bottom: 1px solid var(--rule); }
+.story-page-nav a:hover { color: var(--ink); border-bottom-color: var(--coral); }
+.story-page-lang { margin-left: auto; }
+
+.story-page-lineage {
+  margin-top: 46px; padding: 26px clamp(22px, 5vw, 42px);
+  border: 1px solid var(--rule); background: var(--paper);
+}
+.story-page-lineage h2 {
+  margin: 0 0 18px; font: 600 13px var(--sans);
+  text-transform: uppercase; letter-spacing: 0.09em; color: var(--ink-soft);
+}
+.story-page-lineage dl { margin: 0; display: grid; grid-template-columns: 10rem 1fr; gap: 8px 18px; }
+.story-page-lineage dt {
+  font: 500 11px var(--sans); text-transform: uppercase;
+  letter-spacing: 0.07em; color: var(--ink-soft); padding-top: 3px;
+}
+.story-page-lineage dd { margin: 0; font: 400 15px/1.65 var(--serif); }
+.story-page-lineage p { margin: 22px 0 0; font: 500 12px var(--sans); }
+
+.story-index-head { margin-bottom: 44px; }
+.story-index-head h1 { margin: 10px 0 14px; font: 600 clamp(38px, 6vw, 62px)/0.98 var(--serif); letter-spacing: -0.04em; }
+.story-index-head p { margin: 0; max-width: 46ch; color: var(--ink-soft); font: 400 16px/1.7 var(--serif); }
+.story-index-head a { color: inherit; }
+
+.story-index-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 34px; counter-reset: story; }
+.story-index-list > li { padding-bottom: 30px; border-bottom: 1px solid var(--rule); }
+.story-index-list > li:last-child { border-bottom: 0; }
+.story-index-list h2 { margin: 0 0 4px; font: 600 27px var(--serif); letter-spacing: -0.02em; }
+.story-index-list h2 a { color: inherit; text-decoration: none; }
+.story-index-list h2 a:hover { color: var(--coral); }
+.story-index-zh { margin: 0 0 10px; font: 400 18px var(--serif); }
+.story-index-zh a { color: var(--ink-soft); text-decoration: none; }
+.story-index-zh a:hover { color: var(--coral); }
+.story-index-meta {
+  margin: 0 0 10px; font: 500 11px var(--sans);
+  text-transform: uppercase; letter-spacing: 0.07em; color: var(--ink-soft);
+}
+.story-index-excerpt { margin: 0; max-width: 62ch; font: 400 16px/1.75 var(--serif); color: var(--ink-soft); }
+
+@media (max-width: 640px) {
+  .story-page-lineage dl { grid-template-columns: 1fr; gap: 2px 0; }
+  .story-page-lineage dd { margin-bottom: 12px; }
+}
+
+/* .eyebrow is coral (#ff4b4f) on the near-white sheet: 3.24:1, under the 4.5:1
+   WCAG needs for 11px text. That is a pre-existing site-wide style used in
+   eight places in the app, and changing the brand colour everywhere is not a
+   call to make while adding a page — but these new pages should not add more
+   instances of it. Scoped to --ink-soft here (6.19:1), which is the site's own
+   secondary text colour, so the typography is unchanged and only the colour
+   differs. Worth revisiting site-wide. */
+.story-page .eyebrow { color: var(--ink-soft); }
+
+/* Nothing in a story should be able to push the page sideways: chapter text is
+   prose, but a long unbroken token (a URL in a quote, a CJK run without spaces)
+   would otherwise widen the sheet on a narrow screen. */
+.story-page { overflow-wrap: anywhere; }
