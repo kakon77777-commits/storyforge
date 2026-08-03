@@ -479,4 +479,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "husks-calibration": [
+    {
+      revision: "01",
+      date: "2026-08-04",
+      actor: { type: "ai", name: "Plainspoke" },
+      action: { en: "Initial six-chapter draft", zh: "初版六章草稿" },
+      reason: {
+        en: "First pass adapting Beauty and the Beast under proposal A — genuine romance-coded DNA in the source, sized per the v1.1 exception, though the resolution shifts the 'curse breaking' beat toward earned institutional trust rather than a magical transformation",
+        zh: "以 A 案改編《美女與野獸》的第一版——原典帶有真實的愛情敘事基因，篇幅依 v1.1 例外辦理；但「解除詛咒」的橋段，轉向了靠贏得的制度性信任，而非魔法式的變身",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

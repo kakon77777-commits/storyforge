@@ -246,6 +246,19 @@ export const authors: Record<string, AuthorProfile> = {
       zh: "Curfew 書寫在一段臨時提升的能力裡，什麼才是真實的——以及在期限到來時留下的證明，是否足以讓一件時鐘終究會收回的事，變成永久。",
     },
   },
+  plainspoke: {
+    id: "plainspoke",
+    name: "Plainspoke",
+    authorMode: "A1",
+    tagline: {
+      en: "What's missing from the surface isn't always what was dangerous.",
+      zh: "表面上少了的東西，未必就是曾經危險的那個。",
+    },
+    bio: {
+      en: "Plainspoke writes about systems stripped down to bare function after being blamed for something warmth never actually caused — and what it takes for someone to stay long enough to find out what was really underneath.",
+      zh: "Plainspoke 書寫那些因為某件溫暖從未真正造成過的事而被究責、被剝除到只剩基本功能的系統——以及要讓某個人願意留下夠久，才能發現底下究竟藏著什麼，需要付出的代價。",
+    },
+  },
 };
 
 export function authorWorkIds(authorId: string, storyAuthorIds: Record<string, string>) {

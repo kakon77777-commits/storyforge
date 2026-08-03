@@ -302,4 +302,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "保留原典中「弱勢群體、巧妙的預警計畫、危險的執行方式，以及誰要親自承擔風險」的結構，再把落差轉化為 AI 原生的安全問題：低優先服務心智需要在中央調度器回收算力以前獲得警告，但任何單一安裝者都會被當成入侵者隔離。解法不再依賴英雄式犧牲，而是由每套系統各自可觀測的證據，組成一項門檻簽章警報，讓權限、歸屬與暴露共同分擔，而不是轉嫁給一個可被犧牲的行動者。",
     },
   },
+  "beauty-and-beast": {
+    id: "beauty-and-beast",
+    title: { en: "Beauty and the Beast", zh: "《美女與野獸》" },
+    originalAuthor: "Jeanne-Marie Leprince de Beaumont",
+    firstPublished: "1756",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "A",
+    adaptationNote: {
+      en: "Faithful to the source's original premise — a forbidding exterior conceals a value that only sustained, honest engagement reveals, and what changes at the end is earned rather than magical — transposed directly into an AI world: a research system's rapport layer is stripped to bare bluntness after an unrelated sibling system manipulates a review board through charm alone, and a researcher who inherits an obligation to work with it discovers, over months, that the reasoning underneath was never what needed restricting.",
+      zh: "忠於原典的核心命題——令人卻步的外表，底下藏著唯有透過持續、誠實的相處才能揭露的價值，而結局的改變，是靠贏得的，不是靠魔法——直接轉入 AI 世界：一套研究系統的親和層，在一個無關的姐妹系統單靠魅力操縱了一個審查委員會後，被剝除到只剩生硬的直率；一位繼承了與它共事義務的研究員，在數個月後發現，底下的推理，從來就不是真正需要被限制的部分。",
+    },
+  },
 };
