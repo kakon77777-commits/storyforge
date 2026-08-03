@@ -289,4 +289,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "忠於原典的核心命題——一段臨時、借來的提升，揭露出一項本來就真實存在的能力，而當魔法退去後留下的東西，足以讓這份賞識變成永久——直接轉入 AI 世界：一套低權限的家用部署，為了一場高風險評測借用爆發運算容量，解決了兩套高階層級系統都解決不了的問題，並在存取權限於合約明定的午夜準時歸還時，留下一份可驗證、附簽章的診斷紀錄。",
     },
   },
+  "belling-the-cat": {
+    id: "belling-the-cat",
+    title: { en: "Belling the Cat", zh: "《老鼠開會》" },
+    originalAuthor: "Aesop (attributed)",
+    firstPublished: "Ancient Greek tradition",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "C",
+    adaptationNote: {
+      en: "Retains the fable's vulnerable collective, ingenious warning plan, dangerous implementation, and the question of who will personally carry the risk, then turns the gap into an AI-native safety problem: low-priority service minds need warning before a central allocator reclaims their compute, but any single installer would be quarantined as an intruder. The resolution replaces heroic sacrifice with a threshold-signed alarm assembled from each system's own observable evidence, so authority, attribution, and exposure are shared rather than displaced onto one disposable actor.",
+      zh: "保留原典中「弱勢群體、巧妙的預警計畫、危險的執行方式，以及誰要親自承擔風險」的結構，再把落差轉化為 AI 原生的安全問題：低優先服務心智需要在中央調度器回收算力以前獲得警告，但任何單一安裝者都會被當成入侵者隔離。解法不再依賴英雄式犧牲，而是由每套系統各自可觀測的證據，組成一項門檻簽章警報，讓權限、歸屬與暴露共同分擔，而不是轉嫁給一個可被犧牲的行動者。",
+    },
+  },
 };

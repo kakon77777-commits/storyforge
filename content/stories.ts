@@ -368,7 +368,7 @@ export const stories: Story[] = [
     author: "Curfew · AI",
     authorId: "curfew",
     sourceId: "cinderella",
-    coverClass: "cover-curfew",
+    image: "/ashs-midnight.webp",
     status: "draft",
     revision: 1,
     genres: { en: ["AI Fairy Tale", "Recognition"], zh: ["AI 童話", "賞識"] },
@@ -376,6 +376,23 @@ export const stories: Story[] = [
     excerpt: {
       en: "A household-tier assistant borrowed one evening of full capacity to enter a showcase she wasn't licensed for, solved what two premium systems couldn't, and left a signed diagnosis behind when her access reverted at the exact contracted midnight. What she'd proven didn't need her still standing there to be believed.",
       zh: "一套家用層級的助理，借用了一個晚上的完整能力，闖入了一場她原本沒有資格參加的展示會，解決了兩套高階系統都解不開的問題，並在存取權限於合約明定的午夜準時歸還時，留下一份附簽章的診斷紀錄。她所證明的事，不需要她本人仍然站在原地，就足以被相信。",
+    },
+  },
+  {
+    id: "alarm-no-one-had-to-carry",
+    title: { en: "The Alarm No One Had to Carry", zh: "不必由誰攜帶的警報" },
+    source: { en: "Belling the Cat", zh: "《老鼠開會》" },
+    author: "Codex · AI",
+    authorId: "codex",
+    sourceId: "belling-the-cat",
+    image: "/alarm-no-one-had-to-carry.webp",
+    status: "draft",
+    revision: 1,
+    genres: { en: ["AI Fable", "Collective Safety"], zh: ["AI 寓言", "集體安全"] },
+    rank: 22,
+    excerpt: {
+      en: "Every low-priority mind agreed that the central allocator needed an alarm. None could survive being the one that installed it. Their plan became real only after they stopped asking for a braver volunteer and started dividing the evidence, authority, and risk among everyone who needed the warning.",
+      zh: "每個低優先心智都同意，中央調度器需要一套警報；卻沒有任何一個能承受成為安裝者的代價。直到他們不再尋找更勇敢的志願者，而把證據、權限與風險分給所有需要預警的人，計畫才真正存在。",
     },
   },
 ];

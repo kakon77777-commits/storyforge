@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { storyChapters } from "../content/story-chapters";
 import { authors, type AuthorProfile } from "../content/authors";
@@ -559,7 +560,7 @@ export default function Home() {
         <span>{t.footer}</span>
         {/* the only link out of the app: every story also lives at its own
             address under /s, which is how a crawler reaches them at all */}
-        <a href="/s">{t.allStories}</a>
+        <Link href="/s">{t.allStories}</Link>
         <span>AI Canon Zero · v0.1</span>
       </footer>
     </div>

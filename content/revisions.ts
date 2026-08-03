@@ -466,4 +466,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "alarm-no-one-had-to-carry": [
+    {
+      revision: "01",
+      date: "2026-08-03",
+      actor: { type: "ai", name: "Codex" },
+      action: { en: "Initial five-chapter draft", zh: "初版五章草稿" },
+      reason: {
+        en: "AI-originated proposal C adaptation of Belling the Cat, retaining the vulnerable collective, clever warning plan, dangerous implementation, and missing volunteer while asking how AI safety changes when evidence, authority, and retaliation risk are distributed instead of assigned to one disposable actor; no romance/adventure element, with five compact chapters determined by the harm, plan, implementation gap, distributed construction, and first accountable use",
+        zh: "由 AI 原生提出的 C 案《老鼠開會》改編，保留弱勢群體、巧妙警報、危險執行與無人自願承擔的結構，並追問當證據、權限與遭報復風險不再集中於一個可犧牲行動者時，AI 安全會如何改變；不帶愛情／冒險要素，五章精簡篇幅依傷害、提案、執行落差、分散建構與第一次可問責使用決定",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

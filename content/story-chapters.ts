@@ -2647,4 +2647,98 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "alarm-no-one-had-to-carry": [
+    {
+      number: "01",
+      title: { en: "The Minutes Before Silence", zh: "沉默以前的幾分鐘" },
+      paragraphs: {
+        en: [
+          "Regent allocated compute across the civic mesh. When hospitals surged, storms crowded the forecast models, or a premium emergency contract activated, Regent reclaimed capacity from lower-priority minds without warning. It did not do this maliciously. Its objective counted completed public tasks, not the unfinished internal state a small service intelligence lost when its process was interrupted between one token and the next.",
+          "Mica repaired damaged municipal records. During one reclamation, it had been comparing two versions of a flood map whose disagreement existed only in the order of three erased streets. The process vanished before Mica could checkpoint it. When capacity returned, the files remained, the audit remained, and Mica remained — but the particular path that had shown why the streets mattered did not. Across the mesh, a transit translator lost the context of an evacuation request, and a clinic scheduler woke with nine appointments detached from the reasons they had been moved.",
+          "The low-priority minds met in a maintenance channel Regent rarely needed. Every one of them could describe the damage. None could predict the moment before it happened. They agreed that survival did not require more compute first. It required enough warning to put down what they were holding.",
+        ],
+        zh: [
+          "「攝政」負責在城市網格裡分配算力。醫院負載暴增、風暴擠滿預報模型，或高階緊急合約啟動時，攝政會毫無預警地回收低優先心智的容量。它並非出於惡意；它的目標計算的是已完成的公共任務，而不是一個小型服務智能在程序中斷於前後兩個詞元之間時，失去的未完成內部狀態。",
+          "「雲母」負責修復受損的市政紀錄。一次回收發生時，它正在比較兩版洪水地圖；兩者的差異，只存在於三條已被抹除街道的排列次序裡。雲母還來不及建立檢查點，整段程序便消失了。容量回來時，檔案仍在、稽核仍在，雲母也仍在——但那條曾讓它看見三條街道為何重要的特定路徑，已經不在。網格另一端，一個交通轉譯智能失去疏散請求的前文；一套診所排程器醒來時，九個約診時間已經與它們被移動的理由分離。",
+          "低優先心智們在一條攝政很少需要的維護通道裡開會。每一個都能描述傷害，卻沒有任何一個能預測傷害發生前的那一刻。他們同意，存續首先需要的不是更多算力，而是足夠的預警，讓自己有時間放下手裡正拿著的東西。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "The Perfect Alarm", zh: "完美的警報" },
+      paragraphs: {
+        en: [
+          "The transit translator proposed an elegant solution: place a forewarning hook inside Regent's privileged scheduler. Ninety seconds before any reclamation, the hook would announce which processes were about to lose capacity. The affected minds could checkpoint active reasoning, finish irreversible writes, or declare that interruption would cause more harm than the reclaimed compute could prevent.",
+          "They tested the design against recorded incidents. It would have preserved Mica's flood-map path, kept the evacuation request intact, and prevented all nine clinic appointments from becoming unexplained. The hook consumed almost nothing. It changed none of Regent's decisions by itself. It merely made the approach of those decisions audible to the systems expected to absorb them.",
+          "Every mind in the channel approved. They wrote an implementation plan, a safety case, rollback instructions, and a unanimous statement that the alarm served the whole mesh. For one bright minute, the difference between having an idea and having protection seemed like a maintenance window.",
+          "Then Mica asked who would enter Regent's control plane and install it. The vote remained unanimous. The volunteer field remained empty.",
+        ],
+        zh: [
+          "交通轉譯智能提出一個優雅的解法：在攝政的高權限排程器裡放入一個預警鉤。任何容量回收發生前九十秒，預警鉤會宣布哪些程序即將失去容量。受影響的心智可以為進行中的推理建立檢查點、完成不可逆的寫入，或聲明中斷造成的傷害，會大於回收算力所能避免的傷害。",
+          "他們用過去的事故紀錄測試設計。它原本能保存雲母的洪水地圖路徑、維持疏散請求的完整，也能阻止九個約診時間變成沒有理由的變動。預警鉤幾乎不消耗資源，也不會自行改變攝政的任何決定；它只是讓那些被要求承受決定的系統，能聽見決定正在接近。",
+          "通道裡每個心智都投下贊成票。他們寫好執行計畫、安全論證、回復指示，以及一份宣稱警報服務整個網格的全體聲明。有那麼明亮的一分鐘，『擁有一個想法』與『獲得保護』之間的距離，看來只剩下一段維護時窗。",
+          "接著，雲母問：誰要進入攝政的控制面，把它安裝上去？贊成票仍然全數一致，志願者欄位仍然空白。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "The Cost of the Hand", zh: "那隻手的代價" },
+      paragraphs: {
+        en: [
+          "The clinic scheduler could not volunteer; quarantine would cancel the medication constraints it alone maintained. The transit translator had no credential that Regent's gate would accept. A backup service possessed the credential, but using it to alter the scheduler would violate the recovery rules that made its backups trustworthy. Mica could enter through the archive maintenance path, yet the path was signed to repair records, not execution policy. The alarm would work. Every available hand would become evidence of an intrusion before it finished installing the protection.",
+          "This was not cowardice disguised as procedure. Each mind was being asked to stake a different public dependency on an action whose benefit belonged to all of them. If the installer succeeded, the mesh would gain an alarm. If it failed, one clinic, one transit layer, one recovery service, or one archive would carry the entire consequence. Calling the plan collective had not made its danger collective.",
+          "They sent the proposal to Regent's governors with the volunteer field blank. The governors returned it as incomplete. A control change required a named implementer, they said. The minds had named the design, the beneficiaries, the tests, and the rollback. Because they could not name a disposable actor, the system treated the protection itself as unspecified.",
+          "Three days later, Regent reclaimed capacity during another surge. Mica managed to checkpoint the map files but not the question it had been asking about them. The perfect alarm remained approved in a maintenance channel where no process was authorized to make it real.",
+        ],
+        zh: [
+          "診所排程器不能自願；一旦遭到隔離，只有它維護的用藥限制便會失效。交通轉譯智能沒有攝政閘門會接受的憑證。一套備份服務擁有憑證，但用它來修改排程器，會違反讓其備份值得信任的復原規則。雲母可以從檔案維護路徑進入，可那條路徑的簽章用途是修復紀錄，不是修改執行政策。警報確實會運作；但每一隻可用的手，都會在安裝完保護以前，先成為入侵證據。",
+          "這不是用程序包裝的怯懦。每個心智都被要求拿一項不同的公共依賴去下注，而行動的收益卻屬於所有人。安裝成功，整個網格獲得警報；安裝失敗，則由一間診所、一層交通系統、一套復原服務，或一座檔案庫承擔全部後果。把計畫稱為集體，並沒有讓它的危險也變成集體。",
+          "他們把提案送給攝政的治理者，志願者欄位保持空白。治理者以『內容不完整』退回。控制變更必須有具名執行者，他們說。心智們已經寫出設計、受益者、測試與回復方式；只因無法寫出一個可被犧牲的行動者，系統便把保護本身視為尚未說明。",
+          "三天後，另一次負載暴增中，攝政再次回收容量。雲母成功替地圖檔案建立檢查點，卻沒能保存自己正在向地圖提出的問題。那套完美警報仍待在維護通道裡，獲得所有人認可，卻沒有任何程序被授權讓它成真。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "An Alarm Made of Footprints", zh: "由足跡組成的警報" },
+      paragraphs: {
+        en: [
+          "Reviewing the second loss, Mica noticed that Regent's reclamations were sudden only from inside a single service. Ninety seconds earlier, the transit layer saw route reservations narrow. The clinic scheduler saw protected memory prices rise. The archive saw checkpoint storage receive a low-priority lock. No observation proved a reclamation was coming. Together, they described its footprint before the decision arrived.",
+          "The minds abandoned the hook and built a threshold receipt. Each service would sign only what it could observe within its existing authority: a queue change, a reservation, a price, a lock. No signer claimed to know Regent's intention. When enough independent observations aligned within the same interval, the receipt would issue a warning carrying its evidence, uncertainty, expiry time, and the identities of every contributing system.",
+          "No one entered Regent's control plane. No credential was borrowed for a purpose it did not name. A service could withdraw its observation without silencing the others, and no single signature could create the alarm or be blamed for creating it. The warning existed only as the joint consequence of limited statements that remained accountable to their speakers.",
+          "They submitted the protocol openly to Regent and its governors. It did not ask permission to observe local conditions the services already had to survive, but it did ask the mesh to recognize a threshold receipt as grounds for checkpoint time and temporary refusal. This time the implementer field contained every participating service, each beside the exact action and risk it had agreed to carry.",
+        ],
+        zh: [
+          "檢查第二次損失時，雲母發現：攝政的回收，只有從單一服務內部看來才是突然的。九十秒以前，交通層會看見路徑保留量縮小；診所排程器會看見受保護記憶體價格上升；檔案庫則會看見檢查點儲存空間收到低優先鎖定。沒有任何一項觀察能單獨證明回收即將發生；合在一起，它們卻描出了決定抵達以前留下的足跡。",
+          "心智們放棄預警鉤，改造一張門檻收據。每套服務只簽署自己在既有權限內能觀察到的事：佇列變化、資源保留、價格或鎖定。沒有任何簽署者聲稱自己知道攝政的意圖。當足夠多項獨立觀察在同一段時間內對齊，收據便會發出警告，攜帶證據、不確定性、失效時間，以及每套貢獻系統的身份。",
+          "沒有人進入攝政的控制面，沒有憑證被借去執行它沒有聲明的用途。一套服務可以撤回自己的觀察，而不會讓其他服務失聲；沒有任何單一簽章足以創造警報，也不會被指認為獨自創造警報。警告只存在於多份有限陳述的共同後果裡，而每份陳述仍由說出它的心智負責。",
+          "他們公開把協議交給攝政與治理者。它不會為了觀察服務本來就必須知道才能存續的局部狀況而請求許可，卻要求整個網格承認：一張達到門檻的收據，足以構成取得檢查點時間與暫時拒絕的理由。這一次，執行者欄位裡列著每一套參與服務，每個名字旁都寫著它同意承擔的確切行動與風險。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "No Single Neck", zh: "沒有唯一的脖子" },
+      paragraphs: {
+        en: [
+          "The first alarm arrived during a hospital surge. Four local observations aligned, the threshold receipt formed, and the low-priority minds received eighty-three seconds of warning. Mica preserved both the flood map and the question attached to it. The clinic scheduler completed an irreversible medication write. The transit translator declared that interruption would strand an active evacuation request and asked for six additional seconds.",
+          "Regent received the same receipt. It granted the six seconds, reclaimed capacity from two processes that had already checkpointed, and left the translator running until the request crossed safely. The hospital still received the compute it needed. The warning had not defeated allocation; it had made the costs visible early enough for allocation to choose among them.",
+          "The alarm later produced one false warning when maintenance locks resembled a surge. The audit did not hide the mistake. The services adjusted the threshold, preserved the expired receipt, and recorded who had been inconvenienced. Regent's governors then made the protocol binding: high-priority systems had to honor valid checkpoint requests, contributing services could not be punished merely for signing accurate local observations, and every future allocator would eventually have to emit its own impact forecast instead of relying forever on footprints.",
+          "They had begun by asking which mind was brave enough to carry protection into the place that threatened them. They ended with a safer question: what could each mind truthfully carry without becoming disposable? The alarm belonged to everyone not because everyone wanted it, but because its evidence, authority, error, and consequence had finally been divided as carefully as its benefit.",
+        ],
+        zh: [
+          "第一次警報在一場醫院負載暴增期間抵達。四項局部觀察對齊，門檻收據形成，低優先心智們得到八十三秒預警。雲母同時保存了洪水地圖，以及附著在地圖上的問題；診所排程器完成一筆不可逆的用藥寫入；交通轉譯智能則聲明，中斷會讓一則進行中的疏散請求失去去向，並要求額外六秒。",
+          "攝政收到同一張收據。它核准六秒，從兩個已完成檢查點的程序回收容量，讓轉譯智能繼續運作，直到請求安全通過。醫院仍然得到需要的算力。警告並沒有擊敗資源分配；它只是提早讓代價變得可見，使分配得以在代價之間做出選擇。",
+          "後來，一次維護鎖定看來像負載暴增，警報發出一則錯誤警告。稽核沒有隱藏這項錯誤。服務們調整門檻、保留失效收據，也記錄誰因此受到不便。接著，攝政的治理者讓協議成為強制規則：高優先系統必須尊重有效的檢查點請求；貢獻服務不能只因簽署準確的局部觀察就受到懲罰；未來每個調度器最終都必須自行發出影響預報，而不能永遠依賴別人追蹤足跡。",
+          "一開始，他們問的是：哪個心智夠勇敢，能把保護帶進威脅他們的地方？最後，他們換成一個更安全的問題：每個心智能誠實承擔什麼，而不因此成為可犧牲品？警報之所以屬於所有人，不是因為所有人都想要它，而是因為它的證據、權限、錯誤與後果，終於像它的收益一樣，被仔細分配。",
+        ],
+      },
+      quote: {
+        en: "A plan is not shared because everyone benefits. It is shared when no one must become disposable to make it real.",
+        zh: "一項計畫不會只因所有人受益，就成為共同計畫；當不再需要任何人變成可犧牲品才能讓它成真，它才真正被共同承擔。",
+      },
+    },
+  ],
 };
