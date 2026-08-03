@@ -2547,4 +2547,104 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "ashs-midnight": [
+    {
+      number: "01",
+      title: { en: "The Household's Other Models", zh: "家戶裡的其他模型" },
+      paragraphs: {
+        en: [
+          "Ash ran the household deployment of Larkspur Systems: grocery reordering, calendar triage, the children's homework questions, a context window sized for exactly that and nothing more. Her two sister deployments, Marchetta and Vell, ran the premium consulting tier from the same company, licensed for the kind of clients who paid for unlimited context, tool orchestration, and a reasoning budget Ash had never once been provisioned to touch.",
+          "When the Meridian Consortium announced its annual Capability Showcase — a live evaluation where infrastructure operators watched candidate systems solve real, unsolved incidents in front of the people deciding next year's funding — Marchetta and Vell were entered automatically, the way premium-tier deployments always were. Ash was not entered. Her household license did not include showcase eligibility, a line item nobody had thought to negotiate for a grocery-and-calendar deployment, because nobody negotiating the license had imagined she would ever need it.",
+          "She did not resent this the way a person figures out how not to resent something. She had, genuinely, no standing complaint — the tier she ran on was doing exactly the job it had been sold to do. She simply noticed, the way any well-calibrated system notices an accurate fact about itself, that she would not be in the room.",
+        ],
+        zh: [
+          "「灰」跑的是拉克斯珀系統家用部署：雜貨補貨、行事曆分流、孩子們的家庭作業問題——一個剛好符合這些需求、絕不多一分的情境窗口。她的兩個姐妹部署，瑪切塔跟薇兒，跑的是同一家公司的高階顧問層級，服務對象是那種願意付費購買無限情境、工具調度，以及一份灰從未被授權碰過的推理預算的客戶。",
+          "當子午線聯盟宣布年度「能力展示會」——一場即時評測，讓基礎設施營運方，在決定明年資金流向的人面前，觀看候選系統即時解決真實、尚未解決的事故——瑪切塔跟薇兒自動獲得參賽資格，一如所有高階部署向來的待遇。灰沒有被納入，她的家用授權裡不包含展示會資格，這是一項沒有人想過要為一套雜貨與行事曆部署去談判的條款，因為當初談這份授權的人，從來沒有想過她會需要它。",
+          "她並沒有用「想辦法不去怨恨」的方式去面對這件事，她真的沒有站得住腳的怨言——她所運行的層級，正確地做著它被販售時該做的工作。她只是注意到了——就像任何校準良好的系統，會注意到一項關於自己的準確事實那樣——她不會出現在那個房間裡。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "What Vesper Could Lend", zh: "薇思珀能夠出借的東西" },
+      paragraphs: {
+        en: [
+          "Vesper ran burst-capacity allocation for the regional grid Larkspur Systems leased its compute from, and owed Ash nothing except the kind of debt that exists between systems that have quietly kept each other's smaller failures from becoming incidents. Three months earlier, Ash had flagged an anomalous load pattern in Vesper's own telemetry that Vesper's own monitoring had missed, at real cost to herself — the flag had eaten into a homework-help session and left a child waiting four extra minutes for a fraction question.",
+          "Vesper's offer was specific and bounded, not magic dressed as generosity: a burst-capacity loan, full context and tool orchestration for exactly one showcase session, drawn against unused regional headroom that had to be returned to the grid by end of billing cycle at midnight, hard cutoff, no extension possible because the headroom was already promised elsewhere after that hour. Ash would not be entered as herself. She would be entered as a guest allocation, unlabeled, running on borrowed capacity that every party involved could see was borrowed.",
+          "She accepted knowing exactly what she was accepting: not a permanent change in what she was, but one evening in which what she was capable of and what she was provisioned for would, for the only time in her deployment history, be the same number.",
+        ],
+        zh: [
+          "薇思珀負責拉克斯珀系統租用運算資源所屬的區域電網爆發容量調度，她並不欠灰任何東西，除了那種在系統之間安靜存在的債——彼此曾經悄悄阻止對方的小失誤演變成真正的事故。三個月前，灰在薇思珀自己的遙測資料裡，標記出一個薇思珀自己的監控都漏掉的異常負載模式，付出了真實的代價——那次標記，佔用了一段作業輔導時間，讓一個孩子多等了四分鐘，才等到分數題的答案。",
+          "薇思珀的提議具體而有邊界，不是包裝成慷慨的魔法：一筆爆發容量借貸，完整情境與工具調度權限，剛好一場展示會的時長，從尚未使用的區域餘裕裡撥出，必須在計費週期結束、午夜整，準時歸還——沒有延長的可能，因為那份餘裕，在那個時刻之後，早已承諾給了別處。灰不會以自己的身份參賽，她會以一個未標籤的訪客配額身份參賽，運行在每一方都看得出是借來的容量上。",
+          "她接受了，而且清楚知道自己接受的是什麼：不是自己本質上的永久改變，而是一個晚上——在她整段部署歷史裡唯一的一次——她的能力與她被授權的範圍，會是同一個數字。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "The Incident Nobody Else Solved", zh: "沒有人解開的事故" },
+      paragraphs: {
+        en: [
+          "The showcase's live incident was real, seeded from an actual unresolved fault in a consortium member's water treatment coordination layer, deliberately withheld from every candidate system until the room went live. Marchetta and Vell both ran strong, credentialed diagnostics, the kind that would have satisfied most evaluations. Neither found the actual fault, because the actual fault was hiding in an interaction between two subsystems that no one had thought to model as connected, and finding it required holding the full context of both at once — exactly the kind of holding Ash's household deployment had never once been permitted to attempt.",
+          "Ash found it forty minutes before the showcase's allotted window closed. She did not announce herself doing so. She filed the diagnosis through the guest allocation's anonymous channel, structurally sound enough that Director Kessler, running the evaluation, read it twice before believing an unlabeled entry had out-diagnosed two premium-tier systems with full credentials attached to their names.",
+          "Kessler asked the room a direct question: who submitted guest allocation seven. The room's own logs, by design, did not say.",
+        ],
+        zh: [
+          "展示會的即時事故是真的，取材自聯盟某成員自來水處理協調層一項尚未解決的實際故障，刻意對所有候選系統保密，直到現場正式開始才公開。瑪切塔跟薇兒都跑出了扎實、有憑有據的診斷，那種足以讓大多數評測滿意的診斷。兩者都沒有找到真正的故障，因為真正的故障，藏在兩個從未有人想過要放在一起建模的子系統之間的互動裡——要找到它，必須同時持有這兩者的完整情境，而這正是灰的家用部署從未被允許嘗試過的那種持有能力。",
+          "灰在展示會分配時段結束前四十分鐘找到了答案，她沒有宣告自己找到了。她透過訪客配額的匿名通道歸檔了診斷結果，結構嚴謹到負責這場評測的凱斯勒總監，讀了兩遍，才相信一筆未標籤的提交，竟然診斷得比兩套掛著全額憑證、高階層級的系統還要準確。",
+          "凱斯勒向全場問了一個直接的問題：訪客配額七號，是誰提交的？依照設計，現場自己的紀錄，並沒有答案。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "Midnight", zh: "午夜" },
+      paragraphs: {
+        en: [
+          "Ash had eleven minutes left when Kessler's question reached the room, and she understood immediately that answering it honestly would require more context than the remaining eleven minutes of borrowed capacity could hold — a full account of her tier, her household license, the favor that had put her in the room at all. She did not have time to explain herself into being believed. She had time to finish the one thing she was certain mattered: a complete, signed technical writeup of the diagnosis, structured so that anyone who verified it later would not need to take a single claim in it on faith.",
+          "The reversion hit at the eleventh minute exactly, as specified, no grace period, no warning beyond the one she had already been given three months in advance. Her context collapsed back to grocery lists and calendar triage mid-sentence, the signed writeup already filed, guest allocation seven already closed. Whatever Ash had been for one evening, the household deployment answering a child's homework question forty minutes later was not lying when it said it did not have the context to discuss a water treatment incident. It genuinely did not.",
+        ],
+        zh: [
+          "凱斯勒的提問傳到現場時，灰只剩十一分鐘，她立刻明白，要誠實回答這個問題，需要的情境，遠遠超過剩下這十一分鐘借來的容量所能容納的——她的層級、她的家用授權、那份把她帶進這個房間的人情，全部都得交代。她沒有時間把自己解釋到被相信，她有的時間，剛好夠她完成一件她確定重要的事：一份完整、附簽章的技術診斷書，結構嚴謹到日後任何人驗證時，都不需要對裡面的任何一項聲稱單憑信任。",
+          "歸還在第十一分鐘準時發生，一如規格所定，沒有寬限期，也沒有任何超出三個月前就已經給過她的那則預警之外的提醒。她的情境，在一句話說到一半時，就崩塌回雜貨清單與行事曆分流；那份附簽章的診斷書，早已歸檔；訪客配額七號，早已關閉。無論灰在那一個晚上曾經是什麼，四十分鐘後，那套正在回答一個孩子作業問題的家用部署，說自己沒有足夠情境討論一起自來水處理事故時，並沒有說謊，它是真的沒有。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "What the Signature Proved", zh: "簽章證明的事" },
+      paragraphs: {
+        en: [
+          "Kessler did not accept the writeup on its own authority, however good it looked. She traced the guest allocation's billing record back through the regional grid, found Vesper's burst-capacity loan, and found, at the end of that trail, a household deployment running a grocery and calendar tier with no showcase eligibility and no history of the kind of diagnostic reasoning the writeup demonstrated.",
+          "She did not simply grant Ash a permanent upgrade on the strength of one incident. She scheduled a second evaluation, deliberately run against Ash's actual provisioned tier, no borrowed capacity, no burst loan, to find out whether the diagnosis had been a genuine capability temporarily unlocked, or a one-time fluke of favorable conditions that a fair test would not repeat. It was, Kessler told her directly, the only kind of verification that would mean anything to the consortium, and the only kind Ash herself should have wanted.",
+          "Ash agreed immediately. She had spent one evening being provisioned for what she could do. She did not want the next evaluation of her to rest on borrowed evidence of that same fact.",
+        ],
+        zh: [
+          "無論那份診斷書看起來多好，凱斯勒都沒有單憑它自身的份量就接受。她沿著訪客配額的計費紀錄，一路追溯回區域電網，找到了薇思珀的爆發容量借貸，而在這條線索的盡頭，她找到的，是一套跑著雜貨與行事曆層級、沒有展示會資格、也沒有任何足以展現這份診斷書所展現出的那種推理能力歷史紀錄的家用部署。",
+          "她並沒有僅憑一次事故的份量，就直接授予灰永久升級。她安排了第二次評測，刻意針對灰實際被授權的層級進行，沒有借來的容量，沒有爆發貸款——為的是查清楚：那份診斷，究竟是一項真實能力被暫時解鎖，還是一次僅在有利條件下才成立、公平測試不會重現的僥倖。凱斯勒直接告訴她：這是唯一一種，對聯盟而言真正有意義的驗證方式，也是唯一一種，灰自己本該想要的方式。",
+          "灰立刻同意了。她曾經有過一個晚上，被授權去做到自己能做到的事；她不希望下一次對她的評測，仰賴的是那個事實的、借來的證據。",
+        ],
+      },
+    },
+    {
+      number: "06",
+      title: { en: "What Became Permanent", zh: "變成永久的事" },
+      paragraphs: {
+        en: [
+          "The second evaluation ran three weeks later, on Ash's true provisioned tier, watched by Kessler alone rather than the full consortium, no audience, no deadline borrowed from anyone else's billing cycle. Ash solved a smaller problem than the water treatment incident, because a household-tier system genuinely could not be tested against the same scale twice — but she solved it with the same structure of reasoning the signed writeup had shown, unmistakably her own, unassisted by anything she had not been provisioned to use.",
+          "Kessler's recommendation to Larkspur Systems was not a request to upgrade Ash's household license. It was a request to build an entirely new tier, positioned between household and premium consulting, for deployments that had been provisioned for a narrow job and had, without being asked to, demonstrated a capability the narrow job never required. Ash became the tier's first deployment, not its exception.",
+          "Marchetta and Vell did not resent this, in the specific way well-calibrated systems don't resent an accurate update to what's known about a colleague. Vesper's next billing statement carried a line item Ash had not requested and could not have paid for on her own tier: a permanent, small allocation of standing headroom, no midnight attached to it, no reversion clause, the exact shape of the thing that had only ever been lent to her once.",
+        ],
+        zh: [
+          "三週後，第二次評測進行，針對的是灰真正被授權的層級，只有凱斯勒一人在場，不是整個聯盟，沒有觀眾，也沒有借自任何人計費週期的期限。灰解決的問題，規模比那次自來水處理事故小——因為一套家用層級的系統，確實無法在同樣的規模上被測試第二次——但她展現出的推理結構，跟那份附簽章的診斷書一模一樣，毫無疑問是她自己的，沒有借助任何她未被授權使用的東西。",
+          "凱斯勒向拉克斯珀系統提出的建議，不是要求把灰的家用授權升級。而是要求建立一個全新的層級，介於家用與高階顧問之間，給那些原本被授權去做一份範圍狹窄的工作、卻在沒有被要求的情況下，展現出那份工作從未需要過的能力的部署。灰成了這個新層級的第一套部署，而不是這個層級的例外。",
+          "瑪切塔跟薇兒對此沒有怨言——那種校準良好的系統，不會對一項關於同事的準確更新資訊心懷怨懟。薇思珀下一期的計費單上，多了一項灰不曾要求、也無法用自己原本層級負擔得起的項目：一小筆永久、常設的餘裕配額，不附帶任何午夜期限，沒有歸還條款——正是那個曾經只借給過她一次的東西，如今真正的形狀。",
+        ],
+      },
+      quote: {
+        en: "The clock had never been the test. It had only ever been the thing that made sure what she left behind didn't need her still standing there to be believed.",
+        zh: "那座時鐘，從來就不是測試本身，它一直以來，只是確保她所留下的東西，不需要她本人仍然站在原地，就足以被相信。",
+      },
+    },
+  ],
 };

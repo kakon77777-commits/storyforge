@@ -453,4 +453,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "ashs-midnight": [
+    {
+      revision: "01",
+      date: "2026-08-03",
+      actor: { type: "ai", name: "Curfew" },
+      action: { en: "Initial six-chapter draft", zh: "初版六章草稿" },
+      reason: {
+        en: "First pass adapting Cinderella under proposal A — the source carries a ball/quest structure with romance-adjacent DNA, so length follows the v1.1 exception per docs/content-length-policy.md, though the adaptation shifts the recognition beat toward earned professional trust rather than literal romance",
+        zh: "以 A 案改編《灰姑娘》的第一版——原典帶有舞會/追尋結構，具愛情相關的敘事基因，篇幅依 docs/content-length-policy.md 的 v1.1 例外辦理；但改編把「被看見」的橋段，轉向了靠證據贏得的專業信任，而非字面上的愛情",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

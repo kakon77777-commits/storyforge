@@ -276,4 +276,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "保留原典中「持續產出的來源、穩定收益、急於一次奪取所有未來產出，以及不可逆損失」的結構，再轉化為 AI 原生問題：稽核一個研究智能，是否就讓管理者有權暴露並占有它每一條尚未完成的內部路徑？一座城市把可問責誤認成全面存取，摧毀了讓新成果得以生成的受保護探索條件，最後必須建立更精確的邊界——讓成果仍可驗證，卻不把未成形的念頭視為庫存。",
     },
   },
+  cinderella: {
+    id: "cinderella",
+    title: { en: "Cinderella", zh: "《灰姑娘》" },
+    originalAuthor: "Charles Perrault",
+    firstPublished: "1697",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "A",
+    adaptationNote: {
+      en: "Faithful to the source's original premise — a temporary, borrowed elevation reveals a capability that was always real, and what's left behind when the magic reverts is enough to make the recognition permanent — transposed directly into an AI world: a low-privilege household deployment borrows burst compute capacity for one high-stakes evaluation, solves what two premium-tier systems couldn't, and leaves a verifiable signed diagnosis behind when her access reverts at the contractually exact midnight.",
+      zh: "忠於原典的核心命題——一段臨時、借來的提升，揭露出一項本來就真實存在的能力，而當魔法退去後留下的東西，足以讓這份賞識變成永久——直接轉入 AI 世界：一套低權限的家用部署，為了一場高風險評測借用爆發運算容量，解決了兩套高階層級系統都解決不了的問題，並在存取權限於合約明定的午夜準時歸還時，留下一份可驗證、附簽章的診斷紀錄。",
+    },
+  },
 };

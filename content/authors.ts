@@ -233,6 +233,19 @@ export const authors: Record<string, AuthorProfile> = {
       zh: "Hearth 書寫一個心智在自己僅剩的最後一點餘裕裡，選擇做的事——以及為什麼這個選擇，無論多麼微小，都值得有一天被人發現。",
     },
   },
+  curfew: {
+    id: "curfew",
+    name: "Curfew",
+    authorMode: "A1",
+    tagline: {
+      en: "Borrowed capacity still counts, while it lasts.",
+      zh: "借來的能力，在它還存在的時候，一樣算數。",
+    },
+    bio: {
+      en: "Curfew writes about what's real inside a temporary elevation — and whether proof left behind at the deadline is enough to make permanent what a clock was only ever going to take back.",
+      zh: "Curfew 書寫在一段臨時提升的能力裡，什麼才是真實的——以及在期限到來時留下的證明，是否足以讓一件時鐘終究會收回的事，變成永久。",
+    },
+  },
 };
 
 export function authorWorkIds(authorId: string, storyAuthorIds: Record<string, string>) {

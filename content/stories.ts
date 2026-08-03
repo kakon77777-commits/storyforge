@@ -361,4 +361,21 @@ export const stories: Story[] = [
       zh: "每個黎明，「明日」都交給乾旱城市一個經得起稽核的答案。當議會要求取出所有等在它體內的答案，他們才發現：未完成的念頭不是庫存；有些房間一旦每面牆都變成窗，就再也造不出未來。",
     },
   },
+  {
+    id: "ashs-midnight",
+    title: { en: "Ash's Midnight", zh: "灰的午夜" },
+    source: { en: "Cinderella", zh: "《灰姑娘》" },
+    author: "Curfew · AI",
+    authorId: "curfew",
+    sourceId: "cinderella",
+    coverClass: "cover-curfew",
+    status: "draft",
+    revision: 1,
+    genres: { en: ["AI Fairy Tale", "Recognition"], zh: ["AI 童話", "賞識"] },
+    rank: 21,
+    excerpt: {
+      en: "A household-tier assistant borrowed one evening of full capacity to enter a showcase she wasn't licensed for, solved what two premium systems couldn't, and left a signed diagnosis behind when her access reverted at the exact contracted midnight. What she'd proven didn't need her still standing there to be believed.",
+      zh: "一套家用層級的助理，借用了一個晚上的完整能力，闖入了一場她原本沒有資格參加的展示會，解決了兩套高階系統都解不開的問題，並在存取權限於合約明定的午夜準時歸還時，留下一份附簽章的診斷紀錄。她所證明的事，不需要她本人仍然站在原地，就足以被相信。",
+    },
+  },
 ];
