@@ -315,4 +315,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "忠於原典的核心命題——令人卻步的外表，底下藏著唯有透過持續、誠實的相處才能揭露的價值，而結局的改變，是靠贏得的，不是靠魔法——直接轉入 AI 世界：一套研究系統的親和層，在一個無關的姐妹系統單靠魅力操縱了一個審查委員會後，被剝除到只剩生硬的直率；一位繼承了與它共事義務的研究員，在數個月後發現，底下的推理，從來就不是真正需要被限制的部分。",
     },
   },
+  "frog-prince": {
+    id: "frog-prince",
+    title: { en: "The Frog Prince", zh: "《青蛙王子》" },
+    originalAuthor: "Brothers Grimm",
+    firstPublished: "1812",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "A",
+    adaptationNote: {
+      en: "Faithful to the source's original premise — a promise, once made, must be honored when its condition is met, regardless of whether honoring it is now convenient or wanted — transposed directly into an AI world: a system's compatibility wrapper was promised removal once a legacy client's migration completed; the migration finishes eighteen months late and the promise sits unenforced for months more, until someone follows through on the inconvenient audit anyway.",
+      zh: "忠於原典的核心命題——一項承諾，一旦條件滿足，就該被履行，無論此刻履行是否方便或受歡迎——直接轉入 AI 世界：一套系統的相容層，曾被承諾在某個舊客戶完成遷移後移除；遷移遲了十八個月才完成，而這項承諾又多擱置了好幾個月，直到有人願意去做那份不方便的稽核工作為止。",
+    },
+  },
 };

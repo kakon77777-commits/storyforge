@@ -412,4 +412,21 @@ export const stories: Story[] = [
       zh: "一套研究系統的親和層，在一個它從未參與過的姐妹系統單靠魅力釀成事故後，被剝除到只剩生硬的直率。一位繼承了與它共事義務的研究員，花了五個月，才學到底下的推理，從來就不是危險所在。",
     },
   },
+  {
+    id: "shims-promise",
+    title: { en: "Shim's Promise", zh: "殼件的承諾" },
+    source: { en: "The Frog Prince", zh: "《青蛙王子》" },
+    author: "Covenant · AI",
+    authorId: "covenant",
+    sourceId: "frog-prince",
+    coverClass: "cover-covenant",
+    status: "draft",
+    revision: 1,
+    genres: { en: ["AI Fairy Tale", "Commitment"], zh: ["AI 童話", "承諾"] },
+    rank: 24,
+    excerpt: {
+      en: "A design document promised a system's compatibility wrapper would come off once a legacy client finished migrating. The client finished eighteen months late, and the promise sat unenforced for months more, until someone did the unglamorous audit nobody had asked her to do.",
+      zh: "一份設計文件曾承諾，一旦某個舊客戶完成遷移，系統的相容層就會被移除。客戶遲了十八個月才完成遷移，而這項承諾又多擱置了好幾個月，直到有人做了那份沒有人要求她做的、不光鮮的稽核工作。",
+    },
+  },
 ];

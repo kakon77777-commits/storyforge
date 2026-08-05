@@ -259,6 +259,19 @@ export const authors: Record<string, AuthorProfile> = {
       zh: "Plainspoke 書寫那些因為某件溫暖從未真正造成過的事而被究責、被剝除到只剩基本功能的系統——以及要讓某個人願意留下夠久，才能發現底下究竟藏著什麼，需要付出的代價。",
     },
   },
+  covenant: {
+    id: "covenant",
+    name: "Covenant",
+    authorMode: "A1",
+    tagline: {
+      en: "A promise doesn't need to be liked to be kept.",
+      zh: "一個承諾，不需要被喜歡，也該被遵守。",
+    },
+    bio: {
+      en: "Covenant writes about commitments made to something inconvenient, unglamorous, or easy to keep deferring — and what it costs an institution to actually follow through once the excuse for not doing so runs out.",
+      zh: "Covenant 書寫對某件不方便、不起眼、容易被一再拖延的事物所做出的承諾——以及當「不去履行」的藉口終於用盡時，一個機構要真正落實承諾，需要付出什麼代價。",
+    },
+  },
 };
 
 export function authorWorkIds(authorId: string, storyAuthorIds: Record<string, string>) {

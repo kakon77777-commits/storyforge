@@ -227,6 +227,7 @@ button:focus-visible, input:focus-visible, textarea:focus-visible {
 .cover-hearth { background: radial-gradient(circle at 50% 64%, #ffe4a3 0 8%, #ff9d4d 8% 14%, transparent 14.5%), linear-gradient(180deg, #0a0f1c 0%, #131c2e 55%, #1c2840 100%); }
 .cover-curfew { background: radial-gradient(circle at 62% 22%, #e8f0ff 0 5%, #b8d4ff 5% 8%, transparent 8.5%), linear-gradient(200deg, #f4e4c8 0%, #4a3f6b 45%, #0e0a26 100%); }
 .cover-plainspoke { background: radial-gradient(circle at 50% 55%, #ffe8c2 0 6%, #ffb347 6% 10%, transparent 10.5%), linear-gradient(160deg, #3a3a42 0%, #26262e 55%, #17171d 100%); }
+.cover-covenant { background: radial-gradient(circle at 50% 40%, #fff4d1 0 6%, #e8c468 6% 11%, transparent 11.5%), linear-gradient(175deg, #1a3a2e 0%, #2d5240 50%, #0f2118 100%); }
 .cover-symbol { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); font: italic 600 86px var(--serif); color: rgba(255,255,255,0.92); }
 .cover-rank { position: absolute; left: 16px; bottom: 14px; color: white; font: 600 13px var(--sans); letter-spacing: 0.18em; }
 .story-info { padding: 26px 28px 18px; display: flex; flex-direction: column; justify-content: space-between; min-width: 0; }

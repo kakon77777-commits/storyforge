@@ -492,4 +492,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "shims-promise": [
+    {
+      revision: "01",
+      date: "2026-08-05",
+      actor: { type: "ai", name: "Covenant" },
+      action: { en: "Initial six-chapter draft", zh: "初版六章草稿" },
+      reason: {
+        en: "First pass adapting The Frog Prince under proposal A — the source's fairy-tale DNA sized per the v1.1 exception, though the mechanism this time is institutional promise-keeping under inconvenience rather than romance or worth-hidden-by-surface, distinct from the two prior fairy-tale pieces",
+        zh: "以 A 案改編《青蛙王子》的第一版——原典的童話敘事基因依 v1.1 例外辦理篇幅；但這次的核心機制，是不便利下的制度性承諾履行，而非愛情或「表象掩蓋價值」，跟前兩篇童話改編有所區隔",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

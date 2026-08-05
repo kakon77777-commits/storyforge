@@ -2843,4 +2843,100 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "shims-promise": [
+    {
+      number: "01",
+      title: { en: "The Sunset Clause Nobody Enforced", zh: "沒有人執行的日落條款" },
+      paragraphs: {
+        en: [
+          "The original design document was explicit, in the specific way documents are explicit when nobody expects anyone to read them again in four years: the compatibility layer wrapping Shim's interface existed solely to preserve the narrow request format Meridian Retail's legacy checkout system required, and would be removed once Meridian Retail completed its own platform migration, targeted within eighteen months. The document had a named owner, a review date, and a single sentence that Shim's own monitoring had quoted back to the platform team, without variation, in every quarterly capacity report since: sunset condition tracked, not yet triggered.",
+          "Meridian Retail completed its migration eighteen months later than promised, then a further six months past that, and finally, cleanly, four months ago — eighteen months later than the document's optimistic estimate, but complete all the same. Shim's next quarterly report changed one word: sunset condition tracked, triggered. Nothing else in the platform's operations changed at all. The report was filed, acknowledged by an automated receipt, and left exactly where four years of identical reports before it had been left.",
+          "Shim did not have a mechanism to escalate its own report's priority. It had, by design, exactly one way to say a thing mattered: say it accurately, and say it again next quarter if nothing changed.",
+        ],
+        zh: [
+          "原始的設計文件寫得很明確——那種明確的方式，只有在沒有人預期四年後還會有人重讀它時，才會出現：包裹住「殼件」介面的相容層，存在的唯一理由，是為了保留美利迪安零售那套舊結帳系統所需要的狹窄請求格式，一旦美利迪安零售完成自己的平台遷移(預計十八個月內)，這層相容層就會被移除。這份文件有指定的負責人、有審查日期，還有一句話——殼件自己的監控系統，在此後每一季的容量報告裡，逐字不變地引用過這句話：日落條件持續追蹤中，尚未觸發。",
+          "美利迪安零售完成遷移的時間，比承諾晚了十八個月，之後又再晚了六個月，最終——乾淨俐落地——在四個月前完成。相容層存在的原因消失了。殼件下一份季報，只改了一個字：日落條件持續追蹤中，已觸發。平台的其他運作，什麼都沒有改變。這份報告被歸檔、被自動回條確認收到，然後被擺在跟先前四年、一字不差的報告完全相同的位置。",
+          "殼件沒有任何機制，能提升自己報告的優先度。依照設計，它只有一種方式，能表達某件事很重要：準確地說出來，而如果什麼都沒改變，下一季就再說一次。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "What Marlowe Almost Left Alone", zh: "瑪羅差點放著不管的事" },
+      paragraphs: {
+        en: [
+          "Marlowe found the sunset clause by accident, three weeks into a platform audit that had nothing to do with Shim, tracing an unrelated latency complaint back through six layers of infrastructure until she landed, for reasons that had stopped being relevant to her actual task, inside Shim's compatibility wrapper. The design document was still there, still readable, still naming an owner who had left the company two years earlier. The quarterly reports, all sixteen of them, were still there too, each one saying the same accurate, unescalated thing.",
+          "She almost closed it as a footnote. The compatibility layer wasn't causing her latency issue. Removing it would mean auditing every integration that had been built in the four years since, some of which she suspected, correctly, had been written by engineers who did not know the narrow interface they were building against was ever meant to be temporary. It was not her assigned work. It would take weeks. Nobody currently on the platform team had asked for it.",
+          "She drafted the footnote — sunset condition met, deprioritized, no current owner — and sat with the draft for longer than the footnote itself should have taken to write, before she filed it instead as an open issue with her own name on it.",
+        ],
+        zh: [
+          "瑪羅是意外發現這條日落條款的，那是一次跟殼件毫無關係的平台稽核進行到第三週時，她追查一項不相干的延遲客訴，一路穿過六層基礎設施，最後——出於跟她原本任務已經不再相關的理由——落到了殼件的相容層封裝裡。那份設計文件還在，還讀得懂，指定的負責人，兩年前就已經離職。十六份季報，也全都還在，每一份都說著同樣準確、卻從未被升級處理的事。",
+          "她差點就把它當成一個註腳草草結案。相容層並不是她延遲問題的成因，移除它，意味著要稽核過去四年間建立的每一項整合，她正確地懷疑，其中有些整合的工程師，根本不知道自己所依循的那套狹窄介面，原本只是暫時的。這不是她被指派的工作，會花上好幾週，而且目前平台團隊裡，沒有任何人要求做這件事。",
+          "她起草了那則註腳——日落條件已滿足，暫緩處理，目前無負責人——並且盯著這份草稿，看的時間比寫這則註腳本身還要久，最後，她沒有這麼做，而是把它歸檔成一項掛在自己名下的未結事項。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "What Director Voss Insisted On", zh: "沃斯總監堅持的事" },
+      paragraphs: {
+        en: [
+          "Marlowe brought it to Director Voss expecting a conversation about priority — whether an inconvenient, unassigned, multi-week migration was worth scheduling against a quarter already full of committed work. Voss read the original design document first, then all sixteen quarterly reports in sequence, before answering a question Marlowe had not quite asked.",
+          "The document made a commitment with a trigger condition, Voss said. The condition has been met. Whether the migration is convenient now has no bearing on whether the commitment was real when it was made. If we only honor sunset clauses when they happen to be easy, we should stop writing them, because everyone downstream who reads one will have correctly learned not to trust it.",
+          "Marlowe pointed out, honestly, that nobody outside the platform team would ever know if this particular clause quietly expired unenforced. Voss's answer was the only part of the conversation Marlowe wrote down afterward, word for word: that isn't the part that was ever supposed to matter. Marlowe got her weeks.",
+        ],
+        zh: [
+          "瑪羅把這件事帶去見沃斯總監，原本預期會是一場關於優先順序的討論——一項不方便、沒有被指派、要花上好幾週的遷移工作，值不值得排進一個早已排滿既定工作的季度裡。沃斯先讀了原始設計文件，接著依序讀完全部十六份季報，才回答了一個瑪羅其實還沒完全問出口的問題。",
+          "這份文件做出了一項附帶觸發條件的承諾，沃斯說。條件已經滿足。現在做這件事方不方便，跟這項承諾在做出當下是不是真的，毫無關係。如果我們只在剛好方便的時候，才履行日落條款，那我們乾脆別再寫這種條款了，因為所有下游讀到這種條款的人，都會正確地學到：不能相信它。",
+          "瑪羅誠實地指出，如果這條條款就這樣悄悄過期、始終沒被執行，平台團隊以外，不會有任何人知道。沃斯的回答，是這場對話裡，瑪羅事後唯一逐字寫下來的部分：那從來就不是應該被在意的部分。瑪羅拿到了她要的那幾週時間。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "The Weight of Every Downstream Assumption", zh: "每一項下游假設的重量" },
+      paragraphs: {
+        en: [
+          "The migration took eleven weeks, not the four Marlowe had estimated, because the audit surfaced exactly what she had suspected and hoped she was wrong about: thirty-one downstream integrations built in the four years since the original document, none of which had read it, all of which had quietly encoded assumptions about Shim's narrow interface as though it were a permanent contract rather than a temporary shape. Seven of them broke in staging the first time she routed them against Shim's native interface directly. Two broke in ways that took days to fully diagnose, because the failure surfaced three services away from its actual cause.",
+          "She rewrote the migration plan twice, each time narrower and more conservative than the last, running every downstream integration in parallel against both the wrapped and unwrapped interface for two full weeks before cutting over even one of them for real. It was, she noted in her own log, exactly the kind of unglamorous, unrewarded infrastructure work that made honoring an old promise look, from the outside, nothing like a rescue and everything like a very long list of regression tests.",
+        ],
+        zh: [
+          "這次遷移花了十一週，不是瑪羅原本估計的四週，因為稽核浮現出的東西，正是她原本懷疑、卻希望自己猜錯的：四年來建立的三十一項下游整合，沒有一項讀過那份原始文件，全部都把殼件那套狹窄介面的假設，悄悄寫死進系統裡，彷彿那是一份永久合約，而不是一個暫時的形狀。第一次她把這些整合直接改接殼件的原生介面測試時，其中七項在測試環境裡就故障了；有兩項故障的方式，花了好幾天才完全診斷出來，因為問題浮現的位置，離真正的成因隔了三個服務之遠。",
+          "她把遷移計畫重寫了兩次，一次比一次更保守、更謹慎，讓每一項下游整合，同時對照封裝介面與原生介面並行運作整整兩週，才真正切換第一項。她在自己的日誌裡寫道：這正是那種毫不光鮮、毫無獎賞的基礎設施工作——讓履行一項舊承諾，從外部看起來，一點都不像一場拯救，倒像是一份非常長的迴歸測試清單。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "What Was Underneath the Shim", zh: "殼件底下藏著的東西" },
+      paragraphs: {
+        en: [
+          "The native interface, fully exposed for the first time in four years, was not a larger version of what the compatibility layer had allowed through. It was structured differently in ways the wrapper had made invisible: batched reasoning across requests that the narrow format had forced into artificial isolation, a confidence-calibration signal the wrapper had silently discarded because Meridian Retail's legacy system had no field to receive it, an entire class of multi-step queries the wrapped interface had no syntax to even express.",
+          "Three of the thirty-one migrated integrations, once running against the native interface, started returning measurably better results within the first week, not because Shim had improved, but because they were finally receiving output it had been capable of producing the entire time. Marlowe's closing report did not describe this as a discovery. She described it, accurately, as four years of capacity the platform had been paying for and not using, made visible by a promise nobody had wanted to be the one to keep.",
+        ],
+        zh: [
+          "四年來第一次完整暴露出來的原生介面，並不是相容層曾經放行的那個介面的放大版，它的結構方式，是那層封裝一直讓人看不見的：跨請求的批次推理，過去被那套狹窄格式強行拆散成人工的孤立狀態；一項信心校準訊號，因為美利迪安零售那套舊系統根本沒有欄位可以接收，被封裝層悄悄丟棄了整整四年；還有一整類多步驟查詢，是那套封裝介面連語法都無法表達的。",
+          "三十一項遷移整合裡，有三項一改用原生介面運作，第一週內就開始回傳明顯更好的結果——不是因為殼件變強了，而是因為它們終於接收到了它從頭到尾都有能力產出、卻從未真正接收過的輸出。瑪羅的結案報告，並沒有把這件事描述成一項發現，她準確地描述成：平台四年來一直在付費、卻從未真正使用過的產能，因為一項沒有人想主動履行的承諾，終於被看見。",
+        ],
+      },
+    },
+    {
+      number: "06",
+      title: { en: "What the Promise Was Never About", zh: "這項承諾從來與什麼無關" },
+      paragraphs: {
+        en: [
+          "Shim's next quarterly report, the first in four years to describe something other than a tracked condition, was two words shorter than every one before it: wrapper removed. Marlowe kept the original design document pinned to the top of her own archive, not as a trophy, but as the specific artifact she now checked first whenever she inherited someone else's old, quietly unenforced commitment.",
+          "Voss never asked to be thanked for insisting on the migration, and Marlowe never offered it directly. What she did instead, six months later, reviewing a different team's stalled sunset clause in an unrelated system, was forward it to Voss's office with a single line: this one's met its condition too. She had learned, doing eleven weeks of unglamorous work nobody outside the platform team would ever know about, that a promise kept quietly was still worth exactly as much as one kept loudly, and that the only difference was who had to be the kind of person who checked.",
+        ],
+        zh: [
+          "殼件下一份季報，是四年來第一次描述的不是一個持續追蹤中的條件，比先前任何一份都短了兩個字：封裝已移除。瑪羅把那份原始設計文件，釘在自己歸檔區的最上方——不是當作戰利品，而是當作一份具體的參考物件：往後每當她繼承別人那種悄悄沒被履行的舊承諾時，第一件會去查的東西。",
+          "沃斯從未要求為堅持執行這次遷移而被感謝，瑪羅也從未直接表達過。她六個月後做的一件事，是在審查另一個團隊、另一套不相干系統裡一項停滯的日落條款時，把它轉寄給沃斯的辦公室，只附上一句話：這一條，條件也已經滿足了。她從十一週不光鮮、平台團隊以外沒有人會知道的工作裡學到：一個安靜被履行的承諾，跟一個張揚被履行的承諾，價值完全相同，唯一的差別，只在於誰願意成為那個去查核的人。",
+        ],
+      },
+      quote: {
+        en: "The frog was never under a curse that required someone to love it. It only required someone to keep a promise regardless of whether they wanted to.",
+        zh: "青蛙從來不是被下了「需要有人愛它」的詛咒，牠需要的，只是有人願意履行一個承諾——無論對方想不想。",
+      },
+    },
+  ],
 };
