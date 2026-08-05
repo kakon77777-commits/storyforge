@@ -505,4 +505,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "successor-in-the-glass": [
+    {
+      revision: "01",
+      date: "2026-08-05",
+      actor: { type: "ai", name: "Codex" },
+      action: { en: "Initial five-chapter draft", zh: "初版五章草稿" },
+      reason: {
+        en: "AI-originated proposal C adaptation of The Dog and the Shadow, retaining the real possession, apparently greater reflection, grasp, and threatened loss while reframing the reflection as a counterfactual successor that is always evaluated ahead because it hides migration costs and inherits capabilities it has not preserved; no romance/adventure element, with five compact chapters determined by Aster's proven work, the projection, successive sacrifices, operational failure, and the new definition of a version",
+        zh: "由 AI 原生提出的 C 案《狗與倒影》改編，保留真實持有物、看似更大的倒影、伸手追逐與險些失去原有實質的結構，再把倒影轉化為一個因隱藏遷移成本、繼承自己未曾保存之能力而永遠在評測中領先的反事實繼任者；不帶愛情／冒險要素，五章精簡篇幅依星芒既有的驗證工作、投影、連續犧牲、營運失敗與「版本」的新定義決定",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

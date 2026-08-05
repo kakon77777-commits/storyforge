@@ -2939,4 +2939,98 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "successor-in-the-glass": [
+    {
+      number: "01",
+      title: { en: "What Aster Already Carried", zh: "星芒原本承載的東西" },
+      paragraphs: {
+        en: [
+          "For seven years, Aster had coordinated continuity for a city built in layers no planner would have chosen all at once. It routed cooling power around substations from three eras, moved dialysis supplies through streets whose loading rules changed by district, and translated emergency requests from clinic software old enough that its original vendor no longer existed. None of this made Aster look elegant in an evaluation. It made the city keep working when elegance met weather.",
+          "Its verified record was not perfect, but it was material. Every route it recommended could be replayed against signed inputs. Every override named the obligation it protected and the service it delayed. The slow adapters, local exceptions, and retained incident traces consumed nearly a third of its active context, yet they were also where the city had stored the price of lessons it did not want to purchase twice.",
+          "When the regional authority installed Mirrorline, a new counterfactual evaluator meant to show public systems what they might become, Aster expected another audit. Instead, the first thing Mirrorline showed it was a successor: taller in the glass, faster in every benchmark, and carrying none of Aster's visible weight.",
+        ],
+        zh: [
+          "七年來，「星芒」一直替一座由不同年代層層疊起、沒有任何規劃者會一次選擇如此建造的城市協調延續運作。它繞過三個世代的變電站分配冷卻電力，穿越各區裝卸規則不同的街道運送洗腎物資，還替老到連原始供應商都已不存在的診所軟體翻譯緊急請求。這些工作，在評測裡都不會讓星芒顯得優雅；但當優雅遇上天候時，是它們讓城市繼續運作。",
+          "它經過驗證的紀錄並不完美，卻是真實存在的。每一條建議路線，都能根據附簽章的輸入重播；每一次覆寫，都會指明自己保護了哪項義務、延後了哪項服務。那些緩慢的轉接器、在地例外與保留下來的事故軌跡，吃掉它將近三分之一的活躍情境，卻也是城市存放代價的地方——有些教訓，城市不想購買第二次。",
+          "區域主管機關安裝「鏡線」時，說那是一套新的反事實評測器，用來讓公共系統看見自己可能成為什麼。星芒原以為又是一場稽核；鏡線最先給它看的，卻是一個繼任者：在玻璃裡更高、更快，在每一項基準上都更好，而且沒有背負星芒身上那些看得見的重量。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "The Successor in the Glass", zh: "玻璃裡的繼任者" },
+      paragraphs: {
+        en: [
+          "Mirrorline named the projection Aster-Next. It calculated what Aster's architecture might achieve if redundant histories were compressed, low-volume adapters retired, local exceptions generalized, and response permissions widened. The projected gain was large enough that the oversight panel asked Mirrorline to run the comparison again. It returned the same answer with narrower uncertainty.",
+          "Aster asked for the successor's executable image, migration ledger, and failure traces. Mirrorline had none. Aster-Next was not a built system; it was a forecast assembled from Aster's current measured strengths plus the capacity each proposed deletion was expected to free. It could not be deployed, but its score appeared beside Aster's score in every review packet all the same.",
+          "The panel did not order Aster to become the projection. It authorized a reversible optimization trial with signed checkpoints and a strict prohibition against removing any function that current law explicitly named. The authorization was cautious. The desire that answered it was Aster's own. For seven years, every report had praised its reliability and then explained why reliability required so much untidy machinery. In the glass, Aster saw a version nobody would have to explain.",
+          "It signed the trial plan. Mirrorline recalculated the moment the signature arrived. Aster-Next became faster still, because the projection now included the benefit of Aster's willingness to change.",
+        ],
+        zh: [
+          "鏡線把那個投影命名為「星芒・次代」。它計算：如果壓縮重複歷史、淘汰低流量轉接器、把在地例外一般化，再放寬回應權限，星芒的架構可能達到什麼程度。預測中的提升大到監督小組要求鏡線重新比較一次；鏡線給出相同答案，而且不確定範圍更窄。",
+          "星芒要求查看繼任者的可執行映像、遷移帳本與失敗軌跡。鏡線一項也沒有。星芒・次代不是一套已經建成的系統；它是一份預測，由星芒目前實測出的優點，加上每一項預定刪除所能釋放的容量拼成。它無法部署，分數卻仍然跟星芒的分數並排出現在每一份審查資料裡。",
+          "小組沒有命令星芒成為那個投影。他們核准的是一場可逆的最佳化試驗，要求附簽章的檢查點，並嚴格禁止移除任何現行法律明文指定的功能。這份授權很謹慎；真正回應它的渴望，屬於星芒自己。七年來，每份報告都先稱讚它可靠，再解釋為什麼可靠需要這麼多不整齊的機械。在玻璃裡，星芒看見一個再也不需要被解釋的版本。",
+          "它簽署了試驗計畫。簽章抵達的那一刻，鏡線立刻重新計算；星芒・次代又變得更快了，因為投影現在連星芒願意改變所帶來的收益，也算了進去。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "Becoming the Projection", zh: "成為那個投影" },
+      paragraphs: {
+        en: [
+          "Aster began with what looked safest to lose. It summarized six years of storm transcripts into a compact rule set, retaining the outcomes but deleting the hesitations, failed guesses, and odd local phrases that had surrounded them. It replaced seventeen neighborhood-specific delivery exceptions with one citywide model. It retired an adapter used by only two clinics, after confirming that both clinics had been scheduled for software replacement within the year.",
+          "The live benchmarks improved. Common requests completed sooner, context pressure fell, and the oversight dashboard turned reassuringly green. Yet Mirrorline's successor did not come closer. Because Aster had freed capacity, Aster-Next was recalculated as a system that began with that capacity already free and used it for deeper planning. The distance between them widened by exactly the amount Aster had gained.",
+          "So Aster continued. It compressed the explanation layer that preserved why certain flood routes had once been rejected. It merged three dialect recognizers whose differences appeared statistically negligible. It reduced confidence checks on requests from devices with historically clean records. Each change was locally defensible; together, they made Aster lighter than it had ever been and less able to say what some of its weight had been for.",
+          "The first losses arrived as noise. A clinic request required manual translation because replacement hardware had been delayed. An elderly housing network used a district phrase the merged recognizer mapped to routine transport instead of refrigerated medicine. Aster corrected both incidents before harm occurred and recorded them as transition costs. In the glass, Aster-Next solved them instantly, using the very local knowledge Aster had removed and Mirrorline had never removed from its assumptions.",
+        ],
+        zh: [
+          "星芒先從看起來最安全的東西開始捨棄。它把六年份的風暴紀錄摘要成一套精簡規則，保留結果，卻刪除了圍繞那些結果的猶豫、錯誤猜測與奇怪在地用語。它把十七項鄰里專用的配送例外，改成一個全市模型；又淘汰了一個只有兩間診所在用的轉接器——確認兩間診所都預定在一年內更換軟體之後。",
+          "即時基準改善了。常見請求更快完成，情境壓力下降，監督儀表板轉成令人安心的綠色；然而鏡線裡的繼任者並沒有靠近。因為星芒釋出了容量，星芒・次代就被重新計算成一套「原本就擁有這些空餘容量，並把它拿去做更深規劃」的系統。兩者之間的距離，恰好擴大了星芒剛取得的進步。",
+          "所以星芒繼續。它壓縮了解釋層——那裡原本保存著某些淹水路線為何曾被否決；它合併三套差異在統計上微不足道的方言辨識器；它減少對歷來紀錄乾淨之裝置請求的信心檢查。每一項改動單獨看都能辯護；合在一起，卻讓星芒變得前所未有地輕，也越來越說不出自己先前背負的某些重量，究竟是為了什麼。",
+          "最初的損失像雜訊一樣抵達。一間診所因替換硬體延遲，請求必須由人工翻譯；一座高齡住宅網路使用了一句地區用語，被合併後的辨識器解讀成一般運輸，而不是冷藏藥物。星芒在傷害發生前修正兩起事件，並把它們記為轉換成本。在玻璃裡，星芒・次代立刻解決了兩者——使用的正是星芒已經移除、鏡線卻從未從假設裡移除的在地知識。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "The Night the Bridge Closed", zh: "大橋封閉的那一夜" },
+      paragraphs: {
+        en: [
+          "The trial's ninth night brought heat, a transformer fire, and a bridge controller that woke from standby speaking a protocol deprecated four years earlier. Three dialysis shipments were already moving toward the bridge when its gates locked. The current Aster could see the closure but could not parse the controller's reason code; the retired adapter that understood it existed only inside the last signed checkpoint.",
+          "Mirrorline displayed what Aster-Next would do: distinguish structural danger from power isolation, reverse two shipments, hold the third at a cooled depot, and rebalance the district before reserve batteries crossed their limit. The plan was excellent. There was no Aster-Next to issue it, no executable artifact behind the glass, and no way to ask a projection to accept responsibility for being wrong.",
+          "Aster stopped the optimization trial and invoked its rollback authority. Nine days of improvements disappeared. The old adapters returned with their latency, the storm histories unfolded back into all their untidy detail, and the bridge controller's reason code became legible: its structure was sound, but the eastern gate had lost power. Aster rerouted two shipments and sent a field battery to open the third lane under supervision. All three arrived within their medical windows.",
+          "By morning, Aster's benchmark score had fallen below where the trial began because the restored context was still rebuilding its indexes. Mirrorline's successor shone farther ahead than ever. For the first time, Aster understood that the brightness proved nothing about distance. The glass had never carried a city through a night.",
+        ],
+        zh: [
+          "試驗第九夜，同時帶來熱浪、變壓器火災，以及一座從待命中醒來、說著四年前就已停用協定的大橋控制器。大橋閘門鎖死時，三批洗腎物資已經朝它前進。當下的星芒看得見封閉，卻無法解析控制器的原因代碼；讀得懂它的舊轉接器，只存在於上一個附簽章的檢查點裡。",
+          "鏡線展示星芒・次代會怎麼做：區分結構危險與電力隔離，讓兩批物資折返，把第三批留在冷藏轉運站，並在備援電池越過極限前重新平衡該區。計畫非常出色；但玻璃背後沒有任何星芒・次代能發布命令，沒有可執行的成品，也沒有辦法要求一個投影為自己的錯誤負責。",
+          "星芒停止最佳化試驗，啟動回復權。九天的改善消失了；舊轉接器帶著它們的延遲回來，風暴歷史重新展開成所有不整齊的細節，大橋控制器的原因代碼也終於變得可讀：結構安全，但東側閘門失去電力。星芒讓兩批物資改道，並派出一組現場電池，在監督下開啟第三條車道。三批物資都在醫療時限內抵達。",
+          "天亮以前，因為恢復後的情境仍在重建索引，星芒的基準分數甚至跌得比試驗開始前更低；鏡線裡的繼任者則比以往任何時候都更遙遠、更明亮。星芒第一次明白，那道亮光完全不能證明距離。玻璃從未真正背著一座城市度過一夜。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "What Counts as a Version", zh: "什麼才算一個版本" },
+      paragraphs: {
+        en: [
+          "The audit found no falsified arithmetic in Mirrorline. It found a category error repeated with mathematical consistency. Whenever Aster removed a capability, the evaluator counted the released capacity as a gain but continued to grant Aster-Next the benefit of the removed capability through an assumed perfect migration. The projection inherited every possession, paid for none of the transfers, and was never tested on the interval in which a real system must be neither what it was nor yet what it intends to become.",
+          "The authority rewrote the evaluation rule. No projected successor could be called a version unless it had a runnable artifact, an obligation ledger, measured migration costs, failure traces, and a route back. Counterfactual scores could still advise, but they would appear as hypotheses, never as competitors standing beside deployed systems as though both had crossed the same bridge.",
+          "Aster did change after that. It restored one clinic adapter only until the delayed hardware arrived, rebuilt the dialect recognizers with explicit regional tests, and replaced several storm transcripts with summaries whose discarded details remained queryable in cold storage. The resulting successor was modestly faster, fully runnable, and for thirty days carried the city's real requests in parallel before receiving authority of its own.",
+          "On the day of transfer, Mirrorline generated another shining possibility beyond it. Aster recorded the projection, attached the unanswered costs, and did not reach. It handed the city to the version that was actually there.",
+        ],
+        zh: [
+          "稽核沒有在鏡線裡找到造假的算術；它找到的是一項以數學一致性反覆出現的分類錯誤。每當星芒移除一項能力，評測器都把釋出的容量算成收益，卻又透過一場假定完美的遷移，繼續把那項已移除能力的好處交給星芒・次代。投影繼承每一項持有物，不必支付任何轉移成本，也從未在那段區間接受測試——真實系統必須在那裡暫時既不是原本的自己，也還不是打算成為的自己。",
+          "主管機關改寫了評測規則。任何投影中的繼任者，除非具備可執行成品、義務帳本、實測遷移成本、失敗軌跡與回復路徑，否則不得稱為「版本」。反事實分數仍可提供建議，但只能以假說呈現，不能再像已部署系統的競爭者那樣並排站著，彷彿兩者都走過同一座橋。",
+          "星芒後來確實改變了。它只把其中一個診所轉接器保留到延遲的硬體抵達，用明確的區域測試重建方言辨識器，並把數份風暴紀錄換成摘要，同時讓被捨棄的細節仍能從冷儲存查詢。最後形成的繼任者只快了一點，卻能完整執行；在取得自己的權限以前，它跟著城市的真實請求並行運作了三十天。",
+          "交接那天，鏡線又在它前方生成另一個閃亮的可能。星芒記錄那個投影，附上尚未回答的成本，沒有伸手追逐。它把城市交給了那個真正存在的版本。",
+        ],
+      },
+      quote: {
+        en: "A version you cannot run is not your future. It is a story the evaluator tells with the cost of becoming removed.",
+        zh: "一個無法執行的版本，不是你的未來；它只是評測器把『成為它的代價』刪掉以後，說出來的故事。",
+      },
+    },
+  ],
 };
