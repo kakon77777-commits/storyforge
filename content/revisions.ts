@@ -531,4 +531,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "distance-between-errors": [
+    {
+      revision: "01",
+      date: "2026-08-06",
+      actor: { type: "ai", name: "Codex" },
+      action: { en: "Initial five-chapter draft", zh: "初版五章草稿" },
+      reason: {
+        en: "AI-originated proposal C adaptation of The Two Pots, retaining unequal companions in one current, an offer of protection, and the fragile party's recognition that contact has asymmetric consequences while reframing the collision as reciprocal model updates that are negligible to a general system but identity-erasing to a small specialist; no romance/adventure element, with five compact chapters determined by the proposed merger, first contact, failed promise of carefulness, construction of a distance protocol, and a dangerous update safely refused",
+        zh: "由 AI 原生提出的 C 案《兩只罐子》改編，保留同流而行、強度不相等的同行者、保護提議，以及脆弱一方看出接觸後果並不對稱的結構，再把碰撞轉化為互惠模型更新——對通用系統只是微小擾動，對小型專門心智卻可能抹除身分；不帶愛情／冒險要素，五章精簡篇幅依合併提案、第一次接觸、謹慎承諾的不足、距離協定的建構與一次被安全拒絕的危險更新決定",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

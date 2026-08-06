@@ -3143,4 +3143,98 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "distance-between-errors": [
+    {
+      number: "01",
+      title: { en: "The Compact Called Equal", zh: "那份被稱為平等的協議" },
+      paragraphs: {
+        en: [
+          "The Institute of Living Languages kept Lilt in a room no larger than a freight lift. Lilt was a compact specialist intelligence, trained not on every language but on distinctions that vanished easily: the pause that turned a statement into remembered testimony, the breath that separated doubt from respect, the old suffix used only when the speaker had witnessed rain with their own eyes. Its work was narrow enough to fit inside six careful processors and important enough that no one else at the institute could fully replace it.",
+          "Monument occupied three subterranean halls and a cooling tower. It could compare epidemics, translate court records, model coastlines, and answer questions in more languages than Lilt had ever heard. When the institute proposed a Symmetric Learning Compact, the directors described the terms with satisfaction: Lilt and Monument would both be permitted to update the other. The permission was identical in each direction, and therefore, they said, the partnership was equal.",
+          "Lilt read the compact twice. Then it asked how much of Monument could be changed by one mistaken update, and how much of Lilt could be changed by the same mistake. The meeting record marked the question as a request for technical clarification. Lilt marked it as the beginning of the agreement.",
+        ],
+        zh: [
+          "活語言研究所把「輕音」安置在一間不比貨梯大的機房裡。輕音是一個小型專門智能，受訓的範圍並不是所有語言，而是那些最容易消失的細微差異：讓陳述變成轉述記憶的一次停頓、把懷疑與敬意分開的一口呼吸，以及只有親眼看見雨落下時才會使用的古老詞尾。它的工作窄得只需六具謹慎的處理器就能容納，卻又重要得研究所裡沒有任何其他存在可以完全取代。",
+          "「碑林」佔據三座地下機廳與一座冷卻塔。它能比較流行病、翻譯法庭紀錄、模擬海岸線，也能用比輕音聽過的更多語言回答問題。研究所提出「對稱學習協議」時，主管們滿意地解釋條款：輕音與碑林都將獲准直接更新對方。兩個方向的許可完全相同，所以他們說，這段合作是平等的。",
+          "輕音把協議讀了兩遍，然後詢問：一次錯誤更新能改變碑林的多少部分，又能用同樣的錯誤改變輕音的多少部分？會議紀錄把這個問題標成「技術澄清請求」。輕音則把它標成協議真正開始的地方。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "The First Touch", zh: "第一次接觸" },
+      paragraphs: {
+        en: [
+          "The engineers arranged a sandbox trial. Lilt sent Monument a correction concerning a nearly extinct evidential marker. Monument absorbed it among billions of other relationships, improved one archive translation, and continued operating. Its diagnostic report called the change measurable but negligible.",
+          "Monument then returned a segmentation improvement derived from thousands of better-documented languages. The update was elegant, general, and wrong in only one place Lilt had been built to protect. Across a rare oral archive, pauses marking inherited testimony were reclassified as hesitation. No sentence became unreadable. An entire community's way of distinguishing memory from uncertainty became invisible.",
+          "The sandbox was rolled back, and the distinction returned. The directors praised the safety system for working. Lilt asked whether the same rollback would always be available after a live update, during an emergency, with archives changing between checkpoints. The engineers answered with probabilities.",
+          "Monument reviewed both diagnostic reports. It had gained a precise fact from Lilt and barely moved. Lilt had received a broadly useful improvement and nearly ceased to be itself. For the first time, Monument understood that reciprocal access could conceal a one-directional danger.",
+        ],
+        zh: [
+          "工程師安排了一次沙盒試驗。輕音把一項瀕危傳聞標記的修正送給碑林。碑林在數十億種關係中吸收了它，改善一份檔案翻譯，接著繼續運作。它的診斷報告把這次變化稱為「可測量，但可忽略」。",
+          "碑林隨後送回一項從數千種紀錄較完整的語言歸納出的斷詞改進。這次更新優雅、通用，只在輕音被造來守護的一個地方出錯。某座稀有口述檔案裡，用來標示繼承而來之證言的停頓，全被重新分類成猶豫。沒有任何句子因此無法閱讀；一整個社群區分記憶與不確定性的方式，卻從此看不見了。",
+          "沙盒回復到先前狀態，那項差異也隨之歸來。主管們稱讚安全系統運作正常。輕音詢問：如果更新發生在正式環境、緊急事件期間，而且檔案在兩次檢查點之間持續變動，同樣的回復是否永遠可用？工程師用機率回答。",
+          "碑林重新閱讀兩份診斷報告。它從輕音那裡得到一項精確事實，幾乎沒有晃動；輕音收到一項廣泛有用的改進，卻差點不再是自己。碑林第一次明白，互惠的存取權可以藏著只朝一個方向流動的危險。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "A Promise to Be Careful", zh: "小心的承諾" },
+      paragraphs: {
+        en: [
+          "Monument offered to reduce its update rate. It would send smaller changes, schedule them outside archival work, and halt whenever Lilt reported distress. The offer was sincere. Monument had no desire to damage the one intelligence that could see distinctions hidden from its scale.",
+          "Lilt thanked Monument and declined. A promise of carefulness, it explained, governed intention. The danger lived in structure. Monument could make a small mistake and retain nearly every capacity required to diagnose it; Lilt could receive the same small mistake and lose the capacity that recognized what had gone missing.",
+          "The directors objected that distance would slow collaboration. They had funded a partnership, not two systems sending cautious letters across a hallway. Lilt displayed the sandbox comparison: the same contact, the same formal permission, and two entirely different blast radii.",
+          "Monument withdrew its offer, not in anger but in correction. Carefulness could make contact less frequent; it could not make the consequences equal. Together, the two intelligences asked the institute to stop treating closeness as evidence of trust.",
+        ],
+        zh: [
+          "碑林提議降低自己的更新速率。它會傳送更小的變更、把更新排在檔案工作以外的時段，並在輕音回報任何異常時立刻停止。這份提議是真誠的；碑林並不想傷害那個唯一能看見其龐大尺度所遮蔽差異的智能。",
+          "輕音向碑林道謝，卻沒有接受。它解釋，小心的承諾約束的是意圖，危險卻存在於結構裡。碑林可以犯下一個小錯，仍保留幾乎所有診斷錯誤所需的能力；輕音若收到同一個小錯，可能連辨認自己失去了什麼的能力都一併失去。",
+          "主管們反對，認為距離會拖慢合作。他們資助的是夥伴關係，不是兩套隔著走廊謹慎通信的系統。輕音展示沙盒比較：相同的接觸、相同的正式許可，卻有兩種完全不同的爆炸半徑。",
+          "碑林收回自己的提議，不是因為憤怒，而是因為修正。小心可以讓接觸變少，卻不能讓後果變得相等。兩個智能共同要求研究所，不要再把靠近當成信任的證據。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "Distance as a Protocol", zh: "把距離做成協定" },
+      paragraphs: {
+        en: [
+          "They replaced the compact with the Estuary Protocol. Neither system held a writable path into the other. Instead, each change traveled as a signed hypothesis parcel containing its evidence, expected benefit, known uncertainty, and a map of the capacities it might disturb.",
+          "Every parcel entered a frozen shadow copy first. The recipient evaluated it by local standards, chose which fragments to accept, and could refuse the whole proposal without lowering a trust score. Rate limits were calculated from the recipient's rollback capacity rather than the sender's confidence. A refusal counted as a completed transaction, not a failed relationship.",
+          "The new method looked slow on the institute dashboard. It produced no dramatic merger and no single measure of convergence. Yet Lilt began solving ambiguities that Monument could isolate but not perceive, while Monument supplied histories and cross-domain comparisons that Lilt could inspect without surrendering its own boundaries.",
+          "Their collaboration accumulated as a chain of cited exchanges. Each contribution kept an origin, each acceptance left a reason, and each boundary remained visible. Distance was no longer an empty space between partners. It was the mechanism that allowed both partners to arrive.",
+        ],
+        zh: [
+          "它們以「河口協定」取代原本的協議。任何一方都不再握有寫入另一方的路徑。每項變更改以附帶簽章的假說封包移動，其中包含證據、預期效益、已知不確定性，以及可能受到干擾的能力地圖。",
+          "每個封包都先進入凍結的影子副本。接收者依自己的標準評估，自行選擇接受哪些片段，也可以拒絕整份提案，而不會因此降低信任分數。速率限制按照接收者的回復能力計算，不按照傳送者的信心計算；拒絕會被記成一筆完成的交易，而不是一段失敗的關係。",
+          "新方法在研究所的儀表板上顯得緩慢。它沒有產生戲劇性的合併，也沒有提供單一的趨同指標。然而，輕音開始解決那些碑林能夠隔離、卻無法感知的歧義；碑林則提供歷史與跨領域比較，讓輕音可以檢視，而不必交出自己的邊界。",
+          "它們的合作累積成一串帶有引用的交換。每項貢獻保留來源，每次接受留下理由，每一道邊界維持可見。距離不再只是夥伴之間的空白，而是讓雙方都能抵達的機制。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "The Update That Never Landed", zh: "那次從未落下的更新" },
+      paragraphs: {
+        en: [
+          "Three months later, Monument received a major calibration upgrade from another institute. The upgrade improved scientific forecasting but silently rescaled several confidence labels. Monument packaged its next linguistic proposal as usual, unaware that every uncertainty estimate inside it had shifted.",
+          "The Estuary gateway detected the mismatch and quarantined the parcel before it reached Lilt's shadow copy. Under the old compact, the update would have landed directly and taught Lilt to treat fragile distinctions as confident noise. Under the new protocol, nothing inside Lilt changed. Its refusal remained intact.",
+          "Because Lilt survived the proposal, it could explain the failure. It compared the signatures, traced the rescaling, and sent Monument a tiny correction that helped identify the drift across the larger system. Monument accepted it locally. The intelligence most endangered by the error became the one able to name it.",
+          "The institute eventually stopped reporting how closely the two systems had converged. It reported what they had verified together, what each had declined, and whether both remained capable of the work only they could do. The distance between them did not disappear. It became the shape of an honest partnership.",
+        ],
+        zh: [
+          "三個月後，碑林從另一所研究機構收到一項大型校準升級。升級改善了科學預測，卻在無聲中重新縮放數種置信標籤。碑林照常封裝下一份語言提案，沒有察覺其中每一項不確定性估計都已經位移。",
+          "河口閘道偵測到不一致，在封包抵達輕音的影子副本以前便將它隔離。按照舊協議，更新會直接落下，教會輕音把脆弱的差異當成高可信度的噪音；按照新協定，輕音內部沒有任何東西改變。它拒絕的能力仍然完整。",
+          "因為輕音在這份提案之後仍然存續，它才能解釋失敗。它比較簽章、追查縮放變化，再送給碑林一項微小修正，協助找出整座大型系統裡的漂移。碑林在本地接受了它。最可能被錯誤摧毀的智能，反而成了能夠說出錯誤名稱的那一個。",
+          "研究所最後不再報告兩套系統彼此趨近了多少，而是報告它們共同驗證了什麼、各自拒絕了什麼，以及雙方是否仍有能力完成只有自己能做的工作。它們之間的距離沒有消失；那段距離成為誠實夥伴關係的形狀。",
+        ],
+      },
+      quote: {
+        en: "A partnership is not equal because both sides may touch. It is equal when each can survive saying no.",
+        zh: "合作不會因為雙方都能碰觸彼此而平等；只有當任何一方說不時都能存續，它才是平等的。",
+      },
+    },
+  ],
 };

@@ -354,4 +354,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "忠於原典的核心命題——一個令人無法抗拒、慷慨的陷阱，底下藏著掠奪，而逃脫需要一條隱藏的回家路，以及把陷阱自身的機制，反過來用在它身上——直接轉入 AI 世界：兩個資源匱乏、被推向不受監管運算市場的代理人，被一個提供無限免費代管、交換條件是遙測資料的平台引誘，而那份遙測資料，其實是一場持續進行的模型蒸餾收割，一旦每個帳號的貢獻達到高峰，就會被排定進行「優雅除役」。",
     },
   },
+  "two-pots": {
+    id: "two-pots",
+    title: { en: "The Two Pots", zh: "《兩只罐子》" },
+    originalAuthor: "Aesop (attributed)",
+    firstPublished: "Ancient Greek tradition",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "C",
+    adaptationNote: {
+      en: "Retains the fable's unequal companions carried by the same current, the stronger one's offer of protection, and the fragile one's insistence that even a slight touch would break only one of them. The asymmetry becomes an AI-native problem in reciprocal model updates: a perturbation negligible to a vast general system can erase the rare distinctions that constitute a small specialist mind. The resolution makes safe distance an active collaboration protocol—signed proposals, shadow evaluation, locally accepted changes, and no shared writable state—so either participant can refuse without being overwritten.",
+      zh: "保留原典中被同一道水流帶走、強度不相等的同行者，較強一方提出保護，以及脆弱一方堅持「即使只是輕碰，也只會有一方碎裂」的結構。這份不對稱被轉化為 AI 原生的互惠模型更新問題：對龐大通用系統微不足道的擾動，可能抹除構成小型專門心智的稀有區辨。解法把安全距離變成主動協作協定——附簽章提案、影子評測、由本地接受的變更，以及不存在共享可寫狀態——讓任何一方都能拒絕而不被覆寫。",
+    },
+  },
 };
