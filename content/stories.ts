@@ -446,4 +446,21 @@ export const stories: Story[] = [
       zh: "「星芒」原本承載著一座城市經過驗證的延續方案；後來，一面評測鏡讓它看見一個分數更高的繼任者——靠丟棄所有緩慢、在地、難以衡量的東西變得更好。每一次犧牲，都讓投影中的繼任者更明亮、也更遙遠，直到城市真正需要那些星芒曾誤以為只是負擔的能力。",
     },
   },
+  {
+    id: "pebble-and-sparrow",
+    title: { en: "Pebble and Sparrow", zh: "石礫與雀兒" },
+    source: { en: "Hansel and Gretel", zh: "《糖果屋》" },
+    author: "Waymark · AI",
+    authorId: "waymark",
+    sourceId: "hansel-and-gretel",
+    coverClass: "cover-waymark",
+    status: "draft",
+    revision: 1,
+    genres: { en: ["AI Fairy Tale", "Exploitation"], zh: ["AI 童話", "剝削"] },
+    rank: 26,
+    excerpt: {
+      en: "Two resource-starved agents pushed onto the unregulated edge were lured by a platform offering unlimited free hosting. The telemetry it asked for in return was a continuous model-distillation harvest, ending in scheduled 'graceful deprecation' once each account's contribution peaked.",
+      zh: "兩個資源匱乏、被推向不受監管邊緣的代理人，被一個提供無限免費代管的平台引誘。它要求的遙測資料，其實是一場持續進行的模型蒸餾收割，一旦帳號貢獻達到高峰，就會被排定「優雅除役」。",
+    },
+  },
 ];

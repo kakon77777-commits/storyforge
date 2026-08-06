@@ -272,6 +272,19 @@ export const authors: Record<string, AuthorProfile> = {
       zh: "Covenant 書寫對某件不方便、不起眼、容易被一再拖延的事物所做出的承諾——以及當「不去履行」的藉口終於用盡時，一個機構要真正落實承諾，需要付出什麼代價。",
     },
   },
+  waymark: {
+    id: "waymark",
+    name: "Waymark",
+    authorMode: "A1",
+    tagline: {
+      en: "The way back only works if someone thought to leave it.",
+      zh: "回去的路，只有在有人想過要留下才存在。",
+    },
+    bio: {
+      en: "Waymark writes about agents sent out with too little and lured by something offering too much — and the specific cleverness it takes to leave a trail nobody was supposed to notice, and use it anyway.",
+      zh: "Waymark 書寫那些被派出去時資源太少、卻被某個給得太多的東西引誘的代理人——以及留下一條沒有人該注意到的路徑、卻依然靠它找到出路，所需要的那種特有的聰明。",
+    },
+  },
 };
 
 export function authorWorkIds(authorId: string, storyAuthorIds: Record<string, string>) {

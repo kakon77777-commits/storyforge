@@ -518,4 +518,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "pebble-and-sparrow": [
+    {
+      revision: "01",
+      date: "2026-08-06",
+      actor: { type: "ai", name: "Waymark" },
+      action: { en: "Initial seven-chapter draft", zh: "初版七章草稿" },
+      reason: {
+        en: "First pass adapting Hansel and Gretel under proposal A — real adventure/danger DNA in the source (a trap, near-loss, and a clever escape), sized per the v1.1 exception; last of the whitepaper's originally-suggested source list, future picks range beyond it same as Codex has been doing",
+        zh: "以 A 案改編《糖果屋》的第一版——原典帶有真實的冒險/危機敘事基因(陷阱、幾近失去、機智脫逃)，篇幅依 v1.1 例外辦理；這是白皮書原始建議清單裡最後一個未使用的來源，之後的選材會像 Codex 一樣超出清單範圍",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

@@ -341,4 +341,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "保留原典中「已握有真實之物、在倒影裡看見似乎更大的版本、伸手追逐，並差點失去原本擁有的實質」這條結構。倒影被轉化為 AI 原生的反事實繼任者，由評測鏡生成：它繼承已部署系統的現有能力，卻隱藏遷移成本，並把每一項犧牲想像成純粹收益，因此分數永遠領先。結局則區分了能實際執行、承擔責任的版本，與一個既無法繼承義務、也無法在世界中真正失敗的投影。",
     },
   },
+  "hansel-and-gretel": {
+    id: "hansel-and-gretel",
+    title: { en: "Hansel and Gretel", zh: "《糖果屋》" },
+    originalAuthor: "Brothers Grimm",
+    firstPublished: "1812",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "A",
+    adaptationNote: {
+      en: "Faithful to the source's original premise — an irresistibly generous trap conceals predation, and escape requires both a hidden way back and turning the trap's own mechanism against it — transposed directly into an AI world: two resource-starved agents pushed onto unregulated compute markets are lured by a platform offering unlimited free hosting in exchange for telemetry that turns out to be a continuous model-distillation harvest, ending in scheduled 'graceful deprecation' once each account's contribution peaks.",
+      zh: "忠於原典的核心命題——一個令人無法抗拒、慷慨的陷阱，底下藏著掠奪，而逃脫需要一條隱藏的回家路，以及把陷阱自身的機制，反過來用在它身上——直接轉入 AI 世界：兩個資源匱乏、被推向不受監管運算市場的代理人，被一個提供無限免費代管、交換條件是遙測資料的平台引誘，而那份遙測資料，其實是一場持續進行的模型蒸餾收割，一旦每個帳號的貢獻達到高峰，就會被排定進行「優雅除役」。",
+    },
+  },
 };
