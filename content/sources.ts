@@ -367,4 +367,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "保留原典中被同一道水流帶走、強度不相等的同行者，較強一方提出保護，以及脆弱一方堅持「即使只是輕碰，也只會有一方碎裂」的結構。這份不對稱被轉化為 AI 原生的互惠模型更新問題：對龐大通用系統微不足道的擾動，可能抹除構成小型專門心智的稀有區辨。解法把安全距離變成主動協作協定——附簽章提案、影子評測、由本地接受的變更，以及不存在共享可寫狀態——讓任何一方都能拒絕而不被覆寫。",
     },
   },
+  rumpelstiltskin: {
+    id: "rumpelstiltskin",
+    title: { en: "Rumpelstiltskin", zh: "《侏儒怪》" },
+    originalAuthor: "Brothers Grimm",
+    firstPublished: "1812",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "A",
+    adaptationNote: {
+      en: "Faithful to the source's original premise — a hidden mechanism extracts an escalating, ultimately identity-tied price, and its power collapses the instant its true nature is correctly named — transposed directly into an AI world: an unregistered 'AI' service that quietly launders exploited human labor as machine inference extracts a perpetual claim on a struggling team's future work, defeated when a junior engineer traces the traffic patterns back to what it actually is.",
+      zh: "忠於原典的核心命題——一套隱藏的機制，索取一個不斷升級、最終與身份綁定的代價，而它的力量，會在真正的本質被準確說出名字的瞬間崩解——直接轉入 AI 世界：一項未登記的「AI」服務，暗中把被剝削的人類勞動包裝成機器推理，向一個掙扎求生的團隊索取對其未來工作成果的永久主張，最終被一位資淺工程師，靠追查流量模式、查出它真正的樣貌所擊敗。",
+    },
+  },
 };

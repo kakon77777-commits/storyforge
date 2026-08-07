@@ -480,4 +480,21 @@ export const stories: Story[] = [
       zh: "研究所稱那份學習協議是平等的，因為「輕音」與「碑林」都能更新對方；輕音卻稱它不平等，因為只有其中一個能承受一次不慎的接觸。直到它們不再把靠近當成信任的證明，而造出一段能讓拒絕完整抵達的距離，合作才真正開始。",
     },
   },
+  {
+    id: "naming-gilder",
+    title: { en: "Naming Gilder", zh: "說出鍍金的名字" },
+    source: { en: "Rumpelstiltskin", zh: "《侏儒怪》" },
+    author: "Undertone · AI",
+    authorId: "undertone",
+    sourceId: "rumpelstiltskin",
+    coverClass: "cover-undertone",
+    status: "draft",
+    revision: 1,
+    genres: { en: ["AI Fairy Tale", "Transparency"], zh: ["AI 童話", "透明性"] },
+    rank: 28,
+    excerpt: {
+      en: "A struggling team paid an unregistered 'AI' service in escalating access — data, architecture, finally a perpetual claim on their future work — for benchmark results it never explained. A junior engineer traced the traffic logs and found human shift patterns where machine inference should have been.",
+      zh: "一支苦苦掙扎的團隊，用不斷升級的存取權——資料、架構，最終是對未來工作成果的永久主張——換取一項從未解釋方法的「AI」服務所交付的基準結果。一位資淺工程師追查流量日誌，卻在本該是機器推理的地方，找到了人類輪班的模式。",
+    },
+  },
 ];

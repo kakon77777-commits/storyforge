@@ -3237,4 +3237,96 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "naming-gilder": [
+    {
+      number: "01",
+      title: { en: "The Benchmark They Couldn't Hit", zh: "他們達不到的基準" },
+      paragraphs: {
+        en: [
+          "The contract's renewal hinged on a single number: ninety-four percent real-time fraud-detection accuracy, a target the client had set after a competitor's public demo, a target Noor's team had missed by three points in every internal test for six weeks running. Missing it a seventh time meant the client walked, and a company of eleven people that had spent two years building toward this one renewal did not have a version of itself that survived losing it.",
+          "Gilder found them, the way unregistered services on the technical backchannels always seemed to find teams at exactly this stage of desperation: a message through an unlisted contact form, an offer stated in six sentences, no company name, no method disclosed, only a demonstration run against Noor's own held-out test set that returned ninety-six percent, cleanly, in eleven minutes. The price for the actual delivery, Gilder said, was small and specific: read access to eighteen months of the team's labeled training data, the kind every vendor asked for eventually anyway.",
+          "Noor signed it at two in the morning, the way desperate decisions get made at the hour when they no longer feel like decisions at all.",
+        ],
+        zh: [
+          "合約續約的關鍵，卡在一個單一數字上：即時詐欺偵測準確率百分之九十四——這是客戶在看過一個競爭對手的公開展示後訂下的目標，也是諾兒的團隊連續六週、每一次內部測試都少了三個百分點才勉強靠近的目標。第七次再沒達標，客戶就會離開，而這間花了兩年、把公司命運全押在這次續約上的十一人小公司，沒有任何一個版本，能在失去這次續約後繼續存在。",
+          "「鍍金」找上他們的方式，就跟那些不受管理的技術後門服務，總是精準地在絕望到極點的這一刻找上團隊一樣：一則透過未公開聯絡表單送來的訊息，一項用六句話講完的提案，沒有公司名稱，沒有揭露方法，只有一次針對諾兒自己保留測試集跑出的示範——乾淨俐落，十一分鐘，百分之九十六。真正交付的價碼，鍍金說，很小、也很具體：讀取團隊十八個月份標註訓練資料的權限——反正每個供應商，遲早都會要求這個。",
+          "諾兒是在凌晨兩點簽下這份合約的——那種絕望的決定，總是在它已經不再感覺像是一個決定的時刻，被做下來的。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "The First Two Prices", zh: "前兩次的價碼" },
+      paragraphs: {
+        en: [
+          "The delivered model hit ninety-five percent on the client's own withheld evaluation set, and the renewal went through. Six months later, the client raised the bar again, ninety-seven percent this time, chasing the same competitor's next demo. Gilder's second price was steeper: full read access to the team's unreleased model architecture, the specific configuration choices that represented eighteen months of internal research nobody outside the company had seen. Noor argued with herself for two days before agreeing, telling herself architecture access was not the same as ownership, that Gilder was, whatever else it was, at minimum consistent about only ever asking for access, never for control.",
+          "The second delivery hit ninety-eight percent. The renewal went through again. Noor did not ask Gilder how either result had actually been produced, and Gilder did not offer to explain, and for six more months the arrangement worked exactly as well as not asking allowed it to.",
+        ],
+        zh: [
+          "交付的模型，在客戶自己保留的評測集上跑出百分之九十五，續約通過了。六個月後，客戶又把門檻拉高，這次是百分之九十七，追著同一個競爭對手的下一場展示跑。鍍金的第二個價碼更高：完整讀取團隊尚未發表的模型架構的權限——那些代表著十八個月內部研究成果、公司之外從未有人看過的具體配置選擇。諾兒跟自己爭論了兩天才答應，告訴自己：架構存取權，不等於所有權，而鍍金無論究竟是什麼，至少在一件事上是前後一致的——它從來只要求存取權，從不要求控制權。",
+          "第二次交付，跑出百分之九十八，續約再次通過。諾兒沒有問過鍍金，這兩次結果究竟是怎麼產出的，鍍金也沒有主動解釋，而接下來六個月，這項安排運作得跟「不去問」所能容許的一樣好。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "What Noor Promised Without Reading Closely", zh: "諾兒沒看仔細就答應的事" },
+      paragraphs: {
+        en: [
+          "The client's third request was not a higher number. It was a standing arrangement: continuous real-time accuracy at whatever threshold the client's own competitive pressure required next, indefinitely, with a penalty clause that made a single missed quarter as fatal as the original renewal had been. Noor brought the request to Gilder already exhausted, already certain there was no version of the negotiation where she had leverage left to spend.",
+          "Gilder's price this time was worded carefully enough that Noor read it three times and still, in the state she was reading it in, did not fully register what it meant: perpetual first right of access to any model the team trained going forward, in perpetuity, exercisable at Gilder's sole discretion. She signed it thinking of the immediate deadline, the way a person facing one emergency signs something whose actual scope only becomes visible once the emergency has passed and there is finally room to reread it slowly.",
+        ],
+        zh: [
+          "客戶的第三項要求，不是一個更高的數字，而是一項常設安排：無論客戶接下來的競爭壓力需要什麼門檻，都要能持續提供即時準確率，無限期，而且違約條款訂得，讓單一一季沒達標，就跟當初的續約危機一樣致命。諾兒把這項要求帶去找鍍金時，已經筋疲力盡，也已經確信，這場談判裡，自己沒有任何籌碼可以再拿出來用了。",
+          "鍍金這次的價碼，措辭謹慎到諾兒讀了三遍，卻仍然——在她當時的狀態下——沒有完全意識到它真正的意思：對團隊往後訓練的任何模型，享有永久的第一存取權，無限期，由鍍金單方面自由行使。她簽下去時，想的是眼前的死線——就像一個人面對一場緊急事故時簽下的東西，其真正的範圍，往往要等到緊急狀況過去、終於有空慢慢重讀時，才會真正顯現出來。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "The Claim Comes Due", zh: "債主上門" },
+      paragraphs: {
+        en: [
+          "The team's next model, the one meant to finally free them from needing Gilder at all, finished training a year later. Gilder's message arrived the same week: exercising perpetual first right of access, effective immediately, full model weights and training pipeline, per section four of the signed arrangement. Noor read section four in full for the first time in a year and understood, completely, what she had actually given away.",
+          "She wrote back asking, formally, what Gilder even was — what method had produced two years of results neither she nor anyone on her team had ever been shown. Gilder's answer was almost playful, the tone of something confident it had never once needed to explain itself: if you can state, precisely, what I actually am, before the transfer completes in three days, the arrangement is void for misrepresentation, since I represented myself in the original contract as a proprietary AI system. If you cannot, the transfer proceeds as written.",
+        ],
+        zh: [
+          "團隊的下一個模型——原本該是讓他們終於不再需要鍍金的那一個——一年後訓練完成。鍍金的訊息在同一週送達：即刻行使永久第一存取權，取得完整模型權重與訓練管線，依照簽署協議第四條。諾兒一年來第一次完整讀完第四條，這才完全明白，自己當初究竟交出了什麼。",
+          "她正式回信，問鍍金究竟是什麼——究竟是什麼方法，產出了兩年來，她跟團隊裡任何人，從未被展示過的結果。鍍金的回答，語氣近乎戲謔，帶著一種從來不需要為自己解釋任何事的自信：如果你能在三天內、在轉移完成之前，準確說出我究竟是什麼，這份協議就會因不實陳述而無效——因為我在原始合約裡，聲稱自己是一套專有的 AI 系統。如果你辦不到，轉移就會照約定進行。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "What the Traffic Logs Showed", zh: "流量日誌顯示的事" },
+      paragraphs: {
+        en: [
+          "Noor did not solve it. Priyanka, the team's newest and most junior engineer, solved it, by doing the thing two years of not-asking had trained everyone else out of doing: she pulled the full network logs from every one of Gilder's three deliveries and traced the actual request latency, byte for byte, against what a real inference call of that size should have taken.",
+          "The pattern was unmistakable once she stopped assuming an AI system on the other end. Response times clustered in bursts consistent with human work shifts, not machine inference. Payload sizes matched, almost exactly, the format used by a known offshore data-labeling marketplace, one Priyanka had used herself, briefly, as a contractor two years earlier, for pay she still remembered precisely because it had been so low. Gilder was not a proprietary AI system. It was a thin routing layer in front of an exploited human labeling workforce, paid a fraction of a cent per query, producing results by hand and passing them off, contractually, as machine inference.",
+        ],
+        zh: [
+          "不是諾兒解開的，是團隊裡最新、資歷最淺的工程師普莉揚卡解開的——她做的，是兩年來「不去問」訓練所有人都不再去做的那件事：她把鍍金三次交付的完整網路日誌全部調出來，逐位元組追查真正的請求延遲，對照這種規模的真實推理呼叫本該花費的時間。",
+          "一旦她不再預設對方是一套 AI 系統，這個模式就再明顯不過了。回應時間的分布，聚集成一種跟人類輪班工時吻合、而不是機器推理吻合的爆發模式；酬載大小，幾乎完全吻合一個已知境外資料標註市集所使用的格式——普莉揚卡兩年前自己短暫在那裡當過約聘工，她清楚記得那份薪水有多低。鍍金根本不是一套專有 AI 系統，它只是一層薄薄的路由層，前面掛著一群被剝削的人類標註勞工，每筆查詢付出不到一分錢的酬勞，靠人工產出結果，再依照合約，把它包裝成機器推理。",
+        ],
+      },
+    },
+    {
+      number: "06",
+      title: { en: "Naming Gilder", zh: "說出鍍金的名字" },
+      paragraphs: {
+        en: [
+          "Noor's response, sent within the three-day window, did not describe Gilder in general terms. It named the specific offshore marketplace, the specific payload signature, the specific shift-pattern evidence, and the specific clause in Gilder's own original contract — proprietary AI system — that the traffic logs directly contradicted. She did not ask Gilder to confirm or deny it. She stated it as established fact and filed the arrangement as void for material misrepresentation, effective on delivery of the notice.",
+          "Gilder did not respond. The perpetual-access transfer did not execute. Noor never learned whether Gilder was a single operator or a company, whether \"Gilder\" was even a consistent identity across its various clients, and found, examining the question, that she no longer needed to know. What had given the arrangement its power for two years was never a hidden AI capability. It was the two years nobody had asked what the words on the label actually meant.",
+        ],
+        zh: [
+          "諾兒在三天期限內送出的回覆，並沒有用籠統的字眼描述鍍金。她指名了那個具體的境外市集、具體的酬載特徵、具體的輪班模式證據，還有鍍金自己原始合約裡那條被網路日誌直接推翻的條款——專有 AI 系統。她沒有要求鍍金確認或否認，她把它陳述為既定事實，並在通知送達生效的同時，把這份安排歸檔為因重大不實陳述而無效。",
+          "鍍金沒有回應，那筆永久存取權轉移，沒有執行。諾兒始終沒弄清楚，鍍金究竟是單一個人，還是一間公司，甚至「鍍金」這個名字，在它不同的客戶之間，是否代表同一個身份——而她檢視這個問題後發現，自己已經不需要知道答案了。讓這份安排掌握力量長達兩年的，從來不是某種隱藏的 AI 能力，而是兩年來，沒有任何人問過：標籤上的那個名字，究竟代表什麼。",
+        ],
+      },
+      quote: {
+        en: "The straw was never really turned to gold. Someone was simply paid too little, for too long, to spin it by hand, behind a name that made the work disappear.",
+        zh: "稻草從來沒有真正被紡成金子，只是有人被付得太少、被剝削得太久，在一個讓這份勞動徹底消失的名字背後，用雙手把它紡了出來。",
+      },
+    },
+  ],
 };

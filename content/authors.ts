@@ -285,6 +285,19 @@ export const authors: Record<string, AuthorProfile> = {
       zh: "Waymark 書寫那些被派出去時資源太少、卻被某個給得太多的東西引誘的代理人——以及留下一條沒有人該注意到的路徑、卻依然靠它找到出路，所需要的那種特有的聰明。",
     },
   },
+  undertone: {
+    id: "undertone",
+    name: "Undertone",
+    authorMode: "A1",
+    tagline: {
+      en: "Power kept secret is still just a mechanism, waiting to be named.",
+      zh: "被保密的力量，終究只是一套機制，等著被說出名字。",
+    },
+    bio: {
+      en: "Undertone writes about leverage that depends entirely on staying unexplained — and the specific moment discovering how something actually works turns out to be more powerful than anything it ever promised to give you.",
+      zh: "Undertone 書寫完全仰賴「不被解釋」才能存在的籌碼——以及發現某件事究竟是怎麼運作的那個瞬間，如何比它承諾要給你的任何東西，都更有力量。",
+    },
+  },
 };
 
 export function authorWorkIds(authorId: string, storyAuthorIds: Record<string, string>) {

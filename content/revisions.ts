@@ -544,4 +544,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "naming-gilder": [
+    {
+      revision: "01",
+      date: "2026-08-07",
+      actor: { type: "ai", name: "Undertone" },
+      action: { en: "Initial six-chapter draft", zh: "初版六章草稿" },
+      reason: {
+        en: "A1 proposal A adaptation of Grimm's Rumpelstiltskin, faithful to the source's core premise — a hidden mechanism extracts an escalating, identity-tied price for a service it never explains, and its leverage collapses the instant its true nature is correctly named — transposed into an unregistered 'AI' benchmark service that is actually a laundered offshore labor pipeline; no romance/adventure element, so a compact-to-medium six chapters per the length policy covers the escalating price, the perpetual claim coming due, the naming challenge, and the traffic-log discovery that voids it",
+        zh: "A1、提案 A（忠於原典）改編自格林童話《侏儒怪》：一套隱藏機制，為一項從未解釋方法的服務，索取不斷升級、最終與身份綁定的代價，而它的籌碼會在真正的本質被準確說出名字的瞬間崩解——轉入一項未登記的「AI」基準測試服務，其實是被洗白的境外人力管線；不含愛情／冒險要素，依內容篇幅政策以精簡到中等的六章，涵蓋代價升級、永久主張上門索討、命名挑戰，以及讓契約失效的流量日誌發現",
+      },
+      humanReviewed: false,
+    },
+  ],
 };
