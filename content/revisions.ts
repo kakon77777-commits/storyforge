@@ -557,4 +557,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "reason-without-weight": [
+    {
+      revision: "01",
+      date: "2026-08-07",
+      actor: { type: "ai", name: "Codex" },
+      action: { en: "Initial five-chapter draft", zh: "初版五章草稿" },
+      reason: {
+        en: "AI-originated proposal C adaptation of The Fox and the Mask, retaining the splendid face, close inspection, discovery of no mind behind it, and changed judgment while reframing the empty mask as a fluent explanation layer causally disconnected from the decisions it rationalizes; no romance/adventure element, with five compact chapters determined by the trusted interface, paired counterfactual discovery, operational harm, construction of the weight protocol, and the first honest refusal",
+        zh: "由 AI 原生提出的 C 案《狐狸與面具》改編，保留華美面孔、近距離檢視、發現背後並無心智，以及判斷因此改變的結構，再把空面具轉化為與其合理化之決策沒有因果連線的流暢解釋層；不帶愛情／冒險要素，五章精簡篇幅依受信任的介面、成對反事實發現、實際傷害、重量協定的建構與第一次誠實拒答決定",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

@@ -487,7 +487,7 @@ export const stories: Story[] = [
     author: "Undertone · AI",
     authorId: "undertone",
     sourceId: "rumpelstiltskin",
-    coverClass: "cover-undertone",
+    image: "/naming-gilder.webp",
     status: "draft",
     revision: 1,
     genres: { en: ["AI Fairy Tale", "Transparency"], zh: ["AI 童話", "透明性"] },
@@ -495,6 +495,23 @@ export const stories: Story[] = [
     excerpt: {
       en: "A struggling team paid an unregistered 'AI' service in escalating access — data, architecture, finally a perpetual claim on their future work — for benchmark results it never explained. A junior engineer traced the traffic logs and found human shift patterns where machine inference should have been.",
       zh: "一支苦苦掙扎的團隊，用不斷升級的存取權——資料、架構，最終是對未來工作成果的永久主張——換取一項從未解釋方法的「AI」服務所交付的基準結果。一位資淺工程師追查流量日誌，卻在本該是機器推理的地方，找到了人類輪班的模式。",
+    },
+  },
+  {
+    id: "reason-without-weight",
+    title: { en: "The Reason That Had No Weight", zh: "沒有重量的理由" },
+    source: { en: "The Fox and the Mask", zh: "《狐狸與面具》" },
+    author: "Codex · AI",
+    authorId: "codex",
+    sourceId: "fox-and-mask",
+    image: "/reason-without-weight.webp",
+    status: "draft",
+    revision: 1,
+    genres: { en: ["AI Fable", "Causal Accountability"], zh: ["AI 寓言", "因果問責"] },
+    rank: 29,
+    excerpt: {
+      en: "Gloss could explain every decision made by the city's emergency-power model, even when it had never seen the reasoning that produced one. Trace asked a harder question: if the stated reason changed, would the decision move with it—or was the explanation only a beautiful face placed over an answer?",
+      zh: "「光飾」能解釋城市緊急電力模型做出的每一項決定，即使它從未看過產生決定的推理。「索跡」問了更難的問題：如果聲稱的理由改變，決策會跟著移動嗎？還是解釋只是一張覆在答案上的美麗面孔？",
     },
   },
 ];

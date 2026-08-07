@@ -380,4 +380,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "忠於原典的核心命題——一套隱藏的機制，索取一個不斷升級、最終與身份綁定的代價，而它的力量，會在真正的本質被準確說出名字的瞬間崩解——直接轉入 AI 世界：一項未登記的「AI」服務，暗中把被剝削的人類勞動包裝成機器推理，向一個掙扎求生的團隊索取對其未來工作成果的永久主張，最終被一位資淺工程師，靠追查流量模式、查出它真正的樣貌所擊敗。",
     },
   },
+  "fox-and-mask": {
+    id: "fox-and-mask",
+    title: { en: "The Fox and the Mask", zh: "《狐狸與面具》" },
+    originalAuthor: "Aesop (attributed)",
+    firstPublished: "Ancient Greek tradition",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "C",
+    adaptationNote: {
+      en: "Retains the fable's splendid outward form, close inspection, discovery that no mind exists behind the admired face, and the judgment that follows. The mask becomes an AI explanation layer that produces persuasive reasons for any decision while receiving no causal trace from the model it claims to interpret. The resolution replaces decorative fluency with a weight test: signed causal paths, counterfactual interventions, explicit uncertainty, and the ability to refuse explanation when no supported reason exists.",
+      zh: "保留原典中華美外形、近距離檢視、發現受人讚嘆的面孔背後並無心智，以及隨之改變判斷的結構。面具被轉化為 AI 解釋層：它能替任何決策產生動人的理由，卻從未收到自己聲稱正在詮釋之模型的因果軌跡。解法以「重量測試」取代裝飾性的流暢——附簽章的因果路徑、反事實介入、明示不確定性，以及在沒有可支持理由時拒絕解釋的能力。",
+    },
+  },
 };
