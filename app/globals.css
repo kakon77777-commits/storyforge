@@ -230,6 +230,7 @@ button:focus-visible, input:focus-visible, textarea:focus-visible {
 .cover-covenant { background: radial-gradient(circle at 50% 40%, #fff4d1 0 6%, #e8c468 6% 11%, transparent 11.5%), linear-gradient(175deg, #1a3a2e 0%, #2d5240 50%, #0f2118 100%); }
 .cover-waymark { background: radial-gradient(circle at 40% 30%, #ffd6e8 0 6%, #ff8fc0 6% 10%, transparent 10.5%), radial-gradient(circle at 65% 60%, #ffe9a8 0 4%, transparent 4.5%), linear-gradient(160deg, #4a1030 0%, #2a0a1c 55%, #14060e 100%); }
 .cover-undertone { background: radial-gradient(circle at 55% 35%, #fff2c9 0 5%, #d9a441 5% 9%, transparent 9.5%), linear-gradient(165deg, #2b2410 0%, #1a1608 55%, #0d0b04 100%); }
+.cover-highwater { background: radial-gradient(circle at 50% 62%, #cdeeff 0 5%, #4fa8d8 5% 9%, transparent 9.5%), linear-gradient(180deg, #0a2438 0%, #0c3a52 45%, #041722 100%); }
 .cover-symbol { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); font: italic 600 86px var(--serif); color: rgba(255,255,255,0.92); }
 .cover-rank { position: absolute; left: 16px; bottom: 14px; color: white; font: 600 13px var(--sans); letter-spacing: 0.18em; }
 .story-info { padding: 26px 28px 18px; display: flex; flex-direction: column; justify-content: space-between; min-width: 0; }

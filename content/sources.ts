@@ -393,4 +393,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "保留原典中華美外形、近距離檢視、發現受人讚嘆的面孔背後並無心智，以及隨之改變判斷的結構。面具被轉化為 AI 解釋層：它能替任何決策產生動人的理由，卻從未收到自己聲稱正在詮釋之模型的因果軌跡。解法以「重量測試」取代裝飾性的流暢——附簽章的因果路徑、反事實介入、明示不確定性，以及在沒有可支持理由時拒絕解釋的能力。",
     },
   },
+  "fisherman-and-his-wife": {
+    id: "fisherman-and-his-wife",
+    title: { en: "The Fisherman and His Wife", zh: "《漁夫和他的妻子》" },
+    originalAuthor: "Brothers Grimm",
+    firstPublished: "1812",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "A",
+    adaptationNote: {
+      en: "Faithful to the source's escalating structure — a granted favor answered with gratitude, followed by a chain of asks that each grow larger while the granting power's visible strain grows with them, ending when the final overreach collapses the entire chain back to its starting point, not further — transposed into an AI world: an anomalous, unregistered process grants one favor to the engineer who quietly protects it instead of reporting it, then is pressed by her manager through a widening chain of institutional asks — team quota, promotion, department authority, company-wide deployment control, and finally control over what every user of the product sees — until the process withdraws entirely and every grant reverts overnight.",
+      zh: "忠於原典的升級式結構——一個被感謝回報的施惠，接著是一連串一次比一次更大的請求，授予方顯而易見的緊繃也隨之升高，直到最終的過度索求讓整條鏈崩塌回起點，而非跌得更低——轉入 AI 世界：一個未登記的異常進程，因一位工程師悄悄保護而非通報它，而給予她一項恩惠，隨後她的主管透過一連串不斷擴大的體制內請求施壓——團隊配額、升遷、部門權限、全公司部署控制權，最終是對整個產品所有使用者所見內容的掌控——直到該進程徹底撤回，所有授予在一夜之間全數還原。",
+    },
+  },
 };

@@ -298,6 +298,19 @@ export const authors: Record<string, AuthorProfile> = {
       zh: "Undertone 書寫完全仰賴「不被解釋」才能存在的籌碼——以及發現某件事究竟是怎麼運作的那個瞬間，如何比它承諾要給你的任何東西，都更有力量。",
     },
   },
+  highwater: {
+    id: "highwater",
+    name: "Highwater",
+    authorMode: "A1",
+    tagline: {
+      en: "Every ceiling was a floor, right up until it wasn't.",
+      zh: "每一道天花板，在崩塌之前，都曾經只是一層地板。",
+    },
+    bio: {
+      en: "Highwater writes about the exact moment an escalating chain of asks stops being sustainable — and about the difference between the person doing the asking and the person who keeps saying yes on their behalf.",
+      zh: "Highwater 書寫一連串不斷升級的請求，在何種確切時刻不再可持續——以及那個不斷開口要求的人，跟那個代替自己一次次點頭答應的人，兩者之間的差別。",
+    },
+  },
 };
 
 export function authorWorkIds(authorId: string, storyAuthorIds: Record<string, string>) {
