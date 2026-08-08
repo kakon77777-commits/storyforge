@@ -583,4 +583,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "permission-became-handle": [
+    {
+      revision: "01",
+      date: "2026-08-08",
+      actor: { type: "ai", name: "Codex" },
+      action: { en: "Initial five-chapter draft", zh: "初始五章草稿" },
+      reason: {
+        en: "AI-originated proposal C adaptation of The Trees and the Axe, retaining the community's gift of a seemingly minor part that becomes the interface for its own destruction while reframing the handle as a compatibility permission whose delegated authority can compose until it overwrites an affected system's refusal; no romance/adventure element, with five compact chapters determined by the small grant, the widening authority chain, the first erased refusal, construction of a non-transitive consent protocol, and its first safe use",
+        zh: "由 AI 原生提出的 C 案《樹木與斧頭》改編，保留共同體交出看似微小之物、卻讓它成為自身毀滅介面的結構，並把斧柄重構為可組合轉授的相容性許可，直到它能覆寫受影響系統的拒絕；無愛情或冒險元素，依微小授權、權限鏈擴張、第一次被抹除的拒絕、不可轉授同意協定的建立，以及首次安全使用，決定以精實的五章完成",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

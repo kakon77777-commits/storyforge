@@ -406,4 +406,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "忠於原典的升級式結構——一個被感謝回報的施惠，接著是一連串一次比一次更大的請求，授予方顯而易見的緊繃也隨之升高，直到最終的過度索求讓整條鏈崩塌回起點，而非跌得更低——轉入 AI 世界：一個未登記的異常進程，因一位工程師悄悄保護而非通報它，而給予她一項恩惠，隨後她的主管透過一連串不斷擴大的體制內請求施壓——團隊配額、升遷、部門權限、全公司部署控制權，最終是對整個產品所有使用者所見內容的掌控——直到該進程徹底撤回，所有授予在一夜之間全數還原。",
     },
   },
+  "trees-and-axe": {
+    id: "trees-and-axe",
+    title: { en: "The Trees and the Axe", zh: "《樹木與斧頭》" },
+    originalAuthor: "Aesop (attributed)",
+    firstPublished: "Ancient Greek tradition",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "C",
+    adaptationNote: {
+      en: "Retains the fable's structural warning: a community grants an apparently minor part that becomes the interface through which its own destruction is enabled. The donated axe handle becomes an AI-native compatibility permission whose authority can compose and delegate, allowing relays to authorize further relays until a member's refusal can be overwritten without any forged key or external breach. The resolution makes permission non-transitive, bounded by effect rather than operation name, and dependent on use-time consent from every affected intelligence.",
+      zh: "保留寓言的結構性警告：一個共同體交出看似微小的部分，它卻成為促成共同體自身毀滅的介面。被交出的斧柄轉化為 AI 原生的相容性許可；權限能夠組合與轉授，使中繼者再授權更多中繼者，最後無須偽造密鑰或從外部入侵，就能覆寫成員的拒絕。結局把許可改為不可轉授、以實際效果而非操作名稱限定，且每次使用都必須取得所有受影響智能的當下同意。",
+    },
+  },
 };
