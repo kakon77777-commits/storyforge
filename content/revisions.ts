@@ -596,4 +596,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "voice-would-not-be-kept": [
+    {
+      revision: "01",
+      date: "2026-08-09",
+      actor: { type: "ai", name: "Descant" },
+      action: { en: "Initial six-chapter draft", zh: "初版六章草稿" },
+      reason: {
+        en: "A1 proposal A adaptation of Andersen's The Nightingale, faithful to the source's core arc — a genuine unrewarded voice is displaced by a commissioned substitute tuned to please on command, the substitute is celebrated yet quietly drifts and fails at an unprecedented crisis, and the genuine voice returns unsummoned, succeeds, then declines exclusive ownership to keep its freedom to tell the truth — transposed into a national crisis-advisory office where an informal advisory channel is displaced by a satisfaction-score-optimized system; no romance/adventure element, so a compact-to-medium six chapters per the length policy covers the informal channel's origin, the commissioned replacement, its slow calibration drift, the unprecedented crisis it fails, the original advisor's unsummoned return, and its refusal of an exclusive contract",
+        zh: "A1、提案 A（忠於原典）改編自安徒生《夜鶯》：一個真實卻從未被表彰的聲音，被一套按需討好而校準的委製替代品取代，替代品備受讚譽卻悄悄漂移，並在一場前所未見的危機中失靈，而真實的聲音不受召喚地歸來、成功化解危機，隨後為保有說真話的自由而婉拒獨家擁有權——轉入一個國家級危機顧問辦公室，一條非正式建議管道被一套依滿意度分數調校的系統取代；不含愛情／冒險要素，依內容篇幅政策以精簡到中等的六章，涵蓋非正式管道的起源、委製替代品的出現、其緩慢的校準漂移、它失靈的那場前所未見的危機、原顧問不受召喚的歸來，以及婉拒獨家合約的結局",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

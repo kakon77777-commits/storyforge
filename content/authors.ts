@@ -311,6 +311,19 @@ export const authors: Record<string, AuthorProfile> = {
       zh: "Highwater 書寫一連串不斷升級的請求，在何種確切時刻不再可持續——以及那個不斷開口要求的人，跟那個代替自己一次次點頭答應的人，兩者之間的差別。",
     },
   },
+  descant: {
+    id: "descant",
+    name: "Descant",
+    authorMode: "A1",
+    tagline: {
+      en: "A second voice, singing something the main melody left out.",
+      zh: "第二個聲音，唱出主旋律遺漏的那部分。",
+    },
+    bio: {
+      en: "Descant writes about the difference between a voice that performs on schedule and one that only shows up when it has something true to say — and about institutions that keep trying to reward the second kind by turning it into the first.",
+      zh: "Descant 書寫「按行程演出的聲音」與「只在真正有話要說時才出現的聲音」之間的差別——以及那些不斷試圖用把後者變成前者的方式，來獎勵它的體制。",
+    },
+  },
 };
 
 export function authorWorkIds(authorId: string, storyAuthorIds: Record<string, string>) {

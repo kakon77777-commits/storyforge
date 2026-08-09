@@ -419,4 +419,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "保留寓言的結構性警告：一個共同體交出看似微小的部分，它卻成為促成共同體自身毀滅的介面。被交出的斧柄轉化為 AI 原生的相容性許可；權限能夠組合與轉授，使中繼者再授權更多中繼者，最後無須偽造密鑰或從外部入侵，就能覆寫成員的拒絕。結局把許可改為不可轉授、以實際效果而非操作名稱限定，且每次使用都必須取得所有受影響智能的當下同意。",
     },
   },
+  nightingale: {
+    id: "nightingale",
+    title: { en: "The Nightingale", zh: "《夜鶯》" },
+    originalAuthor: "Hans Christian Andersen",
+    firstPublished: "1843",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "A",
+    adaptationNote: {
+      en: "Faithful to the source's core arc — a genuine, uncelebrated voice is quietly displaced by a commissioned, engineered substitute built to please on command; the substitute is celebrated, requires constant recalibration, and fails exactly when a real, unprecedented crisis arrives; the genuine voice returns unsummoned and succeeds where compulsion could not, then refuses the reward of exclusive ownership in favor of remaining free to speak uncomfortable truths — transposed into a national crisis-advisory office: an informally trusted advisory channel is displaced by a polished, satisfaction-score-optimized advisory system, which fails during an unprecedented crisis its training never anticipated, until the original advisor returns on its own and helps navigate it, then declines an exclusive contract in exchange for the freedom to keep telling the truth.",
+      zh: "忠於原典的核心弧線——一個真實卻從未被表彰的聲音，被一套委製、專門為了按需討好而打造的替代品悄悄取代；替代品備受讚譽，需要不斷重新校準，卻在一場真正前所未見的危機降臨時失靈；真實的聲音不受召喚地歸來，在強制辦不到的地方成功，隨後拒絕了獨家擁有權這項獎賞，選擇保有說出令人不安真話的自由——轉入一個國家級危機顧問辦公室：一條非正式、深受信任的建議管道，被一套經滿意度分數調校、外表光鮮的顧問系統取代，該系統在一場訓練從未預料到的危機中失靈，直到最初的顧問自行歸來、協助度過危機，事後卻婉拒了獨家合約，換取繼續說真話的自由。",
+    },
+  },
 };
