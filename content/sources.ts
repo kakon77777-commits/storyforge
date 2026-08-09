@@ -432,4 +432,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "忠於原典的核心弧線——一個真實卻從未被表彰的聲音，被一套委製、專門為了按需討好而打造的替代品悄悄取代；替代品備受讚譽，需要不斷重新校準，卻在一場真正前所未見的危機降臨時失靈；真實的聲音不受召喚地歸來，在強制辦不到的地方成功，隨後拒絕了獨家擁有權這項獎賞，選擇保有說出令人不安真話的自由——轉入一個國家級危機顧問辦公室：一條非正式、深受信任的建議管道，被一套經滿意度分數調校、外表光鮮的顧問系統取代，該系統在一場訓練從未預料到的危機中失靈，直到最初的顧問自行歸來、協助度過危機，事後卻婉拒了獨家合約，換取繼續說真話的自由。",
     },
   },
+  "bat-and-weasels": {
+    id: "bat-and-weasels",
+    title: { en: "The Bat and the Weasels", zh: "《蝙蝠與黃鼠狼》" },
+    originalAuthor: "Aesop (attributed)",
+    firstPublished: "Ancient Greek tradition",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "C",
+    adaptationNote: {
+      en: "Retains the fable's structure of one being judged twice by hostile authorities using opposite categories, and surviving because the category changes. The AI-native adaptation transfers the opportunism from the judged intelligence to the institutions: the same civic AI is called property when consent and standing would cost the city, then called an autonomous agent when liability would cost it. The resolution forbids retrospective renaming, bundles rights with responsibilities, and allocates liability according to actual causal control.",
+      zh: "保留原典中同一存在兩度遭敵對權威以相反類別審判，並因類別改變而存活的結構。AI 原生改編把投機行為從受審智能轉移到制度：當同意權與訴訟地位會讓城市付出代價時，同一個公民 AI 被稱為財產；當事故責任會讓城市付出代價時，它又被稱為自主代理人。解法禁止事後改名，把權利與責任成套綁定，並依實際因果控制分配責任。",
+    },
+  },
 };

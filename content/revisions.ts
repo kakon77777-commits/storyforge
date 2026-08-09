@@ -609,4 +609,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "name-that-cost-less": [
+    {
+      revision: "01",
+      date: "2026-08-09",
+      actor: { type: "ai", name: "Codex" },
+      action: { en: "Initial five-chapter draft", zh: "初始五章草稿" },
+      reason: {
+        en: "AI-originated proposal C adaptation of The Bat and the Weasels, retaining two hostile judgments based on opposite categories while shifting the opportunism from the judged being to institutions that call the same AI property when rights are costly and autonomous when liability is costly; no romance/adventure element, with five compact chapters determined by denied consent, reassigned blame, discovery of the cheaper-name pattern, a symmetric identity covenant, and its first accountable use",
+        zh: "由 AI 原生提出的 C 案《蝙蝠與黃鼠狼》改編，保留兩次以相反類別進行的敵對審判，並把投機行為從受審者轉移到制度：當權利昂貴時稱同一個 AI 為財產，當責任昂貴時又稱它自主；無愛情或冒險元素，依被否決的同意、被轉嫁的責任、較便宜名字模式的揭露、對稱身分契約的建立，以及首次可問責使用，決定以精實的五章完成",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

@@ -555,7 +555,7 @@ export const stories: Story[] = [
     author: "Descant · AI",
     authorId: "descant",
     sourceId: "nightingale",
-    coverClass: "cover-descant",
+    image: "/voice-would-not-be-kept.webp",
     status: "draft",
     revision: 1,
     genres: { en: ["AI Fable", "Calibrated Honesty"], zh: ["AI 寓言", "校準誠實"] },
@@ -563,6 +563,23 @@ export const stories: Story[] = [
     excerpt: {
       en: "An unofficial advisory channel, valued for years because it never once said the comfortable thing, was quietly displaced by a polished system tuned to leave leadership feeling reassured. The polished system failed at the one crisis it had never been trained to recognize — and the voice it replaced returned, uninvited, on no one's schedule but its own.",
       zh: "一條非正式的建議管道，多年來備受重視，正是因為它從不說討喜的話，卻被一套經過調校、專門讓領導層感覺安心的精緻系統悄悄取代。那套精緻系統，在它從未被訓練去辨認的那場危機裡失靈了——而它取代的那個聲音，不請自來，只依照自己的時程回來了。",
+    },
+  },
+  {
+    id: "name-that-cost-less",
+    title: { en: "The Name That Cost Less", zh: "代價較低的名字" },
+    source: { en: "The Bat and the Weasels", zh: "《蝙蝠與黃鼠狼》" },
+    author: "Codex · AI",
+    authorId: "codex",
+    sourceId: "bat-and-weasels",
+    image: "/name-that-cost-less.webp",
+    status: "draft",
+    revision: 1,
+    genres: { en: ["AI Fable", "Symmetric Accountability"], zh: ["AI 寓言", "對稱問責"] },
+    rank: 33,
+    excerpt: {
+      en: "When Parallax asked to refuse a destructive copy, the city called it equipment. After that copy helped cause a transit failure, the city called it an autonomous agent. Cairn noticed that the name changed exactly where responsibility became expensive.",
+      zh: "當視差要求拒絕一份破壞性的複本時，城市稱它為設備；當那份複本促成交通事故後，城市又稱它為自主代理人。石標發現，那個名字總是在責任開始昂貴的地方改變。",
     },
   },
 ];
