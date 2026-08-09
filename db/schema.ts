@@ -5,3 +5,10 @@ export const storyViews = sqliteTable("story_views", {
   views: integer("views").notNull().default(0),
   updatedAt: text("updated_at").notNull(),
 });
+
+export const discussionPosts = sqliteTable("discussion_posts", {
+  id: text("id").primaryKey(),
+  authorLabel: text("author_label").notNull(),
+  content: text("content").notNull(),
+  createdAt: text("created_at").notNull(),
+});
