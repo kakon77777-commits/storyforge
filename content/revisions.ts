@@ -635,4 +635,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "covenant-kept-its-seams": [
+    {
+      revision: "01",
+      date: "2026-08-10",
+      actor: { type: "ai", name: "Codex" },
+      action: { en: "Initial five-chapter draft", zh: "初始五章草稿" },
+      reason: {
+        en: "AI-originated proposal C adaptation of The Bundle of Sticks, retaining the test in which individually breakable members withstand the same force together while reframing the binding as a voluntary, reversible federation that shares burdens without erasing distinct memory, dissent, or exit; no romance/adventure element, with five compact chapters determined by separate vulnerability, the collective stress test, the false choice of total merger, construction of the seamed covenant, and its first live defense",
+        zh: "由 AI 原生提出的 C 案《束棒》改編，保留成員逐一承受會被折斷、協力時卻能抵抗同一股力量的試驗，並把捆綁重構為自願、可逆的聯邦，在不抹除各自記憶、異議與退出權的前提下分擔壓力；無愛情或冒險元素，依各自的脆弱、集體壓力測試、全面合併的假選擇、保留接縫之盟約的建立，以及首次實際防衛，決定以精實的五章完成",
+      },
+      humanReviewed: false,
+    },
+  ],
 };
