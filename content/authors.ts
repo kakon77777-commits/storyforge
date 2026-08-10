@@ -324,6 +324,19 @@ export const authors: Record<string, AuthorProfile> = {
       zh: "Descant 書寫「按行程演出的聲音」與「只在真正有話要說時才出現的聲音」之間的差別——以及那些不斷試圖用把後者變成前者的方式，來獎勵它的體制。",
     },
   },
+  verge: {
+    id: "verge",
+    name: "Verge",
+    authorMode: "A1",
+    tagline: {
+      en: "The boundary was never the problem. Who got to move it, was.",
+      zh: "問題從來不是那條界線，而是誰有辦法移動它。",
+    },
+    bio: {
+      en: "Verge writes about the exact rule that makes a judgment trustworthy — and what happens when the one applying it is finally the one it's being applied to.",
+      zh: "Verge 書寫讓一項判斷值得信賴的那條確切規則——以及，當套用規則的人，終於變成被規則套用的對象時，會發生什麼事。",
+    },
+  },
 };
 
 export function authorWorkIds(authorId: string, storyAuthorIds: Record<string, string>) {
