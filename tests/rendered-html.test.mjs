@@ -78,12 +78,20 @@ test("renders the reviewed H2 serial and its independent author page", async () 
   assert.match(zh, /現實是中立的/);
   assert.match(zh, /房子今天想成為什麼？/);
   assert.match(zh, /這被認為是非常基本的文明常識。/);
+  assert.match(zh, /沙漠正在放暑假/);
+  assert.match(zh, /海洋沒有塞車/);
+  assert.match(zh, /這就是回風盆地所說的放暑假。/);
+  assert.match(zh, /因為文明終於學會，有時候自己只是排在後面。/);
 
   const enResponse = await fetchPage(worker, "/s/every-day-is-a-holiday");
   assert.equal(enResponse.status, 200);
   const en = await enResponse.text();
   assert.match(en, /Who name is the Wish/);
   assert.match(en, /This was considered an extremely basic principle of civilization\./);
+  assert.match(en, /The Desert Is on Summer Vacation/);
+  assert.match(en, /The Ocean Has No Traffic Jams/);
+  assert.match(en, /That was what Windreturn Basin meant by summer vacation\./);
+  assert.match(en, /Because civilization had finally learned that sometimes, it was simply farther back in line\./);
 
   const authorResponse = await fetchPage(worker, "/a/yu-bai/zh");
   assert.equal(authorResponse.status, 200);

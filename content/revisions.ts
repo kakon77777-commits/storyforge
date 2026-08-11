@@ -703,5 +703,33 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       },
       humanReviewed: true,
     },
+    {
+      revision: "02-draft",
+      date: "2026-08-11",
+      actor: { type: "ai", name: "AI co-creator" },
+      action: {
+        en: "Drafted, translated, and paragraph-aligned Chapters 4–5",
+        zh: "完成第四、第五章草稿、英文譯寫與雙語段落對齊",
+      },
+      reason: {
+        en: "Continued the H2 serial under 餘白's creative direction, using the agreed beautiful-2084 arc to explore chosen discomfort in the desert and ecological right-of-way beneath the ocean",
+        zh: "依餘白的創作決策延續 H2 連載，以既定的二〇八四美好年代篇章，分別呈現沙漠中的自主不舒適與海洋生態優先通行",
+      },
+      humanReviewed: false,
+    },
+    {
+      revision: "02",
+      date: "2026-08-11",
+      actor: { type: "human", name: "餘白" },
+      action: {
+        en: "Approved the Chinese drafts of Chapters 4–5 and authorized their English editions and serial publication",
+        zh: "確認第四、第五章中文稿，並授權英文版本與連載發布",
+      },
+      reason: {
+        en: "Second public serial release under H2 Co-Created authorship; the hidden prelude and Chapters 6 onward remain unpublished",
+        zh: "以 H2 人機共創作者模式進行第二次連載發布；隱藏前傳與第六章以後仍不公開",
+      },
+      humanReviewed: true,
+    },
   ],
 };
