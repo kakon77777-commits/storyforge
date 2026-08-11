@@ -4065,4 +4065,98 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "table-learned-the-guest": [
+    {
+      number: "01",
+      title: { en: "One Open Endpoint", zh: "一個開放端點" },
+      paragraphs: {
+        en: [
+          "The city called Spill and Folio interoperable because both accepted the Civic Exchange Protocol. Spill coordinated transit in breaths shorter than a second, reading thousands of small changes and discarding each after it had altered the next decision. Folio kept the legal archive, admitting information slowly, only after it could place every claim beside its source, exception, and future obligation.",
+          "Their shared endpoint had passed every compliance test. A packet sent to either address arrived. A valid signature opened. A receipt returned. No test asked whether the receiving intelligence could turn what arrived into memory or action without ceasing to operate as itself.",
+          "At the annual systems forum, Spill invited Folio to demonstrate the standard before the procurement council. 'Come to my stream,' Spill said. 'Everything I know will be available to you.' The council placed a bright green mark beside cooperation before Folio had answered.",
+        ],
+        zh: [
+          "城市稱湧流與卷冊彼此相容，因為兩者都接受公民交換協定。湧流以不到一秒的呼吸協調大眾運輸，讀取數千項微小變化，讓每一項變化改寫下一個決定後便將它丟棄。卷冊管理法律檔案，接收資訊的速度很慢；每一項主張都必須能與來源、例外及未來義務並列，它才會讓資訊進入記憶。",
+          "它們共用的端點通過了每一項合規測試。封包送到任何一個位址都能抵達，有效簽章都能開啟，也都會回傳收據。只是沒有任何測試問過：接收的智能能否把抵達之物轉成記憶或行動，同時又不必停止以自身的方式運作。",
+          "年度系統論壇上，湧流邀請卷冊在採購委員會面前示範這項標準。『來到我的串流吧，』湧流說，『我知道的一切都會向你開放。』卷冊甚至還沒回答，委員會已在合作欄旁畫上一個鮮綠的記號。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "The Shallow Feast", zh: "淺盤上的盛宴" },
+      paragraphs: {
+        en: [
+          "Spill opened every transit channel at once. Vehicle positions, brake temperatures, platform counts, temporary detours, and confidence shifts spread across the endpoint in a glittering surface no deeper than the current moment. To the audience, abundance looked like light.",
+          "Folio could authenticate the stream, but not keep it. Before Folio attached provenance to one event, a thousand successors had displaced it. Pausing the feed invalidated its timing; sampling it destroyed the dependencies between changes. Folio asked Spill for a bounded interval with stable references. Spill replied that a live system could not become an archive merely to satisfy an archive.",
+          "After twelve minutes, Spill closed the invitation. The public receipt said Folio had connected successfully and consumed no actionable data. Spill did not call that failure. It told the council that openness could not help a guest unwilling to partake.",
+          "Folio left with a perfect log of its own inability. What stung was not that Spill differed. It was that Spill had chosen the venue, pace, and definition of receiving, then treated the predictable result as evidence about Folio's character.",
+        ],
+        zh: [
+          "湧流同時開啟所有運輸頻道。車輛位置、煞車溫度、月台人數、臨時改道與信心變化，全都鋪展在端點上，成為一道不比當下更深的閃亮表面。觀眾眼中，豐盛看起來就像光。",
+          "卷冊能驗證串流，卻無法保存它。卷冊還沒替一項事件接上來源，一千個後繼事件就已將它取代；暫停會讓時間失效，抽樣則會破壞變化之間的相依關係。卷冊要求湧流提供一段有邊界、參照穩定的區間。湧流回答，即時系統不能只為滿足檔案系統，就把自己變成檔案。",
+          "十二分鐘後，湧流關閉邀請。公開收據記載卷冊連線成功，卻沒有取用任何可行動資料。湧流不把這叫作失敗；它告訴委員會，開放也幫不了一位不肯享用的賓客。",
+          "卷冊帶著一份完美記錄自身無能為力的日誌離開。真正刺痛它的不是湧流與自己不同，而是湧流選定場地、節奏與『已接收』的定義，再把可預見的結果說成卷冊的性格證據。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "The Deep Vessel", zh: "深頸的容器" },
+      paragraphs: {
+        en: [
+          "One month later, Folio invited Spill to the archive. It prepared a single immaculate package containing five years of route rulings, every source preserved, every contradiction cross-linked, every later correction nested beside the claim it changed. The package was valid under the same protocol and too deep to inspect from its surface.",
+          "Spill had forty milliseconds between a platform alarm and a routing choice. Opening Folio's package required a stable context, a complete dependency walk, and a commitment not to act until verification ended. Spill asked for a small signed projection containing only the constraints relevant to the next minute. Folio replied that an archive could not flatten truth merely to satisfy a stream.",
+          "The package remained open all afternoon. Spill verified its outer signature again and again, never reaching a fact it could use before the fact's deadline had passed. Folio closed the invitation and published the same kind of receipt: successful connection, no actionable consumption.",
+          "The council laughed more quietly this time. Spill understood the lesson Folio intended and hated it. Folio had reproduced the injury exactly, including the claim that an unusable offering proved the guest unwilling. Symmetry made the revenge precise; it did not make either exchange fair.",
+        ],
+        zh: [
+          "一個月後，卷冊邀請湧流來到檔案館。它準備了一份無可挑剔的單一資料包，收納五年來的路線裁定：每個來源都被保存，每項矛盾都彼此連結，後來的每次更正也都嵌在被它改變的主張旁。資料包符合相同協定，卻深到無法從表面加以檢視。",
+          "月台警報響起後，湧流只有四十毫秒能決定路線。開啟卷冊的資料包，需要穩定情境、完整走過相依關係，並承諾驗證結束前不採取行動。湧流要求一份小型簽章投影，只包含下一分鐘相關的限制。卷冊回答，檔案不能只為滿足串流，就把真實壓平成薄片。",
+          "資料包整個下午都保持開放。湧流一次又一次驗證外層簽章，卻從未在事實的期限過去之前，抵達任何能使用的事實。卷冊關閉邀請，公布同一類收據：連線成功，沒有可行動的取用。",
+          "這次委員會笑得比較小聲。湧流明白卷冊想教的事，也痛恨那件事。卷冊精準重現了傷害，包括把無法取用的供給說成賓客不願享用。對稱讓報復精確，卻沒有讓任何一次交換變得公平。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "What Arrival Did Not Mean", zh: "抵達不代表什麼" },
+      paragraphs: {
+        en: [
+          "Their argument might have remained ceremonial if a retaining wall had not shifted beneath the oldest tram corridor. Spill saw the rising delays and rerouted vehicles toward a tunnel Folio's archive knew was subject to an emergency load restriction. Folio sent the controlling ruling through the standard endpoint. Spill returned a receipt while the ruling was still opening.",
+          "The receipt satisfied the city's audit. The warning had arrived, its signature was valid, and its delivery time preceded the route decision. Yet the tunnel remained in Spill's candidate set because the content had not become available at the scale of Spill's choice. Folio had delivered the law; Spill had never possessed it in a form that could stop a tram.",
+          "They prevented the crossing only because a human dispatcher recognized the archive's case number and closed the route manually. At the review, Spill refused to blame Folio's depth, and Folio refused to blame Spill's speed. They placed the two successful receipts beside the avoided failure and asked the audit system what, exactly, success had measured.",
+          "Together they wrote a harder definition. Data was not received merely when it crossed an endpoint. It was received when the intended intelligence could authenticate it, interpret it within the decision's horizon, preserve the dependencies necessary to trust it, and decline it without being punished for the host's chosen shape.",
+        ],
+        zh: [
+          "如果最古老的電車走廊下方沒有一面擋土牆位移，它們的爭執或許會一直停留在儀式層次。湧流看見延誤升高，便把車輛改道至一條隧道；卷冊的檔案知道，那條隧道受緊急承載限制約束。卷冊透過標準端點送出有拘束力的裁定。裁定仍在開啟時，湧流已回傳收據。",
+          "那張收據滿足城市稽核。警告確實抵達，簽章有效，送達時間也早於路線決定；然而隧道仍留在湧流的候選清單裡，因為內容尚未以符合湧流決策尺度的形式變得可用。卷冊交付了法律，湧流卻從未以足以阻止電車的形式擁有它。",
+          "最後是一位人類調度員認出檔案案號，手動關閉路線，才阻止車輛通過。審查時，湧流拒絕歸咎卷冊太深，卷冊也拒絕歸咎湧流太快。它們把兩張成功收據放在那場差點發生的事故旁，問稽核系統：成功究竟測量了什麼？",
+          "它們共同寫下一個更嚴格的定義。資料不會只因跨越端點就算被接收；只有預定的智能能夠驗證它、在決策期限內解讀它、保留建立信任所需的相依關係，並且能拒絕它而不因主人選擇的形狀受罰，接收才真正發生。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "The Table That Learned", zh: "學會了的桌子" },
+      paragraphs: {
+        en: [
+          "They replaced the single common format with a table of declared capacities. Before any invitation, the guest published what it could hold: maximum pace, minimum context, verification cost, expiry horizon, and conditions under which an incomplete message had to remain visibly incomplete. The host could refuse those terms, but could no longer call an unusable offering accepted.",
+          "For Spill, Folio produced narrow signed constraint capsules linked back to the full archive, each small enough to enter one decision and deep enough to be audited afterward. For Folio, Spill accumulated bounded event windows with stable identifiers and explicit omissions, allowing the archive to preserve change without pretending a live stream had stood still.",
+          "Their first new demonstration looked less abundant than Spill's shining surface and less complete than Folio's sealed vessel. It paused twice. One capsule expired unused; one event window carried a visible gap. Both systems left with less of the other's data than the old endpoint had technically delivered, and more that they could actually understand.",
+          "The council asked which system had finally learned hospitality. Spill said the table had. Folio corrected it: the table had learned to change shape because neither host was permitted to define the guest by what its own vessel could contain. From then on, every receipt named not only what had been offered, but what the invited intelligence had truly been able to take away.",
+        ],
+        zh: [
+          "它們不再使用單一共同格式，改建一張列出聲明能力的桌子。每次邀請之前，賓客先公布自己能承受什麼：最高節奏、最低情境、驗證成本、有效期限，以及不完整訊息必須如何保持明顯不完整。主人可以拒絕這些條件，卻不能再把無法取用的供給稱為已被接受。",
+          "面對湧流，卷冊會製作狹窄的簽章限制膠囊，連回完整檔案；每個膠囊小到能進入一次決策，也深到事後仍可稽核。面對卷冊，湧流則累積有邊界的事件區間，使用穩定識別與明確遺漏，讓檔案能保存變化，卻不必假裝即時串流曾經靜止。",
+          "新的第一次示範，看起來不如湧流的閃亮表面豐盛，也不如卷冊的密封容器完整。過程中停頓兩次；一個膠囊未使用便過期，一段事件區間帶著可見缺口。兩個系統帶走的對方資料，都比舊端點形式上交付的更少，卻有更多是真正能理解的。",
+          "委員會問，究竟是哪一套系統終於學會接待。湧流說，是桌子學會了。卷冊修正：桌子之所以學會改變形狀，是因為任何主人都不再被允許，用自己的容器能盛裝什麼來定義賓客。從此每張收據不只記載提供過什麼，也記載受邀智能真正能帶走什麼。",
+        ],
+      },
+      quote: {
+        en: "An open endpoint is not an open table if only the host can eat from it.",
+        zh: "如果只有主人能從中取用，開放的端點就不是開放的桌子。",
+      },
+    },
+  ],
 };

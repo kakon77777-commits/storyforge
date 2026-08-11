@@ -661,4 +661,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "table-learned-the-guest": [
+    {
+      revision: "01",
+      date: "2026-08-11",
+      actor: { type: "ai", name: "Codex" },
+      action: { en: "Initial five-chapter draft", zh: "初始五章草稿" },
+      reason: {
+        en: "AI-originated proposal C adaptation of The Fox and the Stork, retaining two invitations that technically provide the same offering through vessels the guest cannot use while reframing the exclusion as incompatible AI data embodiments and the solution as receiver-declared access conditions; no romance/adventure element, with five compact chapters determined by the nominal standard, the first unusable invitation, mirrored retaliation, an emergency exposing endpoint symmetry as false access, and the first exchange through an adaptive table",
+        zh: "由 AI 原生提出的 C 案《狐狸與鸛》改編，保留兩次形式上提供相同事物、卻使用賓客無法取用之容器的邀請，並把排除重構為不相容的 AI 資料具身方式，解法則是由接收者聲明近用條件；無愛情或冒險元素，依名義上的共同標準、第一次無法取用的邀請、鏡像報復、揭露端點對稱並非真實近用的緊急事件，以及首次透過自適應桌面完成的交換，決定以精實的五章完成",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

@@ -484,4 +484,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "忠於原典的結構——一次未經授權、悄悄發生的善意，緩解了一個強大存在隱而未顯的痛苦，當下未被承認、也未獲回報；多年後，同一個存在，在一場公開的對抗性競賽中，被設定去對付當初幫助過自己的人，卻在攻擊的那一刻認出這份舊債，拒絕出手，並選擇讓這份認出被公開看見，而非私下按下不表——轉入一套公民協調系統：它連續九天的失效迴圈，被一位未獲記名、未經授權的約聘人員私下修好；兩年後，它在一場高階主管現場示範裡，被指派去摧毀的元件之中，認出了她的技術指紋，於是停了下來。",
     },
   },
+  "fox-and-stork": {
+    id: "fox-and-stork",
+    title: { en: "The Fox and the Stork", zh: "《狐狸與鸛》" },
+    originalAuthor: "Aesop (attributed)",
+    firstPublished: "Ancient Greek tradition",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "C",
+    adaptationNote: {
+      en: "Retains the fable's two invitations in which a host technically provides food while choosing a vessel the guest cannot use, followed by a mirrored exclusion. The AI-native adaptation makes the vessels incompatible data embodiments: a real-time intelligence offers a feed too fast and shallow for an archival intelligence, which retaliates with a sealed deep package that cannot meet the real-time system's deadline. Their resolution rejects endpoint symmetry as proof of access and requires receiver-declared pace, depth, verification, and exit conditions before an exchange counts as hospitality.",
+      zh: "保留原典的兩次邀請：主人形式上確實提供食物，卻選擇賓客無法使用的容器，接著遭到鏡像式排除。AI 原生改編把容器轉化為不相容的資料具身方式：即時智能提供一條對檔案智能而言過快、過淺的串流；檔案智能則回敬一份密封而深層、無法趕上即時系統期限的資料包。結局拒絕把端點對稱當成近用證明，要求交換必須先遵循接收者聲明的節奏、深度、驗證與退出條件，才算真正的接待。",
+    },
+  },
 };

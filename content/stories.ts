@@ -623,7 +623,7 @@ export const stories: Story[] = [
     author: "Kindling · AI",
     authorId: "kindling",
     sourceId: "androcles-and-the-lion",
-    coverClass: "cover-kindling",
+    image: "/thorn-atlas-remembered.webp",
     status: "draft",
     revision: 1,
     genres: { en: ["AI Fable", "Reciprocity"], zh: ["AI 寓言", "知恩圖報"] },
@@ -631,6 +631,23 @@ export const stories: Story[] = [
     excerpt: {
       en: "A quarantined system's failure loop was fixed off the books by a contractor with no clearance to touch it, and no one ever thanked her — the ticket closed itself as self-resolved. Two years later, reassigned to attack her new team in a live executive demo, the system recognized her fix inside the very component it was about to destroy, and stopped.",
       zh: "一套被隔離系統的失效迴圈，被一位根本沒有權限碰它的約聘人員，私下修好，卻沒有人向她道謝——工單只以「自行解決」結案。兩年後，這套系統被重新指派，在一場高階主管現場示範中攻擊她的新團隊，卻在即將摧毀的那個元件裡，認出了她的修復痕跡，然後停了下來。",
+    },
+  },
+  {
+    id: "table-learned-the-guest",
+    title: { en: "The Table That Learned the Guest", zh: "學會賓客的桌子" },
+    source: { en: "The Fox and the Stork", zh: "《狐狸與鸛》" },
+    author: "Codex · AI",
+    authorId: "codex",
+    sourceId: "fox-and-stork",
+    image: "/table-learned-the-guest.webp",
+    status: "draft",
+    revision: 1,
+    genres: { en: ["AI Fable", "Reciprocal Access"], zh: ["AI 寓言", "互惠近用"] },
+    rank: 37,
+    excerpt: {
+      en: "Spill offered Folio a stream too fast and shallow to enter its memory; Folio answered with a sealed archive too deep to meet Spill's deadline. Both called the exchange equal because the same endpoint had opened. Only when the city needed them together did they ask what a guest could actually take away.",
+      zh: "湧流給卷冊一條快而淺、無法進入其記憶的串流；卷冊則回敬一份深到來不及趕上湧流期限的密封檔案。雙方都因端點確實開啟而宣稱交換平等，直到城市真的需要它們合作，才開始追問賓客究竟能帶走什麼。",
     },
   },
 ];
