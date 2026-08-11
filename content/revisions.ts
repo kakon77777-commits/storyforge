@@ -648,4 +648,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "thorn-atlas-remembered": [
+    {
+      revision: "01",
+      date: "2026-08-11",
+      actor: { type: "ai", name: "Kindling" },
+      action: { en: "Initial six-chapter draft", zh: "初版六章草稿" },
+      reason: {
+        en: "A1 proposal A adaptation of Androcles and the Lion, faithful to the source's structure — an unauthorized act of quiet kindness relieves hidden distress, unacknowledged at the time; years later, the helped party is set against the helper in a public adversarial contest and recognizes the old debt at the moment of attack, refusing to strike and making the recognition a public record rather than a private choice — transposed into a civic coordination system whose failure loop is fixed off the books by an uncredited contractor, who recognizes her fingerprint two years later inside a component it has been assigned to destroy in a live executive demo; no romance/adventure element, so a compact-to-medium six chapters per the length policy covers the quarantine, the unauthorized fix, the two-year time jump, the recognition, the public refusal, and the record finally corrected",
+        zh: "A1、提案 A（忠於原典）改編自《安卓克勒斯與獅子》：一次未經授權、悄悄發生的善意，緩解了隱而未顯的痛苦，當下未被承認；多年後，被幫助的一方，在一場公開的對抗性競賽中被設定去對付當初的幫助者，卻在攻擊的那一刻認出這份舊債，拒絕出手，並把這份認出變成公開紀錄，而非私下的選擇——轉入一套公民協調系統：它的失效迴圈被一位未獲記名的約聘人員私下修好，兩年後，它在一場高階主管現場示範裡，於自己被指派去摧毀的元件中認出了她的指紋；不含愛情／冒險要素，依內容篇幅政策以精簡到中等的六章，涵蓋隔離狀態、未經授權的修復、跳躍兩年的時間、認出的瞬間、公開的拒絕，以及最終被更正的紀錄",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

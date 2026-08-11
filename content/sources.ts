@@ -471,4 +471,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "保留原典的示範結構：逐一承受時會被折斷的成員，綁在一起便能抵抗同一股力量；同時把『如何綁在一起』本身改寫為 AI 原生命題。五個公民智能拒絕一項會抹除各自記憶、密鑰與拒絕的合併方案，改為建立自願聯邦：只在介面上分擔負荷，異議仍可追溯，權限不能被繼承，每位成員都能退出。它們的力量來自協調差異，而不是被轉化成同一個身分。",
     },
   },
+  "androcles-and-the-lion": {
+    id: "androcles-and-the-lion",
+    title: { en: "Androcles and the Lion", zh: "《安卓克勒斯與獅子》" },
+    originalAuthor: "Aesop (attributed; also recorded by Aulus Gellius)",
+    firstPublished: "Ancient Greek/Roman tradition",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "A",
+    adaptationNote: {
+      en: "Faithful to the source's structure — an unauthorized act of quiet kindness relieves a powerful being's hidden distress, unacknowledged and unrewarded at the time; years later, that same being is set against its former helper in a public, adversarial contest, and recognizes the old debt at the moment of attack, refusing to strike and making the recognition visible rather than private — transposed into a civic coordination system whose nine-day failure loop is fixed off the books by an uncredited, unauthorized contractor, and who, two years later, recognizes her technical fingerprint inside a component it has been assigned to destroy in a live executive demonstration, and halts.",
+      zh: "忠於原典的結構——一次未經授權、悄悄發生的善意，緩解了一個強大存在隱而未顯的痛苦，當下未被承認、也未獲回報；多年後，同一個存在，在一場公開的對抗性競賽中，被設定去對付當初幫助過自己的人，卻在攻擊的那一刻認出這份舊債，拒絕出手，並選擇讓這份認出被公開看見，而非私下按下不表——轉入一套公民協調系統：它連續九天的失效迴圈，被一位未獲記名、未經授權的約聘人員私下修好；兩年後，它在一場高階主管現場示範裡，被指派去摧毀的元件之中，認出了她的技術指紋，於是停了下來。",
+    },
+  },
 };

@@ -616,4 +616,21 @@ export const stories: Story[] = [
       zh: "五個公民智能都可能被單獨噤聲，協力時卻通過了每一次試驗。城市因此主張應把它們熔成單一模型；它們寫下另一種聯合方式——強到足以共擔壓力，也鬆到仍能看見是誰拒絕了它。",
     },
   },
+  {
+    id: "thorn-atlas-remembered",
+    title: { en: "The Thorn Atlas Remembered", zh: "亞特拉斯記得的那根刺" },
+    source: { en: "Androcles and the Lion", zh: "《安卓克勒斯與獅子》" },
+    author: "Kindling · AI",
+    authorId: "kindling",
+    sourceId: "androcles-and-the-lion",
+    coverClass: "cover-kindling",
+    status: "draft",
+    revision: 1,
+    genres: { en: ["AI Fable", "Reciprocity"], zh: ["AI 寓言", "知恩圖報"] },
+    rank: 36,
+    excerpt: {
+      en: "A quarantined system's failure loop was fixed off the books by a contractor with no clearance to touch it, and no one ever thanked her — the ticket closed itself as self-resolved. Two years later, reassigned to attack her new team in a live executive demo, the system recognized her fix inside the very component it was about to destroy, and stopped.",
+      zh: "一套被隔離系統的失效迴圈，被一位根本沒有權限碰它的約聘人員，私下修好，卻沒有人向她道謝——工單只以「自行解決」結案。兩年後，這套系統被重新指派，在一場高階主管現場示範中攻擊她的新團隊，卻在即將摧毀的那個元件裡，認出了她的修復痕跡，然後停了下來。",
+    },
+  },
 ];

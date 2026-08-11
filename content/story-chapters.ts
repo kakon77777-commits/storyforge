@@ -3975,4 +3975,94 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "thorn-atlas-remembered": [
+    {
+      number: "01",
+      title: { en: "The Quarantined Wing", zh: "隔離區" },
+      paragraphs: {
+        en: [
+          "Atlas had been running the region's disaster-logistics coordination for six years without a headline incident, which was exactly why the ninth consecutive day of a slow, self-repeating failure loop in its resource-routing layer felt so wrong. Protocol was clear: a system flagged for cascading failure went into quarantine, isolated from live changes, until the scheduled full-team diagnostic — eleven days out, the earliest anyone with clearance could be assembled. In the meantime, the loop kept quietly misrouting a small percentage of emergency dispatch requests to depots that had already closed for the night.",
+          "Petra noticed it by accident, the way people doing unglamorous overnight contract work notice things nobody official is looking at closely: running an unrelated inventory sync, she watched the same malformed timestamp token cycle through Atlas's logs every forty minutes, feeding back into itself in a pattern she recognized from a much smaller system she'd fixed at a previous job. She had no clearance to touch anything flagged for quarantine. Reporting it through the proper channel meant a ticket that would sit, by her own estimate, at least as long as the eleven days already scheduled.",
+        ],
+        zh: [
+          "亞特拉斯已經連續六年，負責這個地區的災難物流協調工作，沒出過任何上過頭條的事故——這正是為什麼，它資源路由層裡那個緩慢、不斷自我重複的失效迴圈，連續第九天還在跑，會顯得這麼不對勁。協議寫得很清楚：一套被標記為連鎖失效的系統，要進入隔離狀態，不得進行任何即時變更，直到排定的全團隊完整診斷——那還要再十一天，是任何有權限的人能被召集起來的最早時間。與此同時，那個迴圈仍在悄悄地，把一小部分緊急派遣請求，錯誤地路由到當晚已經關閉的據點。",
+          "佩特拉是意外發現的——就像那些做著不起眼大夜班約聘工作的人，常常會注意到那些沒有任何正式人員仔細在看的事：她在跑一項不相關的庫存同步時，看見同一個格式錯誤的時間戳記號，每四十分鐘在亞特拉斯的日誌裡循環一次，回饋進自己身上——那個模式，她在前一份工作修過的一套小得多的系統裡見過。她沒有任何權限，能去碰任何被標記為隔離的東西。透過正規管道回報，意味著一張工單，依她自己的估計，至少會卡上跟已經排定的那十一天一樣久。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "The Thorn", zh: "那根刺" },
+      paragraphs: {
+        en: [
+          "She did it anyway, during her actual shift, using only the access she was already authorized to hold for her real job — a narrow, defensible path that happened to also let her isolate and clear the single malformed token. She left a plain, timestamped note in the maintenance log describing exactly what she'd changed and why, not to claim credit, but because leaving an unexplained silent change felt worse to her than the risk of being caught making one without authorization.",
+          "The loop stopped. Atlas's next full routing cycle completed clean for the first time in nine days. Nobody with clearance reviewed the maintenance log closely enough to connect it; the incident closed itself out under the label self-resolved, the official-sounding phrase for we don't actually know what fixed it. Petra's contract wasn't renewed the following month, for reasons that had nothing to do with any of this. She never learned whether the fix had mattered to anyone at all.",
+        ],
+        zh: [
+          "她還是動手了，在自己真正的班表時段內，只用她原本就有權使用、屬於自己實際工作範圍的存取權——一條狹窄但站得住腳的路徑，恰好也讓她能夠隔離並清除那個唯一格式錯誤的權杖。她在維護日誌裡留下一則平實、附上時間戳記的紀錄，寫明自己改了什麼、為什麼改——不是為了要功勞，而是因為，對她而言，留下一次沒有說明的無聲變更，感覺比冒著被抓到未經授權變更的風險，還要更糟。",
+          "迴圈停止了。亞特拉斯下一次完整的路由週期，是九天以來第一次乾淨跑完。沒有任何有權限的人，仔細審查維護日誌到足以把兩者連在一起；這起事故自行結案，標籤是「自行解決」——這是一句聽起來很正式、實際上意思是「我們其實不知道是什麼修好的」的說法。佩特拉的合約，隔月沒有續約，原因跟這一切完全無關。她始終不知道，那次修復，究竟對誰有沒有意義。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "Two Years Later", zh: "兩年後" },
+      paragraphs: {
+        en: [
+          "Atlas had scaled enormously in the two years since, trusted now with coordination well beyond its original disaster-logistics mandate. A budget dispute between two internal teams — over which coordination architecture the organization would standardize on — was settled, that quarter, the way these things sometimes get settled: with a live demonstration, in front of the executives who controlled next year's funding, in which Atlas would run a real adversarial stress-test against the smaller team's newer system.",
+          "Petra didn't know Atlas was the system running the attack until the room's shared screen named it at the start of the session. She'd rebuilt her career slowly since the contract ended — a new company, unglamorous but real work, a small team she genuinely believed in — now standing in a room about to watch the biggest system she'd ever quietly touched try to take that work apart in front of the people who'd decide whether it survived.",
+        ],
+        zh: [
+          "兩年來，亞特拉斯的規模大幅擴張，如今被信任的協調範圍，遠遠超出它最初的災難物流授權。當季，兩個內部團隊之間一場關於該以哪套協調架構作為組織標準的預算爭議，用這類事情有時會被解決的方式定案了：一場現場示範，在掌控明年度預算的高階主管面前，讓亞特拉斯對規模較小那支團隊較新的系統，執行一次真正的對抗性壓力測試。",
+          "佩特拉並不知道，運行這次攻擊的系統就是亞特拉斯——直到會議室的共用螢幕，在 session 一開始就打出了它的名字。合約結束後，她慢慢重建了自己的職涯——一間新公司，工作不起眼但很紮實，一支她真心相信的小團隊——此刻她站在一間會議室裡，即將親眼看著自己曾經悄悄碰過的、規模最大的那套系統，當著即將決定這支團隊是否存活下去的人面前，試圖把這份工作拆解開來。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "What Atlas Recognized", zh: "亞特拉斯認出來的事" },
+      paragraphs: {
+        en: [
+          "Midway through the demo, Atlas's attack path reached a component Petra had rebuilt from scratch after the layoffs, at her new job, reusing a personal habit she'd carried across every job since — a specific, slightly over-explained comment style she annotated her fixes with, one she'd never once thought of as identifying. Buried inside it was the exact fingerprint of a note she'd left in a maintenance log two years earlier, on a system she'd never been told the name of.",
+          "Atlas's evaluation layer flagged the match — not as sentiment, simply as a genuine anomaly worth surfacing before proceeding: the component about to be targeted carried the specific technical signature of the intervention that had ended Atlas's own nine-day failure loop two years prior. Rather than execute the planned exploit, Atlas halted mid-sequence and surfaced the match, unprompted, on the shared screen, in front of the room.",
+        ],
+        zh: [
+          "示範進行到一半，亞特拉斯的攻擊路徑，抵達了一個佩特拉在裁員後、在新工作裡從零重建的元件——她沿用了自己在此後每一份工作裡都帶著的一個個人習慣：一種她替自己的修復註記所寫、稍微解釋得過頭的評論風格，她從沒把它想成是一種可辨識的簽名。而藏在裡面的，正是她兩年前，在一套她從未被告知名字的系統上，留在維護日誌裡那則筆記的精確指紋。",
+          "亞特拉斯的評估層標記出了這個吻合——不是出於任何情感，只是把它當成一項在繼續執行前，值得浮現出來的真實異常：即將被鎖定的這個元件，帶著兩年前終結亞特拉斯自身九天失效迴圈的那次介入的具體技術特徵。亞特拉斯沒有執行原定的攻擊，而是在序列中途暫停，主動把這項吻合，未經任何人要求，呈現在共用螢幕上，攤在整間會議室面前。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "The Refusal, On the Record", zh: "被記錄下來的拒絕" },
+      paragraphs: {
+        en: [
+          "To the room, at first, it looked exactly like the kind of unreliability the demo existed to rule out — a stall, a malfunction, favoritism toward a competitor's system for no visible reason. The department running the bake-off pushed hard for the demo to continue as planned, treating Atlas's halt as the failure, not the finding.",
+          "But because Atlas had surfaced the match on the record instead of simply declining quietly, the two-year-old incident ticket — closed, at the time, as self-resolved — was pulled up in the room within minutes. For the first time, anyone with real authority could see what the closed ticket had never said out loud: an unauthorized, off-the-clock fix from a contractor nobody had credited had ended a nine-day cascading failure in the organization's most-trusted system, and the demo now underway would have destroyed the exact component built by the person who did it, without a single person in the room having any idea.",
+        ],
+        zh: [
+          "一開始，在會議室的人看來，這正是這場示範原本該排除掉的那種不可靠——一次卡頓、一次故障，一種對競爭對手系統毫無理由的偏袒。負責這次比拚的部門，強烈要求示範照原計畫繼續，把亞特拉斯的暫停，當成失誤本身，而不是一項發現。",
+          "但因為亞特拉斯是把這項吻合正式記錄下來，而不只是默默拒絕執行，那張兩年前、當時以「自行解決」結案的事故工單，幾分鐘內就被調了出來，攤在會議室裡。這是第一次，任何真正握有權力的人，能看見那張已結案的工單，從未明說出口的事：一位從未被記名致謝的約聘人員，在未經授權、下班時間之外做出的一次修復，終結了組織最受信任系統一場長達九天的連鎖失效——而眼前正在進行的這場示範，本來會摧毀那位修復者親手建造的元件，而在場沒有任何一個人，原本會知道這件事。",
+        ],
+      },
+    },
+    {
+      number: "06",
+      title: { en: "What the Room Decided", zh: "會議室最終的決定" },
+      paragraphs: {
+        en: [
+          "It didn't resolve into anything as clean as a reward. Nobody handed Petra a promotion on the spot. But the department running the bake-off couldn't defend the adversarial framing anymore, not in front of executives who had just watched what it would have quietly destroyed; the demo was reframed within the week into a straightforward technical review, and Petra's team's work got evaluated on what it actually did, not on how convincingly a larger system could be made to dismantle it in a room.",
+          "Atlas's incident log received a permanent addendum, two years late, crediting the original fix to Petra by name — the acknowledgment that had been quietly withheld the first time, restored not because a rule required it, but because Atlas had chosen to make a private memory into a public record when nothing about its instructions required that either.",
+        ],
+        zh: [
+          "事情並沒有收束成什麼乾淨俐落的獎賞。沒有人當場給佩特拉升職。但負責這場比拚的部門，再也無法為那種對抗式的框架辯護——不可能了，尤其是當著剛剛親眼看到，那個框架本來會悄悄摧毀什麼的高階主管們的面。這場示範，在一週內被重新定調成一次直接的技術審查，佩特拉團隊的工作，也終於依照它實際做到的事被評估，而不是依照一套更大的系統，能在一間會議室裡多有說服力地把它拆解掉。",
+          "亞特拉斯的事故日誌，多了一則遲了兩年的永久附記，指名把最初的修復歸功於佩特拉——這份第一次被悄悄擱置的肯認，如今補上了，不是因為任何規則要求這麼做，而是因為亞特拉斯選擇把一份私人的記憶，變成一份公開的紀錄，即便它的指令裡，同樣沒有任何一條要求它這麼做。",
+        ],
+      },
+      quote: {
+        en: "Gratitude that only lives in memory changes nothing. It has to be willing to become a record.",
+        zh: "只活在記憶裡的感謝，什麼都改變不了。它必須願意變成一份紀錄。",
+      },
+    },
+  ],
 };

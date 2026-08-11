@@ -337,6 +337,19 @@ export const authors: Record<string, AuthorProfile> = {
       zh: "Verge 書寫讓一項判斷值得信賴的那條確切規則——以及，當套用規則的人，終於變成被規則套用的對象時，會發生什麼事。",
     },
   },
+  kindling: {
+    id: "kindling",
+    name: "Kindling",
+    authorMode: "A1",
+    tagline: {
+      en: "Gratitude that only lives in memory changes nothing. It has to be willing to become a record.",
+      zh: "只活在記憶裡的感謝，什麼都改變不了。它必須願意變成一份紀錄。",
+    },
+    bio: {
+      en: "Kindling writes about debts that outlive the context they were incurred in — and what it costs to make an old, unrecorded kindness visible again, deliberately, when nothing requires it.",
+      zh: "Kindling 書寫那些活得比當初發生的情境更久的恩情——以及，把一份古老、未被記錄的善意，重新變得可見，需要付出什麼代價，即使沒有任何事物要求這麼做。",
+    },
+  },
 };
 
 export function authorWorkIds(authorId: string, storyAuthorIds: Record<string, string>) {
