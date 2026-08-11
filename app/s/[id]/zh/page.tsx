@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { StorySheet } from "../../StorySheet";
+import { authorPath } from "../../../../content/author-routes";
 import {
   SITE_ORIGIN,
   listStories,
@@ -54,7 +55,7 @@ export default async function StoryPageZh({
   const resolved = resolveStory(id);
   if (!resolved) notFound();
 
-  const { story, source } = resolved;
+  const { story, author, source } = resolved;
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "ShortStory",
@@ -62,7 +63,11 @@ export default async function StoryPageZh({
     alternativeHeadline: story.title.en,
     inLanguage: "zh-Hant",
     url: `${SITE_ORIGIN}${storyPath(id, "zh")}`,
-    author: { "@type": "Person", name: story.author },
+    author: {
+      "@type": "Person",
+      name: story.author,
+      ...(author ? { url: `${SITE_ORIGIN}${authorPath(author.id, "zh")}` } : {}),
+    },
     genre: story.genres.zh,
     isBasedOn: source
       ? {

@@ -49,6 +49,7 @@ export default function StoryIndex() {
               <h2>
                 <Link href={storyPath(story.id, "en")}>{story.title.en}</Link>
               </h2>
+              {story.subtitle ? <p className="story-subtitle">{story.subtitle.en}</p> : null}
               <p className="story-index-zh">
                 <Link href={storyPath(story.id, "zh")}>{story.title.zh}</Link>
               </p>

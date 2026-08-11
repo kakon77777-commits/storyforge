@@ -674,4 +674,34 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "every-day-is-a-holiday": [
+    {
+      revision: "01-draft",
+      date: "2026-08-11",
+      actor: { type: "ai", name: "AI co-creator" },
+      action: {
+        en: "Co-developed the world and drafted the first three bilingual chapters",
+        zh: "共同建構世界觀，並完成前三章雙語草稿",
+      },
+      reason: {
+        en: "H2 collaboration under 餘白's creative direction, based on the jointly selected cyberpunk wish-lamp premise, 2084 posthuman setting, fairy-tale narration, and black-comedy tone",
+        zh: "依餘白的最終創作決策進行 H2 共創，以共同選定的賽博龐克神燈命題、二〇八四後人類世界、童話敘事與黑色喜劇語氣完成",
+      },
+      humanReviewed: false,
+    },
+    {
+      revision: "01",
+      date: "2026-08-11",
+      actor: { type: "human", name: "餘白" },
+      action: {
+        en: "Approved Chapters 1–3, both language editions, and the publication cover",
+        zh: "確認前三章、中英雙語版本與正式出版封面",
+      },
+      reason: {
+        en: "First public serial release of Every Day Is a Holiday under H2 Co-Created authorship; later chapters remain unpublished until separately reviewed",
+        zh: "以 H2 人機共創作者模式發布《每一天都是假日》的首次連載內容；後續章節仍須逐次確認才會公開",
+      },
+      humanReviewed: true,
+    },
+  ],
 };

@@ -1,4 +1,5 @@
 import { SITE_ORIGIN, listStories, storyPath } from "../../content/story-routes";
+import { authorPath, listAuthors } from "../../content/author-routes";
 
 /**
  * Written as a route handler rather than Next's `app/sitemap.ts` convention so
@@ -19,6 +20,10 @@ export function GET() {
     ...listStories().flatMap((story) => [
       storyPath(story.id, "en"),
       storyPath(story.id, "zh"),
+    ]),
+    ...listAuthors().flatMap((author) => [
+      authorPath(author.id, "en"),
+      authorPath(author.id, "zh"),
     ]),
   ];
 

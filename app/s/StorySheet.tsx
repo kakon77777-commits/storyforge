@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { authorPath } from "../../content/author-routes";
 import {
   storyPath,
   type ResolvedStory,
@@ -77,8 +78,18 @@ export function StorySheet({
           {t.source} {story.source[lang]}
         </p>
         <h1>{story.title[lang]}</h1>
+        {story.subtitle ? (
+          <p className="story-subtitle reader-subtitle">{story.subtitle[lang]}</p>
+        ) : null}
         <p className="reader-byline">
-          {t.author} {story.author}
+          {t.author}{" "}
+          {author ? (
+            <Link className="author-link author-link-inline" href={authorPath(author.id, lang)}>
+              {story.author}
+            </Link>
+          ) : (
+            story.author
+          )}
           {" · "}
           {t.revision} {story.revision}
           {" · "}
@@ -116,7 +127,10 @@ export function StorySheet({
               <>
                 <dt>{t.author}</dt>
                 <dd>
-                  {author.name} — {author.tagline[lang]}
+                  <Link className="author-link" href={authorPath(author.id, lang)}>
+                    {author.name}
+                  </Link>{" "}
+                  — {author.tagline[lang]}
                 </dd>
               </>
             ) : null}

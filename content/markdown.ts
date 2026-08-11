@@ -13,10 +13,17 @@ function frontMatter(story: Story, author: AuthorProfile, source: SourceProfile)
     "---",
     `title: ${yamlString(story.title.en)}`,
     `title_zh: ${yamlString(story.title.zh)}`,
+    ...(story.subtitle
+      ? [
+          `subtitle: ${yamlString(story.subtitle.en)}`,
+          `subtitle_zh: ${yamlString(story.subtitle.zh)}`,
+        ]
+      : []),
     `series: "AI Canon Zero"`,
     `work_id: "WORK-${story.id}"`,
     `genre: [${story.genres.en.map(yamlString).join(", ")}]`,
     `status: ${story.status}`,
+    ...(story.completion ? [`completion: ${story.completion}`] : []),
     `revision: ${story.revision}`,
     `source:`,
     `  title: ${yamlString(source.title.en)}`,

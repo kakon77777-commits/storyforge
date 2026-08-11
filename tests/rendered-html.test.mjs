@@ -17,11 +17,32 @@ registerHooks({
 const developmentPreviewMeta =
   /<meta(?=[^>]*\bname=["']codex-preview["'])(?=[^>]*\bcontent=["']development["'])[^>]*>/i;
 
-test("renders development preview metadata", async () => {
+async function loadWorker(label) {
   const workerUrl = new URL("../dist/server/index.js", import.meta.url);
-  workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}`);
+  workerUrl.searchParams.set("test", `${label}-${process.pid}-${Date.now()}`);
   const { default: worker } = await import(workerUrl.href);
+  return worker;
+}
 
+async function fetchPage(worker, pathname) {
+  return worker.fetch(
+    new Request(`http://localhost${pathname}`, {
+      headers: { accept: "text/html" },
+    }),
+    {
+      ASSETS: {
+        fetch: async () => new Response("Not found", { status: 404 }),
+      },
+    },
+    {
+      waitUntil() {},
+      passThroughOnException() {},
+    },
+  );
+}
+
+test("renders development preview metadata", async () => {
+  const worker = await loadWorker("home");
   const response = await worker.fetch(
     new Request("http://localhost/", {
       headers: { accept: "text/html" },
@@ -43,4 +64,31 @@ test("renders development preview metadata", async () => {
     /^text\/html\b/i,
   );
   assert.match(await response.text(), developmentPreviewMeta);
+});
+
+test("renders the reviewed H2 serial and its independent author page", async () => {
+  const worker = await loadWorker("yu-bai");
+
+  const zhResponse = await fetchPage(worker, "/s/every-day-is-a-holiday/zh");
+  assert.equal(zhResponse.status, 200);
+  const zh = await zhResponse.text();
+  assert.match(zh, /每一天都是假日/);
+  assert.match(zh, /新紀元神燈三部曲/);
+  assert.match(zh, /餘白/);
+  assert.match(zh, /現實是中立的/);
+  assert.match(zh, /房子今天想成為什麼？/);
+  assert.match(zh, /這被認為是非常基本的文明常識。/);
+
+  const enResponse = await fetchPage(worker, "/s/every-day-is-a-holiday");
+  assert.equal(enResponse.status, 200);
+  const en = await enResponse.text();
+  assert.match(en, /Who name is the Wish/);
+  assert.match(en, /This was considered an extremely basic principle of civilization\./);
+
+  const authorResponse = await fetchPage(worker, "/a/yu-bai/zh");
+  assert.equal(authorResponse.status, 200);
+  const author = await authorResponse.text();
+  assert.match(author, /H2 · 人機共創/);
+  assert.match(author, /人類 × AI/);
+  assert.match(author, /every-day-is-a-holiday\.webp/);
 });

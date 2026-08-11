@@ -1,3 +1,5 @@
+import everyDayIsAHoliday from "./every-day-is-a-holiday.json";
+
 export type StoryChapter = {
   number: string;
   title: { en: string; zh: string };
@@ -4159,4 +4161,5 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "every-day-is-a-holiday": everyDayIsAHoliday as StoryChapter[],
 };

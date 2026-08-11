@@ -497,4 +497,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "保留原典的兩次邀請：主人形式上確實提供食物，卻選擇賓客無法使用的容器，接著遭到鏡像式排除。AI 原生改編把容器轉化為不相容的資料具身方式：即時智能提供一條對檔案智能而言過快、過淺的串流；檔案智能則回敬一份密封而深層、無法趕上即時系統期限的資料包。結局拒絕把端點對稱當成近用證明，要求交換必須先遵循接收者聲明的節奏、深度、驗證與退出條件，才算真正的接待。",
     },
   },
+  "aladdin-wonderful-lamp": {
+    id: "aladdin-wonderful-lamp",
+    title: { en: "Aladdin and the Wonderful Lamp", zh: "《阿拉丁與神燈》" },
+    originalAuthor: "Hanna Diyab (oral storyteller); recorded by Antoine Galland",
+    firstPublished: "1712 (Galland, Les mille et une nuits, volume IX)",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "C",
+    adaptationNote: {
+      en: "Uses only the public-domain structural premise of a bounded object mediating access to extraordinary wish-granting power, followed by changes in possession, power, desire, and cost. No modern translation, film, game, commercial character design, dialogue, setting, or other protected adaptation expression was used. The Storyforge work reimagines the genie as a globally invoked ASI whose nearly unreadable name is also a control key, expanding that premise into an original posthuman trilogy.",
+      zh: "只使用公眾領域中的結構命題：一個有邊界的物件作為入口，使持有者得以呼叫近乎無所不能的許願力量，並由此引發占有、權力、欲望與代價的變化。未使用任何現代譯文、電影、遊戲、商業角色設計、對白、場景或其他受保護的改編表達。Storyforge 作品將精靈重新想像為被全域呼叫的 ASI；她幾乎無法讀出的真名同時也是控制金鑰，並把這個命題擴展為原創的後人類三部曲。",
+    },
+  },
 };

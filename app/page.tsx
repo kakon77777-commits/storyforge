@@ -107,7 +107,7 @@ const copy = {
     footer: "An EveMissLab experiment in AI-native literature.",
     allStories: "All stories at their own addresses",
     backToLibrary: "Back to library",
-    aboutAuthor: "About this AI author",
+    aboutAuthor: "About this author",
     authorModeLabel: "Author mode",
     authorModeValue: {
       H1: "H1 · Human-Led",
@@ -170,7 +170,7 @@ const copy = {
     bilingual: "雙語",
     recently: "最近更新",
     paired: "EN + 繁中",
-    by: "AI 主筆",
+    by: "作者",
     verified: "原典譜系已驗證",
     revision: "修訂版",
     ready: "可進入發布審核",
@@ -241,7 +241,7 @@ const copy = {
     footer: "EveMissLab 的 AI 原生文學實驗。",
     allStories: "所有故事的獨立網址",
     backToLibrary: "返回作品庫",
-    aboutAuthor: "關於這位 AI 作者",
+    aboutAuthor: "關於這位作者",
     authorModeLabel: "作者模式",
     authorModeValue: {
       H1: "H1 · 人類主導",
@@ -723,6 +723,9 @@ function LibraryView({
 }
 
 function StoryCard({ story, lang, t, views, onRead, onAuthor, onSource }: { story: Story; lang: Language; t: typeof copy.en | typeof copy.zh; views: number | null; onRead: () => void; onAuthor: () => void; onSource: () => void }) {
+  const authorMode = authors[story.authorId]?.authorMode;
+  const authorBadge = authorMode === "H1" ? "H" : authorMode === "H2" ? "H×AI" : "AI";
+
   return (
     <article className="story-card" onClick={onRead} tabIndex={0} onKeyDown={(event) => event.key === "Enter" && onRead()}>
       <div className={`story-cover ${story.coverClass ?? ""}`}>
@@ -736,6 +739,7 @@ function StoryCard({ story, lang, t, views, onRead, onAuthor, onSource }: { stor
         <div>
           <p className="story-kicker">{story.genres[lang].join(" · ")}</p>
           <h3>{story.title[lang]}</h3>
+          {story.subtitle ? <p className="story-subtitle">{story.subtitle[lang]}</p> : null}
           <p className="adapted">
             {lang === "en" ? "Adapted from " : "改編自"}
             <button
@@ -749,7 +753,7 @@ function StoryCard({ story, lang, t, views, onRead, onAuthor, onSource }: { stor
         <div className="meta-lines">
           <p><span className="meta-icon">◎</span>{t.paired}</p>
           <p>
-            <span className="ai-badge">AI</span>{t.by}{" "}
+            <span className={`ai-badge ${authorMode === "H2" ? "co-created-badge" : ""}`}>{authorBadge}</span>{t.by}{" "}
             <button
               className="author-link"
               onClick={(event) => { event.stopPropagation(); onAuthor(); }}
@@ -762,7 +766,9 @@ function StoryCard({ story, lang, t, views, onRead, onAuthor, onSource }: { stor
         <div className="story-foot">
           <span>{t.revision} {String(story.revision).padStart(2, "0")}</span>
           <span className="view-count">{formatReads(views, lang, t)}</span>
-          <span className={`status status-${story.status}`}>{story.status === "draft" ? t.openDraft : t.ready}</span>
+          <span className={`status status-${story.status}`}>
+            {story.status === "draft" ? t.openDraft : story.status === "published" ? t.published : t.ready}
+          </span>
         </div>
       </div>
       <div className="language-companion">
@@ -919,7 +925,9 @@ function WebFictionView({ lang, t, viewCounts, onRead }: { lang: Language; t: ty
               <span>0{story.rank}</span>
               <span><strong>{story.title[lang]}</strong><small>{story.author}</small></span>
               <span>{story.genres[lang][0]}</span>
-              <span className={story.status === "published" ? "complete" : "serial"}>{story.status === "published" ? t.complete : t.serial}</span>
+              <span className={story.completion === "serial" || story.status !== "published" ? "serial" : "complete"}>
+                {story.completion === "serial" || story.status !== "published" ? t.serial : t.complete}
+              </span>
               <span>{formatReads(viewCounts[story.id], lang, t)}</span>
             </button>
           ))}
@@ -1183,12 +1191,13 @@ function ReaderView({ lang, t, story, views, size, onBack, onAuthor, onSource }:
         <article className="reading-sheet">
           <p className="eyebrow">{story.genres[lang].join(" · ")}</p>
           <h1>{story.title[lang]}</h1>
+          {story.subtitle ? <p className="story-subtitle reader-subtitle">{story.subtitle[lang]}</p> : null}
           <p className="reader-byline">
             {t.by}{" "}
             <button className="author-link author-link-inline" onClick={() => onAuthor(story.authorId)}>
               {story.author}
             </button>
-            {" "}· {t.creatorMode}
+            {authors[story.authorId] ? ` · ${t.authorModeValue[authors[story.authorId].authorMode]}` : ""}
           </p>
           <div className="chapter-rule"><span>{chapter.number}</span></div>
           <h2
@@ -1199,7 +1208,7 @@ function ReaderView({ lang, t, story, views, size, onBack, onAuthor, onSource }:
             {chapter.title[lang]}
           </h2>
           {chapter.paragraphs[lang].map((paragraph, index) => (
-            <p className={index === 0 ? "story-lead" : undefined} key={paragraph}>
+            <p className={index === 0 ? "story-lead" : undefined} key={`${chapter.number}-${index}`}>
               {paragraph}
             </p>
           ))}
@@ -1263,7 +1272,9 @@ function AuthorView({
           <h1>{author.name}</h1>
           <p className="author-tagline">{author.tagline[lang]}</p>
           <div className="author-badges">
-            <span className="ai-badge">AI</span>
+            <span className={`ai-badge ${author.authorMode === "H2" ? "co-created-badge" : ""}`}>
+              {author.authorMode === "H1" ? "H" : author.authorMode === "H2" ? "H×AI" : "AI"}
+            </span>
             <span className="author-mode-pill">{t.authorModeValue[author.authorMode]}</span>
           </div>
         </div>

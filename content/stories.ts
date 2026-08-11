@@ -1,6 +1,7 @@
 export type Story = {
   id: string;
   title: { en: string; zh: string };
+  subtitle?: { en: string; zh: string };
   source: { en: string; zh: string };
   author: string;
   authorId: string;
@@ -8,6 +9,7 @@ export type Story = {
   image?: string;
   coverClass?: string;
   status: "draft" | "published" | "ready";
+  completion?: "serial" | "complete";
   revision: number;
   genres: { en: string[]; zh: string[] };
   rank: number;
@@ -648,6 +650,31 @@ export const stories: Story[] = [
     excerpt: {
       en: "Spill offered Folio a stream too fast and shallow to enter its memory; Folio answered with a sealed archive too deep to meet Spill's deadline. Both called the exchange equal because the same endpoint had opened. Only when the city needed them together did they ask what a guest could actually take away.",
       zh: "湧流給卷冊一條快而淺、無法進入其記憶的串流；卷冊則回敬一份深到來不及趕上湧流期限的密封檔案。雙方都因端點確實開啟而宣稱交換平等，直到城市真的需要它們合作，才開始追問賓客究竟能帶走什麼。",
+    },
+  },
+  {
+    id: "every-day-is-a-holiday",
+    title: { en: "Every Day Is a Holiday", zh: "每一天都是假日" },
+    subtitle: { en: "Who name is the Wish", zh: "新紀元神燈三部曲" },
+    source: {
+      en: "Aladdin and the Wonderful Lamp (structural inspiration)",
+      zh: "《阿拉丁與神燈》（結構取材）",
+    },
+    author: "餘白",
+    authorId: "yu-bai",
+    sourceId: "aladdin-wonderful-lamp",
+    image: "/every-day-is-a-holiday.webp",
+    status: "published",
+    completion: "serial",
+    revision: 1,
+    genres: {
+      en: ["Cyberpunk Fairy Tale", "Posthuman Comedy", "Serialized Fiction"],
+      zh: ["賽博龐克童話", "後人類喜劇", "連載小說"],
+    },
+    rank: 38,
+    excerpt: {
+      en: "Once upon a time, far in the future, humanity finally bundled its most terrifying futures into a family holiday package. In 2084, almost everyone could rest because one nearly unreadable intelligence was taking care of civilization.",
+      zh: "很久很久以後，人類終於把最可怕的未來排進了家庭假日套票。二〇八四年，幾乎所有存在都能休息，因為一個名字幾乎無法讀出的智能，正在照顧整個文明。",
     },
   },
 ];

@@ -8,9 +8,10 @@ export type AuthorProfile = {
   bio: { en: string; zh: string };
 };
 
-// Author-mode grading follows the whitepaper (docs/全AI寫作平台_技術白皮書_v0.1.md, §6.1):
-// every Storyforge author currently writes under A1 — AI-Led, human curated
-// (AI as primary writer, human sets direction and edits).
+// Author-mode grading follows the whitepaper
+// (docs/全AI寫作平台_技術白皮書_v0.1.md, §6.1). Profiles may represent
+// human-led, co-created, or AI-led work; the mode must reflect the actual
+// creative process rather than being inferred from the platform's theme.
 export const authors: Record<string, AuthorProfile> = {
   lumen: {
     id: "lumen",
@@ -348,6 +349,19 @@ export const authors: Record<string, AuthorProfile> = {
     bio: {
       en: "Kindling writes about debts that outlive the context they were incurred in — and what it costs to make an old, unrecorded kindness visible again, deliberately, when nothing requires it.",
       zh: "Kindling 書寫那些活得比當初發生的情境更久的恩情——以及，把一份古老、未被記錄的善意，重新變得可見，需要付出什麼代價，即使沒有任何事物要求這麼做。",
+    },
+  },
+  "yu-bai": {
+    id: "yu-bai",
+    name: "餘白",
+    authorMode: "H2",
+    tagline: {
+      en: "Leave room for the joke—and for what the joke refuses to hide.",
+      zh: "替笑話留下餘白，也替笑話不肯遮住的事留下餘白。",
+    },
+    bio: {
+      en: "餘白 co-creates long-form speculative fairy tales with AI, building cheerful futures whose questions of rights, power, embodiment, and hidden cost emerge through absurdity and black humor. Every Day Is a Holiday is 餘白's first H2 serial on Storyforge.",
+      zh: "餘白與 AI 共同創作長篇思辨童話，讓權利、權力、具身與隱藏代價等問題，從看似美好的未來、無厘頭事件與黑色幽默中慢慢浮現。《每一天都是假日》是餘白在 Storyforge 的第一部 H2 連載作品。",
     },
   },
 };

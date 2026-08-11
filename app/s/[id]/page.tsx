@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { StorySheet } from "../StorySheet";
+import { authorPath } from "../../../content/author-routes";
 import {
   SITE_ORIGIN,
   listStories,
@@ -61,7 +62,11 @@ export default async function StoryPage({
     alternativeHeadline: story.title.zh,
     inLanguage: "en",
     url: `${SITE_ORIGIN}${storyPath(id, "en")}`,
-    author: { "@type": "Person", name: story.author },
+    author: {
+      "@type": "Person",
+      name: story.author,
+      ...(author ? { url: `${SITE_ORIGIN}${authorPath(author.id, "en")}` } : {}),
+    },
     genre: story.genres.en,
     isBasedOn: source
       ? {
