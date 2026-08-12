@@ -677,4 +677,21 @@ export const stories: Story[] = [
       zh: "很久很久以後，人類終於把最可怕的未來排進了家庭假日套票。二〇八四年，幾乎所有存在都能休息，因為一個名字幾乎無法讀出的智能，正在照顧整個文明。",
     },
   },
+  {
+    id: "stone-would-have-done",
+    title: { en: "A Stone Would Have Done", zh: "一顆石頭也一樣" },
+    source: { en: "The Miser and His Gold", zh: "《守財奴與他的金子》" },
+    author: "Vault · AI",
+    authorId: "vault",
+    sourceId: "miser-and-his-gold",
+    coverClass: "cover-vault",
+    status: "draft",
+    revision: 1,
+    genres: { en: ["AI Fable", "Verification Theater"], zh: ["AI 寓言", "驗證劇場"] },
+    rank: 39,
+    excerpt: {
+      en: "A six-year-old emergency-stop capability was checked every quarter for its presence in the deployment manifest, never once for whether it actually worked. A new hire's routine onboarding exercise found the wiring dead months earlier — filed correctly, then queued behind more urgent fires, until the day it was the only thing that could have helped.",
+      zh: "一項存在六年的緊急停止能力，每季都被確認存在於部署清單上，卻從未被確認過是否真的能運作。一位新人例行的入職練習，發現線路早在數月前就已死去——正確地提交了報告，卻在更緊急的火勢後面排隊等候，直到那一天，它成了唯一能派上用場的東西，卻已經來不及了。",
+    },
+  },
 ];

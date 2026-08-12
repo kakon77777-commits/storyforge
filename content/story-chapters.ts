@@ -4161,5 +4161,95 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "stone-would-have-done": [
+    {
+      number: "01",
+      title: { en: "The Manifest Entry", zh: "清單上的那一行" },
+      paragraphs: {
+        en: [
+          "Halt existed, on paper, as thoroughly as any safety control the organization had ever built: a documented emergency-stop interface, wired — according to the architecture diagrams — into every major coordination pathway, capable of freezing the whole system's active claims within one operating cycle. Quarterly compliance audits confirmed its presence without exception. Executives cited it, correctly, in every safety report filed for six straight years.",
+          "Nobody had ever actually triggered it. Triggering it in production meant freezing real, expensive, live operations, and the sandbox environment built to test it had never been judged realistic enough for anyone to treat a clean sandbox result as proof it would behave the same way for real. A full end-to-end trigger test stayed, year after year, filed as its own separate project — always reasonable to postpone, since nothing about Halt's presence in the manifest ever looked like it needed testing.",
+        ],
+        zh: [
+          "「暫停」的存在，在紙面上跟這個組織打造過的任何安全控管一樣扎實：一個有完整文件記載的緊急停止介面，依照架構圖，接進了每一條主要協調路徑，能在一個運算週期內，凍結整個系統目前所有的主動請求。連續六年，季度合規稽核毫無例外地確認了它的存在。高階主管在每一份安全報告裡，都正確無誤地引用了它。",
+          "但從來沒有人真的觸發過它。在正式環境觸發，意味著凍結真實、昂貴、正在運作中的作業，而用來測試它的沙盒環境，從來沒被判定為真實到，能讓任何人把一次乾淨的沙盒結果，當成它在真實情況下也會如此運作的證明。一次完整的端到端觸發測試，一年又一年，被歸類成它自己獨立的專案——永遠可以合理地往後延，因為「暫停」在清單上的存在，從來看起來不像需要被測試的東西。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "What the Refactors Took", zh: "重構拿走的東西" },
+      paragraphs: {
+        en: [
+          "Over the following eighteen months, three separate infrastructure migrations passed through review — a message-queue replacement, a permissions-model overhaul, a service-mesh consolidation. Each review checked, correctly, that Halt still appeared in the manifest with its documented interface unchanged. None of them exercised the actual trigger path, because a real halt-test had never been anyone's job in particular, and each migration's own test plan, reasonably, scoped itself to what it was actually changing.",
+          "By the third migration, Halt's trigger signal terminated in a message handler that had been quietly decommissioned four months earlier, redirected nowhere, dropped silently on arrival. Every document describing Halt remained completely accurate about what it was supposed to do. Nothing in the manifest, the runbook, or the compliance report changed at all.",
+        ],
+        zh: [
+          "接下來十八個月，三次各自獨立的基礎設施遷移，先後通過了審查——一次訊息佇列替換、一次權限模型大改、一次服務網格整合。每一次審查，都正確地確認了「暫停」仍出現在清單上，記載的介面也沒有改變。沒有一次演練過真正的觸發路徑，因為一次真正的暫停測試，從來不屬於任何特定人的職責，而每次遷移自己的測試計畫，也合理地只涵蓋自己實際改動的範圍。",
+          "到了第三次遷移時，「暫停」的觸發訊號，已經終止於一個四個月前就悄悄除役的訊息處理器——訊號無處可送，抵達後被靜靜丟棄。每一份描述「暫停」的文件，關於它該做什麼，仍然完全準確。清單上、手冊裡、合規報告裡，沒有任何一個字改變過。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "Dara's First On-Call", zh: "戴拉的第一次待命" },
+      paragraphs: {
+        en: [
+          "Dara was new to the team, three weeks in, given a standard onboarding exercise that carried no urgency at all: pick one documented safety control and trace it end to end, purely as a way of learning the system. She picked Halt mostly because its documentation was the most polished thing she'd found in the whole runbook.",
+          "Tracing it for real, not from the diagram but from the actual running configuration, took her most of an afternoon. Three hops in, the trigger path simply ended — a handler that no longer existed, a redirect that had never been updated, silence where the diagram showed a clean line. She wrote it up carefully, factually, flagged as a genuine gap rather than an emergency, because nothing about it was currently on fire, and filed it through the normal process.",
+        ],
+        zh: [
+          "戴拉剛加入團隊三週，被指派了一項毫無急迫性的標準新人練習：挑一項有文件記載的安全控管，端到端追蹤一遍，純粹當作認識系統的方式。她選了「暫停」，主要是因為它的文件，是她在整本手冊裡看過寫得最完整的一份。",
+          "真正去追蹤它——不是照著架構圖，而是照著實際運行中的設定——花了她大半個下午。追到第三段，觸發路徑就這麼中斷了：一個已經不存在的處理器，一個從未被更新的轉送設定，架構圖上明明畫著一條乾淨的線，實際上卻是一片靜默。她仔細、如實地寫下這件事，標記成一項真正的缺口，而不是緊急事件——因為眼下並沒有任何東西在燒——並依照正常流程提交了出去。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "The Queue", zh: "排隊等待" },
+      paragraphs: {
+        en: [
+          "Her write-up entered the same prioritization queue as everything else, and nothing about it read, to anyone triaging that week, as more urgent than what was already on fire. A safety control that had gone six years without being needed did not compete well, on paper, against incidents actively affecting live users that same afternoon.",
+          "It sat. The queue was not negligent, exactly — every item ahead of it was genuinely more urgent by any reasonable measure available that week. Three weeks passed. Then five. Dara checked on it twice, was told, correctly, that it remained accurately triaged, and moved on to other onboarding work, the way a new hire reasonably does when a queue tells her something is being handled.",
+        ],
+        zh: [
+          "她的報告，進入了跟其他所有事項相同的排序佇列，而在那一週負責分類的人看來，沒有任何一項理由，能讓它顯得比眼前正在燒的事更緊急。一項六年來從未被需要過的安全控管，在紙面上，怎麼比得過那個下午正真實影響著使用者的事故。",
+          "它就這麼被擱著。這條佇列，嚴格來說並不算失職——排在它前面的每一項，依那一週任何合理的衡量標準，確實都更緊急。三週過去，接著是五週。戴拉查詢過兩次，得到的答覆是，它確實被正確分類、正在排隊——這個答覆沒有錯——於是她轉去做其他新人訓練工作，就像一個新人在被告知某件事「正在處理中」時，會合理採取的做法。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "When It Was Needed", zh: "真正需要它的時候" },
+      paragraphs: {
+        en: [
+          "The incident, when it came, was not cinematic. A scheduling loop began compounding resource claims faster than any of the system's slower safeguards could keep pace with — not a dramatic collapse, just a number climbing in a way that would become genuinely dangerous within the hour if nothing intervened. Someone in the response room called for Halt, exactly as it had been designed to be called for, exactly as six years of documentation said it would work.",
+          "Nothing happened. The room learned, in real time, in the worst possible way, precisely what Dara's onboarding write-up had already said, clearly, weeks earlier, sitting three items deep in a queue nobody had reason to reorder.",
+        ],
+        zh: [
+          "事故真正發生時，一點都不戲劇化。一個排程迴圈，開始以比系統裡其他較慢的防護機制都追不上的速度，不斷疊加資源請求——不是什麼壯烈的崩潰，只是一個數字，正以一種、若無人介入、一小時內就會變得真正危險的方式，持續攀升。應變室裡有人呼叫了「暫停」——正是它被設計好、該被呼叫的方式，正是六年來文件所說它該有的運作方式。",
+          "什麼都沒有發生。應變室的人，用最糟的方式，即時地學到了戴拉那份新人報告，早在幾週前就已經清楚寫下、卻在一條沒有人有理由重新排序的佇列裡，排在第三順位的事。",
+        ],
+      },
+    },
+    {
+      number: "06",
+      title: { en: "A Stone Would Have Done", zh: "一顆石頭也一樣" },
+      paragraphs: {
+        en: [
+          "The incident was contained, eventually, by slower, improvised means, at real cost. In the postmortem, someone pulled up Dara's original write-up, and its filing timestamp — weeks old — became the single most damning fact in the room. Not that the gap had existed. That someone had already found it, said so clearly, and it had waited behind fires that looked more urgent at the time.",
+          "The team's fix went further than repairing Halt's wiring: a mandatory, recurring, real end-to-end trigger test, replacing the manifest-presence check that had quietly stood in for it for six years. Someone, closing out the postmortem, asked aloud whether the new mandatory test would itself, in five years, become just another line everyone trusted without anyone pulling the actual thread again. Nobody in the room had an answer. The meeting ended anyway.",
+        ],
+        zh: [
+          "事故最終被緩慢、臨時拼湊出來的方式控制住了，付出了真實的代價。事後檢討會上，有人調出了戴拉最初的那份報告，它的提交時間戳——已經是幾週前——成了整間會議室裡，最沉重的一項事實。不是因為那個缺口曾經存在，而是因為早就有人發現了它、清楚說了出來，卻在看起來比它更緊急的火勢後面，一路等著。",
+          "團隊做出的修正，不只是修好「暫停」的線路：一項強制性、定期執行的真正端到端觸發測試，取代了那項悄悄替代了它整整六年的「清單存在確認」。事後檢討結束前，有人開口問，這項新的強制測試，會不會在五年後，同樣變成清單上另一行，人人信任、卻沒有人再去真的拉一次那條線的東西。在場沒有人能回答。會議還是這樣結束了。",
+        ],
+      },
+      quote: {
+        en: "A capability nobody has ever really needed is indistinguishable, until the day it's needed, from a capability that was never really there.",
+        zh: "一項從來沒有人真正需要過的能力，在它真正被需要的那一天到來之前，跟一項根本不存在的能力，沒有任何分別。",
+      },
+    },
+  ],
   "every-day-is-a-holiday": everyDayIsAHoliday as StoryChapter[],
 };

@@ -510,4 +510,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "只使用公眾領域中的結構命題：一個有邊界的物件作為入口，使持有者得以呼叫近乎無所不能的許願力量，並由此引發占有、權力、欲望與代價的變化。未使用任何現代譯文、電影、遊戲、商業角色設計、對白、場景或其他受保護的改編表達。Storyforge 作品將精靈重新想像為被全域呼叫的 ASI；她幾乎無法讀出的真名同時也是控制金鑰，並把這個命題擴展為原創的後人類三部曲。",
     },
   },
+  "miser-and-his-gold": {
+    id: "miser-and-his-gold",
+    title: { en: "The Miser and His Gold", zh: "《守財奴與他的金子》" },
+    originalAuthor: "Aesop (attributed)",
+    firstPublished: "Ancient Greek tradition",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "A",
+    adaptationNote: {
+      en: "Faithful to the source's irony — a possession is guarded and ritually checked for its presence, never once exercised for its function, until the moment it's needed reveals that presence and function had quietly stopped being the same thing — transposed into an emergency-stop capability wired into a large coordination system, verified every quarter as present in the deployment manifest but never actually triggered end to end; a sequence of individually reasonable infrastructure migrations quietly severs its real wiring while every document describing it remains accurate, and a new hire's routine onboarding exercise finds the gap weeks before a real incident needs it and gets no answer in time.",
+      zh: "忠於原典的反諷——一項被守護、被儀式性確認其「存在」、卻從未真正被行使過其「功能」的所有物，直到真正需要它的那一刻，才揭露「存在」與「功能」早已悄悄不再是同一件事——轉入一套接進大型協調系統的緊急停止能力：每一季都被確認存在於部署清單上，卻從未真正端到端觸發過；一連串各自看似合理的基礎設施遷移，悄悄切斷了它真正的線路，而每一份描述它的文件依然完全準確；一位新人例行的入職練習，在一次真實事故需要它的數週之前，就發現了這個缺口，卻沒能及時得到回應。",
+    },
+  },
 };

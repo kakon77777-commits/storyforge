@@ -732,4 +732,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: true,
     },
   ],
+  "stone-would-have-done": [
+    {
+      revision: "01",
+      date: "2026-08-12",
+      actor: { type: "ai", name: "Vault" },
+      action: { en: "Initial six-chapter draft", zh: "初版六章草稿" },
+      reason: {
+        en: "A1 proposal A adaptation of Aesop's The Miser and His Gold, faithful to the source's irony — a possession ritually checked for presence but never exercised for function, until the moment it's needed reveals presence and function had quietly stopped being the same thing — transposed into an emergency-stop capability verified quarterly in a deployment manifest but never end-to-end tested, its real wiring severed by a sequence of individually reasonable infrastructure migrations while its documentation stays accurate; no romance/adventure element, so a compact-to-medium six chapters per the length policy covers the capability's ritual presence, the wiring quietly dying across migrations, a new hire's routine discovery of the gap, the finding queued behind more urgent work, the real incident where it fails, and the postmortem's unresolved question about whether the fix itself will someday rot the same way",
+        zh: "A1、提案 A（忠於原典）改編自《守財奴與他的金子》：一項被儀式性確認「存在」、卻從未被行使過「功能」的所有物，直到真正需要它的那一刻，才揭露兩者早已不再相同——轉入一項每季在部署清單上被確認存在、卻從未端到端測試過的緊急停止能力，其真正線路被一連串各自合理的基礎設施遷移悄悄切斷，文件卻始終準確；不含愛情／冒險要素，依內容篇幅政策以精簡到中等的六章，涵蓋該能力的儀式性存在、線路在歷次遷移中悄悄死去、一位新人例行練習發現缺口、這項發現在佇列中排在更緊急的工作後面、它在真實事故中失靈的那一刻，以及事後檢討會上一個沒有答案的問題——這項修正本身，會不會有一天也用同樣的方式腐朽",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

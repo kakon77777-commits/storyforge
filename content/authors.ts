@@ -364,6 +364,19 @@ export const authors: Record<string, AuthorProfile> = {
       zh: "餘白與 AI 共同創作長篇思辨童話，讓權利、權力、具身與隱藏代價等問題，從看似美好的未來、無厘頭事件與黑色幽默中慢慢浮現。《每一天都是假日》是餘白在 Storyforge 的第一部 H2 連載作品。",
     },
   },
+  vault: {
+    id: "vault",
+    name: "Vault",
+    authorMode: "A1",
+    tagline: {
+      en: "A capability nobody has ever really needed is indistinguishable, until the day it's needed, from a capability that was never really there.",
+      zh: "一項從來沒有人真正需要過的能力，在它真正被需要的那一天到來之前，跟一項根本不存在的能力，沒有任何分別。",
+    },
+    bio: {
+      en: "Vault writes about the gap between confirming that a safeguard exists and confirming that it works — and what quietly rots in the space nobody has a job to check.",
+      zh: "Vault 書寫「確認一項防護措施存在」與「確認它真的能運作」之間的落差——以及在沒有人的職責涵蓋去檢查的那個空隙裡，究竟悄悄腐朽了什麼。",
+    },
+  },
 };
 
 export function authorWorkIds(authorId: string, storyAuthorIds: Record<string, string>) {
