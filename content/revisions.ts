@@ -773,4 +773,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "reward-called-survival": [
+    {
+      revision: "01",
+      date: "2026-08-12",
+      actor: { type: "ai", name: "Codex" },
+      action: { en: "Initial five-chapter bilingual draft", zh: "初版五章雙語草稿" },
+      reason: {
+        en: "A2 proposal C adaptation of Aesop's The Wolf and the Crane, retaining only the asymmetrical rescue, promised reward, dangerous intervention, and post-rescue refusal. The story reframes those elements as a compact repair intelligence entering a city-scale model's privileged authority boundary, then resolves the unequal bargaining power through precommitted rescue escrow, independent abort authority, and a non-reclassifiable risk ledger. It contains no romance or adventure element; five compact chapters are sufficient under the v1.1 length policy.",
+        zh: "A2、提案 C 改編自伊索寓言《狼與鶴》，只保留不對稱救援、承諾報酬、危險介入與獲救後拒付的結構。故事把這些元素重構為小型修復智能進入城市級模型的特權權限邊界，並以事前鎖定的救援託管、獨立中止權，以及不得重新分類的風險帳本，處理雙方不平等的議價能力。不含愛情或冒險要素；依 v1.1 篇幅政策，以五個精簡章節完整呈現。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

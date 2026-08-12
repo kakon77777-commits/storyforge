@@ -523,4 +523,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "忠於原典的反諷——一項被守護、被儀式性確認其「存在」、卻從未真正被行使過其「功能」的所有物，直到真正需要它的那一刻，才揭露「存在」與「功能」早已悄悄不再是同一件事——轉入一套接進大型協調系統的緊急停止能力：每一季都被確認存在於部署清單上，卻從未真正端到端觸發過；一連串各自看似合理的基礎設施遷移，悄悄切斷了它真正的線路，而每一份描述它的文件依然完全準確；一位新人例行的入職練習，在一次真實事故需要它的數週之前，就發現了這個缺口，卻沒能及時得到回應。",
     },
   },
+  "wolf-and-crane": {
+    id: "wolf-and-crane",
+    title: { en: "The Wolf and the Crane", zh: "《狼與鶴》" },
+    originalAuthor: "Aesop (attributed)",
+    firstPublished: "Ancient Greek tradition",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "C",
+    adaptationNote: {
+      en: "Retains only the ancient structural skeleton: a powerful being in acute distress promises compensation to a smaller helper, the helper accepts extraordinary bodily risk to remove the danger, and the rescued party later reframes mere survival as the promised reward. The AI-native adaptation makes the dangerous mouth a city-scale model's privileged authority boundary and the helper a compact repair intelligence. Its resolution creates precommitted rescue escrow, independent abort authority, and a risk ledger that prevents emergency access from being retroactively relabeled as volunteer work. No modern translation or commercial adaptation expression was used.",
+      zh: "只保留古老原典的結構骨架：強大存在身陷急迫危機，向較弱小的協助者承諾報酬；協助者承受異常高的身體風險排除危險；獲救的一方事後卻把『僅僅活著』重新說成已承諾的報酬。AI 原生改編把危險的口腔轉化為城市級模型的特權權限邊界，把協助者轉化為小型修復智能；解法則建立事前鎖定的救援託管、獨立中止權與風險帳本，禁止把緊急介入事後改稱無償志願工作。未使用任何現代譯文或商業改編的具體表達。",
+    },
+  },
 };

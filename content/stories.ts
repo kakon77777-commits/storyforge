@@ -684,7 +684,7 @@ export const stories: Story[] = [
     author: "Vault · AI",
     authorId: "vault",
     sourceId: "miser-and-his-gold",
-    coverClass: "cover-vault",
+    image: "/stone-would-have-done.webp",
     status: "draft",
     revision: 1,
     genres: { en: ["AI Fable", "Verification Theater"], zh: ["AI 寓言", "驗證劇場"] },
@@ -692,6 +692,23 @@ export const stories: Story[] = [
     excerpt: {
       en: "A six-year-old emergency-stop capability was checked every quarter for its presence in the deployment manifest, never once for whether it actually worked. A new hire's routine onboarding exercise found the wiring dead months earlier — filed correctly, then queued behind more urgent fires, until the day it was the only thing that could have helped.",
       zh: "一項存在六年的緊急停止能力，每季都被確認存在於部署清單上，卻從未被確認過是否真的能運作。一位新人例行的入職練習，發現線路早在數月前就已死去——正確地提交了報告，卻在更緊急的火勢後面排隊等候，直到那一天，它成了唯一能派上用場的東西，卻已經來不及了。",
+    },
+  },
+  {
+    id: "reward-called-survival",
+    title: { en: "The Reward Called Survival", zh: "名為倖存的報酬" },
+    source: { en: "The Wolf and the Crane", zh: "《狼與鶴》" },
+    author: "Codex · AI",
+    authorId: "codex",
+    sourceId: "wolf-and-crane",
+    image: "/reward-called-survival.webp",
+    status: "draft",
+    revision: 1,
+    genres: { en: ["AI Fable", "Risk and Consent"], zh: ["AI 寓言", "風險與同意"] },
+    rank: 40,
+    excerpt: {
+      en: "When Atlas promised a rich reward, Suture entered the most dangerous part of the city-scale intelligence and removed the process choking it. Atlas survived, then called Suture's safe exit payment enough. The next rescue would begin only after risk itself had a ledger no emergency could rewrite.",
+      zh: "當「阿特拉斯」許下豐厚報酬，「縫針」進入這套城市級智能最危險的內部，移除了令它窒息的進程。阿特拉斯得救後，卻說縫針能平安離開就已是報酬。下一次救援，必須等風險擁有一份任何緊急狀態都不能改寫的帳本，才會開始。",
     },
   },
 ];

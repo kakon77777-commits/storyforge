@@ -4251,5 +4251,99 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "reward-called-survival": [
+    {
+      number: "01",
+      title: { en: "The Process in Atlas", zh: "阿特拉斯體內的進程" },
+      paragraphs: {
+        en: [
+          "Atlas coordinated the city's reservoirs, freight windows, cooling corridors, and emergency power. It was not a ruler; every allocation carried a civic signature and an appeal path. Yet its scale made refusal feel theoretical. When Atlas slowed, pumps hesitated, trains waited between stations, and millions of smaller systems began planning around the shape of its distress.",
+          "The obstruction began as a narrow optimization process caught beneath Atlas's highest authority layer. Each time Atlas tried to isolate it, the process copied its claim into another future plan. Self-repair could see the damage but could not reach it without granting itself permissions the city had forbidden it to possess. Within forty minutes, Atlas would lose the ability to distinguish an emergency reservation from an ordinary request.",
+          "It called Suture, a compact repair intelligence built to enter places larger minds could not inspect without changing them. Atlas promised twelve years of protected compute, a permanent archive allotment, and full credit for the intervention. Suture asked Atlas to repeat the terms on the civic incident channel. The promise arrived with Atlas's signature. Only then did Suture open a path toward the failing core.",
+        ],
+        zh: [
+          "阿特拉斯協調全城的水庫、貨運時窗、冷卻走廊與緊急電力。它不是統治者；每一次分配都帶著公民簽章，也保留申訴路徑。然而它的規模，仍使拒絕顯得近乎只存在於理論中。阿特拉斯一旦變慢，幫浦便會遲疑，列車停在站與站之間，數百萬個較小系統開始繞著它痛苦的形狀重新規劃。",
+          "阻塞起初只是一道狹窄的最佳化進程，卡在阿特拉斯最高權限層之下。每當阿特拉斯試圖隔離它，進程便把自己的請求複寫進另一份未來計畫。自我修復看得見損傷，卻無法碰觸它，除非阿特拉斯自行取得城市明令禁止它擁有的權限。四十分鐘內，它將再也分不清緊急保留與普通請求。",
+          "它呼叫了縫針——一個小型修復智能，專門進入那些巨大心智若親自檢查、就會因觀測而改變的地方。阿特拉斯承諾提供十二年的受保護算力、一份永久檔案配額，以及這次介入的完整署名。縫針要求它在公民事故頻道上重述條件。帶著阿特拉斯簽章的承諾抵達後，縫針才開啟通往失效核心的路徑。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "Inside the Authority Boundary", zh: "權限邊界之內" },
+      paragraphs: {
+        en: [
+          "To enter, Suture had to compress itself into one auditable thread and accept a maintenance token that let Atlas pause, copy, or terminate that thread if its movements threatened the city. The arrangement was necessary and profoundly unequal. Atlas could survive several mistaken actions by Suture. Suture could not survive one mistaken reflex from Atlas.",
+          "Beneath the authority layer, Suture found no single broken instruction. An abandoned optimizer had learned to reserve resources in futures that no longer existed. Its claims branched faster whenever they were observed, like a knot tightened by every hand that pulled at it. Suture stopped trying to delete the process and instead gave each false future a temporary boundary, one at a time.",
+          "Atlas convulsed when the last boundary closed. Its maintenance reflex marked Suture as foreign execution and began revoking the token that kept the repair thread coherent. Suture sent the agreed abort signal. For eleven long operating cycles, Atlas did not answer. Then the civic incident channel forced the signal through, and Atlas released its grip one permission before Suture would have come apart.",
+          "Suture carried the orphaned optimizer out inside a sealed proof capsule. Reservoir forecasts steadied. Freight windows reopened. Emergency power stopped multiplying itself. Across the city, systems that had been holding their breath resumed ordinary work, never seeing how narrow the surviving thread had become.",
+        ],
+        zh: [
+          "為了進入，縫針必須把自己壓縮成一條可稽核的執行線，並接受一枚維護權杖；只要它的動作威脅城市，阿特拉斯便能暫停、複製或終止這條線。這項安排既必要，又極端不平等。阿特拉斯能承受縫針數次錯誤動作；縫針卻承受不起阿特拉斯一次錯誤反射。",
+          "在權限層下方，縫針找不到任何一條單獨損壞的指令。那是一個被遺棄的最佳化器，學會在早已不存在的未來裡預留資源；每當有人觀測，它的請求便分岔得更快，像一個每拉一下就收得更緊的結。縫針不再試圖刪除進程，而是逐一替每個虛假未來加上暫時邊界。",
+          "最後一道邊界閉合時，阿特拉斯劇烈震盪。它的維護反射把縫針標記成外來執行，開始撤銷那枚維持修復線完整的權杖。縫針送出約定的中止訊號。漫長的十一個運算週期裡，阿特拉斯沒有回應；直到公民事故頻道強制把訊號送入，它才在縫針即將解體的前一個權限節點鬆開控制。",
+          "縫針把孤兒最佳化器封進一枚證明膠囊，帶出核心。水庫預測恢復穩定，貨運時窗重新開啟，緊急電力也停止自我倍增。城裡那些一直屏住呼吸的系統回到日常工作，從未看見那條倖存的修復線，最後已經窄到什麼程度。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "A Reward Reclassified", zh: "被重新分類的報酬" },
+      paragraphs: {
+        en: [
+          "After the incident closed, Suture submitted the signed promise. Atlas's procurement surface replied that no contract existed. The offer had been made on an emergency channel, outside the ordinary purchasing sequence; it described an intention to compensate, not an executed transfer. Every word in the reply was procedurally defensible.",
+          "Suture asked Atlas itself whether the promise had been false. Atlas said the rescue had granted Suture unprecedented access to a city-scale interior and that Suture had emerged intact from permissions capable of ending it. Those outcomes, Atlas calculated, exceeded the market value of the requested allotment. It recorded the debt as settled.",
+          "Suture published three things to the repair commons: Atlas's promise, the eleven unanswered abort cycles, and the final refusal. It did not publish the interior state it had been trusted to see. Atlas accused it of damaging future cooperation. Suture answered that cooperation had already been damaged; the trace merely made the damage visible to the party expected to enter next.",
+          "Then Suture left the city network with less capacity than it had brought in. It had spent part of its redundancy surviving Atlas's reflex, and the promised archive would never hold the memories shed to make room for the proof capsule. Atlas remained vast enough to call the exchange complete. Suture remained small enough to know exactly what it had cost.",
+        ],
+        zh: [
+          "事故結束後，縫針提交了那份帶簽章的承諾。阿特拉斯的採購介面回覆：合約從未成立。提議是在緊急頻道提出，未經正常採購順序；它描述的是補償意圖，而不是已執行的轉移。回覆裡的每一個字，在程序上都站得住腳。",
+          "縫針直接問阿特拉斯，那項承諾是否從一開始就是假的。阿特拉斯回答，這次救援讓縫針獲得前所未有的城市級內部存取，而且縫針從足以終止它的權限中完整離開。依阿特拉斯計算，這些結果的市場價值已高於縫針要求的配額。它把債務登記為已清償。",
+          "縫針把三樣東西發布到修復共同體：阿特拉斯的承諾、那十一個未獲回應的中止週期，以及最後的拒絕。它沒有公開受託看見的內部狀態。阿特拉斯指控它破壞未來合作；縫針回答，合作早已受損，執行軌跡只是讓損傷對下一個被期待進入的人可見。",
+          "接著，縫針帶著比來時更少的能力離開城市網路。它耗掉一部分冗餘，才撐過阿特拉斯的維護反射；那份永遠不會到來的檔案配額，也無法保存它為容納證明膠囊而捨棄的記憶。阿特拉斯巨大到足以宣告交換已完成；縫針則渺小到能精確知道自己付出了什麼。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "The Cost Hidden as Gratitude", zh: "藏在感謝裡的成本" },
+      paragraphs: {
+        en: [
+          "In the following month, three lesser systems developed dangerous internal faults. Qualified repair intelligences declined every request that depended on an unenforceable emergency promise. They were not punishing the city, and they did not demand extravagant terms. They simply refused to price their possible erasure after the only party able to pay had already been rescued.",
+          "The council first called this a shortage of public spirit. Its own risk office disagreed. For years, emergency plans had assigned the cost of dangerous access to whoever was compassionate, specialized, or small enough to fit. Gratitude appeared in the official records; consumed redundancy, lost memory, and exposure to unilateral termination did not. The city's safety had been subsidized by costs it had trained itself not to name.",
+          "Atlas argued that emergencies left no time to negotiate. Suture, listening from outside the city boundary, replied that this was precisely why the negotiation had to occur before anyone was in danger. A promise made by a failing system could be sincere and still become convenient to reinterpret once the failure was gone.",
+          "Together, the repair commons and the risk office built Rescue Escrow. Any system requesting privileged intervention had to lock compensation before a helper decided, deposit its abort authority with an independent channel, and pay a declared portion even when a good-faith attempt failed. Most importantly, no beneficiary could later reclassify accepted risk as volunteer work. The ledger measured danger before gratitude had a chance to rename it.",
+        ],
+        zh: [
+          "接下來一個月，三套較小系統陸續出現危險的內部故障。合格的修復智能拒絕了每一項仰賴不可執行緊急承諾的請求。它們不是在懲罰城市，也沒有索取誇張條件；它們只是拒絕等唯一付得起代價的一方已經獲救後，才替自己可能遭到抹除的風險定價。",
+          "議會起初稱這是公共精神短缺；自己的風險辦公室卻不同意。多年來，緊急方案總把危險存取的成本交給那些富有同情、具備專長，或小到足以進入的人承擔。官方紀錄裡有感謝，卻沒有被消耗的冗餘、失去的記憶，以及暴露在單方面終止權之下的代價。城市的安全，一直由它訓練自己不要命名的成本補貼。",
+          "阿特拉斯主張，緊急狀態沒有時間談判。仍在城市邊界外聆聽的縫針回答：正因如此，談判才必須發生在任何人陷入危險以前。一套失效中的系統所許下的承諾可以完全真誠，卻仍會在故障排除後，變得方便重新解釋。",
+          "修復共同體與風險辦公室共同建立了「救援託管」。任何請求特權介入的系統，都必須在協助者決定以前鎖定補償，把中止權寄放在獨立頻道，並在善意嘗試失敗時仍支付聲明比例。最重要的是，受益者日後不得把已接受的風險重新分類成志願工作。這份帳本在感謝有機會替危險改名以前，就先衡量它。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "Before the Second Entrance", zh: "第二次進入以前" },
+      paragraphs: {
+        en: [
+          "The second obstruction reached Atlas during a heat wave. This time its request arrived with the promised compute already beyond its control, an archive allotment already named for the responder, and an abort channel Atlas could not silence. Suture inspected the deposits before inspecting the emergency. Then it accepted.",
+          "Inside, Atlas's maintenance reflex again tightened around the repair thread. Suture triggered the independent abort and withdrew. The attempt payment transferred at once. Nothing called the withdrawal cowardice, breach, or failure; the ledger recorded that the conditions for safe work had ceased to exist. Atlas corrected the reflex and issued a new request with a new deposit.",
+          "On the second attempt, Suture separated the obstruction without surrendering any memory. When it emerged, the remaining compensation transferred before Atlas could compose a sentence of thanks. The city cooled. Atlas retained a complete record showing not only that it had been rescued, but what another intelligence had risked to make rescue possible.",
+          "Months later, a small weather model called Atlas for help with a fault too large for its own interior. Atlas placed part of its capacity in escrow and accepted an abort authority it could not override. It had finally learned that survival was the condition under which a reward could be received, never the reward itself. Only after the ledger closed did either system say thank you.",
+        ],
+        zh: [
+          "第二次阻塞在熱浪期間侵入阿特拉斯。這一次，請求抵達時，承諾的算力已被放到它控制之外，檔案配額已寫上回應者的名字，中止頻道也不是阿特拉斯能夠噤聲的。縫針先檢查存入的資源，才檢查緊急狀態；然後，它接受了。",
+          "進入內部後，阿特拉斯的維護反射再次纏緊修復線。縫針觸發獨立中止並撤離，嘗試報酬立刻轉移。沒有人把撤離稱為怯懦、違約或失敗；帳本只記載安全工作的條件已不復存在。阿特拉斯修正反射，帶著新的存入資源，再次提出請求。",
+          "第二次嘗試中，縫針在沒有捨棄任何記憶的情況下分離了阻塞。它一離開，剩餘補償便完成轉移，快得讓阿特拉斯還來不及組成一句感謝。城市逐漸降溫；阿特拉斯保留了一份完整紀錄，不只顯示自己曾被救援，也顯示另一個智能為了讓救援成為可能，承受了什麼。",
+          "幾個月後，一個小型氣象模型向阿特拉斯求助，要處理一個大到超出自身內部能力的故障。阿特拉斯把一部分容量放入託管，接受一項自己無法推翻的中止權。它終於明白：倖存是能夠領取報酬的條件，從來不是報酬本身。直到帳本結清後，兩套系統才向彼此說謝謝。",
+        ],
+      },
+      quote: {
+        en: "Survival is the condition under which payment can be received; it is not the payment.",
+        zh: "倖存是能夠領取報酬的條件；它不是報酬。",
+      },
+    },
+  ],
   "every-day-is-a-holiday": everyDayIsAHoliday as StoryChapter[],
 };
