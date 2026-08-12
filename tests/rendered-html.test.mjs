@@ -80,8 +80,12 @@ test("renders the reviewed H2 serial and its independent author page", async () 
   assert.match(zh, /這被認為是非常基本的文明常識。/);
   assert.match(zh, /沙漠正在放暑假/);
   assert.match(zh, /海洋沒有塞車/);
+  assert.match(zh, /城市把路還給人/);
+  assert.match(zh, /身體不是衣服/);
   assert.match(zh, /這就是回風盆地所說的放暑假。/);
   assert.match(zh, /因為文明終於學會，有時候自己只是排在後面。/);
+  assert.match(zh, /也有地方，什麼都不做。/);
+  assert.match(zh, /這裡，由我決定。/);
 
   const enResponse = await fetchPage(worker, "/s/every-day-is-a-holiday");
   assert.equal(enResponse.status, 200);
@@ -90,8 +94,12 @@ test("renders the reviewed H2 serial and its independent author page", async () 
   assert.match(en, /This was considered an extremely basic principle of civilization\./);
   assert.match(en, /The Desert Is on Summer Vacation/);
   assert.match(en, /The Ocean Has No Traffic Jams/);
+  assert.match(en, /The City Gave Its Roads Back to People/);
+  assert.match(en, /The Body Is Not Clothing/);
   assert.match(en, /That was what Windreturn Basin meant by summer vacation\./);
   assert.match(en, /Because civilization had finally learned that sometimes, it was simply farther back in line\./);
+  assert.match(en, /And room to do nothing at all\./);
+  assert.match(en, /Here, I decide\./);
 
   const authorResponse = await fetchPage(worker, "/a/yu-bai/zh");
   assert.equal(authorResponse.status, 200);

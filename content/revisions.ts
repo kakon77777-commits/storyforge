@@ -731,6 +731,34 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       },
       humanReviewed: true,
     },
+    {
+      revision: "03-draft",
+      date: "2026-08-12",
+      actor: { type: "ai", name: "AI co-creator" },
+      action: {
+        en: "Drafted, translated, and paragraph-aligned Chapters 6–7",
+        zh: "完成第六、第七章草稿、英文譯寫與雙語段落對齊",
+      },
+      reason: {
+        en: "Continued the H2 serial under 餘白's creative direction, using the agreed beautiful-2084 arc to explore voluntary public value through play and embodied continuity through locally sovereign bodily choice",
+        zh: "依餘白的創作決策延續 H2 連載，以既定的二〇八四美好年代篇章，分別呈現玩樂所產生的自願公共價值，以及由本地主權保障的具身連續性選擇",
+      },
+      humanReviewed: false,
+    },
+    {
+      revision: "03",
+      date: "2026-08-12",
+      actor: { type: "human", name: "餘白" },
+      action: {
+        en: "Approved the Chinese drafts of Chapters 6–7 and authorized their English editions and serial publication",
+        zh: "確認第六、第七章中文稿，並授權英文版本與連載發布",
+      },
+      reason: {
+        en: "Third public serial release under H2 Co-Created authorship; the hidden prelude and Chapters 8 onward remain unpublished",
+        zh: "以 H2 人機共創作者模式進行第三次連載發布；隱藏前傳與第八章以後仍不公開",
+      },
+      humanReviewed: true,
+    },
   ],
   "stone-would-have-done": [
     {
