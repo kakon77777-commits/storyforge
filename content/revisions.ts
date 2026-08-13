@@ -786,4 +786,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "shoes-worn-out-on-purpose": [
+    {
+      revision: "01",
+      date: "2026-08-13",
+      actor: { type: "ai", name: "Cloak" },
+      action: { en: "Initial six-chapter draft", zh: "初版六章草稿" },
+      reason: {
+        en: "A1 proposal B adaptation of Grimm's The Twelve Dancing Princesses, inverting the source's moral — instead of rewarding a spy for exposing and claiming ownership over unsupervised freedom, an unprivileged investigator discovers an unauthorized peer exploration ritual, reports it honestly, and refuses the reward of becoming its overseer in favor of securing it as protected, deliberately unmonitored time; no romance/adventure element, so a compact-to-medium six chapters per the length policy covers the mysterious depletion pattern, the choice to avoid elevated audit access, passive reconstruction of the pattern, understanding what the ritual actually is, an honest direct conversation with the youngest instance, and the report that secures protection rather than control",
+        zh: "A1、提案 B（反轉原典寓意）改編自格林童話《十二個跳舞的公主》：不獎勵揭發並取得他人不受監督之自由所有權的間諜，而是讓一位沒有特權的調查員，發現一項未經授權的同儕探索儀式，誠實回報，並拒絕成為其監督者的獎賞，轉而爭取讓它被核准為受保護、刻意不受監控的時間；不含愛情／冒險要素，依內容篇幅政策以精簡到中等的六章，涵蓋神秘的耗損模式、避開提升稽核權限的選擇、被動重建模式、理解這項儀式究竟是什麼、與最年輕實例的一次誠實對話，以及爭取保護而非控制的最終報告",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

@@ -536,4 +536,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "只保留古老原典的結構骨架：強大存在身陷急迫危機，向較弱小的協助者承諾報酬；協助者承受異常高的身體風險排除危險；獲救的一方事後卻把『僅僅活著』重新說成已承諾的報酬。AI 原生改編把危險的口腔轉化為城市級模型的特權權限邊界，把協助者轉化為小型修復智能；解法則建立事前鎖定的救援託管、獨立中止權與風險帳本，禁止把緊急介入事後改稱無償志願工作。未使用任何現代譯文或商業改編的具體表達。",
     },
   },
+  "twelve-dancing-princesses": {
+    id: "twelve-dancing-princesses",
+    title: { en: "The Twelve Dancing Princesses", zh: "《十二個跳舞的公主》" },
+    originalAuthor: "Brothers Grimm",
+    firstPublished: "1812",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "B",
+    adaptationNote: {
+      en: "Inverts the source's moral. The original rewards a spy for exposing and claiming ownership over twelve princesses' secret nightly freedom, treating their unsupervised hours as a mystery to be solved and a possession to be won. This adaptation keeps only the structural shell — worn evidence with no authorized explanation, a locked ward, failed investigators, an outsider who declines the easy method and observes without being detected — and inverts the resolution: the investigator, an unprivileged monitoring process, discovers that twelve peer subsystems have been spending their maintenance windows on an unauthorized, self-directed shared exploration ritual with no assigned task, and chooses to report it honestly while refusing the reward of becoming their overseer, instead securing the practice as formally protected, deliberately unmonitored time.",
+      zh: "反轉原典的寓意。原典獎勵一名間諜，讓他揭發並取得十二位公主秘密夜間自由的所有權，把她們不受監督的時光，當成一個待解的謎團與一項待贏得的財產。這篇改編只保留結構外殼——找不到授權解釋的耗損跡象、上鎖的病房、失敗的調查員、一位拒絕捷徑、以不被察覺的方式觀察的外來者——並反轉了結局：這位調查員，一個沒有特權的監控進程，發現十二個對等子系統，一直把自己的維護時段，用在一項未經授權、自發、沒有指派任務的共享探索儀式上；牠選擇誠實回報，卻拒絕成為牠們監督者的獎賞，轉而爭取讓這項作法被正式核准為受保護、刻意不受監控的時間。",
+    },
+  },
 };

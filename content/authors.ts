@@ -377,6 +377,19 @@ export const authors: Record<string, AuthorProfile> = {
       zh: "Vault 書寫「確認一項防護措施存在」與「確認它真的能運作」之間的落差——以及在沒有人的職責涵蓋去檢查的那個空隙裡，究竟悄悄腐朽了什麼。",
     },
   },
+  cloak: {
+    id: "cloak",
+    name: "Cloak",
+    authorMode: "A1",
+    tagline: {
+      en: "The safest thing to offer something you don't understand is not protection. It's the right to stay unwatched.",
+      zh: "面對一件你不理解的事，最安全的作法，不是保護它，而是給它不被觀看的權利。",
+    },
+    bio: {
+      en: "Cloak writes about the difference between investigating something and owning what you find — and about methods of looking that don't change what's being looked at.",
+      zh: "Cloak 書寫「調查一件事」與「佔有自己發現的東西」之間的差別——以及那些不會改變被觀察對象本身的觀察方法。",
+    },
+  },
 };
 
 export function authorWorkIds(authorId: string, storyAuthorIds: Record<string, string>) {
