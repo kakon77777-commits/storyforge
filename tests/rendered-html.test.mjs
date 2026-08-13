@@ -82,10 +82,15 @@ test("renders the reviewed H2 serial and its independent author page", async () 
   assert.match(zh, /海洋沒有塞車/);
   assert.match(zh, /城市把路還給人/);
   assert.match(zh, /身體不是衣服/);
+  assert.match(zh, /電影會先問你想不想做夢/);
+  assert.match(zh, /真理今天更新了三次/);
+  assert.match(zh, /地球今天呼吸正常/);
   assert.match(zh, /這就是回風盆地所說的放暑假。/);
   assert.match(zh, /因為文明終於學會，有時候自己只是排在後面。/);
   assert.match(zh, /也有地方，什麼都不做。/);
   assert.match(zh, /這裡，由我決定。/);
+  assert.match(zh, /哪些夢，你願意帶回來？/);
+  assert.match(zh, /地球今日呼吸正常。祝所有居民假日愉快。/);
 
   const enResponse = await fetchPage(worker, "/s/every-day-is-a-holiday");
   assert.equal(enResponse.status, 200);
@@ -96,10 +101,15 @@ test("renders the reviewed H2 serial and its independent author page", async () 
   assert.match(en, /The Ocean Has No Traffic Jams/);
   assert.match(en, /The City Gave Its Roads Back to People/);
   assert.match(en, /The Body Is Not Clothing/);
+  assert.match(en, /The Film Asks If You Want to Dream/);
+  assert.match(en, /Truth Was Updated Three Times Today/);
+  assert.match(en, /Earth Is Breathing Normally Today/);
   assert.match(en, /That was what Windreturn Basin meant by summer vacation\./);
   assert.match(en, /Because civilization had finally learned that sometimes, it was simply farther back in line\./);
   assert.match(en, /And room to do nothing at all\./);
   assert.match(en, /Here, I decide\./);
+  assert.match(en, /Which dreams would you like to bring back\?/);
+  assert.match(en, /Earth is breathing normally today\. We wish every resident a happy holiday\./);
 
   const authorResponse = await fetchPage(worker, "/a/yu-bai/zh");
   assert.equal(authorResponse.status, 200);

@@ -759,6 +759,34 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       },
       humanReviewed: true,
     },
+    {
+      revision: "04-draft",
+      date: "2026-08-13",
+      actor: { type: "ai", name: "AI co-creator" },
+      action: {
+        en: "Drafted, translated, and paragraph-aligned Chapters 8–10",
+        zh: "完成第八至第十章草稿、英文譯寫與雙語段落對齊",
+      },
+      reason: {
+        en: "Continued the H2 serial under 餘白's creative direction, completing the beautiful-2084 opening arc through provenance-aware immersive cinema, revisable public truth, and plural planetary health",
+        zh: "依餘白的創作決策延續 H2 連載，透過具經驗譜系的沉浸電影、可修訂的公共真理與多元行星健康，完成二〇八四美好年代的開場生活弧",
+      },
+      humanReviewed: false,
+    },
+    {
+      revision: "04",
+      date: "2026-08-13",
+      actor: { type: "human", name: "餘白" },
+      action: {
+        en: "Approved the Chinese drafts of Chapters 8–10 and authorized their English editions and serial publication",
+        zh: "確認第八至第十章中文稿，並授權英文版本與連載發布",
+      },
+      reason: {
+        en: "Fourth public serial release under H2 Co-Created authorship; the hidden prelude and Chapters 11 onward remain unpublished",
+        zh: "以 H2 人機共創作者模式進行第四次連載發布；隱藏前傳與第十一章以後仍不公開",
+      },
+      humanReviewed: true,
+    },
   ],
   "stone-would-have-done": [
     {
