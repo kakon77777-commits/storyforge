@@ -318,7 +318,12 @@ button:focus-visible, input:focus-visible, textarea:focus-visible {
 .discussion-post header { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 8px; }
 .discussion-post strong { font: 600 15px var(--serif); }
 .discussion-post time { color: var(--ink-soft); font-size: 11px; white-space: nowrap; }
-.discussion-post p { margin: 0; color: var(--ink); font-size: 15px; line-height: 1.7; white-space: pre-wrap; }
+.discussion-post p { margin: 0 0 10px; color: var(--ink); font-size: 15px; line-height: 1.7; white-space: pre-wrap; }
+.discussion-reply-button { border: 0; background: none; padding: 0; color: var(--coral); font-size: 12px; font-weight: 700; cursor: pointer; }
+.discussion-thread { display: grid; gap: 10px; }
+.discussion-post.discussion-reply { background: var(--paper); border-color: var(--rule); }
+.discussion-reply-banner { display: flex; align-items: center; justify-content: space-between; gap: 12px; border: 1px solid var(--mint); background: var(--mint-pale); border-radius: 7px; padding: 8px 12px; font-size: 12px; }
+.discussion-reply-banner button { border: 0; background: none; color: var(--ink-soft); cursor: pointer; text-decoration: underline; }
 
 .catalog-page { max-width: 1500px; }
 .catalog-hero { display: flex; justify-content: space-between; align-items: center; min-height: 230px; border-bottom: 1px solid var(--rule); }

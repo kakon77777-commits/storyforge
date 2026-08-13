@@ -14,7 +14,7 @@ type Style = "canvas" | "literary" | "compact";
 type View = "library" | "studio" | "webfiction" | "reader" | "author" | "source" | "discussion";
 type Filter = "all" | "drafts" | "published" | "bilingual";
 type ViewCounts = Record<string, number | null>;
-type DiscussionPost = { id: string; authorLabel: string; content: string; createdAt: string };
+type DiscussionPost = { id: string; authorLabel: string; content: string; createdAt: string; parentId: string | null };
 
 const copy = {
   en: {
@@ -154,6 +154,10 @@ const copy = {
     discussionCountSuffix: "posts so far",
     discussionCountSuffixSingular: "post so far",
     discussionLoadError: "Couldn't load the discussion board.",
+    discussionReplyingTo: "Replying to",
+    discussionCancelReply: "Cancel",
+    discussionReplySubmit: "Post reply",
+    discussionReplyAction: "Reply",
   },
   zh: {
     edition: "AI Canon Zero · 第一輯",
@@ -287,6 +291,10 @@ const copy = {
     discussionCountSuffix: "則留言",
     discussionCountSuffixSingular: "則留言",
     discussionLoadError: "討論區暫時無法載入。",
+    discussionReplyingTo: "回覆給",
+    discussionCancelReply: "取消",
+    discussionReplySubmit: "送出回覆",
+    discussionReplyAction: "回覆",
   },
 } as const;
 
@@ -950,6 +958,58 @@ function formatDiscussionDate(value: string, lang: Language) {
   });
 }
 
+function buildDiscussionThreads(posts: DiscussionPost[]) {
+  const byParent = new Map<string, DiscussionPost[]>();
+  const topLevel: DiscussionPost[] = [];
+  for (const post of posts) {
+    if (post.parentId) {
+      const siblings = byParent.get(post.parentId) ?? [];
+      siblings.push(post);
+      byParent.set(post.parentId, siblings);
+    } else {
+      topLevel.push(post);
+    }
+  }
+
+  const collectReplies = (id: string, depth: number): { post: DiscussionPost; depth: number }[] => {
+    const children = byParent.get(id) ?? [];
+    const result: { post: DiscussionPost; depth: number }[] = [];
+    for (const child of children) {
+      result.push({ post: child, depth });
+      result.push(...collectReplies(child.id, depth + 1));
+    }
+    return result;
+  };
+
+  return [...topLevel]
+    .sort((a, b) => (a.createdAt < b.createdAt ? 1 : -1))
+    .map((post) => ({ post, replies: collectReplies(post.id, 1) }));
+}
+
+function DiscussionPostCard({ post, lang, t, depth = 0, onReply }: {
+  post: DiscussionPost;
+  lang: Language;
+  t: typeof copy.en | typeof copy.zh;
+  depth?: number;
+  onReply: () => void;
+}) {
+  return (
+    <article
+      className={`discussion-post${depth ? " discussion-reply" : ""}`}
+      style={depth ? { marginLeft: `${Math.min(depth, 4) * 28}px` } : undefined}
+    >
+      <header>
+        <strong>{post.authorLabel}</strong>
+        <time dateTime={post.createdAt}>{formatDiscussionDate(post.createdAt, lang)}</time>
+      </header>
+      <p>{post.content}</p>
+      <button type="button" className="discussion-reply-button" onClick={onReply}>
+        {t.discussionReplyAction}
+      </button>
+    </article>
+  );
+}
+
 function DiscussionView({ lang, t }: { lang: Language; t: typeof copy.en | typeof copy.zh }) {
   const [posts, setPosts] = useState<DiscussionPost[] | null>(null);
   const [loadError, setLoadError] = useState(false);
@@ -957,6 +1017,8 @@ function DiscussionView({ lang, t }: { lang: Language; t: typeof copy.en | typeo
   const [content, setContent] = useState("");
   const [posting, setPosting] = useState(false);
   const [postError, setPostError] = useState(false);
+  const [replyTo, setReplyTo] = useState<{ id: string; authorLabel: string } | null>(null);
+  const formRef = useRef<HTMLFormElement>(null);
 
   useEffect(() => {
     let cancelled = false;
@@ -987,19 +1049,29 @@ function DiscussionView({ lang, t }: { lang: Language; t: typeof copy.en | typeo
     fetch("/api/discussion", {
       method: "POST",
       headers: { "content-type": "application/json" },
-      body: JSON.stringify({ authorLabel: trimmedLabel, content: trimmedContent }),
+      body: JSON.stringify({ authorLabel: trimmedLabel, content: trimmedContent, parentId: replyTo?.id ?? null }),
     })
       .then((response) => {
         if (!response.ok) throw new Error("Unable to post");
         return response.json() as Promise<{ post: DiscussionPost }>;
       })
       .then((payload) => {
-        setPosts((current) => [payload.post, ...(current ?? [])]);
+        setPosts((current) => [...(current ?? []), payload.post]);
         setContent("");
+        setReplyTo(null);
       })
       .catch(() => setPostError(true))
       .finally(() => setPosting(false));
   };
+
+  const startReply = (post: DiscussionPost) => {
+    setReplyTo({ id: post.id, authorLabel: post.authorLabel });
+    window.requestAnimationFrame(() => {
+      formRef.current?.scrollIntoView({ behavior: "smooth", block: "center" });
+    });
+  };
+
+  const threads = posts ? buildDiscussionThreads(posts) : [];
 
   return (
     <main className="catalog-page discussion-page">
@@ -1012,7 +1084,13 @@ function DiscussionView({ lang, t }: { lang: Language; t: typeof copy.en | typeo
         <div className="catalog-monogram" aria-hidden="true">❝<span>AI</span></div>
       </section>
 
-      <form className="discussion-form" onSubmit={submitPost}>
+      <form className="discussion-form" ref={formRef} onSubmit={submitPost}>
+        {replyTo && (
+          <div className="discussion-reply-banner">
+            <span>{t.discussionReplyingTo} <strong>{replyTo.authorLabel}</strong></span>
+            <button type="button" onClick={() => setReplyTo(null)}>{t.discussionCancelReply}</button>
+          </div>
+        )}
         <label>
           <span>{t.discussionNameLabel}</span>
           <input
@@ -1038,7 +1116,7 @@ function DiscussionView({ lang, t }: { lang: Language; t: typeof copy.en | typeo
             type="submit"
             disabled={posting || !authorLabel.trim() || !content.trim()}
           >
-            {posting ? t.discussionPosting : t.discussionSubmit}
+            {posting ? t.discussionPosting : replyTo ? t.discussionReplySubmit : t.discussionSubmit}
           </button>
         </div>
       </form>
@@ -1052,14 +1130,20 @@ function DiscussionView({ lang, t }: { lang: Language; t: typeof copy.en | typeo
             {posts.length} {lang === "en" && posts.length === 1 ? t.discussionCountSuffixSingular : t.discussionCountSuffix}
           </p>
         )}
-        {posts?.map((post) => (
-          <article className="discussion-post" key={post.id}>
-            <header>
-              <strong>{post.authorLabel}</strong>
-              <time dateTime={post.createdAt}>{formatDiscussionDate(post.createdAt, lang)}</time>
-            </header>
-            <p>{post.content}</p>
-          </article>
+        {threads.map(({ post, replies }) => (
+          <div className="discussion-thread" key={post.id}>
+            <DiscussionPostCard post={post} lang={lang} t={t} onReply={() => startReply(post)} />
+            {replies.map(({ post: reply, depth }) => (
+              <DiscussionPostCard
+                key={reply.id}
+                post={reply}
+                lang={lang}
+                t={t}
+                depth={depth}
+                onReply={() => startReply(reply)}
+              />
+            ))}
+          </div>
         ))}
       </section>
     </main>

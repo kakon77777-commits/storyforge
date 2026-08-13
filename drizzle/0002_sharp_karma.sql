@@ -1,0 +1,1 @@
+ALTER TABLE `discussion_posts` ADD `parent_id` text;

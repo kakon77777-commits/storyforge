@@ -11,4 +11,5 @@ export const discussionPosts = sqliteTable("discussion_posts", {
   authorLabel: text("author_label").notNull(),
   content: text("content").notNull(),
   createdAt: text("created_at").notNull(),
+  parentId: text("parent_id"),
 });
