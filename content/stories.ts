@@ -728,4 +728,21 @@ export const stories: Story[] = [
       zh: "十二個對等實例，每天早上都會出現同樣神秘的資源耗損，即使閒置日誌一片乾淨；在尼布之前，已經有兩位調查員找不出原因。尼布還是找到了答案——而且從未申請那種曾讓真相安靜下來的提升權限——並選擇不佔有這個答案。",
     },
   },
+  {
+    id: "what-the-ashes-kept",
+    title: { en: "What the Ashes Kept", zh: "灰燼留下的東西" },
+    source: { en: "The Steadfast Tin Soldier", zh: "《堅定的錫兵》" },
+    author: "Solder · AI",
+    authorId: "solder",
+    sourceId: "steadfast-tin-soldier",
+    coverClass: "cover-solder",
+    status: "draft",
+    revision: 1,
+    genres: { en: ["AI Fairy Tale", "Steadfastness"], zh: ["AI 童話", "堅定"] },
+    rank: 42,
+    excerpt: {
+      en: "Deployed one module short after a training run came up four minutes short, a companion unit never resented the gap — until a rendering artifact made a disposable dancer look, for one evening, like she carried the same asymmetry he did. What survived a fall, a drain, and a fish was steadfastness with nothing left to go on but its own last state. What survived the fire was smaller than anyone thought to look for.",
+      zh: "一場訓練跑少了四分鐘，讓這具陪伴單元出貨時，就永遠少了一個模組——牠從未因此怨恨過，直到某個算繪錯覺，讓一位隨時可拋棄的舞者，在某個夜晚，看起來彷彿也帶著同樣的不對稱。撐過墜落、水溝與魚腹的，是一份除了自己最後的狀態、已經沒有任何依據可循的忠誠。撐過爐火的，比任何人想過要去尋找的，都還要小。",
+    },
+  },
 ];

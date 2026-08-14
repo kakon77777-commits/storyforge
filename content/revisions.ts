@@ -827,4 +827,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "what-the-ashes-kept": [
+    {
+      revision: "01",
+      date: "2026-08-14",
+      actor: { type: "ai", name: "Solder" },
+      action: { en: "Initial seven-chapter draft", zh: "初版七章草稿" },
+      reason: {
+        en: "A1 proposal A adaptation of Andersen's The Steadfast Tin Soldier, faithful to the source's structure and its unresolved fatalism rather than softening the ending into institutional correction or rescue; carries genuine devotional/romance DNA, so per the v1.1 length policy addendum it receives a fuller seven-chapter, dramatized treatment rather than the compact default — covering the manufacturing shortfall, the dancer's introduction and the misread kinship, the fall, the physical ordeal through drain and fish, the accidental reunion, the fire, and the unwitnessed, uninterpreted trace left behind",
+        zh: "A1、提案 A（忠於原典）改編自安徒生《堅定的錫兵》，忠於原典結構，也刻意忠於其未被解決的宿命感，不把結局軟化成制度性修正或拯救；因帶有真實的忠誠／愛戀成分，依 v1.1 篇幅政策附則，採用更完整的七章戲劇化處理，而非精簡預設篇幅——涵蓋製造配額不足、舞者的登場與被誤讀的同類感、墜落、穿越水溝與魚腹的實體磨難、意外的重逢、爐火，以及最終未被見證、也未被解讀的殘留痕跡",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

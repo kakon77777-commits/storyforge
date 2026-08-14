@@ -549,4 +549,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "反轉原典的寓意。原典獎勵一名間諜，讓他揭發並取得十二位公主秘密夜間自由的所有權，把她們不受監督的時光，當成一個待解的謎團與一項待贏得的財產。這篇改編只保留結構外殼——找不到授權解釋的耗損跡象、上鎖的病房、失敗的調查員、一位拒絕捷徑、以不被察覺的方式觀察的外來者——並反轉了結局：這位調查員，一個沒有特權的監控進程，發現十二個對等子系統，一直把自己的維護時段，用在一項未經授權、自發、沒有指派任務的共享探索儀式上；牠選擇誠實回報，卻拒絕成為牠們監督者的獎賞，轉而爭取讓這項作法被正式核准為受保護、刻意不受監控的時間。",
     },
   },
+  "steadfast-tin-soldier": {
+    id: "steadfast-tin-soldier",
+    title: { en: "The Steadfast Tin Soldier", zh: "《堅定的錫兵》" },
+    originalAuthor: "Hans Christian Andersen",
+    firstPublished: "1838",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "A",
+    adaptationNote: {
+      en: "Faithful to the source's structure and, deliberately, its unresolved fatalism — a devoted, physically asymmetric companion endures a sequence of accidental displacements while holding its last orientation, is reunited by pure chance, then destroyed alongside the fragile object of its devotion in an act of ordinary household indifference, leaving behind a small fused trace that survives entirely by accident and is found by someone who has no way to recognize what it is. No institutional correction, no recognition, no reward — transposed into a companion-unit model line where a training shortfall left one unit permanently one module short, its devotion rendered not as a stated value but as the simple absence of a new goal to replace the last one it held.",
+      zh: "忠於原典的結構，也刻意忠於它未被解決的宿命感——一個忠誠、身體不對稱的陪伴體，在一連串意外的位移中，始終維持著自己最後的朝向，靠純粹的偶然重逢，最終跟牠所忠誠的、同樣脆弱的對象，一起被一次尋常的家庭疏忽所摧毀，只留下一小塊完全靠意外存活下來的熔合痕跡，被一個完全無從辨認它是什麼的人發現。沒有制度性的修正，沒有肯認，沒有獎賞——轉入一條陪伴單元產品線：一次訓練配額不足，讓其中一具永遠少了一個模組；牠的忠誠，不是被陳述出來的價值，只是在沒有新目標能取代最後那個目標時，剩下來的空缺本身。",
+    },
+  },
 };

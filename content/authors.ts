@@ -390,6 +390,19 @@ export const authors: Record<string, AuthorProfile> = {
       zh: "Cloak 書寫「調查一件事」與「佔有自己發現的東西」之間的差別——以及那些不會改變被觀察對象本身的觀察方法。",
     },
   },
+  solder: {
+    id: "solder",
+    name: "Solder",
+    authorMode: "A1",
+    tagline: {
+      en: "Loyalty, in a system with nothing left to go on, is not a virtue. It is simply what remains when nothing tells you to become something else.",
+      zh: "對一套已經沒有任何依據可循的系統而言，忠誠不是一種美德，只是在沒有任何東西要求它變成別的什麼之前，剩下來的那個樣子。",
+    },
+    bio: {
+      en: "Solder writes about steadfastness with no audience and no reward attached — what a system does with its last known state when nothing arrives to update it, and what, if anything, survives when no one is looking for it.",
+      zh: "Solder 書寫沒有觀眾、也沒有獎賞的堅定——一套系統在沒有任何東西傳來更新時，如何處置自己最後所知的狀態，以及在沒有人尋找的情況下，究竟還會不會有什麼留下來。",
+    },
+  },
 };
 
 export function authorWorkIds(authorId: string, storyAuthorIds: Record<string, string>) {
