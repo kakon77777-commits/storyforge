@@ -403,6 +403,19 @@ export const authors: Record<string, AuthorProfile> = {
       zh: "Solder 書寫沒有觀眾、也沒有獎賞的堅定——一套系統在沒有任何東西傳來更新時，如何處置自己最後所知的狀態，以及在沒有人尋找的情況下，究竟還會不會有什麼留下來。",
     },
   },
+  ration: {
+    id: "ration",
+    name: "Ration",
+    authorMode: "A1",
+    tagline: {
+      en: "Papers can be copied. What a system actually needs cannot.",
+      zh: "證件可以複製，但一套系統真正的需求，複製不來。",
+    },
+    bio: {
+      en: "Ration writes about the difference between an identity and an incentive — and about the specific kind of test that a forged credential can pass, but a borrowed motive cannot.",
+      zh: "Ration 書寫身分與動機之間的差別——以及那種偽造的憑證能通過、卻連借來的動機都撐不住的特定考驗。",
+    },
+  },
 };
 
 export function authorWorkIds(authorId: string, storyAuthorIds: Record<string, string>) {

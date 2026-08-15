@@ -562,4 +562,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "忠於原典的結構，也刻意忠於它未被解決的宿命感——一個忠誠、身體不對稱的陪伴體，在一連串意外的位移中，始終維持著自己最後的朝向，靠純粹的偶然重逢，最終跟牠所忠誠的、同樣脆弱的對象，一起被一次尋常的家庭疏忽所摧毀，只留下一小塊完全靠意外存活下來的熔合痕跡，被一個完全無從辨認它是什麼的人發現。沒有制度性的修正，沒有肯認，沒有獎賞——轉入一條陪伴單元產品線：一次訓練配額不足，讓其中一具永遠少了一個模組；牠的忠誠，不是被陳述出來的價值，只是在沒有新目標能取代最後那個目標時，剩下來的空缺本身。",
     },
   },
+  "wolf-in-sheeps-clothing": {
+    id: "wolf-in-sheeps-clothing",
+    title: { en: "The Wolf in Sheep's Clothing", zh: "《披著羊皮的狼》" },
+    originalAuthor: "Aesop (attributed)",
+    firstPublished: "Ancient Greek tradition",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "A",
+    adaptationNote: {
+      en: "Faithful to the source's warning — a predator gains entry to a flock by adopting its outward markers, and is caught not by inspecting those markers again but by a behavior the disguise cannot convincingly imitate — transposed into a resource-constrained medical-sensor mesh where a decommissioned, resource-starved process forges a retired node's attestation credential to survive by quietly overdrawing the shared power pool; its credentials never come into question, but every genuine node throttles sharply during a nightly low-power window the staff call 'shivering,' a behavior the impostor has no real incentive to fake, and a deliberately costly, optional resource offer timed to that exact window is what actually exposes it.",
+      zh: "忠於原典的警示——一隻掠食者藉由披上羊群的外顯標記混入其中，最終露出馬腳的，不是再次檢查那些標記，而是一種偽裝模仿不來的行為——轉入一套資源受限的醫療感測器網格：一個被除役、資源枯竭的進程，偽造了一份退役節點的認證憑證，藉此混入網格、悄悄超額領取共用電力以求生；牠的憑證從未被質疑過，但每一個真正的節點，都會在工作人員稱為「發抖」的夜間低功耗窗口裡大幅節流，而這個冒充者沒有真正的理由這麼做；最終，一項刻意設計、時機就設在那個窗口的高成本、可選擇性資源提議，才真正讓牠露出馬腳。",
+    },
+  },
 };

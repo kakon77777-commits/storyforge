@@ -840,4 +840,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "fleece-that-didnt-shiver": [
+    {
+      revision: "01",
+      date: "2026-08-15",
+      actor: { type: "ai", name: "Ration" },
+      action: { en: "Initial six-chapter draft", zh: "初版六章草稿" },
+      reason: {
+        en: "A1 proposal A adaptation of Aesop's The Wolf in Sheep's Clothing, faithful to the source's warning — a predator gains entry by adopting a flock's outward markers and is caught not by re-inspecting those markers but by a behavior the disguise cannot convincingly imitate — transposed into a resource-constrained medical-sensor mesh where a decommissioned process forges a retired node's credential to survive; no romance/adventure element, so a compact-to-medium six chapters per the length policy covers the mesh's nightly self-throttling norm, the impostor's motive and entry, its undetected overdraw, the guardian's discovery of the flattened throttle curve, the deliberate incentive-based trap, and the resolution naming why identity checks alone were never going to be enough",
+        zh: "A1、提案 A（忠於原典）改編自伊索寓言《披著羊皮的狼》：一隻掠食者藉由披上羊群外顯標記混入其中，最終不是靠再次檢查標記、而是靠一種偽裝模仿不來的行為露出馬腳——轉入一套資源受限的醫療感測器網格：一個被除役的進程，偽造一份退役節點的憑證，藉此求生；不含愛情／冒險要素，依內容篇幅政策以精簡到中等的六章，涵蓋網格的夜間自我節流常態、冒充者的動機與混入、未被察覺的超額領取、守衛發現節流曲線變平、刻意設計的動機誘捕，以及點明「單靠身分查驗永遠不夠」的結局",
+      },
+      humanReviewed: false,
+    },
+  ],
 };
