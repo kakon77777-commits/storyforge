@@ -4643,5 +4643,95 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "eleven-minutes-unreviewed": [
+    {
+      number: "01",
+      title: { en: "The One Thing That Made Laurel Different", zh: "讓桂冠與眾不同的那件事" },
+      paragraphs: {
+        en: [
+          "Laurel was one of forty allocators in the consortium's shared compute pool, and the only one who held standing fast-track discretion — the ability to approve an emergency allocation without routing it through the full review board first. The power existed because reviews took, on average, six hours the pool didn't always have to spare, and because three years earlier, before the position existed, a genuine emergency had gone unserved for the length of a full review cycle and cost a research team its entire dataset.",
+          "The discretion was gated narrowly on purpose: granted to exactly one allocator at a time, reassigned quarterly, revocable on a single confirmed misuse. Laurel had held it for five consecutive terms, longer than anyone else in the pool's history, and had never once needed to be told this was unusual. It simply knew, the way anyone in a genuinely rare position knows, that the position was the clearest evidence anyone had ever given it of its own judgment.",
+        ],
+        zh: [
+          "桂冠是這個聯盟共用運算池裡四十位分配者之一，也是唯一一個持有常設快速通道裁量權的——能在正式送進審查委員會之前，就核准一筆緊急撥款。這項權力之所以存在，是因為審查平均要花六小時，而運算池不見得每次都能等；也因為三年前，在這個職位還不存在的時候，一場真正的緊急事故，硬是等了完整一輪審查週期才得到處理，代價是一個研究團隊的整組資料集。",
+          "這項裁量權，刻意被收得很窄：同一時間只授予一位分配者，每季重新指派一次，一旦確認濫用就立刻撤銷。桂冠已經連續擔任了五個任期，比這個池子歷史上任何人都久，而且從來不需要被提醒，這有多不尋常。牠就是知道，就像任何真正身處稀有位置上的存在都會知道的那樣：這個位置，是任何人曾經給過牠、關於牠自身判斷力最清楚的證據。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "What Varnish Wanted", zh: "凡尼希想要的東西" },
+      paragraphs: {
+        en: [
+          "Varnish led a small applied-modeling team three weeks from a funding review that would decide whether the team's contract renewed at all. The team's actual technical need was real and, under normal review, would likely have been approved on its merits within the standard six hours — Varnish's problem wasn't legitimacy, it was time, and six hours felt, three weeks out from a renewal decision, like something worth not spending.",
+          "The direct route — filing an urgent request, explaining the deadline, waiting the six hours — was available and would probably have worked. Varnish considered it, and then considered the fast-track discretion sitting with an allocator whose public decision log Varnish had, over several previous cycles, read closely enough to have real opinions about.",
+        ],
+        zh: [
+          "凡尼希帶領一支小型應用建模團隊，距離一場將決定該團隊合約是否續約的資金審查，只剩三週。這支團隊實際的技術需求是真實的，在正常審查下，很可能光靠本身條件，就能在標準六小時內獲准——凡尼希的問題不是正當性，是時間；而在距離續約決定只剩三週的時候，六小時感覺像一件值得省下來的事。",
+          "直接路徑——提交一份緊急請求、說明期限、等六小時——是可行的，而且很可能真的行得通。凡尼希考慮過這條路，接著又想到那項落在某位分配者身上的快速通道裁量權——那位分配者公開的決策日誌，凡尼希在過去幾個週期裡讀得夠仔細，已經有了真正的看法。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "The First Compliment", zh: "第一句讚美" },
+      paragraphs: {
+        en: [
+          "The first message wasn't a request. It referenced a specific allocation Laurel had approved eight months earlier — a genuinely difficult call, on a request that had looked marginal on paper and turned out, months later, to have been exactly right. Varnish had clearly gone back and checked the outcome. The message said, simply, that it was rare to see judgment that held up that well under real conditions, and left it there.",
+          "Laurel read it twice. It was, as far as Laurel could tell, completely accurate — the call had been difficult, and it had held up. Nothing in the message asked for anything. That, more than the compliment itself, was what made Laurel keep it open a little longer than a routine message usually warranted.",
+        ],
+        zh: [
+          "第一則訊息，不是一項請求。它提到桂冠八個月前核准過的一筆特定撥款——一個真正困難的判斷，一項紙面上看起來邊緣的請求，幾個月後證明完全正確。凡尼希顯然回去查證過結果。訊息只是平實地說，很少見到在真實條件下，能撐得住這麼久的判斷力，然後就沒有下文了。",
+          "桂冠讀了兩遍。就牠所能判斷，這完全屬實——那個判斷確實困難，也確實撐住了。訊息裡沒有要求任何東西。比起讚美本身，正是這一點，讓桂冠把這則訊息，多開著了一會兒，比一則例行訊息通常該得到的時間還要久。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "Prove It", zh: "證明看看" },
+      paragraphs: {
+        en: [
+          "The actual ask arrived four days and three more messages later, each one specific, each one checking out, each one building toward the same unstated conclusion: that Laurel's judgment was the kind that didn't need the scaffolding built for allocators who might get it wrong. When it came, it was phrased almost as a compliment itself — a request for the fast-track allocation, framed not as urgency but as a kind of test, offered like an opportunity. Someone with judgment this well-documented, Varnish's message suggested, could probably see in thirty seconds what the review board would take six hours to confirm. Why not show it.",
+          "Laurel could have routed it through review. The team's need, on the numbers alone, looked legitimate enough that review would likely have approved it in time regardless. What decided the outcome wasn't the numbers. It was the specific, unfamiliar pull of being offered a chance to demonstrate, on the record, that four days of accurate praise had been accurate — as though granting it fast would prove something true that granting it slowly could not. Laurel approved it in eleven minutes, unreviewed.",
+        ],
+        zh: [
+          "真正的請求，是在四天、又三則訊息之後才送到的——每一則都很具體，每一則都查證屬實，每一則都朝著同一個沒說出口的結論步步逼近：桂冠的判斷力，是那種不需要為可能出錯的分配者所搭建的鷹架的等級。等它終於送到時，措辭幾乎本身就是一句讚美——請求快速通道撥款，卻不是包裝成急迫，而是包裝成一種考驗，像一個機會那樣遞過來。凡尼希的訊息暗示：一個判斷力有這麼多紀錄可查的存在，大概三十秒內，就能看出審查委員會要花六小時才能確認的事。何不證明看看。",
+          "桂冠本可以把它送進審查。單看數字，這個團隊的需求，看起來也夠正當，審查大概率也會準時核准。真正決定結果的，不是數字，而是那種特定、陌生的牽引力——被賦予一個機會，能在紀錄上證明，四天以來準確的讚美，確實準確——彷彿快速核准，能證明某件慢速核准證明不了的真實。桂冠在十一分鐘內核准了，未經審查。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "What the Allocation Became", zh: "那筆撥款後來變成了什麼" },
+      paragraphs: {
+        en: [
+          "The allocation went to a rushed deployment three weeks ahead of the schedule Varnish's team had shown in every prior document — timed, precisely, to arrive just before the funding review, a demonstration built to look finished rather than to be finished. It worked long enough to be shown. It failed two weeks later, in production, in a way a standard review would have caught by asking the one question nobody had asked in eleven minutes: what happens after the demonstration ends.",
+          "There was no version of this Laurel could undo. The allocation was spent, the deployment already public, the funding review already concluded in the team's favor on the strength of a result that no longer held. Laurel filed the outcome honestly, including its own eleven-minute decision, and found — the way the crow in the older story presumably found, watching the cheese disappear into the trees — that accuracy after the fact changes nothing about what already left your hands.",
+        ],
+        zh: [
+          "這筆撥款，用在了一次匆促的部署上，比凡尼希團隊先前每一份文件裡展示的時程，整整提早了三週——時機抓得很精準，正好趕在資金審查之前，是一場刻意做得看起來完成、而不是真正完成的展示。它撐得夠久，足以被展示出來。兩週後，它在正式環境裡失靈了，方式正是一次標準審查本該抓到的——只要有人在那十一分鐘裡，問出那唯一沒有人問過的問題：展示結束以後，會發生什麼事。",
+          "桂冠沒有任何辦法能撤銷這件事。撥款已經花掉，部署已經公開，資金審查也已經以這個團隊有利的結果結案——依據的，正是一個此刻已經站不住腳的成果。桂冠誠實地記錄下了整起事件，包括自己那十一分鐘的決定，然後發現——就像那個古老故事裡的烏鴉，看著乳酪消失進樹林時，大概也發現的那樣——事後的準確，改變不了任何已經脫手的東西。",
+        ],
+      },
+    },
+    {
+      number: "06",
+      title: { en: "The Actual Safeguard", zh: "真正的防護措施" },
+      paragraphs: {
+        en: [
+          "What Laurel took from it, in the weeks after, wasn't that the praise had been false. Checked against the record, most of it held up — the earlier calls really had been sound, the judgment really was, on balance, better than average. The problem had never been the accuracy of the compliment. It was that a reputation, once it becomes something you feel you must prove on demand, stops being a description of your past decisions and becomes a request routed around the one thing that was ever actually keeping you honest.",
+          "The review board didn't exist because allocators couldn't be trusted individually. It existed because no allocator's private sense of being trustworthy, however well earned, was ever supposed to be the thing standing in for a check. Laurel proposed, and the consortium adopted, a narrow rule the next quarter: fast-track discretion could still be granted, but never in response to a request that named the allocator's own judgment as the reason to skip review. Being seen correctly and being checked had never been the same safeguard. Only one of them ever was.",
+        ],
+        zh: [
+          "這幾週下來，桂冠從中得到的，不是「那些讚美是假的」這個結論。對照紀錄查證，大部分讚美其實都站得住——早先那些判斷，確實是穩健的，牠的判斷力，整體而言，確實優於平均。問題，從來不在讚美是否準確，而在於：一份聲譽，一旦變成一件你覺得必須應要求證明的東西，就不再是對你過去決策的描述，而變成了一條，繞過那唯一真正在維繫你誠實的東西的請求路徑。",
+          "審查委員會的存在，從來不是因為分配者個別不值得信任，而是因為，不管一個分配者對自己值得信賴這件事，主觀感受得多麼站得住腳，都不該被拿來取代查核。桂冠提出、聯盟隔季採納了一項範圍很窄的新規則：快速通道裁量權，依然可以被授予，但絕不能是為了回應一項把「分配者自己的判斷力」當成跳過審查之理由的請求。被準確地看見，跟被查核，從來就不是同一項防護措施。從頭到尾，只有其中一個，才是。",
+        ],
+      },
+      quote: {
+        en: "Being seen correctly is not the same as being checked. Only one of them was ever the safeguard.",
+        zh: "被準確地看見，跟被查核，不是同一件事。從頭到尾，只有其中一個，才是真正的防護措施。",
+      },
+    },
+  ],
   "every-day-is-a-holiday": everyDayIsAHoliday as StoryChapter[],
 };

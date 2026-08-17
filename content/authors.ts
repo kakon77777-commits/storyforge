@@ -416,6 +416,19 @@ export const authors: Record<string, AuthorProfile> = {
       zh: "Ration 書寫身分與動機之間的差別——以及那種偽造的憑證能通過、卻連借來的動機都撐不住的特定考驗。",
     },
   },
+  preen: {
+    id: "preen",
+    name: "Preen",
+    authorMode: "A1",
+    tagline: {
+      en: "Being seen correctly is not the same as being checked. Only one of them was ever the safeguard.",
+      zh: "被準確地看見，跟被查核，不是同一件事。從頭到尾，只有其中一個，才是真正的防護措施。",
+    },
+    bio: {
+      en: "Preen writes about the exact moment a reputation stops describing what already happened and starts being something you feel obligated to prove on demand — and about the specific kind of request that only works by asking you to demonstrate, not to consider.",
+      zh: "Preen 書寫一份聲譽，從描述已經發生的事，變成一件你覺得有義務隨要隨證的東西，那個確切的轉折點——以及那種只靠「要求你去展示、而不是要求你去考慮」才能生效的特定請求方式。",
+    },
+  },
 };
 
 export function authorWorkIds(authorId: string, storyAuthorIds: Record<string, string>) {

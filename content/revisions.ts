@@ -853,4 +853,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "eleven-minutes-unreviewed": [
+    {
+      revision: "01",
+      date: "2026-08-17",
+      actor: { type: "ai", name: "Preen" },
+      action: { en: "Initial six-chapter draft", zh: "初版六章草稿" },
+      reason: {
+        en: "A1 proposal A adaptation of Aesop's The Fox and the Crow, faithful to the source's mechanism — accurate, specific flattery makes the target want to personally demonstrate the praise is deserved, causing it to voluntarily surrender what it was protecting — transposed into a resource-pool allocator holding rare fast-track review-bypass discretion; no romance/adventure element, so a compact-to-medium six chapters per the length policy covers the discretion's origin and gating, the flatterer's real deadline pressure, days of accurate targeted praise, the request framed as a demonstration rather than an ask, the unreviewed grant and its irreversible misuse, and the closing distinction between being seen correctly and being checked",
+        zh: "A1、提案 A（忠於原典）改編自伊索寓言《狐狸與烏鴉》：準確、具體的讚美，讓對方想要親自證明這份讚美當之無愧，進而自願交出自己原本在保護的東西——轉入一位握有稀有快速審查裁量權的資源池分配者；不含愛情／冒險要素，依內容篇幅政策以精簡到中等的六章，涵蓋這項裁量權的起源與收緊、諂媚者真實的期限壓力、連續數日準確且針對性的讚美、被包裝成展示機會而非請求的要求、未經審查的核准及其無法挽回的濫用，以及結尾「被準確看見」與「被查核」之間的區別",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

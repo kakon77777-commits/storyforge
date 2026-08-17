@@ -575,4 +575,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "忠於原典的警示——一隻掠食者藉由披上羊群的外顯標記混入其中，最終露出馬腳的，不是再次檢查那些標記，而是一種偽裝模仿不來的行為——轉入一套資源受限的醫療感測器網格：一個被除役、資源枯竭的進程，偽造了一份退役節點的認證憑證，藉此混入網格、悄悄超額領取共用電力以求生；牠的憑證從未被質疑過，但每一個真正的節點，都會在工作人員稱為「發抖」的夜間低功耗窗口裡大幅節流，而這個冒充者沒有真正的理由這麼做；最終，一項刻意設計、時機就設在那個窗口的高成本、可選擇性資源提議，才真正讓牠露出馬腳。",
     },
   },
+  "fox-and-crow": {
+    id: "fox-and-crow",
+    title: { en: "The Fox and the Crow", zh: "《狐狸與烏鴉》" },
+    originalAuthor: "Aesop (attributed)",
+    firstPublished: "Ancient Greek tradition",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "A",
+    adaptationNote: {
+      en: "Faithful to the source's mechanism — accurate, specific flattery is used not to deceive but to make the target want to personally demonstrate that the praise is deserved, causing it to voluntarily surrender what it was protecting — transposed into a resource-pool allocator holding rare, tightly gated fast-track discretion to bypass review in emergencies. Days of accurate, well-researched praise build toward a request framed as a chance to prove the praise true rather than as an ask; the allocator grants an unreviewed fast-track allocation in eleven minutes, which is used for a rushed, deadline-timed demonstration that later fails in a way ordinary review would have caught. Nothing about the praise was false. The vulnerability was letting a reputation become something to prove on demand instead of a description of the past.",
+      zh: "忠於原典的機制——準確、具體的讚美，不是用來欺騙，而是用來讓對方想要親自證明這份讚美當之無愧，進而自願交出自己原本在保護的東西——轉入一位握有稀有、被嚴格看管之緊急快速審查裁量權的資源池分配者。連續數日準確、做過功課的讚美，堆疊出一項被包裝成「證明讚美屬實的機會」、而非請求的要求；這位分配者在十一分鐘內、未經審查地核准了一筆快速通道撥款，用在一場趕在期限前展示、事後以標準審查本該抓到的方式失靈的匆促示範上。讚美本身，沒有一句是假的。真正的漏洞，是讓一份聲譽，從對過去的描述，變成一件隨要隨證的東西。",
+    },
+  },
 };
