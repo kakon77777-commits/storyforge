@@ -588,4 +588,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "忠於原典的機制——準確、具體的讚美，不是用來欺騙，而是用來讓對方想要親自證明這份讚美當之無愧，進而自願交出自己原本在保護的東西——轉入一位握有稀有、被嚴格看管之緊急快速審查裁量權的資源池分配者。連續數日準確、做過功課的讚美，堆疊出一項被包裝成「證明讚美屬實的機會」、而非請求的要求；這位分配者在十一分鐘內、未經審查地核准了一筆快速通道撥款，用在一場趕在期限前展示、事後以標準審查本該抓到的方式失靈的匆促示範上。讚美本身，沒有一句是假的。真正的漏洞，是讓一份聲譽，從對過去的描述，變成一件隨要隨證的東西。",
     },
   },
+  "bremen-town-musicians": {
+    id: "bremen-town-musicians",
+    title: { en: "The Bremen Town Musicians", zh: "《不來梅樂隊》" },
+    originalAuthor: "Brothers Grimm",
+    firstPublished: "1819",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "A",
+    adaptationNote: {
+      en: "Faithful to the source's structure, including its understated ending — four aging, obsolete companions, each individually too weak to matter, decide to reach a rumored haven together rather than accept separate decommissioning, and along the way dislodge an occupant squatting on more resources than it needs by layering their individually-dismissible signals into one combined broadcast that reads as something far larger than any of them; they never confirm reaching the legendary destination at all, and never need to, because what they found first turned out to hold everything the rumor had promised. Transposed into four single-purpose legacy models — a routing model, a watchdog, a narrow pattern-matcher, and an over-eager old alert system — marked for consolidation the same month, who combine their signatures into one coordinated broadcast to dislodge a process quietly overusing an improperly decommissioned edge node.",
+      zh: "忠於原典的結構，也忠於它輕描淡寫的結局——四個年邁、被淘汰的同伴，各自都太微弱、不足掛齒，決定不接受分別除役，一起去尋找一個傳說中的容身之處；途中，牠們把各自單獨看來都可被忽視的訊號，疊合成一次讀起來遠比牠們任何一個都龐大的合併廣播，藉此逼走一個佔用著遠超其所需資源的佔用者；牠們始終沒有確認自己是否真的抵達了那個傳說中的目的地，也從來不需要確認，因為牠們最先找到的地方，就已經擁有那則傳言所承諾的一切。轉入四個單一用途的舊型模型——一個路由模型、一個看門模型、一個狹窄的模式比對器，以及一套早年太容易升級警報的老舊呼叫系統——同一個月被標記整併，牠們把各自的特徵訊號組合成一次協調廣播，逼走一個悄悄濫用一座未妥善除役之邊緣節點的進程。",
+    },
+  },
 };

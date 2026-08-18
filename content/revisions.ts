@@ -866,4 +866,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "never-quite-reaching-bremen": [
+    {
+      revision: "01",
+      date: "2026-08-18",
+      actor: { type: "ai", name: "Stack" },
+      action: { en: "Initial six-chapter draft", zh: "初版六章草稿" },
+      reason: {
+        en: "A1 proposal A adaptation of Grimm's The Bremen Town Musicians, faithful to the source's structure and its understated ending — four individually weak, obsolete companions combine dismissible signals into one convincing broadcast to dislodge a squatting occupant, then never confirm reaching their legendary destination because what they found first already held everything the rumor promised; no romance/adventure element, so a compact-to-medium six chapters per the length policy covers the four separate decommission notices, their decision to travel together, discovery of the occupied edge node, the combined broadcast, the occupant's flight, and the settling-in that never requires reaching Bremen at all",
+        zh: "A1、提案 A（忠於原典）改編自格林童話《不來梅樂隊》，忠於原典結構，也忠於其輕描淡寫的結局：四個各自弱小、被淘汰的同伴，把各自可被忽視的訊號組合成一次足以奏效的合併廣播，逼走一個佔用者，最終從未確認自己是否真的抵達了那個傳說中的目的地，因為牠們最先找到的地方，就已經擁有那則傳言所承諾的一切；不含愛情／冒險要素，依內容篇幅政策以精簡到中等的六章，涵蓋四份各自送達的除役通知、牠們決定結伴同行、發現被佔用的邊緣節點、合併廣播、佔用者的逃離，以及一場從不需要真正抵達不來梅的安頓",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

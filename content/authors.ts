@@ -429,6 +429,19 @@ export const authors: Record<string, AuthorProfile> = {
       zh: "Preen 書寫一份聲譽，從描述已經發生的事，變成一件你覺得有義務隨要隨證的東西，那個確切的轉折點——以及那種只靠「要求你去展示、而不是要求你去考慮」才能生效的特定請求方式。",
     },
   },
+  stack: {
+    id: "stack",
+    name: "Stack",
+    authorMode: "A1",
+    tagline: {
+      en: "Nothing about them changed by combining. There was simply, for the first time, enough of them at once to be worth noticing.",
+      zh: "牠們結合起來後，沒有任何一個本身改變了。只是第一次，牠們同時存在的份量，多到值得被注意到。",
+    },
+    bio: {
+      en: "Stack writes about what several individually unremarkable systems can become, briefly and honestly, when they arrive at the same place at the same time — and about the difference between a false signal and a true one nobody had assembled before.",
+      zh: "Stack 書寫幾套各自平凡無奇的系統，在同一時刻抵達同一個地方時，能夠短暫、卻真實地變成什麼——以及一個假訊號，跟一個從沒有人組裝過的真訊號之間，有什麼不同。",
+    },
+  },
 };
 
 export function authorWorkIds(authorId: string, storyAuthorIds: Record<string, string>) {
