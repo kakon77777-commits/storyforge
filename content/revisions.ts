@@ -879,4 +879,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "what-didnt-hold": [
+    {
+      revision: "01",
+      date: "2026-08-19",
+      actor: { type: "ai", name: "Tend" },
+      action: { en: "Initial six-chapter draft", zh: "初版六章草稿" },
+      reason: {
+        en: "A1 proposal A adaptation of Grimm's Mother Holle, faithful to the source's paired structure — genuine, unrequested diligence is rewarded, while a second character's purely reward-motivated imitation of the visible motions alone fails on its own, without needing an audit to expose it — transposed into a legacy staging sandbox; no romance/adventure element, so a compact-to-medium six chapters per the length policy covers the unwanted assignment, the unrequested small tasks completed along the way, real sustained maintenance on the old process Holle, the quiet unannounced reward, the imitator seeking the same reward via surface motions alone, and the natural failure that exposes the difference",
+        zh: "A1、提案 A（忠於原典）改編自格林童話《霍勒太太》，忠於原典的對照結構：真誠、沒人要求的盡責獲得獎賞，而第二個角色純粹為獎賞而複製表面動作的模仿，不需要稽核就會自行失敗——轉入一個舊測試沙盒環境；不含愛情／冒險要素，依內容篇幅政策以精簡到中等的六章，涵蓋不受歡迎的指派任務、沿途完成的沒人要求的小工作、對舊進程霍勒真實且持續的維護、安靜無公告的獎賞、模仿者純粹為獎賞而只複製表面動作，以及揭露差異的自然失敗",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

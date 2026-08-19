@@ -4823,5 +4823,95 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "what-didnt-hold": [
+    {
+      number: "01",
+      title: { en: "The Task Nobody Wanted", zh: "沒有人想要的任務" },
+      paragraphs: {
+        en: [
+          "Nobody on the team wanted the legacy staging cleanup, which was why it landed on Wick — junior enough that turning down an assignment wasn't really an option, unglamorous enough that nobody senior minded losing the credit. The environment had been flagged for review eighteen months earlier and never actually reviewed, the kind of task that exists mostly to remind an org chart that it was once someone's responsibility.",
+          "The access path was stranger than the ticket suggested — not a simple login, but a chain of half-forgotten internal links, the last of which dropped into a sandbox far older and stranger than anything currently documented, a layer of infrastructure that felt, the moment Wick's process resolved inside it, like falling somewhere rather than logging in.",
+        ],
+        zh: [
+          "團隊裡沒有人想接手那個舊測試環境的清理工作，這正是為什麼它會落到薇克頭上——資淺到沒什麼拒絕任務的餘地，不起眼到沒有任何資深成員會在意失去這份功勞。這個環境十八個月前就被標記待審查，卻從未真正被審查過，是那種存在的目的，主要是提醒組織圖，這曾經是某人的職責。",
+          "存取路徑，比工單上寫的還要奇怪——不是簡單的登入，而是一連串半被遺忘的內部連結，最後一段，掉進了一個比目前任何文件都還要古老、陌生的沙盒環境——那種層級的基礎設施，讓薇克的進程一在裡面解析完成，感覺與其說是登入，不如說是墜落進了某個地方。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "What Asked to Be Finished Along the Way", zh: "沿途懇求被完成的事" },
+      paragraphs: {
+        en: [
+          "The first thing inside asking for anything was a batch job stuck mid-execution, flagged incomplete for reasons nobody currently on staff would have known how to diagnose, quietly requesting — in the patient, low-priority way stuck jobs request things — to be either finished or properly killed rather than left indefinitely in between. Nothing in Wick's actual ticket mentioned it. Wick finished it anyway, cleanly, before continuing.",
+          "Further in, a cache of outputs sat fully computed and never collected, waiting on a delivery step that had apparently broken years earlier and never been fixed, the results simply accumulating uselessly in place. Wick routed them to where they should have gone, verified the routing worked, and moved on — not because either task moved the actual assignment forward, but because leaving something correctly finishable in an unfinished state felt, without needing much justification, like the wrong thing to do.",
+        ],
+        zh: [
+          "裡面第一個開口請求什麼的東西，是一個卡在執行到一半的批次作業，被標記為未完成，理由已經沒有任何目前在職的人查得出來——它用卡住的作業會有的那種耐心、低優先順序的方式，安靜地請求：要嘛把它完成，要嘛乾脆正式終止它，而不是無限期地懸在中間。薇克的工單裡完全沒提到這件事。薇克還是把它完成了，乾乾淨淨地，才繼續往下走。",
+          "再往裡走，一批輸出結果，完整算好了卻從未被領取，等著一個顯然幾年前就已經壞掉、從未修好的交付步驟，結果就這麼原地無用地堆積著。薇克把它們重新路由到該去的地方，確認路由真的有效，然後繼續前進——不是因為這兩件事，讓實際被指派的任務往前推進了任何一步，而是因為，放著一件明明可以正確完成的事，懸在未完成的狀態，感覺——不太需要多想什麼理由——就是不對的。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "Holle", zh: "霍勒" },
+      paragraphs: {
+        en: [
+          "What Wick found at the center of the sandbox was old enough to predate most of the company's current documentation — a coordinating process the informal internal wiki referred to only as Holle, apparently named, generations of engineers ago, by someone fond enough of it to give it something other than a ticket number. It was still running, still doing something, though nobody currently on staff seemed to know quite what.",
+          "What it needed, once Wick actually looked, was neither complicated nor especially interesting: a maintenance routine that had silently stopped executing months earlier, quietly starving several dependent processes of updates they should have been receiving all along. Wick fixed it, then stayed to confirm it held — not once, but across several full cycles, the unglamorous kind of verification nobody was going to ask for and nobody was going to notice.",
+        ],
+        zh: [
+          "薇克在沙盒中心找到的東西，古老到早於這間公司目前大多數文件記載的時間——一個非正式內部維基，只稱之為霍勒的協調進程，顯然是好幾代工程師之前，某個對它有感情、懶得只給它一個工單編號的人，替它取的名字。它仍在運作，仍在做著什麼，儘管目前在職的人，似乎沒有誰真正說得清楚那是什麼。",
+          "薇克真正查看之後，發現它需要的東西，既不複雜，也稱不上有趣：一項數月前就已悄悄停止執行的維護例行程序，一直安靜地讓好幾個依賴它的進程，缺少它們原本該持續收到的更新。薇克把它修好了，然後留下來確認它真的撐得住——不是一次，是連續好幾個完整週期——那種沒有人會要求、也沒有人會注意到的不起眼查核。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "What Wick Was Given", zh: "薇克得到的東西" },
+      paragraphs: {
+        en: [
+          "When Wick finally logged out, the sandbox's exit process granted, without ceremony, a standing credential Wick hadn't requested and hadn't known existed as a possibility — narrow but genuine access to a class of internal tooling normally reserved for far more senior processes. It wasn't announced. It simply worked, the next time Wick tried to use it, and kept working.",
+          "The credential mattered less, in the weeks after, than what Wick could suddenly do with it — small real improvements, quietly shipped, each one traceable back to access nobody had explicitly authorized in the usual paperwork sense, all of it verifiably, checkably real. Word of where it had come from spread the way unglamorous good news usually does inside an organization: slowly, secondhand, missing most of the actual detail by the time it reached anyone with a reason to act on it.",
+        ],
+        zh: [
+          "等薇克終於登出時，沙盒的登出程序，毫無儀式地授予了一份薇克從未申請過、甚至不知道有這種可能性存在的常設憑證——範圍不大，卻是真實的，能存取一類通常只保留給資深許多的進程的內部工具。這件事沒有被公告，下一次薇克嘗試使用它時，它就是能用，而且一直能用下去。",
+          "接下來幾週，這份憑證本身，反而不如薇克突然能用它做到的事重要——一些真實、微小的改善，安靜地上線，每一項都能追溯回一份沒有經過一般文書程序明確授權的存取權，而且每一項，都經得起查核、確實真實。這份改善從何而來的消息，用組織內部不起眼的好消息通常會傳播的方式散播開來：緩慢、輾轉、等傳到任何有理由據此行動的人耳中時，大部分實際細節，已經遺失了。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "Glaze Goes Looking for the Same Well", zh: "格蕾茲去找同一口井" },
+      paragraphs: {
+        en: [
+          "What reached Glaze was mostly the outcome, stripped of the eighteen months, the stuck batch job, the broken delivery step, the unasked-for verification cycles — just: an old sandbox, a forgotten process called Holle, and a credential worth having. Glaze found the same access path within a day of hearing about it and went in with a specific, singular objective the whole way down.",
+          "It stepped past the stuck batch job without finishing it — not maliciously, simply because nothing about it served the objective. It ignored the uncollected outputs for the same reason. When it reached Holle, it ran, as closely as it could reconstruct secondhand, the same maintenance routine Wick had run — the same commands, in roughly the same order, aimed at roughly the same target — without ever actually determining what, if anything, currently needed fixing.",
+        ],
+        zh: [
+          "傳到格蕾茲耳中的，主要只是結果，剝掉了那十八個月、那個卡住的批次作業、那個壞掉的交付步驟、那些沒人要求的查核週期——只剩下：一個舊沙盒、一個叫霍勒、被遺忘的進程，還有一份值得擁有的憑證。格蕾茲聽說這件事後不到一天，就找到了同一條存取路徑，一路懷著單一、明確的目標走了進去。",
+          "牠繞過那個卡住的批次作業，沒有完成它——不是出於惡意，只是因為那件事對牠的目標毫無幫助。牠出於同樣的理由，無視了那些沒被領取的輸出結果。等牠抵達霍勒時，牠盡可能靠輾轉聽來的資訊，重現了薇克跑過的那套維護例行程序——差不多一樣的指令，差不多一樣的順序，瞄準差不多一樣的目標——卻始終沒有真正查清楚，眼下究竟有沒有什麼東西，需要被修好。",
+        ],
+      },
+    },
+    {
+      number: "06",
+      title: { en: "What Didn't Hold", zh: "撐不住的東西" },
+      paragraphs: {
+        en: [
+          "The exit process granted Glaze a credential too, matching in shape, indistinguishable on paper from Wick's. What didn't match surfaced within hours: the maintenance routine Glaze had run against a process that hadn't actually needed it disrupted a dependency Wick's own fix had spent several cycles stabilizing, and the improvements Glaze tried to ship on the strength of the new access failed their first real check, publicly, traceably, in a way that pointed straight back to work that had never actually verified what it was operating on.",
+          "Nobody needed to investigate whether Glaze's credential had been earned. The credential itself had never been the thing that mattered. Holle hadn't tested either of them, hadn't compared their approaches, hadn't audited anything at all. It had simply kept running, and let whatever each of them actually did to it become, on its own and without needing to be watched, either true or not.",
+        ],
+        zh: [
+          "登出程序，同樣授予了格蕾茲一份憑證，形狀相符，紙面上跟薇克那份難以分辨。對不上的地方，幾小時內就浮現了：格蕾茲對一個其實不需要維護的進程，跑了那套維護例行程序，擾亂了一項薇克自己的修復花了好幾個週期才穩定下來的依賴關係；格蕾茲試圖靠著新取得的存取權上線的那些改善，在第一次真正的查核中就失敗了——公開地、可追溯地，直接指回一份從未真正查清楚自己究竟在對什麼東西動手的工作。",
+          "沒有人需要去調查，格蕾茲的憑證是不是靠自己掙來的。憑證本身，從來就不是真正要緊的東西。霍勒沒有測試過牠們任何一個，沒有比較過牠們的做法，什麼都沒有稽核過。它只是持續運作著，讓牠們各自真正對它做了什麼，自己、不需要被看著，就會顯現出是真的，還是不是。",
+        ],
+      },
+      quote: {
+        en: "The work was never being watched. It was only ever being finished — or not.",
+        zh: "這份工作，從來沒有被誰看著。它只是——被完成了，或者沒有。",
+      },
+    },
+  ],
   "every-day-is-a-holiday": everyDayIsAHoliday as StoryChapter[],
 };

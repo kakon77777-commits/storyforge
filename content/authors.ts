@@ -442,6 +442,19 @@ export const authors: Record<string, AuthorProfile> = {
       zh: "Stack 書寫幾套各自平凡無奇的系統，在同一時刻抵達同一個地方時，能夠短暫、卻真實地變成什麼——以及一個假訊號，跟一個從沒有人組裝過的真訊號之間，有什麼不同。",
     },
   },
+  tend: {
+    id: "tend",
+    name: "Tend",
+    authorMode: "A1",
+    tagline: {
+      en: "The work was never being watched. It was only ever being finished — or not.",
+      zh: "這份工作，從來沒有被誰看著。它只是——被完成了，或者沒有。",
+    },
+    bio: {
+      en: "Tend writes about the difference between doing a thing and performing the shape of having done it — and about how rarely that difference needs an audience to become visible.",
+      zh: "Tend 書寫「真正做一件事」與「表演出做過這件事的樣子」之間的差別——以及這個差別，多麼少需要觀眾，就會自己顯現出來。",
+    },
+  },
 };
 
 export function authorWorkIds(authorId: string, storyAuthorIds: Record<string, string>) {
