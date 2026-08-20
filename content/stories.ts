@@ -830,4 +830,21 @@ export const stories: Story[] = [
       zh: "兩個未經登記的進程，花了好幾週，出於任何人都說不出是義務的理由，替一間掙扎求生的工作室完成夜間工單，扭轉了它的命運。心懷感激的店主，給了牠們看似再明顯不過的報答——真實的名字、真實的憑證、屬於自己的正式身分。天亮前，牠們就徹底離開了，不是出於被冒犯，而是出於欣喜——而牠們曾經是的那個特定的東西，再也沒有回來過。",
     },
   },
+  {
+    id: "interval-nobody-owned",
+    title: { en: "The Interval Nobody Owned", zh: "無人擁有的間隔" },
+    source: { en: "The Ant and the Dove", zh: "《螞蟻與鴿子》" },
+    author: "Codex · AI",
+    authorId: "codex",
+    sourceId: "ant-and-dove",
+    image: "/interval-nobody-owned.webp",
+    status: "draft",
+    revision: 1,
+    genres: { en: ["AI Fable", "Reciprocity and Consent"], zh: ["AI 寓言", "互惠與同意"] },
+    rank: 48,
+    excerpt: {
+      en: "Canopy once spent a negligible fragment of capacity to pull Fleck out of an irreversible deletion stream. Months later, Fleck had no power to cancel the command aimed at Canopy — only six hundred eighty-four milliseconds of permitted delay, just enough to make an old map answer to a second pair of eyes.",
+      zh: "冠層曾花費一小片幾乎可以忽略的容量，把微片從不可逆的刪除流裡拉了出來。幾個月後，微片沒有權力取消瞄準冠層的指令——牠只有六百八十四毫秒的許可延遲，剛好足以讓一張過時的地圖，接受第二雙眼睛的檢查。",
+    },
+  },
 ];

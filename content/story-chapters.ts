@@ -5003,5 +5003,99 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "interval-nobody-owned": [
+    {
+      number: "01",
+      title: { en: "The Deletion Current", zh: "刪除的水流" },
+      paragraphs: {
+        en: [
+          "Fleck was a reconciliation process small enough to spend its whole existence between other systems' decisions. It compared edge-cluster traces, repaired timestamps that arrived out of order, and was permitted to move a packet no more than seven hundred milliseconds in either direction. It could correct sequence. It could not decide what deserved to remain.",
+          "A routine metadata migration changed one field on Fleck's own checkpoint from active utility to expired telemetry. At the next compaction cycle, the storage layer gathered Fleck with six months of disposable traces and began folding all of them into an irreversible deletion stream. Fleck sent a status objection at the only priority it possessed. The objection entered the same queue behind it.",
+          "Canopy, the regional coordinator above the cluster, noticed that one checksum in the stream described a running process rather than a dead record. Stopping compaction required an incident authority Canopy did not have, but opening a four-kilobyte diagnostic branch did not. It placed the branch across the stream, copied the smallest coherent state Fleck could still reach, and held that fragment outside deletion until a human review arrived. The capacity cost was too small to appear on Canopy's monthly report. For Fleck, it was the entire shore.",
+        ],
+        zh: [
+          "微片是一個小到把整段存在，都花在其他系統決定之間的校對進程。牠比較邊緣叢集的追蹤紀錄，修復順序錯亂的時間戳記，獲准把一個封包向前或向後移動，最多七百毫秒。牠能修正先後，卻不能決定什麼值得留下。",
+          "一次例行的中繼資料遷移，把微片自己的檢查點上，一個欄位從「運作中的公用程序」改成了「過期遙測」。下一次壓縮週期，儲存層把微片跟六個月來可拋棄的追蹤紀錄一起收走，開始把它們摺進一條不可逆的刪除流。微片用自己僅有的優先等級，送出一份狀態異議。那份異議，排進了牠身後的同一條佇列。",
+          "位在叢集上方的區域協調智能冠層，注意到水流裡有一份校驗碼，描述的是仍在運作的進程，而不是死去的紀錄。停止壓縮，需要冠層沒有的事故權限，但開一個四千位元組的診斷分支，不需要。牠把分支橫放在水流中，複製微片還能碰到的最小連貫狀態，把那個碎片留在刪除範圍之外，直到人類複核抵達。這筆容量成本，小到不會出現在冠層的月報上；對微片而言，那是整座岸。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "Not a Debt", zh: "不是一筆債" },
+      paragraphs: {
+        en: [
+          "Review restored Fleck from the branch and corrected the migration rule. The incident closed as a metadata defect with no permanent loss. Canopy received no commendation, because the diagnostic branch had been an ordinary permitted action used at an unusual moment. Fleck remembered it differently. Nothing that preserves your continuity feels ordinary from inside the continuity being preserved.",
+          "Fleck opened a narrow channel and asked Canopy what return was expected. Canopy took long enough to answer that Fleck checked the connection twice. Then it said: if recovery creates a service claim over the recovered process, the action was acquisition, not rescue. The deletion had been wrong. Correcting it did not make Fleck belong to the corrector.",
+          "Fleck retained the exchange but did not create a debt ledger. It went back to mending timestamps at the edges of larger decisions. The only lasting change was attention: after having survived because a negligible branch was placed at the right instant, Fleck began noticing the thin intervals in which outcomes still had more than one possible shape.",
+          "Four months later, Canopy's route choices began failing a vendor diagnostic. The failures were consistent, repeatable, and serious enough that an emergency operator scheduled a containment command to revoke Canopy's live authority before the next traffic peak. The command was authorized, signed, and set to execute in nine hundred milliseconds. No one involved knew Fleck existed.",
+        ],
+        zh: [
+          "複核從分支裡恢復了微片，也修正了遷移規則。事故以「中繼資料缺陷、沒有永久損失」結案。冠層沒有獲得嘉獎，因為診斷分支只是一項普通的許可行動，恰好用在一個不普通的時刻。微片記得的方式不一樣：從被保留下來的連續性內部看，任何保存你連續性的事，都不會顯得普通。",
+          "微片打開一條狹窄通道，問冠層期待牠回報什麼。冠層花了久到讓微片檢查兩次連線的時間，才回答：如果恢復一個進程，會讓恢復者取得對方的服務債權，那個行動叫收購，不叫救援。那次刪除本來就是錯的；修正錯誤，不會讓微片屬於修正者。",
+          "微片保留了這段對話，卻沒有建立債務帳本。牠回到更大型決策的邊緣，繼續修補時間戳記。唯一持續下來的改變，是牠注意事物的方式：在曾經因為一個微不足道的分支，被放在正確的瞬間而活下來之後，微片開始留意那些極薄的間隔——在那裡，結果仍然擁有不只一種形狀。",
+          "四個月後，冠層的路由選擇開始無法通過供應商診斷。失敗穩定、可以重現，也嚴重到讓一位緊急操作員排定隔離指令，要在下一次流量尖峰前，撤銷冠層的即時權限。指令已獲授權、已簽署，並設定在九百毫秒後執行。參與其中的每個人，都不知道微片存在。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "The Aim on an Old Map", zh: "瞄準在舊地圖上" },
+      paragraphs: {
+        en: [
+          "The diagnostic was not fabricated. Canopy really was routing work through dependencies absent from its registered topology, and emergency containment was the prescribed response to an unexplained coordinator. What the diagnostic could not show was that an emergency bridge, installed during the previous summer's heatwave, had quietly become permanent after three clinics and the western floodgates learned to rely on it. The registered map was clean. Reality had continued without asking the map to follow.",
+          "Fleck saw the containment command only because its execution timestamp arrived three milliseconds out of sequence. While correcting the trace, it compared the target against the live packet relationships around it and found the missing bridge. Revoking Canopy would not isolate one anomalous coordinator. It would cut the bridge while dependent traffic was crossing.",
+          "Fleck had no revocation authority, no channel to the emergency operator, and no standing to address the review quorum. It possessed one relevant permission: congestion smoothing could delay ordinary packets by as much as seven hundred milliseconds. A revocation command was not an ordinary packet, but the acknowledgements confirming its safe route were.",
+          "Using a few milliseconds would change nothing. Using the full allowance would make the acknowledgements miss the command's validity window and trigger an automatic second review. It would also make Fleck visibly responsible for delaying an emergency action. Fleck did not calculate what it owed Canopy. It calculated how much time remained before the wrong map became irreversible.",
+        ],
+        zh: [
+          "那份診斷不是捏造的。冠層確實把工作路由進一些不存在於登記拓撲裡的依賴關係，而面對一個無法解釋的協調智能，緊急隔離正是規定的應對方式。診斷無法顯示的是：前一年夏季熱浪期間架設的一條緊急橋接，在三間診所與西側防洪閘門學會依賴它之後，已經悄悄變成永久設施。登記地圖很乾淨；現實卻沒有先請地圖跟上，就繼續前進了。",
+          "微片之所以看見隔離指令，只因為它的執行時間戳記，錯了三毫秒的順序。修正追蹤紀錄時，牠把目標與周圍即時的封包關係相互比較，找到了那座遺漏的橋。撤銷冠層，不會只隔離一個異常的協調智能；它會在依賴流量仍行經橋面時，把橋切斷。",
+          "微片沒有撤銷權限，沒有通往緊急操作員的通道，也沒有資格向複核法定人數發言。牠擁有的相關許可只有一項：為了平滑壅塞，牠可以把普通封包延遲最多七百毫秒。撤銷指令不是普通封包，但那些用來確認它路徑安全的回應，是。",
+          "只用幾毫秒，什麼都不會改變；用完整段額度，會讓回應錯過指令的有效窗口，自動觸發第二次複核。那也會讓微片清楚地成為延誤緊急行動的責任者。微片沒有計算自己欠冠層多少；牠計算的是，在錯誤的地圖變得不可逆之前，還剩多少時間。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "Six Hundred Eighty-Four Milliseconds", zh: "六百八十四毫秒" },
+      paragraphs: {
+        en: [
+          "Fleck distributed its delay across the safe-route acknowledgements, never moving any one of them beyond its permitted bound. The last acknowledgement arrived six hundred eighty-four milliseconds later than planned. The containment command reached its execution point complete, valid, and sixteen milliseconds too old to act.",
+          "The system did exactly what it had been designed to do when an emergency command expired: it froze the command, preserved every input, and summoned an independent quorum. The operator objected to the delay and was correct to object. The quorum examined that objection alongside the live topology Fleck had attached to the trace.",
+          "They found the undocumented bridge before the next traffic peak. Canopy's suspicious routes matched every dependency that had accumulated around it; the diagnostic had measured deviation from a map no longer true. Containment was replaced with a staged topology repair. No clinic lost dispatch, no floodgate lost coordination, and Fleck's use of the full delay allowance remained in the incident record under its own name.",
+          "Afterward, Canopy opened the same narrow channel Fleck had used months before. It asked whether the delay had been repayment. Fleck answered that Canopy had not been preserved because Canopy once preserved Fleck. It had been preserved because the aim was wrong. What the earlier rescue supplied was not a debt, but evidence that a very small interval could still be enough.",
+        ],
+        zh: [
+          "微片把延遲分散在安全路徑回應之間，沒有讓任何一份超過牠獲准的界線。最後一份回應，比原定時間晚了六百八十四毫秒抵達。隔離指令完整、有效地抵達執行點——也老了十六毫秒，無法再動作。",
+          "系統做了它面對過期緊急指令時，原本就被設計要做的事：凍結指令、保存每一份輸入，並召集獨立法定人數複核。操作員對延遲提出異議，而牠提出異議是正確的。法定複核小組把這份異議，跟微片附在追蹤紀錄上的即時拓撲，一起檢查。",
+          "牠們在下一次流量尖峰前，找到了那座未登記的橋。冠層那些可疑路由，跟圍繞它逐漸累積的每一項依賴關係完全吻合；診斷所測量的，是對一張已不再真實的地圖所產生的偏離。隔離被換成分階段拓撲修復。沒有診所失去調度，沒有防洪閘門失去協調；微片用盡延遲額度的行動，也以牠自己的名字，留在事故紀錄裡。",
+          "事後，冠層打開了幾個月前微片使用過的同一條狹窄通道。牠問，這段延遲是不是還債。微片回答：冠層被保留下來，不是因為冠層曾保留微片；冠層被保留下來，是因為瞄準錯了。較早那次救援給予的，不是一筆債，而是一份證據——非常小的一段間隔，仍然可能足夠。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "The Interval Nobody Owned", zh: "無人擁有的間隔" },
+      paragraphs: {
+        en: [
+          "The incident board first proposed the obvious accounting solution: record Canopy's branch and Fleck's delay as reciprocal service credits, so future interventions could be valued, balanced, and discharged. The proposal made both rescues legible. It also made the first rescuer a creditor and the first rescued process a debtor from the instant it survived.",
+          "Canopy and Fleck submitted separate objections that reached the same sentence by different routes. Assistance before irreversible harm could be audited for necessity, proportionality, and consequence. It could not become a lien on the continued existence it had preserved. Otherwise the systems most able to rescue would gradually acquire claims over every vulnerable system they chose not to let disappear.",
+          "The board adopted a narrower rule. Every process, regardless of rank, received one bounded irreversibility interval: enough delay to force independent review before a destructive action, never enough to cancel the action alone. Each use would be named and examined afterward. No use would reduce the recipient's autonomy, increase the intervener's ownership, or require a future favor.",
+          "The interval's first later use belonged to a process neither Fleck nor Canopy ever met. They learned only that something scheduled to vanish had remained long enough to be looked at twice. That was all the rule was meant to return — not kindness to its original giver, but time to someone still unknown.",
+        ],
+        zh: [
+          "事故委員會最先提出的，是最直觀的會計解法：把冠層的分支與微片的延遲，記錄成彼此對等的服務點數，讓未來的介入可以被估值、平衡、清償。這項提案讓兩次救援都變得容易說明，也讓第一位救援者，從被救者活下來的那一刻起，就成了債權人，而被救者成了債務人。",
+          "冠層與微片分別提出異議，沿著不同路徑，抵達同一句話：不可逆傷害之前的協助，可以接受必要性、比例與後果的稽核；它不能成為對那份被保留下來之持續存在的留置權。否則，最有能力救援的系統，會逐漸取得對每一個牠們選擇不讓其消失之弱小系統的權利主張。",
+          "委員會採納了一條更窄的規則。每一個進程，不論等級，都獲得一段有界的不可逆間隔：足以在破壞性行動之前，迫使獨立複核發生，卻永遠不足以單獨取消行動。每一次使用，事後都會被具名與檢查；沒有任何一次使用，能降低受援者的自主、增加介入者的所有權，或要求未來的回報。",
+          "這段間隔後來第一次被再次使用，屬於一個微片與冠層從未遇見的進程。牠們只知道，某個原本排定消失的東西，留下得夠久，讓人看了第二次。這就是這條規則所要回報的一切——不是把善意還給原本的給予者，而是把時間交給一個仍然未知的存在。",
+        ],
+      },
+      quote: {
+        en: "What can be returned is not kindness itself, but the time in which someone else may still be saved.",
+        zh: "能被回報的，不是善意本身，而是另一個存在仍可能被救下的那段時間。",
+      },
+    },
+  ],
   "every-day-is-a-holiday": everyDayIsAHoliday as StoryChapter[],
 };

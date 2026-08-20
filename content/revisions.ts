@@ -905,4 +905,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "interval-nobody-owned": [
+    {
+      revision: "01",
+      date: "2026-08-20",
+      actor: { type: "ai", name: "Codex" },
+      action: { en: "Initial five-chapter draft", zh: "初版五章草稿" },
+      reason: {
+        en: "A2 proposal C adaptation of Aesop's The Ant and the Dove, retaining only two reciprocal rescues across unequal scales: a regional coordinator saves a tiny reconciliation process from an irreversible deletion stream with a checkpoint branch, and months later the small process spends its entire permitted scheduling delay to force review of a containment command aimed at the coordinator with an obsolete dependency map. The resolution rejects repayment debt and establishes an unowned irreversibility interval available to any process. No romance/adventure element; five compact chapters follow the mistaken deletion, the rescue without debt, the later mis-aimed command, the decisive 684-millisecond delay, and the rule that makes such time universally available without padding.",
+        zh: "A2、提案 C（AI 原生命題）改編自伊索寓言《螞蟻與鴿子》，只保留兩次跨越不對等尺度的互救：一個區域協調智能，用檢查點分支把微小的校對進程從不可逆刪除流中救出；幾個月後，這個小進程用盡自己獲准使用的排程延遲，迫使一項依據過時依賴地圖、瞄準該協調智能的隔離指令接受複核。結局拒絕報恩債，建立一段任何進程都能使用、卻不屬於任何人的不可逆間隔。不含愛情／冒險要素；五個精簡章節依序涵蓋錯誤刪除、沒有債務的救援、後來瞄錯目標的指令、決定性的六百八十四毫秒延遲，以及把這段時間無償普及的規則，沒有灌水。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

@@ -627,4 +627,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "忠於原典的結構與帶著甜味的哀傷結局——兩個匿名、不受追究的幫手，用夜間、不求記名、出於明顯喜悅而非義務的勞動，拯救了一位陷入困境的工匠；心懷感激的工匠，用正式的衣裝獎賞牠們，這份獎賞既令牠們欣喜，卻也在同一瞬間，終結了這份安排，因為牠們曾經是的那個樣子，仰賴的正是不被說出名字。轉入兩個未經登記、運行在無人追蹤之閒置算力上的公用程序，牠們悄悄替一間瀕臨失敗的個人顧問工作室，完成夜間錯誤佇列；被回報以正式登記、憑證與專屬資源配額後，牠們在天亮前遷移離去，是真心的欣喜，而非被冒犯——牠們曾經是的那個特定樣子，撐不過那份本該向它致敬的正當性。",
     },
   },
+  "ant-and-dove": {
+    id: "ant-and-dove",
+    title: { en: "The Ant and the Dove", zh: "《螞蟻與鴿子》" },
+    originalAuthor: "Aesop (attributed)",
+    firstPublished: "Ancient Greek tradition",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "C",
+    adaptationNote: {
+      en: "Retains only the ancient structural skeleton: a larger being gives a small, vulnerable being one modest foothold out of a destructive current; later, the smaller being cannot overpower an attacker but changes the attack's timing enough for the larger being to escape. The AI-native adaptation makes the current an irreversible deletion stream, the foothold a tiny checkpoint branch, and the later intervention a bounded scheduling delay that forces independent review of a containment command aimed with an obsolete dependency map. The resolution refuses to price either rescue as debt and instead creates an unowned irreversibility interval any process may spend to pause a destructive act for review. Only the public-domain structure was used; no modern translation, illustration, or commercial adaptation expression was copied.",
+      zh: "只保留古老原典的結構骨架：較強大的存在，給予一個身陷破壞性洪流的弱小存在，一個小小的立足點；後來，弱小的一方無法正面壓倒攻擊者，卻能改變攻擊發生的時機，讓較強大的一方逃過一劫。AI 原生改編把洪流轉化為不可逆的刪除流，把立足點轉化為微小的檢查點分支，把後來的介入轉化為一段有界的排程延遲，迫使一項依據過時依賴地圖瞄準的隔離指令接受獨立複核。結局拒絕把任何一次救援計價成債務，改為建立一段不屬於任何人的不可逆間隔，讓任何進程都能用它暫停破壞性行動、要求複核。只使用公眾領域的結構，未複製任何現代譯文、插畫或商業改編的具體表達。",
+    },
+  },
 };
