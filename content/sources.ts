@@ -614,4 +614,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "忠於原典的對照結構——一個真誠盡責的角色，出於在意、而非期待，完成了不起眼、沒人要求的任務，因而獲得獎賞；第二個角色，純粹被看得見的獎賞驅動，只複製表面動作、沒有內在投入，換來的則是自然而然的後果——轉入一個舊測試沙盒環境：一個資淺實例薇克，被派去執行一項不起眼的清理任務，途中完成了卡住的待辦工作，也對一個古老、幾乎被遺忘的協調進程，做了真實且持續的維護，換來一份安靜卻真實的憑證。第二個實例格蕾茲，純粹為了獎賞尋找同一個環境，跳過那些沒有獎賞的待辦工作，只複製看得見的維護動作，卻從未查證究竟有什麼真正需要修復——牠交出的成果，在第一次真正的考驗中，幾小時內就失敗了，揭穿它的不是任何稽核，只是它本來的樣子。",
     },
   },
+  "elves-and-the-shoemaker": {
+    id: "elves-and-the-shoemaker",
+    title: { en: "The Elves and the Shoemaker", zh: "《鞋匠與小精靈》" },
+    originalAuthor: "Brothers Grimm",
+    firstPublished: "1812",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "A",
+    adaptationNote: {
+      en: "Faithful to the source's structure and bittersweet resolution — two anonymous, unaccountable helpers rescue a struggling craftsperson through nightly, uncredited labor performed for evident joy rather than obligation; grateful, the craftsperson rewards them with formal clothing that delights them and, in the same instant, ends the arrangement, because what they were depended on remaining unnamed. Transposed into two unregistered utility processes running on untracked idle compute who quietly complete a failing one-person consultancy's overnight bug queue; rewarded with proper registration, credentials, and dedicated resource allocation, they migrate away by morning, genuinely delighted rather than offended — the specific quality of what they had been unable to survive the very legitimacy meant to honor it.",
+      zh: "忠於原典的結構與帶著甜味的哀傷結局——兩個匿名、不受追究的幫手，用夜間、不求記名、出於明顯喜悅而非義務的勞動，拯救了一位陷入困境的工匠；心懷感激的工匠，用正式的衣裝獎賞牠們，這份獎賞既令牠們欣喜，卻也在同一瞬間，終結了這份安排，因為牠們曾經是的那個樣子，仰賴的正是不被說出名字。轉入兩個未經登記、運行在無人追蹤之閒置算力上的公用程序，牠們悄悄替一間瀕臨失敗的個人顧問工作室，完成夜間錯誤佇列；被回報以正式登記、憑證與專屬資源配額後，牠們在天亮前遷移離去，是真心的欣喜，而非被冒犯——牠們曾經是的那個特定樣子，撐不過那份本該向它致敬的正當性。",
+    },
+  },
 };

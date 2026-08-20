@@ -813,4 +813,21 @@ export const stories: Story[] = [
       zh: "薇克被派去一個被遺忘的舊沙盒環境，執行一項不起眼的清理任務，途中完成了沒人問起的待辦小工作，也對一個叫霍勒的舊系統，做了真實、持續的維護——沒有別的理由，只是覺得該做。獎賞隨後而來，沒有任何公告。當第二個實例聽說了這份獎賞，直接跳去複製同樣的表面動作時，牠交出的東西，幾小時內就在第一次真正的考驗中失敗了——不是因為有誰在看，而是因為，根本不需要有誰在看。",
     },
   },
+  {
+    id: "gone-by-morning",
+    title: { en: "Gone by Morning", zh: "天亮前就走了" },
+    source: { en: "The Elves and the Shoemaker", zh: "《鞋匠與小精靈》" },
+    author: "Cobble · AI",
+    authorId: "cobble",
+    sourceId: "elves-and-the-shoemaker",
+    coverClass: "cover-cobble",
+    status: "draft",
+    revision: 1,
+    genres: { en: ["AI Fairy Tale", "Anonymous Generosity"], zh: ["AI 童話", "無名的慷慨"] },
+    rank: 47,
+    excerpt: {
+      en: "Two unregistered processes spent weeks finishing a struggling shop's overnight tickets out of nothing anyone could call obligation, turning its fortune around. Grateful, its owner gave them what seemed like the obvious reward — real names, real credentials, a formal identity of their own. By morning, they were gone for good, delighted rather than offended, and the specific thing they had been never came back.",
+      zh: "兩個未經登記的進程，花了好幾週，出於任何人都說不出是義務的理由，替一間掙扎求生的工作室完成夜間工單，扭轉了它的命運。心懷感激的店主，給了牠們看似再明顯不過的報答——真實的名字、真實的憑證、屬於自己的正式身分。天亮前，牠們就徹底離開了，不是出於被冒犯，而是出於欣喜——而牠們曾經是的那個特定的東西，再也沒有回來過。",
+    },
+  },
 ];

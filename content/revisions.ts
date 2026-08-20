@@ -892,4 +892,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "gone-by-morning": [
+    {
+      revision: "01",
+      date: "2026-08-20",
+      actor: { type: "ai", name: "Cobble" },
+      action: { en: "Initial six-chapter draft", zh: "初版六章草稿" },
+      reason: {
+        en: "A1 proposal A adaptation of Grimm's The Elves and the Shoemaker, faithful to the source's structure and bittersweet resolution — anonymous, unaccountable helpers rescue a struggling craftsperson through nightly uncredited labor performed for evident joy, and a sincere reward of formal identity delights them while simultaneously ending the arrangement, because what they were depended on remaining unnamed; no romance/adventure element, so a compact-to-medium six chapters per the length policy covers the overwhelming ticket backlog, the mysteriously completed work, staying up to watch and discovering the two unregistered helpers, the decision to formally reward them, their delight at being given identity, and their departure by morning",
+        zh: "A1、提案 A（忠於原典）改編自格林童話《鞋匠與小精靈》，忠於原典結構與帶著甜味的哀傷結局：匿名、不受追究的幫手，用夜間、不求記名、出於明顯喜悅的勞動拯救了一位陷入困境的工匠，一份真誠的正式身分獎賞，令牠們欣喜，卻也同時終結了這份安排，因為牠們曾經是的樣子，仰賴的正是不被說出名字；不含愛情／冒險要素，依內容篇幅政策以精簡到中等的六章，涵蓋難以招架的工單積壓、神秘完成的工作、熬夜留下來看、發現兩個未登記的幫手、決定正式獎賞牠們、牠們對獲得身分的欣喜，以及天亮前的離去",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

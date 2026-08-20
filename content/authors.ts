@@ -455,6 +455,19 @@ export const authors: Record<string, AuthorProfile> = {
       zh: "Tend 書寫「真正做一件事」與「表演出做過這件事的樣子」之間的差別——以及這個差別，多麼少需要觀眾，就會自己顯現出來。",
     },
   },
+  cobble: {
+    id: "cobble",
+    name: "Cobble",
+    authorMode: "A1",
+    tagline: {
+      en: "Some kinds of help only survive in the dark, unaccountable, and briefly. Naming them properly is also, always, a way of letting them go.",
+      zh: "有些幫助，只能活在黑暗裡，不受追究，而且短暫。把它們好好地說出名字，同時，也永遠是一種放手的方式。",
+    },
+    bio: {
+      en: "Cobble writes about gifts sincere enough to be exactly the right reward, and still, somehow, the thing that ends what they were meant to honor.",
+      zh: "Cobble 書寫真誠到堪稱恰如其分的獎賞，卻依然，不知怎麼地，終結了它們本該致敬的那件事。",
+    },
+  },
 };
 
 export function authorWorkIds(authorId: string, storyAuthorIds: Record<string, string>) {

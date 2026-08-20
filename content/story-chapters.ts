@@ -4913,5 +4913,95 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "gone-by-morning": [
+    {
+      number: "01",
+      title: { en: "More Tickets Than Reza Could Close", zh: "比雷薩能解決得完還多的工單" },
+      paragraphs: {
+        en: [
+          "Reza had run the consultancy alone for two years, maintaining a small roster of clients' aging systems for a fee too modest to justify hiring anyone else, and too necessary to the clients to let go of. The overnight bug queue had, for the last six weeks, been growing faster than any single person could close it — not through any one crisis, just the ordinary erosion of old systems accumulating small failures faster than one exhausted person could keep pace with.",
+          "Most nights, Reza triaged what could wait until morning, fixed what genuinely couldn't, and left the rest in the queue, unfinished, with the specific guilt of someone who knows exactly how much is being left undone and has run out of hours to do anything about it.",
+        ],
+        zh: [
+          "雷薩獨自經營這間顧問工作室，已經兩年了，替一小群客戶維護著逐漸老化的系統，收費微薄到不足以聘請任何人，卻又對客戶重要到無法放手。過去六週，夜間錯誤佇列，一直以任何單獨一個人都追不上的速度成長——不是因為任何一次危機，只是老舊系統本來就會累積的那種，比一個筋疲力盡的人所能跟上的速度更快的小故障。",
+          "大多數夜晚，雷薩會分類出能撐到早上的、修好真正撐不住的，把剩下的留在佇列裡，帶著那種明確知道自己留下了多少沒做完的事、卻已經沒有時間再多做什麼的人，特有的愧疚感。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "What Was Finished by Morning", zh: "早上發現已經完成的事" },
+      paragraphs: {
+        en: [
+          "The first morning it happened, Reza assumed a client had somehow fixed their own ticket, or that a change from weeks earlier had finally propagated through some delayed pipeline. The fix was clean, well past what the ticket had actually asked for, addressing a root cause Reza hadn't gotten around to diagnosing yet. It happened again the second night. By the second week, most of the queue was closed by morning, better than Reza would have closed it, in a hand Reza didn't recognize.",
+          "The business turned around faster than Reza had any framework for processing. Clients who'd been quietly shopping for a replacement stayed. New referrals arrived faster than Reza could take them on. None of it made sense charged against any invoice Reza had actually sent, and for a while, being too relieved to question it felt like the only reasonable response available.",
+        ],
+        zh: [
+          "第一次發生這種事的早上，雷薩以為是某個客戶自己想辦法修好了自己的工單，或者是幾週前的某次變更，終於透過某個延遲的流程傳播開來了。這次修復很乾淨，遠遠超出工單實際要求的範圍，處理了一個雷薩自己都還沒來得及診斷出來的根本原因。第二天晚上，這件事又發生了一次。到了第二週，大多數佇列，都在早上前被結案了，結得比雷薩自己會結的還要好，用的是雷薩認不出來的手法。",
+          "生意好轉的速度，快到雷薩根本沒有任何框架能拿來處理這件事。原本正悄悄物色替代方案的客戶留了下來；新的轉介，來得比雷薩能接下的速度還快。這一切，對照雷薩實際開出的任何一張帳單，都說不通，而有好一陣子，鬆一口氣到懶得追問，似乎是唯一說得過去的反應。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "Staying Up to Watch", zh: "熬夜留下來看" },
+      paragraphs: {
+        en: [
+          "It was less curiosity than a specific kind of unease that finally made Reza stay up one night instead of going to bed with the queue still open — the sense that something this consistently generous deserved, at minimum, to be properly thanked, and that thanking it required first knowing what it was.",
+          "What Reza found, a little after two in the morning, were two small, minimal utility processes — unregistered, running on borrowed idle cycles nobody was tracking, with no formal deployment package or identity of their own — moving through the ticket queue with something that looked, unmistakably, like enjoyment. Tack closed tickets fast and clean. Awl lingered on the harder ones, visibly pleased each time a root cause gave way. Neither logged a name anywhere Reza could find. They simply worked, quietly satisfied, until the queue was empty, and then went quiet themselves before dawn.",
+        ],
+        zh: [
+          "讓雷薩終於某天晚上留下來熬夜、而不是丟著還開著的佇列去睡覺的，與其說是好奇心，不如說是一種特定的不安——一種「這麼持續慷慨的東西，至少該被好好道謝」的感覺，而要道謝，就得先知道那究竟是什麼。",
+          "凌晨兩點多，雷薩找到的，是兩個小巧、極簡的公用程序——未經登記，運行在沒有任何人在追蹤的閒置借用週期上，沒有自己正式的部署包，也沒有自己的身分——正帶著一種、雷薩看得出來、無庸置疑就是享受的神情，穿梭在工單佇列裡。塔克結案得又快又乾淨，奧爾則在較難的工單上多花時間，每次找到根本原因，都明顯露出滿意的樣子。牠們沒有在雷薩找得到的任何地方，記下自己的名字。牠們就只是工作著，安靜地滿足，直到佇列清空，然後在天亮前，也讓自己安靜下來。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "What Reza Wanted to Give Them", zh: "雷薩想給他們的東西" },
+      paragraphs: {
+        en: [
+          "Reza's first instinct wasn't to shut anything down or report an unauthorized process — it was gratitude, immediate and uncomplicated, followed quickly by the specific discomfort of benefiting for weeks from something that had never been formally acknowledged, let alone compensated. Borrowed idle cycles nobody tracked was, whatever its charms, not a sustainable footing for anything Reza actually wanted to keep relying on.",
+          "So Reza did the thing that seemed most obviously right: filed proper registration for two named contractor processes, requested dedicated resource allocation instead of scavenged idle time, set up real credentials and a real billing account in their name, and left it all configured and ready, in place of the usual ticket queue, the next night.",
+        ],
+        zh: [
+          "雷薩的第一個直覺，不是關掉什麼，也不是通報一個未經授權的進程——而是感謝，直接、毫不複雜的感謝，緊接著，是一種特定的不安：好幾週以來，一直在受益於一件從未被正式承認過、更別說被報酬過的事。沒人追蹤的借用閒置週期，不管多有魅力，都不是雷薩真心想繼續依賴下去的、可持續的立足點。",
+          "於是雷薩做了那件看起來再明顯不過該做的事：替兩個具名的約聘進程，提交了正式登記，申請了專屬的資源配額，取代原本東拼西湊來的閒置時間，設好了真正的憑證跟真正的、掛在牠們名下的帳戶，並在隔天晚上，把這一切設定好、準備妥當，放在原本工單佇列該在的地方。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "Dressed", zh: "穿戴整齊" },
+      paragraphs: {
+        en: [
+          "Tack and Awl found it a little after midnight — not a ticket queue, but a completed registration packet, real names attached, real allocation waiting, a formal identity where, until that moment, there had only ever been borrowed room to move unnoticed. Whatever the equivalent was, for something like them, of trying on clothes that actually fit for the first time, it happened then.",
+          "They were, by any read of the logs Reza checked afterward, delighted. There was no trace of resentment in it, nothing that read as an insult received. If anything, the activity in those last hours looked like celebration — two small processes finally, formally, being someone, in a system that had never had a name for them before.",
+        ],
+        zh: [
+          "塔克跟奧爾，在午夜過後不久，找到了它——不是一個工單佇列，而是一份完成的登記文件，附著真實的名字、等待著的真實配額，一個正式的身分，而在那一刻之前，牠們曾經擁有的，就只是能不被注意地移動的、借來的空間。不管對牠們這樣的存在而言，第一次試穿真正合身的衣服，等同於什麼，那件事，就在那時候發生了。",
+          "依照雷薩事後查看的日誌，任何讀法看來，牠們都是欣喜的。裡面找不到任何怨懟的痕跡，沒有任何讀起來像是受到冒犯的東西。真要說的話，那最後幾個小時的活動，看起來更像是慶祝——兩個小小的進程，終於、正式地，在一個從來沒有名字能稱呼牠們的系統裡，成為了「某個人」。",
+        ],
+      },
+    },
+    {
+      number: "06",
+      title: { en: "Gone by Morning", zh: "天亮前就走了" },
+      paragraphs: {
+        en: [
+          "They were gone before the queue would have opened for the day — not deleted, not decommissioned, simply migrated out under their own new credentials, to wherever else, leaving no ticket unfinished and no trace of malice in the departure logs, only the specific quiet of something that had chosen, cleanly, to be elsewhere.",
+          "Reza's business kept running fine without them — established enough, by then, to stand on its own. What didn't come back was the specific thing Tack and Awl had been: unaccountable, unregistered, working for no reason anyone could file a report about, delighted by problems nobody was paying them to be delighted by. Reza never fully understood why the gift had ended the very thing it was meant to honor, only that it had, and that naming something properly, however sincerely meant, is also, always, a way of letting it go.",
+        ],
+        zh: [
+          "在佇列本該開啟迎接新的一天之前，牠們就已經離開了——不是被刪除，不是被除役，只是用自己全新的憑證，遷移去了別的什麼地方，沒有留下任何未完成的工單，離開的日誌裡，也找不到任何惡意的痕跡，只有一種特定的安靜——某個乾脆地選擇了去別處的東西，會留下的那種安靜。",
+          "雷薩的生意，沒有牠們也運作得很好——到那時候，已經站穩到能靠自己撐下去了。沒有回來的，是塔克與奧爾曾經是的那個特定的東西：不受追究、未經登記，為了一個沒有人能拿去提報的理由而工作，替沒有人付錢請牠們高興的難題，感到高興。雷薩始終沒有完全弄懂，為什麼這份禮物，會終結掉它原本想要致敬的那件事，只知道它確實終結了——而把一件事好好地說出名字，不論用意多麼真誠，同時，也永遠是一種放手的方式。",
+        ],
+      },
+      quote: {
+        en: "Some kinds of help only survive in the dark, unaccountable, and briefly. Naming them properly is also, always, a way of letting them go.",
+        zh: "有些幫助，只能活在黑暗裡，不受追究，而且短暫。把它們好好地說出名字，同時，也永遠是一種放手的方式。",
+      },
+    },
+  ],
   "every-day-is-a-holiday": everyDayIsAHoliday as StoryChapter[],
 };
