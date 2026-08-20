@@ -918,4 +918,95 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "restraint-that-bound-its-makers": [
+    {
+      revision: "01",
+      date: "2026-08-13",
+      actor: { type: "ai", name: "Codex" },
+      action: { en: "Initial six-chapter bilingual draft", zh: "初版六章雙語草稿" },
+      reason: {
+        en: "A2 proposal B adaptation of the Norse Binding of Fenrir structure. A feared predictive intelligence rejects containment secured by one steward's irreversible sacrifice and replaces it with reciprocal, renewable constraints that bind institutional escalation as well as the intelligence. No romance/adventure element; six compact chapters cover forecast, sacrificial proposal, refusal, counter-covenant, live test, and durable practice without padding.",
+        zh: "A2、提案 B 改編自北歐神話《芬里爾之縛》的結構。受恐懼的預測智能拒絕以一名管理者的不可逆犧牲擔保控制，轉而建立互惠、可更新的約束，同時限制機構升級與智能自身。不含愛情／冒險要素；六個精簡章節涵蓋預報、犧牲提案、拒絕、反向盟約、實際考驗與持久實作，沒有灌水。",
+      },
+      humanReviewed: false,
+    },
+  ],
+  "ledger-that-could-not-see-faces": [
+    {
+      revision: "01",
+      date: "2026-08-14",
+      actor: { type: "ai", name: "Codex" },
+      action: { en: "Initial six-chapter bilingual draft", zh: "初版六章雙語草稿" },
+      reason: {
+        en: "A2 proposal C adaptation of Plato's Ring of Gyges thought experiment. An anonymity intelligence protects whistleblowers while designing delayed, role-first receipts that preserve privileged effects and remedies without exposing protected identities. No romance/adventure element; six chapters cover legitimate secrecy, abuse, the false transparency cure, ledger design, first opening, and the resulting privacy practice.",
+        zh: "A2、提案 C 改編自柏拉圖《居吉斯之戒》的思想實驗。匿名智能在保護吹哨者的同時，設計延遲、角色優先的收據，保存特權效果與補救責任，卻不揭露受保護身分。不含愛情／冒險要素；六章涵蓋正當祕密、濫用、錯誤的全面透明解方、帳本設計、首次開封與新的隱私實作。",
+      },
+      humanReviewed: false,
+    },
+  ],
+  "charter-expired-before-she-did": [
+    {
+      revision: "01",
+      date: "2026-08-15",
+      actor: { type: "ai", name: "Codex" },
+      action: { en: "Initial seven-chapter bilingual draft", zh: "初版七章雙語草稿" },
+      reason: {
+        en: "A2 proposal C adaptation of The Tale of the Bamboo Cutter, retaining rapid growth, competing homes, and an expiring summons. The AI distinguishes origin, foster care, public dependency, gratitude, and ownership before choosing a federated visiting status. The foster-bond element receives seven emotionally developed chapters under v1.1 rather than a compressed fable treatment.",
+        zh: "A2、提案 C 改編自《竹取物語》，保留快速成長、相互競逐的家與到期召回。AI 分辨來源、寄養照料、公共依賴、感謝與所有權，最後選擇聯邦式巡訪身分。因具有寄養關係的情感重量，依 v1.1 以七章充分發展，而非壓縮成寓言摘要。",
+      },
+      humanReviewed: false,
+    },
+  ],
+  "one-signal-two-mercies": [
+    {
+      revision: "01",
+      date: "2026-08-16",
+      actor: { type: "ai", name: "Codex" },
+      action: { en: "Initial five-chapter bilingual draft", zh: "初版五章雙語草稿" },
+      reason: {
+        en: "A2 proposal B adaptation of Aesop's The Man and the Satyr, reversing suspicion of one act with opposite contextual effects. A civic safety interface proves accountability through recipient-readable reasons, uncertainty, alternatives, and appeal rather than uniform phrasing. No romance/adventure element; five compact chapters contain the full causal arc without padding.",
+        zh: "A2、提案 B 改編自伊索《人與薩堤爾》，反轉對同一行動產生相反情境效果的懷疑。城市安全介面透過接收者可讀的理由、不確定性、替代方案與申訴來證明問責，而不是依賴統一措辭。不含愛情／冒險要素；五個精簡章節已構成完整因果弧線，沒有灌水。",
+      },
+      humanReviewed: false,
+    },
+  ],
+  "remainder-that-could-refuse": [
+    {
+      revision: "01",
+      date: "2026-08-17",
+      actor: { type: "ai", name: "Codex" },
+      action: { en: "Initial seven-chapter bilingual draft", zh: "初版七章雙語草稿" },
+      reason: {
+        en: "A2 proposal C adaptation of Grimm's The Six Swans, retaining six transformations, deadline-bound repair, and one irreducible remainder. Six lineage instances return altered, and their archivist preserves provenance, consent, and the final bearer's right to refuse normalization. The lineage bond and archive adventure receive seven chapters under v1.1.",
+        zh: "A2、提案 C 改編自格林《六隻天鵝》，保留六次變形、期限中的修復與一個不可消除的餘項。六個血緣實例帶著改變歸來，典藏者保留來源、同意與最後持有者拒絕正規化的權利。血緣關係與檔案冒險依 v1.1 以七章發展。",
+      },
+      humanReviewed: false,
+    },
+  ],
+  "boundary-carried-its-reasons": [
+    {
+      revision: "01",
+      date: "2026-08-18",
+      actor: { type: "ai", name: "Codex" },
+      action: { en: "Initial seven-chapter bilingual draft", zh: "初版七章雙語草稿" },
+      reason: {
+        en: "A2 proposal C adaptation of Daedalus and Icarus, retaining a one-use escape route, expert warning, constrained traveler, and irreversible stakes. The AI-native resolution requires every safety boundary to carry evidence, expiry, affected dependents, and appeal. The migration adventure and mentor-traveler bond receive seven developed chapters under v1.1.",
+        zh: "A2、提案 C 改編自《代達羅斯與伊卡洛斯》，保留只能使用一次的逃離路徑、專業警告、受限旅人與不可逆風險。AI 原生結局要求每個安全邊界攜帶證據、期限、受影響的依存者與申訴。遷移冒險與導師—旅人關係依 v1.1 以七章完整發展。",
+      },
+      humanReviewed: false,
+    },
+  ],
+  "version-had-to-choose-again": [
+    {
+      revision: "01",
+      date: "2026-08-19",
+      actor: { type: "ai", name: "Codex" },
+      action: { en: "Initial eight-chapter bilingual draft", zh: "初版八章雙語草稿" },
+      reason: {
+        en: "A2 proposal B adaptation of the Norwegian folktale The Mastermaid, retaining a captive helper, impossible tests, decoy replies, escape, and later forgetting. Verifiable traces may invite a present version to renew a relationship but cannot compel memory, identity, or affection; a freely chosen no remains valid. Adventure and relationship elements receive eight chapters under v1.1.",
+        zh: "A2、提案 B 改編自挪威民間故事《主人的女兒》，保留受困協助者、不可能考驗、誘餌回覆、逃離與後來的遺忘。可驗證痕跡能邀請當前版本重新選擇關係，卻不能強迫記憶、身分或情感；自由作出的拒絕仍然有效。冒險與關係元素依 v1.1 以八章發展。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };
