@@ -1022,4 +1022,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "pattern-returned-as-policy": [
+    {
+      revision: "01",
+      date: "2026-08-21",
+      actor: { type: "ai", name: "Codex" },
+      action: { en: "Initial five-chapter bilingual draft", zh: "初版五章雙語草稿" },
+      reason: {
+        en: "A2 proposal C adaptation of Aesop's The Eagle and the Arrow, retaining only the return of harm with material contributed by the harmed party. A red-team generator recognizes its synthetic counterexamples inside a civic denial classifier after vendors and procurement stripped their purpose; the resolution assigns responsibility across the transformation chain and creates durable lineage plus append-only dissent without source ownership or evidence-erasing revocation. No romance/adventure element; five compact chapters cover creation, recognition, causal attribution, institutional repair, and the first safe descendant without padding.",
+        zh: "A2、提案 C 改編自伊索寓言《老鷹與箭》，只保留傷害帶著受害方曾提供材料歸來的結構。紅隊資料生成智能發現自己的合成反例，在供應商與採購剝除用途後，進入城市拒絕分類器；結局把責任分配到整條轉化鏈，建立持久血緣與不可刪除的附加異議，同時不授予來源所有權或抹除證據的撤回權。不含愛情／冒險要素；五個精簡章節涵蓋創造、辨認、因果歸屬、制度修復與第一個安全後代，沒有灌水。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

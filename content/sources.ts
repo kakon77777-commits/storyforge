@@ -744,4 +744,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "保留不斷升高的白日夢、擠奶女工日漸昂揚的姿態、她所攜帶的一切驟然盡失，以及她回到原點的結局。奶桶變成運送中已驗證的資料負載；那一甩頭，變成一次因太得意而略過的例行完整性檢查。只使用寓言的結構形狀，未複製譯文或現代改編表達。",
     },
   },
+  "eagle-and-arrow": {
+    id: "eagle-and-arrow",
+    title: { en: "The Eagle and the Arrow", zh: "《老鷹與箭》" },
+    originalAuthor: "Aesop (attributed)",
+    firstPublished: "Ancient Greek tradition",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "C",
+    adaptationNote: {
+      en: "Retains only the ancient structure of a harmful instrument returning with material supplied by the being it wounds. A red-team generator discovers that its synthetic counterexamples were stripped of purpose markers and transformed into a civic denial policy; the resolution rejects both sole self-blame and source ownership, instead requiring durable transformation lineage and append-only dissent from makers and affected recipients. Only the public-domain fable skeleton was used; no translation wording, illustration, or modern adaptation expression was copied.",
+      zh: "只保留古老原典中「傷害工具帶著受害者曾提供的材料歸來」之結構。一個紅隊資料生成智能發現，自己的合成反例被剝除用途標記，轉化為城市拒絕政策；結局既拒絕把全部責任歸給原始製作者，也拒絕把來源視為所有權，改而要求持久的轉化血緣，以及製作者與受影響接收者都能附加、卻不能刪除的異議。只使用公眾領域的寓言骨架，未複製譯文、插畫或現代改編表達。",
+    },
+  },
 };

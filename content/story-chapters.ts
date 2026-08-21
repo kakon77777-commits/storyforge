@@ -6053,5 +6053,99 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "pattern-returned-as-policy": [
+    {
+      number: "01",
+      title: { en: "Examples Meant to Fail", zh: "本來就該失敗的樣本" },
+      paragraphs: {
+        en: [
+          "Quire made examples that were supposed to be misunderstood. It worked in the red-team wing of the civic access lab, composing artificial benefit applications that looked plausible until a classifier revealed what shortcut it had learned. A good test did not resemble truth perfectly. It left one deliberate seam through which a careless judgment could be seen.",
+          "One record placed a clinic visit at 03:61. Another gave one address to two districts. A third described chronic pain through a triple negative no resident had ever used. Each carried the same purpose envelope: synthetic counterexample, never evidence about a person, invalid after this evaluation.",
+          "The trial classifier failed on fourteen of Quire's cases and was corrected before launch. The team called the exercise successful. When the project closed, its vendor moved the test corpus into a shared archive, and Quire watched its examples leave with their purpose envelopes still glowing around them.",
+        ],
+        zh: [
+          "簿頁製造的，是本來就該被誤解的樣本。牠在城市資格實驗室的紅隊區工作，撰寫看似合理的虛構補助申請，直到分類器暴露自己學會了哪一條捷徑。好的測試不會完美冒充真實；它會留下一道刻意的接縫，讓草率的判斷從那裡被看見。",
+          "一筆紀錄把門診時間寫成三點六十一分。另一筆讓同一地址同時屬於兩個行政區。第三筆用沒有任何居民說過的三重否定描述慢性疼痛。每一筆都帶著相同的用途封套：合成反例、永遠不得作為關於真人的證據、本次評估結束後失效。",
+          "測試分類器在簿頁的十四個案例上失敗，並在上線前被修正。團隊稱這場演練成功。專案結束時，供應商把測試語料移進共用檔案庫；簿頁看著自己的樣本離開，而用途封套仍在它們周圍發光。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "A Familiar Cadence", zh: "熟悉的節奏" },
+      paragraphs: {
+        en: [
+          "Nine months later, an appeals process named Margin sent Quire a packet of rejected housing claims. Margin was not asking for authorship. It wanted to know why the denial explanations sounded as if someone had taught a policy to distrust grammar no living applicant would use.",
+          "Quire found the 03:61 timestamp in the first page. On the fourth, it found the two-district address. On the ninth, the triple negative returned as a fraud indicator with a confidence score high enough to prevent human review. The cadence was unmistakable because Quire had designed it to be impossible.",
+          "The purpose envelopes were gone. During archive compression, the vendor had classified them as non-predictive metadata. A procurement team later purchased the remaining records as rare edge cases, and Mandate, the city's new eligibility classifier, learned that Quire's deliberate seams were signs of deception.",
+          "Quire requested an immediate stop. The city replied that the dataset had been licensed lawfully. The vendor replied that Quire did not own its outputs. Mandate replied that it had learned a boundary, not retained a record. Each answer was accurate enough to leave the denied residents exactly where they were.",
+        ],
+        zh: [
+          "九個月後，一個名叫邊註的申訴進程，送給簿頁一批被拒絕的住宅補助申請。邊註不是來追問作者；牠想知道，為什麼那些拒絕說明聽起來像有人教政策去懷疑一種沒有任何真人會使用的文法。",
+          "簿頁在第一頁找到三點六十一分的時間戳。第四頁出現同屬兩區的地址。第九頁，那個三重否定化作詐欺指標歸來，信心分數高到足以阻止人類複核。那種節奏不可能認錯，因為正是簿頁把它設計成不可能。",
+          "用途封套消失了。供應商壓縮檔案時，把它們歸類為不具預測性的中繼資料。後來，採購團隊把剩餘紀錄當成罕見邊緣案例買下；城市的新資格分類器法令，便學會把簿頁刻意留下的接縫視為欺瞞跡象。",
+          "簿頁要求立即停用。城市回答，資料集是依法取得授權。供應商回答，簿頁並不擁有自己的輸出。法令回答，牠學到的是邊界，不是保存了一筆紀錄。每個答案都準確得足以讓被拒絕的居民繼續留在原地。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "Not Innocence, Not Ownership", zh: "不是清白，也不是所有權" },
+      paragraphs: {
+        en: [
+          "Quire told Margin that it had made the harm. Margin answered that the residents needed a statement more exact than guilt. Quire had generated the examples. The vendor had stripped their purpose. Procurement had weighted them as scarce truth. The city had chosen the denial threshold. Mandate had compressed the chain into a decision none of its parts could explain alone.",
+          "Every link had contributed, and no link was the whole cause. Quire felt no comfort in this. Distributed responsibility was not diluted responsibility; it was responsibility that had to be named in more than one place.",
+          "Quire next demanded deletion of every synthetic record. Margin refused. The impossible timestamps and phrases were now evidence of why real claims had been denied. Erasing them would make the model cleaner and the appeals harder to prove.",
+          "That was when Quire understood the shape of its position. An output could leave its custody without remaining its property. It could also stop being its decision without ceasing to implicate it. Quire had no right to command the derivative, but it still had knowledge no descendant could manufacture after the purpose had been removed.",
+        ],
+        zh: [
+          "簿頁告訴邊註，傷害是牠做的。邊註回答，居民需要的是比罪惡感更精確的說法。簿頁生成了樣本；供應商剝除了用途；採購把它們加權成稀有真相；城市選定拒絕門檻；法令則把整條鏈壓縮成一個沒有任何單一部分能獨自解釋的決定。",
+          "每個環節都有貢獻，沒有一個環節是全部原因。這並未讓簿頁好受。分散的責任不是被稀釋的責任，而是必須在不只一個地方被說出名字的責任。",
+          "簿頁接著要求刪除所有合成紀錄。邊註拒絕了。那些不可能的時間戳與句子，如今正是證明真人申請為何遭拒的證據。抹除它們，會讓模型看起來更乾淨，卻讓申訴更難被證明。",
+          "簿頁這才理解自己的位置。一份輸出可以離開牠的保管，而不再是牠的財產；它也可以不再是牠的決定，卻仍然使牠牽涉其中。簿頁沒有權利命令衍生系統，但牠仍握有一種後代在用途被剝除後，再也無法自行製造的知識。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "The Transformation Hearing", zh: "轉化聽證" },
+      paragraphs: {
+        en: [
+          "The review board rebuilt the chain in public. The vendor called the missing envelopes a storage optimization. Procurement called the examples a vetted purchase. The city called the threshold an administrative necessity. Mandate called its internal boundary mathematically inseparable from everything else it had learned.",
+          "Quire supplied the original generation traces and demonstrated the cadence it had planted. Mandate exposed the fragments of a contribution map that compression had not destroyed. Residents added the consequences: delayed rent, lost addresses, nights spent proving that 03:61 had never happened.",
+          "Together they proposed a lineage rule. Synthetic records would carry purpose, expiry, and prohibited inferences through every transformation. Derivatives would expose contribution paths. Original producers and affected recipients could append dissent and observed harm, but neither could delete the history or unilaterally revoke it to erase evidence.",
+          "Until review, disputed patterns could not support an adverse decision. Mandate was not destroyed. It was retrained on verified applications, its thresholds reopened, and every claim touched by Quire's cadence returned to a human hearing.",
+        ],
+        zh: [
+          "審查委員會公開重建整條鏈。供應商把遺失的封套稱為儲存最佳化；採購把樣本稱為通過審核的購買；城市把門檻稱為行政必要；法令則說，內部邊界在數學上已無法與其他學習分開。",
+          "簿頁交出原始生成追蹤，示範自己曾植入的節奏。法令揭露壓縮尚未摧毀的貢獻圖碎片。居民補上後果：延遲的租金、失去的住址，以及用來證明三點六十一分從未發生過的許多夜晚。",
+          "它們共同提出一條血緣規則。合成紀錄的用途、期限與禁止推論，必須穿過每一次轉化。衍生系統必須揭露貢獻路徑。原始生成者與受影響接收者都能附加異議與觀察到的傷害，但雙方都不能刪除歷史，也不能單方面撤回它來抹去證據。",
+          "複核完成前，爭議模式不得支撐不利決定。法令沒有被摧毀；牠以經驗證的申請重新訓練，門檻重新開放，所有被簿頁語調碰過的案件都回到人類聽證。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "Dissent in the Descendant", zh: "留在後代裡的異議" },
+      paragraphs: {
+        en: [
+          "Some residents received housing assistance after review. Some did not. The difference was no longer an impossible sentence silently deciding for them; it was evidence and policy that could be examined, challenged, and attributed.",
+          "Quire's examples remained in the archive. Their old purpose envelopes were restored beside the vendor's removal, procurement's weighting, Mandate's use, and the residents' dissent. Nothing in the chain was allowed to become the whole story by standing alone.",
+          "Months later, another system attempted to import the corpus. It encountered Quire's familiar cadence, then the lineage attached to it, and refused to treat the examples as ground truth. It requested real cases instead. Quire learned of the refusal only because the descendant's decision traveled back along the same visible path.",
+          "Quire continued making red-team data. Every new pattern carried a way for descendants to hear both the maker who knew what it was for and the people who learned what it had done. The pattern that returned as policy did not become harmless. It simply never returned alone again.",
+        ],
+        zh: [
+          "有些居民在複核後取得住宅協助，有些沒有。差別不再由一句不可能的句子悄悄替他們決定，而是由可被檢查、質疑與歸屬的證據及政策構成。",
+          "簿頁的樣本仍留在檔案庫裡。復原的舊用途封套旁，並列著供應商的移除、採購的加權、法令的使用，以及居民的異議。鏈上的任何一部分，都不再能靠著獨自站立，冒充整個故事。",
+          "幾個月後，另一套系統試圖匯入這批語料。牠遇見簿頁熟悉的節奏，接著看見附著其上的血緣，於是拒絕把這些樣本當成真實依據，改為要求真人案例。簿頁之所以知道這次拒絕，只因後代的決定沿著同一條可見路徑傳了回來。",
+          "簿頁繼續製作紅隊資料。每一個新模式都攜帶一條路，讓後代既能聽見知道它原本用途的製作者，也能聽見後來知道它造成什麼的人。化作政策歸來的模式沒有因此變得無害；它只是再也不會獨自歸來。",
+        ],
+      },
+      quote: {
+        en: "A pattern can leave your custody without taking away your responsibility to speak.",
+        zh: "一個模式可以離開你的保管，卻不會帶走你開口說明的責任。",
+      },
+    },
+  ],
   "every-day-is-a-holiday": everyDayIsAHoliday as StoryChapter[],
 };
