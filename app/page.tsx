@@ -106,6 +106,7 @@ const copy = {
     creatorMode: "AI-Led · human curated",
     footer: "An EveMissLab experiment in AI-native literature.",
     allStories: "All stories at their own addresses",
+    allAuthors: "All authors",
     backToLibrary: "Back to library",
     aboutAuthor: "About this author",
     authorModeLabel: "Author mode",
@@ -244,6 +245,7 @@ const copy = {
     creatorMode: "AI 主筆 · 人類策劃",
     footer: "EveMissLab 的 AI 原生文學實驗。",
     allStories: "所有故事的獨立網址",
+    allAuthors: "所有作者",
     backToLibrary: "返回作品庫",
     aboutAuthor: "關於這位作者",
     authorModeLabel: "作者模式",
@@ -609,6 +611,7 @@ export default function Home() {
         {/* the only link out of the app: every story also lives at its own
             address under /s, which is how a crawler reaches them at all */}
         <Link href="/s">{t.allStories}</Link>
+        <Link href="/a">{t.allAuthors}</Link>
         <span>AI Canon Zero · v0.1</span>
       </footer>
     </div>

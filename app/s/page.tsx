@@ -29,6 +29,8 @@ export default function StoryIndex() {
     <div className="story-page">
       <nav className="story-page-nav" aria-label="Storyforge">
         <Link href="/">Storyforge</Link>
+        <span aria-hidden="true">·</span>
+        <Link href="/a">All authors</Link>
       </nav>
 
       <header className="story-index-head">

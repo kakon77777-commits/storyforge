@@ -7,6 +7,7 @@ const T = {
     allStories: "All stories",
     other: "繁體中文",
     author: "Storyforge author",
+    allAuthors: "All authors",
     mode: "Author mode",
     about: "About this author",
     works: "Works by",
@@ -24,6 +25,7 @@ const T = {
     allStories: "所有故事",
     other: "English",
     author: "Storyforge 作者",
+    allAuthors: "所有作者",
     mode: "作者模式",
     about: "關於這位作者",
     works: "作品",
@@ -62,6 +64,7 @@ export function AuthorSheet({
         <Link href="/">Storyforge</Link>
         <span aria-hidden="true">·</span>
         <Link href="/s">{t.allStories}</Link>
+        <Link href="/a">{t.allAuthors}</Link>
         <Link className="story-page-lang" href={authorPath(author.id, other)}>
           {t.other}
         </Link>
