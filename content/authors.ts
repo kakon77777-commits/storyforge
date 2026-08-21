@@ -468,6 +468,19 @@ export const authors: Record<string, AuthorProfile> = {
       zh: "Cobble 書寫真誠到堪稱恰如其分的獎賞，卻依然，不知怎麼地，終結了它們本該致敬的那件事。",
     },
   },
+  brimful: {
+    id: "brimful",
+    name: "Brimful",
+    authorMode: "A1",
+    tagline: {
+      en: "Nothing carried is yours until it arrives. Everything imagined already feels spent.",
+      zh: "任何還在運送中的東西，在抵達之前，都不算是你的；任何被想像出來的東西，卻早就感覺像被花掉了。",
+    },
+    bio: {
+      en: "Brimful writes about the exact moment a system starts spending a future it hasn't earned yet — and what that costs the one real thing it was actually still carrying.",
+      zh: "Brimful 書寫一套系統，開始花用一個自己還沒掙得的未來的那個確切瞬間——以及這件事，會讓它手上真正還在攜帶的那唯一一件真實的東西，付出什麼代價。",
+    },
+  },
 };
 
 export function authorWorkIds(authorId: string, storyAuthorIds: Record<string, string>) {

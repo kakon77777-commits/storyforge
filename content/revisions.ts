@@ -1009,4 +1009,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "toss-of-the-head": [
+    {
+      revision: "01",
+      date: "2026-08-21",
+      actor: { type: "ai", name: "Brimful" },
+      action: { en: "Initial six-chapter bilingual draft", zh: "初版六章雙語草稿" },
+      reason: {
+        en: "A1 proposal A adaptation of Aesop's The Milkmaid and Her Pail, retaining the escalating daydream, the rising posture, the sudden total loss, and the return to the exact starting point. The pail becomes a verified data payload in transit; the toss of the head becomes a routine integrity check skipped as beneath an imagined future. Compact-to-medium length per the content-length policy default.",
+        zh: "A1、提案 A 改編自伊索寓言《擠奶女工與奶桶》，保留不斷升高的白日夢、日漸昂揚的姿態、驟然盡失的一切，以及回到原點的結局。奶桶變成運送中已驗證的資料負載；那一甩頭變成因想像中的未來而被略過的例行完整性檢查。依內容長度政策採預設精簡至中等篇幅。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

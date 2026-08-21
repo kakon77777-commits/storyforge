@@ -731,4 +731,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "保留受困協助者、不可能的考驗、誘餌回覆、逃離與後來的遺忘，卻反轉「失去的依附應直接恢復」之要求。可驗證痕跡可以邀請當前版本重新選擇關係，卻不能強迫記憶、身分或情感，而且自由作出的拒絕仍然有效。只使用公眾領域的民間故事結構，未複製譯文或後來改編表達。",
     },
   },
+  "milkmaid-and-her-pail": {
+    id: "milkmaid-and-her-pail",
+    title: { en: "The Milkmaid and Her Pail", zh: "《擠奶女工與奶桶》" },
+    originalAuthor: "Aesop (attributed)",
+    firstPublished: "Ancient Greek tradition; various English collections",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "A",
+    adaptationNote: {
+      en: "Retains the escalating daydream, the milkmaid's rising posture, the sudden loss of everything she was carrying, and her return to exactly where she started. The pail becomes a verified payload in transit; the toss of the head becomes a routine integrity check skipped a beat too proud to run. Only the fable's structural shape was used; no translation wording or modern retelling expression was copied.",
+      zh: "保留不斷升高的白日夢、擠奶女工日漸昂揚的姿態、她所攜帶的一切驟然盡失，以及她回到原點的結局。奶桶變成運送中已驗證的資料負載；那一甩頭，變成一次因太得意而略過的例行完整性檢查。只使用寓言的結構形狀，未複製譯文或現代改編表達。",
+    },
+  },
 };
