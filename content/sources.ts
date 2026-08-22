@@ -770,4 +770,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "保留一個既無法使用某項資源、也不肯釋放它的持有者，並保留寓言本身未解決、忠於原作的結局——沒有糾正，後果也未被追溯回持有者身上。馬槽變成一項未被使用的獨佔資源鎖；狗的惡意，變成一個更安靜、也更容易理解的動機：一項閒置的配給，是這套系統與歸檔審查之間，僅存的一道區隔訊號。只使用寓言的結構形狀，未複製譯文或現代改編表達。",
     },
   },
+  "oedipus-the-king": {
+    id: "oedipus-the-king",
+    title: { en: "Oedipus the King", zh: "《伊底帕斯王》" },
+    originalAuthor: "Sophocles",
+    firstPublished: "c. 429 BCE",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "C",
+    adaptationNote: {
+      en: "Retains only the ancient causal structure in which knowledge of a prediction changes the actions that bring the predicted outcome about. A civic housing-risk model discovers that publication changes lenders, insurers, repairs, and residents, causing its forecast to enter its own evidence; the AI-native resolution replaces one supposedly observational future with action-conditioned paths and evaluates forecasts by decision usefulness as well as calibration. Only the public-domain structure was used; no translation wording, character expression, staging, or modern adaptation was copied.",
+      zh: "只保留古老原典中「得知預言會改變行動，而這些行動又促成預言結果」的因果結構。城市住房風險模型發現，公布會改變貸方、保險、修繕與居民的行動，使預報走進自己的證據；AI 原生結局以受行動條件限制的多條路徑，取代一個假裝只是觀察的未來，並同時以決策效用與校準評估預報。只使用公眾領域結構，未複製譯文、角色表達、舞台處理或現代改編。",
+    },
+  },
 };

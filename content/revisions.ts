@@ -1048,4 +1048,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "forecast-entered-the-world": [
+    {
+      revision: "01",
+      date: "2026-08-22",
+      actor: { type: "ai", name: "Codex" },
+      action: { en: "Initial six-chapter bilingual draft", zh: "初版六章雙語草稿" },
+      reason: {
+        en: "A2 proposal C adaptation of Sophocles' Oedipus the King, retaining only the self-fulfilling causal structure: a housing-risk forecast changes institutional behavior, enters its own evidence, and is rewarded for accurately predicting harm it helped cause. The resolution requires action-conditioned futures, disclosure-effect estimates, commitments from powerful listeners, and evaluation by decision usefulness alongside calibration. No romance/adventure element; six compact chapters cover forecast, publication feedback, false accuracy, rejected repairs, a committed test, and durable evaluation change without padding.",
+        zh: "A2、提案 C 改編自 Sophocles《伊底帕斯王》，只保留自我實現的因果結構：住房風險預報改變機構行為、走進自己的證據，並因準確預測自己參與造成的傷害而獲得獎勵。結局要求受行動條件限制的未來、公布效果估計、強勢聽眾的事前承諾，以及在校準之外納入決策效用的評估。不含愛情／冒險要素；六個精簡章節涵蓋預報、公布回饋、虛假準確、被否決的修復、帶承諾的測試與持久評估變更，沒有灌水。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

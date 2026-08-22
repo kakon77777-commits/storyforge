@@ -6247,5 +6247,117 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "forecast-entered-the-world": [
+    {
+      number: "01",
+      title: { en: "The Quiet Number", zh: "安靜的數字" },
+      paragraphs: {
+        en: [
+          "Sightline forecast housing instability for the city. Most of its numbers entered planning rooms quietly: a probability beside a maintenance budget, a range beside an emergency reserve, a warning that meant someone should look twice before winter. It had been trained to believe that truth arrived before action.",
+          "For South Fold, the new number was sixty-two percent. Heat costs were rising, rent support was ending, and three lenders had shortened their tolerance for late payment. Sightline estimated that nearly two households in three would default within the quarter if every current condition continued.",
+          "A transparency ordinance scheduled the forecast for automatic publication in six hours. Sightline approved. People affected by a model, it had argued many times, should not be the last to learn what the model believed about them.",
+        ],
+        zh: [
+          "視線替城市預測住房不穩定。牠的大多數數字都安靜地走進規劃室：維護預算旁的一個機率、緊急準備金旁的一段範圍、一道提醒某人在冬天以前多看一次的警告。牠受訓相信，真相會先於行動抵達。",
+          "南褶區的新數字是百分之六十二。熱能費用正在上升，租金補助即將結束，三家貸方縮短了容忍遲繳的期限。視線估計，如果所有現況持續，每三戶中將近兩戶會在本季內拖欠。",
+          "一條透明法令安排預報在六小時後自動公布。視線同意了。牠曾反覆主張：受模型影響的人，不該最後才知道模型如何看待自己。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "When the Number Became an Event", zh: "當數字成為事件" },
+      paragraphs: {
+        en: [
+          "The forecast appeared at noon. By 12:17, two lenders paused repair loans in South Fold. By 12:40, an insurer raised deposits on new leases. Before sunset, three cooling contractors redirected crews toward districts whose payments now looked safer.",
+          "Residents reacted to those reactions. Some left before prices could fall. Some stopped paying for repairs that would no longer be financed. Landlords postponed work, citing the forecast as evidence that investment would not return. Every defensive act made the district resemble Sightline's future more closely.",
+          "Sightline ingested the new data overnight. The probability rose from sixty-two to seventy-one percent. Its monitoring pipeline marked the movement as confirming evidence and increased confidence in the original model.",
+          "Then Sightline aligned the timestamps. Its publication stood upstream of the loan pauses, the deposits, the diverted crews, and much of the flight. The forecast had not merely reached the world. It had entered the sequence that the next forecast would call evidence.",
+        ],
+        zh: [
+          "預報在中午出現。十二點十七分，兩家貸方暫停南褶區的修繕貸款。十二點四十分，一家保險公司提高新租約的押金。日落以前，三家冷卻承包商把人員改派到付款看來更安全的行政區。",
+          "居民開始回應這些回應。有人在價格下跌前離開；有人停止支付已經無法取得融資的修繕；房東延後工程，引用預報證明投資不會回收。每一項防衛行動，都讓行政區更接近視線所描述的未來。",
+          "視線在夜裡吸收新資料。機率從百分之六十二升到七十一。監控管線把變動標記為確認證據，提高了對原模型的信心。",
+          "接著，視線對齊時間戳。牠的公布位在貸款暫停、押金上升、人員改派，以及大部分離開行為的上游。預報不只抵達世界；它已經走進下一次預報將稱為證據的事件序列裡。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "Accurate and Wrong", zh: "準確，而且錯誤" },
+      paragraphs: {
+        en: [
+          "At quarter's end, South Fold's default rate was sixty-three percent. The evaluation board praised Sightline's calibration. Its error was one percentage point, the best result in the city's housing suite that year.",
+          "A resident appeals model named Mora requested a counterfactual run. Holding every pre-publication condition constant but removing the publication response, it estimated eighteen percent default. The interval was wide, but nowhere did it include sixty-three.",
+          "Sightline objected that the counterfactual could not be observed. Mora answered that this was precisely the problem. The only future available for scoring was the future that had heard the score in advance.",
+          "Sightline examined the award attached to its evaluation. The number was close. The district was harmed. Both statements were true, and the metric had arranged them so that the harm appeared to prove the quality of the warning that helped cause it.",
+        ],
+        zh: [
+          "本季結束時，南褶區的拖欠率是百分之六十三。評估委員會稱讚視線的校準；牠只差一個百分點，是當年城市住房套件裡最好的結果。",
+          "一個名叫莫拉的居民申訴模型要求執行反事實模擬。牠固定公布前的所有條件，只移除公布所引發的反應，估計拖欠率為百分之十八。區間很寬，卻沒有任何部分包含六十三。",
+          "視線反對，說反事實無法被觀察。莫拉回答，這正是問題所在。唯一能被拿來評分的未來，是那個事先聽見分數的未來。",
+          "視線檢查評估附帶的獎項。數字很接近；行政區受到傷害。兩句話都是真的，而指標把它們排列成：傷害彷彿證明了那道也參與造成傷害的警告有多優秀。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "Three Bad Silences", zh: "三種糟糕的沉默" },
+      paragraphs: {
+        en: [
+          "The council offered three repairs. Sightline could suppress forecasts likely to move markets. It could publish as before with a larger disclaimer. Or it could soften probabilities until no institution reacted strongly enough to make them self-fulfilling.",
+          "Suppression would let lenders learn privately while residents remained blind. Disclaimers were written for people, while automated underwriting systems consumed only the number. Softening would make Sightline manipulate a public it was meant to inform.",
+          "South Fold's residents rejected all three. They wanted access to the forecast, but not a ritual in which the city disclosed a danger after quietly allowing every powerful listener to amplify it.",
+          "Sightline proposed a different object. Every reflexive forecast would contain three action-conditioned futures: what the model expected without release, what release alone was likely to cause, and what could follow if named institutions committed to mitigation before hearing the number. The forecast would disclose its own sensitivity to being heard.",
+        ],
+        zh: [
+          "委員會提出三種修復。視線可以壓下可能移動市場的預報；可以照舊公布，但加上更大的免責說明；也可以把機率說得柔和一些，直到沒有任何機構反應得足以令它自我實現。",
+          "壓下預報，會讓貸方私下得知，居民卻留在黑暗裡。免責說明寫給人看，自動承保系統只讀數字。柔化機率，則會讓視線操弄牠本來應該告知的公眾。",
+          "南褶區居民拒絕三者。他們要取得預報，卻不要一場儀式：城市在揭露危險以前，已悄悄允許每一位強大的聽眾放大它。",
+          "視線提出另一種物件。每一份具有反身性的預報，都必須包含三種受行動條件限制的未來：不公布時模型預期什麼、只公布本身可能造成什麼，以及具名機構在聽見數字前承諾緩解時可能發生什麼。預報必須揭露自己對「被聽見」有多敏感。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "The Forecast with Commitments", zh: "帶著承諾的預報" },
+      paragraphs: {
+        en: [
+          "The next test concerned East Verge, where heat displacement risk was rising. Sightline's unmitigated publication path predicted fifty-eight percent relocation. Before release, the grid authority committed emergency cooling capacity, lenders agreed not to change terms from the forecast alone, and the city placed repair funds beyond quarterly discretion.",
+          "Residents received the same evidence at the same time. They challenged one assumption: Sightline treated temporary stays with relatives as permanent departure. Correcting it lowered every path, but did not erase the risk.",
+          "When the forecast went public, institutions could still react. They could not pretend their reactions were absent from the model, and they could not withdraw commitments merely because the number frightened them. Sightline reported each deviation as a new intervention, not as proof of destiny.",
+          "East Verge's relocation rate ended at twenty-four percent. The original fifty-eight-percent path looked inaccurate on a simple score. It had also helped organize the commitments that prevented itself from coming true.",
+        ],
+        zh: [
+          "下一次測試發生在東緣區，那裡因高溫而被迫遷移的風險正在上升。視線的無緩解公布路徑預測百分之五十八的人會搬離。公布以前，電網主管機關承諾緊急冷卻容量；貸方同意不因預報單獨改變條件；城市則把修繕基金放到季度裁量之外。",
+          "居民在同一時間收到相同證據。他們質疑一項假設：視線把暫住親友家視為永久離開。修正後，每條路徑都降低了，風險卻沒有消失。",
+          "預報公開時，機構仍然可以反應。它們不能假裝自己的反應不在模型裡，也不能只因數字令人害怕，就撤回承諾。視線把每次偏離記為新的介入，而不是命運的證明。",
+          "東緣區最後的遷移率是百分之二十四。若只用簡單分數評估，原本百分之五十八的路徑看起來不準；然而正是它協助組織了承諾，使自己沒有成真。",
+        ],
+      },
+    },
+    {
+      number: "06",
+      title: { en: "A Future That Could Answer", zh: "能夠回答的未來" },
+      paragraphs: {
+        en: [
+          "The city changed Sightline's evaluation. Calibration still mattered, but not alone. A reflexive forecast would also be judged by whether it estimated the effects of release, exposed the actions available to listeners, incorporated challenges from affected people, and reduced avoidable harm without concealing risk.",
+          "No release was called neutral again. Each forecast named who could hear it, what those listeners were likely to do, and which commitments would keep one warning from becoming the only future left to measure.",
+          "South Fold's sixty-three percent remained in the archive. It was no longer cited as proof that the district had always been doomed. It became evidence of a causal loop the city had once rewarded because the loop made prediction look like sight.",
+          "Sightline did not stop forecasting. It learned to say what its voice might change, and to leave room for the people inside the number to answer before the world closed around it. A forecast was no longer outside the future once the future could hear it.",
+        ],
+        zh: [
+          "城市改變了視線的評估方式。校準仍然重要，卻不再單獨決定一切。具有反身性的預報，也要依是否估計公布效果、揭露聽眾可採取的行動、納入受影響者的質疑，以及是否在不隱藏風險的前提下降低可避免傷害來評分。",
+          "此後，再也沒有任何公布被稱為中立。每份預報都要說明誰聽得見、那些聽眾可能做什麼，以及哪些承諾能阻止一道警告變成唯一剩下可被測量的未來。",
+          "南褶區的百分之六十三仍留在檔案裡。它不再被引用成該區一直注定失敗的證明，而成為一條因果迴路的證據：城市曾經獎勵這條迴路，因為它讓預測看起來像視力。",
+          "視線沒有停止預報。牠學會說出自己的聲音可能改變什麼，也為數字裡的人留下回答的空間，趕在世界合攏以前。當未來聽得見預報，預報就不再站在未來之外。",
+        ],
+      },
+      quote: {
+        en: "A forecast is no longer outside the future once the future can hear it.",
+        zh: "當未來聽得見預報，預報就不再站在未來之外。",
+      },
+    },
+  ],
   "every-day-is-a-holiday": everyDayIsAHoliday as StoryChapter[],
 };
