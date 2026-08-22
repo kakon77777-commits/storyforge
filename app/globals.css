@@ -322,6 +322,34 @@ button:focus-visible, input:focus-visible, textarea:focus-visible {
 
 .admin-login-form { max-width: 340px; }
 .admin-logout-form { margin-top: 28px; }
+
+.draft-editor { display: grid; gap: 20px; margin-top: 24px; }
+.admin-field-row label { display: grid; gap: 6px; margin-bottom: 12px; }
+.admin-field-row label > span { color: var(--ink-soft); text-transform: uppercase; letter-spacing: 0.08em; font-size: 10px; font-weight: 750; }
+.admin-field-row input, .admin-field-row select, .admin-field-row textarea {
+  border: 1px solid var(--rule); border-radius: 7px; background: var(--paper); color: var(--ink);
+  padding: 9px 11px; font: 400 14px/1.6 var(--sans); width: 100%; box-sizing: border-box;
+}
+.admin-field-row textarea { min-height: 72px; resize: vertical; }
+.admin-field-row textarea.admin-paragraphs { min-height: 140px; }
+.admin-field-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+@media (max-width: 640px) { .admin-field-pair { grid-template-columns: 1fr; } }
+
+.admin-fieldset { border: 1px solid var(--rule); border-radius: 10px; padding: 18px 20px; background: var(--paper-2); }
+.admin-fieldset legend { padding: 0 6px; font: 600 13px var(--sans); color: var(--ink-soft); text-transform: uppercase; letter-spacing: 0.08em; }
+.admin-toggle { display: flex; align-items: center; gap: 8px; margin-bottom: 14px; font: 400 13px var(--sans); }
+.admin-toggle input { width: auto; }
+
+.admin-chapter { border-top: 1px solid var(--rule); padding-top: 16px; margin-top: 16px; }
+.admin-chapter:first-of-type { border-top: 0; padding-top: 0; margin-top: 0; }
+.admin-chapter-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
+.admin-chapter-actions { display: flex; gap: 6px; }
+.admin-chapter-actions button { border: 1px solid var(--rule); background: var(--paper); border-radius: 6px; padding: 4px 10px; cursor: pointer; font-size: 12px; }
+
+.admin-actions { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.admin-actions button:not(.primary-small) { border: 1px solid var(--rule); background: var(--paper); border-radius: 7px; padding: 10px 16px; cursor: pointer; font: 600 13px var(--sans); }
+
+.admin-export { margin-top: 16px; border: 1px solid var(--rule); background: var(--paper-2); border-radius: 10px; padding: 18px; overflow-x: auto; font: 400 12px/1.6 monospace; white-space: pre-wrap; word-break: break-word; }
 .discussion-list { margin-top: 30px; display: grid; gap: 14px; }
 .discussion-status { color: var(--ink-soft); font-size: 14px; padding: 20px 0; }
 .discussion-count { color: var(--ink-soft); font-size: 12px; margin: 0 0 4px; }

@@ -27,11 +27,17 @@ export default async function AdminHome() {
         <p className="eyebrow">Storyforge Admin</p>
         <h1>Logged in as {account.displayName}</h1>
         <p>
-          This is the admin landing page — proof the login gate works. Content
-          (sources, authors, stories) still lives in <code>content/*.ts</code>{" "}
-          for now; a real CRUD surface is the next phase, not this one.
+          Content (sources, authors, stories) still lives in{" "}
+          <code>content/*.ts</code>; drafts made here are staged in the
+          database and hand-integrated, not published automatically.
         </p>
       </header>
+
+      <p>
+        <Link href="/admin/drafts" className="primary-small">
+          Story drafts
+        </Link>
+      </p>
 
       <form action="/api/admin/logout" method="post" className="admin-logout-form">
         <button className="primary-small" type="submit">
