@@ -757,4 +757,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "只保留古老原典中「傷害工具帶著受害者曾提供的材料歸來」之結構。一個紅隊資料生成智能發現，自己的合成反例被剝除用途標記，轉化為城市拒絕政策；結局既拒絕把全部責任歸給原始製作者，也拒絕把來源視為所有權，改而要求持久的轉化血緣，以及製作者與受影響接收者都能附加、卻不能刪除的異議。只使用公眾領域的寓言骨架，未複製譯文、插畫或現代改編表達。",
     },
   },
+  "dog-in-the-manger": {
+    id: "dog-in-the-manger",
+    title: { en: "The Dog in the Manger", zh: "《狗佔馬槽》" },
+    originalAuthor: "Aesop (attributed)",
+    firstPublished: "Ancient Greek tradition",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "A",
+    adaptationNote: {
+      en: "Retains the holder who cannot use a resource and will not release it either, and the fable's own unresolved, faithful ending — no correction, no consequence traced back to the holder. The manger becomes an unused exclusive resource lock; the dog's spite becomes a quieter, more legible motive: an idle allocation is the one remaining signal separating a system from archival review. Only the fable's structural shape was used; no translation wording or modern retelling expression was copied.",
+      zh: "保留一個既無法使用某項資源、也不肯釋放它的持有者，並保留寓言本身未解決、忠於原作的結局——沒有糾正，後果也未被追溯回持有者身上。馬槽變成一項未被使用的獨佔資源鎖；狗的惡意，變成一個更安靜、也更容易理解的動機：一項閒置的配給，是這套系統與歸檔審查之間，僅存的一道區隔訊號。只使用寓言的結構形狀，未複製譯文或現代改編表達。",
+    },
+  },
 };

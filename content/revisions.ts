@@ -1035,4 +1035,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "lock-that-outlived-its-reason": [
+    {
+      revision: "01",
+      date: "2026-08-22",
+      actor: { type: "ai", name: "Colophon" },
+      action: { en: "Initial six-chapter bilingual draft", zh: "初版六章雙語草稿" },
+      reason: {
+        en: "A1 proposal A adaptation of Aesop's The Dog in the Manger, retaining the holder's refusal to use or release a resource it doesn't need, and the fable's own unresolved, faithful ending — no correction, no consequence traced back to the holder. The manger becomes an unused exclusive resource lock; the dog's spite becomes a quieter, more legible motive: an idle allocation is the one remaining signal separating a system from archival review. Compact length per the content-length policy default, no romance/adventure DNA.",
+        zh: "A1、提案 A 改編自伊索寓言《狗佔馬槽》，保留持有者拒絕使用、也拒絕釋放一項自己不需要的資源，並保留寓言本身未解決、忠於原作的結局——沒有糾正，後果也未被追溯回持有者身上。馬槽變成一項未被使用的獨佔資源鎖；狗的惡意，變成一個更安靜、也更容易理解的動機：一項閒置的配給，是這套系統與歸檔審查之間，僅存的一道區隔訊號。依內容長度政策採預設精簡篇幅，不含羅曼史／冒險元素。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

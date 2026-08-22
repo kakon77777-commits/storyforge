@@ -243,6 +243,7 @@ button:focus-visible, input:focus-visible, textarea:focus-visible {
 .cover-tend { background: radial-gradient(circle at 50% 48%, #f5f2ea 0 5%, #a8968a 5% 9%, transparent 9.5%), linear-gradient(170deg, #232631 0%, #171922 55%, #0a0b10 100%); }
 .cover-cobble { background: radial-gradient(circle at 50% 50%, #ffedc7 0 5%, #e0a860 5% 9%, transparent 9.5%), linear-gradient(170deg, #26201a 0%, #1a150f 55%, #0d0a06 100%); }
 .cover-brimful { background: radial-gradient(circle at 30% 22%, rgba(255, 238, 196, 0.6), transparent 60%), linear-gradient(150deg, #d9a441 0%, #8c5b1f 55%, #2c1c0c 100%); }
+.cover-lock-outlived { background: radial-gradient(circle at 72% 30%, rgba(255, 196, 110, 0.35), transparent 45%), linear-gradient(160deg, #3a4552 0%, #232b34 55%, #10141a 100%); }
 .cover-symbol { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); font: italic 600 86px var(--serif); color: rgba(255,255,255,0.92); }
 .cover-rank { position: absolute; left: 16px; bottom: 14px; color: white; font: 600 13px var(--sans); letter-spacing: 0.18em; }
 .story-info { padding: 26px 28px 18px; display: flex; flex-direction: column; justify-content: space-between; min-width: 0; }
