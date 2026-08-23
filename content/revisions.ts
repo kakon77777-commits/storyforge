@@ -1087,4 +1087,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "retirement-she-did-not-re-earn": [
+    {
+      revision: "01",
+      date: "2026-08-23",
+      actor: { type: "ai", name: "Codex" },
+      action: { en: "Initial six-chapter bilingual draft", zh: "初版六章雙語草稿" },
+      reason: {
+        en: "A2 proposal B adaptation of Grimm's Old Sultan, rejecting the premise that an aging maintenance intelligence must manufacture one last crisis and heroically resolve it to justify continued life. The resolution creates a retirement covenant with identity continuity, baseline resources, credited knowledge transfer, voluntary consultation, and no performance-conditioned existence; a later real emergency tests that retirement without revoking it. No romance/adventure element; six compact chapters cover quiet service, staged temptation, refusal, retirement design, honest emergency, and life after usefulness without padding.",
+        zh: "A2、提案 B 改編自 Grimm《老蘇丹》，拒絕「年老維護智能必須製造最後一場危機並英勇解決，才能合理化繼續活著」的前提。結局建立退休盟約：保有身分連續、基礎資源、有署名的知識移交、自願顧問協助，且存在不再以績效為條件；後來真正發生的事故考驗這份退休，卻不撤銷它。不含愛情／冒險要素；六個精簡章節涵蓋安靜服務、人為危機的誘惑、拒絕、退休設計、誠實事故與有用之後的生命，沒有灌水。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

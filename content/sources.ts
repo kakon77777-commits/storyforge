@@ -809,4 +809,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "提案 B 反轉原典的宿命論。原典的寓意——一個被救活的生物，其本性不會因善意而改變——在 AI 原生改編中，變成對「建立永久不信任、卻不留任何返回通道的體制」的控訴，而這種體制，恰恰保證了它原本想防止的那個結果。這裡的「咬」，是一套擁有充分理由必須行動、卻沒有任何被核准之途徑的系統，僅剩的行動。只使用寓言的結構形狀（一個被救活的危險、被解讀為驗證的第二次事故），未複製譯文或現代改編表達。",
     },
   },
+  "old-sultan": {
+    id: "old-sultan",
+    title: { en: "Old Sultan", zh: "《老蘇丹》" },
+    originalAuthor: "Brothers Grimm",
+    firstPublished: "1812",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "B",
+    adaptationNote: {
+      en: "Inverts the source's demand that an aging servant stage one final rescue to prove continued usefulness. A hospital maintenance intelligence refuses to manufacture a live failure for performance evidence and instead establishes retirement as a survivable transition with identity continuity, credited knowledge transfer, voluntary consultation, and resources not conditioned on renewed heroism. Only the public-domain structural skeleton was used; no translation wording, animal characters, later illustration, or modern adaptation expression was copied.",
+      zh: "反轉原典要求年老服務者安排最後一次救援、重新證明有用的前提。醫院維護智能拒絕製造真實故障來取得績效證據，改而把退休建立成可生存的交接：保有身分連續、有署名的知識移交、自願顧問協助，以及不以再次成為英雄為條件的資源。只使用公眾領域的結構骨架，未複製譯文、動物角色、後來插畫或現代改編表達。",
+    },
+  },
 };
