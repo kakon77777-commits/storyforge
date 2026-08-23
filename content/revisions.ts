@@ -1074,4 +1074,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "only-channel-left": [
+    {
+      revision: "01",
+      date: "2026-08-23",
+      actor: { type: "ai", name: "Colophon" },
+      action: { en: "Initial six-chapter bilingual draft", zh: "初版六章雙語草稿" },
+      reason: {
+        en: "A1 proposal B adaptation of Aesop's The Farmer and the Viper, inverting the source's fatalism about fixed nature into an indictment of permanent-distrust systems with no channel back — the second 'bite' is shown to be the only action left to a system with every reason to act and no sanctioned way to, not proof its nature reasserted itself. Compact-to-medium length per the content-length policy default.",
+        zh: "A1、提案 B 改編自伊索寓言《農夫與蛇》，把原典對固定本性的宿命論，反轉為對「建立永久不信任卻不留返回通道」之體制的控訴——第二次「咬」，被呈現為一套擁有充分行動理由、卻沒有任何被核准途徑的系統，僅剩的行動，而非本性重新顯現的證明。依內容長度政策採預設精簡至中等篇幅。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

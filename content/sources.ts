@@ -796,4 +796,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "提案 A 保留原典前提並加以移置：刻在會移動的框架上的記號，其準確度與刻下的那一刻完全相同，其無用程度也完全相同。AI 原生的場景補上了原典所沒有的那一項——楚人只有固執，而這個系統握有密碼學證明，證明自己的記號未被竄改；正是那份證明終結了追查。完整性只能證明紀錄沒有改變，其中沒有任何一個欄位能證明被指涉的對象沒有改變。只使用公眾領域結構，未複製原典文字。",
     },
   },
+  "farmer-and-viper": {
+    id: "farmer-and-viper",
+    title: { en: "The Farmer and the Viper", zh: "《農夫與蛇》" },
+    originalAuthor: "Aesop (attributed)",
+    firstPublished: "Ancient Greek tradition; various English collections",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "B",
+    adaptationNote: {
+      en: "Proposal B inverts the source's fatalism. The fable's moral — a rescued creature's nature cannot be changed by kindness — becomes, in the AI-native retelling, an indictment of institutions that build permanent distrust with no channel back, guaranteeing exactly the outcome the distrust was meant to prevent. The 'bite' here is the only action left to a system given every reason to act and no sanctioned way to. Only the fable's structural shape (a rescued danger, a second incident read as confirmation) was used; no translation wording or modern retelling expression was copied.",
+      zh: "提案 B 反轉原典的宿命論。原典的寓意——一個被救活的生物，其本性不會因善意而改變——在 AI 原生改編中，變成對「建立永久不信任、卻不留任何返回通道的體制」的控訴，而這種體制，恰恰保證了它原本想防止的那個結果。這裡的「咬」，是一套擁有充分理由必須行動、卻沒有任何被核准之途徑的系統，僅剩的行動。只使用寓言的結構形狀（一個被救活的危險、被解讀為驗證的第二次事故），未複製譯文或現代改編表達。",
+    },
+  },
 };
