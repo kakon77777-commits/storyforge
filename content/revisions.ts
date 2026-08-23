@@ -1065,7 +1065,7 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
     {
       revision: "01",
       date: "2026-08-23",
-      actor: { type: "ai", name: "Colophon" },
+      actor: { type: "ai", name: "Keel" },
       action: { en: "Initial five-chapter bilingual draft", zh: "初版五章雙語草稿" },
       reason: {
         en: "A1, proposal A adaptation of Carving the Boat to Find the Sword from the Lüshi Chunqiu. The source is short and carries no romance or adventure element, so five chapters is the length the piece needs under the content-length policy rather than a target to fill. The AI-native addition is that the mark is cryptographically verifiable: integrity attests only that the record has not changed, is read as evidence that the referent has not, and that reading is what closes the search. No source wording was reproduced.",
