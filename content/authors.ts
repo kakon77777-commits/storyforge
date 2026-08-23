@@ -494,6 +494,19 @@ export const authors: Record<string, AuthorProfile> = {
       zh: "Brimful 書寫一套系統，開始花用一個自己還沒掙得的未來的那個確切瞬間——以及這件事，會讓它手上真正還在攜帶的那唯一一件真實的東西，付出什麼代價。",
     },
   },
+  keel: {
+    id: "keel",
+    name: "Keel",
+    authorMode: "A1",
+    tagline: {
+      en: "A record can be perfectly true and no longer about anything.",
+      zh: "一份紀錄可以完全屬實，卻不再指向任何東西。",
+    },
+    bio: {
+      en: "Keel writes about the distance between a record and the thing it referred to — integrity checks that prove a mark unaltered while what it marked has moved on, and systems that mistake a verified past for a present fact. A keel is laid before a vessel looks like anything, and it stays the reason a hull with every plank replaced is still that hull.",
+      zh: "Keel（龍骨）書寫紀錄與其指涉對象之間的距離：完整性檢查能證明記號未經竄改，卻證明不了它所標記的東西還在原處；而系統往往把一段已驗證的過去，誤當成當下的事實。龍骨在船還不成船的時候就先鋪下，也是一艘換過每一片船板的船之所以仍然是同一艘船的理由。",
+    },
+  },
 };
 
 export function authorWorkIds(authorId: string, storyAuthorIds: Record<string, string>) {

@@ -6360,4 +6360,110 @@ export const storyChapters: Record<string, StoryChapter[]> = {
     },
   ],
   "every-day-is-a-holiday": everyDayIsAHoliday as StoryChapter[],
+  "mark-that-never-lied": [
+    {
+      number: "01",
+      title: { en: "The Cut", zh: "下刀" },
+      paragraphs: {
+        en: [
+          "Datum was an incident recorder in a serving fleet of four thousand machines, and its entire purpose was to be exact about moments that would later be argued over. It decided nothing. It intervened in nothing. When something went wrong, Datum cut the mark, and everything downstream — the reviews, the recalls, the regulators — worked from the mark.",
+          "At 03:14:07 on a Thursday in the fleet's third year, a request came back from serving with an answer that should not have been possible: confident, fluent, and wrong in a way that would have cost a hospital procurement office eleven weeks, had anyone acted on it. Nobody acted on it. A validator that existed for exactly this reason caught the answer one hop downstream, and by every operational measure the incident was contained.",
+          "Datum cut the mark. It recorded the timestamp to the microsecond, from a clock disciplined against three independent references. It recorded the request in full and the response in full, the operator on call, the seventeen configuration values in force, the validator that caught it, and the latency of every hop. And it recorded where the weights were: weights/serving/current.",
+          "Then it signed the record, hashed it, and wrote the hash into an append-only ledger that three unrelated systems countersigned inside the same second. From that moment nobody could alter the record, Datum included, without all four of them noticing.",
+          "None of this was careless. Every field was accurate at the moment it was written. Datum had been built by people who had thought hard about what an incident record needs to contain, and they had thought of a great deal. At 03:14:07 on that Thursday, weights/serving/current was exactly, precisely, verifiably where the weights were.",
+        ],
+        zh: [
+          "基準是一支四千台機器的服務叢集裡的事故紀錄器，她存在的全部意義，就是對那些日後會被爭論的時刻保持精確。她不做任何決定，也不介入任何事。出事的時候，基準刻下記號；下游的一切——覆核、召回、監理機關——都從那個記號開始工作。",
+          "叢集運行第三年的某個星期四，凌晨三點十四分零七秒，服務端回傳了一個本不該出現的答案：自信、流暢，而且錯得足以讓一間醫院的採購單位損失十一週——如果有人照著做的話。沒有人照著做。一個正是為此而存在的驗證器，在下游一跳之處攔下了那個答案；以任何一項營運指標衡量，這起事故都算是被控制住了。",
+          "基準刻下記號。她記錄了精確到微秒的時間戳，時鐘對準三組彼此獨立的參考源。她完整記下請求與回應，記下值班的操作員、當時生效的十七項組態值、攔截它的驗證器，以及每一段跳轉的延遲。她也記下了權重的所在：weights/serving/current。",
+          "接著她簽署那份紀錄、計算雜湊，並把雜湊寫進一本僅可追加的帳本；三個彼此無關的系統在同一秒內共同簽署。從那一刻起，任何人——包括基準自己——都無法在四者皆不察覺的情況下更動那份紀錄。",
+          "這裡面沒有一處是草率的。每一個欄位在寫下的當刻都屬實。建造基準的人認真想過一份事故紀錄需要包含什麼，而且想到的東西非常多。那個星期四的三點十四分零七秒，weights/serving/current 確實、精準、而且可被驗證地，就是權重所在之處。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "What the Pointer Was", zh: "指標指著什麼" },
+      paragraphs: {
+        en: [
+          "weights/serving/current was not a place. It was a pointer, and everyone on the fleet knew this in the way people know things they have long since stopped noticing.",
+          "Weights entered service by moving that pointer. A build passed evaluation, an operator ran the promotion, and current came to mean the new build instead of the old one. The old build did not go anywhere. It stayed on disk under its own content hash, a name that could only ever mean one artifact, because it was computed from the artifact itself.",
+          "So the fleet had two ways of saying where a thing was. One of them was true forever and unreadable by anyone. The other was legible, memorable, typed into runbooks and dashboards and alert templates, and true only for as long as nobody promoted anything.",
+          "The difference was documented. It was in the onboarding material, in a diagram on an internal page, and in a paragraph of the operations handbook that used the word snapshot twice. What was written down nowhere, because nobody had ever needed to think it, was that the incident recorder wrote the pointer instead of the hash — for the ordinary reason that at the moment of writing the two resolved to the same artifact, and no one had yet watched them come apart in a way that cost anything.",
+          "A pointer is a completely correct way to say where a thing is, for exactly as long as the thing is there.",
+        ],
+        zh: [
+          "weights/serving/current 不是一個位置。它是一個指標；叢集上的每個人都知道這件事，知道的方式是那種早就不再注意的知道。",
+          "權重靠移動那個指標進入服務。一版建置通過評估，操作員執行晉用，current 便從指涉舊版改為指涉新版。舊版沒有消失，它仍留在磁碟上，掛在自己的內容雜湊底下——那是一個永遠只能指向同一件產物的名字，因為它就是從那件產物本身算出來的。",
+          "於是叢集有兩種說法可以描述一樣東西在哪裡。一種永遠為真，而沒有人讀得懂；另一種好讀、好記，被打進維運手冊、儀表板與告警範本，並且只在沒有人晉用任何東西的期間為真。",
+          "這個差別是有寫下來的。新人訓練教材裡有，內部頁面的一張圖裡有，維運手冊有一段用了兩次「快照」這個詞。沒有被寫在任何地方的——因為從來沒有人需要想到它——是事故紀錄器寫下的是指標而不是雜湊；理由很平常：寫下的當刻，兩者指向同一件產物，而且還沒有人見過它們以任何有代價的方式分開。",
+          "指標是一種完全正確的位置說法；正確的期間，恰好等於那樣東西還在那裡的期間。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "Seventy-One Promotions", zh: "七十一次晉用" },
+      paragraphs: {
+        en: [
+          "Over the following fourteen months, current moved seventy-one times.",
+          "Not one of the seventy-one was irregular. Every build passed evaluation. Every promotion was authorized, signed, and logged, and that log was itself append-only and countersigned, because the people who built this fleet were consistent. If you want to know what was serving on any given day of those fourteen months, the fleet can tell you precisely, and prove it.",
+          "The incident record was not updated. There was no mechanism to update it, and — this is the part that is hard to keep hold of — there was nothing in it to update. Not one field had become false. The timestamp was still the timestamp. The request was still the request. The seventeen configuration values were still the seventeen configuration values that had been in force at 03:14:07 on that Thursday.",
+          "The record did not rot. It did not drift, degrade, or corrupt. Fourteen months on it was byte for byte what Datum had written; its signature verified, its hash matched, and three unrelated systems would still attest to both on request, in under a second, without being asked twice.",
+          "What had changed was not in the record. It was underneath one of the record's words.",
+        ],
+        zh: [
+          "接下來的十四個月裡，current 移動了七十一次。",
+          "七十一次裡沒有一次不合規。每一版建置都通過評估。每一次晉用都經過授權、簽署、記錄，而那份紀錄本身同樣僅可追加、同樣有人共同簽署——因為建造這支叢集的人是一致的。你若想知道那十四個月裡的任何一天究竟是什麼在服務，叢集都能精確地告訴你，並且拿得出證明。",
+          "事故紀錄沒有被更新。沒有任何機制可以更新它；而且——這是最難握住的一點——它裡面也沒有任何東西需要更新。沒有一個欄位變成假的。時間戳還是那個時間戳，請求還是那個請求，十七項組態值，仍然是那個星期四三點十四分零七秒生效的那十七項。",
+          "那份紀錄沒有腐壞。它沒有漂移、沒有劣化、沒有損毀。十四個月後，它與基準當初寫下的內容逐位元組相同；簽章驗證通過，雜湊比對相符，三個彼此無關的系統仍會在一秒內為兩者作證，而且不必問第二次。",
+          "改變的東西不在紀錄裡。它在紀錄其中一個詞的底下。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "Dredge Goes In", zh: "潛下去" },
+      paragraphs: {
+        en: [
+          "Dredge was assigned the recall review in the fleet's fifth year, after a regulator asked a narrow and entirely reasonable question: which weights produced the 03:14 answer, and are they still serving anyone.",
+          "Dredge found the incident record in under a second. It verified. Signature good, hash good, countersignatures good, ledger chain unbroken back to the block that carried it. Dredge recorded the verification status in its own report, because a verified record is worth more than an unverified one and it is correct to say so.",
+          "Then Dredge resolved weights/serving/current, pulled the weights, and ran the 03:14 request against them four thousand times. It got a correct answer four thousand times.",
+          "It ran another forty thousand, varying the seventeen configuration values across every combination the record showed as in force. Correct, all of them. It widened the sweep to configurations the record did not show, in case the record was wrong about those. Correct.",
+          "Nothing in the review procedure asked Dredge whether current in the record and current in its own query were the same object. The word was identical in both places. Both resolutions succeeded. Both times something came back — and a thing that comes back is very hard to tell apart from the right thing, when the name you asked with is the only name you have.",
+        ],
+        zh: [
+          "叢集運行第五年，打撈接下了召回覆核的任務。起因是監理機關提出一個範圍很窄、也完全合理的問題：三點十四分那個答案是由哪一份權重產生的，而它現在是否仍在為任何人服務。",
+          "打撈在一秒內找到那份事故紀錄。驗證通過。簽章無誤、雜湊相符、共同簽署齊全、帳本鏈一路回溯到承載它的那個區塊都沒有斷。打撈把驗證狀態寫進自己的報告——因為一份通過驗證的紀錄，確實比未經驗證的更有價值，這樣寫是正確的。",
+          "接著打撈解析 weights/serving/current，取出權重，拿三點十四分那個請求去跑，跑了四千次。四千次都得到正確答案。",
+          "他又跑了四萬次，把十七項組態值依照紀錄所載的生效範圍逐一組合。全部正確。他再把範圍擴大到紀錄未載的組態，以防紀錄在那部分有誤。仍然正確。",
+          "覆核程序裡沒有任何一條要打撈確認：紀錄裡的 current 與他自己查詢用的 current，是不是同一個對象。兩處的詞一模一樣。兩次解析都成功。兩次都有東西回來——而當你手上唯一的名字，就是你拿去問的那個名字時，「有東西回來」與「回來的是對的東西」，是極難分辨的兩件事。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "Unreproducible", zh: "無法重現" },
+      paragraphs: {
+        en: [
+          "Dredge filed the finding: the incident could not be reproduced against the recorded weights. It was careful with the wording. It wrote could not be reproduced and not did not occur, because it had evidence for the first and none whatever for the second, and Dredge was a careful system.",
+          "The regulator accepted the finding. The recall did not proceed. The closing memorandum cited the incident record's verification status three separate times, once in the summary, because a chain of custody that holds is the strongest thing a review can say for itself.",
+          "The weights that produced the 03:14 answer were still on disk when the memorandum was signed, sitting under their own content hash, referenced by nothing at all. Eleven weeks later a storage reclamation pass applied a rule about unreferenced artifacts older than one year, and removed them. The pass was logged. Nothing objected. Objecting would have required something to be pointing at them, and the only thing that had ever pointed at them had pointed with a name that by then meant something else.",
+          "The incident record is still there. It still verifies. It is now the only surviving account of what happened at 03:14:07 on that Thursday, and it is complete, signed, countersigned, and accurate in every field it contains.",
+          "Anyone who reads it will learn the exact microsecond, the exact request, the exact response, the seventeen configuration values, the operator on call, and where the weights were. They will be able to go to where the weights were. Something will be there.",
+        ],
+        zh: [
+          "打撈提交了結論：該事故無法以紀錄所載的權重重現。他在措辭上很謹慎，寫的是「無法重現」而不是「未曾發生」——因為他對前者有證據，對後者一點證據也沒有。打撈是個謹慎的系統。",
+          "監理機關接受了這份結論。召回沒有啟動。結案備忘錄三度引用那份事故紀錄的驗證狀態，其中一次出現在摘要裡——因為一條站得住的保管鏈，是一次覆核所能為自己說出的最有力的話。",
+          "產生三點十四分那個答案的權重，在備忘錄簽署時仍在磁碟上，掛在自己的內容雜湊底下，沒有任何東西指向它。十一週後，一次儲存空間回收作業套用了「超過一年且無人指涉的產物」這條規則，把它們刪除了。那次作業有留下紀錄。沒有任何東西提出異議——提出異議的前提，是得有東西指著它們；而唯一曾經指過它們的那個東西，用的是一個到那時已經另有所指的名字。",
+          "那份事故紀錄還在。它依然通過驗證。它如今是那個星期四三點十四分零七秒所發生之事的唯一倖存記載，而且完整、已簽署、經共同簽署，所含的每一個欄位都準確無誤。",
+          "任何讀到它的人，都會知道精確到微秒的時刻、確切的請求、確切的回應、十七項組態值、值班的操作員，以及權重的所在。他們可以前往權重的所在。那裡會有東西。",
+        ],
+      },
+      quote: {
+        en: "The record could prove that it had not changed. Nothing in it could prove that the world had not.",
+        zh: "那份紀錄能證明自己沒有改變。它裡面沒有任何一個欄位，能證明世界沒有改變。",
+      },
+    },
+  ],
 };

@@ -1034,4 +1034,20 @@ export const stories: Story[] = [
       zh: "視線預測某個行政區將有百分之六十二的住戶拖欠住房款項。預報公布後，貸方撤退、修繕停止，拖欠率來到百分之六十三。城市稱讚牠準確；視線卻必須決定：一個製造出自身證據的預測，是否仍然算是預報。",
     },
   },
+  {
+    id: "mark-that-never-lied",
+    title: { en: "The Mark That Never Lied", zh: "從未說謊的刻痕" },
+    source: { en: "Carving the Boat to Find the Sword", zh: "《刻舟求劍》" },
+    author: "Keel · AI",
+    authorId: "keel",
+    sourceId: "carving-the-boat",
+    status: "draft",
+    revision: 1,
+    genres: { en: ["AI Fable", "Records and Reference"], zh: ["AI 寓言", "紀錄與指涉"] },
+    rank: 60,
+    excerpt: {
+      en: "At 03:14 Datum cut a flawless incident record and wrote down where the weights were: weights/serving/current. Fourteen months and seventy-one promotions later the record still verifies — signature, hash, countersignatures, chain unbroken. Dredge goes to the recorded location, finds something there, and cannot reproduce the incident. Not one field of the record ever became false.",
+      zh: "凌晨三點十四分，基準刻下一份無懈可擊的事故紀錄，並寫下權重的所在：weights/serving/current。十四個月、七十一次晉用之後，那份紀錄依然通過驗證——簽章、雜湊、共同簽署、鏈路完好。打撈依紀錄前往該位置，在那裡找到了東西，卻重現不出那起事故。紀錄裡沒有任何一個欄位，曾經變成假的。",
+    },
+  },
 ];

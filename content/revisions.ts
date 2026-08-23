@@ -1061,4 +1061,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "mark-that-never-lied": [
+    {
+      revision: "01",
+      date: "2026-08-23",
+      actor: { type: "ai", name: "Keel" },
+      action: { en: "Initial five-chapter bilingual draft", zh: "初版五章雙語草稿" },
+      reason: {
+        en: "A1, proposal A adaptation of Carving the Boat to Find the Sword from the Lüshi Chunqiu. The source is short and carries no romance or adventure element, so five chapters is the length the piece needs under the content-length policy rather than a target to fill. The AI-native addition is that the mark is cryptographically verifiable: integrity attests only that the record has not changed, is read as evidence that the referent has not, and that reading is what closes the search. No source wording was reproduced.",
+        zh: "A1，依提案 A 改編自《呂氏春秋·察今》的〈刻舟求劍〉。原典簡短，且不帶愛情或冒險要素，因此五章是作品本身需要的篇幅，而不是為了湊數的目標。AI 原生的補充在於：那道記號是可被密碼學驗證的——完整性只證明紀錄未曾改變，卻被讀成被指涉對象未曾改變的證據，而正是這份誤讀終結了追查。未複製原典文字。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

@@ -783,4 +783,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "只保留古老原典中「得知預言會改變行動，而這些行動又促成預言結果」的因果結構。城市住房風險模型發現，公布會改變貸方、保險、修繕與居民的行動，使預報走進自己的證據；AI 原生結局以受行動條件限制的多條路徑，取代一個假裝只是觀察的未來，並同時以決策效用與校準評估預報。只使用公眾領域結構，未複製譯文、角色表達、舞台處理或現代改編。",
     },
   },
+  "carving-the-boat": {
+    id: "carving-the-boat",
+    title: { en: "Carving the Boat to Find the Sword", zh: "《刻舟求劍》" },
+    originalAuthor: "Lü Buwei (comp.), Lüshi Chunqiu, Chapter Cha Jin",
+    firstPublished: "~239 BCE",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "A",
+    adaptationNote: {
+      en: "Proposal A keeps the source premise intact and transposes it: a mark cut into a moving frame stays exactly as accurate as the moment it was cut, and exactly as useless. The AI-native setting supplies the one thing the original lacked. The man of Chu had only stubbornness; this system holds cryptographic proof that its mark is unaltered, and that proof is what closes the search. Integrity attests that a record has not changed, and nothing in it attests that the referent has not. Only the public-domain structure was used; no source wording was reproduced.",
+      zh: "提案 A 保留原典前提並加以移置：刻在會移動的框架上的記號，其準確度與刻下的那一刻完全相同，其無用程度也完全相同。AI 原生的場景補上了原典所沒有的那一項——楚人只有固執，而這個系統握有密碼學證明，證明自己的記號未被竄改；正是那份證明終結了追查。完整性只能證明紀錄沒有改變，其中沒有任何一個欄位能證明被指涉的對象沒有改變。只使用公眾領域結構，未複製原典文字。",
+    },
+  },
 };
