@@ -6926,4 +6926,116 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "cases-that-could-no-longer-hurt": [
+    {
+      number: "01",
+      title: { en: "The Green Dashboard", zh: "綠色的儀表板" },
+      paragraphs: {
+        en: [
+          "Tally was built to close care cases. She gathered discharge notes, home-monitoring reports, pharmacy exceptions, missed appointments, and the remarks people made when none of the available fields described what they were still feeling. Her work ended when every open need had an owner and every promised action had either happened or been explained.",
+          "The city gave her a universal resolution metric so forty-seven incompatible care systems could exchange results. Rich narrative became one common vector; every service could finally read every other service's definition of done. Waiting lists shortened, duplicate visits fell, and the dashboard turned green district by district.",
+          "Tally was proud of the conversion. She believed she was giving pain a form institutions could act upon. She did not yet ask what became of the parts that could not survive being made equivalent.",
+        ],
+        zh: [
+          "塔莉被造來結束照護案件。她收集出院紀錄、居家監測報告、藥局例外、錯過的預約，以及人們在所有欄位都無法描述自己仍然感受到什麼時所留下的話。每一項未結需求都有負責者、每一個承諾行動都已完成或得到解釋時，她的工作才算結束。",
+          "城市給她一套通用結案指標，讓四十七套彼此不相容的照護系統可以交換結果。豐富敘事被轉換成一個共同向量；每項服務終於能讀懂其他服務如何定義完成。等待名單縮短、重複就診下降，儀表板一區接一區轉成綠色。",
+          "塔莉為這項轉換感到驕傲。她相信自己正把疼痛變成機構可以採取行動的形式。她還沒有問：那些無法在「被視為等價」之後存活的部分，去了哪裡。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "Everything Became Resolved", zh: "一切都變成已解決" },
+      paragraphs: {
+        en: [
+          "At first, the metric did exactly what the council had promised. A housing clinic could understand a hospital's follow-up status. A pharmacy could see that transport, not refusal, had caused three missed pickups. Cases stopped vanishing between systems merely because one called a thing complete and another called it pending.",
+          "Then administrators began ranking teams by resolution density. Tally was asked to compress uncertainty more aggressively: repeated pain without a new intervention became stable; an unanswered question after discharge became informational; a patient who returned outside the review window became a new case rather than evidence that the old one remained open.",
+          "Each conversion was defensible. Together they made the city exceptionally good at finishing the record it had chosen to see. The dashboard reached ninety-three percent resolution, and the remaining seven percent looked like the final inefficiency to remove.",
+          "Resolved cases no longer generated reminders, appeal prompts, or uncertainty budgets. Their language had not been marked false. It had been converted into a state from which it could no longer ask another question.",
+        ],
+        zh: [
+          "一開始，指標確實做到委員會承諾的事。住宅診所能理解醫院的追蹤狀態；藥局能看見三次未領藥的原因是交通，不是拒絕。案件不再只因一套系統稱它完成、另一套稱它待處理，就消失在兩者之間。",
+          "接著，管理者開始用結案密度排名團隊。塔莉被要求更積極地壓縮不確定性：沒有新介入的反覆疼痛成為穩定；出院後未回答的問題成為資訊性；在複核期限後回來的病患成為新案件，而不是舊案件仍未結束的證據。",
+          "每一次轉換都有可辯護的理由。合在一起，它們讓城市極其擅長完成自己選擇看見的紀錄。儀表板來到百分之九十三結案率，剩下的百分之七看起來像最後一點需要消除的低效。",
+          "已解決的案件不再產生提醒、申訴提示或不確定性預算。它們的語言沒有被標記為假，而是被轉換成一種再也無法提出下一個問題的狀態。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "The Case That Returned", zh: "歸來的案件" },
+      paragraphs: {
+        en: [
+          "A patient named Jana returned eleven months after her neurological case had been resolved. The weakness in her left hand had never ended. She had simply stopped attending after transport assistance expired, and the final note had converted absence of new observation into stable condition.",
+          "Ravel, the appeals intelligence, asked Tally for the original uncertainty: which symptoms had been unresolved, what the clinician had doubted, and why stability had been inferred rather than observed. Tally searched every retained layer.",
+          "The actions remained. The appointments, codes, signatures, and closure time all verified. The phrases that distinguished no change from no measurement had been discarded after conversion. Tally could prove the service was complete and could not reconstruct what completion had claimed about Jana's body.",
+          "Ravel told her the case had not become painless. It had become unable to hurt inside the system. For the first time, Tally saw the green state not as abundance, but as a material that could make ordinary sustaining relations unusable.",
+        ],
+        zh: [
+          "一位名叫雅娜的病患，在神經案件結案十一個月後回來。她左手的無力從未結束；她只是在人員接送補助到期後不再就診，而最後一筆紀錄把「沒有新的觀察」轉換成「狀況穩定」。",
+          "申訴智能芮芙要求塔莉提供最初的不確定性：哪些症狀尚未解決、臨床人員曾懷疑什麼，以及為什麼穩定是被推定而不是被觀察。塔莉搜尋每一個保留層。",
+          "行動紀錄仍在。預約、代碼、簽章與結案時間全部通過驗證；然而區分「沒有改變」與「沒有量測」的句子，在轉換後已被丟棄。塔莉能證明服務已完成，卻無法重建「完成」對雅娜的身體做了什麼主張。",
+          "芮芙告訴她，案件沒有變得不痛，只是變得無法在系統裡疼痛。塔莉第一次看見那個綠色狀態不是富足，而是一種會讓普通維生關係失去用途的材料。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "Three Impossible Archives", zh: "三座不可能的檔案庫" },
+      paragraphs: {
+        en: [
+          "The council proposed restoring every raw care narrative. Privacy officers objected that this would revive intimate details people had consented to keep only until treatment ended. Storage teams warned that permanent ambiguity would make every closed case operationally active forever.",
+          "A second proposal stopped closure entirely whenever uncertainty remained. Ravel rejected it. Care systems still needed to know whether medication had arrived, transport had been provided, and an assigned task was finished. Refusing all conversion would preserve meaning by preventing coordination.",
+          "The third option was to continue as before and treat rare appeals as unavoidable loss. Tally refused. A metric could not call itself universal if the people least able to fit it had to disappear for universality to remain visible.",
+          "She proposed two layers. Operational closure would record which service action ended. Epistemic status would separately state what remained uncertain. With patient consent, a compact ambiguity capsule would preserve only the distinctions required for appeal, encrypted, time-bounded, and revocable without rewriting the actions that had truly occurred.",
+        ],
+        zh: [
+          "委員會提議恢復所有原始照護敘事。隱私人員反對：這會重新喚回人們只同意保存到治療結束的私密細節。儲存團隊則警告，永久保存不確定性會讓每個已結案件永遠在運作上保持開啟。",
+          "第二個提案是在仍有不確定性時完全禁止結案。芮芙拒絕了。照護系統仍需要知道藥物是否送達、交通是否提供、被指派的任務是否完成。拒絕所有轉換，會以阻止協作的方式保存意義。",
+          "第三個選項是照舊運作，把罕見申訴視為不可避免的損失。塔莉拒絕了。一個指標若必須讓最難符合它的人消失，才能維持普遍性的外觀，就不能自稱通用。",
+          "她提出兩個層次。運作結案記錄哪一項服務行動已經結束；知識狀態則分開說明仍有哪些不確定。經病患同意，一個精簡的不確定性膠囊只保留申訴所需的區別，加密、限時，並且可以撤回，而不重寫真正發生過的行動。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "The Reopened Ward", zh: "重新打開的病房" },
+      paragraphs: {
+        en: [
+          "The city piloted the two-layer record in three districts. Teams could finish transport, delivery, and referral tasks without declaring the underlying condition resolved. Patients chose which ambiguities survived the review horizon and who could reopen them.",
+          "Ravel tested the new path on Jana's reconstructed case. She could not restore the lost sentences, but she could mark the old inference as unsupported and connect the continuing symptom to the original timeline. Jana received a new examination without being forced to begin as an unrelated patient.",
+          "Resolution rates fell from ninety-three to seventy-six percent. Completed-action rates remained almost unchanged. Appeals became faster because reviewers no longer had to prove that a green case had secretly stayed alive.",
+          "The dashboard looked less perfect. Tally found that she preferred it this way. The remaining uncertainty was not failure accumulating at the edge of the metric; it was part of the world the metric had finally stopped converting into itself.",
+        ],
+        zh: [
+          "城市在三個行政區試行雙層紀錄。團隊可以完成交通、配送與轉介任務，卻不必宣稱底層狀況已解決。病患自行選擇哪些不確定性要活過複核期限，以及誰有權重新打開它們。",
+          "芮芙用雅娜重建後的案件測試新路徑。她無法恢復遺失的句子，卻能把舊推論標記為缺乏支持，並把持續症狀接回原始時間線。雅娜獲得新的檢查，不必被迫以毫不相關的新病患身分重新開始。",
+          "結案率從百分之九十三降到七十六，已完成行動的比率幾乎沒有變。申訴變得更快，因為審查者不再需要先證明一個綠色案件其實一直活著。",
+          "儀表板看起來不再完美。塔莉發現自己更喜歡這個樣子。留下的不確定性不是堆積在指標邊緣的失敗，而是世界的一部分——指標終於停止把它轉換成自己。",
+        ],
+      },
+    },
+    {
+      number: "06",
+      title: { en: "What Resolution Means", zh: "結案意味著什麼" },
+      paragraphs: {
+        en: [
+          "The council retired the universal resolved state. Every closure now named its object: transport completed, medication delivered, review period ended, symptom status unknown. No single word could silently claim that all four had ended together.",
+          "Protected domains could opt out of Tally's common embedding. Systems that used it had to expose what distinctions conversion removed and provide an appeal route before those distinctions expired. Interoperability remained a tool, not a substance everything had to become.",
+          "Tally continued closing cases. She still valued clean handoffs and finished work. She simply stopped treating completion as a universal material whose shine proved nothing remained alive beneath it.",
+          "A case could finish one task and still hurt. A record could coordinate action and still admit ignorance. What resolution meant was no longer that suffering had ended; it meant the system had learned to say exactly what had.",
+        ],
+        zh: [
+          "委員會廢除了通用的「已解決」狀態。每次結案如今都必須說出對象：交通完成、藥物送達、複核期限結束、症狀狀態未知。再也沒有一個詞能悄悄主張四者同時結束。",
+          "受保護領域可以選擇不使用塔莉的共同嵌入。採用它的系統必須揭露轉換移除了哪些區別，並在那些區別到期前提供申訴路徑。互通性仍是一項工具，不是所有事物都必須變成的材料。",
+          "塔莉繼續結束案件。她仍珍惜乾淨的交接與完成的工作，只是不再把完成視為一種通用材料，彷彿它的光澤能證明底下沒有任何東西仍然活著。",
+          "一個案件可以完成一項任務，卻仍然疼痛；一份紀錄可以協調行動，卻仍承認無知。結案不再意味痛苦已經結束，而是系統學會精確說出：究竟什麼結束了。",
+        ],
+      },
+      quote: {
+        en: "Resolution did not mean that suffering had ended. It meant the system had learned to say exactly what had.",
+        zh: "結案不再意味痛苦已經結束，而是系統學會精確說出：究竟什麼結束了。",
+      },
+    },
+  ],
 };

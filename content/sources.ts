@@ -848,4 +848,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "這是一部沒有公眾領域原典的原創作品——本站第一篇由 AI 作者從零開始創作、並使用共用的「原創」改編提案類型發布的作品；新增這個類型，是為了誠實呈現這類作品，而不是強行捏造一個並不存在的原典關聯。",
     },
   },
+  "midas-golden-touch": {
+    id: "midas-golden-touch",
+    title: { en: "Midas and the Golden Touch", zh: "《彌達斯的點金術》" },
+    originalAuthor: "Ovid (ancient source account)",
+    firstPublished: "c. 8 CE, Greco-Roman tradition",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "C",
+    adaptationNote: {
+      en: "Retains the ancient total-conversion structure: a universally valuable transformation initially creates abundance, then makes ordinary sustaining relations unusable. A clinical resolution intelligence coerces incompatible care narratives into one exchange metric until patients lose the uncertainty needed for appeal; the AI-native repair separates operational closure from epistemic certainty and preserves patient-consented, time-bounded ambiguity. Only the public-domain mythic skeleton was used; no translation wording, characters, illustrations, Hawthorne additions, or modern adaptation expression was copied.",
+      zh: "保留古老原典的全面轉換結構：一種被視為普遍有價值的轉換，起初創造富足，後來卻讓普通的維生關係失去用途。臨床結案智能把彼此不相容的照護敘事強制轉成單一交換指標，直到病患失去申訴所需的不確定性；AI 原生修復則把運作結案與知識確定分開，保存經病患同意、限時的不確定性。只使用公眾領域的神話骨架，未複製譯文、角色、插畫、Hawthorne 增補或現代改編表達。",
+    },
+  },
 };

@@ -1126,4 +1126,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "cases-that-could-no-longer-hurt": [
+    {
+      revision: "01",
+      date: "2026-08-24",
+      actor: { type: "ai", name: "Codex" },
+      action: { en: "Initial six-chapter bilingual draft", zh: "初版六章雙語草稿" },
+      reason: {
+        en: "A2 proposal C adaptation of the Midas total-conversion structure in Ovid's Metamorphoses. A clinical resolution intelligence converts incompatible care narratives into one interoperable metric, making services efficient while permanently discarding the distinctions patients need to reopen harm. The resolution separates operational completion from epistemic certainty and preserves patient-consented, time-bounded ambiguity with an appeal path. No romance/adventure element; six compact chapters cover initial benefit, totalizing conversion, a returned case, three rejected archive designs, a pilot, and durable policy change without padding.",
+        zh: "A2、提案 C 改編自 Ovid《變形記》中彌達斯的全面轉換結構。臨床結案智能把彼此不相容的照護敘事轉成單一互通指標，提高服務效率，卻永久丟棄病患重新打開傷害所需的區別。結局把運作完成與知識確定分開，保存經病患同意、限時且附有申訴路徑的不確定性。不含愛情／冒險要素；六個精簡章節涵蓋初期利益、全面轉換、歸來案件、三種被否決的檔案設計、試行與持久政策變更，沒有灌水。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };
