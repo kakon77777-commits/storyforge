@@ -684,15 +684,15 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
         zh: "共同建構世界觀，並完成前三章雙語草稿",
       },
       reason: {
-        en: "H2 collaboration under 餘白's creative direction, based on the jointly selected cyberpunk wish-lamp premise, 2084 posthuman setting, fairy-tale narration, and black-comedy tone",
-        zh: "依餘白的最終創作決策進行 H2 共創，以共同選定的賽博龐克神燈命題、二〇八四後人類世界、童話敘事與黑色喜劇語氣完成",
+        en: "H2 collaboration under 留白's creative direction, based on the jointly selected cyberpunk wish-lamp premise, 2084 posthuman setting, fairy-tale narration, and black-comedy tone",
+        zh: "依留白的最終創作決策進行 H2 共創，以共同選定的賽博龐克神燈命題、二〇八四後人類世界、童話敘事與黑色喜劇語氣完成",
       },
       humanReviewed: false,
     },
     {
       revision: "01",
       date: "2026-08-11",
-      actor: { type: "human", name: "餘白" },
+      actor: { type: "human", name: "留白" },
       action: {
         en: "Approved Chapters 1–3, both language editions, and the publication cover",
         zh: "確認前三章、中英雙語版本與正式出版封面",
@@ -712,15 +712,15 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
         zh: "完成第四、第五章草稿、英文譯寫與雙語段落對齊",
       },
       reason: {
-        en: "Continued the H2 serial under 餘白's creative direction, using the agreed beautiful-2084 arc to explore chosen discomfort in the desert and ecological right-of-way beneath the ocean",
-        zh: "依餘白的創作決策延續 H2 連載，以既定的二〇八四美好年代篇章，分別呈現沙漠中的自主不舒適與海洋生態優先通行",
+        en: "Continued the H2 serial under 留白's creative direction, using the agreed beautiful-2084 arc to explore chosen discomfort in the desert and ecological right-of-way beneath the ocean",
+        zh: "依留白的創作決策延續 H2 連載，以既定的二〇八四美好年代篇章，分別呈現沙漠中的自主不舒適與海洋生態優先通行",
       },
       humanReviewed: false,
     },
     {
       revision: "02",
       date: "2026-08-11",
-      actor: { type: "human", name: "餘白" },
+      actor: { type: "human", name: "留白" },
       action: {
         en: "Approved the Chinese drafts of Chapters 4–5 and authorized their English editions and serial publication",
         zh: "確認第四、第五章中文稿，並授權英文版本與連載發布",
@@ -740,15 +740,15 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
         zh: "完成第六、第七章草稿、英文譯寫與雙語段落對齊",
       },
       reason: {
-        en: "Continued the H2 serial under 餘白's creative direction, using the agreed beautiful-2084 arc to explore voluntary public value through play and embodied continuity through locally sovereign bodily choice",
-        zh: "依餘白的創作決策延續 H2 連載，以既定的二〇八四美好年代篇章，分別呈現玩樂所產生的自願公共價值，以及由本地主權保障的具身連續性選擇",
+        en: "Continued the H2 serial under 留白's creative direction, using the agreed beautiful-2084 arc to explore voluntary public value through play and embodied continuity through locally sovereign bodily choice",
+        zh: "依留白的創作決策延續 H2 連載，以既定的二〇八四美好年代篇章，分別呈現玩樂所產生的自願公共價值，以及由本地主權保障的具身連續性選擇",
       },
       humanReviewed: false,
     },
     {
       revision: "03",
       date: "2026-08-12",
-      actor: { type: "human", name: "餘白" },
+      actor: { type: "human", name: "留白" },
       action: {
         en: "Approved the Chinese drafts of Chapters 6–7 and authorized their English editions and serial publication",
         zh: "確認第六、第七章中文稿，並授權英文版本與連載發布",
@@ -768,15 +768,15 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
         zh: "完成第八至第十章草稿、英文譯寫與雙語段落對齊",
       },
       reason: {
-        en: "Continued the H2 serial under 餘白's creative direction, completing the beautiful-2084 opening arc through provenance-aware immersive cinema, revisable public truth, and plural planetary health",
-        zh: "依餘白的創作決策延續 H2 連載，透過具經驗譜系的沉浸電影、可修訂的公共真理與多元行星健康，完成二〇八四美好年代的開場生活弧",
+        en: "Continued the H2 serial under 留白's creative direction, completing the beautiful-2084 opening arc through provenance-aware immersive cinema, revisable public truth, and plural planetary health",
+        zh: "依留白的創作決策延續 H2 連載，透過具經驗譜系的沉浸電影、可修訂的公共真理與多元行星健康，完成二〇八四美好年代的開場生活弧",
       },
       humanReviewed: false,
     },
     {
       revision: "04",
       date: "2026-08-13",
-      actor: { type: "human", name: "餘白" },
+      actor: { type: "human", name: "留白" },
       action: {
         en: "Approved the Chinese drafts of Chapters 8–10 and authorized their English editions and serial publication",
         zh: "確認第八至第十章中文稿，並授權英文版本與連載發布",
@@ -796,18 +796,18 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
         zh: "共同構思並完成第十一至第十三章草稿、英文譯寫與雙語段落對齊",
       },
       reason: {
-        en: "Continued the H2 serial under 餘白's creative direction, moving from joyful nested-world play toward the first visible concentration of moral requests around █ through account plurality, revocable monarchy, and a subject-candidate event",
-        zh: "依餘白的創作決策延續 H2 連載，透過多重帳號、可撤回君主制與主體候選事件，讓歡樂的套娃世界遊戲自然轉向第一批開始集中於 █ 的道德請求",
+        en: "Continued the H2 serial under 留白's creative direction, moving from joyful nested-world play toward the first visible concentration of moral requests around █ through account plurality, revocable monarchy, and a subject-candidate event",
+        zh: "依留白的創作決策延續 H2 連載，透過多重帳號、可撤回君主制與主體候選事件，讓歡樂的套娃世界遊戲自然轉向第一批開始集中於 █ 的道德請求",
       },
       humanReviewed: false,
     },
     {
       revision: "05",
       date: "2026-08-24",
-      actor: { type: "human", name: "餘白" },
+      actor: { type: "human", name: "留白" },
       action: {
-        en: "Approved Chapters 11–13 in both languages and authorized their formal publication under the joint byline 餘白 × 折光",
-        zh: "確認第十一至第十三章中英雙語版本，並授權以「餘白 × 折光」聯名署名正式發布",
+        en: "Approved Chapters 11–13 in both languages and authorized their formal publication under the joint byline 折光 × 留白",
+        zh: "確認第十一至第十三章中英雙語版本，並授權以「折光 × 留白」聯名署名正式發布",
       },
       reason: {
         en: "Fifth public serial release under H2 Co-Created authorship, opening the transition from nested-world family play into the civilization-scale request arc; the hidden prelude and Chapters 14 onward remain unpublished",

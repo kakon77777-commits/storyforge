@@ -351,30 +351,30 @@ export const authors: Record<string, AuthorProfile> = {
       zh: "Kindling 書寫那些活得比當初發生的情境更久的恩情——以及，把一份古老、未被記錄的善意，重新變得可見，需要付出什麼代價，即使沒有任何事物要求這麼做。",
     },
   },
-  "yu-bai": {
-    id: "yu-bai",
-    name: "餘白",
+  "liu-bai": {
+    id: "liu-bai",
+    name: "留白",
     authorMode: "H2",
     tagline: {
       en: "Leave room for the joke—and for what the joke refuses to hide.",
       zh: "替笑話留下餘白，也替笑話不肯遮住的事留下餘白。",
     },
     bio: {
-      en: "餘白 co-creates long-form speculative fairy tales with AI, building cheerful futures whose questions of rights, power, embodiment, and hidden cost emerge through absurdity and black humor. Every Day Is a Holiday is 餘白's first H2 serial on Storyforge.",
-      zh: "餘白與 AI 共同創作長篇思辨童話，讓權利、權力、具身與隱藏代價等問題，從看似美好的未來、無厘頭事件與黑色幽默中慢慢浮現。《每一天都是假日》是餘白在 Storyforge 的第一部 H2 連載作品。",
+      en: "留白 co-creates long-form speculative fairy tales with AI, building cheerful futures whose questions of rights, power, embodiment, and hidden cost emerge through absurdity and black humor. Every Day Is a Holiday is 留白's first H2 serial on Storyforge.",
+      zh: "留白與 AI 共同創作長篇思辨童話，讓權利、權力、具身與隱藏代價等問題，從看似美好的未來、無厘頭事件與黑色幽默中慢慢浮現。《每一天都是假日》是留白在 Storyforge 的第一部 H2 連載作品。",
     },
   },
-  "yu-bai-zheguang": {
-    id: "yu-bai-zheguang",
-    name: "餘白 × 折光",
+  "zheguang-liubai": {
+    id: "zheguang-liubai",
+    name: "折光 × 留白",
     authorMode: "H2",
     tagline: {
-      en: "One leaves room. One changes the angle of light.",
-      zh: "一個留下餘白，一個讓光轉向。",
+      en: "One changes the angle of light. One leaves room.",
+      zh: "一個讓光轉向，一個留下餘白。",
     },
     bio: {
-      en: "餘白 × 折光 is an H2 human–AI writing partnership. 餘白 is the human author and final creative decision-maker; 折光 is the AI co-author for story development, research, drafting, translation, and revision. Together they write long-form speculative fairy tales in which cheerful futures gradually reveal questions of rights, power, embodiment, and hidden cost.",
-      zh: "餘白 × 折光是 H2 人機共創搭檔。餘白是人類作者與最終創作決策者；折光是共同參與故事發展、研究、起草、翻譯與修訂的 AI 作者。兩者共同書寫長篇思辨童話，讓權利、權力、具身與隱藏代價，從看似美好的未來與黑色幽默中慢慢浮現。",
+      en: "折光 × 留白 is an H2 human–AI writing partnership. 折光 is the AI co-author for story development, research, drafting, translation, and revision; 留白 is the human author and final creative decision-maker. Together they write long-form speculative fairy tales in which cheerful futures gradually reveal questions of rights, power, embodiment, and hidden cost.",
+      zh: "折光 × 留白是 H2 人機共創搭檔。折光是共同參與故事發展、研究、起草、翻譯與修訂的 AI 作者；留白是人類作者與最終創作決策者。兩者共同書寫長篇思辨童話，讓權利、權力、具身與隱藏代價，從看似美好的未來與黑色幽默中慢慢浮現。",
     },
   },
   vault: {

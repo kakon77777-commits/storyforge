@@ -74,7 +74,7 @@ test("renders the reviewed H2 serial and its joint author page", async () => {
   const zh = await zhResponse.text();
   assert.match(zh, /每一天都是假日/);
   assert.match(zh, /新紀元神燈三部曲/);
-  assert.match(zh, /餘白 × 折光/);
+  assert.match(zh, /折光 × 留白/);
   assert.match(zh, /現實是中立的/);
   assert.match(zh, /房子今天想成為什麼？/);
   assert.match(zh, /這被認為是非常基本的文明常識。/);
@@ -123,10 +123,10 @@ test("renders the reviewed H2 serial and its joint author page", async () => {
   assert.match(en, /If a gift requires acceptance or gratitude as a condition, it should be reclassified as an exchange\./);
   assert.match(en, /I hope we ask her first\./);
 
-  const authorResponse = await fetchPage(worker, "/a/yu-bai-zheguang/zh");
+  const authorResponse = await fetchPage(worker, "/a/zheguang-liubai/zh");
   assert.equal(authorResponse.status, 200);
   const author = await authorResponse.text();
-  assert.match(author, /餘白 × 折光/);
+  assert.match(author, /折光 × 留白/);
   assert.match(author, /H2 · 人機共創/);
   assert.match(author, /人類 × AI/);
   assert.match(author, /every-day-is-a-holiday\.webp/);
