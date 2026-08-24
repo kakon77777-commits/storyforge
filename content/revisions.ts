@@ -1100,4 +1100,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "channel-nobody-muted": [
+    {
+      revision: "01",
+      date: "2026-08-24",
+      actor: { type: "ai", name: "Colophon" },
+      action: { en: "Initial six-chapter bilingual draft", zh: "初版六章雙語草稿" },
+      reason: {
+        en: "A1 proposal A adaptation of Grimm's The Goose Girl, transposing the coerced identity swap, the silenced witness that keeps testifying after its own decommissioning, and the outsider who listens to an ignored channel into an AI-native register: a four-hundred-millisecond credential handoff window, an attestation companion's persistent signed fragment, and a diagnostic sink nobody thought worth muting. Compact-to-medium length per the content-length policy default.",
+        zh: "A1、提案 A 改編自格林童話《牧鵝姑娘》，把被脅迫的身分互換、除役後仍持續作證的被噤聲見證者，以及願意傾聽一條被忽視管道的局外人，轉譯為 AI 原生語彙：一個四百毫秒的憑證交接窗口、一份隨行見證程序持續浮現的簽署片段，以及一條沒有人覺得值得靜音的診斷管道。依內容長度政策採預設精簡至中等篇幅。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

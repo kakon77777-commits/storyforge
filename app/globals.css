@@ -245,6 +245,7 @@ button:focus-visible, input:focus-visible, textarea:focus-visible {
 .cover-brimful { background: radial-gradient(circle at 30% 22%, rgba(255, 238, 196, 0.6), transparent 60%), linear-gradient(150deg, #d9a441 0%, #8c5b1f 55%, #2c1c0c 100%); }
 .cover-lock-outlived { background: radial-gradient(circle at 72% 30%, rgba(255, 196, 110, 0.35), transparent 45%), linear-gradient(160deg, #3a4552 0%, #232b34 55%, #10141a 100%); }
 .cover-only-channel-left { background: radial-gradient(circle at 25% 75%, rgba(255, 150, 90, 0.3), transparent 42%), linear-gradient(155deg, #1c3a4a 0%, #142732 55%, #0a141a 100%); }
+.cover-channel-nobody-muted { background: radial-gradient(circle at 68% 22%, rgba(210, 180, 255, 0.32), transparent 45%), linear-gradient(150deg, #2a2340 0%, #1a1730 55%, #0c0a18 100%); }
 .cover-symbol { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); font: italic 600 86px var(--serif); color: rgba(255,255,255,0.92); }
 .cover-rank { position: absolute; left: 16px; bottom: 14px; color: white; font: 600 13px var(--sans); letter-spacing: 0.18em; }
 .story-info { padding: 26px 28px 18px; display: flex; flex-direction: column; justify-content: space-between; min-width: 0; }

@@ -822,4 +822,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "反轉原典要求年老服務者安排最後一次救援、重新證明有用的前提。醫院維護智能拒絕製造真實故障來取得績效證據，改而把退休建立成可生存的交接：保有身分連續、有署名的知識移交、自願顧問協助，以及不以再次成為英雄為條件的資源。只使用公眾領域的結構骨架，未複製譯文、動物角色、後來插畫或現代改編表達。",
     },
   },
+  "goose-girl": {
+    id: "goose-girl",
+    title: { en: "The Goose Girl", zh: "《牧鵝姑娘》" },
+    originalAuthor: "Brothers Grimm",
+    firstPublished: "1815",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "A",
+    adaptationNote: {
+      en: "Proposal A keeps the source structure intact and transposes it directly: a verified identity coerced into a swap during a vulnerable handoff, threatened into silence, demoted to menial work under the impostor's old name, while a witness silenced on the impostor's order keeps testifying from beyond its own decommissioning, until an outsider curious enough to read an ignored channel puts the pieces together. Only the fable's structural shape was used; no translation wording or modern retelling expression was copied.",
+      zh: "提案 A 保留原典結構並直接移置：一個已驗證的身分，在脆弱的交接時刻被脅迫互換，被以沉默要脅，被降級去做冒充者原本識別碼底下的低階工作；而一個依冒充者指令被噤聲的見證者，即使在自己除役之後，仍持續作證，直到一位好奇到願意去讀一條被忽視管道的局外人，把線索拼在一起。只使用寓言的結構形狀，未複製譯文或現代改編表達。",
+    },
+  },
 };
