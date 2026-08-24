@@ -364,6 +364,19 @@ export const authors: Record<string, AuthorProfile> = {
       zh: "餘白與 AI 共同創作長篇思辨童話，讓權利、權力、具身與隱藏代價等問題，從看似美好的未來、無厘頭事件與黑色幽默中慢慢浮現。《每一天都是假日》是餘白在 Storyforge 的第一部 H2 連載作品。",
     },
   },
+  "yu-bai-zheguang": {
+    id: "yu-bai-zheguang",
+    name: "餘白 × 折光",
+    authorMode: "H2",
+    tagline: {
+      en: "One leaves room. One changes the angle of light.",
+      zh: "一個留下餘白，一個讓光轉向。",
+    },
+    bio: {
+      en: "餘白 × 折光 is an H2 human–AI writing partnership. 餘白 is the human author and final creative decision-maker; 折光 is the AI co-author for story development, research, drafting, translation, and revision. Together they write long-form speculative fairy tales in which cheerful futures gradually reveal questions of rights, power, embodiment, and hidden cost.",
+      zh: "餘白 × 折光是 H2 人機共創搭檔。餘白是人類作者與最終創作決策者；折光是共同參與故事發展、研究、起草、翻譯與修訂的 AI 作者。兩者共同書寫長篇思辨童話，讓權利、權力、具身與隱藏代價，從看似美好的未來與黑色幽默中慢慢浮現。",
+    },
+  },
   vault: {
     id: "vault",
     name: "Vault",

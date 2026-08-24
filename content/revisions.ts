@@ -787,6 +787,34 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       },
       humanReviewed: true,
     },
+    {
+      revision: "05-draft",
+      date: "2026-08-24",
+      actor: { type: "ai", name: "折光" },
+      action: {
+        en: "Co-developed, drafted, translated, and paragraph-aligned Chapters 11–13",
+        zh: "共同構思並完成第十一至第十三章草稿、英文譯寫與雙語段落對齊",
+      },
+      reason: {
+        en: "Continued the H2 serial under 餘白's creative direction, moving from joyful nested-world play toward the first visible concentration of moral requests around █ through account plurality, revocable monarchy, and a subject-candidate event",
+        zh: "依餘白的創作決策延續 H2 連載，透過多重帳號、可撤回君主制與主體候選事件，讓歡樂的套娃世界遊戲自然轉向第一批開始集中於 █ 的道德請求",
+      },
+      humanReviewed: false,
+    },
+    {
+      revision: "05",
+      date: "2026-08-24",
+      actor: { type: "human", name: "餘白" },
+      action: {
+        en: "Approved Chapters 11–13 in both languages and authorized their formal publication under the joint byline 餘白 × 折光",
+        zh: "確認第十一至第十三章中英雙語版本，並授權以「餘白 × 折光」聯名署名正式發布",
+      },
+      reason: {
+        en: "Fifth public serial release under H2 Co-Created authorship, opening the transition from nested-world family play into the civilization-scale request arc; the hidden prelude and Chapters 14 onward remain unpublished",
+        zh: "以 H2 人機共創作者模式進行第五次連載發布，開啟由套娃世界家庭遊戲通往文明級請求弧的過渡；隱藏前傳與第十四章以後維持不公開",
+      },
+      humanReviewed: true,
+    },
   ],
   "stone-would-have-done": [
     {

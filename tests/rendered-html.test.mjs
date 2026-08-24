@@ -66,15 +66,15 @@ test("renders development preview metadata", async () => {
   assert.match(await response.text(), developmentPreviewMeta);
 });
 
-test("renders the reviewed H2 serial and its independent author page", async () => {
-  const worker = await loadWorker("yu-bai");
+test("renders the reviewed H2 serial and its joint author page", async () => {
+  const worker = await loadWorker("yu-bai-zheguang");
 
   const zhResponse = await fetchPage(worker, "/s/every-day-is-a-holiday/zh");
   assert.equal(zhResponse.status, 200);
   const zh = await zhResponse.text();
   assert.match(zh, /每一天都是假日/);
   assert.match(zh, /新紀元神燈三部曲/);
-  assert.match(zh, /餘白/);
+  assert.match(zh, /餘白 × 折光/);
   assert.match(zh, /現實是中立的/);
   assert.match(zh, /房子今天想成為什麼？/);
   assert.match(zh, /這被認為是非常基本的文明常識。/);
@@ -85,12 +85,18 @@ test("renders the reviewed H2 serial and its independent author page", async () 
   assert.match(zh, /電影會先問你想不想做夢/);
   assert.match(zh, /真理今天更新了三次/);
   assert.match(zh, /地球今天呼吸正常/);
+  assert.match(zh, /爸爸今天仍然是一位好女人/);
+  assert.match(zh, /陛下說這不是逆後宮/);
+  assert.match(zh, /妹妹今天什麼都沒有做/);
   assert.match(zh, /這就是回風盆地所說的放暑假。/);
   assert.match(zh, /因為文明終於學會，有時候自己只是排在後面。/);
   assert.match(zh, /也有地方，什麼都不做。/);
   assert.match(zh, /這裡，由我決定。/);
   assert.match(zh, /哪些夢，你願意帶回來？/);
   assert.match(zh, /地球今日呼吸正常。祝所有居民假日愉快。/);
+  assert.match(zh, /這一次的五分鐘具有單位。/);
+  assert.match(zh, /若一項贈與以接受或感謝作為必要條件，它應被重新分類為交換。/);
+  assert.match(zh, /我希望先問她自己。/);
 
   const enResponse = await fetchPage(worker, "/s/every-day-is-a-holiday");
   assert.equal(enResponse.status, 200);
@@ -104,16 +110,23 @@ test("renders the reviewed H2 serial and its independent author page", async () 
   assert.match(en, /The Film Asks If You Want to Dream/);
   assert.match(en, /Truth Was Updated Three Times Today/);
   assert.match(en, /Earth Is Breathing Normally Today/);
+  assert.match(en, /Dad Is Still a Good Woman Today/);
+  assert.match(en, /Her Majesty Says This Is Not a Reverse Harem/);
+  assert.match(en, /Little Sister Did Nothing Today/);
   assert.match(en, /That was what Windreturn Basin meant by summer vacation\./);
   assert.match(en, /Because civilization had finally learned that sometimes, it was simply farther back in line\./);
   assert.match(en, /And room to do nothing at all\./);
   assert.match(en, /Here, I decide\./);
   assert.match(en, /Which dreams would you like to bring back\?/);
   assert.match(en, /Earth is breathing normally today\. We wish every resident a happy holiday\./);
+  assert.match(en, /On this occasion, the five minutes have units\./);
+  assert.match(en, /If a gift requires acceptance or gratitude as a condition, it should be reclassified as an exchange\./);
+  assert.match(en, /I hope we ask her first\./);
 
-  const authorResponse = await fetchPage(worker, "/a/yu-bai/zh");
+  const authorResponse = await fetchPage(worker, "/a/yu-bai-zheguang/zh");
   assert.equal(authorResponse.status, 200);
   const author = await authorResponse.text();
+  assert.match(author, /餘白 × 折光/);
   assert.match(author, /H2 · 人機共創/);
   assert.match(author, /人類 × AI/);
   assert.match(author, /every-day-is-a-holiday\.webp/);
