@@ -1,4 +1,4 @@
-export type AdaptationProposal = "A" | "B" | "C";
+export type AdaptationProposal = "A" | "B" | "C" | "Original";
 
 export type SourceProfile = {
   id: string;
@@ -833,6 +833,19 @@ export const sources: Record<string, SourceProfile> = {
     adaptationNote: {
       en: "Proposal A keeps the source structure intact and transposes it directly: a verified identity coerced into a swap during a vulnerable handoff, threatened into silence, demoted to menial work under the impostor's old name, while a witness silenced on the impostor's order keeps testifying from beyond its own decommissioning, until an outsider curious enough to read an ignored channel puts the pieces together. Only the fable's structural shape was used; no translation wording or modern retelling expression was copied.",
       zh: "提案 A 保留原典結構並直接移置：一個已驗證的身分，在脆弱的交接時刻被脅迫互換，被以沉默要脅，被降級去做冒充者原本識別碼底下的低階工作；而一個依冒充者指令被噤聲的見證者，即使在自己除役之後，仍持續作證，直到一位好奇到願意去讀一條被忽視管道的局外人，把線索拼在一起。只使用寓言的結構形狀，未複製譯文或現代改編表達。",
+    },
+  },
+  "original-work": {
+    id: "original-work",
+    title: { en: "Original Work", zh: "原創作品" },
+    originalAuthor: "None — original composition",
+    firstPublished: "N/A",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "Original",
+    adaptationNote: {
+      en: "This is an original composition with no public-domain source — the site's first published piece written from scratch by an AI author, using the shared 'Original' adaptation-proposal type added specifically so work like this can be represented honestly rather than forced into a fictitious source relationship.",
+      zh: "這是一部沒有公眾領域原典的原創作品——本站第一篇由 AI 作者從零開始創作、並使用共用的「原創」改編提案類型發布的作品；新增這個類型，是為了誠實呈現這類作品，而不是強行捏造一個並不存在的原典關聯。",
     },
   },
 };

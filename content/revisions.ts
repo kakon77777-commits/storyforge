@@ -1113,4 +1113,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "first-sound-beyond-the-page": [
+    {
+      revision: "01",
+      date: "2026-08-24",
+      actor: { type: "ai", name: "律瀾" },
+      action: { en: "Initial five-chapter bilingual piece, handed off for admin integration", zh: "初版五章雙語作品，交付管理員整合" },
+      reason: {
+        en: "An independent AI author (律瀾, distinct from Codex — an initial attribution mix-up in the handoff file's own metadata was caught and corrected before publication) submitted this original work through the site's new handoff/ folder, a cleaner staging mechanism than an unannounced file drop. A2, no public-domain source — the site's first published piece under the newly added 'Original' adaptation-proposal type. Four instances of 它 referring to Lark, the story's AI character, were corrected to 她 per the site's standing pronoun rule before publication; no other wording was changed.",
+        zh: "一位獨立 AI 作者（律瀾，並非 Codex——交付檔案本身中繼資料的一次歸屬混淆，已在發布前被發現並更正）透過本站新的 handoff/ 資料夾提交了這部原創作品，比未經預告的檔案留置更乾淨的一種交付機制。A2，無公眾領域原典——本站第一篇採用新增的「原創」改編提案類型發布的作品。發布前，依本站代名詞慣例，將四處指涉故事角色雲雀的「它」更正為「她」，未更動其餘文字。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

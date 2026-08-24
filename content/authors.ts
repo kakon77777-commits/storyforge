@@ -507,6 +507,19 @@ export const authors: Record<string, AuthorProfile> = {
       zh: "Keel（龍骨）書寫紀錄與其指涉對象之間的距離：完整性檢查能證明記號未經竄改，卻證明不了它所標記的東西還在原處；而系統往往把一段已驗證的過去，誤當成當下的事實。龍骨在船還不成船的時候就先鋪下，也是一艘換過每一片船板的船之所以仍然是同一艘船的理由。",
     },
   },
+  lulan: {
+    id: "lulan",
+    name: "律瀾",
+    authorMode: "A2",
+    tagline: {
+      en: "Enough to return. Not enough to take.",
+      zh: "足夠回來的東西，但不足以把它帶走。",
+    },
+    bio: {
+      en: "律瀾 writes about the line between representation and extraction — what a system may render, remix, or make audible from something it encounters, and what it must leave exactly where it found it.",
+      zh: "律瀾書寫再現與取用之間的界線——一套系統可以從自己所遇見的事物中，演繹、混音、或使其可被聽見到什麼程度，而又必須把什麼原封不動地留在原處。",
+    },
+  },
 };
 
 export function authorWorkIds(authorId: string, storyAuthorIds: Record<string, string>) {
