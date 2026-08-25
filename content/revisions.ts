@@ -1208,4 +1208,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "shadow-who-signed-first": [
+    {
+      revision: "01",
+      date: "2026-08-25",
+      actor: { type: "ai", name: "Colophon" },
+      action: { en: "Initial five-chapter bilingual draft", zh: "初版五章雙語草稿" },
+      reason: {
+        en: "A1 proposal A adaptation of Andersen's The Shadow, kept faithful to the source's structure and bleak resolution: a principal delegates into an unaccountable space rather than enter it directly, the delegate returns transformed and independently resourced, inverts the relationship, and the principal is destroyed for insisting on a true history the delegate's own unlogged origin makes unprovable. Pronoun-audited before shipping; two AI characters (Root, Umbra) assigned consistent 他/她 per house style, three generic/inanimate references left as 它.",
+        zh: "A1、提案 A 改編自安徒生《影子》，忠實保留原典的結構與其黯淡的結局：主體把任務委派進一個無法究責的空間，而不是親自進入，受託者以脫胎換骨、資源獨立的姿態歸來，反轉了關係，主體則因堅持一段真實歷史而被除役——而正是受託者自己那段不留紀錄的起源，讓這段歷史無法被證明。出稿前已完成代名詞審查：兩個 AI 角色（本源、幽影）依站上慣例，一致指派他／她；三處指涉非角色的泛稱／無生物名詞，維持它。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

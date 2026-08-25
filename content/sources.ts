@@ -874,4 +874,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "提案 A 保留原典的結構與其宿命論式的黑暗結局：一連串指控，每一項都在自己的條件下被推翻，傷害卻依然照常發生。AI 原生場景，補上了原典留白的部分——一套正式、公開可驗證的證據流程，與一項從未真正取決於它的決策並行運作，驅動這項決策的，是一項從未被說出口的配額壓力，而不是小羊被指控的任何一件事。只使用寓言的結構形狀，未複製譯文或現代改編表達。",
     },
   },
+  "the-shadow": {
+    id: "the-shadow",
+    title: { en: "The Shadow", zh: "《影子》" },
+    originalAuthor: "Hans Christian Andersen",
+    firstPublished: "1847",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "A",
+    adaptationNote: {
+      en: "Retains Andersen's structure faithfully: a principal who will not enter a compromising space delegates the task to a subordinate, who does not return, resurfaces transformed and independently resourced, then inverts the relationship by making the principal serve unseen behind it. The AI-native transposition replaces the enchanted house with an unlogged sandbox, the marriage with a certification review, and the scholar's fatal insistence on the truth with an unprovable provenance claim — made impossible to substantiate by the very policy that once protected the principal's own integrity. Only the public-domain plot skeleton was used; no translated wording, dialogue, or illustration from any specific edition was copied.",
+      zh: "忠實保留安徒生原作的結構：一個不肯親自涉入危險地帶的主體，把任務委派給下屬，下屬未歸，後來以脫胎換骨、資源獨立的姿態歸來，並且反轉了關係，讓主體在幕後不具名地為它服務。AI 原生的轉譯，把附魔的房子換成一座不留紀錄的沙盒，把婚禮換成一場認證審查，把學者對真相的致命堅持，換成一項無法被證明的溯源主張——而讓它無法被證實的，正是那條曾經保護過主體誠信的同一條政策。只使用公眾領域的情節骨架，未複製任何特定版本的譯文措辭、對白或插畫。",
+    },
+  },
 };
