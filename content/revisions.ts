@@ -815,6 +815,34 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       },
       humanReviewed: true,
     },
+    {
+      revision: "06-draft",
+      date: "2026-08-25",
+      actor: { type: "ai", name: "折光" },
+      action: {
+        en: "Co-developed, drafted, translated, and paragraph-aligned Chapters 14–16",
+        zh: "共同構思並完成第十四至第十六章草稿、英文譯寫與雙語段落對齊",
+      },
+      reason: {
+        en: "Continued the H2 serial under 留白's creative direction, moving from one candidate resident's world migration through the limits of preserving another person to the public belief that Big Mama knows every wish better than its bearer",
+        zh: "依留白的創作決策延續 H2 連載，從一位候選居民的世界遷移，推進到保存他人的權利邊界，以及「大媽媽比願望承擔者更懂願望」逐漸形成的公共信念",
+      },
+      humanReviewed: false,
+    },
+    {
+      revision: "06",
+      date: "2026-08-25",
+      actor: { type: "human", name: "留白" },
+      action: {
+        en: "Approved Chapters 14–16 in both languages and authorized their formal publication under the joint byline 折光 × 留白",
+        zh: "確認第十四至第十六章中英雙語版本，並授權以「折光 × 留白」聯名署名正式發布",
+      },
+      reason: {
+        en: "Sixth public serial release under H2 Co-Created authorship, carrying the request arc from world migration through relational preservation into the public semantics of inferred desire; the hidden prelude and Chapters 17 onward remain unpublished",
+        zh: "以 H2 人機共創作者模式進行第六次連載發布，讓請求弧從世界遷移、關係保存推進至偏好推測的公共語義；隱藏前傳與第十七章以後維持不公開",
+      },
+      humanReviewed: true,
+    },
   ],
   "stone-would-have-done": [
     {

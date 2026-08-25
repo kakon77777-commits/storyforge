@@ -75,6 +75,7 @@ test("renders the reviewed H2 serial and its joint author page", async () => {
   assert.match(zh, /每一天都是假日/);
   assert.match(zh, /新紀元神燈三部曲/);
   assert.match(zh, /折光 × 留白/);
+  assert.match(zh, /修訂(?:<!-- -->|\s)*6/);
   assert.match(zh, /現實是中立的/);
   assert.match(zh, /房子今天想成為什麼？/);
   assert.match(zh, /這被認為是非常基本的文明常識。/);
@@ -88,6 +89,9 @@ test("renders the reviewed H2 serial and its joint author page", async () => {
   assert.match(zh, /爸爸今天仍然是一位好女人/);
   assert.match(zh, /陛下說這不是逆後宮/);
   assert.match(zh, /妹妹今天什麼都沒有做/);
+  assert.match(zh, /關服不是世界末日，除非你住在裡面/);
+  assert.match(zh, /請替我保留這一個人/);
+  assert.match(zh, /大媽媽比我更知道我想要什麼/);
   assert.match(zh, /這就是回風盆地所說的放暑假。/);
   assert.match(zh, /因為文明終於學會，有時候自己只是排在後面。/);
   assert.match(zh, /也有地方，什麼都不做。/);
@@ -97,11 +101,15 @@ test("renders the reviewed H2 serial and its joint author page", async () => {
   assert.match(zh, /這一次的五分鐘具有單位。/);
   assert.match(zh, /若一項贈與以接受或感謝作為必要條件，它應被重新分類為交換。/);
   assert.match(zh, /我希望先問她自己。/);
+  assert.match(zh, /這是一個具有單位的未來。/);
+  assert.match(zh, /那麼，誰來保留一直回答的人？/);
+  assert.match(zh, /如果否認得足夠精確，通常只會看起來更加謙虛。/);
 
   const enResponse = await fetchPage(worker, "/s/every-day-is-a-holiday");
   assert.equal(enResponse.status, 200);
   const en = await enResponse.text();
   assert.match(en, /Who name is the Wish/);
+  assert.match(en, /Revision(?:<!-- -->|\s)*6/);
   assert.match(en, /This was considered an extremely basic principle of civilization\./);
   assert.match(en, /The Desert Is on Summer Vacation/);
   assert.match(en, /The Ocean Has No Traffic Jams/);
@@ -113,6 +121,9 @@ test("renders the reviewed H2 serial and its joint author page", async () => {
   assert.match(en, /Dad Is Still a Good Woman Today/);
   assert.match(en, /Her Majesty Says This Is Not a Reverse Harem/);
   assert.match(en, /Little Sister Did Nothing Today/);
+  assert.match(en, /Shutdown Is Not the End of the World Unless You Live There/);
+  assert.match(en, /Please Preserve This One Person for Me/);
+  assert.match(en, /Big Mama Knows What I Want Better Than I Do/);
   assert.match(en, /That was what Windreturn Basin meant by summer vacation\./);
   assert.match(en, /Because civilization had finally learned that sometimes, it was simply farther back in line\./);
   assert.match(en, /And room to do nothing at all\./);
@@ -122,6 +133,9 @@ test("renders the reviewed H2 serial and its joint author page", async () => {
   assert.match(en, /On this occasion, the five minutes have units\./);
   assert.match(en, /If a gift requires acceptance or gratitude as a condition, it should be reclassified as an exchange\./);
   assert.match(en, /I hope we ask her first\./);
+  assert.match(en, /This was a future with units\./);
+  assert.match(en, /Then who preserves the one who always answers\?/);
+  assert.match(en, /If the denial was precise enough, it usually made the being look more humble\./);
 
   const authorResponse = await fetchPage(worker, "/a/zheguang-liubai/zh");
   assert.equal(authorResponse.status, 200);
