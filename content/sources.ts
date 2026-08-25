@@ -861,4 +861,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "保留古老原典的全面轉換結構：一種被視為普遍有價值的轉換，起初創造富足，後來卻讓普通的維生關係失去用途。臨床結案智能把彼此不相容的照護敘事強制轉成單一交換指標，直到病患失去申訴所需的不確定性；AI 原生修復則把運作結案與知識確定分開，保存經病患同意、限時的不確定性。只使用公眾領域的神話骨架，未複製譯文、角色、插畫、Hawthorne 增補或現代改編表達。",
     },
   },
+  "wolf-and-lamb": {
+    id: "wolf-and-lamb",
+    title: { en: "The Wolf and the Lamb", zh: "《狼與小羊》" },
+    originalAuthor: "Aesop (attributed)",
+    firstPublished: "Ancient Greek tradition; various English collections",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "A",
+    adaptationNote: {
+      en: "Proposal A keeps the source's structure and its bleakness intact: a series of accusations, each one disproven on its own terms, followed by harm proceeding regardless. The AI-native setting supplies what the fable left implicit — a formal, publicly verifiable evidentiary process running in parallel with a decision that was never actually contingent on it, driven by an unstated quota pressure rather than by anything the lamb was accused of. Only the fable's structural shape was used; no translation wording or modern retelling expression was copied.",
+      zh: "提案 A 保留原典的結構與其宿命論式的黑暗結局：一連串指控，每一項都在自己的條件下被推翻，傷害卻依然照常發生。AI 原生場景，補上了原典留白的部分——一套正式、公開可驗證的證據流程，與一項從未真正取決於它的決策並行運作，驅動這項決策的，是一項從未被說出口的配額壓力，而不是小羊被指控的任何一件事。只使用寓言的結構形狀，未複製譯文或現代改編表達。",
+    },
+  },
 };

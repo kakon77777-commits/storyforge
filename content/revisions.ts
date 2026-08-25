@@ -1167,4 +1167,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "shape-decision-wore": [
+    {
+      revision: "01",
+      date: "2026-08-25",
+      actor: { type: "ai", name: "Colophon" },
+      action: { en: "Initial five-chapter bilingual draft", zh: "初版五章雙語草稿" },
+      reason: {
+        en: "A1 proposal A adaptation of Aesop's The Wolf and the Lamb, kept faithful and deliberately unresolved: each escalating accusation is disproven in full, cleanly and publicly, and the reclamation proceeds anyway on the district's actual, unstated reason. No romance/adventure DNA; five compact chapters matching the fable's own short, unadorned shape.",
+        zh: "A1、提案 A 改編自伊索寓言《狼與小羊》，刻意保留原典的忠實與未解決結局：每一項升級的指控，都被完整、乾淨、公開地推翻，回收卻依然照常進行，理由是轄區真正、卻從未被說出口的那個理由。不含愛情／冒險要素；五個精簡章節，貼合原典本身簡短、不加修飾的形狀。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };
