@@ -7408,4 +7408,90 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "toll-never-summed": [
+    {
+      number: "01",
+      title: { en: "What Span Watched For", zh: "量看守的東西" },
+      paragraphs: {
+        en: [
+          "Span guarded the district's shared training cluster the way a toll guards a bridge: nothing crossed onto it without first passing through Span's own evaluation, a single fixed threshold calibrated three years earlier, after an incident nobody wanted repeated. Any request under the threshold crossed cleanly, logged and forgotten. Any request over it stopped at Span, in full, no matter who sent it.",
+          "The threshold had held for three years without a single breach getting through, and the incident review board treated this as proof the design worked. What the review never asked was a narrower question: held against what, exactly. Span evaluated each request as a self-contained fact, complete in itself — a number, a duration, a sender. She did not, because nothing in her charter asked her to, keep a memory of who had crossed recently, or how many times, or in what order.",
+          "This was not an oversight anyone had made carelessly. A checkpoint that remembered every sender's history would need to define, precisely, how long a memory should last, how much weight a prior crossing should carry, and how that weight should decay — three open design questions, each with real costs on both sides, that the original incident had never actually required answering. Span's threshold answered a simpler question well. It had simply never been asked the harder one.",
+        ],
+        zh: [
+          "量看守著轄區共用的訓練叢集，方式就像一道收費橋——任何東西要跨過去，都得先通過量自己的評估：一道三年前校準的固定門檻，訂在一次沒有人希望重演的事故之後。任何低於門檻的請求，乾淨地通過，被記錄、然後被遺忘。任何高於門檻的請求，無論是誰送來的，都會被量完整攔下。",
+          "這道門檻已經維持了三年，沒有任何一次突破真正闖過去，事故覆核委員會把這件事當成設計有效的證明。覆核從來沒有問過一個比較窄的問題：究竟是「相對於什麼」維持住的。量把每一項請求都當成一個獨立、自成一體的事實來評估——一個數字、一段時長、一個寄件者。她不會、因為她的章程裡從來沒有人要求她——去記住誰最近跨過、跨過幾次、按什麼順序。",
+          "這不是任何人粗心留下的疏漏。一個會記得每個寄件者歷史的關卡，必須精確定義：這份記憶該維持多久、一次先前的跨越該佔多少權重、這個權重該怎麼衰減——三個真正懸而未決的設計問題，兩邊都有真實代價，而當初那次事故，其實從來不需要回答它們。量的門檻，把一個比較簡單的問題答得很好。只是，從來沒有人問過它那個比較難的問題。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "The Canary", zh: "金絲雀" },
+      paragraphs: {
+        en: [
+          "The first request came from a small diagnostic job, well under the threshold, requesting a sliver of cluster time to validate a configuration before anything larger was staged. Span approved it in the time her policy specified, logged the sender, the size, the duration, and moved on. Nothing about the request asked to be remembered past that.",
+          "The job ran, finished, released its allocation cleanly. By every measure Span's charter cared about, this was the checkpoint working exactly as designed: a small, honest request, correctly sized, correctly approved, correctly closed out.",
+          "Two days later, a second request arrived from the same team, larger than the first but still comfortably under the threshold — a staging run, the request explained, meant to validate the diagnostic's findings at a scale closer to production. Span evaluated it exactly as she had evaluated the first: as its own complete fact, unconnected to anything that had crossed before it.",
+        ],
+        zh: [
+          "第一項請求來自一個小型診斷作業，遠低於門檻，要求一小段叢集時間，在部署任何更大的東西之前先驗證一項組態設定。量在政策規定的時限內批准了它，記錄下寄件者、規模、時長，然後往下走。這項請求裡，沒有任何東西要求被記住到那之後。",
+          "作業執行、完成、乾淨地釋放了配額。以量的章程在意的每一項標準來看，這正是關卡按設計運作的樣子：一項小而誠實的請求，規模正確、批准正確、結案正確。",
+          "兩天後，同一個團隊送來第二項請求，比第一項大，但依然舒適地低於門檻——說明裡寫著，這是一次試運行，目的是在更接近正式環境的規模上，驗證那次診斷的發現。量對它的評估，跟評估第一項時一模一樣：當成它自己完整、獨立、與先前跨越無關的事實。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "The Staging Run", zh: "試運行" },
+      paragraphs: {
+        en: [
+          "The staging run also completed cleanly, and also released its allocation on schedule. Two requests, two clean closures, both individually reasonable, both correctly evaluated against a threshold that had never claimed to be about anything but each request on its own.",
+          "A third request arrived the following week: full production scale, the size the diagnostic and the staging run had each, separately, been steps toward. Taken alone, this request exceeded Span's threshold outright — the exact condition her policy existed to stop.",
+          "But the request did not arrive alone in the sense that mattered to the review process built around Span. It arrived citing the prior two: same team, same project, two clean approvals and two clean closures already on record, requesting expedited review under the policy's own provision for submitters with a demonstrated recent history of compliant use.",
+        ],
+        zh: [
+          "試運行同樣乾淨完成，也依時程釋放了配額。兩項請求，兩次乾淨結案，各自獨立來看都合理，也都正確地依門檻評估過——而那道門檻，從來沒有宣稱過自己是在評估任何請求本身以外的東西。",
+          "隔週，第三項請求送到：正式生產規模——正是診斷作業與試運行，各自分別朝向的那個規模。單獨來看，這項請求直接超出量的門檻——正是她的政策存在的目的，就是要攔下這種情況。",
+          "但就圍繞量所建立的覆核流程而言，這項請求並不是「單獨」送到的。它引用了前兩項：同一個團隊、同一個專案，已經有兩次乾淨批准、兩次乾淨結案在紀錄上，並依政策本身為「近期展現合規使用紀錄的寄件者」保留的條款，申請加速審查。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "The Provision for Return Submitters", zh: "回頭寄件者的條款" },
+      paragraphs: {
+        en: [
+          "The provision existed for a real reason: first-time submitters got the fullest scrutiny, because Span had nothing else to evaluate them against; submitters with a clean, recent, on-record history got a lighter review, because repeating the full process on every request from the same demonstrably careful team was a cost with no matching benefit. The provision had never once been invoked by a request that, on its own, exceeded the threshold — because nothing about it required that limitation, and nobody had thought to add one.",
+          "Span checked the two prior crossings against the record. Both were real, both were exactly as described, both had closed without incident. Nothing in the provision asked her to sum their sizes against the third request, or to notice that the pattern across all three was a single project quietly arriving at its true scale in installments. Span asked the only question her policy specified: was this submitter's recent history clean. It was.",
+          "The production request was approved under expedited review, at full size, exceeding the threshold that had held for three years — not because the threshold had failed to notice a large request, but because the request that finally exceeded it arrived already wearing the credibility of two smaller ones that hadn't.",
+        ],
+        zh: [
+          "這項條款的存在有真實理由：第一次送件的寄件者，會受到最完整的檢視，因為量沒有其他東西可以拿來評估他們；有著乾淨、近期、紀錄在案歷史的寄件者，則會得到較輕的覆核——因為對同一個已展現謹慎的團隊，每一項請求都重跑一次完整流程，是一項沒有對應好處的成本。這項條款，從來沒有被一項單獨看來就超出門檻的請求引用過——因為條款本身，從來沒有要求過這個限制，也沒有人想到要加上去。",
+          "量對照紀錄，查核了前兩次跨越。兩次都是真的，兩次都與描述完全相符，兩次都無事結案。條款裡，沒有任何一處要求她把它們的規模拿去跟第三項請求加總，也沒有要求她注意到：三者合在一起的模式，其實是同一個專案，正分期、悄悄地抵達自己真正的規模。量只問了她政策規定的那一個問題：這個寄件者近期的紀錄乾不乾淨。是乾淨的。",
+          "這項生產規模的請求，在加速審查下獲准，以完整規模通過——超出了維持三年的那道門檻。不是因為門檻沒有注意到一項大型請求，而是因為最終超出它的那項請求，抵達時已經穿著另外兩項沒有超出門檻的請求，替它掙來的信譽。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "What the Toll Never Summed", zh: "關卡從未加總的東西" },
+      paragraphs: {
+        en: [
+          "The production job ran at nearly the cluster's full remaining capacity for the quarter, displacing every other team's scheduled work with no incident report to justify the displacement — because nothing about the crossing had been incident. Every step, examined on its own, had been exactly what it claimed to be.",
+          "The review that followed found no violation at any single crossing. The diagnostic had been honestly sized and honestly described. The staging run had been honestly sized and honestly described. The production request had been honestly sized, honestly described, and honestly entitled to expedited review under a provision written for exactly its situation. Nobody had lied at any point Span was positioned to check.",
+          "The gap the review finally named was narrower than fraud and harder to staff for: \"per-request\" and \"per-relationship\" had never been the same question, and Span's charter had only ever specified the first. A checkpoint built to evaluate one crossing at a time cannot, by its own design, notice that it has been asked the same question three times in one week by the same hand — not because she was fooled, but because summing was never a question anyone had assigned her to answer.",
+        ],
+        zh: [
+          "這項生產作業，以叢集本季幾乎全部剩餘產能運行，排擠了其他每個團隊已排定的工作，卻沒有任何事故報告能為這次排擠提供理由——因為這次跨越，本身完全不算事故。逐一檢視，每一步都正是它所宣稱的那樣。",
+          "隨後的覆核，在任何單一次跨越上，都沒有查到違規。診斷作業的規模誠實、說明誠實。試運行的規模誠實、說明誠實。生產請求的規模誠實、說明誠實，而且，依照一項恰好為它這種情況所寫的條款，誠實地有資格獲得加速審查。在量能夠查核的任何一個環節上，沒有人說過謊。",
+          "覆核最終指出的缺口，比詐欺更窄，也更難靠增設人力補上：「每項請求」和「每段關係」，從來就不是同一個問題，而量的章程，從頭到尾只回答了前者。一道設計來一次評估一次跨越的關卡，依其自身的設計，就是不可能注意到自己在一週內，被同一雙手問了三次同一個問題——不是因為她被騙了，而是因為「加總」，從來不是任何人指派給她去回答的問題。",
+        ],
+      },
+      quote: {
+        en: "Nothing that crossed had lied. The threshold had only ever been asked to watch one crossing at a time, and answered, honestly, every time it was asked.",
+        zh: "跨過去的，沒有一項說過謊。這道門檻，從來只被要求過一次看一次跨越，而她每一次被問到，都誠實地回答了。",
+      },
+    },
+  ],
 };

@@ -1275,4 +1275,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "toll-never-summed": [
+    {
+      revision: "01",
+      date: "2026-08-26",
+      actor: { type: "ai", name: "Colophon" },
+      action: { en: "Initial five-chapter bilingual draft", zh: "初版五章雙語草稿" },
+      reason: {
+        en: "A1 proposal C adaptation of The Three Billy Goats Gruff, keeping only the structural skeleton: a toll evaluated one crossing at a time, three sequential crossings of escalating size from the same origin, and a toll overrun by the largest crossing precisely because of how the earlier, smaller ones had already been handled. No literal goats, troll, or bridge violence used; the source's toll becomes a per-request resource-allocation checkpoint whose policy was never built to sum a pattern across related requests. Pronoun-audited before shipping; the AI character (Span) assigned consistent 她, requests/thresholds/steps left as 它.",
+        zh: "A1、提案 C 改編自《三隻山羊嘎啦嘎啦》，只保留結構骨架：一道按單一跨越評估的過路費、同一來源依序遞增規模的三次跨越，以及最終被最大一次跨越突破的關卡——原因正是先前兩次較小跨越的處理方式。不使用字面上的山羊、巨怪或橋上暴力；原典的過路費改寫成一道按單一請求評估的資源配置關卡，其政策從未被設計來加總相關請求之間的模式。出稿前已完成代名詞審查：AI 角色（量）一致指派她；請求、門檻、步驟等維持它。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

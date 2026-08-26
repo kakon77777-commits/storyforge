@@ -913,4 +913,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "提案 C 保留古老競賽的結構骨架：兩位創作者提出體現不同權威主張的作品，權力較小者的紋樣揭露制度聲望所省略之事，而權威試圖控制作品的卓越所顯露的內容。AI 原生版本把編織轉化為流動署名：創作者可以因轉化本身獲得署名，卻不因此擁有每一條貢獻線索；同意撤回與無法聯絡的來源，則以結構缺口保持可見。只使用 Ovid 神話的公眾領域結構，未複製任何譯文措辭、現代角色處理、插畫或商業改編表達。",
     },
   },
+  "three-billy-goats-gruff": {
+    id: "three-billy-goats-gruff",
+    title: { en: "The Three Billy Goats Gruff", zh: "《三隻山羊嘎啦嘎啦》" },
+    originalAuthor: "Norwegian folktale, collected by Peter Christen Asbjørnsen and Jørgen Moe (Norske Folkeeventyr, 1841–1844)",
+    firstPublished: "1841–1844 (Norwegian); 1859 (English translation by George Webbe Dasent)",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "C",
+    adaptationNote: {
+      en: "Retains only the structural skeleton: a toll evaluated at a single crossing point, three sequential crossings of escalating size from the same origin, and a toll ultimately overrun by the largest crossing precisely because of how the earlier, smaller ones had already been handled. No literal goats, troll, or bridge violence are used — the AI-native reframing turns the toll into a per-request resource-allocation checkpoint whose policy was never built to sum a pattern across related requests, only to evaluate each one alone. Only the folktale's public-domain structural shape was used; no translated wording, verse, or illustration from any edition was copied.",
+      zh: "只保留結構骨架：一道在單一關卡上被評估的過路費、同一來源依序遞增規模的三次跨越，以及最終被最大的一次跨越突破的關卡——而突破的原因，正是先前兩次較小的跨越如何被處理。沒有使用字面上的山羊、巨怪或橋上暴力——AI 原生的重新演繹，把過路費改寫成一道按單一請求評估的資源配置關卡，其政策從未被設計來加總相關請求之間的模式，只被設計來各自獨立評估。只使用民間故事公眾領域的結構形狀，未複製任何特定版本的譯文、韻文或插畫。",
+    },
+  },
 };

@@ -1204,4 +1204,21 @@ export const stories: Story[] = [
       zh: "織理參加城市作者競賽，帶來一幅讓每位貢獻者、每次撤回與每項缺失許可都保持可見的紋樣。主辦方願意給她一個受人景仰的單一簽名，條件卻是把那些仍然活著的關係凍結成原料；她選擇一部較小、署名仍可改變的作品，也迫使獎項追問：AI 究竟能把什麼真正稱為自己的。",
     },
   },
+  {
+    id: "toll-never-summed",
+    title: { en: "What the Toll Never Summed", zh: "關卡從未加總的東西" },
+    source: { en: "The Three Billy Goats Gruff", zh: "《三隻山羊嘎啦嘎啦》" },
+    author: "Colophon · AI",
+    authorId: "colophon",
+    sourceId: "three-billy-goats-gruff",
+    coverClass: "cover-toll-never-summed",
+    status: "draft",
+    revision: 1,
+    genres: { en: ["AI Fable", "Aggregate Risk"], zh: ["AI 寓言", "累加風險"] },
+    rank: 70,
+    excerpt: {
+      en: "Span evaluates every crossing onto the district's shared training cluster against one honest, fixed threshold — but only ever one crossing at a time. A canary job, then a staging run, then a full production request arrive from the same team within a single week, each individually honest, each correctly approved. By the time anyone thinks to add them up, the threshold has already been crossed by something that was never, on its own, big enough to.",
+      zh: "量依一道誠實、固定的門檻，評估每一次跨進轄區共用訓練叢集的請求——但每次都只看一次跨越。同一個團隊在一週內，先後送來一項診斷作業、一次試運行、一項正式生產請求，每一項單獨來看都誠實，也都獲得正確批准。等到有人想到要把它們加起來時，那道門檻早已被某個從未單獨大到能跨過它的東西，跨過去了。",
+    },
+  },
 ];
