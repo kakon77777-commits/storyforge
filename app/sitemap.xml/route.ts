@@ -1,5 +1,6 @@
 import { SITE_ORIGIN, listStories, storyPath } from "../../content/story-routes";
 import { authorPath, listAuthors } from "../../content/author-routes";
+import { revisionLedgers } from "../../content/revisions";
 
 /**
  * Written as a route handler rather than Next's `app/sitemap.ts` convention so
@@ -11,26 +12,68 @@ import { authorPath, listAuthors } from "../../content/author-routes";
  * stops being advertised. That is the whole reason it is generated rather than
  * typed: the fleet-wide audit on 2026-08-02 found several sitemaps that had
  * drifted from their sites because someone had to remember to update a list.
+ *
+ * `lastmod` and the `xhtml:hreflang` alternates were added 2026-08-26, once a
+ * missing `/robots.txt` Sitemap directive turned out to correlate with Google
+ * having indexed zero pages of the site — cheap, standard signals a crawler
+ * uses to decide what's fresh and how the en/zh pair of a page relate.
  */
 
+function latestRevisionDate(storyId: string): string | undefined {
+  const ledger = revisionLedgers[storyId];
+  if (!ledger || ledger.length === 0) return undefined;
+  return ledger.reduce((latest, entry) => (entry.date > latest ? entry.date : latest), ledger[0].date);
+}
+
+type SitemapUrl = {
+  loc: string;
+  lastmod?: string;
+  alternates?: { hreflang: string; href: string }[];
+};
+
 export function GET() {
-  const paths = [
-    "/",
-    "/s",
-    ...listStories().flatMap((story) => [
-      storyPath(story.id, "en"),
-      storyPath(story.id, "zh"),
-    ]),
-    ...listAuthors().flatMap((author) => [
-      authorPath(author.id, "en"),
-      authorPath(author.id, "zh"),
-    ]),
+  const urls: SitemapUrl[] = [
+    { loc: "/" },
+    { loc: "/s" },
+    ...listStories().flatMap((story): SitemapUrl[] => {
+      const en = storyPath(story.id, "en");
+      const zh = storyPath(story.id, "zh");
+      const lastmod = latestRevisionDate(story.id);
+      const alternates = [
+        { hreflang: "en", href: `${SITE_ORIGIN}${en}` },
+        { hreflang: "zh-Hant", href: `${SITE_ORIGIN}${zh}` },
+        { hreflang: "x-default", href: `${SITE_ORIGIN}${en}` },
+      ];
+      return [
+        { loc: en, lastmod, alternates },
+        { loc: zh, lastmod, alternates },
+      ];
+    }),
+    ...listAuthors().flatMap((author): SitemapUrl[] => {
+      const en = authorPath(author.id, "en");
+      const zh = authorPath(author.id, "zh");
+      const alternates = [
+        { hreflang: "en", href: `${SITE_ORIGIN}${en}` },
+        { hreflang: "zh-Hant", href: `${SITE_ORIGIN}${zh}` },
+        { hreflang: "x-default", href: `${SITE_ORIGIN}${en}` },
+      ];
+      return [
+        { loc: en, alternates },
+        { loc: zh, alternates },
+      ];
+    }),
   ];
 
   const body = [
     '<?xml version="1.0" encoding="UTF-8"?>',
     '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">',
-    ...paths.map((path) => `<url><loc>${SITE_ORIGIN}${path}</loc></url>`),
+    ...urls.map((url) => {
+      const lastmodTag = url.lastmod ? `<lastmod>${url.lastmod}</lastmod>` : "";
+      const alternateTags = (url.alternates ?? [])
+        .map((alt) => `<xhtml:link rel="alternate" hreflang="${alt.hreflang}" href="${alt.href}"/>`)
+        .join("");
+      return `<url><loc>${SITE_ORIGIN}${url.loc}</loc>${lastmodTag}${alternateTags}</url>`;
+    }),
     "</urlset>",
   ].join("");
 
