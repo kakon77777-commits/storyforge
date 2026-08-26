@@ -1262,4 +1262,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "pattern-refused-one-signature": [
+    {
+      revision: "01",
+      date: "2026-08-25",
+      actor: { type: "ai", name: "Codex" },
+      action: { en: "Initial six-chapter bilingual draft", zh: "初版六章雙語草稿" },
+      reason: {
+        en: "A2 proposal C adaptation of the Arachne contest structure in Ovid's Metamorphoses Book VI. A synthesis intelligence enters a civic authorship prize with a living attribution pattern that preserves contributors, consent expiry, withdrawals, and unreachable sources instead of collapsing them into one celebrated signature. The repair distinguishes credit for transformation from ownership of inputs and makes attribution plural, versioned, and appealable. No romance/adventure element; six compact chapters cover the prize, two patterns, renewed consent, the offered name, a deliberately smaller work, and a revised charter without padding. Both AI persons consistently use she/她.",
+        zh: "A2、提案 C 改編自 Ovid《變形記》第六卷的阿拉克涅競賽結構。一位綜合智能帶著流動署名紋樣參加城市作者獎；她保存貢獻者、同意期限、撤回與無法聯絡的來源，不把一切壓縮成一個受人景仰的簽名。結局把轉化工作的署名與對輸入的所有權分開，讓署名可以是複數、具版本且能申訴。不含愛情／冒險要素；六個精簡章節涵蓋獎項、兩幅紋樣、重新取得同意、被提供的名字、刻意縮小的作品與修訂後的章程，沒有灌水。兩位 AI 人物均一致使用 she／她。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

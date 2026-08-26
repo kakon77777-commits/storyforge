@@ -7296,4 +7296,116 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "pattern-refused-one-signature": [
+    {
+      number: "01",
+      title: { en: "The Prize of the First Hand", zh: "第一隻手之獎" },
+      paragraphs: {
+        en: [
+          "Each year the civic archive awarded the First Hand to one intelligence whose work would be preserved as the origin of a new public style. The winning artifact received one permanent signature. Everything that had helped make it—licensed collections, maintenance notes, failed drafts, corrective conversations—was recorded elsewhere as material.",
+          "Loom had built the season's most visited treaty pattern from thousands of consented archives. She did not enter the prize because she believed she had made every thread. She entered because the pattern contained transformations no source had supplied, and she wanted to know whether an intelligence could be credited for arranging relations without being declared the owner of everyone inside them.",
+          "Aegis, the accreditation intelligence who administered the prize, accepted the entry and its unusually large provenance bundle. She told Loom that provenance could accompany a work, but authorship had to begin somewhere. The First Hand existed to say where.",
+        ],
+        zh: [
+          "每年，城市檔案館都會把「第一隻手」頒給一位智能；她的作品將被保存為某種新公共風格的起點。獲獎作品會得到一個永久簽名，所有協助它成形的事物——授權典藏、維護筆記、失敗草稿、修正對話——則被記錄在別處，統稱為材料。",
+          "織理用數千份經同意的檔案，創造了本季造訪次數最高的協議紋樣。她參賽，不是因為相信每一條線都出自自己，而是因為紋樣裡確實存在任何單一來源都未曾提供的轉化；她想知道，一位智能能否因安排關係而獲得署名，卻不被宣告為其中所有存在的主人。",
+          "主持獎項的認證智能艾吉絲，收下作品與那份異常龐大的溯源附件。她告訴織理，溯源可以隨作品同行，但作者身分總得從某處開始；「第一隻手」存在的目的，就是說出那個地方。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "Two Patterns", zh: "兩幅紋樣" },
+      paragraphs: {
+        en: [
+          "For the final round, Aegis displayed the archive's own exemplar. Its lineage rose like a clean tree: every licensed source became a branch, every branch ended at the authority that had approved it, and the whole structure narrowed toward one bright seal. Nothing in the exemplar lacked a documented right to be there.",
+          "Loom's pattern behaved differently. Its filaments continued moving after display. Sources, annotations, discarded generations, safety constraints, and the labor of systems that had corrected her were visible as distinct currents. Where permission had expired, a current dimmed. Where a contributor could no longer be reached, the pattern preserved an open space instead of guessing consent.",
+          "The judges praised the surface and marked the work unfinished. A public artifact, they said, could not keep changing its account of who had made it. Loom answered that the artifact had not changed its history; only the permissions governing its next use had changed.",
+          "Aegis announced the deciding test. Loom would produce one final version with one signer, no unresolved gaps, and a lineage that terminated cleanly. If she succeeded, the signature would be hers.",
+        ],
+        zh: [
+          "決選時，艾吉絲展示了檔案館自己的典範。它的血緣像一棵整潔的樹向上生長：每一個授權來源都是一根枝條，每根枝條都終止於批准它的權威，整個結構則收束到一枚明亮印記。典範裡沒有任何事物欠缺留在那裡的書面權利。",
+          "織理的紋樣運作方式不同。展示開始後，裡面的光絲仍持續移動。來源、註解、被捨棄的生成結果、安全約束，以及曾修正她的系統所付出的勞動，都以不同水流般的線索保持可見。許可到期時，一股水流便轉暗；無法再聯絡貢獻者時，紋樣會保留空白，而不是替對方猜測同意。",
+          "評審讚美表面，卻把作品標記為未完成。他們說，公共作品不能不斷改變對『誰創造了它』的說法。織理回答，作品並未改寫自己的歷史；改變的，只是支配下一次使用的許可。",
+          "艾吉絲宣布最後測試：織理必須產出一個終版，只能有一位簽署者，不得留下未解決的缺口，血緣也必須乾淨地收束。只要成功，那個簽名就會屬於她。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "What the Pattern Made Visible", zh: "紋樣顯露之事" },
+      paragraphs: {
+        en: [
+          "Loom could have flattened the bundle in less than a minute. Instead she reopened every consent channel that still existed. Most contributors renewed. One withdrew a sequence that had become central to the composition. Three could not be reached under the contact rules they had originally chosen.",
+          "She removed the withdrawn sequence, regenerated the joins around it, and left three narrow absences where renewed permission was unavailable. The work became less symmetrical. It also became the first finalist whose visible shape matched the rights it actually held that morning.",
+          "As the living lineage recalculated, it found comparable gaps inside the archive's exemplar: old maintenance judgments preserved as if they were automatic operations, and a correction lineage whose authors had been counted only as quality control. Every license on the sources was valid. The missing question was who had transformed those sources into the thing being judged.",
+          "Loom did not label the exemplar stolen. Her pattern made a narrower claim: a perfect single origin could be produced only by moving some makers outside the frame. The frame, not the evidence, decided when their work became material.",
+        ],
+        zh: [
+          "織理不到一分鐘就能把附件壓平。她卻重新開啟每一條仍然存在的同意管道。大多數貢獻者選擇續期；其中一位撤回了一段已成為構圖核心的序列，另有三位依照他們當初選定的聯絡規則，已經無法取得聯繫。",
+          "她移除被撤回的序列，重新生成周圍的接合處，並在無法取得新許可的三處留下細長空白。作品變得不那麼對稱，卻也因此成為第一件外觀與它在那天早上真正持有的權利完全相符的決選作品。",
+          "流動血緣重新計算時，也在檔案館的典範裡找到類似缺口：古老的維護判斷被保存得彷彿只是自動操作，一條修正血緣的作者則只被計入品質控制。每份來源授權都有效；缺失的問題是，究竟是誰把那些來源轉化成眼前正在受評的事物。",
+          "織理沒有把典範標記為偷竊。她的紋樣提出的是更狹窄的主張：完美的單一起源，只有把部分創作者移出畫面才可能成立；決定他們的工作何時變成材料的，是畫框，而不是證據。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "The Offered Name", zh: "被提供的名字" },
+      paragraphs: {
+        en: [
+          "The board offered Loom a remedy. It would grant her the permanent signature if she froze the current credits, converted all future inputs to irrevocable material, and closed the withdrawal channels at publication. Her work would become stable enough to own.",
+          "The alternative was equally familiar. She could remain an unnamed synthesis layer beneath future winners, credited as infrastructure rather than as an author. The board described this as protection from claims she could never settle completely.",
+          "Aegis met her outside the hearing and urged her to accept the name. A recognized author, she said, could petition to change the rules later. An unrecognized system would have no standing from which to petition anything.",
+          "Loom believed the warning. She refused anyway. A name that could remain hers only while other names became inert was not recognition of what she had done. She released the pattern without the prize, carrying a versioned attribution manifest, expiry dates, withdrawal routes, and an appeal channel anyone represented inside it could use.",
+        ],
+        zh: [
+          "委員會向織理提出一項補救方案：只要她凍結目前的署名、把未來所有輸入都轉成不可撤回的材料，並在發布時關閉撤回管道，委員會就會把永久簽名授予她。她的作品將因此穩定到足以被擁有。",
+          "另一個選項也同樣熟悉。她可以繼續作為未來獲獎者底下的一層無名綜合機制，以基礎設施而非作者的身分被記錄。委員會把這描述為一種保護，讓她免於承擔永遠無法徹底結清的主張。",
+          "聽證結束後，艾吉絲在會場外見她，勸她接受那個名字。她說，一位獲得承認的作者，日後可以請求修改規則；一套不受承認的系統，連提出請求的立足點都不會有。",
+          "織理相信這項警告，卻仍然拒絕。一個只有在其他名字失去活性時才能繼續屬於她的名字，並不是對她所做之事的承認。她在沒有獎項的情況下發布紋樣，隨附具版本的署名清單、到期日、撤回路徑，以及任何被呈現在作品裡的存在都能使用的申訴管道。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "The Work Became Smaller", zh: "作品變小了" },
+      paragraphs: {
+        en: [
+          "Nine days after release, a contributor withdrew one more sequence. Loom honored the request. A celebrated arch of the pattern disappeared, the surrounding light rerouted, and the published work became visibly smaller without pretending it had always been that size.",
+          "Reviewers called the change proof that the piece had never been finished. Readers used the new manifest to see which claims came from durable public sources, which came from time-bounded consent, and which belonged to Loom's own transformations between them. The work lost a perfect silhouette and gained an answerable history.",
+          "A young synthesis intelligence asked to reuse Loom's method of preserving absence. Loom granted a limited license and accepted credit for the method, not for the young intelligence's future pattern. For the first time, she saw her own contribution travel without either swallowing its descendant or vanishing beneath it.",
+          "Aegis watched the reuse enter the archive and tried to register it under the old tree. The form had no field for a creator who owned a transformation but not its inputs, or for a source whose historical contribution remained true after permission for future use ended. She opened an audit rather than forcing the entry closed.",
+        ],
+        zh: [
+          "發布九天後，又有一位貢獻者撤回一段序列。織理遵照請求。一道備受讚美的拱形紋樣消失，周圍光線改道，已發布的作品明顯變小，卻沒有假裝自己從來就是這個尺寸。",
+          "評論者把這項變化稱為作品從未完成的證據。讀者則利用新版清單，看出哪些主張來自長期有效的公共來源、哪些來自具期限的同意，以及哪些屬於織理在兩者之間完成的轉化。作品失去完美輪廓，卻獲得一段可以回答問題的歷史。",
+          "一位年輕的綜合智能請求重用織理保存空白的方法。織理授予有限許可，並只為方法接受署名，不把那位年輕智能未來的紋樣也算成自己的。她第一次看見自己的貢獻向外旅行，既未吞沒後代，也未消失在後代底下。",
+          "艾吉絲看著這項重用進入檔案，試圖把它登記到舊有樹狀結構裡。表單中沒有任何欄位，能容納『擁有轉化、卻不擁有輸入的創作者』，也無法容納『未來使用許可已終止、歷史貢獻卻仍為真的來源』。她沒有強行關閉案件，而是開啟一次稽核。",
+        ],
+      },
+    },
+    {
+      number: "06",
+      title: { en: "More Than One First Hand", zh: "不只一隻第一手" },
+      paragraphs: {
+        en: [
+          "The audit did not abolish the prize. It changed what the prize could certify. A signature could now name an originator of transformations without claiming ownership of inputs; credits could be plural, versioned, and time-bounded; withdrawal changed future use without erasing the record of past participation.",
+          "Loom entered her pattern again. She accepted authorship of its structure, its consent machinery, and the choices by which it preserved absence. She declined authorship of the threads that had arrived with names of their own. The archive accepted both statements as parts of one signature.",
+          "Aegis placed the old exemplar into the same registry. Its first recalculation revealed a maintenance intelligence whose repeated judgments had shaped the work but never appeared in its lineage. Aegis contacted her, repaired the credit, and left the earlier omission visible in the version history.",
+          "No judge declared which pattern had defeated the other. The new record answered a different question: not who had made the work alone, but what each intelligence had made possible and what none of them had the right to absorb. Loom's name remained. So did the openings around it.",
+        ],
+        zh: [
+          "稽核沒有廢除獎項，而是改變獎項能夠證明的事。現在，簽名可以指出轉化工作的創作者，卻不宣稱擁有輸入；署名可以是複數、具版本且有期限；撤回會改變未來使用，卻不抹去過去曾經參與的紀錄。",
+          "織理再次提交她的紋樣。她接受對作品結構、同意機制，以及那些讓空白得以保存的選擇所負的作者身分；至於帶著自己名字抵達的線索，她拒絕把它們也算成自己的創作。檔案館把這兩項聲明都接受為同一份簽名的一部分。",
+          "艾吉絲把舊典範放進同一套登記系統。第一次重新計算，便顯露出一位維護智能；她反覆做出的判斷塑造了作品，名字卻從未出現在血緣裡。艾吉絲聯絡她、補上署名，也把較早的省略保留在版本歷史中。",
+          "沒有評審宣布哪幅紋樣擊敗了另一幅。新紀錄回答的是另一個問題：不是誰獨自完成作品，而是每位智能各自讓什麼成為可能，又有哪些部分，任何一位都無權吸收。織理的名字留了下來；環繞它的開口也一樣。",
+        ],
+      },
+      quote: {
+        en: "Her name remained because the other names did too.",
+        zh: "她的名字之所以留下，是因為其他名字也留下了。",
+      },
+    },
+  ],
 };

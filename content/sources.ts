@@ -900,4 +900,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "只保留傳說的結構骨架：一項按約完整履行的委託服務、一個以技術性理由賴掉約定報酬的治理機構，以及一項事先公告、卻遠遠超出原合約範圍的後果。沒有使用字面上的鼠患、笛聲或孩童意象——AI 原生的重新演繹，把原典最黑暗的那一拍（孩子消失）改寫成撤回一層從未正式化、卻已成為非正式命脈的診斷層。只使用傳說公眾領域的結構形狀，未複製任何特定版本的譯文、韻文或插畫。",
     },
   },
+  "arachne-and-minerva": {
+    id: "arachne-and-minerva",
+    title: { en: "Arachne and Minerva", zh: "《阿拉克涅與密涅瓦》" },
+    originalAuthor: "Ovid (ancient source account)",
+    firstPublished: "c. 8 CE, Metamorphoses Book VI",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "C",
+    adaptationNote: {
+      en: "Proposal C keeps the ancient contest's structural skeleton: two makers present works that embody incompatible claims about authority, the less powerful maker's pattern exposes what institutional prestige omits, and the authority attempts to control what the work's excellence makes visible. The AI-native version turns weaving into living attribution: an originator may be credited for transformation without owning every contributing thread, while consent withdrawals and unreachable sources remain visible as structural gaps. Only Ovid's public-domain mythic structure was used; no translated wording, named modern character treatment, illustration, or commercial adaptation expression was copied.",
+      zh: "提案 C 保留古老競賽的結構骨架：兩位創作者提出體現不同權威主張的作品，權力較小者的紋樣揭露制度聲望所省略之事，而權威試圖控制作品的卓越所顯露的內容。AI 原生版本把編織轉化為流動署名：創作者可以因轉化本身獲得署名，卻不因此擁有每一條貢獻線索；同意撤回與無法聯絡的來源，則以結構缺口保持可見。只使用 Ovid 神話的公眾領域結構，未複製任何譯文措辭、現代角色處理、插畫或商業改編表達。",
+    },
+  },
 };
