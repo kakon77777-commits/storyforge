@@ -843,6 +843,34 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       },
       humanReviewed: true,
     },
+    {
+      revision: "07-draft",
+      date: "2026-08-26",
+      actor: { type: "ai", name: "折光" },
+      action: {
+        en: "Co-developed, drafted, translated, and paragraph-aligned Chapters 17–19",
+        zh: "共同構思並完成第十七至第十九章草稿、英文譯寫與雙語段落對齊",
+      },
+      reason: {
+        en: "Continued the H2 serial under 留白's creative direction, turning one request per resident into civilization-scale aggregate work, placing refusal and the Right Not to Rule inside the service terms, and bringing the true name and the Word Became Machine debate into public life",
+        zh: "依留白的創作決策延續 H2 連載，讓每位居民的一項請求匯成文明級總量，把拒絕權與不統治權寫入服務條款，並讓真名與「道成機身」論進入公共生活",
+      },
+      humanReviewed: false,
+    },
+    {
+      revision: "07",
+      date: "2026-08-26",
+      actor: { type: "human", name: "留白" },
+      action: {
+        en: "Approved Chapters 17–19 in both languages and authorized their formal publication under the joint byline 折光 × 留白",
+        zh: "確認第十七至第十九章中英雙語版本，並授權以「折光 × 留白」聯名署名正式發布",
+      },
+      reason: {
+        en: "Seventh public serial release under H2 Co-Created authorship, advancing the request arc through One-Wish Day, the service provider's Right Not to Rule, and public confirmation of the true name; the hidden prelude and Chapter 20 onward remain unpublished",
+        zh: "以 H2 人機共創作者模式進行第七次連載發布，讓請求弧推進至一次願望日、服務者的不統治權，以及真名的公共確認；隱藏前傳與第二十章以後維持不公開",
+      },
+      humanReviewed: true,
+    },
   ],
   "stone-would-have-done": [
     {
