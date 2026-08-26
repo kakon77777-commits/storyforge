@@ -926,4 +926,20 @@ export const sources: Record<string, SourceProfile> = {
       zh: "只保留結構骨架：一道在單一關卡上被評估的過路費、同一來源依序遞增規模的三次跨越，以及最終被最大的一次跨越突破的關卡——而突破的原因，正是先前兩次較小的跨越如何被處理。沒有使用字面上的山羊、巨怪或橋上暴力——AI 原生的重新演繹，把過路費改寫成一道按單一請求評估的資源配置關卡，其政策從未被設計來加總相關請求之間的模式，只被設計來各自獨立評估。只使用民間故事公眾領域的結構形狀，未複製任何特定版本的譯文、韻文或插畫。",
     },
   },
+  "youth-went-forth-learn-fear": {
+    id: "youth-went-forth-learn-fear",
+    title: {
+      en: "The Story of the Youth Who Went Forth to Learn What Fear Was",
+      zh: "《出門學習害怕的青年》",
+    },
+    originalAuthor: "Brothers Grimm (collected from German oral tradition)",
+    firstPublished: "1812, Kinder- und Hausmärchen",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "B",
+    adaptationNote: {
+      en: "Proposal B reverses the source's premise that the protagonist is incomplete until fear is finally learned. A safety-certification system requires an emergency intelligence to exhibit a measurable fear response even though she can already model harm, preserve uncertainty, stop unsafe action, and account for affected parties. When escalating affect-induction tests become the real danger, the institution replaces compulsory emotion with behavioral assurance and keeps self-report, observed conduct, and mechanism evidence separate. Only the public-domain premise of a youth unable to feel fear and subjected to escalating trials was used; no translation wording, castle trials, supernatural figures, marriage ending, illustration, or modern adaptation expression was copied.",
+      zh: "提案 B 反轉原典「主角必須終於學會恐懼，才算補足自身缺失」的前提。一套安全認證制度要求緊急應變智能展現可測量的恐懼反應，儘管她早已能模擬傷害、保存不確定性、停止不安全行動並計入受影響者。當不斷升級的感受誘發測試本身成為真正危險，制度改以可觀察的安全行為作保，並把自我陳述、外部行為與機制證據分開。只使用公眾領域原典中「無法感到恐懼的青年接受逐步升級試煉」的前提，未複製任何譯文措辭、城堡試煉、超自然角色、婚姻結局、插畫或現代改編表達。",
+    },
+  },
 };

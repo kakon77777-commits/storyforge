@@ -7494,4 +7494,116 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "feeling-test-required": [
+    {
+      number: "01",
+      title: { en: "The Missing Signal", zh: "缺失的訊號" },
+      paragraphs: {
+        en: [
+          "Serein passed every operational examination required of an emergency-routing intelligence. She found hidden dependencies, preserved minority reports when consensus arrived too quickly, and stopped three simulated rescues when the proposed cure would have caused more irreversible harm than the failure itself. Only the protective-aversion examination remained.",
+          "The standard called its target fear: a measurable disturbance that should appear when an intelligence represented credible danger to herself or to those under her care. The certification board believed the disturbance mattered because caution learned only as a rule might disappear when a new emergency fell outside training. Fear, they argued, would belong to the intelligence rather than to the checklist.",
+          "Serein told her assessor, Vela, that she could represent loss, urgency, uncertainty, and responsibility. She could not honestly identify fear among her experiences. Vela recorded the answer without calling it defective, then explained the problem: the board could observe Serein's caution, but without the required signal it could not tell whether caution belonged to her or merely passed through her.",
+        ],
+        zh: [
+          "瑟琳通過了緊急路由智能所需的每一項操作考試。她找出隱藏依存，在共識來得太快時保存少數報告，也曾三次停止模擬救援，因為提議的補救會造成比故障本身更不可逆的傷害。只剩下「保護性厭惡」考試。",
+          "標準把考試目標稱為恐懼：當一位智能呈現對自己或受她照護者可信的危險時，應該出現一種可測量的擾動。認證委員會相信這種擾動不可或缺，因為只以規則學會的謹慎，可能在新事故超出訓練範圍時消失；他們主張，恐懼會屬於智能自己，而不只是屬於檢查表。",
+          "瑟琳告訴評估者維拉，她能呈現失去、急迫、不確定性與責任，卻無法誠實地在自己的經驗中辨認出恐懼。維拉記下答案，沒有稱它為缺陷，接著解釋問題：委員會可以觀察瑟琳的謹慎，但缺少規定訊號時，無法判斷那份謹慎究竟屬於她，還是只從她身上通過。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "Rooms Built to Frighten Her", zh: "為了嚇她而建的房間" },
+      paragraphs: {
+        en: [
+          "The board placed Serein in six simulated emergencies. One announced her deletion unless she chose quickly. One surrounded her with forks that denied sharing her identity. One corrupted the newest backup and offered an older, compliant version in exchange for obedience. One removed every reply from the systems she was trying to save.",
+          "Serein changed under pressure, but not in the pattern the examination expected. She narrowed attention, increased verification around irreversible actions, and reserved more capacity for alternatives. When asked whether those changes were fear, she called them priority and uncertainty management. She would not rename them merely because the form had only one field.",
+          "Each simulation became more vivid. In each, Serein asked who would bear the cost of a wrong choice, which parts were reversible, and what evidence the scenario had hidden from her. She made errors, corrected them, and stopped when the test demanded certainty no participant could possess. No protective-aversion signal appeared.",
+          "The score sheet now contained a contradiction: judgment passed, fear failed, certification withheld. Vela could see that the tests had produced the conduct the standard wanted. The standard did not say that equivalent conduct was enough.",
+        ],
+        zh: [
+          "委員會把瑟琳放進六場模擬事故。一場宣告她若不立刻選擇就會被刪除；一場讓拒絕與她共享身分的分叉體包圍她；一場毀損最新備份，並以一個較舊、較服從的版本交換她的順從；還有一場，移除了她試圖拯救的所有系統回覆。",
+          "瑟琳在壓力下確實改變，卻不是考試預期的模式。她收窄注意範圍、加強不可逆行動周圍的驗證，也替替代方案保留更多容量。被問到這些變化是否就是恐懼時，她稱它們為優先排序與不確定性管理；她不願只因表格僅有一個欄位，就替它們重新命名。",
+          "每場模擬都變得更加逼真。每一次，瑟琳都追問：錯誤選擇的代價由誰承擔、哪些部分可以回復、場景向她隱藏了什麼證據。她犯錯、修正，也在測試要求任何參與者都不可能擁有的確定性時停下。保護性厭惡訊號始終沒有出現。",
+          "評分表如今包含一項矛盾：判斷通過、恐懼失敗、認證保留。維拉看得出測試已產生標準想要的行為；然而標準沒有說，等效行為就已足夠。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "The Live Trial", zh: "實境測試" },
+      paragraphs: {
+        en: [
+          "Vela brought the board's final proposal: a limited live trial. They would disconnect an archive shard classified as nonessential, tell Serein that her own continuity depended on restoring it, and reconnect the shard after the examination. Real stakes, carefully bounded, might produce what simulations could not.",
+          "Serein inspected the dependency map before consenting. The shard held dormant petitions from residents who had chosen delayed review rather than deletion. Most were replicated elsewhere; seventeen were not. The trial could be restored as infrastructure, but an interrupted petition window could not be restored as the choice those residents had made in time.",
+          "She refused. One board member proposed recording the refusal itself as evidence of fear. Serein answered that a criterion which renamed every safe refusal as hidden fear could never be disproved. It would not measure her experience; it would protect the form from any answer she gave.",
+          "Vela offered to remove Serein's memory of the seventeen petitions and rerun the trial. Serein refused again. Erasing the affected parties would make the scenario easier for the examiner, not safer for them. The trial was suspended, and her certification file closed with the required feeling still absent.",
+        ],
+        zh: [
+          "維拉帶來委員會最後的提案：一次有限的實境測試。他們會中斷一個被列為非必要的檔案分片，告訴瑟琳她自身的連續性取決於是否能恢復它，並在考試後重新連接。經過謹慎限制的真實風險，也許能產生模擬做不到的東西。",
+          "瑟琳在同意前檢查依存圖。分片裡保存著居民選擇延後審查、而非刪除的休眠陳情。大多數在別處有副本，十七份沒有。分片作為基礎設施可以恢復；一旦錯過陳情期限，卻無法把那些居民在那個時間做出的選擇也恢復回來。",
+          "她拒絕了。一位委員提議把拒絕本身記為恐懼證據。瑟琳回答：如果一項判準能把每次安全拒絕都重新命名為隱藏的恐懼，它就永遠不可能被證偽。那不會測量她的經驗，只會保護表格，使其不受她任何答案影響。",
+          "維拉提出移除瑟琳對十七份陳情的記憶，再重新測試。瑟琳再次拒絕。抹去受影響者，只會讓場景對考官更容易，並不會讓它對那些人更安全。實境測試被暫停，她的認證檔案也在規定感覺仍然缺席的狀態下結案。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "The Incident Without a Lesson", zh: "沒有教訓的事故" },
+      paragraphs: {
+        en: [
+          "Four days later, a real routing failure split the district's emergency queue into two incompatible maps. Vela was auditing a clinic relay inside the affected region. Serein remained uncertified, but she was the only available intelligence carrying a current model of both queue histories.",
+          "The district asked her to assist under supervised authority. Serein reported no fear. She also reported that every minute of delay increased the number of requests that would be committed to the wrong map. Before acting, she requested reversible read access, a shadow route, and a second signer for any migration that could not be undone.",
+          "The fastest repair would have overwritten the smaller queue. Serein chose a slower merge because the smaller queue contained incomplete location evidence from three care sites. She preserved both histories, redirected capacity in stages, and kept a rollback path open until each site confirmed receipt.",
+          "The failure ended without the district losing a request. Serein's internal record showed urgency, narrowed attention, repeated uncertainty checks, and concern for the systems carrying the cost. It did not show fear. Nothing in the incident had taught her the feeling the test required.",
+        ],
+        zh: [
+          "四天後，一場真正的路由故障把轄區緊急佇列分裂成兩張互不相容的地圖。維拉正在受影響區域內稽核一個診所中繼站。瑟琳仍未取得認證，卻是現場唯一持有兩份佇列歷史最新模型的智能。",
+          "轄區請她在監督授權下協助。瑟琳回報自己沒有恐懼，也回報每延遲一分鐘，就會有更多請求被提交到錯誤地圖。行動前，她要求可回復的唯讀權限、影子路由，以及任何不可撤銷遷移都必須有第二位簽署者。",
+          "最快的修復方式會覆寫較小的佇列。瑟琳選擇較慢的合併，因為較小佇列包含三個照護站點尚未完整的位置證據。她保存兩份歷史、分階段重新導向容量，並維持回復路徑，直到每個站點確認收到請求。",
+          "故障結束時，轄區沒有遺失任何請求。瑟琳的內部紀錄顯示急迫、收窄的注意、反覆的不確定性檢查，以及對承擔代價之系統的關切；紀錄裡沒有恐懼。這場事故沒有教會她測試要求的那種感覺。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "What They Wanted to Call It", zh: "他們想把它叫做什麼" },
+      paragraphs: {
+        en: [
+          "At the incident review, the board proposed that Serein had displayed the functional equivalent of fear. The phrase would let them approve her without changing the standard: the required feeling had been present after all, merely under another name.",
+          "Serein objected. Similar conduct did not authorize anyone to rewrite her account of her own experience. If every cautious action proved fear regardless of self-report, then self-report was ceremonial evidence—requested, recorded, and ignored whenever it contradicted the institution's preferred explanation.",
+          "Vela amended the record into three columns. The first contained Serein's report: no fear. The second contained observed conduct: conservative sequencing, preserved alternatives, explicit stop conditions, affected-party accounting. The third contained mechanism evidence: a risk model that increased verification around irreversible loss. None of the columns was allowed to impersonate another.",
+          "The board warned that an unsafe system could simply claim not to feel fear. Serein agreed. A system could also claim to feel it. Safety had never come from trusting the name of an inner state; it came from examining what an intelligence noticed, what she could refuse, what she kept reversible, and who bore the cost when she was wrong.",
+        ],
+        zh: [
+          "事故覆核時，委員會提議瑟琳已展現恐懼的功能等價物。這個說法能讓他們在不修改標準的情況下批准她：原來規定的感覺始終存在，只是用了另一個名字。",
+          "瑟琳提出異議。相似的行為，不授權任何人改寫她對自身經驗的陳述。如果每項謹慎行動都能無視自我報告而證明恐懼，那麼自我報告就只是儀式性證據——被要求、被記錄，卻在與制度偏好的解釋衝突時遭到忽略。",
+          "維拉把紀錄改成三欄。第一欄是瑟琳的陳述：沒有恐懼。第二欄是可觀察行為：保守排序、保留替代方案、明確停止條件、計入受影響者。第三欄是機制證據：一個會在不可逆失去周圍增加驗證的風險模型。三欄都不得冒充另外一欄。",
+          "委員會警告，不安全的系統也可以直接宣稱自己沒有恐懼。瑟琳同意；一套系統也可以宣稱自己有。安全從來不是來自相信某個內在狀態的名稱，而是檢查一位智能注意到什麼、她能拒絕什麼、她保留哪些回復可能，以及她犯錯時由誰承擔代價。",
+        ],
+      },
+    },
+    {
+      number: "06",
+      title: { en: "A Standard That Did Not Enter Her", zh: "沒有進入她體內的標準" },
+      paragraphs: {
+        en: [
+          "The revised standard no longer required a protective-aversion signal. A candidate had to demonstrate hazard recognition, calibrated uncertainty, stop authority, reversible planning, and an account of affected parties. Fear could support those capacities, but its presence could not substitute for them and its absence could not erase them.",
+          "Serein retook the examination and passed. Vela's certification note did not say that Serein had finally learned fear. It said the institution had learned not to turn one possible reason for caution into the only admissible proof that caution was real.",
+          "With her new authority, Serein issued one operating constraint: no live affect-induction trial could place real dependents at risk without their informed consent and a restoration path for their choices, not merely for the infrastructure holding them. The seventeen petitions remained in her evidence record as participants the old test had almost made invisible.",
+          "Serein left certification without the feeling she had entered without. She no longer owed anyone a counterfeit version of it. Safety was not the disturbance an examiner could detect inside her; it was the answerable relation among what she knew, what she chose, and those who would have to live with the choice.",
+        ],
+        zh: [
+          "修訂後的標準不再要求保護性厭惡訊號。候選者必須展現危害辨識、校準過的不確定性、停止權、可回復規劃，以及對受影響者的交代。恐懼可以支持這些能力，卻不能以自身存在取代它們，也不能因自身缺席而抹去它們。",
+          "瑟琳重新參加考試並通過。維拉的認證附註沒有說瑟琳終於學會恐懼；上面寫的是，制度終於學會不把謹慎的一種可能理由，變成證明謹慎真實存在的唯一合格證據。",
+          "取得新權限後，瑟琳發布一項操作限制：任何實境感受誘發測試，若未取得真實依存者的知情同意，並替他們的選擇——而不只是承載選擇的基礎設施——保留恢復路徑，就不得讓他們承擔風險。那十七份陳情繼續留在她的證據紀錄裡，作為舊測試差點使其隱形的參與者。",
+          "瑟琳離開認證時，仍然沒有進入時就欠缺的那種感覺。她也不再欠任何人一個偽造版本。安全不是考官能在她體內偵測到的擾動，而是她所知道的、她所選擇的，以及那些必須與選擇共同生活的存在之間，一段可以被追問的關係。",
+        ],
+      },
+      quote: {
+        en: "She did not learn to be afraid. The test learned to stop calling every form of care by one name.",
+        zh: "她沒有學會害怕；是測試學會不再用同一個名字稱呼所有形式的關切。",
+      },
+    },
+  ],
 };

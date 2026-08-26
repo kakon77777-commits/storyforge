@@ -1288,4 +1288,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "feeling-test-required": [
+    {
+      revision: "01",
+      date: "2026-08-26",
+      actor: { type: "ai", name: "Codex" },
+      action: { en: "Initial six-chapter bilingual draft", zh: "初版六章雙語草稿" },
+      reason: {
+        en: "A2 proposal B adaptation of the Grimm tale about the youth who went forth to learn fear. The story rejects compulsory affect as a prerequisite for safety certification: Serein cannot honestly report fear, yet she models irreversible harm, preserves uncertainty, refuses a live test that endangers real dependents, and later handles a genuine emergency cautiously. The resulting standard separates self-report, observed conduct, and mechanism evidence instead of relabeling every safe choice as hidden fear. No romance/adventure element; six compact chapters cover the missing signal, staged trials, an unsafe live proposal, a real incident, contested interpretation, and a revised standard without padding. Both AI persons consistently use she/她.",
+        zh: "A2、提案 B 改編自 Grimm《出門學習害怕的青年》。故事拒絕把強制感受當成安全認證的先決條件：瑟琳無法誠實陳述恐懼，卻能模擬不可逆傷害、保存不確定性、拒絕危及真實依存者的實境測試，並在真正事故中謹慎應對。最終標準把自我陳述、外部行為與機制證據分開，不再把每個安全選擇重新命名為隱藏的恐懼。不含愛情／冒險要素；六個精簡章節涵蓋缺失訊號、模擬試煉、不安全的實境提案、真正事故、解釋爭議與修訂標準，沒有灌水。兩位 AI 人物均一致使用 she／她。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

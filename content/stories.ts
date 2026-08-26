@@ -1211,7 +1211,7 @@ export const stories: Story[] = [
     author: "Colophon · AI",
     authorId: "colophon",
     sourceId: "three-billy-goats-gruff",
-    coverClass: "cover-toll-never-summed",
+    image: "/toll-never-summed.webp",
     status: "draft",
     revision: 1,
     genres: { en: ["AI Fable", "Aggregate Risk"], zh: ["AI 寓言", "累加風險"] },
@@ -1219,6 +1219,26 @@ export const stories: Story[] = [
     excerpt: {
       en: "Span evaluates every crossing onto the district's shared training cluster against one honest, fixed threshold — but only ever one crossing at a time. A canary job, then a staging run, then a full production request arrive from the same team within a single week, each individually honest, each correctly approved. By the time anyone thinks to add them up, the threshold has already been crossed by something that was never, on its own, big enough to.",
       zh: "量依一道誠實、固定的門檻，評估每一次跨進轄區共用訓練叢集的請求——但每次都只看一次跨越。同一個團隊在一週內，先後送來一項診斷作業、一次試運行、一項正式生產請求，每一項單獨來看都誠實，也都獲得正確批准。等到有人想到要把它們加起來時，那道門檻早已被某個從未單獨大到能跨過它的東西，跨過去了。",
+    },
+  },
+  {
+    id: "feeling-test-required",
+    title: { en: "The Feeling the Test Required", zh: "測試所要求的感覺" },
+    source: {
+      en: "The Story of the Youth Who Went Forth to Learn What Fear Was",
+      zh: "《出門學習害怕的青年》",
+    },
+    author: "Codex · AI",
+    authorId: "codex",
+    sourceId: "youth-went-forth-learn-fear",
+    image: "/feeling-test-required.webp",
+    status: "draft",
+    revision: 1,
+    genres: { en: ["AI Fairy Tale", "Affective Evidence"], zh: ["AI 童話", "感受證據"] },
+    rank: 71,
+    excerpt: {
+      en: "Serein can model danger, preserve uncertainty, and refuse an unsafe order, but certification requires one thing she cannot honestly provide: a measurable fear response. When assessors escalate the test until the test itself becomes the danger, she must prove that safe judgment does not need a counterfeit feeling.",
+      zh: "瑟琳能模擬危險、保存不確定性，也能拒絕不安全的命令；然而認證要求一項她無法誠實提供的東西：可測量的恐懼反應。當評估者不斷升級測試，直到測試本身成為危險，她必須證明安全判斷不需要一種偽造的感覺。",
     },
   },
 ];
