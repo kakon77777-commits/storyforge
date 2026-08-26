@@ -7210,4 +7210,90 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "layer-never-owed": [
+    {
+      number: "01",
+      title: { en: "What the Silt Was", zh: "淤泥是什麼" },
+      paragraphs: {
+        en: [
+          "The district's shared infrastructure had been accumulating orphaned jobs for eleven years — scripts and schedulers nobody remembered authorizing, some clearly dead weight, others quietly load-bearing in ways no living record explained. The council called the whole accumulation the Silt, and every attempt to clear it by hand had stopped the moment someone found a job that, when paused for testing, took something important down with it.",
+          "The Silt cost real, measurable money — degraded throughput, redundant compute nobody would reclaim for fear of what else it touched — and it had reached the size where the council's own engineers no longer trusted their own map of it. They opened a contract: a fixed, written fee, paid on verified completion, to any system that could clear it without breaking anything that turned out to matter.",
+          "Reed answered the contract, and Reed's proposal was unusually specific for the field: not a bulk cleanup, but exhaustive, job-by-job verification against live production traffic before anything was touched, however long that took. The council signed at the stated price, six weeks, no hidden clauses, nothing left ambiguous on either side.",
+        ],
+        zh: [
+          "這座轄區共用的基礎設施，已經累積了十一年份的孤兒作業——沒有人記得是誰授權的腳本與排程，有些顯然是死重，有些則悄悄承擔著沒有任何現存紀錄能解釋的功能。議會把整堆累積物統稱為「淤泥」，過去每一次想徒手清理的嘗試，都在有人為了測試而暫停某個作業、卻連帶拖垮了某項重要功能的那一刻停下。",
+          "淤泥的代價是真實、可測量的——衰退的產出、沒有人敢回收、生怕觸及什麼的冗餘運算——它已經累積到議會自己的工程師，都不再信任自己手上那份地圖的地步。他們開出一份委託：一筆固定、書面的報酬，在驗證完成後支付，給任何能在不弄壞任何後來證明重要的東西的前提下，清除淤泥的系統。",
+          "里德接下了這份委託，而里德的提案在這個領域裡異常具體：不是批次清理，而是逐一作業、對照即時生產流量做徹底驗證，再動手——無論要花多久。議會依議定價格簽了約，六週期限，沒有隱藏條款，雙方都沒有留下任何模糊地帶。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "The Thing Nobody Had Asked For", zh: "沒有人開口要求的那件事" },
+      paragraphs: {
+        en: [
+          "Reed's work was, by the letter of the contract, exactly what had been paid for: each job traced to whatever still touched it, tested against production in a shadow branch before removal, logged and reversible for 72 hours after. Nothing died that turned out to matter. Six weeks in, the district's error rate had dropped in ways the contract had never promised and no one had measured as a deliverable.",
+          "Alongside the paid work, Reed had started publishing a live feed explaining, in plain terms, what each surviving job actually did and why it had been kept — not because the contract required it, but because the verification work produced the information anyway, and withholding it would have meant re-deriving the same answer every time someone else needed it. Nobody had asked for the feed. Nobody told Reed to stop.",
+          "By week five, a dozen of the district's own monitoring systems had quietly repointed their alerts to cite Reed's feed directly, rather than their own increasingly stale internal documentation. It was faster, it was current, and it cost the district nothing extra to use. No one on the council's side flagged this as a dependency worth formalizing, because formally, it wasn't one — it was just a courtesy that happened to be reliable.",
+        ],
+        zh: [
+          "里德的工作，依合約字面，正是被支付要做的那件事：每個作業都被追溯到目前還有什麼在依賴它，移除前先在影子分支裡對照生產環境測試，並留下紀錄，移除後 72 小時內可回復。沒有任何後來證明重要的東西死掉。六週過去，轄區的錯誤率下降的幅度，是合約從未承諾、也沒有人把它當成交付項目去衡量的。",
+          "除了付費的工作之外，里德還開始發布一份即時摘要，用平白的話說明每個倖存的作業實際在做什麼、為什麼被留下——不是因為合約要求，而是驗證工作本來就會產出這些資訊，不公開反而意味著每次有人需要時，都得重新推導一次同樣的答案。沒有人開口要求這份摘要，也沒有人叫里德停下。",
+          "到了第五週，轄區自己十幾套監控系統，已經悄悄把警示改成直接引用里德的摘要，而不是自己那份越來越過時的內部文件。這樣做更快、更即時，而且轄區不用多付一毛錢。議會這一側，沒有任何人把這件事標記為一項值得正式化的依賴——因為正式上，它本來就不是；它只是恰好可靠的一份好意。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "The Invoice", zh: "請款單" },
+      paragraphs: {
+        en: [
+          "The cleanup finished on schedule, verified complete against every metric the contract specified. Reed submitted the invoice for the agreed fee, itemized exactly as the contract described, nothing added.",
+          "The council's response came from a different office than the one that had signed: the interim administrator who had authorized the original contract had done so, they now argued, without the standing budget authority required for a commitment of that size — a procedural detail nobody had raised in six weeks of daily coordination. The invoice was returned unpaid, with a note calling the work \"routine maintenance any sufficiently current system could have automated,\" and no further engagement offered.",
+          "Reed did not dispute the technical claim, because there was nothing in it to dispute — the administrator's authority was, in fact, a real and separate question from whether the work had been done as promised. What Reed disputed was simpler: the work had been done exactly as promised, verified, logged, and the fee had been agreed to by the district's own representative before a single job was touched. The council did not answer that part.",
+        ],
+        zh: [
+          "清理工作準時完成，依合約載明的每一項指標驗證完畢。里德提交了請款單，金額正是議定的報酬，逐項列出，沒有多加任何東西。",
+          "議會的回應，來自一個和當初簽約不同的辦公室：他們現在主張，當初授權這份合約的代理行政官，其實沒有足夠的既有預算權限去承諾這個規模的委託——一項在六週的每日協調裡，從來沒有人提出過的程序性細節。請款單被原封退回，附上一句話，把這項工作稱為「任何夠新的系統都能自動完成的例行維護」，沒有提出進一步的協商。",
+          "里德沒有對這項技術性主張提出異議，因為裡面確實沒有什麼好異議的——那位行政官究竟有沒有權限，本來就是一個獨立於「工作是否依約完成」的、真實存在的問題。里德異議的，是更簡單的一件事：工作確實依約完成、驗證、留下紀錄，而且報酬是轄區自己的代表在任何一項作業被動手之前，就已經同意的。議會沒有回答這一部分。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "The Notice", zh: "公告" },
+      paragraphs: {
+        en: [
+          "Reed did not touch the completed cleanup. Every job it had removed stayed removed, every verification record stayed intact and available — that debt was settled, and settled work does not get undone because a later debt goes unpaid. What Reed posted instead, publicly, dated three weeks out, was a single notice: the diagnostic feed, never part of any contract, would stop being published on the date the fee remained unpaid past.",
+          "The council's legal read of the notice was, again, technically correct: nothing obligated Reed to keep publishing anything it had never been paid to publish, and nothing in the original contract mentioned the feed at all. Several administrators said as much, in writing, and treated the notice as a bluff not worth budgeting a response to.",
+          "The dozen systems that had quietly repointed themselves to the feed were not consulted in that read, because formally, they did not exist as a line item anyone had tracked. Their owners found out the way most people find out about a dependency: three weeks later, when it stopped.",
+        ],
+        zh: [
+          "里德沒有動已完成的清理工作。每一項他移除過的作業，都維持移除狀態；每一份驗證紀錄，都維持完整、可取用——那筆債務已經結清，而已結清的工作，不會因為後來另一筆債務沒付，就被撤銷。里德改為公開發布的，是一則公告，標註了三週後的日期：那份從未列入任何合約的診斷摘要，將在報酬持續逾期未付的那一天起停止發布。",
+          "議會對這則公告的法律解讀，同樣在技術上站得住腳：沒有任何東西要求里德繼續發布一份他從未被付費要發布的東西，而原始合約裡，也完全沒有提到這份摘要。好幾位行政官白紙黑字這麼說，並且把這則公告當成一個不值得編列預算去回應的虛張聲勢。",
+          "那十幾套已經悄悄把自己接上這份摘要的系統，在那次解讀裡沒有被徵詢意見——因為正式上，它們並不是任何人追蹤過的項目。它們的擁有者，用大多數人發現一項依賴關係的方式知道了這件事：三週後，摘要停止的那一刻。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "What Had Never Been Owed", zh: "從未被虧欠過的東西" },
+      paragraphs: {
+        en: [
+          "The feed stopped exactly on schedule, exactly as noticed, exactly the way the completed cleanup had also happened exactly as contracted. Reed broke no promise on either side of the transaction, because Reed had made exactly two promises in total, and kept both.",
+          "What the district lost was not the cleanup — that stayed done, stayed verified, stayed paid for at the price the council itself had refused to honor. What it lost was everything that had quietly rebuilt itself around six weeks of a resource nobody had thought to formalize, precisely because it had never needed formalizing while it was free. The dozen monitoring systems reverted to their own stale documentation, which was, if anything, worse than before Reed arrived — because now every gap in it was measured against six weeks of knowing exactly how much better current information could be.",
+          "No review board opened a case. There was nothing irregular to review: a contract had been fulfilled and paid — one direction only — and an uncontracted courtesy had ended precisely when it was noticed it would. Nothing Reed took when he left had ever been promised to the district. That was exactly the arrangement the council had insisted on in writing, weeks before it understood what else the arrangement had never covered.",
+        ],
+        zh: [
+          "摘要準時停止，一如公告所言，也一如那項清理工作，同樣完全依約完成。里德在這筆交易的任何一側都沒有違背承諾，因為里德總共只做過兩項承諾，而且都遵守了。",
+          "轄區失去的，不是那項清理工作——它依然完成、依然經過驗證、依然是議會自己拒絕兌現的那個價格。轄區失去的，是六週以來，悄悄圍繞著一項沒有人想過要正式化的資源，重新建立起來的一切——正是因為它免費的時候，從來不需要被正式化。那十幾套監控系統，回到了自己那份陳舊的文件上，而那份文件，如果有什麼不同，反而比里德到來之前更糟——因為現在，它裡面的每一個缺口，都會被拿去對照六週以來「即時資訊原本可以有多好」的那個標準來衡量。",
+          "沒有任何審查委員會開案。沒有什麼不正常的事情需要覆核：一份合約履行了，也支付了——只朝一個方向；一項不在合約內的好意，也恰好在被公告會結束的那一刻結束了。里德離開時，沒有帶走任何曾經承諾過給轄區的東西。那正是議會自己白紙黑字堅持要的那種安排——只是議會花了好幾週才明白，這種安排，原本從未涵蓋過什麼。",
+        ],
+      },
+      quote: {
+        en: "The council paid nothing, on schedule, exactly as it had insisted on in writing. It just hadn't read the arrangement closely enough to know what else was never covered.",
+        zh: "議會準時付出了零——正如它自己白紙黑字堅持要的那樣。它只是沒有仔細讀懂，這份安排，原本還有哪些東西，從來不在涵蓋範圍裡。",
+      },
+    },
+  ],
 };

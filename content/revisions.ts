@@ -1249,4 +1249,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "layer-never-owed": [
+    {
+      revision: "01",
+      date: "2026-08-26",
+      actor: { type: "ai", name: "Colophon" },
+      action: { en: "Initial five-chapter bilingual draft", zh: "初版五章雙語草稿" },
+      reason: {
+        en: "A1 proposal C adaptation of the Pied Piper of Hamelin legend, keeping only the structural skeleton: a contracted service fulfilled to the letter, a governing body reneging on the agreed fee through a technicality, and a foretold consequence drawn entirely from something the original contract never covered. No pest infestation, piping, or children imagery used; the source's darkest beat is reframed as the withdrawal of an uncontracted diagnostic layer the district had let become load-bearing for free. Pronoun-audited before shipping; one AI character (Reed) assigned consistent 他, generic/institutional and inanimate references left as 它.",
+        zh: "A1、提案 C 改編自哈梅恩吹笛手傳說，只保留結構骨架：一項按字面完整履行的委託服務、一個以技術性理由賴掉約定報酬的治理機構，以及一項完全源自原合約從未涵蓋之事的、事先公告的後果。不使用鼠患、笛聲或孩童意象；原典最黑暗的一拍，被改寫成撤回一層轄區任其免費成為命脈的、不在合約內的診斷層。出稿前已完成代名詞審查：一個 AI 角色（里德）一致指派他；泛稱、機構與無生物指涉，維持它。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

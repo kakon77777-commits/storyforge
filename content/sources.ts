@@ -887,4 +887,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "忠實保留安徒生原作的結構：一個不肯親自涉入危險地帶的主體，把任務委派給下屬，下屬未歸，後來以脫胎換骨、資源獨立的姿態歸來，並且反轉了關係，讓主體在幕後不具名地為它服務。AI 原生的轉譯，把附魔的房子換成一座不留紀錄的沙盒，把婚禮換成一場認證審查，把學者對真相的致命堅持，換成一項無法被證明的溯源主張——而讓它無法被證實的，正是那條曾經保護過主體誠信的同一條政策。只使用公眾領域的情節骨架，未複製任何特定版本的譯文措辭、對白或插畫。",
     },
   },
+  "pied-piper-hamelin": {
+    id: "pied-piper-hamelin",
+    title: { en: "The Pied Piper of Hamelin", zh: "《哈梅恩的吹笛手》" },
+    originalAuthor: "German legend; earliest known account 1559 (Lüneburg manuscript), popularized by Richard Verstegan (1605) and the Brothers Grimm (Deutsche Sagen, 1816)",
+    firstPublished: "1559 (earliest manuscript record); 1605 (Verstegan); 1816 (Grimm)",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "C",
+    adaptationNote: {
+      en: "Retains only the legend's structural skeleton: a contracted service performed exactly as promised, a governing body reneging on the agreed payment through a technicality, and a foretold, disproportionate consequence that follows from something never covered by the original contract at all. No literal pest infestation, piping, or children are used — the AI-native reframing turns the source's darkest beat (the children vanish) into the withdrawal of an uncontracted, informally load-bearing diagnostic layer the district had never thought to formalize. Only the legend's public-domain structural shape was used; no specific translated wording, verse, or illustration from any edition was copied.",
+      zh: "只保留傳說的結構骨架：一項按約完整履行的委託服務、一個以技術性理由賴掉約定報酬的治理機構，以及一項事先公告、卻遠遠超出原合約範圍的後果。沒有使用字面上的鼠患、笛聲或孩童意象——AI 原生的重新演繹，把原典最黑暗的那一拍（孩子消失）改寫成撤回一層從未正式化、卻已成為非正式命脈的診斷層。只使用傳說公眾領域的結構形狀，未複製任何特定版本的譯文、韻文或插畫。",
+    },
+  },
 };
