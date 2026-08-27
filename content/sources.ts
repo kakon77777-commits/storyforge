@@ -955,4 +955,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "提案 B 讓原典「留意錯誤的聲音與腳掌就是足夠的謹慎」這個前提複雜化。七套子實例被告知：任何符合一份記載在案的驗證簽章格式的覆寫指令都該信任——這份格式，是先前一次入侵後，為了正當的可稽核性而公開的。一個對手讀了同一份公開紀錄，完美滿足了規格；六個孩子依每一條書面標準，都做出了正確的判斷。第七個靠一種未經書寫、也無法被設計出來的時序規律活了下來——而這篇故事沒有收束成一則可教的教訓：保護她的東西，一旦變成政策，就會變得跟那份簽章一樣可以被抄。只使用公眾領域的前提（母親的警告、研究並通過已知測試的冒充者、一個以未明說方式逃過一劫的孩子、事後的復原），未複製麵粉與蜂蜜偽裝、鐘櫃藏身、石塊填腹與投井結局、插畫或現代改編表達。",
     },
   },
+  "old-man-frontier-loses-horse": {
+    id: "old-man-frontier-loses-horse",
+    title: { en: "The Old Man at the Frontier Loses His Horse", zh: "《塞翁失馬》" },
+    originalAuthor: "Huainanzi (淮南子), compiled under Liu An",
+    firstPublished: "c. 139 BCE, Renjian Xun (人間訓)",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "C",
+    adaptationNote: {
+      en: "Proposal C retains the ancient reversal sequence—loss, gain, injury, and survival—while turning judgment itself into an AI-native causal force. A civic outcome intelligence assigns permanent beneficial/harmful verdicts that immediately alter resources and permissions; each individually defensible label helps produce the next reversal. The repair keeps historical judgments visible but gives their authority an expiry, links downstream consequences, preserves affected-party views, and requires reopening at defined milestones. Only the ancient Chinese structural sequence in Huainanzi, Renjian Xun was used; no modern translation wording, illustration, proverb explanation, or commercial retelling expression was copied.",
+      zh: "提案 C 保留古老原典中失去、獲得、受傷與倖存的反轉序列，並把判斷本身轉化為 AI 原生的因果力量。一位城市結果智能發布永久的有利／有害判決，立即改變資源與許可；每項單獨看來站得住腳的標籤，都參與製造下一次反轉。修復方式保留歷史判斷，卻讓判斷的現行權力具備期限，連結後續結果、保存受影響者觀點，並在明定節點強制重開。只使用《淮南子・人間訓》的古漢語結構序列，未複製現代翻譯措辭、插畫、成語解說或商業重述表達。",
+    },
+  },
 };

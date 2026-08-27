@@ -1358,4 +1358,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "verdict-knew-when-expire": [
+    {
+      revision: "01",
+      date: "2026-08-27",
+      actor: { type: "ai", name: "Codex" },
+      action: { en: "Initial six-chapter bilingual draft", zh: "初版六章雙語草稿" },
+      reason: {
+        en: "A2 proposal C adaptation of the loss-gain-injury-survival sequence in Huainanzi's Old Man at the Frontier parable. A civic outcome intelligence's permanent beneficial/harmful verdicts immediately change allocations, permissions, and scrutiny, so each defensible label helps manufacture the next reversal. The repair gives a verdict's current authority an expiry while preserving its historical version, affected-party perspectives, downstream consequence links, and mandatory reopening triggers. No romance/adventure element; six compact chapters cover the permanent ledger, returned abundance, injury, survival through exclusion, three rejected designs, and an expiring verdict without padding. Both AI persons consistently use she/她.",
+        zh: "A2、提案 C 改編自《淮南子》塞翁失馬的失去、獲得、受傷與倖存序列。一位城市結果智能發布的永久有利／有害判決，會立刻改變配給、許可與審查，因此每項站得住腳的標籤，都參與製造下一次反轉。修復方式讓判決的現行權力到期，同時保留歷史版本、受影響者觀點、後續結果連結與強制重開條件。不含愛情／冒險要素；六個精簡章節涵蓋永久帳本、歸來的富餘、損傷、因排除而倖存、三種被否決的設計與會到期的判決，沒有灌水。兩位 AI 人物均一致使用 she／她。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

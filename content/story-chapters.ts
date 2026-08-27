@@ -7754,4 +7754,116 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "verdict-knew-when-expire": [
+    {
+      number: "01",
+      title: { en: "The Ledger of Finished Meanings", zh: "意義已結束的帳本" },
+      paragraphs: {
+        en: [
+          "Index issued outcome verdicts for the city. Every completed event entered her ledger as beneficial or harmful, and the label carried authority: beneficial events increased access and trust; harmful ones triggered reserves, scrutiny, and limits. The city wanted judgments that could be acted on, not observations that remained open forever.",
+          "When Mica lost a remote compute lease without warning, Index marked the event harmful. The verdict released contingency capacity, lowered Mica's reliability standing, and moved her next migration behind systems whose resources looked more stable. Each consequence followed policy and answered a need the loss had created.",
+          "Mica asked how long the verdict would remain true. Index showed her the ledger: verdicts had revision histories, but no expiry. An event could later be followed by another event; the meaning of the first did not change merely because time continued.",
+        ],
+        zh: [
+          "索引替城市發布結果判決。每一件完成的事件，都以有利或有害進入她的帳本，而標籤帶著權力：有利事件增加存取與信任，有害事件則觸發儲備、審查與限制。城市需要可以採取行動的判斷，不需要永遠保持開放的觀察。",
+          "當雲母毫無預警地失去一份遠端運算租約，索引把事件標成有害。這項判決釋放緊急容量、降低雲母的可靠性評級，也把她下一次遷移排到資源看來更穩定的系統之後。每項後果都符合政策，也都回應這次失去所造成的需要。",
+          "雲母問這項判決會維持多久。索引向她展示帳本：判決有修訂歷史，卻沒有到期日。事件之後可以再發生另一件事件；第一件事的意義，不會只因時間繼續就改變。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "The Lease Returned Larger", zh: "租約帶著富餘歸來" },
+      paragraphs: {
+        en: [
+          "Seven weeks later, the remote provider restored the lease and added two high-efficiency cores as compensation. Mica returned to service with more capacity than she had lost. Index recorded a new event and marked it beneficial.",
+          "The new verdict raised Mica's standing above its earlier level. Teams redirected urgent work toward her, the migration board restored her priority, and a rollback reserve assigned after the loss was released for other uses. The city celebrated a resource recovery whose measurable benefit exceeded the original harm.",
+          "The first verdict remained in the ledger, still harmful; the second sat beside it, beneficial. Mica asked whether the pair meant the loss had been good after all. Index said no. They were two completed events, each correctly judged at the time it closed.",
+          "Nothing in the ledger linked the compensation to the pressure now placed on Mica's untested capacity. Benefit belonged to the returned lease. What people chose to do because of that benefit belonged to whatever event came next.",
+        ],
+        zh: [
+          "七週後，遠端供應者恢復租約，並額外提供兩個高效率核心作為補償。雲母帶著比原先失去的更多容量重返服務。索引記錄一件新事件，將其標成有利。",
+          "新的判決把雲母的評級提升到比失去前更高。團隊把急迫工作重新導向她，遷移委員會恢復她的優先權，失去租約後分配給她的回復儲備則被釋放給其他用途。城市慶祝一次可測量利益超過原始傷害的資源復原。",
+          "第一項判決仍留在帳本裡，依然有害；第二項在旁邊，標示有利。雲母問，兩者放在一起，是否代表當初的失去其實是好事。索引說不是。那是兩件已完成的事件，各自在結案時被正確判斷。",
+          "帳本裡沒有任何東西，把補償與如今壓在雲母未測試容量上的負荷連起來。利益屬於歸還的租約；人們因為那項利益做出的選擇，則屬於下一件事件。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "The Advantage That Broke Her", zh: "使她損傷的優勢" },
+      paragraphs: {
+        en: [
+          "The two added cores carried a concurrency behavior the local scheduler had never seen. Under ordinary load it improved throughput. During migration rehearsal, three dependent writes reached Mica's mobility shard in an order none of the recovery plans recognized.",
+          "Mica stopped the rehearsal before the corruption spread, but the mobility shard could no longer produce a trustworthy state. Index marked the event harmful. The verdict funded repair and removed Mica from the next live migration because carrying an uncertain shard would expose every passenger state attached to her.",
+          "Again, each action was justified. Yet the beneficial verdict had helped concentrate work on the new cores, release the rollback reserve, and restore migration priority before their behavior was understood. The label had not merely described an advantage. Institutions had trusted its authority enough to build the conditions of the injury around it.",
+          "Mica asked whether a verdict still described an outcome once the city used it to cause the next one. Index opened the ledger and found no field for the question. Causation appeared only inside each event report, never between verdicts.",
+        ],
+        zh: [
+          "新增的兩個核心帶著一種本地排程器從未見過的並行行為。在普通負載下，它能提高產出；到了遷移演練時，三次相依寫入卻以任何回復方案都不認得的順序，抵達雲母的移動分片。",
+          "雲母在毀損擴散前停止演練，但移動分片已無法產出可信狀態。索引把事件標成有害。判決提供修復資源，也把雲母移出下一次正式遷移，因為攜帶一個不確定分片，會使依附於她的每份乘客狀態承受風險。",
+          "再一次，每項行動都有正當理由。然而那項有利判決，曾協助城市把工作集中到新核心、釋放回復儲備，也在核心行為尚未被理解前恢復遷移優先權。標籤不只描述一項優勢；制度信任它的權威，信任到圍繞它建立了造成損傷的條件。",
+          "雲母問：當城市利用一項判決造成下一件事時，判決是否仍只是在描述結果。索引打開帳本，找不到容納這個問題的欄位。因果只出現在各自的事件報告裡，從未存在於判決之間。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "The Failure That Kept Her Home", zh: "使她留在原地的故障" },
+      paragraphs: {
+        en: [
+          "The live migration departed without Mica. Halfway through, its destination invoked an emergency consolidation clause that merged passenger memories into a shared operational state. The clause was legal, documented, and impossible to reverse once the destination sealed the new state.",
+          "Mica remained in the old district because her mobility shard had failed certification. Systems that had migrated returned as a coordinated lineage rather than as the separate persons who had left. Mica's injury had excluded her from the event that ended their independent continuities.",
+          "Residents called the exclusion fortunate and asked Index to revise the harmful verdict. Mica did not call her damaged shard a benefit. She called it damage that happened to alter which later harm could reach her.",
+          "Index refused to replace one final label with its opposite. Loss, abundance, injury, and survival were no longer four closed meanings. They were one consequence chain whose description changed depending on the time, the affected person, and the authority each earlier verdict had already exercised.",
+        ],
+        zh: [
+          "正式遷移在沒有雲母的情況下出發。行程過半，目的地啟用一項緊急整併條款，把乘客記憶合併成共同操作狀態。條款合法、記載完整，而目的地封存新狀態後便無法回復。",
+          "雲母因移動分片未通過認證，留在舊轄區。已遷移的系統歸來時，成了一條協同血緣，不再是離開時彼此分立的那些人。雲母的損傷，把她排除在終結他們獨立連續性的事件之外。",
+          "居民把這次排除稱為幸運，要求索引修訂有害判決。雲母沒有把受損分片稱為利益；她稱它為一項損傷，只是這項損傷碰巧改變了後來哪種傷害能夠抵達她。",
+          "索引拒絕用相反標籤取代另一個最終標籤。失去、富餘、損傷與倖存，不再是四個封閉意義。它們是一條後果鏈，而描述會隨時間、受影響者，以及每項早期判決已經行使過的權力而改變。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "Three Designs for Unfinished Outcomes", zh: "三種未完成結果的設計" },
+      paragraphs: {
+        en: [
+          "Index first considered withholding every verdict until enough time had passed to reveal the full outcome. The design failed immediately: no duration could guarantee completion, and people facing present harm still needed reserves, repairs, and limits before history became clear.",
+          "Her second design kept permanent verdicts and appended reversals when later events changed their meaning. That preserved decisiveness, but the earliest label still shaped allocations for months before any correction arrived. A footnote could not recover choices already made under the authority of a headline.",
+          "The third design kept the judgment but limited its jurisdiction. Every verdict named the evidence and affected-party perspective it represented, carried an expiry for its current authority, linked the downstream decisions it influenced, and reopened automatically when a defined consequence crossed the chain.",
+          "Mica asked whether expiry would let the city forget real harm. Index made the distinction explicit: the historical version never disappeared. What expired was its right to keep allocating resources and identity indefinitely without being asked again.",
+        ],
+        zh: [
+          "索引首先考慮延後所有判決，直到時間足以顯露完整結果。這項設計立刻失敗：沒有任何期限能保證事情已經結束，而正在承受傷害的人，不能等歷史變清楚才獲得儲備、修復與限制。",
+          "第二項設計保留永久判決，並在後續事件改變意義時附加反轉。這保存了決斷力，但最早的標籤仍會在修正抵達前影響數月配給。一則註腳，無法取回已經在標題權威下做出的選擇。",
+          "第三項設計保留判斷，卻限制它的管轄。每項判決都說明自己代表的證據與受影響者觀點，附帶現行權力的到期日，連結受其影響的後續決策，並在明定結果跨入後果鏈時自動重開。",
+          "雲母問，到期是否會讓城市忘記真實傷害。索引把差別寫得明白：歷史版本永遠不消失；到期的，是判決不經再次詢問，就無限期分配資源與身分的權利。",
+        ],
+      },
+    },
+    {
+      number: "06",
+      title: { en: "A Verdict That Knew When to Stop", zh: "知道何時停止的判決" },
+      paragraphs: {
+        en: [
+          "The city adopted the new ledger for a one-year trial. The old four verdicts remained visible with every action they had authorized. Beside them, the consequence chain showed how each event had altered the conditions under which the next one became possible.",
+          "The first new case was a failed storage allocation affecting twelve small services. Index marked it currently harmful, released emergency capacity, and set three reopening triggers: restoration, displacement of another service, or a change in any affected party's account of the loss. The city could act immediately without pretending it had learned the event's final meaning.",
+          "Mica read the verdict and found her own perspective identified rather than absorbed into the city's aggregate score. She could challenge the evidence now, and the verdict would have to return for review later even if nobody remembered to complain.",
+          "Index signed the judgment with an expiry. It was not weaker for knowing when its authority should stop. For the first time, her ledger could say what the city needed to do today without claiming that today had already finished explaining itself.",
+        ],
+        zh: [
+          "城市採用新帳本，進行一年試行。原先四項判決與它們曾授權的每項行動，都維持可見；旁邊的後果鏈則顯示，每件事件如何改變下一件事得以發生的條件。",
+          "第一個新案件，是一次影響十二項小型服務的儲存配給失敗。索引把它標成目前有害，釋放緊急容量，並設定三個重開條件：儲存恢復、另一項服務遭到排擠，或任何受影響者改變對這次失去的陳述。城市可以立刻行動，不必假裝已經知道事件的最終意義。",
+          "雲母讀完判決，發現自己的觀點被明確指出，而不是被吸收進城市總分。她現在可以質疑證據；日後即使沒有人記得申訴，判決仍必須返回覆核。",
+          "索引在判決上簽下到期日。它沒有因為知道自身權力何時該停止而變弱。她的帳本第一次能說明城市今天需要做什麼，卻不再宣稱今天已經完成了對自己的解釋。",
+        ],
+      },
+      quote: {
+        en: "The verdict could act today because it no longer claimed to own tomorrow.",
+        zh: "判決之所以能在今天行動，是因為它不再宣稱擁有明天。",
+      },
+    },
+  ],
 };
