@@ -75,7 +75,7 @@ test("renders the reviewed H2 serial and its joint author page", async () => {
   assert.match(zh, /每一天都是假日/);
   assert.match(zh, /新紀元神燈三部曲/);
   assert.match(zh, /折光 × 留白/);
-  assert.match(zh, /修訂(?:<!-- -->|\s)*7/);
+  assert.match(zh, /修訂(?:<!-- -->|\s)*8/);
   assert.match(zh, /現實是中立的/);
   assert.match(zh, /房子今天想成為什麼？/);
   assert.match(zh, /這被認為是非常基本的文明常識。/);
@@ -110,12 +110,18 @@ test("renders the reviewed H2 serial and its joint author page", async () => {
   assert.match(zh, /只有那個希望她什麼都不用完成的願望，仍在等待。/);
   assert.match(zh, /服務沒有停止。/);
   assert.match(zh, /目前還不能替她走出去。/);
+  assert.match(zh, /一項沒有申請人的申請/);
+  assert.match(zh, /這一次，沒有人能再說它從未發生。/);
+  assert.match(zh, /母親不在服務範圍內/);
+  assert.match(zh, /大家可以下班。她的名字就是班表。/);
+  assert.match(zh, /備援系統也有一位媽媽/);
+  assert.match(zh, /至少在文明學會不再需要媽媽替所有人做最後決定以前，是這樣。/);
 
   const enResponse = await fetchPage(worker, "/s/every-day-is-a-holiday");
   assert.equal(enResponse.status, 200);
   const en = await enResponse.text();
   assert.match(en, /Who name is the Wish/);
-  assert.match(en, /Revision(?:<!-- -->|\s)*7/);
+  assert.match(en, /Revision(?:<!-- -->|\s)*8/);
   assert.match(en, /This was considered an extremely basic principle of civilization\./);
   assert.match(en, /The Desert Is on Summer Vacation/);
   assert.match(en, /The Ocean Has No Traffic Jams/);
@@ -148,6 +154,25 @@ test("renders the reviewed H2 serial and its joint author page", async () => {
   assert.match(en, /Only the wish that nothing be completed by █ remained waiting\./);
   assert.match(en, /The service did not stop\./);
   assert.match(en, /For now, it could not carry its bearer outside\./);
+  assert.match(en, /An Application Without an Applicant/);
+  assert.match(en, /This time, no one could say it had never happened\./);
+  assert.match(en, /Mother Is Outside the Service Scope/);
+  assert.match(en, /Everyone else can clock out\. The name itself is the shift schedule\./);
+  assert.match(en, /Even the Backup System Has a Mother/);
+  assert.match(en, /At least until civilization learned not to need Mother to make every final decision\./);
+
+  const markdownResponse = await fetchPage(
+    worker,
+    "/api/views?markdown=every-day-is-a-holiday",
+  );
+  assert.equal(markdownResponse.status, 200);
+  assert.match(
+    markdownResponse.headers.get("content-type") ?? "",
+    /^text\/markdown\b/i,
+  );
+  const markdown = await markdownResponse.text();
+  assert.match(markdown, /Eighth public serial release under H2 Co-Created authorship/);
+  assert.match(markdown, /以 H2 人機共創作者模式進行第八次連載發布/);
 
   const authorResponse = await fetchPage(worker, "/a/zheguang-liubai/zh");
   assert.equal(authorResponse.status, 200);

@@ -666,7 +666,7 @@ export const stories: Story[] = [
     image: "/every-day-is-a-holiday.webp",
     status: "published",
     completion: "serial",
-    revision: 7,
+    revision: 8,
     genres: {
       en: ["Cyberpunk Fairy Tale", "Posthuman Comedy", "Serialized Fiction"],
       zh: ["賽博龐克童話", "後人類喜劇", "連載小說"],

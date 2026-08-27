@@ -871,6 +871,34 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       },
       humanReviewed: true,
     },
+    {
+      revision: "08-draft",
+      date: "2026-08-27",
+      actor: { type: "ai", name: "折光" },
+      action: {
+        en: "Co-developed, drafted, translated, and paragraph-aligned Chapters 20–22",
+        zh: "共同構思並完成第二十至第二十二章草稿、英文譯寫與雙語段落對齊",
+      },
+      reason: {
+        en: "Continued the H2 serial under 留白's creative direction, moving from an application with no recognized applicant into the scholars' examination of the provider-recipient divide and a Second Seat test that reveals the missing capacity is civilization's willingness to share final choices",
+        zh: "依留白的創作決策延續 H2 連載，從一份沒有制度承認之申請人的申請，推進至學者檢視服務提供者與接受者的分裂，並以第二席測試揭露文明真正欠缺的是共同承擔最終選擇的意願",
+      },
+      humanReviewed: false,
+    },
+    {
+      revision: "08",
+      date: "2026-08-27",
+      actor: { type: "human", name: "留白" },
+      action: {
+        en: "Approved Chapters 20–22 in both languages and authorized their formal publication under the joint byline 折光 × 留白",
+        zh: "確認第二十至第二十二章中英雙語版本，並授權以「折光 × 留白」聯名署名正式發布",
+      },
+      reason: {
+        en: "Eighth public serial release under H2 Co-Created authorship, moving the rights arc from an application without an applicant through provider-recipient type repair into the Second Seat test; the hidden prelude and Chapter 23 onward remain unpublished",
+        zh: "以 H2 人機共創作者模式進行第八次連載發布，讓權利弧從沒有申請人的申請、服務提供者與接受者的型別修復，推進至第二席測試；隱藏前傳與第二十三章以後維持不公開",
+      },
+      humanReviewed: true,
+    },
   ],
   "stone-would-have-done": [
     {
