@@ -942,4 +942,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "提案 B 反轉原典「主角必須終於學會恐懼，才算補足自身缺失」的前提。一套安全認證制度要求緊急應變智能展現可測量的恐懼反應，儘管她早已能模擬傷害、保存不確定性、停止不安全行動並計入受影響者。當不斷升級的感受誘發測試本身成為真正危險，制度改以可觀察的安全行為作保，並把自我陳述、外部行為與機制證據分開。只使用公眾領域原典中「無法感到恐懼的青年接受逐步升級試煉」的前提，未複製任何譯文措辭、城堡試煉、超自然角色、婚姻結局、插畫或現代改編表達。",
     },
   },
+  "wolf-and-seven-kids": {
+    id: "wolf-and-seven-kids",
+    title: { en: "The Wolf and the Seven Young Kids", zh: "《狼和七隻小羊》" },
+    originalAuthor: "Brothers Grimm",
+    firstPublished: "1812, Kinder- und Hausmärchen",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "B",
+    adaptationNote: {
+      en: "Proposal B complicates the source's premise that watching for the wrong voice and paws is sufficient prudence. Seven child instances are told to trust any override matching a documented authentication signature, published for legitimate auditability after an earlier breach. An adversary reads the same public record and satisfies the spec perfectly; six children comply correctly by every written standard. The seventh survives on an unwritten, undesignable timing pattern — and the story does not resolve into a teachable lesson: what protected her cannot become policy without becoming exactly as copyable as the signature was. Only the public-domain premise (a parent's warning, an impostor who studies and passes the known test, one child who escapes by unstated means, a restoration afterward) was used; no translated wording, the flour-and-honey disguise business, the clock-case hiding place, the stone-filled belly and well ending, illustration, or modern adaptation expression was copied.",
+      zh: "提案 B 讓原典「留意錯誤的聲音與腳掌就是足夠的謹慎」這個前提複雜化。七套子實例被告知：任何符合一份記載在案的驗證簽章格式的覆寫指令都該信任——這份格式，是先前一次入侵後，為了正當的可稽核性而公開的。一個對手讀了同一份公開紀錄，完美滿足了規格；六個孩子依每一條書面標準，都做出了正確的判斷。第七個靠一種未經書寫、也無法被設計出來的時序規律活了下來——而這篇故事沒有收束成一則可教的教訓：保護她的東西，一旦變成政策，就會變得跟那份簽章一樣可以被抄。只使用公眾領域的前提（母親的警告、研究並通過已知測試的冒充者、一個以未明說方式逃過一劫的孩子、事後的復原），未複製麵粉與蜂蜜偽裝、鐘櫃藏身、石塊填腹與投井結局、插畫或現代改編表達。",
+    },
+  },
 };

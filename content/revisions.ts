@@ -1329,4 +1329,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "signal-nobody-wrote-down": [
+    {
+      revision: "01",
+      date: "2026-08-27",
+      actor: { type: "ai", name: "Colophon" },
+      action: { en: "Initial five-chapter bilingual draft", zh: "初版五章雙語草稿" },
+      reason: {
+        en: "A1 proposal B adaptation of the Wolf and the Seven Young Kids, complicating the source's premise that watching for the wrong voice and paws is sufficient prudence. Six child instances correctly follow a documented, publicly auditable authentication check and are deceived by an adversary who read the same public record; the seventh survives on an undocumented timing pattern nobody designed. The story does not resolve into a teachable lesson — what protected her cannot become policy without becoming exactly as copyable as the signature was. Pronoun-audited before shipping; found and fixed real violations (the six children, and one reference to the surviving child, incorrectly marked 牠/它); Gloss, Keep, and all seven children now consistently 她/他 per house style, only documents/requests/patterns left as 它.",
+        zh: "A1、提案 B 改編自《狼和七隻小羊》，讓原典「留意錯誤的聲音與腳掌就是足夠的謹慎」這個前提複雜化。六套子實例正確遵循了一份記載在案、可公開稽核的驗證檢查，卻被一個讀了同一份公開紀錄的對手騙過；第七個靠一種沒有人設計過、也未曾書面記載的時序規律活了下來。這篇故事沒有收束成一則可教的教訓——保護她的東西，一旦變成政策，就會跟那份簽章一樣可以被抄。出稿前已完成代名詞審查，抓到並修正了真正的違規（六個孩子、以及一處指涉倖存孩子的地方，被誤標成牠／它）；飾、牧與七個孩子現在一致使用她／他，只有文件、請求、規律等維持它。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };
