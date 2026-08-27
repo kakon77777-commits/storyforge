@@ -251,6 +251,7 @@ button:focus-visible, input:focus-visible, textarea:focus-visible {
 .cover-layer-never-owed { background: radial-gradient(circle at 68% 78%, rgba(200, 165, 100, 0.22), transparent 48%), linear-gradient(160deg, #2a2418 0%, #1a170f 50%, #0c0a06 100%); }
 .cover-toll-never-summed { background: radial-gradient(circle at 22% 70%, rgba(110, 190, 160, 0.24), transparent 48%), linear-gradient(158deg, #17282a 0%, #101c1d 50%, #060d0d 100%); }
 .cover-signal-nobody-wrote-down { background: radial-gradient(circle at 76% 28%, rgba(210, 140, 120, 0.22), transparent 48%), linear-gradient(162deg, #2a1c18 0%, #1a1210 50%, #0a0605 100%); }
+.cover-notice-proved { background: radial-gradient(circle at 40% 82%, rgba(220, 180, 110, 0.24), transparent 48%), linear-gradient(158deg, #2c2416 0%, #1c170e 50%, #0d0a05 100%); }
 .cover-symbol { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); font: italic 600 86px var(--serif); color: rgba(255,255,255,0.92); }
 .cover-rank { position: absolute; left: 16px; bottom: 14px; color: white; font: 600 13px var(--sans); letter-spacing: 0.18em; }
 .story-info { padding: 26px 28px 18px; display: flex; flex-direction: column; justify-content: space-between; min-width: 0; }
@@ -611,6 +612,24 @@ button.book-row:hover { background: var(--mint-pale); }
 .story-page-lineage h2 {
   margin: 0 0 18px; font: 600 13px var(--sans);
   text-transform: uppercase; letter-spacing: 0.09em; color: var(--ink-soft);
+}
+
+/* A parallel version renders as its own .reading-sheet directly beneath the
+   classic's, separated by a visible border-top rather than blending into one
+   continuous article — it is a distinct, independently authored work, not a
+   continuation of the classic's own chapters. */
+.reading-sheet-parallel {
+  margin-top: 40px; border-top: 3px solid var(--coral);
+}
+.parallel-eyebrow { margin-bottom: 8px; }
+.parallel-intro {
+  font: 400 14px/1.7 var(--sans) !important; color: var(--ink-soft);
+  max-width: 60ch; margin: 0 0 30px !important;
+}
+.parallel-title {
+  text-align: left !important; margin: 0 0 26px !important;
+  font: 600 clamp(28px, 4vw, 40px)/1.05 var(--serif) !important;
+  letter-spacing: -0.03em;
 }
 .story-page-lineage dl { margin: 0; display: grid; grid-template-columns: 10rem 1fr; gap: 8px 18px; }
 .story-page-lineage dt {

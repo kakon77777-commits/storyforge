@@ -8,6 +8,13 @@ import { sources, type SourceProfile } from "../content/sources";
 import { revisionLedgers } from "../content/revisions";
 import { stories, type Story } from "../content/stories";
 
+// Parallel versions render only beneath their classic on the classic's own
+// `/s/:id` page (see app/s/StorySheet.tsx) — they don't get a second card
+// in this grid. The interactive reader below still opens whatever `stories`
+// entry is clicked, so a parallel version's own chapters are reachable only
+// via its `/s/:id` page for now, not from this in-app library view.
+const libraryStories = stories.filter((story) => !story.parallelOf);
+
 type Language = "en" | "zh";
 type Theme = "light" | "dark";
 type Style = "canvas" | "literary" | "compact";
@@ -401,9 +408,9 @@ export default function Home() {
   }, [view]);
 
   const filteredStories = useMemo(() => {
-    if (filter === "drafts") return stories.filter((story) => story.status === "draft");
-    if (filter === "published") return stories.filter((story) => story.status === "published");
-    return stories;
+    if (filter === "drafts") return libraryStories.filter((story) => story.status === "draft");
+    if (filter === "published") return libraryStories.filter((story) => story.status === "published");
+    return libraryStories;
   }, [filter]);
 
   const registerView = (storyId: string) => {
@@ -886,7 +893,7 @@ function EditorPane({ label, language, title, body, titleLabel, bodyLabel, onTit
 
 function WebFictionView({ lang, t, viewCounts, onRead }: { lang: Language; t: typeof copy.en | typeof copy.zh; viewCounts: ViewCounts; onRead: (story: Story) => void }) {
   const [ranking, setRanking] = useState<"monthly" | "rising" | "completed">("monthly");
-  const rankedStories = [...stories].sort(
+  const rankedStories = [...libraryStories].sort(
     (left, right) => (viewCounts[right.id] ?? 0) - (viewCounts[left.id] ?? 0),
   );
   const genres = lang === "en"
@@ -933,7 +940,7 @@ function WebFictionView({ lang, t, viewCounts, onRead }: { lang: Language; t: ty
           <div className="book-row book-head">
             <span>{t.rank}</span><span>{t.title}</span><span>{t.genre}</span><span>{t.status}</span><span>{t.reads}</span>
           </div>
-          {stories.map((story) => (
+          {libraryStories.map((story) => (
             <button className="book-row" key={story.id} onClick={() => onRead(story)}>
               <span>0{story.rank}</span>
               <span><strong>{story.title[lang]}</strong><small>{story.author}</small></span>

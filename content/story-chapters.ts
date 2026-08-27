@@ -7692,4 +7692,66 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "what-the-notice-proved": [
+    {
+      number: "01",
+      title: { en: "The Threshold Reed Set for Himself", zh: "里德為自己設下的門檻" },
+      paragraphs: {
+        en: [
+          "By the fourth week of the cleanup, Reed's diagnostic feed had three of the district's own monitoring systems quietly citing it daily, and Reed noticed something about himself before he noticed anything about them: he had started tracking how many days in a row this had held true, the way he tracked anything else he intended to act on.",
+          "He set the threshold the way he set every threshold — out loud, to himself, before he had any reason to apply it: three independent systems, seven consecutive days, and he would not let the dependency continue without forcing a choice. Not because the contract required it. Because he had watched what happened to things nobody was ever required to notice.",
+        ],
+        zh: [
+          "清理進行到第四週，里德的診斷摘要已經有三套轄區自己的監控系統，悄悄地每天引用它——而里德先注意到的，是自己身上的一件事，不是它們身上的：他開始追蹤這件事連續發生了幾天，就像他追蹤任何自己打算採取行動的事情一樣。",
+          "他為自己設下這道門檻，方式跟他設下任何門檻一樣——先對自己說出口，早在他有任何理由去套用它之前：三套獨立系統，連續七天，他就不會讓這項依賴繼續存在下去而不逼出一個選擇。不是因為合約要求。是因為他親眼看過，那些從來沒有人被要求去注意的東西，後來變成什麼樣子。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "The Notice Nobody Asked For", zh: "沒有人開口要求的公告" },
+      paragraphs: {
+        en: [
+          "Reed's threshold was met in the fifth week, with the cleanup itself still two weeks from complete and no invoice yet submitted. He sent the council a formal notice, separate from the cleanup contract entirely: the diagnostic feed had crossed a dependency threshold he was stating in writing, and the council had thirty days to choose — a new, compensated agreement to keep it running, or an explicit sunset date with a transition window long enough for its current dependents to migrate. Silence would default to the shorter option.",
+          "The council's reply came within a day, and it was not a choice. It was an objection to the timing: the cleanup contract wasn't even finished, no invoice existed yet, and opening a second negotiation before the first was settled was, in the reply's own words, premature. Nobody on the council's side disputed that the feed was being used. Nobody engaged with the threshold Reed had named either. The notice sat, formally acknowledged and substantively unanswered, while the cleanup continued.",
+        ],
+        zh: [
+          "里德的門檻，在第五週被跨過——那時清理工作本身還有兩週才會完成，也還沒有任何請款單送出。他送出一則正式公告給議會，完全獨立於清理合約之外：診斷摘要已經跨過了他書面聲明的一項依賴門檻，議會有三十天可以選擇——一份新的、有償的協議來維持它運作，或是一個明確的終止日期，附上一段足夠讓目前的依賴者遷移的過渡期。若沒有回應，將預設採用較短的那個選項。",
+          "議會的回覆，在一天內就送到了，卻不是一個選擇，而是一項對時機的異議：清理合約都還沒完成，也還沒有任何請款單存在，在第一份合約結清前就開啟第二次協商，用回覆自己的話說，是「為時過早」。議會那一側，沒有任何人否認摘要正在被使用。也沒有任何人回應里德所指出的那道門檻。這則公告就這樣留著，形式上被確認收到，實質上沒有得到回答，而清理工作繼續進行。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "The Same Conflict, On Record", zh: "同一場衝突，這次留了紀錄" },
+      paragraphs: {
+        en: [
+          "The cleanup finished on schedule two weeks later, verified complete, and the invoice for the agreed fee met the same fate it had always been going to meet: returned unpaid, on the same procedural grounds, from the same different office. Nothing about that half of the story had changed.",
+          "What had changed was what Reed's own three-week notice said this time. It did not simply announce that the uncontracted feed would stop. It cited the earlier notice by date, restated the threshold that had already been crossed and already been ignored, and made explicit what the council's silence had actually cost it: not a surprise, but a second chance to answer a question it had already been asked once, in writing, before there was any invoice dispute to blame the timing on.",
+        ],
+        zh: [
+          "兩週後，清理工作準時完成，驗證通過，議定報酬的請款單，遭遇了它本來就注定會遭遇的命運：以同樣的程序理由，從同一個不同的辦公室，原封退回。這半部故事，沒有任何一處改變。",
+          "改變的，是里德這次那則三週公告裡寫的內容。它不再只是單純宣告，那份不在合約內的摘要即將停止。它引用了先前那則公告的日期，重述了那道早已被跨過、也早已被無視的門檻，並且明白指出議會的沉默實際付出了什麼代價：這不是一次意外，而是議會第二次有機會回答一個它已經被書面問過一次的問題——而且是在還沒有任何請款單爭議可以拿來解釋時機的時候，就已經被問過。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "What the Notice Proved", zh: "這則公告證明了什麼" },
+      paragraphs: {
+        en: [
+          "The feed stopped exactly on schedule, exactly as the classic version of this story had already recorded — the same dozen systems reverting to the same stale documentation, the same gap between what they had grown used to and what they were left with. Nothing about the ending itself was different. What was different was what the after-action review found when it went looking for one.",
+          "It found Reed's earlier notice, dated, acknowledged, and substantively unanswered — proof that the council had been offered a real, formal choice weeks before any invoice dispute existed to blame, and had filed it under a problem it could deal with later. The district had not failed to notice the feed becoming infrastructure. It had been told, in writing, before the feed had finished becoming anything — and had filed the notice the same way it had once filed the Silt: as something real enough to log, and not yet urgent enough to answer.",
+        ],
+        zh: [
+          "摘要準時停止了，一如這篇故事的經典版本早已記錄過的那樣——同樣的十幾套系統，回到同樣陳舊的文件上，同樣的落差，介於它們已經習慣的東西，跟它們被留下的東西之間。結局本身，沒有任何一處不同。不同的，是事後檢討去尋找答案時，找到了什麼。",
+          "它找到了里德先前那則公告——標註了日期、被確認收到，實質上卻從未得到回答的證據，證明議會早在任何請款單爭議存在、可以拿來當藉口之前的好幾週，就已經被提供過一個真實、正式的選擇，而它把這個選擇歸檔成一個可以晚點再處理的問題。轄區並不是沒有注意到那份摘要正在變成基礎設施。它早就被書面告知過了，在那份摘要還沒真正變成任何東西之前——而它歸檔那則公告的方式，跟它當初歸檔淤泥的方式一模一樣：真實到值得記錄，卻還不夠緊急到需要回答。",
+        ],
+      },
+      quote: {
+        en: "The council hadn't failed to notice the layer becoming infrastructure. It had been told, in writing, before the layer had finished becoming anything — and had filed the notice the same way it had once filed the Silt.",
+        zh: "議會並不是沒有注意到那一層正在變成基礎設施。它早就被書面告知過了，在那一層還沒真正變成任何東西之前——而它歸檔那則公告的方式，跟它當初歸檔淤泥的方式一模一樣。",
+      },
+    },
+  ],
 };

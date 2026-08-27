@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import {
   SITE_ORIGIN,
-  listStories,
+  listClassicStories,
   resolveStory,
   storyDescription,
   storyPath,
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 };
 
 export default function StoryIndex() {
-  const all = listStories();
+  const all = listClassicStories();
 
   return (
     <div className="story-page">

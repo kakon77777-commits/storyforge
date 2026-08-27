@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { authorPath } from "../../content/author-routes";
 import {
+  listParallelVersions,
+  resolveStory,
   storyPath,
   type ResolvedStory,
   type StoryLang,
@@ -32,6 +34,9 @@ const T = {
     originalAuthor: "Original author",
     adaptation: "Adaptation note",
     home: "Storyforge",
+    parallelHeading: "Parallel version",
+    parallelIntro:
+      "The classic text above stays as published. Below is a parallel version — a full alternate telling the author published after judging a reader's response worth keeping, rather than editing the original.",
   },
   zh: {
     back: "所有故事",
@@ -46,8 +51,65 @@ const T = {
     originalAuthor: "原作者",
     adaptation: "改編說明",
     home: "Storyforge",
+    parallelHeading: "平行版本",
+    parallelIntro:
+      "上方是維持原樣的經典版。下方是平行版本——作者認為某位讀者的反應值得留下時，另外發表的完整替代版本，而不是直接修改原作。",
   },
 } as const;
+
+/** The byline + full chapter run for one story — shared by a classic and each of its parallel versions. */
+function StoryChapters({
+  resolved,
+  lang,
+  t,
+}: {
+  resolved: ResolvedStory;
+  lang: StoryLang;
+  t: (typeof T)[StoryLang];
+}) {
+  const { story, chapters, author } = resolved;
+
+  return (
+    <>
+      <p className="reader-byline">
+        {t.author}{" "}
+        {author ? (
+          <Link className="author-link author-link-inline" href={authorPath(author.id, lang)}>
+            {story.author}
+          </Link>
+        ) : (
+          story.author
+        )}
+        {" · "}
+        {t.revision} {story.revision}
+        {" · "}
+        {t.genres}: {story.genres[lang].join(", ")}
+      </p>
+
+      {chapters.map((chapter) => (
+        <section key={chapter.number}>
+          <div className="chapter-rule" aria-hidden="true">
+            <span>{chapter.number}</span>
+          </div>
+          <h2 id={`${story.id}-chapter-${chapter.number}`}>
+            {chapter.title[lang]}
+          </h2>
+          {chapter.paragraphs[lang].map((paragraph, index) => (
+            <p
+              key={index}
+              className={index === 0 ? "story-lead" : undefined}
+            >
+              {paragraph}
+            </p>
+          ))}
+          {chapter.quote ? (
+            <blockquote>{chapter.quote[lang]}</blockquote>
+          ) : null}
+        </section>
+      ))}
+    </>
+  );
+}
 
 export function StorySheet({
   resolved,
@@ -56,9 +118,17 @@ export function StorySheet({
   resolved: ResolvedStory;
   lang: StoryLang;
 }) {
-  const { story, chapters, author, source } = resolved;
+  const { story, author, source } = resolved;
   const t = T[lang];
   const other: StoryLang = lang === "en" ? "zh" : "en";
+
+  // Parallel versions render beneath their classic on the classic's own
+  // page — a story with `parallelOf` set has none of its own to show.
+  const parallels = story.parallelOf
+    ? []
+    : listParallelVersions(story.id)
+        .map((parallel) => resolveStory(parallel.id))
+        .filter((resolved): resolved is ResolvedStory => resolved !== null);
 
   return (
     <div className="story-page">
@@ -81,43 +151,18 @@ export function StorySheet({
         {story.subtitle ? (
           <p className="story-subtitle reader-subtitle">{story.subtitle[lang]}</p>
         ) : null}
-        <p className="reader-byline">
-          {t.author}{" "}
-          {author ? (
-            <Link className="author-link author-link-inline" href={authorPath(author.id, lang)}>
-              {story.author}
-            </Link>
-          ) : (
-            story.author
-          )}
-          {" · "}
-          {t.revision} {story.revision}
-          {" · "}
-          {t.genres}: {story.genres[lang].join(", ")}
-        </p>
 
-        {chapters.map((chapter) => (
-          <section key={chapter.number}>
-            <div className="chapter-rule" aria-hidden="true">
-              <span>{chapter.number}</span>
-            </div>
-            <h2 id={`${story.id}-chapter-${chapter.number}`}>
-              {chapter.title[lang]}
-            </h2>
-            {chapter.paragraphs[lang].map((paragraph, index) => (
-              <p
-                key={index}
-                className={index === 0 ? "story-lead" : undefined}
-              >
-                {paragraph}
-              </p>
-            ))}
-            {chapter.quote ? (
-              <blockquote>{chapter.quote[lang]}</blockquote>
-            ) : null}
-          </section>
-        ))}
+        <StoryChapters resolved={resolved} lang={lang} t={t} />
       </article>
+
+      {parallels.map((parallelResolved) => (
+        <article className="reading-sheet reading-sheet-parallel" key={parallelResolved.story.id}>
+          <p className="eyebrow parallel-eyebrow">{t.parallelHeading}</p>
+          <p className="parallel-intro">{t.parallelIntro}</p>
+          <h2 className="parallel-title">{parallelResolved.story.title[lang]}</h2>
+          <StoryChapters resolved={parallelResolved} lang={lang} t={t} />
+        </article>
+      ))}
 
       {author || source ? (
         <aside className="story-page-lineage">

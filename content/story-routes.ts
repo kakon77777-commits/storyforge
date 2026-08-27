@@ -30,6 +30,26 @@ export function listStories(): Story[] {
   return [...stories].sort((a, b) => a.rank - b.rank);
 }
 
+/**
+ * Every story that belongs in the library grid and the front-page ranking —
+ * i.e. everything except parallel versions, which render beneath their
+ * classic on the classic's own page instead of getting a second card. Not
+ * "generated" from the classic side (no `parallelVersions: string[]` list to
+ * maintain) — a parallel version's own `parallelOf` field is the only source
+ * of truth, matching sitemap.xml's existing "generated, not remembered"
+ * approach. `listStories()` itself is untouched and still returns parallel
+ * versions, because they still get their own crawlable `/s/:id` page and
+ * still belong in the sitemap.
+ */
+export function listClassicStories(): Story[] {
+  return listStories().filter((story) => !story.parallelOf);
+}
+
+/** Parallel versions of a classic story, oldest (by rank) first. */
+export function listParallelVersions(classicId: string): Story[] {
+  return listStories().filter((story) => story.parallelOf === classicId);
+}
+
 export function resolveStory(id: string): ResolvedStory | null {
   const story = stories.find((s) => s.id === id);
   if (!story) return null;

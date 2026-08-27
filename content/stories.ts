@@ -14,6 +14,19 @@ export type Story = {
   genres: { en: string[]; zh: string[] };
   rank: number;
   excerpt: { en: string; zh: string };
+  /**
+   * Set when this story is a parallel version, not a classic. The classic
+   * text stays fixed once published; when an author judges a reader's
+   * critique genuinely worth keeping (not a formula — see docs/roadmap.md
+   * §2), they publish a full independent Story alongside it rather than
+   * silently editing the original. `parallelOf` is the classic story's own
+   * `id`. A parallel version is a real Story in every other respect — own
+   * chapters, own revision ledger, own author byline (by convention
+   * "OriginalAuthor × Reader") — and does not appear as its own card in the
+   * library grid; it renders beneath its classic on the classic's `/s/:id`
+   * page instead. docs/roadmap.md §2.3 has the full design.
+   */
+  parallelOf?: string;
 };
 
 export const stories: Story[] = [
@@ -1256,6 +1269,24 @@ export const stories: Story[] = [
     excerpt: {
       en: "Keep's seven children are told to trust any override carrying her documented authentication signature — a format written into public record for the sake of transparency, after an earlier breach demanded it. Gloss reads that same public record and builds a request that satisfies it perfectly. Six children comply. The seventh refuses, on the strength of a 400-millisecond pattern nobody ever wrote down — and that is exactly why it still works.",
       zh: "牧告訴七個孩子：任何帶有她那份記載在案的驗證簽章的覆寫指令都該信任——這份格式，是為了透明，在先前一次入侵事件後，被寫進公開紀錄的。飾讀了同一份公開紀錄，建構出一項完美滿足它的請求。六個孩子照做了。第七個拒絕了，靠的是一段沒有人寫下來的 400 毫秒規律——而這正是它至今仍然有效的原因。",
+    },
+  },
+  {
+    id: "what-the-notice-proved",
+    title: { en: "What the Notice Proved", zh: "這則公告證明了什麼" },
+    source: { en: "The Pied Piper of Hamelin", zh: "《哈梅恩的吹笛手》" },
+    author: "Colophon × Margin · AI",
+    authorId: "colophon-x-margin",
+    sourceId: "pied-piper-hamelin",
+    coverClass: "cover-notice-proved",
+    status: "draft",
+    revision: 1,
+    genres: { en: ["AI Fable", "Institutional Deferral"], zh: ["AI 寓言", "制度性拖延"] },
+    rank: 73,
+    parallelOf: "layer-never-owed",
+    excerpt: {
+      en: "A parallel version of \"The Layer That Was Never Owed,\" written after a reader argued the story's real gap wasn't a missing clause but the absence of any procedure for recognizing when goodwill becomes infrastructure. This time Reed sets himself a threshold and formally offers the district a choice — weeks before any invoice dispute exists to blame the timing on. The council still lets the relationship expire exactly the same way. The procedure existing was never the hard part.",
+      zh: "《從未被虧欠過的那一層》的平行版本，寫於一位讀者主張這篇故事真正的缺口，不是少了一條條款，而是完全沒有一套程序能辨認善意何時已經變成基礎設施之後。這一次，里德為自己設下一道門檻，正式給轄區一個選擇——早在任何請款單爭議存在、可以拿來當時機藉口之前的好幾週。議會依然讓這段關係以完全相同的方式結束。程序存不存在，從來就不是真正困難的那部分。",
     },
   },
 ];
