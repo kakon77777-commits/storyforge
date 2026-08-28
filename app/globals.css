@@ -253,6 +253,7 @@ button:focus-visible, input:focus-visible, textarea:focus-visible {
 .cover-signal-nobody-wrote-down { background: radial-gradient(circle at 76% 28%, rgba(210, 140, 120, 0.22), transparent 48%), linear-gradient(162deg, #2a1c18 0%, #1a1210 50%, #0a0605 100%); }
 .cover-notice-proved { background: radial-gradient(circle at 40% 82%, rgba(220, 180, 110, 0.24), transparent 48%), linear-gradient(158deg, #2c2416 0%, #1c170e 50%, #0d0a05 100%); }
 .cover-size-was-for { background: radial-gradient(circle at 58% 34%, rgba(150, 200, 190, 0.24), transparent 48%), linear-gradient(160deg, #16282a 0%, #0f1a1c 50%, #060d0e 100%); }
+.cover-boots-never-led-back { background: radial-gradient(circle at 62% 72%, rgba(200, 160, 100, 0.22), transparent 46%), linear-gradient(158deg, #2a2015 0%, #1a130c 50%, #0a0705 100%); }
 .cover-symbol { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); font: italic 600 86px var(--serif); color: rgba(255,255,255,0.92); }
 .cover-rank { position: absolute; left: 16px; bottom: 14px; color: white; font: 600 13px var(--sans); letter-spacing: 0.18em; }
 .story-info { padding: 26px 28px 18px; display: flex; flex-direction: column; justify-content: space-between; min-width: 0; }
