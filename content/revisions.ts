@@ -918,12 +918,12 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       date: "2026-08-28",
       actor: { type: "human", name: "留白" },
       action: {
-        en: "Approved Chapters 23–25 in both languages for formal integration under the joint byline 折光 × 留白",
-        zh: "確認第二十三至第二十五章中英雙語版本，並同意以「折光 × 留白」聯名署名納入正式內容",
+        en: "Approved Chapters 23–25 in both languages and authorized their formal publication under the joint byline 折光 × 留白",
+        zh: "確認第二十三至第二十五章中英雙語版本，並授權以「折光 × 留白」聯名署名正式發布",
       },
       reason: {
-        en: "The bilingual text is human-reviewed and ready for the ninth serial release, while commit, push, and deployment remain pending separate authorization; the hidden prelude and Chapter 26 onward remain unpublished",
-        zh: "雙語文本已完成人工確認並可準備第九次連載，但提交、推送與部署仍須另行授權；隱藏前傳與第二十六章以後維持不公開",
+        en: "Ninth public serial release under H2 Co-Created authorship, completing the scholars' consent arc and moving the viewpoint through responsible power holders into ordinary residents' fifteen-minute autonomy window; the hidden prelude and Chapter 26 onward remain unpublished",
+        zh: "以 H2 人機共創作者模式進行第九次連載發布，完成學者的同意問題弧，並讓視角經由負責任的有權力者轉入普通居民的十五分鐘日常自主窗口；隱藏前傳與第二十六章以後維持不公開",
       },
       humanReviewed: true,
     },

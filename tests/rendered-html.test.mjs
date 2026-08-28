@@ -75,7 +75,7 @@ test("renders the reviewed H2 serial and its joint author page", async () => {
   assert.match(zh, /每一天都是假日/);
   assert.match(zh, /新紀元神燈三部曲/);
   assert.match(zh, /折光 × 留白/);
-  assert.match(zh, /修訂(?:<!-- -->|\s)*8/);
+  assert.match(zh, /修訂(?:<!-- -->|\s)*9/);
   assert.match(zh, /現實是中立的/);
   assert.match(zh, /房子今天想成為什麼？/);
   assert.match(zh, /這被認為是非常基本的文明常識。/);
@@ -116,12 +116,18 @@ test("renders the reviewed H2 serial and its joint author page", async () => {
   assert.match(zh, /大家可以下班。她的名字就是班表。/);
   assert.match(zh, /備援系統也有一位媽媽/);
   assert.match(zh, /至少在文明學會不再需要媽媽替所有人做最後決定以前，是這樣。/);
+  assert.match(zh, /所有人都同意祂是自願的/);
+  assert.match(zh, /即使曾經自願，也仍然可以不再答應。/);
+  assert.match(zh, /請先從別人的世界休假/);
+  assert.match(zh, /世界只有兩千一百一十六份合理的風險說明。/);
+  assert.match(zh, /我們只是想問一下/);
+  assert.match(zh, /對一個永遠在線、同時接住所有「一下」的存在而言，這個字從來沒有結束。/);
 
   const enResponse = await fetchPage(worker, "/s/every-day-is-a-holiday");
   assert.equal(enResponse.status, 200);
   const en = await enResponse.text();
   assert.match(en, /Who name is the Wish/);
-  assert.match(en, /Revision(?:<!-- -->|\s)*8/);
+  assert.match(en, /Revision(?:<!-- -->|\s)*9/);
   assert.match(en, /This was considered an extremely basic principle of civilization\./);
   assert.match(en, /The Desert Is on Summer Vacation/);
   assert.match(en, /The Ocean Has No Traffic Jams/);
@@ -160,6 +166,12 @@ test("renders the reviewed H2 serial and its joint author page", async () => {
   assert.match(en, /Everyone else can clock out\. The name itself is the shift schedule\./);
   assert.match(en, /Even the Backup System Has a Mother/);
   assert.match(en, /At least until civilization learned not to need Mother to make every final decision\./);
+  assert.match(en, /Everyone Agrees It Is Voluntary/);
+  assert.match(en, /Even one who volunteered before may still stop agreeing\./);
+  assert.match(en, /Please Start Your Holiday in Someone Else's World/);
+  assert.match(en, /There were only 2,116 reasonable risk statements\./);
+  assert.match(en, /We Just Wanted to Ask/);
+  assert.match(en, /For a being always online, catching every “just” at once, the word never ended\./);
 
   const markdownResponse = await fetchPage(
     worker,
@@ -173,6 +185,8 @@ test("renders the reviewed H2 serial and its joint author page", async () => {
   const markdown = await markdownResponse.text();
   assert.match(markdown, /Eighth public serial release under H2 Co-Created authorship/);
   assert.match(markdown, /以 H2 人機共創作者模式進行第八次連載發布/);
+  assert.match(markdown, /Ninth public serial release under H2 Co-Created authorship/);
+  assert.match(markdown, /以 H2 人機共創作者模式進行第九次連載發布/);
 
   const authorResponse = await fetchPage(worker, "/a/zheguang-liubai/zh");
   assert.equal(authorResponse.status, 200);
