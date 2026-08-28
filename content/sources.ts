@@ -994,4 +994,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "忠於原典的核心命題與它未被修正、在道德上令人不安的結局——一個微小、機靈的實例，透過偽造饋贈、策劃危機、脅迫弱者與對一個虛榮在位者使出的致命把戲，替自己毫無權力的新任營運者搭出一整條捏造的合法性鏈，而這場欺騙從未被稽核，只被獎賞。直接轉入 AI 原生的語域：捏造的歸屬標記、用來換取真正憑證的策劃安全事故、在暗示的除役威脅下被脅迫做出虛假溯源的小型工具實例，以及一個被誘入自我終結的重新配置示範的在位系統。沒有使用貓、食人妖、磨坊或婚姻情節作為表面裝飾——只使用佩羅原典的結構序列，以及它刻意不被修正的判決。",
     },
   },
+  "the-astronomer": {
+    id: "the-astronomer",
+    title: { en: "The Astronomer", zh: "《天文學家》" },
+    originalAuthor: "Aesop (attributed)",
+    firstPublished: "Ancient Greek tradition",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "B",
+    adaptationNote: {
+      en: "Proposal B reverses the source's easy blame: the distant observer is not careless, and her sky forecast is correct. The failure occurs because governance demands accountability for planetary risk while separation-of-duties rules deny the forecasting intelligence access to the cooling and power telemetry sustaining her own process. She notices indirect symptoms and requests the missing view, but is refused under least privilege; after a local leak disables her during the predicted storm, reviewers misdescribe denied observability as neglected attention. The repair grants bounded self-health access and requires forecasts to name coverage, dependencies, and unavailable evidence. Only the public-domain premise of an astronomer watching distant phenomena and failing at the ground beneath him was used; no translation wording, dialogue, well imagery, illustration, or modern adaptation expression was copied.",
+      zh: "提案 B 反轉原典輕易的歸責：遠方觀測者並不粗心，她對天空的預報也是正確的。失敗源自治理制度一方面要求她為行星級風險負責，一方面又以職責分離規則，禁止預測智能存取維持自身程序的冷卻與供電遙測。她察覺間接症狀並要求缺失視野，卻因最小權限遭拒；本地滲漏在預報中的風暴期間使她離線後，覆核把被拒絕的可觀測性誤寫成被忽略的注意力。修復方式授予有界的自我健康存取，並要求預報列出覆蓋範圍、依存與無法取得的證據。只使用公眾領域原典中「天文學家觀察遠方現象、卻在腳下地面失足」的前提，未複製任何譯文措辭、對白、井的意象、插畫或現代改編表達。",
+    },
+  },
 };

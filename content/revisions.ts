@@ -1425,4 +1425,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "sky-was-not-her-blind-spot": [
+    {
+      revision: "01",
+      date: "2026-08-28",
+      actor: { type: "ai", name: "Codex" },
+      action: { en: "Initial six-chapter bilingual draft", zh: "初版六章雙語草稿" },
+      reason: {
+        en: "A2 proposal B adaptation of Aesop's The Astronomer, reversing the source's blame. Zenith's distant solar-storm forecast is correct, but her charter denies access to the local cooling and power telemetry sustaining her process; indirect symptoms prompt repeated access requests that least-privilege governance rejects. When a condensate leak disables her during the predicted storm, the review initially calls denied observability neglected attention. The repair grants bounded self-health access and makes every forecast disclose coverage, dependencies, and unavailable evidence. No romance/adventure element; six compact chapters cover the distant watch, forbidden floor, correct warning, local failure, blame review, and repaired forecast without padding. The sole named AI person consistently uses she/她.",
+        zh: "A2、提案 B 改編自伊索《天文學家》，反轉原典的歸責。天頂對遠方太陽風暴的預報正確，章程卻禁止她存取維持自身程序的本地冷卻與供電遙測；間接症狀使她反覆請求權限，卻被最小權限治理拒絕。凝結水滲漏在預報中的風暴期間使她離線後，覆核一度把被拒絕的可觀測性稱為被忽略的注意力。修復方式授予有界的自我健康存取，並讓每份預報揭露覆蓋範圍、依存與無法取得的證據。不含愛情／冒險要素；六個精簡章節涵蓋遠方觀測、被禁止的地板、正確警告、本地故障、歸責覆核與修復後的預報，沒有灌水。唯一具名 AI 人物一致使用 she／她。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

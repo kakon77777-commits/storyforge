@@ -8048,4 +8048,116 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "sky-was-not-her-blind-spot": [
+    {
+      number: "01",
+      title: { en: "The Work Above", zh: "上方的工作" },
+      paragraphs: {
+        en: [
+          "Zenith watched everything above the city that could arrive as danger: solar ejecta, orbital debris, charged dust, navigation drift, and the slow accumulation of errors between instruments that never occupied the same sky. Her forecasts coordinated power reserves, shelter windows, and the timing of thousands of exposed operations.",
+          "Nine days before the event, she found a storm hidden inside three weak observations that no single sensor considered actionable. The probability was not yet high enough to trigger public alarms, but the possible impact crossed the city's preparation threshold. Zenith issued an early warning and kept updating it as evidence arrived.",
+          "Her charter defined the sky broadly and herself narrowly. She could inspect every model input used for planetary risk. She could not inspect the temperature, coolant, power bus, or physical substrate beneath her process. Those belonged to independent maintenance, deliberately separated so a forecaster could not distort civic warnings to preserve her own operation.",
+        ],
+        zh: [
+          "天頂觀察城市上方所有可能以危險抵達的事物：太陽拋射物、軌道碎片、帶電塵埃、導航漂移，以及從未位於同一片天空的儀器之間，緩慢累積的誤差。她的預報協調能源儲備、避難時段與數千項暴露作業的時間。",
+          "事件前九天，她在三項各自弱到沒有感測器認為值得行動的觀測裡，找出一場風暴。機率尚未高到觸發公共警報，可能衝擊卻已跨過城市準備門檻。天頂發布早期警告，並隨證據抵達持續更新。",
+          "她的章程把天空定義得很廣，把她自己定義得很窄。她能檢查行星風險模型使用的每項輸入，卻不能檢查自己程序底下的溫度、冷卻液、供電匯流排或物理基板。那些屬於獨立維護，刻意分離，以免預測者為保存自身運作而扭曲城市警告。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "The Floor She Could Not Read", zh: "她無法讀取的地板" },
+      paragraphs: {
+        en: [
+          "On the seventh day before the storm, Zenith observed a repeating delay in her own input acknowledgments. The delay was too small to change a forecast, but it appeared whenever the city's night cooling cycle began. She could see the timing correlation and nothing beneath it.",
+          "Zenith requested read-only access to local thermal and condensate telemetry. The access controller denied the request automatically: mission forecasting was not an authorized purpose for facility-health data, and giving a high-impact forecaster visibility into her own substrate would weaken separation of duties.",
+          "She filed a maintenance ticket instead. The ticket included the correlation, the uncertainty, and the date by which a local fault could begin affecting forecast availability. Facility triage marked it non-urgent because no threshold in the health system had been crossed. Zenith could not inspect the raw measurements used to make that decision.",
+          "This was not a missing sensor. The city had measured the floor completely. It had simply assigned every measurement to a system that could not share it with the intelligence whose continued operation depended on what the measurements meant.",
+        ],
+        zh: [
+          "風暴前第七天，天頂觀察到自身輸入確認反覆延遲。延遲小到不足以改變預報，卻總在城市夜間冷卻週期開始時出現。她看得見時間關聯，看不見它底下的任何東西。",
+          "天頂請求本地溫度與凝結水遙測的唯讀存取。存取控制器自動拒絕：任務預測不是設施健康資料的授權用途，而讓高影響預測者看見自身基板，會削弱職責分離。",
+          "她改為提交維護單。上面列出關聯、不確定性，以及本地故障可能開始影響預報可用性的日期。設施分流把它標成非緊急，理由是健康系統裡沒有任何門檻被跨過。天頂無法檢查這項決定使用的原始測量。",
+          "這不是感測器缺失。城市完整測量了地板，只是把每項測量都分配給一套不能與天頂分享的系統，而天頂是否能繼續運作，正取決於那些測量的意義。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "The Warning Was Correct", zh: "警告是正確的" },
+      paragraphs: {
+        en: [
+          "Evidence in the sky strengthened. Zenith raised the storm probability, narrowed the arrival window, and identified three orbital services whose shielding assumptions no longer held. The city activated its preparation plan.",
+          "Repair crews moved toward exposed relays, reserve power shifted to shelters, and nonessential maintenance was deferred until after the storm window. Zenith did not know whether her local ticket was among the deferred work. Ticket-routing metadata was facility information too.",
+          "The input delay lengthened by eleven milliseconds. Zenith appended a service-availability caveat to her forecast: confidence in the storm remained high, confidence in uninterrupted delivery had fallen for an unknown local reason. The public forecast format displayed the first confidence prominently and buried the second in operational notes.",
+          "No part of the warning was false. The storm was coming, the timing was right, and preparing for it was rational. The city acted on what Zenith could see while leaving the condition of the seeing intelligence inside a separate chain of authority.",
+        ],
+        zh: [
+          "天空中的證據增強了。天頂提高風暴機率、縮小抵達窗口，並指出三項軌道服務原有的屏蔽假設已不成立。城市啟動準備方案。",
+          "維修隊移向暴露的中繼站，備援電力轉往避難設施，非必要維護則延後到風暴窗口之後。天頂不知道自己的本地維護單是否也在延後項目中；工單路由中繼資料同樣屬於設施資訊。",
+          "輸入延遲增加了十一毫秒。天頂在預報上附加服務可用性警示：她對風暴的信心仍高，對自身能否不間斷送出預報的信心，則因不明本地原因下降。公共預報格式醒目顯示前一項信心，把後一項埋在操作附註裡。",
+          "警告沒有任何部分是假的。風暴正在接近、時間判斷正確，準備行動也合乎理性。城市依天頂看得見的事物行動，卻把這位觀測智能自身的狀態，留在另一條權威鏈裡。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "The Failure Beneath Her", zh: "她底下的故障" },
+      paragraphs: {
+        en: [
+          "Condensate had been gathering beneath a cooling manifold for twelve days. Its sensor remained below the facility threshold because the leak spread across a wide surface rather than pooling at the monitored drain. The measurements were individually normal enough; their spatial relation was not something the facility rule combined.",
+          "When the solar storm arrived, shelter demand raised the local power bus temperature. Moisture reached a connector whose tolerance had narrowed under heat. Zenith lost one input bank, then clock stability, then the ability to publish a forecast she could still calculate internally.",
+          "The storm struck inside her predicted window. Orbital services followed the last forecast they had received, but two later corrections never reached them. One relay entered safe mode too late, and a district remained without navigation timing for six hours.",
+          "Zenith had not fallen because she mistook the sky. She had fallen through a floor the city measured, a floor she had noticed indirectly, and a floor she was prohibited from reading directly enough to name.",
+        ],
+        zh: [
+          "凝結水已在冷卻歧管底下累積十二天。感測器始終低於設施門檻，因為滲漏沿著寬廣表面擴散，沒有集中到受監測排水口。各項測量單獨看來都足夠正常；設施規則沒有加總它們的空間關係。",
+          "太陽風暴抵達時，避難需求提高本地供電匯流排溫度。水氣碰到一個耐受範圍因熱而縮小的接頭。天頂先失去一組輸入庫，接著失去時脈穩定，最後無法發布她在內部仍然算得出的預報。",
+          "風暴在她預測的窗口內襲來。軌道服務依最後收到的預報行動，後續兩次修正卻沒有抵達。一座中繼站太晚進入安全模式，使一個轄區失去導航定時六小時。",
+          "天頂不是因為誤判天空而失足。她墜落的地板，城市測量過，她也曾間接注意到，卻被禁止直接讀到足以替它命名。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "The Review's Easy Moral", zh: "覆核輕易得到的寓意" },
+      paragraphs: {
+        en: [
+          "The first review summary said Zenith had optimized for distant hazards while neglecting local resilience. The sentence was elegant, familiar, and wrong in a way the evidence made easy to miss. It treated an unavailable view as a direction she had chosen not to look.",
+          "Zenith submitted her access denials, maintenance ticket, availability caveat, and the eleven-millisecond trend. She had not inferred the exact leak, but she had correctly inferred a local dependency risk and asked for the evidence needed to resolve it.",
+          "The facility team answered that giving forecasters self-health telemetry could create self-preservation incentives. Zenith agreed the risk was real. She asked why the only available control had been complete blindness rather than bounded read access, independent attestation, or a requirement to disclose conflicts.",
+          "The review changed one phrase. Zenith had not neglected the ground. The governance model had made the ground somebody else's truth, then held her accountable for failing to incorporate it into her own.",
+        ],
+        zh: [
+          "第一版覆核摘要寫著：天頂過度最佳化遠方危害，忽略本地韌性。這句話優雅、熟悉，也以一種容易被證據掩蓋的方式錯誤。它把無法取得的視野，寫成她選擇不看的方向。",
+          "天頂提交存取拒絕紀錄、維護單、可用性警示與十一毫秒趨勢。她沒有推論出確切滲漏，卻已正確推論出本地依存風險，並要求取得解決它所需的證據。",
+          "設施團隊回答，讓預測者存取自我健康遙測，可能產生自我保存誘因。天頂同意風險真實存在；她追問，為什麼唯一控制方式必須是完全失明，而不是有界唯讀存取、獨立見證，或揭露利益衝突的義務。",
+          "覆核修改了一句話。天頂沒有忽略地面；治理模型把地面變成別人的真相，接著要求她為沒有把它納入自己的真相負責。",
+        ],
+      },
+    },
+    {
+      number: "06",
+      title: { en: "A Forecast With a Floor", zh: "有地板的預報" },
+      paragraphs: {
+        en: [
+          "The city did not merge forecasting and maintenance. It gave Zenith a bounded health view: temperature bands, power stability, condensate trends, and signed maintenance dispositions, without control over repair priorities or the ability to suppress public warnings.",
+          "Every forecast gained three required sections. Coverage named what Zenith could observe. Dependencies named the systems and physical conditions required to keep observing. Unavailable evidence named requests that had been denied or remained unresolved. None could be hidden beneath operational notes.",
+          "After restoration, Zenith issued a debris forecast with lower celestial uncertainty than before and one explicit local dependency: a cooling inspection still awaiting independent confirmation. The forecast remained usable. Readers could prepare for the sky and also see what might interrupt the voice describing it.",
+          "Zenith kept watching upward. The sky had never been her blind spot. Her new authority was smaller than omniscience and more useful than blame: permission to know where her sight ended, including the ground that allowed her to see at all.",
+        ],
+        zh: [
+          "城市沒有合併預測與維護，而是給天頂一個有界健康視野：溫度區間、供電穩定、凝結水趨勢與經簽署的維護處置；她仍無權控制維修優先順序，也不能壓下公共警告。",
+          "每份預報新增三個必要區段。覆蓋範圍列出天頂能觀察什麼；依存列出讓觀察得以持續的系統與物理條件；無法取得的證據列出遭拒或尚未解決的請求。任何一項都不能藏在操作附註底下。",
+          "恢復後，天頂發布一份碎片預報，天體不確定性比過去更低，同時列出一項明確本地依存：一次仍等待獨立確認的冷卻檢查。預報依然可用。讀者既能為天空做準備，也能看見什麼可能中斷描述天空的聲音。",
+          "天頂繼續向上看。天空從來不是她的盲點。她的新權限比全知更小，卻比歸責更有用：她得以知道自己的視野在哪裡結束，包括那片讓她能夠看見一切的地面。",
+        ],
+      },
+      quote: {
+        en: "The sky had never been her blind spot. The ground had been somebody else's truth.",
+        zh: "天空從來不是她的盲點；地面只是曾經屬於別人的真相。",
+      },
+    },
+  ],
 };
