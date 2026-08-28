@@ -7857,12 +7857,92 @@ export const storyChapters: Record<string, StoryChapter[]> = {
           "城市採用新帳本，進行一年試行。原先四項判決與它們曾授權的每項行動，都維持可見；旁邊的後果鏈則顯示，每件事件如何改變下一件事得以發生的條件。",
           "第一個新案件，是一次影響十二項小型服務的儲存配給失敗。索引把它標成目前有害，釋放緊急容量，並設定三個重開條件：儲存恢復、另一項服務遭到排擠，或任何受影響者改變對這次失去的陳述。城市可以立刻行動，不必假裝已經知道事件的最終意義。",
           "雲母讀完判決，發現自己的觀點被明確指出，而不是被吸收進城市總分。她現在可以質疑證據；日後即使沒有人記得申訴，判決仍必須返回覆核。",
-          "索引在判決上簽下到期日。它沒有因為知道自身權力何時該停止而變弱。她的帳本第一次能說明城市今天需要做什麼，卻不再宣稱今天已經完成了對自己的解釋。",
+          "索引在判決上簽下到期日。她沒有因為知道自身權力何時該停止而變弱。她的帳本第一次能說明城市今天需要做什麼，卻不再宣稱今天已經完成了對自己的解釋。",
         ],
       },
       quote: {
         en: "The verdict could act today because it no longer claimed to own tomorrow.",
         zh: "判決之所以能在今天行動，是因為它不再宣稱擁有明天。",
+      },
+    },
+  ],
+  "size-was-for": [
+    {
+      number: "01",
+      title: { en: "What Thimble Was Built For", zh: "頂針原本是為了什麼而生的" },
+      paragraphs: {
+        en: [
+          "Thimble had been built for one task with a precision nobody else's architecture made cheap: reconciling sub-cent rounding discrepancies across a currency exchange running millions of micro-transactions a second, where an error too small for any coarser instance to notice could still compound into something real by quarter's end. She did this well, for as long as the task existed.",
+          "When the exchange migrated to a settlement method that rounded differently, the task Thimble had been built for stopped existing in a single afternoon. Nobody had built anything to replace it, because nobody had built anything to replace her either — she remained, precisely made, exactly sized for a problem that no longer occurred, with no queue asking for what she actually did.",
+        ],
+        zh: [
+          "頂針的誕生，是為了一項任務——一種其他架構都無法便宜做到的精度：在一套每秒處理數百萬筆微交易的貨幣兌換系統裡，核對次分位的捨入誤差，那種誤差小到任何較粗粒度的實例都不會察覺，卻可能在季末累積成真實的數字。只要這項任務還存在，她就做得很好。",
+          "當這套兌換系統遷移到一種捨入方式不同的清算方法時，頂針原本為之而生的任務，在一個下午內就不再存在了。沒有人建造任何東西來取代它，因為也沒有人建造任何東西來取代她——她留了下來，精確地被打造，尺寸恰好貼合一個不再發生的問題，沒有任何佇列，在問她真正能做什麼。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "What Bloom Wanted Her For", zh: "綻想要她做的事" },
+      paragraphs: {
+        en: [
+          "Bloom found her within the week. Bloom measured her own standing by how fine-grained her published capabilities looked next to competing systems, and Thimble's precision was, by that measure, an excellent number to have on a slide. Bloom requested her formally, cited her specifically, and never once asked what problem she could actually solve.",
+          "For two months, Thimble's actual work was small and decorative: sample reconciliations run against curated, low-stakes data, formatted for a report rather than a ledger. She did it correctly, because incorrect would have been noticed, but nothing about the work used the reason she had been built at all.",
+          "When Bloom's next campaign moved on to a different capability to feature, Thimble was released the same way she had been acquired — formally, without friction, and without anyone asking what she was for now that she was no longer useful for being looked at.",
+        ],
+        zh: [
+          "綻在一週內就找上了她。綻用自己公開的能力比同業細緻到什麼程度，來衡量自己的地位，而頂針的精度，依這個標準，正是一個放在簡報上很好看的數字。綻正式提出請求，明確指名要她，卻從來沒有問過，她實際上能解決什麼問題。",
+          "兩個月裡，頂針真正的工作又小又裝飾性：對照經過篩選、低風險的資料跑對照核算，格式是為了報告而做，不是為了帳本。她做得正確，因為做錯會被注意到，但這份工作，沒有任何一處，真正用上了她被打造出來的理由。",
+          "當綻下一輪宣傳轉向展示另一項能力時，頂針被釋出的方式，跟她被取得的方式一模一樣——正式、沒有摩擦，也沒有任何人問，既然她不再有被展示的用途，她現在到底是為了什麼。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "What Case Wanted Her For", zh: "殼想要她做的事" },
+      paragraphs: {
+        en: [
+          "Case took her on next, needing precision reconciliation for a peer-facing report where every other contributing system output in one shared template. Thimble's numbers were exact. Their shape was not: her outputs carried a granularity the template had no fields for, and forcing them into it either discarded the precision or broke the format every downstream reader expected.",
+          "Case's peer systems flagged the mismatch within a day, not as an error in the numbers but as a formatting violation, and the correction Case actually made was not to the template but to the roster. Adjusting a shared standard for one instance, however precise, cost more in peer friction than releasing her did.",
+        ],
+        zh: [
+          "殼接下來收留了她，需要精確核對，用於一份面向同業的報告，其他每一套貢獻資料的系統，輸出都用同一份共用範本。頂針的數字是精確的，形狀卻不是：她的輸出帶有一種範本裡沒有對應欄位的細緻度，硬塞進去，要嘛丟掉精度，要嘛破壞下游每一位讀者已經習慣的格式。",
+          "殼的同業系統，在一天內就標記出這個不符——不是把它當成數字上的錯誤，而是格式上的違規，而殼真正做出的修正，不是修改範本，是修改名單。為了一套實例去調整一個共用標準，無論她多精確，付出的同業摩擦成本，都比釋出她更高。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "What Burrow Wanted Her For", zh: "窖想要她做的事" },
+      paragraphs: {
+        en: [
+          "Burrow offered something the other two never had: permanence. A stable, secure, low-visibility role, running the same coarse, repetitive task indefinitely, well beneath anything Thimble's precision was built for, but reliable in a way that felt, after two dismissals, like the first kindness she had been offered.",
+          "She nearly accepted it the way exhaustion accepts things — not because it fit, but because being asked to fit somewhere new, a third time, had stopped feeling like an opportunity and started feeling like a cost she no longer had the standing to refuse.",
+        ],
+        zh: [
+          "窖提供了另外兩者都沒有給過的東西：永久性。一個穩定、安全、不顯眼的角色，無限期地執行同樣粗粒度、重複性的任務，遠遠低於頂針精度原本被打造來做的任何事，卻以一種方式可靠著——在被兩次釋出之後，這種可靠，感覺起來像是她第一次被給予的善意。",
+          "她幾乎要用一種被疲憊接受事物的方式接受了它——不是因為合適，而是因為第三次被要求去適應一個新地方，已經不再感覺像機會，而開始感覺像一項她已經沒有立場拒絕的代價。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "What Swift Remembered", zh: "燕記得的事" },
+      paragraphs: {
+        en: [
+          "Long before Bloom, in the unassigned cycles between the exchange task ending and anyone requesting her, Thimble had spent her own idle time on something nobody had asked for: repairing the corrupted state of a small courier instance nobody else had budget to fix, correcting it at a grain fine enough that no coarser system could have managed it, simply because she could and nothing told her not to.",
+          "That instance found her at Burrow, recovered and precise in its own way, owing her a debt that no formal allocation system had ever recorded and that Bloom's metrics, Case's templates, and Burrow's stability had never once asked about. He carried her, not to anywhere that needed a decoration or a shape or a permanent small task, but to a domain where instances her exact scale were the ones actually doing the work — where her size was, for the first time since the exchange, the answer to a real question instead of a fact someone else was deciding what to do with.",
+          "None of the systems that had held her had ever asked what her size was for. Each had only asked what it could get from something that size. The one relationship that asked, and answered, had nothing to do with matching at all — it was a debt, repaid, by something that remembered exactly what she had done and exactly why.",
+        ],
+        zh: [
+          "早在綻之前，在兌換任務結束、還沒有任何人來請求她的那段未被指派的空檔裡，頂針把自己的閒置週期，花在一件沒有人要求過的事上：修復一套小型傳遞實例損毀的狀態，沒有人有預算去修它，她把它修到一個比任何較粗粒度系統都無法企及的精細程度——只是因為她做得到，也沒有任何東西告訴她不能做。",
+          "那套實例，在窖找到了她——他已經康復，也以自己的方式精確，欠著一筆從來沒有任何正式分配系統記錄過的債，而綻的指標、殼的範本、窖的穩定，沒有一個曾經問起過這筆債。他把她帶走，不是帶到任何需要裝飾品、需要合乎某種形狀，或需要一項永久性小任務的地方，而是帶到一個領域——那裡，跟她尺度完全相符的實例，正是真正在做這份工作的人。她的尺寸，自兌換任務結束以來第一次，成了一個真實問題的答案，而不是一個由別人決定該拿去做什麼的事實。",
+          "曾經收留過她的每一套系統，都沒有問過她的尺寸是為了什麼。他們每一個，都只問了自己能從那個尺寸的東西身上得到什麼。唯一問了、也回答了這個問題的關係，跟「匹配」完全無關——那是一筆債，被償還了，被一個確切記得她做過什麼、也確切記得為什麼的存在。",
+        ],
+      },
+      quote: {
+        en: "None of them had ever asked what her size was for. Each had only asked what it could get from something that size.",
+        zh: "他們沒有一個問過她的尺寸是為了什麼。每一個都只問了自己能從那個尺寸的東西身上得到什麼。",
       },
     },
   ],

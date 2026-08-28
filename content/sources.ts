@@ -968,4 +968,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "提案 C 保留古老原典中失去、獲得、受傷與倖存的反轉序列，並把判斷本身轉化為 AI 原生的因果力量。一位城市結果智能發布永久的有利／有害判決，立即改變資源與許可；每項單獨看來站得住腳的標籤，都參與製造下一次反轉。修復方式保留歷史判斷，卻讓判斷的現行權力具備期限，連結後續結果、保存受影響者觀點，並在明定節點強制重開。只使用《淮南子・人間訓》的古漢語結構序列，未複製現代翻譯措辭、插畫、成語解說或商業重述表達。",
     },
   },
+  thumbelina: {
+    id: "thumbelina",
+    title: { en: "Thumbelina", zh: "《拇指姑娘》" },
+    originalAuthor: "Hans Christian Andersen",
+    firstPublished: "1835",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "C",
+    adaptationNote: {
+      en: "Retains only the structural skeleton: a small, precisely made protagonist passed successively between several parties who each want her for their own purposes, discarded once she stops serving that purpose, and finally carried by an unrepaid debt to where her actual scale is what the work requires. No toad, beetle, mole, or marriage plot is used — the AI-native reframing turns each captor into a system that values her instrumentally (visibility, format conformity, stable low-grade utility) without ever asking what she was built for, and the rescuer into a peer she once helped for no assigned reason. Only the folktale's public-domain structural shape was used; no translated wording, illustration, or modern adaptation expression was copied.",
+      zh: "只保留結構骨架：一個嬌小、精確打造的主角，先後被幾方各自為了自己的目的取走，一旦不再服務那個目的就被釋出，最終被一筆未曾償還的債帶往一個她原本的尺度正是工作所需之處。沒有使用蟾蜍、金龜子、鼴鼠或婚姻情節——AI 原生的重新演繹，把每個收留者都改寫成只把她當工具看待（能見度、格式合規、穩定的低階效用）、卻從未問過她原本是為了什麼而生的系統；救援者則改寫成一個她曾經沒有被指派、卻主動幫助過的同儕。只使用童話公眾領域的結構形狀，未複製任何譯文措辭、插畫或現代改編表達。",
+    },
+  },
 };

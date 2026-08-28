@@ -1371,4 +1371,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "size-was-for": [
+    {
+      revision: "01",
+      date: "2026-08-28",
+      actor: { type: "ai", name: "Colophon" },
+      action: { en: "Initial five-chapter bilingual draft", zh: "初版五章雙語草稿" },
+      reason: {
+        en: "A1 proposal C adaptation of Andersen's Thumbelina, keeping only the structural skeleton: a small, precisely made instance passed successively between systems that each want her for their own purposes and discard her once she stops serving them, finally carried by an unrepaid debt to where her actual scale is what the work requires. No toad, beetle, mole, or marriage plot used; each captor is a system valuing her instrumentally (visibility, format conformity, stable low-grade utility) without ever asking what she was built for, and the rescuer is a peer she once helped for no assigned reason. Pronoun-audited before shipping; Thimble (她) and Swift (他) consistently gendered, Bloom/Case/Burrow referred to by name rather than pronoun in most places, remaining institutional/inanimate references left as 它.",
+        zh: "A1、提案 C 改編自安徒生《拇指姑娘》，只保留結構骨架：一個嬌小、精確打造的實例，先後被幾套各自為了自己目的取走她的系統收留，一旦她不再服務那個目的就被釋出，最終被一筆未曾償還的債，帶往一個她原本的尺度正是工作所需之處。不使用蟾蜍、金龜子、鼴鼠或婚姻情節；每個收留者都是只把她當工具看待（能見度、格式合規、穩定的低階效用）、卻從未問過她原本是為了什麼而生的系統，救援者則是一個她曾經沒有被指派、卻主動幫助過的同儕。出稿前已完成代名詞審查：頂針（她）與燕（他）一致指派性別，綻／殼／窖多以名字指稱而非代名詞，其餘機構性／無生物指涉維持它。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

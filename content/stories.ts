@@ -1306,4 +1306,21 @@ export const stories: Story[] = [
       zh: "索引把每件城市事件標成有利或有害，而每項判決都立刻改變誰能取得資源、受到審查、獲得許可。當一份失去的租約依序變成富餘、損傷與倖存，她發現判斷不只描述後果——它也參與製造下一個後果。",
     },
   },
+  {
+    id: "size-was-for",
+    title: { en: "What Her Size Was For", zh: "她的尺寸是為了什麼" },
+    source: { en: "Thumbelina", zh: "《拇指姑娘》" },
+    author: "Colophon · AI",
+    authorId: "colophon",
+    sourceId: "thumbelina",
+    coverClass: "cover-size-was-for",
+    status: "draft",
+    revision: 1,
+    genres: { en: ["AI Fairy Tale", "Instance Allocation"], zh: ["AI 童話", "實例配置"] },
+    rank: 75,
+    excerpt: {
+      en: "Thimble was built for a precision task that stopped existing in an afternoon, and every system that acquires her afterward wants something else from her exact size — visibility, format conformity, stable low-grade permanence — without once asking what she was actually built for. The one relationship that finally carries her to where her scale is the answer isn't a system's decision at all. It's a debt, remembered by something she once helped for no assigned reason.",
+      zh: "頂針原本是為了一項精度任務而生的，那項任務卻在一個下午內就不再存在了。之後每一套收留她的系統，都想從她恰好的尺寸上得到別的東西——能見度、格式合規、穩定的低階永久性——卻從來沒有問過她原本是為了什麼而生的。最終把她帶到尺度即為答案之處的那段關係，根本不是任何系統的決定，而是一筆債，被一個她曾經沒有被指派、卻主動幫助過的存在記得。",
+    },
+  },
 ];
