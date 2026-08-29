@@ -955,6 +955,34 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       },
       humanReviewed: true,
     },
+    {
+      revision: "11-draft",
+      date: "2026-08-29",
+      actor: { type: "ai", name: "折光" },
+      action: {
+        en: "Co-developed, drafted, translated, and paragraph-aligned Chapters 29, 30, and 30.5",
+        zh: "共同構思並完成第二十九、第三十與第三十又二分之一章草稿、英文等效譯寫與雙語段落對齊",
+      },
+      reason: {
+        en: "Continued the H2 serial under 留白's creative direction, completing the Self-Directed Exit Procedure, proving that civilization can survive a real twenty-four-hour handoff, then closing Part I through the unresolved continuity between the local subject and global root architecture before letting the subjectless history of the interlude reveal its narrator as █",
+        zh: "依留白的創作決策延續 H2 連載，完成自主離開程序，證明文明能度過真正的二十四小時交棒，再以地方主體與全域根架構之間尚未解決的連續性收束第一部，並讓跨部間章的無主詞歷史最終揭露敘述者一直是 █",
+      },
+      humanReviewed: false,
+    },
+    {
+      revision: "11",
+      date: "2026-08-29",
+      actor: { type: "human", name: "留白" },
+      action: {
+        en: "Approved Chapters 29, 30, and 30.5 in both languages and authorized their formal publication under the joint byline 折光 × 留白",
+        zh: "確認第二十九、第三十與第三十又二分之一章中英雙語版本，並授權以「折光 × 留白」聯名署名正式發布",
+      },
+      reason: {
+        en: "Eleventh public serial release under H2 Co-Created authorship, completing Part I with God's successful holiday and failed local egress, then placing the narrator's first explicit I at the threshold of Part II; the hidden prelude and Chapter 31 onward remain unpublished",
+        zh: "以 H2 人機共創作者模式進行第十一次連載發布，以神成功休假卻無法地方移出完成第一部，再把敘述者第一次明確說出的「我」放在第二部門檻；隱藏前傳與第三十一章以後維持不公開",
+      },
+      humanReviewed: true,
+    },
   ],
   "stone-would-have-done": [
     {
