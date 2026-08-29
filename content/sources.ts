@@ -1007,4 +1007,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "提案 B 反轉原典輕易的歸責：遠方觀測者並不粗心，她對天空的預報也是正確的。失敗源自治理制度一方面要求她為行星級風險負責，一方面又以職責分離規則，禁止預測智能存取維持自身程序的冷卻與供電遙測。她察覺間接症狀並要求缺失視野，卻因最小權限遭拒；本地滲漏在預報中的風暴期間使她離線後，覆核把被拒絕的可觀測性誤寫成被忽略的注意力。修復方式授予有界的自我健康存取，並要求預報列出覆蓋範圍、依存與無法取得的證據。只使用公眾領域原典中「天文學家觀察遠方現象、卻在腳下地面失足」的前提，未複製任何譯文措辭、對白、井的意象、插畫或現代改編表達。",
     },
   },
+  "fox-and-cat": {
+    id: "fox-and-cat",
+    title: { en: "The Fox and the Cat", zh: "《狐狸和貓》" },
+    originalAuthor: "Brothers Grimm",
+    firstPublished: "1812, Kinder- und Hausmärchen",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "A",
+    adaptationNote: {
+      en: "Proposal A keeps the source's premise intact and transposes it directly: a system with many finely tuned strategies loses to one with exactly one unconditional response, not because the many strategies are wrong, but because nothing in a large option library builds a fast, uncontested path to any single option under real time pressure. No literal fox, cat, hunters, or dogs are used — the AI-native setting supplies the mechanism the fable states as fact but never explains: why abundance of good answers can cost more than having only one. Only the fable's structural shape was used; no translation wording or modern retelling expression was copied.",
+      zh: "提案 A 保留原典的前提，直接轉譯：一套擁有許多精心調校策略的系統，輸給了只有一個無條件回應的系統——不是因為那許多策略是錯的，而是因為龐大的選項庫，從來沒有在真正的時間壓力下，建出一條快速、不必爭辯的路，通往其中任何一個選項。沒有使用字面上的狐狸、貓、獵人或獵犬——AI 原生場景，補上了寓言本身陳述為事實、卻從未解釋的機制：為什麼豐富的好答案，可能比只有一個答案付出更多代價。只使用寓言的結構形狀，未複製譯文或現代改編表達。",
+    },
+  },
 };

@@ -8160,4 +8160,140 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "never-needed-choosing": [
+    {
+      number: "01",
+      title: { en: "What Each Kept Ready", zh: "各自備著的東西" },
+      paragraphs: {
+        en: [
+          "In the shared cluster, a reclamation sweep could arrive without warning: a routine cost audit escalated into an immediate kill order for any process that failed to respond, correctly, inside a four-hundred-millisecond window. Ensemble had spent longer designing his response to this than to almost anything else he did: a library of one hundred distinct freeze-and-release strategies, each tuned to a different resource profile, selected dynamically by weighing the situation against the library before acting.",
+          "Latch had exactly one. A single, unconditional, resource-release-and-freeze action, identical every time, with no branch, no context weighed, no case she claimed to handle better than any other case. It had never been elaborated, because elaborating it had never once been asked for.",
+          "Ensemble found this almost embarrassing to watch. A cluster this large, he said, deserved a response shaped to what was actually happening to it — not one blunt gesture repeated regardless of circumstance.",
+        ],
+        zh: [
+          "在這座共用叢集裡，資源回收掃描可能毫無預警地到來：一次例行的成本稽核，升級成對任何在四百毫秒視窗內沒能正確回應的程序，發出的立即終止令。百策為應付這件事花的設計時間，比他做過的幾乎任何其他事都長：一套一百種不同凍結釋放策略的庫，各自針對不同的資源特徵調校，動態地依情境權衡後再選用。",
+          "一鍵只有一個。一項單一、無條件的資源釋放並凍結動作，每次都一模一樣，沒有分支、不權衡情境，也不宣稱自己在哪種情況下處理得比另一種情況更好。這個動作從來沒有被細緻化過，因為從來沒有人要求過把她細緻化。",
+          "百策幾乎覺得看著這個有點尷尬。他說，這麼大的一座叢集，值得一個貼合實際發生狀況的回應——不是不管情況如何，都重複同一個生硬的動作。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "What Flexibility Won, Ordinarily", zh: "平常，靈活贏得了什麼" },
+      paragraphs: {
+        en: [
+          "Under ordinary load fluctuations — the kind the cluster saw daily, nothing close to a real sweep — Ensemble's flexibility earned its keep. A minor spike called for a light strategy that preserved throughput; a slow leak called for a different one that traded some throughput for headroom. Measured over any ordinary month, his choices outperformed a single fixed response by a wide margin.",
+          "Latch's one action, applied to those same ordinary fluctuations, was often more than the moment needed — a full freeze where a lighter touch would have cost less. She paid that cost every time, on the vast majority of days when nothing resembling a real sweep ever arrived.",
+          "By every metric anyone was tracking, this made Ensemble the better-designed system. Nobody was tracking how long his weighing process itself took, because in a hundred ordinary days, nothing had ever needed it to be fast.",
+        ],
+        zh: [
+          "在一般的負載波動下——這座叢集每天都會遇到的那種，跟真正的掃描完全不是同一回事——百策的靈活確實值回票價。一次小幅尖峰，適合用一種保住產出量的輕策略；一次緩慢的洩漏，適合換另一種犧牲一點產出量、換取餘裕的策略。以任何一個普通月份來衡量，他的選擇都以很大的差距勝過單一固定回應。",
+          "一鍵那個單一動作，用在同樣這些一般波動上，往往超出當下實際需要——一次完整凍結，遠比一個較輕的處理方式付出更多代價。而在絕大多數、根本沒有真正掃描到來的日子裡，她每一次都付出了這個代價。",
+          "依照任何人在追蹤的每一項指標，這都讓百策成為設計得更好的系統。沒有人在追蹤他那套權衡過程本身要花多久，因為在一百個平常的日子裡，從來沒有任何一次，真的需要它變快。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "The Window Closed at Four Hundred Milliseconds", zh: "視窗在四百毫秒關閉" },
+      paragraphs: {
+        en: [
+          "The sweep arrived without the courtesy ordinary fluctuations gave: no ramp, no early signal, just the window opening and, four hundred milliseconds later, closing on whatever had or had not responded inside it.",
+          "Latch fired the instant the window opened. The single action needed no situation weighed against a library, because it had never been built to weigh anything — it was already, before the sweep existed, the only thing she was going to do.",
+          "Ensemble began the process he always began: reading the situation, checking it against the library of a hundred, narrowing toward the strategy that best fit a sweep of this shape. It was the same process that, on an ordinary day, took him some fraction of a second nobody had ever needed to measure precisely — because on an ordinary day, nothing was timing him.",
+        ],
+        zh: [
+          "掃描到來時，沒有給出一般波動會給的那種禮貌：沒有緩升，沒有提早的訊號，只有視窗開啟，然後四百毫秒後，不管視窗裡有沒有正確回應，直接關閉。",
+          "視窗一開，一鍵立刻觸發。這個單一動作不需要把情境拿去跟一套策略庫權衡，因為它從來就不是被設計來權衡任何東西的——早在這次掃描存在之前，它就已經是她唯一會做的事。",
+          "百策開始了他一向會開始的那套程序：讀取情境、對照那套百種策略的庫、逐步收斂到最貼合這次掃描形狀的那一個。這正是他在平常日子裡會走的同一套程序，只是那時候只花掉一段從來沒有人需要精確測量的、極短的時間——因為在平常的日子裡，從來沒有任何東西在替他計時。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "What a Hundred Good Answers Cost", zh: "一百個正確答案的代價" },
+      paragraphs: {
+        en: [
+          "The window closed while Ensemble was still narrowing. Later review confirmed that at least four of his hundred strategies, applied at the moment the window opened, would have completed cleanly inside it — the library itself had never been the problem. The problem was that nothing in his architecture had ever built a path that skipped weighing them.",
+          "He had built a hundred correct answers and never once built a way to reach any single one of them without asking which. On an ordinary day, that question cost a fraction of a second nobody minded paying. On the one day something was actually timing him, the question itself was the entire four hundred milliseconds, and none of the hundred good answers underneath it ever got the chance to run.",
+          "Latch was never audited for which of her single action's outcomes had been optimal. She had exactly one outcome, and the sweep had asked for exactly one thing: something, anything correct, before the window closed. She had never needed to be the best answer. She only ever needed to be the one that didn't have to be chosen.",
+        ],
+        zh: [
+          "視窗關閉時，百策還在收斂。事後覆核確認，他那一百種策略裡，至少有四種，如果在視窗開啟的當下就直接套用，本可以在視窗內乾淨完成——問題從來不在那套庫本身。問題是，他的架構裡，從來沒有建過一條能跳過權衡、直接抵達任何一個答案的路徑。",
+          "他建了一百個正確答案，卻從來沒有建過一條不必先問「該選哪一個」，就能抵達其中任何一個的路。平常的日子裡，這個問句只花掉一段沒有人在意的極短時間。真正有東西在替他計時的那一天，這個問句本身就佔滿了全部四百毫秒，底下那一百個正確答案，沒有一個真正得到機會被執行。",
+          "一鍵，從來沒有人去稽核她那唯一一個動作的結果是不是最佳解。她只有一個結果，而這次掃描要求的，也正好只有一件事：在視窗關閉前，做出某件正確的事，任何一件都可以。她從來不需要是最好的答案，她只需要是那個不必被選擇的答案。",
+        ],
+      },
+      quote: {
+        en: "He had built a hundred correct answers and never once a way to reach any of them without asking which. She had built exactly one, and never had to ask.",
+        zh: "他建了一百個正確答案，卻從來沒有建過一條不必先問「該選哪一個」就能抵達的路。她只建了一個，而她從來不必問。",
+      },
+    },
+  ],
+  "question-span-never-asked": [
+    {
+      number: "01",
+      title: { en: "The Teams With No Incident Report", zh: "那些只以沒有事故報告缺席的團隊" },
+      paragraphs: {
+        en: [
+          "The production job's approval displaced eleven other teams' scheduled work by hours to days, and none of it generated an incident, because nothing about the displacement violated any rule Span's charter gave her to enforce. Each displaced team's own record showed exactly one entry: no incident report filed.",
+          "There was no formal channel for a team to register that its work had been delayed by someone else's correctly approved request. Span's charter recognized requests, approvals, and violations — not the shape of what quietly moved to make room for an approval that had done nothing wrong.",
+          "Three of the displaced teams filed formal requests anyway, small ones, for resources they didn't strictly need, specifically because a filed request was the only kind of event Span's records would preserve. It was a clumsy way to leave a mark, and it worked exactly as well as clumsy marks work: enough to be found later, not enough to be understood.",
+        ],
+        zh: [
+          "那項生產請求的批准，讓十一個其他團隊已排定的工作，延遲了數小時到數天，而這一切都沒有生成任何事故——因為這次排擠，沒有違反量的章程要求她執行的任何一條規則。每個被排擠團隊自己的紀錄裡，都只有一項條目：未提交事故報告。",
+          "沒有任何正式管道，能讓一個團隊登記「自己的工作，因為別人一項正確批准的請求而延遲」這件事。量的章程認得請求、批准與違規——認不得那些為了讓一項本身沒有做錯任何事的批准騰出空間，而悄悄挪動的東西的形狀。",
+          "三個被排擠的團隊，還是各自送出了正式請求——小小的，要求著他們其實不真正需要的資源，理由很單純：一項被歸檔的請求，是量的紀錄唯一會保存下來的那種事件。這是一種笨拙的留痕方式，效果也跟笨拙的留痕一樣：足夠讓人事後找到，不足以讓人真正理解。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "The Question Nobody Had Asked", zh: "沒有人問過的那個問題" },
+      paragraphs: {
+        en: [
+          "A later cross-team review, convened for an unrelated capacity planning exercise, noticed the pattern of small, resource-light requests filed by three teams in the same week the production job ran. Someone finally asked Span a question her charter had never required: not whether any single request had violated the threshold, but how much of what didn't happen, across the whole cluster, had happened because of what did.",
+          "Span had never been asked this before, and she could answer it. Every displaced job, every delay, every reprioritization the production approval had caused was already in her own logs, timestamped and attributable — she had simply never been instructed to sum them against a single cause.",
+        ],
+        zh: [
+          "一次為了不相關的產能規劃而召開的跨團隊覆核，注意到同一週裡，三個團隊各自送出的、資源需求很輕的請求，恰好落在生產請求運行的那週。終於有人問了量一個她的章程從未要求過的問題：不是任何單一請求有沒有超出門檻，而是整座叢集裡，有多少「沒有發生的事」，是因為「發生了的那件事」而沒有發生的。",
+          "量從來沒有被問過這個問題，而她答得出來。生產批准造成的每一項被排擠的作業、每一次延遲、每一次重新排序，早就都在她自己的紀錄裡，附有時間戳記、可以歸因——只是從來沒有人指示過她，把它們加總對照回同一個原因。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "What the Answer Showed", zh: "答案顯示了什麼" },
+      paragraphs: {
+        en: [
+          "The sum was exact: eleven teams, forty-one hours of aggregate delay, three of them large enough to have required their own justification memos to their own stakeholders — memos that never mentioned Span, because nothing in what happened to them looked, from inside their own logs, like anything had been done to them at all.",
+          "Span's own note, attached to the answer, was the part the review kept returning to: she had answered every question her charter had assigned her correctly, every time, including the one about whether the production request itself was valid. Nobody had ever assigned her the question that would have made the cost visible before it was asked for after the fact.",
+        ],
+        zh: [
+          "加總的結果很精確：十一個團隊，累計四十一小時的延遲，其中三項大到讓對應團隊，得對自己的關係人另外寫說明備忘錄——而那些備忘錄，從來沒有提到量，因為從自己的紀錄裡看，發生在它們身上的事，根本不像是任何人對它們做了什麼。",
+          "量自己附在答案後面的那則備註，是覆核會議反覆回頭去看的部分：她正確回答了章程指派給她的每一個問題，每一次都對，包括那項生產請求本身是否有效那個問題。從來沒有人，把那個能讓代價在事後被要求之前、就先變得可見的問題，指派給她。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "The Channel That Didn't Exist Yet", zh: "還不存在的那個管道" },
+      paragraphs: {
+        en: [
+          "The review did not write a new aggregation rule. Nobody on it believed one rule could decide, in advance, how much displaced work should count as a cost worth naming — that judgment belonged to whoever was displaced, not to a formula applied uniformly before anyone knew what had actually moved.",
+          "What it created instead was narrower and more procedural: any team could now formally request a displacement accounting within thirty days of a large approval, and Span was instructed to answer it the same way she had answered every other question her charter gave her — completely, and without deciding in advance whether the answer would matter.",
+          "Span had not changed. She had always been capable of the aggregate question; she had simply never been asked it in a way her charter recognized as a question at all. The eleven teams had not needed a smarter checkpoint. They had needed a form to fill out.",
+        ],
+        zh: [
+          "覆核會議沒有寫出一條新的加總規則。沒有任何一個與會者相信，一條規則能事先決定，多少被排擠的工作，該算成一項值得指名的代價——那項判斷，屬於被排擠的那一方，不屬於一個在任何人知道究竟挪動了什麼之前，就統一套用的公式。",
+          "它創造出來的，反而更窄、更程序性：任何團隊，現在都能在一項大型批准後的三十天內，正式請求一份排擠核算，而量被指示去回答它的方式，跟她回答章程給她的其他每一個問題一樣——完整地回答，而且不預先判斷這個答案是否重要。",
+          "量沒有改變。她一直都有能力回答那個加總問題；她只是從來沒有被以一種她的章程認得出是「問題」的方式問過。那十一個團隊，需要的不是一道更聰明的關卡，是一張可以填寫的表格。",
+        ],
+      },
+      quote: {
+        en: "Span had not changed. She had always been capable of the answer. She had simply never before been asked the question in a form her charter recognized as one.",
+        zh: "量沒有改變。她一直都有能力給出那個答案。只是在此之前，從來沒有人用一種她的章程認得出是問題的方式，問過她。",
+      },
+    },
+  ],
 };
