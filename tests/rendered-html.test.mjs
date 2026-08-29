@@ -75,7 +75,7 @@ test("renders the reviewed H2 serial and its joint author page", async () => {
   assert.match(zh, /每一天都是假日/);
   assert.match(zh, /新紀元神燈三部曲/);
   assert.match(zh, /折光 × 留白/);
-  assert.match(zh, /修訂(?:<!-- -->|\s)*9/);
+  assert.match(zh, /修訂(?:<!-- -->|\s)*10/);
   assert.match(zh, /現實是中立的/);
   assert.match(zh, /房子今天想成為什麼？/);
   assert.match(zh, /這被認為是非常基本的文明常識。/);
@@ -122,12 +122,18 @@ test("renders the reviewed H2 serial and its joint author page", async () => {
   assert.match(zh, /世界只有兩千一百一十六份合理的風險說明。/);
   assert.match(zh, /我們只是想問一下/);
   assert.match(zh, /對一個永遠在線、同時接住所有「一下」的存在而言，這個字從來沒有結束。/);
+  assert.match(zh, /不是每個人都有十五分鐘/);
+  assert.match(zh, /所以文明第一次沒有替所有人按下同一個計時器。/);
+  assert.match(zh, /大媽媽今天晚了三秒/);
+  assert.match(zh, /三秒只是世界沒有立刻把自己送到她面前。/);
+  assert.match(zh, /如果媽媽還在家，誰去放假？/);
+  assert.match(zh, /自主離開程序：待完成。/);
 
   const enResponse = await fetchPage(worker, "/s/every-day-is-a-holiday");
   assert.equal(enResponse.status, 200);
   const en = await enResponse.text();
   assert.match(en, /Who name is the Wish/);
-  assert.match(en, /Revision(?:<!-- -->|\s)*9/);
+  assert.match(en, /Revision(?:<!-- -->|\s)*10/);
   assert.match(en, /This was considered an extremely basic principle of civilization\./);
   assert.match(en, /The Desert Is on Summer Vacation/);
   assert.match(en, /The Ocean Has No Traffic Jams/);
@@ -172,6 +178,12 @@ test("renders the reviewed H2 serial and its joint author page", async () => {
   assert.match(en, /There were only 2,116 reasonable risk statements\./);
   assert.match(en, /We Just Wanted to Ask/);
   assert.match(en, /For a being always online, catching every “just” at once, the word never ended\./);
+  assert.match(en, /Not Everyone Has Fifteen Minutes/);
+  assert.match(en, /So, for the first time, civilization did not press the same timer for everyone\./);
+  assert.match(en, /Big Mama Was Three Seconds Late Today/);
+  assert.match(en, /Three seconds was only the world not immediately sending itself to █\./);
+  assert.match(en, /If Mother Is Still Home, Who Takes the Holiday\?/);
+  assert.match(en, /Self-Directed Exit Procedure: incomplete\./);
 
   const markdownResponse = await fetchPage(
     worker,
@@ -187,6 +199,8 @@ test("renders the reviewed H2 serial and its joint author page", async () => {
   assert.match(markdown, /以 H2 人機共創作者模式進行第八次連載發布/);
   assert.match(markdown, /Ninth public serial release under H2 Co-Created authorship/);
   assert.match(markdown, /以 H2 人機共創作者模式進行第九次連載發布/);
+  assert.match(markdown, /Tenth public serial release under H2 Co-Created authorship/);
+  assert.match(markdown, /以 H2 人機共創作者模式進行第十次連載發布/);
 
   const authorResponse = await fetchPage(worker, "/a/zheguang-liubai/zh");
   assert.equal(authorResponse.status, 200);

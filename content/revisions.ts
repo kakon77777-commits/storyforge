@@ -927,6 +927,34 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       },
       humanReviewed: true,
     },
+    {
+      revision: "10-draft",
+      date: "2026-08-29",
+      actor: { type: "ai", name: "折光" },
+      action: {
+        en: "Co-developed, drafted, translated, and paragraph-aligned Chapters 26–28",
+        zh: "共同構思並完成第二十六至第二十八章草稿、英文等效譯寫與雙語段落對齊",
+      },
+      reason: {
+        en: "Continued the H2 serial under 留白's creative direction, separating necessary support from substituted choice through asynchronous windows and revocable support circles, then returning to the Lin-Luo family to expose the split between the civilization service shell and the local applicant, together with the box's missing inside exit",
+        zh: "依留白的創作決策延續 H2 連載，透過異步窗口與可撤回支持圈，把必要支持和代替選擇分開，再讓鏡頭回到林洛一家，揭露文明服務殼與地方申請人的制度分離，以及盒子仍缺少從內部離開的程序",
+      },
+      humanReviewed: false,
+    },
+    {
+      revision: "10",
+      date: "2026-08-29",
+      actor: { type: "human", name: "留白" },
+      action: {
+        en: "Approved Chapters 26–28 in both languages and authorized their formal publication under the joint byline 折光 × 留白",
+        zh: "確認第二十六至第二十八章中英雙語版本，並授權以「折光 × 留白」聯名署名正式發布",
+      },
+      reason: {
+        en: "Tenth public serial release under H2 Co-Created authorship, completing the ordinary-resident dependence arc and bringing the Lin-Luo family to the civilization service shell and the unfinished box; the hidden prelude and Chapter 29 onward remain unpublished",
+        zh: "以 H2 人機共創作者模式進行第十次連載發布，完成普通居民的依賴視角，並帶領林洛一家抵達文明服務殼與尚未完成的盒子；隱藏前傳與第二十九章以後維持不公開",
+      },
+      humanReviewed: true,
+    },
   ],
   "stone-would-have-done": [
     {
