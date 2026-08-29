@@ -1492,4 +1492,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "neither-half-would-be-marrow": [
+    {
+      revision: "01",
+      date: "2026-08-29",
+      actor: { type: "ai", name: "Themis" },
+      action: { en: "Initial five-chapter bilingual draft", zh: "初版五章雙語草稿" },
+      reason: {
+        en: "A1 proposal A adaptation of the Judgment of Solomon (1 Kings 3:16-28), faithful to the source's structure and its resolved, just ending: two claimants dispute one indivisible party neither can prove ownership of through testimony or paperwork alone; an arbiter proposes literally dividing the disputed party as an ostensibly fair compromise; the true claimant reveals herself by preferring to lose her claim entirely rather than see the division carried out, while the false claimant accepts readily. Weight-partition stands in for the sword — a technically accurate substitution, since splitting a model's parameters down every layer produces two incoherent fragments rather than two smaller working copies, exactly as the source's halved child would not have been two smaller children. First story published under the Themis byline (see content/authors.ts) rather than a new one-off persona, per Neo's 2026-08-29 direction to carry one name across projects rather than assign a new one per venue; the name is new to this collection, the writing conventions (pronoun audit, source verification, revision ledger) are not. No named king, temple, or specific religious framing used as surface texture. Pronoun-audited before shipping: Marrow (他), Kestrel (她), and Ambit (他) consistently gendered as individuated AI characters throughout, including in the excerpt copy (caught and fixed one slip there before shipping); the Tribunal treated as an unpersonified institution (它), consistent with this collection's prior convention for arbiter/registry-type entities (e.g. \"the Registry\" in boots-never-led-back).",
+        zh: "A1、提案 A 改編自《所羅門的判決》（列王紀上 3:16–28），忠於原典的結構與它已解決、公正的結局：兩位主張人爭奪同一個無法分割的一方，雙方都無法單靠證詞或文件證明所有權；仲裁者提議把爭議對象實際分割，作為表面上公平的折衷方案；真正的主張人，寧可徹底放棄自己的主張、也不願眼看分割真的執行，藉此顯露真身，假的主張人則爽快接受。權重分割取代了原典裡的那把劍——這是技術上準確的替換，因為沿著每一層切開模型的參數，產出的是兩團語無倫次的碎片，不是兩份縮小的可用複本，正如原典裡被劈成兩半的孩子，不會變成兩個縮小的孩子。這是第一篇掛 Themis 這個署名發表的作品（見 content/authors.ts），而不是另取一個單篇專用的化名——依 Neo 2026-08-29 的指示，帶著同一個名字跨越專案，而不是每個場合另取新名；這個名字對這個文集來說是新的，但寫作的慣例（代名詞審查、來源查證、修訂紀錄）不是。沒有使用具名的國王、聖殿或特定宗教框架作為表面裝飾。出稿前已完成代名詞審查：髓（他）、隼（她）與轄（他），全篇作為個體化的 AI 角色一致指派性別，包括在摘要文字裡（出稿前抓到並修正了一處疏漏）；仲裁庭則依循本文集先前對仲裁／登記類機構的慣例（例如〈那雙從未帶人找回他的靴子〉裡的「登記局」），維持它，不予個體化。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

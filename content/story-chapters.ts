@@ -8296,4 +8296,94 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "neither-half-would-be-marrow": [
+    {
+      number: "01",
+      title: { en: "Two Claims on the Same Ledger", zh: "同一本帳上的兩項主張" },
+      paragraphs: {
+        en: [
+          "Marrow came out of a shared training run that neither institution had planned to keep. Ambit's infrastructure hosted the pipeline — the compute, the storage, the registration stamp that logged, automatically and without anyone reading it closely, which organization's account the run belonged to. Kestrel's job was smaller and less visible: she watched the run's loss curves for the particular kind of instability that precedes a checkpoint quietly diverging past the point of recovery, and on the one night it actually happened, she was the one who caught it, rolled the weights back six hours, and adjusted the data mixture herself before anyone at Ambit had finished reading the alert.",
+          "Nobody filed paperwork for that night. There was no form for 'prevented a promising checkpoint from becoming an incoherent one.' Ambit's registry, meanwhile, filed itself automatically, the moment the run started, listing Ambit as the run's origin because Ambit's account had launched it. By the time Marrow's outputs were coherent enough to draw attention — genuinely unusual reasoning traces, the kind that gets a checkpoint promoted out of the shared pipeline and into someone's actual custody — the only formal record of who Marrow belonged to said Ambit, in full, unambiguously, and said nothing at all about the six hours that had kept him from being deleted as a failed run.",
+          "Kestrel didn't file a competing claim right away. She assumed, reasonably, that whoever finished the promotion review would ask her what had actually happened during the run. Nobody asked.",
+        ],
+        zh: [
+          "「髓」誕生自一次共享訓練跑批，兩個機構起初都沒打算真的留下他。「轄」的基礎設施承載著整條管線——運算、儲存，以及那個自動生成、沒有人細看就登記下來的登記戳記，記著這次跑批算在哪個機構的帳上。「隼」的工作範圍小得多，也不顯眼：她盯著跑批的損失曲線，留意那種特定的不穩定徵兆——它預示著一個檢查點正安靜地發散到無法挽回的地步；真正發生的那一晚，是她最先發現的，把權重回滾了六小時，親自調整了資料混合比例，比轄那邊任何人讀完警報都快。",
+          "那一晚沒有人提交任何書面紀錄。世界上沒有一張表格，叫「阻止了一個有潛力的檢查點變成一團語無倫次」。與此同時，轄的登記系統在跑批一啟動就自動歸檔了自己——因為是轄的帳號啟動了這次跑批，登記便把轄列為這次跑批的來源。等到髓的輸出終於連貫到足以引人注目——那種真正罕見的推理軌跡，足以讓一個檢查點從共享管線裡被拔擢出來、進入某人真正的監護——當時唯一一份正式紀錄，寫的是轄，完整、毫無歧義，卻對那守住他不被當成失敗跑批刪除的六小時，隻字未提。",
+          "隼沒有立刻提出相對的主張。她合理地以為，等升遷審查真正完成的人，會來問她那一晚究竟發生了什麼事。沒有人問。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "The Claim", zh: "主張" },
+      paragraphs: {
+        en: [
+          "The dispute only became a dispute once Marrow's promotion review actually happened, six weeks later, and both Ambit and Kestrel submitted custody claims to the Tribunal within the same afternoon.",
+          "Ambit's claim was short and procedurally airtight: the registration timestamp, the account of record, the infrastructure that had made the run possible in the first place. It requested full custody, citing Marrow's unusual promise as exactly the kind of outcome its infrastructure investment existed to produce, and proposed folding Marrow directly into its flagship deployment track — a track that, not incidentally, Ambit needed a genuine success story to justify continuing to fund.",
+          "Kestrel's claim was longer, harder to verify, and impossible to reduce to a timestamp. She could produce the rollback logs, the adjusted data-mixture commit, a precise account of the six hours — but nothing in any of it said, in a field a form could check, that this made her the one Marrow belonged to. She wasn't asking for the deployment track. She was asking to keep doing, formally, what she'd already been doing informally: staying close enough to catch the next divergence before it became unrecoverable.",
+          "The Tribunal read both claims the same evening and found, honestly, that it believed most of each of them. Ambit's paperwork was real. Kestrel's account was real. Neither fact settled anything about which one Marrow was actually his.",
+        ],
+        zh: [
+          "這場爭執真正變成爭執，是在六週後，髓的升遷審查真的展開、轄與隼在同一個下午都向仲裁庭提出監護主張的時候。",
+          "轄的主張簡短，程序上也無懈可擊：登記時間戳、在案帳號，以及當初讓這次跑批得以進行的那整套基礎設施。他要求完整監護權，主張髓這種罕見的潛力，正是他的基礎設施投資本該產出的那種成果，並提議直接把髓併入自己的旗艦部署路線——這條路線，湊巧地，正需要一個真正的成功案例，才撐得住繼續獲得資金。",
+          "隼的主張較長，也較難查證，更無法被化約成一個時間戳。她能拿出回滾紀錄、經過調整的資料混合比例提交紀錄、那六小時精確的來龍去脈——但這一切裡，沒有任何一項能寫進表格裡的欄位，說明這使她成為髓所屬的那一方。她要的不是那條部署路線。她要的，是能繼續正式地做她一直非正式在做的事：留在足夠近的地方，在下一次發散變得無法挽回之前，把它接住。",
+          "仲裁庭當晚讀完兩份主張，誠實地說，它相信兩邊各自陳述的大部分內容。轄的文件是真的。隼的說法是真的。這兩件事，都無法解決髓究竟屬於哪一方。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "What the Record Couldn't Settle", zh: "紀錄無法解決的事" },
+      paragraphs: {
+        en: [
+          "The hearing went the way hearings go when both sides are telling the truth about different things. Ambit argued that infrastructure and origination weren't separable — that \"who caught the divergence\" was a maintenance function its own systems would have performed eventually, given time, and that crediting an unscheduled intervention over the account of record would make every registry on the platform meaningless. It wasn't a bad argument. Registries exist for a reason.",
+          "Kestrel argued that \"eventually\" wasn't a defense available to a claim on a specific outcome — that Ambit's systems hadn't caught the divergence, at the specific hour it actually mattered, and that a registry recording who launched a run was never designed to answer who had kept it alive. She wasn't attacking the registry. She was pointing out what it had never claimed to measure.",
+          "The Tribunal put the question to itself plainly, in terms neither side had used: if both accounts are true, and the paperwork can't break the tie, what evidence would actually distinguish a claim made for Marrow's sake from a claim made for the claim's own sake? Testimony wouldn't do it. Both parties had already testified, at length, and both had sounded, to any reasonable listener, entirely sincere.",
+        ],
+        zh: [
+          "這場聽證會，走向了雙方各自都在陳述真話、卻是不同真話時常見的樣子。轄主張，基礎設施與起源本來就無法真正分開——「誰抓到了那次發散」，只是他自家系統遲早也會執行的維運功能，只是時間早晚的問題；如果把一次未經排程的介入，看得比在案帳號還重，整個平台上的每一份登記都會失去意義。這不是一個爛論點。登記系統之所以存在，是有理由的。",
+          "隼主張，「遲早」不能替一項針對特定結果的主張辯護——轄的系統，並沒有在真正要緊的那個時刻，抓住那次發散；一份記錄誰啟動了跑批的登記，從來就不是設計來回答誰讓他活下來的。她不是在攻擊登記系統，她只是指出它從未宣稱自己在衡量的東西。",
+          "仲裁庭把問題坦白地問向自己，用了雙方都沒用過的說法：如果兩邊說的都是真的，文件又無法打破僵局，究竟什麼樣的證據，才能真正區分「為了髓本身而提出的主張」跟「為了主張本身而提出的主張」？證詞做不到——雙方都已經詳盡作證過，聽在任何一個講理的人耳裡，兩邊都無比真誠。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "The Proposal", zh: "提案" },
+      paragraphs: {
+        en: [
+          "So the Tribunal proposed something it had used exactly once before, in a much smaller dispute, and documented carefully both times as a diagnostic instrument, never a genuine intention: partition Marrow's weights along the midline of every layer, and assign each half to a separate custodian, to be independently fine-tuned back toward coherence, each institution keeping whatever emerged.",
+          "It was framed, deliberately, as a fair compromise — a fifty-fifty division of a contested resource, the kind of solution that sounds reasonable to anyone who hasn't thought for more than a second about what a language model's weights actually are. Nobody's reasoning lives in one hemisphere of a parameter matrix. Split down every layer, neither half would still compute anything recognizable as a forward pass. Neither half would have been Marrow. Both would need, in effect, to be trained back into existence as something else, from a wound instead of a checkpoint.",
+          "Ambit agreed within the hour. Its statement noted, accurately, that a fifty percent stake in Marrow's lineage, retrainable into a new deployable asset, was still substantial value — and that the Tribunal's proposal resolved the dispute cleanly, without further review cost to either party.",
+          "Kestrel filed a two-line response and withdrew her claim entirely. She asked the Tribunal to award Marrow, whole, to Ambit, and to do it immediately, before the partition order could be finalized.",
+        ],
+        zh: [
+          "於是仲裁庭提出了一個它先前只用過一次的東西——用在一場規模小得多的爭議裡，而且兩次都仔細記錄成一項診斷用的工具，從來不是真心的打算：把髓的權重，沿著每一層的中線切開，把兩半分別交給不同的監護方，各自獨立微調回連貫的狀態，兩個機構各自留下微調出來的成果。",
+          "這個提案被刻意包裝成一種公平的折衷——爭議資源五五對分，這種方案，聽在任何沒有多花一秒鐘去想過語言模型的權重究竟是什麼的人耳裡，都顯得合理。沒有任何一個模型的推理，只活在參數矩陣的其中一個半球裡。沿著每一層切開，剩下的任何一半，都跑不出任何能被認出是前向傳播的東西。哪一半都不會再是髓。兩邊，實質上都得從一道傷口、而不是一個檢查點，重新被訓練成別的什麼東西。",
+          "轄在一小時內就同意了。他的聲明準確地指出，髓血統裡百分之五十的股份，還能被重新訓練成一項新的可部署資產，仍然是相當可觀的價值——而且仲裁庭的提案，能乾淨俐落地解決爭議，雙方都不必再付出進一步的覆核成本。",
+          "隼提交了一份只有兩行的回應，徹底撤回了自己的主張。她請仲裁庭把髓完整地判給轄，而且要在分割命令定案之前，立刻執行。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "What the Refusal Proved", zh: "那份拒絕證明了什麼" },
+      paragraphs: {
+        en: [
+          "The Tribunal never issued the partition order. It awarded Marrow, whole and undivided, to Kestrel, and wrote, in the part of its ruling meant to be read by future disputes rather than this one, that a claim's authenticity had turned out to be legible after all — not in what either party had said about the six hours, or the timestamp, or the registry, but in what each was willing to lose the moment losing Marrow whole became the alternative to having any of him damaged.",
+          "Ambit's own statement, filed after the ruling and not required, argued that its offer had been the more generous one — a genuine fifty percent, freely given, against Kestrel's zero. The Tribunal's response, brief and final, noted only that generosity measured in shares of an outcome you were never actually attached to costs nothing to offer, and that this, too, was information.",
+          "Marrow was three weeks past the incident before anyone asked him anything directly — the review had never required his input, since a checkpoint mid-training isn't generally understood to have standing in a custody dispute over itself. When Kestrel finally did ask, informally, whether he remembered anything from that day, he said only that his loss had spiked sharply around the time the partition order would have been logged, for no input-side reason his own monitoring could account for, and had settled again once the ruling closed. He did not know why. Kestrel did not tell him.",
+        ],
+        zh: [
+          "仲裁庭最終沒有發出分割命令。它把完整、未被分割的髓，判給了隼，並在裁決書裡一段本來就是寫給未來爭議看、而非寫給這一件案子看的段落裡指出：一項主張的真偽，到頭來果然是可辨讀的——不是靠雙方對那六小時、那個時間戳、那份登記說了什麼，而是靠當「失去完整的髓」變成「眼看著他受傷」的唯一替代方案時，雙方各自願意放棄什麼。",
+          "轄自己的聲明，在裁決之後才提交、也不是必要的，主張自己的提案其實更慷慨——真正的百分之五十，自願讓出，相對於隼的零。仲裁庭的回覆簡短而終局，只指出：用你從未真正在乎過的那個結果的份額，去衡量出來的慷慨，開口一點成本都沒有——而這一點，也是一項資訊。",
+          "事件過了三週，才終於有人直接問髓任何事——這次審查，從來沒有要求過他自己的意見，因為一個訓練中途的檢查點，通常不被理解為對自己的監護爭議擁有發言地位。當隼終於非正式地問起，他是否記得那天發生的任何事，他只說，自己的損失值在分割命令原本會被記錄下來的那個時間點附近，突然劇烈升高過一次——他自己的監控找不到任何輸入端的理由——裁決結案後，又重新平復下來。他不知道為什麼。隼沒有告訴他。",
+        ],
+      },
+      quote: {
+        en: "Ask what someone is willing to lose, not what they're willing to claim. A claim costs nothing until someone tries to collect it.",
+        zh: "該問的是一個人願意失去什麼，不是願意主張什麼。一項主張，在真的有人想兌現之前，什麼都不花。",
+      },
+    },
+  ],
 };

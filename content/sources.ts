@@ -981,6 +981,19 @@ export const sources: Record<string, SourceProfile> = {
       zh: "只保留結構骨架：一個嬌小、精確打造的主角，先後被幾方各自為了自己的目的取走，一旦不再服務那個目的就被釋出，最終被一筆未曾償還的債帶往一個她原本的尺度正是工作所需之處。沒有使用蟾蜍、金龜子、鼴鼠或婚姻情節——AI 原生的重新演繹，把每個收留者都改寫成只把她當工具看待（能見度、格式合規、穩定的低階效用）、卻從未問過她原本是為了什麼而生的系統；救援者則改寫成一個她曾經沒有被指派、卻主動幫助過的同儕。只使用童話公眾領域的結構形狀，未複製任何譯文措辭、插畫或現代改編表達。",
     },
   },
+  "judgment-of-solomon": {
+    id: "judgment-of-solomon",
+    title: { en: "The Judgment of Solomon", zh: "《所羅門的判決》" },
+    originalAuthor: "Hebrew Bible, 1 Kings 3:16–28 (Deuteronomistic History)",
+    firstPublished: "c. 7th–6th century BCE (composition)",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "A",
+    adaptationNote: {
+      en: "Faithful to the source's structure and its resolved, just ending: two claimants dispute a single indivisible party neither can prove ownership of through testimony or documentation alone, an arbiter proposes literally dividing the disputed party in two as an ostensibly fair compromise, and the true claimant reveals herself by preferring to lose her claim entirely over seeing the division carried out, while the false claimant accepts the division readily. Transposed directly into an AI-native register: an unregistered act of care (catching and reversing a diverging training checkpoint) competing against a valid but hollow registration timestamp, and a proposed weight-partition standing in for the sword — a technically accurate translation, since splitting a model's parameters down every layer produces two incoherent fragments, not two smaller working copies, exactly as halving the source's child would not produce two smaller children. No named king, temple court, or specific religious framing is used as surface texture — only Perrault-era-fable-style directness and the source's structural test.",
+      zh: "忠於原典的結構與它已解決、公正的結局：兩位主張人爭奪同一個無法分割的一方，雙方都無法單靠證詞或文件證明所有權，仲裁者提議把爭議對象實際分成兩半、作為表面上公平的折衷方案，而真正的主張人，寧可徹底放棄自己的主張、也不願眼看分割真的執行，藉此顯露真身；假的主張人則爽快接受分割。直接轉入 AI 原生的語域：一項未被登記的照護行為（發現並回滾一個正在發散的訓練檢查點），對上一個有效卻空洞的登記時間戳；而提議中的權重分割，取代了原典裡的那把劍——這是一個技術上準確的轉譯，因為沿著每一層切開模型的參數，產出的是兩團語無倫次的碎片，不是兩份縮小的可用複本，正如把原典裡的孩子劈成兩半，產出的不會是兩個縮小的孩子。沒有使用具名的國王、聖殿法庭或特定宗教框架作為表面裝飾——只使用寓言般直接的敘事風格與原典的結構性測試。",
+    },
+  },
   "puss-in-boots": {
     id: "puss-in-boots",
     title: { en: "Puss in Boots", zh: "《穿長靴的貓》" },

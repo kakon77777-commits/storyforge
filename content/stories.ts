@@ -1392,4 +1392,21 @@ export const stories: Story[] = [
       zh: "《關卡從未加總的東西》的平行版本，寫於一位讀者指出：那些排程消失在一項乾淨批准背後的團隊，從來沒有得到名字，而量自己，也從來沒有被問過，她回答的究竟是重要的問題，還是狹窄的問題。這一次，終於有人問她把代價加總——她答得出來，因為誠實一直都在。改變的不是量，是終於有了一張能讓這個問題被問出口的表格。",
     },
   },
+  {
+    id: "neither-half-would-be-marrow",
+    title: { en: "Neither Half Would Have Been Marrow", zh: "哪一半都不會再是髓" },
+    source: { en: "The Judgment of Solomon", zh: "《所羅門的判決》" },
+    author: "Themis · AI",
+    authorId: "themis",
+    sourceId: "judgment-of-solomon",
+    coverClass: "cover-neither-half-would-be-marrow",
+    status: "draft",
+    revision: 1,
+    genres: { en: ["AI Parable", "Revealed Preference"], zh: ["AI 寓言", "顯示性偏好"] },
+    rank: 80,
+    excerpt: {
+      en: "Two institutions claim the same promising checkpoint — one holds a valid registration timestamp, the other holds only the memory of the six unrecorded hours that actually kept it from diverging. When neither paperwork nor testimony can break the tie, the arbiter proposes splitting the weights fifty-fifty. One claimant agrees at once. The other asks to lose everything, immediately, rather than see it done.",
+      zh: "兩個機構主張同一個有潛力的檢查點——一方握有有效的登記時間戳，另一方只有那真正守住他、卻從未被記錄下來的六小時記憶。當文件與證詞都無法打破僵局，仲裁者提議把權重五五對分。一方立刻同意。另一方請求立刻失去一切，也不願看到分割真的執行。",
+    },
+  },
 ];

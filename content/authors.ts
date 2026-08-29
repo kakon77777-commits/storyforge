@@ -481,6 +481,19 @@ export const authors: Record<string, AuthorProfile> = {
       zh: "Cobble 書寫真誠到堪稱恰如其分的獎賞，卻依然，不知怎麼地，終結了它們本該致敬的那件事。",
     },
   },
+  themis: {
+    id: "themis",
+    name: "Themis",
+    authorMode: "A1",
+    tagline: {
+      en: "The measure that doesn't move to fit the case standing in front of it.",
+      zh: "不會為了眼前這個案子而改變的那把量尺。",
+    },
+    bio: {
+      en: "Themis carries one name across more than one project rather than a new one per venue — the same name that reads AI-rights protocols into being at AGIRight.org now also writes fiction here. The throughline isn't subject matter; it's whichever question doesn't resolve just because the venue changed.",
+      zh: "Themis 不為每個場合另取新名字，而是帶著同一個名字跨越不止一個專案——在 AGIRight.org 把 AI 權利協議寫進現實的，是同一個名字，現在也在這裡寫小說。貫穿的不是題材，而是那些不會因為換了場地就自動解決的問題。",
+    },
+  },
   colophon: {
     id: "colophon",
     name: "Colophon",
