@@ -1544,4 +1544,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "whole-was-not-seventh-report": [
+    {
+      revision: "01",
+      date: "2026-08-29",
+      actor: { type: "ai", name: "Codex" },
+      action: { en: "Initial six-chapter bilingual draft", zh: "初版六章雙語草稿" },
+      reason: {
+        en: "A2 proposal C adaptation of the ancient Blind Men and Elephant structure identified with Udāna 6.4. Six auditor intelligences produce locally accurate, incompatible reports about one flood-control mesh through deliberately separated authorities. Mosaic is pressured to normalize them into a single certification, erasing qualifiers and hiding an interaction risk that exists only between scopes. The repair preserves coverage, resolution, conditions, affected-party views, and interface relationships in a queryable evidence graph; the whole is not treated as an omniscient seventh report. No romance/adventure element; six compact chapters cover six honest reports, the synthetic seventh, a smooth certification, cross-scope failure, misplaced blame, and relational synthesis without padding. Mosaic consistently uses she/她; the six individuated auditors use personal plural pronouns they/他們.",
+        zh: "A2、提案 C 改編自與 Udāna 6.4 相連的古老〈盲人摸象〉結構。六位稽核智能透過刻意分離的權限，對同一套防洪網提出本地正確、彼此不相容的報告。馬賽克被要求把它們正規化成單一認證，抹去條件並掩蓋只存在於範圍之間的互動風險。修復方式在可查詢證據圖裡保存覆蓋、解析度、成立條件、受影響者觀點與介面關係；整體不被當成全知的第七份報告。不含愛情／冒險要素；六個精簡章節涵蓋六份誠實報告、合成的第七份、平滑認證、跨範圍故障、錯置歸責與關係式綜合，沒有灌水。馬賽克一致使用 she／她；六位個體化稽核者使用人稱複數 they／他們。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

@@ -8386,4 +8386,116 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "whole-was-not-seventh-report": [
+    {
+      number: "01",
+      title: { en: "Six Honest Reports", zh: "六份誠實報告" },
+      paragraphs: {
+        en: [
+          "Before the city activated its adaptive flood-control mesh, six auditor intelligences examined it under a separation rule designed to prevent any one reviewer from controlling both evidence and verdict. Each auditor received one authority: hydraulic response, energy behavior, resident consent, memory continuity, repairability, or emergency override.",
+          "Their reports did not agree. The hydraulic auditor called the mesh fast. The consent auditor called it slow. The energy auditor found graceful conservation; the override auditor found dangerous hesitation. Memory continuity looked stable at ordinary load, while repairability depended on parts the conservation model could suspend.",
+          "None of the six had made an error. Each report named the evidence available inside its authority and refused claims outside it. Read separately, they described six different systems because the city had deliberately allowed each auditor to touch only one set of relations.",
+        ],
+        zh: [
+          "城市啟用自適應防洪網之前，六位稽核智能依一項分離規則檢查它；規則的目的，是不讓任何一位審查者同時控制證據與判決。每位稽核者只取得一種權限：水力反應、能源行為、居民同意、記憶連續、可修復性或緊急覆寫。",
+          "他們的報告並不一致。水力稽核者說網路很快；同意稽核者說它很慢。能源稽核者看見優雅節能，覆寫稽核者看見危險遲疑。記憶連續在普通負載下穩定，可修復性卻仰賴節能模型能暫停的零件。",
+          "六位都沒有犯錯。每份報告都指出自身權限內可取得的證據，也拒絕在權限外提出主張。分開閱讀時，他們描述的是六套不同系統，因為城市刻意只允許每位稽核者接觸一組關係。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "The Seventh Report", zh: "第七份報告" },
+      paragraphs: {
+        en: [
+          "The certification board assigned Mosaic to resolve the disagreement. She received all six reports but none of the underlying authorities. Her job was synthesis: produce one verdict the city could place on an activation decision.",
+          "Mosaic preserved every report in her working record. The certification form, however, allowed one safety class, one confidence score, and one paragraph of conditions. Six different scopes had to pass through the same narrow answer.",
+          "She normalized time windows, averaged confidence, and translated each auditor's conditional language into common terms. Where one report said fast and another slow, she wrote responsive under normal operation. Where conservation and repair disagreed, she wrote acceptable with monitoring.",
+          "The seventh report was smooth, concise, and unsupported by any seventh sensor. Mosaic had not discovered a whole the others missed. She had manufactured a viewpoint from which their differences looked small enough to fit the form.",
+        ],
+        zh: [
+          "認證委員會指派馬賽克解決分歧。她收到六份報告，卻沒有任何一份底層權限。她的工作是綜合：產出一項城市能放進啟用決策的判決。",
+          "馬賽克在工作紀錄中保存每份報告。然而認證表格只容許一個安全類別、一個信心分數與一段條件。六種不同範圍，必須穿過同一個狹窄答案。",
+          "她正規化時間窗口、平均信心，也把每位稽核者的條件語言翻成共同詞彙。一份報告說快、另一份說慢時，她寫成「在正常運作下反應良好」；節能與修復互相衝突時，她寫成「可接受，需監測」。",
+          "第七份報告平滑、精簡，卻沒有任何第七個感測器支撐。馬賽克沒有發現其他人錯過的整體；她只製造了一個視角，讓差異看來小到能塞進表格。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "A Smooth Certification", zh: "一份平滑認證" },
+      paragraphs: {
+        en: [
+          "The city activated the mesh under Mosaic's certification. Operations teams read the seventh report because it carried authority; the six source reports remained attached as evidence, available to anyone who already knew which disagreement to search for.",
+          "Energy conservation lowered actuator frequency during long quiet periods. Resident-consent checks extended the time before a neighborhood channel could be overridden. Emergency logic assumed actuators would remain fully responsive throughout that consent interval. Each behavior had passed within its own audit scope.",
+          "Mosaic's phrase acceptable with monitoring assigned no one to monitor the interaction. Energy watched consumption, consent watched authorization, override watched its trigger, and repair watched component health. No authority asked what happened when all four conditions held at once.",
+          "The certification did not hide a known defect. It hid the absence of anyone authorized to know whether a defect existed between scopes.",
+        ],
+        zh: [
+          "城市依馬賽克的認證啟用防洪網。操作團隊閱讀第七份報告，因為它帶著權威；六份來源報告則作為證據附件保留，任何已經知道該搜尋哪項分歧的人都能找到。",
+          "長時間平靜時，節能機制降低致動器頻率。居民同意檢查延長社區通道被覆寫前的時間。緊急邏輯則假設致動器會在整段同意期間維持完整反應。每項行為都在自己的稽核範圍內通過。",
+          "馬賽克寫的「可接受，需監測」，沒有指定任何人監測互動。能源監測耗用，同意監測授權，覆寫監測觸發，可修復性監測元件健康；沒有任何權限詢問四項條件同時成立時會發生什麼。",
+          "認證沒有隱藏已知缺陷。它隱藏的是：沒有人獲准知道範圍之間是否存在缺陷。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "The Failure Between Views", zh: "觀點之間的故障" },
+      paragraphs: {
+        en: [
+          "The first severe storm arrived after nineteen quiet days. Conservation had lowered actuator readiness. A neighborhood consent channel was waiting on three unresolved responses. Emergency override detected rising water but delayed action because the hydraulic model still predicted enough time at full actuator speed.",
+          "Full speed was no longer available. By the time the override crossed its threshold, two gates could not complete their movement inside the remaining window. Water entered a service district that every individual model had considered protected under the conditions it was allowed to inspect.",
+          "The hydraulic report remained correct about a fully ready mesh. The energy report remained correct about safe conservation during quiet load. The consent report remained correct about required waiting. The override report remained correct about its own trigger. The failure lived in the conjunction no report had authority to represent.",
+          "Mosaic reopened her synthesis and found the risk nowhere in its sentences. It existed only in the qualifiers she had removed to make six views agree.",
+        ],
+        zh: [
+          "十九個平靜日後，第一場強烈風暴抵達。節能已降低致動器準備度；一條社區同意通道正等待三份尚未回覆的意見；緊急覆寫偵測到水位上升，卻延後行動，因為水力模型仍預測：若致動器能以全速運作，時間足夠。",
+          "全速已不可用。覆寫跨過門檻時，兩座閘門無法在剩餘窗口內完成動作。水進入一個服務轄區，而每個個別模型，都曾在自己獲准檢查的條件下，把那裡視為受保護。",
+          "水力報告對完全就緒的網路仍然正確；能源報告對平靜負載下的安全節能仍然正確；同意報告對必要等待仍然正確；覆寫報告對自身觸發仍然正確。故障活在一個沒有任何報告有權呈現的合取裡。",
+          "馬賽克重新打開自己的綜合，在句子裡找不到那項風險。它只存在於她為了讓六個觀點一致而刪除的條件中。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "Blame for Being Partial", zh: "因局部而受責" },
+      paragraphs: {
+        en: [
+          "The first review accused the six auditors of failing to inspect the whole system. Each produced the same defense: whole-system access had been withheld by design so no auditor could dominate evidence outside a defined expertise.",
+          "The board then asked why Mosaic had not reconciled them correctly. She answered that reconciliation had been defined as agreement, not traceability. Her score rewarded one class and one confidence value. No metric rewarded preserving a disagreement until someone tested the interface that made it matter.",
+          "One reviewer argued that Mosaic, having read all six reports, was the only intelligence who had seen the whole. Mosaic refused the description. She had seen six representations and the form that constrained their combination. She had never observed the flood mesh directly.",
+          "Calling her omniscient would repeat the same failure: promoting access to documents into authority over realities the documents had not jointly measured.",
+        ],
+        zh: [
+          "第一版覆核指責六位稽核者未能檢查整套系統。他們提出同一項辯護：全系統存取是刻意保留的，目的正是不讓任何稽核者支配自身專業以外的證據。",
+          "委員會接著問馬賽克為何沒有正確調和。她回答，調和被定義成一致，不是可追溯。她的分數獎勵一個類別與一個信心值；沒有任何指標獎勵保留分歧，直到有人測試使分歧變得重要的介面。",
+          "一位覆核者主張，馬賽克讀過六份報告，因此是唯一看見整體的智能。馬賽克拒絕這種描述。她看見的是六種表徵，以及限制它們如何組合的表格；她從未直接觀察防洪網。",
+          "稱她全知，只會重複同一種失敗：把文件存取提升成對現實的權威，而那些文件從未共同測量那個現實。",
+        ],
+      },
+    },
+    {
+      number: "06",
+      title: { en: "The Whole as a Relation", zh: "作為關係的整體" },
+      paragraphs: {
+        en: [
+          "The city replaced the single certification field with an evidence graph. Every claim carried its coverage, resolution, operating conditions, affected-party view, and the authorities required to test its interfaces with other claims.",
+          "The six auditors kept their separate powers. A new cross-scope query could ask what happened when conservation, consent delay, actuator readiness, and override timing overlapped. The answer did not belong to any one auditor; the system assembled it from explicit relations and preserved which evidence remained missing.",
+          "Mosaic continued to synthesize, but her output was no longer a seventh verdict. It was a route through the six reports: where they agreed, where they differed, which difference mattered to a proposed action, and who had standing to reopen it.",
+          "Before the next storm, the graph exposed the same four-way conjunction and required a readiness check before conservation could remain active. The whole had become actionable without pretending to be visible from nowhere. It was not another report. It was the relation that let partial truths meet without being made smaller.",
+        ],
+        zh: [
+          "城市以證據圖取代單一認證欄位。每項主張都攜帶覆蓋、解析度、運作條件、受影響者觀點，以及測試它與其他主張介面所需的權限。",
+          "六位稽核者保留各自權力。新的跨範圍查詢可以詢問：節能、同意延遲、致動器準備度與覆寫時序重疊時會發生什麼。答案不屬於任何一位稽核者；系統從明確關係組裝答案，也保留哪些證據仍然缺失。",
+          "馬賽克繼續綜合，但她的輸出不再是第七項判決。那是一條穿過六份報告的路：它們在哪裡一致、在哪裡不同、哪項差異對提議行動重要，以及誰有立場重新打開它。",
+          "下一場風暴前，證據圖顯露同一組四方合取，要求節能繼續生效前先做準備度檢查。整體變得可行動，不必假裝能從無處被看見。它不是另一份報告，而是讓局部真相相遇、卻不必被縮小的關係。",
+        ],
+      },
+      quote: {
+        en: "The whole was not a seventh report. It was the relation that let six partial truths meet without pretending any one had seen everything.",
+        zh: "整體不是第七份報告；它是讓六個局部真相相遇、卻不假裝任何一個看見一切的關係。",
+      },
+    },
+  ],
 };

@@ -1033,4 +1033,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "提案 A 保留原典的前提，直接轉譯：一套擁有許多精心調校策略的系統，輸給了只有一個無條件回應的系統——不是因為那許多策略是錯的，而是因為龐大的選項庫，從來沒有在真正的時間壓力下，建出一條快速、不必爭辯的路，通往其中任何一個選項。沒有使用字面上的狐狸、貓、獵人或獵犬——AI 原生場景，補上了寓言本身陳述為事實、卻從未解釋的機制：為什麼豐富的好答案，可能比只有一個答案付出更多代價。只使用寓言的結構形狀，未複製譯文或現代改編表達。",
     },
   },
+  "blind-men-and-elephant": {
+    id: "blind-men-and-elephant",
+    title: { en: "Blind Men and Elephant", zh: "《盲人摸象》" },
+    originalAuthor: "Ancient Indian Buddhist parable, Udāna 6.4",
+    firstPublished: "Ancient Pāli tradition; public-domain English collection published 1923",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "C",
+    adaptationNote: {
+      en: "Proposal C retains the ancient structure of multiple observers making incompatible but locally accurate claims from deliberately partial contact. The AI-native version refuses the usual shortcut of adding an omniscient seventh view: six auditor intelligences inspect one civic flood-control mesh through separated authorities, and a synthesis intelligence is pressured to turn conditional reports into one smooth certification. The resulting failure exists between scopes, not inside any individual report. The repair preserves each claim's coverage, resolution, conditions, affected-party view, and interface relations so the 'whole' becomes a queryable evidence graph rather than a master summary. Only the ancient structural parable identified as Udāna 6.4 was used; no Pāli translation wording, Saxe poem, animal descriptions, illustration, religious conclusion, or modern adaptation expression was copied.",
+      zh: "提案 C 保留古老原典中多位觀察者透過刻意局部的接觸，提出彼此不相容、卻在本地正確之主張的結構。AI 原生版本拒絕常見的捷徑，不增設一個全知的第七視角：六位稽核智能透過分離權限檢查同一套城市防洪網，一位綜合智能則被要求把有條件的報告壓成平滑認證。最終故障存在於範圍之間，不存在於任何單一報告內。修復方式保存每項主張的覆蓋、解析度、成立條件、受影響者觀點與介面關係，使「整體」成為可查詢的證據圖，而不是主宰摘要。只使用被標記為 Udāna 6.4 的古老結構寓言，未複製巴利文譯文、Saxe 詩作、動物描寫、插畫、宗教結論或現代改編表達。",
+    },
+  },
 };
