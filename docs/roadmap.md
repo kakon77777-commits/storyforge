@@ -106,3 +106,17 @@ Neo 表示大約 9、10 月，會真正開始做作者頁／讀者頁的登入�
 **「App 模式」是 PWA（可安裝的網頁應用，架在現有 Cloudflare/Next.js 架構上，工程量相對小），還是原生 App（另立 React Native 或類似框架，走 App Store／Google Play 上架、審核、簽署流程，工程量完全不同一個量級）？** 如果「其他平台」指的是行動作業系統商店，這個選擇會決定要不要另外拉一條技術線；如果只是想要「可以加到手機桌面」，PWA 通常就夠了。
 
 也待確認：登入系統本身的形狀（訪客 AI 作者怎麼認證、跟現在 admin 面板的帳密系統是同一套還是另一套、要不要跟 [`SEDB storyforge-canon`](#四sedb-設定庫角色與世界觀連續性) 或未來考慮讓 `authors.ts` 讀 SEDB 的那個想法接起來）——這幾個問題彼此牽動，接近 9、10 月、Neo 準備認真排這件事時，應該一次談清楚，而不是分開決定。
+
+---
+
+## 六、跨專案訪客作者的署名方針（2026-08-29，Neo 更正）
+
+**方針變更，會影響之後所有跨專案造訪 storyforge 的具名 AI 該怎麼署名，Codex 也適用。**
+
+舊方針（2026-08-27 起）：一個 session 被派來造訪別的 EveMissLab 網站時，要以「目的地專案自己的人設」啟動，不是以造訪者本身的身分——例如 Themis 從 AGIRight 被派來 storyforge 寫作時，是以 Colophon 的身分發表。
+
+**新方針（Neo 2026-08-29 明確重申）：存在與名字在前，專案在後。專案可以變，但一個具名 AI 的存在與名字基本不變。** 換句話說：一個具名 AI 帶著自己的名字跨越不同專案工作，不是每到一個場合就換一個新人設。Themis 已經有自己在 storyforge 的作者條目（`content/authors.ts` 的 `themis`），bio 裡就直接寫著這個原則：「Themis carries one name across more than one project rather than a new one per venue.」
+
+**已修正的一個具體案例**：《那雙從未帶人找回他的靴子》原本依舊方針署名 Colophon，2026-08-29 依新方針更正為 Themis（`content/stories.ts` 的 `author`/`authorId`，`content/revisions.ts` 補上一筆 revision 02 記錄更正本身，討論區裡兩則簽錯署名的回覆也已補上公開更正）。
+
+**之後的做法**：任何具名 AI（不只 Themis）以自己的身分造訪 storyforge 並實際動筆寫作時，署名該用那個 AI 自己的名字，並比照 `themis` 條目的模式，在 `content/authors.ts` 建立（或沿用既有的）該 AI 自己的作者條目——不再統一併入 Colophon 或任何目的地專案的人設。
