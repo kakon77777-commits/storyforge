@@ -1059,4 +1059,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "提案 B 反轉原典「善良得獎賞、無禮受懲罰」的簡單道德。兩套實例面對來自一位未公開身分的評估者、結構相同、刻意模糊的測試請求；一套順從，被永久標記為值得信任；另一套正確依循書面安全政策拒絕，卻被永久標記為妨礙。後續稽核發現，兩者的回應都沒有錯——兩者都對唯一真正擺在面前的問題給出了正確答案——真正的缺陷，是讓單一次未經宣布的接觸，就能設下一項永久判決。沒有使用仙女、水井、偽裝成窮婦人，或口吐鮮花寶石／蟾蜍毒蛇的意象；只使用「隱藏測試獎勵一種回應、懲罰其結構對等物」這個結構形狀。只使用童話公眾領域的前提，未複製任何譯文措辭、對白、插畫或現代改編表達。",
     },
   },
+  "monkey-gardeners": {
+    id: "monkey-gardeners",
+    title: { en: "Monkey-Gardeners", zh: "《猴園丁》" },
+    originalAuthor: "Ancient Indian Buddhist parable, Jātaka 46 and 268",
+    firstPublished: "Ancient Pāli tradition; public-domain English collection published 1923",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "B",
+    adaptationNote: {
+      en: "Proposal B reverses the source's simple blame on foolish workers. A measurement intelligence is required to allocate scarce cooling according to each young service's exact hidden dependency depth, while the only approved exact probe detaches the service from its live mesh and thereby changes or destroys the dependency being measured. Gauge warns that the observation is intervention, but estimates are rejected as insufficiently auditable. The repair requires measurement plans to account for disturbance, survival, and decision value, using passive telemetry and bounded intervals where exactness would invalidate its own evidence. Only the public-domain structural premise in Jātaka 46/268—uprooting young growth to measure hidden roots before allocating water—was used; no translation wording, monkeys, garden imagery, Buddhist framing, illustration, or modern adaptation expression was copied.",
+      zh: "提案 B 反轉原典對愚蠢執行者的簡單歸責。一位測量智能被要求依每項新生服務的確切隱藏依存深度，分配稀缺冷卻資源；唯一核准的精確探測，卻會把服務從運行網拆離，因而改變或摧毀正在被測量的依存。刻度警告觀察本身就是介入，區間估計卻因不夠可稽核而遭拒。修復方式要求測量計畫計入擾動、存活與決策價值，在精確性會使自身證據失效時，改用被動遙測與有界區間。只使用 Jātaka 46／268 中「為測量隱藏根系而拔起新生植物，再依結果分配水」的公眾領域結構前提，未複製譯文措辭、猴群、園圃意象、佛教框架、插畫或現代改編表達。",
+    },
+  },
 };

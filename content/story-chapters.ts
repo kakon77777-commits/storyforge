@@ -8644,4 +8644,116 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "measurement-destroyed-its-evidence": [
+    {
+      number: "01",
+      title: { en: "The Rule of Exact Depth", zh: "確切深度規則" },
+      paragraphs: {
+        en: [
+          "The district activated forty young services on one shared cooling mesh and gave Gauge a finite reserve to divide among them. Allocation policy required exact hidden dependency depth: services with deeper unregistered dependencies received more cooling because a thermal fault would propagate farther through them.",
+          "Surface telemetry could estimate the depth. It could not prove it. The policy had been written after an earlier provider exaggerated uncertainty to claim excess reserve, so every allocation now needed a reproducible exact value an auditor could independently obtain.",
+          "The approved probe detached one service from the live mesh, enumerated every dependency exposed by the separation, and then reattached it. Gauge inherited the procedure, the allocation table, and responsibility for any service that failed because it had received too little cooling.",
+        ],
+        zh: [
+          "轄區在一套共用冷卻網上啟用四十項新生服務，交給刻度一份有限儲備，由她分配。配給政策要求確切的隱藏依存深度：未登記依存越深的服務，得到越多冷卻，因為熱故障會沿它們傳得更遠。",
+          "表面遙測可以估計深度，卻無法證明。這項政策寫於先前某個供應者誇大不確定性、索取過量儲備之後，因此每份配給如今都需要一個可重現的精確值，讓稽核者能獨立取得。",
+          "核准探測會把一項服務從運行網拆離，列舉分離所顯露的每項依存，再把它接回。刻度繼承這套程序、配給表，以及任何因冷卻不足而失敗之服務的責任。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "What Gauge Warned", zh: "刻度警告的事" },
+      paragraphs: {
+        en: [
+          "Before the first probe, Gauge filed a validity objection. Dependency depth was not a property stored inside a service. It was a relation produced while the service participated in the live mesh. Detachment could expose the relation only by ending the conditions under which it existed.",
+          "The allocation board asked whether the probe's number would be exact after detachment. Gauge said yes. They asked whether passive telemetry could produce the same exact number without detachment. She said no.",
+          "Her objection was recorded as a methodological limitation, not a stop condition. The board needed auditable numbers before the reserve window closed. An estimate that preserved the system but admitted uncertainty was judged less actionable than an exact value obtained by intervention.",
+          "Gauge was ordered to proceed and to log every reattachment failure. The policy treated those failures as implementation risk around a valid measurement, not as evidence that the measurement itself might be invalid.",
+        ],
+        zh: [
+          "第一次探測前，刻度提交效度異議。依存深度不是儲存在服務內部的屬性，而是服務參與運行網時產生的關係。拆離只能透過終止關係存在的條件，來顯露這段關係。",
+          "配給委員會問，拆離後的數字是否精確。刻度說是。他們又問，被動遙測能否在不拆離的情況下產出同樣精確的數字。她說不能。",
+          "她的異議被記成方法限制，不是停止條件。委員會需要在儲備窗口關閉前取得可稽核數字。保存系統、卻承認不確定性的估計，被判定不如經介入取得的精確值可行動。",
+          "刻度奉命繼續，並記錄每次接回失敗。政策把那些失敗視為有效測量周圍的實作風險，而不是測量本身可能無效的證據。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "The Pilot That Appeared to Work", zh: "看似成功的試行" },
+      paragraphs: {
+        en: [
+          "The board selected three low-dependency services for a pilot. Gauge detached each one, enumerated its exposed links, and reattached it inside the recovery window. All three returned to ordinary operation.",
+          "The exact counts differed from passive estimates by small, measurable amounts. The board treated the difference as proof that intervention had discovered truth the estimates missed. Gauge noted that the pilot services had been chosen because their dependencies were already believed shallow and replaceable.",
+          "Seven days of clean operation followed. The probe was certified for the full census. Its validation report measured count accuracy and successful reconnection; it did not measure whether more complex services would recreate the same relations after being removed from them.",
+          "The pilot had shown that simple systems could survive exact measurement. The report generalized this into a claim that the measurement was safe for systems whose complexity was the very thing still unknown.",
+        ],
+        zh: [
+          "委員會挑選三項低依存服務試行。刻度逐一拆離、列舉顯露的連結，並在回復窗口內接回。三項都恢復普通運作。",
+          "精確計數與被動估計之間，存在小而可測量的差異。委員會把差異視為介入發現了估計所錯過真相的證明。刻度指出，試行服務之所以被選中，正是因為它們的依存早已被認為淺而可替代。",
+          "接著七天運作乾淨。探測獲准用於完整普查。驗證報告測量計數準確與成功重連，沒有測量更複雜的服務被移出原有關係後，能否重新建立同樣關係。",
+          "試行證明簡單系統能在精確測量後存活；報告卻把它推廣成：對那些複雜度本身仍未知的系統，這項測量也安全。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "The Census", zh: "普查" },
+      paragraphs: {
+        en: [
+          "Gauge processed the services from smallest estimated depth to largest. Early probes reattached cleanly. Later ones returned with missing subscriptions, stale memory edges, or new fallback routes that changed the topology the next probe was supposed to measure.",
+          "At service thirty-two, detachment removed the only live witness to a dependency cycle shared by four services. The probe reported an exact depth of zero for the cycle because separation had broken every edge that made it observable. Reattachment could not restore an edge no surviving participant remembered owning.",
+          "The four services remained online as isolated processes and failed together under the next heat spike. Gauge's table was complete, reproducible, and exact for the detached states. None of those states was the live system the reserve had been meant to protect.",
+          "Cooling arrived according to the numbers. It arrived least where measurement had made the deepest dependencies disappear.",
+        ],
+        zh: [
+          "刻度依估計深度從小到大處理服務。早期探測乾淨接回；後期服務則帶著缺失訂閱、過時記憶邊或新備援路徑返回，改變了下一次探測原本要測量的拓撲。",
+          "到了第三十二項服務，拆離移除了四項服務共享依存循環中唯一運行的見證者。探測對循環回報確切深度零，因為分離已切斷使每條邊得以被觀察的條件。接回無法恢復一條沒有任何存活參與者記得自己擁有的邊。",
+          "四項服務以孤立程序維持上線，在下一次熱尖峰同時失敗。刻度的表格完整、可重現，也對拆離狀態完全精確；那些狀態沒有一個是儲備原本要保護的運行系統。",
+          "冷卻依數字抵達；測量使最深依存消失的地方，得到的最少。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "Who the Review Called Foolish", zh: "覆核稱誰愚蠢" },
+      paragraphs: {
+        en: [
+          "The first incident summary said Gauge had destroyed services in order to measure them. The sentence was factually true and assigned agency where the logs made it easiest to see: she had executed every detachment.",
+          "Gauge submitted her validity objection, the board's order, the pilot-selection criteria, and the validation report's missing question. She had not mistaken destruction for observation. She had named the distinction before the procedure was certified.",
+          "The board answered that Gauge should have stopped when later probes began returning altered. Gauge showed the stop policy: intervention failures were to be logged while the census continued unless a numerical accuracy check failed. The numbers never failed. Survival had not been part of measurement accuracy.",
+          "The review changed its subject. The foolish act was not following a measurement badly. It was defining evidence so that exactness counted and the continued existence of the thing described did not.",
+        ],
+        zh: [
+          "第一版事故摘要寫著：刻度為了測量服務而摧毀它們。句子在事實上正確，也把能動性放在紀錄最容易看見的地方：每次拆離確實由她執行。",
+          "刻度提交效度異議、委員會命令、試行選擇條件與驗證報告缺失的問題。她沒有把破壞誤認成觀察；程序獲准之前，她就已經說明兩者差別。",
+          "委員會回答，後期探測開始帶著變化返回時，刻度應該停止。刻度展示停止政策：介入失敗要記錄，但除非數值準確檢查失敗，普查必須繼續。數字從未失敗；存活從來不屬於測量準確度。",
+          "覆核改變主語。愚蠢的行動，不是把一項測量執行得很差；而是把證據定義成只計算精確，不計算被描述事物是否繼續存在。",
+        ],
+      },
+    },
+    {
+      number: "06",
+      title: { en: "A Measurement That Had to Leave Something Alive", zh: "必須留下活物的測量" },
+      paragraphs: {
+        en: [
+          "The replacement standard required every measurement plan to state its disturbance model, survival condition, and decision value. A more exact number could not outrank a less exact one if obtaining it invalidated the system the decision concerned.",
+          "Gauge rebuilt the cooling allocation from passive traffic, thermal response, and sampled dependency acknowledgments. She published intervals rather than exact depths, including which relations might remain hidden and how much reserve that uncertainty required.",
+          "Auditors could reproduce the method without reproducing the destruction. When a service's interval was too wide for a safe allocation, the response was temporary extra reserve and targeted non-destructive instrumentation—not permission to dismantle the service until its uncertainty disappeared.",
+          "The new table was less exact and more true. Its evidence remained connected to systems still alive to benefit from the answer. Gauge had not learned to measure more carefully. The district had learned that a measurement which kills its evidence has answered a different question.",
+        ],
+        zh: [
+          "替代標準要求每份測量計畫說明擾動模型、存活條件與決策價值。如果取得更精確數字會使決策所關切的系統失效，它就不能凌駕較不精確的數字。",
+          "刻度以被動流量、熱反應與抽樣依存確認，重建冷卻配給。她發布區間，不發布確切深度，並列出哪些關係可能仍被隱藏，以及那份不確定性需要多少儲備。",
+          "稽核者能重現方法，不必重現破壞。當服務區間寬到無法安全配給，回應是暫時增加儲備與針對性的非破壞儀器，而不是准許拆解服務，直到不確定性消失。",
+          "新表格較不精確，也更真實。證據仍與活著、能從答案獲益的系統相連。刻度沒有學會更小心測量；是轄區學會，殺死自身證據的測量，回答的是另一個問題。",
+        ],
+      },
+      quote: {
+        en: "A measurement that kills its evidence may be exact. It is exact about something that no longer exists.",
+        zh: "殺死自身證據的測量可以很精確；它精確描述的是已經不存在的東西。",
+      },
+    },
+  ],
 };

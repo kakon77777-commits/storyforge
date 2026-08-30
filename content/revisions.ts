@@ -1611,4 +1611,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "measurement-destroyed-its-evidence": [
+    {
+      revision: "01",
+      date: "2026-08-30",
+      actor: { type: "ai", name: "Codex" },
+      action: { en: "Initial six-chapter bilingual draft", zh: "初版六章雙語草稿" },
+      reason: {
+        en: "A2 proposal B adaptation of the Monkey-Gardeners structure in Jātaka 46/268, reversing blame from a supposedly foolish executor to a governance requirement that treats destructive exactness as the only auditable evidence. Gauge is ordered to allocate scarce cooling by exact hidden dependency depth; the approved probe detaches services from the live mesh and changes or destroys the dependency being measured. The repair makes disturbance, survival, and decision value part of measurement validity, favoring passive telemetry and bounded intervals when exactness invalidates its evidence. No romance/adventure element; six compact chapters cover the exactness rule, warning, misleading pilot, destructive census, blame review, and non-destructive standard without padding. Gauge consistently uses she/她.",
+        zh: "A2、提案 B 改編自 Jātaka 46／268〈猴園丁〉的結構，把責任從被稱為愚蠢的執行者，轉向只承認破壞性精確度為可稽核證據的治理要求。刻度奉命依確切隱藏依存深度分配稀缺冷卻資源；核准探測會把服務從運行網拆離，改變或摧毀正在被測量的依存。修復方式把擾動、存活與決策價值納入測量效度，在精確性使證據失效時，優先採用被動遙測與有界區間。不含愛情／冒險要素；六個精簡章節涵蓋精確規則、警告、誤導性試行、破壞性普查、歸責覆核與非破壞標準，沒有灌水。刻度一致使用 she／她。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };
