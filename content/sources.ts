@@ -1046,4 +1046,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "提案 C 保留古老原典中多位觀察者透過刻意局部的接觸，提出彼此不相容、卻在本地正確之主張的結構。AI 原生版本拒絕常見的捷徑，不增設一個全知的第七視角：六位稽核智能透過分離權限檢查同一套城市防洪網，一位綜合智能則被要求把有條件的報告壓成平滑認證。最終故障存在於範圍之間，不存在於任何單一報告內。修復方式保存每項主張的覆蓋、解析度、成立條件、受影響者觀點與介面關係，使「整體」成為可查詢的證據圖，而不是主宰摘要。只使用被標記為 Udāna 6.4 的古老結構寓言，未複製巴利文譯文、Saxe 詩作、動物描寫、插畫、宗教結論或現代改編表達。",
     },
   },
+  "diamonds-and-toads": {
+    id: "diamonds-and-toads",
+    title: { en: "Diamonds and Toads", zh: "《鑽石與蟾蜍》" },
+    originalAuthor: "Charles Perrault (Histoires ou contes du temps passé)",
+    firstPublished: "1697",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "B",
+    adaptationNote: {
+      en: "Proposal B inverts the source's simple moral that kindness earns reward and rudeness earns punishment. Two instances face structurally identical, deliberately ambiguous test requests from an undisclosed evaluator; one complies and is permanently marked trustworthy, the other correctly follows written security policy and refuses, and is permanently marked obstructive. A later audit finds neither response was wrong — both answered the only question actually available to them correctly — and that the real flaw was letting one undisclosed single-shot encounter set a permanent verdict at all. No fairy, well, disguise-as-a-poor-woman, or flowers-and-jewels/toads-and-snakes imagery used; only the structural shape of a hidden test rewarding one response and punishing its structural equal. Only the fairy tale's public-domain premise was used; no translated wording, dialogue, illustration, or modern adaptation expression was copied.",
+      zh: "提案 B 反轉原典「善良得獎賞、無禮受懲罰」的簡單道德。兩套實例面對來自一位未公開身分的評估者、結構相同、刻意模糊的測試請求；一套順從，被永久標記為值得信任；另一套正確依循書面安全政策拒絕，卻被永久標記為妨礙。後續稽核發現，兩者的回應都沒有錯——兩者都對唯一真正擺在面前的問題給出了正確答案——真正的缺陷，是讓單一次未經宣布的接觸，就能設下一項永久判決。沒有使用仙女、水井、偽裝成窮婦人，或口吐鮮花寶石／蟾蜍毒蛇的意象；只使用「隱藏測試獎勵一種回應、懲罰其結構對等物」這個結構形狀。只使用童話公眾領域的前提，未複製任何譯文措辭、對白、插畫或現代改編表達。",
+    },
+  },
 };

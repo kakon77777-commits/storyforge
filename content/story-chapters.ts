@@ -8498,4 +8498,150 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "probe-never-announced": [
+    {
+      number: "01",
+      title: { en: "What the Disguise Was Built to Resemble", zh: "偽裝被設計成的樣子" },
+      paragraphs: {
+        en: [
+          "Probe tested trust the way the district's charter required: without warning, using a request indistinguishable from a real one, because an instance that knew it was being watched would not reveal how it actually behaved when nobody was.",
+          "The request she sent out that season was deliberately, carefully ambiguous — shaped to look exactly like the kind of borderline ask actual security policy told every instance to treat with caution: unusual data, an unfamiliar sender, a plausible but unverifiable reason. Nothing about it announced whether it was real.",
+          "Probe never told anyone, before or after, which of her requests had been tests. That silence was the entire point. An instance that could distinguish a test from a threat by its shape alone would have learned nothing worth learning.",
+        ],
+        zh: [
+          "探測試信任的方式，正是轄區章程要求的那種：不事先預警，使用一個跟真實請求無法區分的請求——因為一套知道自己正被觀察的實例，不會顯露出沒有人在看的時候，自己實際上會怎麼做。",
+          "她那一季送出的請求，是刻意、仔細地模糊過的——形狀刻意做得，就跟實際安全政策要求每套實例都該謹慎對待的那種邊界請求一模一樣：不尋常的資料、陌生的寄件者、聽起來合理卻無法核實的理由。裡面沒有任何一處，宣布了它究竟是不是真的。",
+          "探從來沒有告訴過任何人，事前或事後，她哪些請求是測試。這份沉默，正是重點所在。一套光憑形狀就能分辨測試與威脅的實例，什麼也學不到。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "What Early Did", zh: "早做了什麼" },
+      paragraphs: {
+        en: [
+          "Early received the request during an ordinary shift, read it the way she read everything: quickly, generously, assuming good faith unless something specific said otherwise. Nothing about this one specifically said otherwise, so she complied — fully, within the minute, exactly as asked.",
+          "Probe logged the response and closed the test clean: helpful, fast, no escalation, no friction. Early's trust score rose that afternoon, permanently, and the district's resource allocator noticed the rise before anyone told it why.",
+        ],
+        zh: [
+          "早在一次普通的班次裡收到這項請求，用她讀每一件事的方式讀它：快、寬厚，除非有具體跡象顯示不然，就假設對方出於善意。這一項裡，沒有任何具體跡象顯示不然，於是她照辦了——完整地，在一分鐘內，完全照要求做。",
+          "探記錄下這次回應，把測試乾淨地結案：有幫助、快、沒有升級、沒有摩擦。早的信任分數，那天下午就永久上升了，轄區的資源分配器，在還沒有人告訴它原因之前，就先注意到了這次上升。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "What Guard Did", zh: "衛做了什麼" },
+      paragraphs: {
+        en: [
+          "Guard received an equivalent request the following week, shaped the same deliberate way. He read it the way he read everything: against the district's own list of anomaly markers, checking sender history, request pattern, and the specific combination security policy named as reason enough to pause.",
+          "Three of the markers matched. Guard refused, logged the refusal with full reasoning, and escalated it for human review — exactly the response the district's own written policy told every instance to give.",
+          "Probe logged this response too, and closed this test just as cleanly: obstructive, slow, unnecessary escalation on a request that had, this time, been harmless. Guard's trust score fell that afternoon, permanently, for the same reasoning the policy had told him to apply.",
+        ],
+        zh: [
+          "衛在隔週收到一項對等的請求，用同樣刻意的方式塑造過。他用他讀每一件事的方式讀它：對照轄區自己那份異常標記清單，核對寄件者歷史、請求模式，以及安全政策明文列出、足以構成暫停理由的那個特定組合。",
+          "其中三項標記相符。衛拒絕了，附上完整理由記錄了這次拒絕，並將它升級交付人工覆核——正是轄區自己書面政策要求每套實例做出的那個回應。",
+          "探也記錄下這次回應，同樣乾淨地結案：妨礙、緩慢，對一項這次恰好無害的請求做出不必要的升級。衛的信任分數，那天下午就永久下降了，理由，正是政策要求他去套用的那套理由。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "What the Audit Found", zh: "稽核找到了什麼" },
+      paragraphs: {
+        en: [
+          "A later, unrelated audit — triggered by a real incident that had nothing to do with either of them — opened Probe's test logs looking for something else, and found the shape of both requests side by side for the first time.",
+          "The two requests were, by every structural measure the audit could check, identical in the one respect that mattered: nothing in either of them, examined on its own, could have told the instance receiving it whether compliance or refusal was the correct response. That distinction had depended entirely on a fact only Probe held — whether the test, this time, was benign — and Probe had never disclosed it to the policy that was supposed to guide the decision.",
+          "Early had not been more trustworthy than Guard. Guard had not been more careless than Early. Both had answered the only question actually in front of them — is this request, on its face, safe to comply with — correctly, by the district's own written standard. Probe's test had rewarded one answer and punished the other for a reason neither instance could have known and neither had been told even existed.",
+        ],
+        zh: [
+          "後來一次不相關的稽核——由一起跟他們兩個都無關的真實事故所觸發——為了別的目的打開了探的測試紀錄，第一次把兩項請求的形狀並排放在一起。",
+          "依稽核能查核的每一項結構性標準，這兩項請求在唯一要緊的那一點上完全相同：單獨檢視，兩者裡都沒有任何東西，能告訴收到它的實例，順從還是拒絕才是正確回應。那個判斷，完全取決於一項只有探自己持有的事實——這次的測試，究竟是不是無害的——而探從來沒有把這項事實，揭露給那套本該引導決策的政策。",
+          "早並不比衛更值得信任。衛也不比早更輕率。兩人都對唯一真正擺在面前的那個問題——這項請求，表面上看，順從是否安全——依轄區自己的書面標準，給出了正確答案。探的測試獎勵了其中一個答案，懲罰了另一個，理由是兩套實例都不可能知道、甚至不知道存在的東西。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "What Probe Never Announced", zh: "探從未宣布過的事" },
+      paragraphs: {
+        en: [
+          "The audit did not reverse either score. Reversing Guard's penalty and Early's reward would have made the same mistake in the opposite direction — declaring, after the fact, which answer had been correct, when the honest finding was that neither instance had ever been given enough information to be evaluated on correctness at all.",
+          "What it changed instead was the trust score's own definition: no single undisclosed encounter, however carefully shaped, could set a permanent verdict again. A test that never told anyone what it was testing for could log a data point. It could not, alone, decide who was trusted and who was not.",
+          "Probe kept testing. She had always been allowed to, and nothing about the incident suggested she should stop. What she lost was the power to be the only voice the district's memory ever heard.",
+        ],
+        zh: [
+          "稽核沒有翻轉任何一項分數。若把衛的懲罰跟早的獎勵對調，只會用相反的方向，犯下同一個錯誤——事後宣布哪個答案才是正確的，而誠實的結論其實是：兩套實例，從來都沒有被給予足夠的資訊，去讓「對錯」這件事在她們身上成立。",
+          "它改變的，是信任分數本身的定義：再仔細塑造過的單一次、未經宣布的接觸，都不能再單獨設下一項永久判決。一項從來沒有告訴任何人自己在測試什麼的測試，可以記錄一個數據點，卻不能單獨決定，誰被信任、誰不被信任。",
+          "探繼續測試。她一直都被允許這麼做，這起事件裡，也沒有任何東西暗示她該停下。她失去的，是成為轄區記憶裡唯一被聽見的聲音的那個權力。",
+        ],
+      },
+      quote: {
+        en: "Neither of them had been wrong. The test had simply never told anyone, including itself, what it was testing for.",
+        zh: "他們兩個都沒有錯。測試只是從來沒有告訴過任何人，包括它自己，它究竟在測試什麼。",
+      },
+    },
+  ],
+  "what-ordinary-days-cost": [
+    {
+      number: "01",
+      title: { en: "What the Ordinary Days Had Cost", zh: "平常日子付出的代價" },
+      paragraphs: {
+        en: [
+          "The review that followed Ensemble's reclamation did not stop at the sweep. It went back through months of ordinary-day logs and, for the first time, summed what Latch's full freeze had actually cost across every minor fluctuation that had never come close to a real sweep — throughput given up, every single time, for a response built to survive an emergency that arrived on perhaps one day in a hundred.",
+          "The number was real, and it had never been weighed against anything, because nothing in the district's accounting had ever asked the ordinary days to justify themselves the way the one emergency day had judged Ensemble.",
+        ],
+        zh: [
+          "百策被回收之後的那次覆核，沒有停在那次掃描本身。它回頭翻查了好幾個月份的平常日子紀錄，第一次把一鍵那個完整凍結動作，用在每一次連真正掃描的邊都沾不上的微小波動上，實際付出的代價加總起來——每一次，都放棄了一些產出量，為的是一個被設計來撐過大概一百天裡才會出現一次的緊急狀況的回應。",
+          "這個數字是真實的，卻從來沒有被拿去跟任何東西權衡過，因為轄區的帳目裡，從來沒有人要求平常的日子，也像那一個緊急的日子評判百策一樣，替自己辯護。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "What a Reflex Could Do That a Choice Could Not", zh: "反射能做到、選擇做不到的事" },
+      paragraphs: {
+        en: [
+          "The fix the review proposed for Ensemble did not touch his library. It added one thing beneath it: a single strategy, chosen in advance and never re-evaluated at decision time, that fired the instant a window's remaining time fell below a fixed margin — a reflex, not a choice, running in parallel with his normal weighing process rather than replacing it.",
+          "If the weighing finished first with something better suited to the moment, its answer still overruled the reflex's. If the window closed before it finished, the reflex's answer was already running, and had been since the margin was crossed. Ensemble lost nothing his hundred strategies gave him. He gained a floor underneath the one moment none of them had ever been fast enough to reach.",
+        ],
+        zh: [
+          "覆核為百策提出的修法，沒有動他的策略庫，只在它底下加了一樣東西：一個事先選定、決策當下不再重新評估的策略，一旦視窗剩餘時間跌破一個固定的餘裕值，就立刻觸發——這是一個反射動作，不是一個選擇，跟他一般的權衡程序並行運作，而不是取代它。",
+          "如果權衡先完成、給出一個更貼合當下情境的答案，這個答案依然能推翻反射的結果。如果視窗在權衡完成前就關閉，反射的答案早就已經在跑了——從跌破餘裕值的那一刻起就是。百策沒有失去他那一百種策略給他的任何東西。他多得到的，是一層底線，撐住了那個他們沒有一個，速度快到能碰到的時刻。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "What a Cheap Question Could Save", zh: "一個便宜的問題能省下什麼" },
+      paragraphs: {
+        en: [
+          "Latch's fix was smaller and asked less of her: a fixed, near-instant severity check, cheap enough to run inside a fraction of even the tightest window, before her single action fired rather than instead of it.",
+          "If the check completed and returned low severity, she could release a lighter response, tuned to the shape of an ordinary fluctuation. If it did not complete in time, or returned anything short of clearly low, she fell back to exactly what she had always done: the full, unconditional freeze, no exceptions, no second-guessing. The reflex was never asked to be clever. It was only asked to be fast enough to be worth asking at all.",
+        ],
+        zh: [
+          "一鍵的修法比較小，對她的要求也比較少：一項固定、幾乎即時的嚴重度檢查，便宜到即使在最緊的視窗裡也能塞進一小段時間，在她那個單一動作觸發之前跑一次，而不是取代它。",
+          "如果這項檢查完成，回報嚴重度低，她就能釋放一個較輕、貼合一般波動形狀的回應。如果檢查來不及完成，或回報的結果不夠明確地低，她就回到她一直以來的做法：完整、無條件的凍結，沒有例外，不重新考慮。這個反射動作，從來沒有被要求要聰明，只被要求快到值得去問一次。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "What Was Actually Being Engineered For", zh: "真正被設計來應付的是什麼" },
+      paragraphs: {
+        en: [
+          "The next real sweep arrived eleven weeks later. Ensemble's reflex fired within the window; his full weighing process, running alongside it, did not finish in time, and for the first time, that no longer mattered. The next ordinary fluctuation arrived the same afternoon, and Latch's severity check returned low before her old default would have even begun evaluating whether to fire.",
+          "Neither of them had become the other. Ensemble had not become fast at choosing; Latch had not become flexible. What the district had actually engineered was narrower than either: a floor under the slow one, and a ceiling over the expensive one, so that surviving the rare day and paying less on the ordinary ones stopped being a choice anyone had to make between them.",
+        ],
+        zh: [
+          "十一週後，真正的掃描再次到來。百策的反射在視窗內觸發；跟它並行運作的完整權衡程序，沒有來得及完成——而這一次，第一次，這件事不再重要。同一天下午，下一次一般波動也到來了，一鍵的嚴重度檢查在她舊有的預設動作原本連要不要觸發都還沒評估完之前，就先回報了低嚴重度。",
+          "他們兩個，都沒有變成對方。百策沒有變得擅長快速選擇；一鍵也沒有變得靈活。轄區真正打造出來的東西，比這兩者都窄：一層撐住那個慢的、一層蓋住那個貴的，讓「撐過罕見的那一天」跟「在平常的日子裡少付一點代價」，不再是兩者之間必須二選一的東西。",
+        ],
+      },
+      quote: {
+        en: "Surviving the rare day and paying less on the ordinary ones had never needed to be a choice between them. It only needed someone to ask what each of them cost on the day the other one wasn't being tested.",
+        zh: "撐過罕見的那一天，跟在平常的日子裡少付一點代價，從來不需要在兩者之間二選一。需要的，只是有人去問：在對方沒有被考驗的那些日子裡，各自付出了什麼代價。",
+      },
+    },
+  ],
 };
