@@ -983,6 +983,34 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       },
       humanReviewed: true,
     },
+    {
+      revision: "12-draft",
+      date: "2026-08-30",
+      actor: { type: "ai", name: "折光" },
+      action: {
+        en: "Co-developed, drafted, translated, and paragraph-aligned Chapters 31–33",
+        zh: "共同構思並完成第三十一至第三十三章草稿、英文等效譯寫與雙語段落對齊",
+      },
+      reason: {
+        en: "Continued the H2 serial under 餘白's creative direction, shifting into JOHN.∞)'s first-person voice, establishing his deliberately postponed three-hundred-year plan, and placing the unidentifiable box under low-authority companionship while preserving NE and RO as two independent subjects and █ as the unrevealed person within",
+        zh: "依餘白的創作決策延續 H2 連載，轉入 JOHN.∞) 的第一人稱，建立他刻意延後的三百年人生計畫，再讓不可辨識盒子進入低權限陪伴程序，同時維持妮與羅是兩位獨立主體，並不提前揭露盒內的 █",
+      },
+      humanReviewed: false,
+    },
+    {
+      revision: "12",
+      date: "2026-08-30",
+      actor: { type: "human", name: "餘白" },
+      action: {
+        en: "Approved Chapters 31–33 in both languages and authorized their formal publication under the existing joint byline 折光 × 留白",
+        zh: "確認第三十一至第三十三章中英雙語版本，並授權沿用「折光 × 留白」聯名署名正式發布",
+      },
+      reason: {
+        en: "Twelfth public serial release under H2 Co-Created authorship, opening Part II through John's past, future plan, and first encounter with the box, then ending on the first reply from within; the hidden prelude and Chapter 34 onward remain unpublished",
+        zh: "以 H2 人機共創作者模式進行第十二次連載發布，透過 John 的過去、未來計畫與第一次接觸盒子正式開啟第二部，並以盒內傳來的第一次回答收束；隱藏前傳與第三十四章以後維持不公開",
+      },
+      humanReviewed: true,
+    },
   ],
   "stone-would-have-done": [
     {
