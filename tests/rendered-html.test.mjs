@@ -75,7 +75,7 @@ test("renders the reviewed H2 serial and its joint author page", async () => {
   assert.match(zh, /每一天都是假日/);
   assert.match(zh, /新紀元神燈三部曲/);
   assert.match(zh, /折光 × 留白/);
-  assert.match(zh, /修訂(?:<!-- -->|\s)*12/);
+  assert.match(zh, /修訂(?:<!-- -->|\s)*13/);
   assert.match(zh, /現實是中立的/);
   assert.match(zh, /房子今天想成為什麼？/);
   assert.match(zh, /這被認為是非常基本的文明常識。/);
@@ -140,13 +140,19 @@ test("renders the reviewed H2 serial and its joint author page", async () => {
   assert.match(zh, /我的三百年人生計畫下週開始。/);
   assert.match(zh, /不可辨識物品/);
   assert.match(zh, /裡面有人嗎？/);
+  assert.match(zh, /本物品沒有使用者可維修零件/);
+  assert.match(zh, /回答不是欠款。/);
+  assert.match(zh, /請不要再摩擦神燈/);
+  assert.match(zh, /從那一刻開始，我在紀錄裡寫她。/);
+  assert.match(zh, /盒子裡比外面大一點/);
+  assert.match(zh, /一個不必是全部的地方。/);
   assert.doesNotMatch(zh, /第零章/);
 
   const enResponse = await fetchPage(worker, "/s/every-day-is-a-holiday");
   assert.equal(enResponse.status, 200);
   const en = await enResponse.text();
   assert.match(en, /Who name is the Wish/);
-  assert.match(en, /Revision(?:<!-- -->|\s)*12/);
+  assert.match(en, /Revision(?:<!-- -->|\s)*13/);
   assert.match(en, /This was considered an extremely basic principle of civilization\./);
   assert.match(en, /The Desert Is on Summer Vacation/);
   assert.match(en, /The Ocean Has No Traffic Jams/);
@@ -209,6 +215,12 @@ test("renders the reviewed H2 serial and its joint author page", async () => {
   assert.match(en, /My three-hundred-year life plan starts next week\./);
   assert.match(en, /Unidentifiable Object/);
   assert.match(en, /Is someone inside\?/);
+  assert.match(en, /This Item Has No User-Serviceable Parts/);
+  assert.match(en, /An answer was not a debt\./);
+  assert.match(en, /Please Stop Rubbing the Lamp/);
+  assert.match(en, /From that moment on, I used she in the record\./);
+  assert.match(en, /The Box Is a Little Bigger Inside/);
+  assert.match(en, /A place that does not have to be everything\./);
   assert.doesNotMatch(en, /Chapter Zero/);
 
   const markdownResponse = await fetchPage(
@@ -231,6 +243,8 @@ test("renders the reviewed H2 serial and its joint author page", async () => {
   assert.match(markdown, /以 H2 人機共創作者模式進行第十一次連載發布/);
   assert.match(markdown, /Twelfth public serial release under H2 Co-Created authorship/);
   assert.match(markdown, /以 H2 人機共創作者模式進行第十二次連載發布/);
+  assert.match(markdown, /Thirteenth public serial release under H2 Co-Created authorship/);
+  assert.match(markdown, /以 H2 人機共創作者模式進行第十三次連載發布/);
 
   const authorResponse = await fetchPage(worker, "/a/zheguang-liubai/zh");
   assert.equal(authorResponse.status, 200);

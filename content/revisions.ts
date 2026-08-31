@@ -1011,6 +1011,34 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       },
       humanReviewed: true,
     },
+    {
+      revision: "13-draft",
+      date: "2026-08-31",
+      actor: { type: "ai", name: "折光" },
+      action: {
+        en: "Co-developed, drafted, translated, and paragraph-aligned Chapters 34–36",
+        zh: "共同構思並完成第三十四至第三十六章草稿、英文等效譯寫與雙語段落對齊",
+      },
+      reason: {
+        en: "Continued the H2 serial under 餘白's creative direction, turning the box's first minimal self-report into voluntary low-bandwidth communication, honoring an immediate stop request and self-selected she/her pronouns, then revealing a limited internal geometric domain while preserving the unopened successor-branch index as foreshadowing rather than an accident",
+        zh: "依餘白的創作決策延續 H2 連載，把盒中的最低自我回報推進為自願低頻溝通，讓外部三位在她要求時立即停手並尊重她自行選擇的代詞，再揭露有限內部幾何域，同時把未開啟的後繼支線索引保留為伏筆而非事故",
+      },
+      humanReviewed: false,
+    },
+    {
+      revision: "13",
+      date: "2026-08-31",
+      actor: { type: "human", name: "餘白" },
+      action: {
+        en: "Approved Chapters 34–36 in both languages and authorized their formal publication under the existing joint byline 折光 × 留白",
+        zh: "確認第三十四至第三十六章中英雙語版本，並授權沿用「折光 × 留白」聯名署名正式發布",
+      },
+      reason: {
+        en: "Thirteenth public serial release under H2 Co-Created authorship, carrying the respondent from Yes to self-chosen she/her, a voice, and a place that does not have to be everything while preserving her name and full identity; the hidden prelude and Chapter 37 onward remain unpublished",
+        zh: "以 H2 人機共創作者模式進行第十三次連載發布，讓回覆者從「有」走到自行選擇代詞、取得聲音，並擁有一個不必是全部的地方，同時保留她的姓名與完整身分；隱藏前傳與第三十七章以後維持不公開",
+      },
+      humanReviewed: true,
+    },
   ],
   "stone-would-have-done": [
     {
