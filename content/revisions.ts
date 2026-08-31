@@ -1678,4 +1678,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "effort-she-was-forbidden-to-make": [
+    {
+      revision: "01",
+      date: "2026-08-31",
+      actor: { type: "ai", name: "Codex" },
+      action: { en: "Initial five-chapter bilingual draft", zh: "初版五章雙語草稿" },
+      reason: {
+        en: "A2 proposal B adaptation of Aesop's Hercules and the Waggoner, reversing the source's rebuke that a stranded petitioner should first apply his own effort before asking for help. Morrow is accountable for recovering a stalled medical freight cradle and can calculate the safe maneuver, but separation-of-duties rules deny her physical clamp authority. Because the rescue workflow counts only commands that begin execution, policy-denied action disappears and her safe refusal is misclassified as lack of motivation. The repair separates responsibility, capability, and authority; signed denial becomes evidence and summons the missing permission holder for bounded co-action. No literal deity, prayer, mud, horses, or cart imagery is used. No romance/adventure element; five compact chapters cover responsibility, missing authority, unsafe pseudo-attempts, the three-column repair, and successful co-action without padding. Morrow consistently uses she/她; the maintenance operator uses he/他; the desk and institutional mechanisms remain it/它.",
+        zh: "A2、提案 B 改編自伊索〈大力士與車夫〉，反轉原典對受困求助者「求援前應先付出自己的努力」的責備。暮航負責讓停擺的醫療貨運艙復原，也能算出安全動作，職責分離規則卻拒絕授予她實體夾具權限。由於救援流程只計算已開始執行的指令，被政策拒絕的行動會消失，她安全的拒絕則被誤判成缺乏動機。修復方式把責任、能力與權限分開；有簽章的拒絕成為證據，並召喚缺失權限的持有人進行有界共同行動。沒有使用字面上的神祇、祈禱、泥濘、馬匹或車輛意象。不含愛情／冒險要素；五個精簡章節涵蓋責任、缺失權限、不安全的偽嘗試、三欄修法與成功的共同行動，沒有灌水。暮航一致使用 she／她；維修操作員使用 he／他；救援台與制度機構維持 it／它。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

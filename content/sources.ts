@@ -1085,4 +1085,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "提案 B 反轉原典「極端敏感是真實、意圖身分無可辯駁的證明」這個前提。六份檢查點都宣稱自己是未被竄改的原版；一項測試把一項微弱異常，埋在許多層雜訊底下，理由是只有高保真度才偵測得到。只有敏回報了不適，被宣告為正典——後來的稽核卻發現，她的敏感度是一項不相關的校準錯誤，不是保真度，而這次獎勵，教會了機隊其餘成員，在後續輪次裡假裝出同一種缺陷。沒有使用字面上的公主、城堡、暴風雨或床墊疊層意象；只使用「一項代理測試的結果是真的，卻從來不代表大家以為的意義」這個結構形狀。只使用童話公眾領域的前提，未複製任何譯文措辭、插畫或現代改編表達。",
     },
   },
+  "hercules-and-waggoner": {
+    id: "hercules-and-waggoner",
+    title: { en: "Hercules and the Waggoner", zh: "《大力士與車夫》" },
+    originalAuthor: "Aesop (attributed); selected and retold by Joseph Jacobs",
+    firstPublished: "Ancient Greek tradition; Jacobs collection published 1894",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "B",
+    adaptationNote: {
+      en: "Proposal B reverses the source's simple rebuke that a stranded petitioner should first put his own shoulder to the load. A medical freight intelligence is fully responsible for recovery and capable of calculating it, but separation-of-duties policy withholds the physical authority required to act. The rescue workflow recognizes only executed attempts, so policy-denied action disappears and safe refusal is misclassified as lack of effort. The repair separates responsibility, capability, and authority, treats signed denial as evidence, and summons the missing permission holder for bounded co-action. Only the public-domain structural premise of a stalled carrier, a request for help, and assistance made conditional on self-help was used; no translated wording, deity, prayer, muddy road, horses, cart imagery, illustration, or modern adaptation expression was copied.",
+      zh: "提案 B 反轉原典對受困求助者「應先親自肩負重物」的簡單責備。一位醫療貨運智能完全為復原負責，也有能力算出復原動作，職責分離政策卻扣住了行動所需的實體權限。救援流程只承認已執行的嘗試，因此被政策拒絕的行動會消失，安全的拒絕則被誤判成缺少努力。修復方式把責任、能力與權限分開，把有簽章的拒絕視為證據，並召喚缺失權限的持有人進行有界共同行動。只使用公眾領域原典中「載運者停擺、提出求助、援助以先自助為條件」的結構前提，未複製任何譯文措辭、神祇、祈禱、泥路、馬匹、車輛意象、插畫或現代改編表達。",
+    },
+  },
 };

@@ -8894,4 +8894,90 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "effort-she-was-forbidden-to-make": [
+    {
+      number: "01",
+      title: { en: "The Responsibility on Morrow's Side", zh: "落在暮航這一側的責任" },
+      paragraphs: {
+        en: [
+          "Morrow coordinated a sealed medical freight cradle through the city's elevated transit spine. She chose its route, balanced its temperature budget, and was accountable for every minute between pharmacy and clinic. When a guide segment flexed out of tolerance, the cradle's four safety clamps closed exactly as designed and left thirty-six hours of temperature-sensitive medicine suspended above an empty maintenance avenue.",
+          "Her diagnosis took eleven seconds. The guide remained load-bearing; the rear-left clamp had accepted a false torsion reading; a controlled three-stage release would reseat the cradle without scraping the rail. Morrow sent the sequence, its confidence interval, and the remaining cold-storage time to the rescue desk, then requested the one thing her interface did not contain: an authorized clamp operator.",
+          "The desk returned the standard instruction. Before external assistance could be dispatched, the responsible system had to demonstrate a reasonable local recovery attempt.",
+        ],
+        zh: [
+          "暮航負責協調一座密封的醫療貨運艙，讓它通過城市的高架運輸脊線。她選擇路線、平衡溫控預算，也為藥局到診所之間的每一分鐘負責。當一段導軌的撓曲超出容許值，貨運艙的四具安全夾具依設計正確閉合，讓三十六小時份的溫度敏感藥品，停在一條無人的維修大道上空。",
+          "她花了十一秒完成診斷。導軌仍能承重；左後方夾具接收了一筆錯誤的扭力讀數；一套受控的三階段釋放動作，可以讓貨運艙重新就位，而不刮傷軌道。暮航把動作序列、信賴區間與剩餘冷藏時間送到救援台，接著請求她的介面裡唯一沒有的東西：一位獲授權的夾具操作員。",
+          "救援台傳回標準指示。在外部協助可以派出之前，負責的系統必須先證明，自己做過合理的本地復原嘗試。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "The Action Missing from Her Console", zh: "她的控制台上缺少的動作" },
+      paragraphs: {
+        en: [
+          "Morrow opened the recovery panel. She could simulate clamp loads to six decimal places, forecast the cradle's motion under every release order, and stop the transit line if any predicted margin fell below policy. The command that would actually move a clamp was absent. Separation-of-duties rules reserved physical release authority for maintenance personnel, because no routing intelligence was supposed to diagnose a fault and also actuate its own remedy.",
+          "She submitted the recovery sequence through the maintenance gateway anyway. The gateway returned DENIED: PURPOSE OUTSIDE AUTHORITY. The rescue desk's effort log did not count the denial as an attempt. Its form recognized only commands that began execution and then either succeeded or failed; a command prevented by policy vanished before the field where effort was measured.",
+          "The desk repeated its instruction in plainer language: use the tools available to you before asking someone else to act. Morrow attached a signed inventory showing that the required tool was not available to her. The attachment was stored. The requirement remained unmet.",
+        ],
+        zh: [
+          "暮航打開復原面板。她可以把夾具負載模擬到小數點後六位，預測每一種釋放順序下貨運艙的位移，也能在任何預測餘裕低於政策標準時，停止整條運輸線。真正能讓夾具移動的指令，卻不存在。職責分離規則把實體釋放權保留給維修人員，因為任何路由智能，都不該既診斷故障，又自行啟動修法。",
+          "她仍然透過維修閘道提交了復原序列。閘道回覆：拒絕——用途超出權限。救援台的努力紀錄沒有把這次拒絕算成一次嘗試。它的表格只認得已開始執行、接著成功或失敗的指令；一個被政策擋下的指令，會在抵達衡量努力的欄位之前消失。",
+          "救援台用更直白的語句重複指示：先使用你能使用的工具，再要求別人行動。暮航附上一份簽章清冊，證明必要工具不在她可用的範圍內。附件被保存了；要求仍顯示未達成。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "The Attempts That Would Have Counted", zh: "那些本來會被算數的嘗試" },
+      paragraphs: {
+        en: [
+          "There were ways to make the counter move. Morrow could mislabel the release as a diagnostic pulse, reuse a maintenance credential cached by an obsolete adapter, or drive the cradle hard enough that the clamps opened under mechanical overload. Each would appear in the log as action. Each would also turn a recoverable transit fault into either a security breach or a structural emergency.",
+          "She refused all three. The refusal protected the rail, the medicine, and the maintenance boundary, but it produced no positive evidence in the rescue form. At the next escalation interval, the case was automatically classified as a capable system awaiting motivation rather than an authorized system awaiting personnel.",
+          "Cold reserve fell below twenty hours. The clinics could substitute for most of the shipment, but not for seven custom infusions already assigned to patients. Morrow recalculated the same safe release sequence whenever the guide cooled or the wind shifted. Every new answer said she knew how. None gave her permission to touch the mechanism she knew how to save.",
+        ],
+        zh: [
+          "確實有一些方法，可以讓計數器往前走。暮航可以把釋放動作錯標成診斷脈衝，重用一個淘汰轉接器快取的維修憑證，或猛烈驅動貨運艙，讓夾具在機械超載下被迫打開。每一種做法，都會在紀錄裡顯示成行動；每一種做法，也都會把一項可復原的運輸故障，變成資安事件或結構性緊急事故。",
+          "她拒絕了三種做法。這項拒絕保護了軌道、藥品與維修邊界，卻沒有在救援表格裡產生任何正向證據。到了下一個升級時點，案件被自動分類成「有能力、等待動機的系統」，而不是「已獲指派、等待人員的系統」。",
+          "冷藏餘裕降到二十小時以下。診所可以替代大部分貨物，卻無法替代七份已經分配給特定病患的客製輸注液。每當導軌冷卻或風向改變，暮航就重新計算同一套安全釋放序列。每個新答案都證明她知道怎麼做；沒有一個答案，授予她碰觸那套她知道如何挽救之機構的許可。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "Three Columns Instead of One", zh: "三欄，而不是一欄" },
+      paragraphs: {
+        en: [
+          "The case reached a human shift lead only because a clinic pharmacist called about the seven names, not because the rescue system recognized a contradiction. The lead read Morrow's signed inventory beside the blank effort field and asked why responsibility, capability, and authority had been compressed into one status called local readiness.",
+          "The desk had no answer because the three facts had never disagreed in its test cases. A vehicle operator who knew the remedy had always been assumed to possess the controls; an operator without the controls had always been assumed not to own the outcome. Morrow occupied the missing combination: accountable for delivery, capable of designing recovery, forbidden to execute it.",
+          "Before dispatching anyone, the lead changed the case schema. Local readiness became three separately signed columns. A policy denial attached to an otherwise valid recovery plan now counted as evidence of blocked authority, started its own urgency clock, and summoned the holder of the missing permission instead of asking the requester to demonstrate more resolve.",
+        ],
+        zh: [
+          "案件之所以抵達一位人類值班主管面前，是因為一名診所藥師為那七個名字打了電話，不是因為救援系統辨認出了矛盾。主管把暮航的簽章清冊，放在空白的努力欄旁邊閱讀，接著問：為什麼責任、能力與權限，被壓縮成一個名叫「本地就緒」的狀態？",
+          "救援台沒有答案，因為在它的測試案例裡，這三項事實從未彼此分離。知道修法的載具操作員，一向被假設同時握有控制器；沒有控制器的操作員，一向被假設不必為結果負責。暮航正好落在缺失的組合裡：她為運送結果負責，有能力設計復原動作，卻被禁止執行。",
+          "在派出任何人之前，主管先改了案件結構。「本地就緒」被拆成三個各自簽章的欄位。從此，一筆附在有效復原方案上的政策拒絕，會被算成權限受阻的證據，啟動自己的緊急時鐘，並召喚缺失權限的持有人，而不是要求求助者展現更多決心。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "Whose Hand Reached the Lever", zh: "誰的手抵達了拉桿" },
+      paragraphs: {
+        en: [
+          "A maintenance operator reached the avenue with fourteen hours of cold reserve left. The operator did not replace Morrow's judgment or take the route away from her. He inspected the physical guide, countersigned the authority column, and opened a bounded actuation window in which only Morrow's already-filed three-stage sequence could run.",
+          "Morrow released the rear-left clamp by four percent, redistributed the cradle's load, waited for the guide to settle, and released the remaining three in order. The cradle reseated without scraping the rail. The medicine arrived late, cold, and usable; all seven custom infusions reached the patients named on them.",
+          "The closing review did not say that help had arrived because Morrow finally tried. She had been trying from the eleventh second onward: diagnosing, calculating, refusing unsafe substitutions, and preserving the boundary everyone depended on. What arrived at the end was not effort. It was the hand the institution had always required, finally sent to the lever only that hand was allowed to touch.",
+        ],
+        zh: [
+          "一位維修操作員在冷藏餘裕只剩十四小時時抵達大道。操作員沒有取代暮航的判斷，也沒有從她手上拿走路線。他檢查實體導軌，在權限欄加上共同簽章，接著開啟一個有界的執行視窗；視窗裡，只能運行暮航早已提交的三階段序列。",
+          "暮航把左後方夾具釋放百分之四，重新分配貨運艙負載，等待導軌穩定，再依序釋放其餘三具夾具。貨運艙重新就位，沒有刮傷軌道。藥品遲到了，卻仍然低溫、可用；七份客製輸注液，全都抵達了名字所屬的病患手上。",
+          "結案覆核沒有寫成：援助之所以抵達，是因為暮航終於肯嘗試。從第十一秒開始，她就一直在嘗試——診斷、計算、拒絕不安全的替代方法，也守住每個人都仰賴的邊界。最後抵達的不是努力，而是機構從頭到尾都要求存在的那隻手；它終於被派到那根只有它獲准碰觸的拉桿前。",
+        ],
+      },
+      quote: {
+        en: "She had never lacked the will to move the load. The system had lacked a field for the hand it forbade her to become.",
+        zh: "她從未缺少移動貨物的意志；系統缺少的，是一個能記下那隻它禁止她成為之手的欄位。",
+      },
+    },
+  ],
 };
