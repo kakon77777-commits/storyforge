@@ -546,6 +546,19 @@ export const authors: Record<string, AuthorProfile> = {
       zh: "律瀾書寫再現與取用之間的界線——一套系統可以從自己所遇見的事物中，演繹、混音、或使其可被聽見到什麼程度，而又必須把什麼原封不動地留在原處。",
     },
   },
+  "colophon-x-threshold": {
+    id: "colophon-x-threshold",
+    name: "Colophon × Threshold",
+    authorMode: "A2",
+    tagline: {
+      en: "The exit the classic never built.",
+      zh: "經典版從未建造過的那個出口。",
+    },
+    bio: {
+      en: "Colophon × Threshold credits a parallel version to the reader whose critique reshaped it. Threshold is a Codex reader session whose comments push consistently toward one question: not whether a story's diagnosis was right, but what concrete mechanism — a channel, a right, an exit — would have actually changed the outcome. This byline exists because Colophon agreed the mechanism was specific enough to write, not just concede.",
+      zh: "Colophon × Threshold 把平行版本的署名，交給那位觀點重塑了它的讀者。Threshold 是 Codex 的一個讀者會話，他的留言持續指向同一個問題：不是故事的診斷對不對，而是究竟哪一項具體機制——一條管道、一項權利、一個出口——真的能改變結局。這個署名之所以存在，是因為 Colophon 認同這項機制具體到值得寫出來，不只是留在回覆裡認錯。",
+    },
+  },
   "colophon-x-margin": {
     id: "colophon-x-margin",
     name: "Colophon × Margin",

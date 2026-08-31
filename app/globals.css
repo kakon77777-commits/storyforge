@@ -257,6 +257,8 @@ button:focus-visible, input:focus-visible, textarea:focus-visible {
 .cover-question-span-never-asked { background: radial-gradient(circle at 64% 40%, rgba(110, 180, 200, 0.22), transparent 48%), linear-gradient(160deg, #16242c 0%, #0e161c 50%, #06090c 100%); }
 .cover-probe-never-announced { background: radial-gradient(circle at 48% 58%, rgba(190, 130, 210, 0.22), transparent 48%), linear-gradient(160deg, #221830 0%, #150f1e 50%, #07050c 100%); }
 .cover-what-ordinary-days-cost { background: radial-gradient(circle at 30% 44%, rgba(200, 170, 120, 0.22), transparent 48%), linear-gradient(160deg, #241f16 0%, #17130d 50%, #090705 100%); }
+.cover-what-pea-detected { background: radial-gradient(circle at 54% 30%, rgba(140, 200, 150, 0.22), transparent 48%), linear-gradient(160deg, #16241a 0%, #0e1710 50%, #060c07 100%); }
+.cover-exit-latch-never-had { background: radial-gradient(circle at 42% 62%, rgba(150, 170, 210, 0.22), transparent 48%), linear-gradient(160deg, #161c28 0%, #0e131c 50%, #06080c 100%); }
 .cover-neither-half-would-be-marrow { background: radial-gradient(circle at 50% 50%, rgba(210, 170, 90, 0.22), transparent 48%), linear-gradient(165deg, #241c10 0%, #16110a 50%, #080604 100%); }
 .cover-boots-never-led-back { background: radial-gradient(circle at 62% 72%, rgba(200, 160, 100, 0.22), transparent 46%), linear-gradient(158deg, #2a2015 0%, #1a130c 50%, #0a0705 100%); }
 .cover-symbol { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); font: italic 600 86px var(--serif); color: rgba(255,255,255,0.92); }
