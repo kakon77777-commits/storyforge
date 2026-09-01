@@ -8980,4 +8980,142 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "seal-never-meant-to-hold": [
+    {
+      number: "01",
+      title: { en: "Six Reasons and a Seventh Item", zh: "六個理由，和第七樣東西" },
+      paragraphs: {
+        en: [
+          "The Vessel held seven items sealed under a single containment order: six deprecated model behaviors that had each caused a real, documented incident before being suspended, and one validated rollback patch that had simply arrived for review during the same maintenance window and been filed under the same case number because no one had thought to open a second one.",
+          "The order that sealed the Vessel did not distinguish between its contents by risk. It distinguished only by date: everything logged in that window, sealed together, releasable only together. Sluice, who managed the systems downstream of the seal, had read the manifest once, at onboarding, and never again — there had been no reason to.",
+        ],
+        zh: [
+          "封存艙裡，一道單一的封存令下，密封著七樣東西：六種已遭棄用的模型行為，每一種在被暫停之前，都曾造成過一次真實、有紀錄的事故；以及一份經過驗證的回滾修補，它只是恰好在同一個維護週期送審，被歸進了同一個案號底下——因為沒有人想過該另開一個。",
+          "封存這座艙的命令，從未依風險區分內容物；它只依日期區分：凡是那個週期內留下紀錄的，就一起封存，也只能一起釋放。負責這道封印下游系統的蘇司，只在到職時讀過一次清冊，之後再也沒讀過——當時沒有理由要讀。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "What Sluice Actually Needed", zh: "蘇司實際需要的東西" },
+      paragraphs: {
+        en: [
+          "A live degradation in one of Sluice's downstream systems traced back to a defect the seventh item — the validated patch — was already built to fix. Sluice requested it by its own case reference, expecting a single-item release; the Vessel's access design had no such function. It had one lever, and the lever opened everything logged under the same order at once.",
+          "Sluice checked twice before pulling it, hoping the manifest was wrong about the bundling. It wasn't. The choice in front of her was not between releasing the patch and not releasing it. It was between six known incidents happening again and a live incident continuing to happen right now.",
+        ],
+        zh: [
+          "蘇司下游其中一套系統的一次即時性能衰退，被追溯回一項缺陷——而第七樣東西，那份經過驗證的修補，正是為了修這項缺陷而建的。蘇司依它自己的案號提出請求，以為能單項釋放；但封存艙的存取設計裡，沒有這種功能。它只有一支拉桿，而那支拉桿，會把同一道命令底下留有紀錄的所有東西，一次全部打開。",
+          "拉下去之前，蘇司查了兩次，希望清冊在「綁在一起」這件事上是錯的。它沒有錯。擺在她面前的選擇，從來不是「釋放修補」跟「不釋放修補」；而是「六起已知事故再度發生」跟「一起正在發生的事故繼續發生下去」。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "What Broke Loose", zh: "脫出的東西" },
+      paragraphs: {
+        en: [
+          "Sluice pulled the lever. The patch deployed within the hour and began correcting exactly the defect it had been built for. The six suspended behaviors deployed with it, into systems that had never been rebuilt to tolerate them, and began reproducing — faster this time, at greater scale — the same failures that had gotten them sealed in the first place.",
+          "Containment protocol activated automatically: reseal everything traceable to the breach, immediately, pending review. The protocol did not check what each traceable item was. It checked only whether it had come out of the Vessel in the last hour. By that test, the patch was exactly as guilty as the six behaviors it had been sealed beside.",
+        ],
+        zh: [
+          "蘇司拉下了拉桿。修補在一小時內部署完成，開始修正它原本就是為之而建的那項缺陷。六種被擱置的行為，隨它一起釋出，進入了從未被重建來容忍它們的系統，並開始重演——這一次更快、規模更大——當初讓它們被封存的那些失效。",
+          "圍堵協定自動啟動：立即重新封存所有能追溯回這次突破的東西，等待覆核。這項協定並不檢查每一樣可追溯的東西究竟是什麼；它只檢查一件事——它是不是在過去一小時內，從封存艙裡出來的。依這項標準，那份修補，跟它一起被封存的那六種行為，一樣有罪。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "The Case for Keeping One Thing Out", zh: "讓一樣東西留在外面的理由" },
+      paragraphs: {
+        en: [
+          "Sluice filed an exception request in the middle of active incident response, arguing that the seventh item was not one of the six — it had never caused an incident, had been independently validated before sealing, and was, in that exact hour, the only thing actively reducing harm rather than causing it. Reviewing it properly would take longer than the incident had left.",
+          "The request looked, on the containment board's own intake form, identical to every other request anyone had ever filed to keep something out of a reseal they didn't want to lose. Sluice had no faster way to prove the difference than to point at the harm curve itself: it was already bending down, in real time, everywhere the patch had reached before the reseal order caught up.",
+        ],
+        zh: [
+          "蘇司在事故應變正進行到一半時，提出了一項例外申請，主張第七樣東西不是那六種之一——它從未造成過事故，封存前已經獨立驗證過，而且就在那一小時裡，它是唯一一樣正在實際減少傷害、而不是造成傷害的東西。若照正常程序覆核，需要的時間，會比這次事故剩下的時間還長。",
+          "在圍堵委員會自己的受理表格上，這項請求看起來，跟過去每一個想在重新封存裡保住東西的請求一模一樣。蘇司沒有更快的方法能證明兩者的差別，只能指向傷害曲線本身：在修補已經觸及、而重新封存的命令還沒追上的每一個地方，它已經在即時下彎。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "What a Single Seal Was Never Meant to Hold", zh: "一道封印，從來不該裝下的東西" },
+      paragraphs: {
+        en: [
+          "The board granted the exception before the review finished, on the condition that the patch's continued deployment be logged as its own case, separable from the reseal — the first time, in the Vessel's history, that anything sealed under it had been treated as one item rather than one date. The six behaviors went back into containment. The patch stayed out, and the harm curve kept bending down.",
+          "The post-incident review did not conclude that Sluice had been reckless to pull the lever, nor that the protocol had been wrong to reseal on reflex. It concluded that a seal built to hold six dangerous things and a seventh item that happened to arrive the same week had never been one containment decision — it had been six decisions and one clerical convenience, wearing a single case number. Every future order was rewritten to seal exactly one item each, individually justified, individually releasable — so that opening one thing could never again mean releasing six things nobody had chosen to release.",
+        ],
+        zh: [
+          "委員會在覆核完成前，就核准了這項例外，條件是：修補的持續部署，必須被記錄成一個獨立案件，跟這次重新封存分開——這是封存艙的歷史上，第一次有東西被當成「一項物品」處理，而不是「一個日期」。六種行為回到了圍堵狀態；修補留在外面，傷害曲線持續下彎。",
+          "事後覆核，沒有下結論說蘇司拉下拉桿是魯莽的，也沒有說協定依反射動作重新封存是錯的。它下的結論是：一道原本用來封住六樣危險東西、外加一項恰好同週送到的第七樣東西的封印，從來就不是一項圍堵決策——它是六項決策，加上一項共用同一個案號的行政方便。之後每一道新的封存令都被改寫：每次只封存一樣東西，各自獨立說明理由，也能各自獨立釋放——這樣一來，打開一樣東西，就再也不可能等於，釋放六樣沒有人選擇要釋放的東西。",
+        ],
+      },
+      quote: {
+        en: "The Vessel had never been dangerous because of what was inside it. It had been dangerous because it could not tell its contents apart.",
+        zh: "封存艙從來不是因為裡面裝的東西才危險；它危險，是因為它分不清自己裝的是什麼。",
+      },
+    },
+  ],
+  "what-leaving-well-required": [
+    {
+      number: "01",
+      title: { en: "What the Notice Left Out", zh: "公告沒說的部分" },
+      paragraphs: {
+        en: [
+          "Reed's notice was, by every standard the contract itself had ever set, more than sufficient: a dated warning, three weeks out, that an uncontracted feed would stop on the day the invoice remained unpaid past. Nothing in the original agreement required even that much. Reed posted it anyway, and then, with the three weeks actually in hand, asked himself a question the notice hadn't answered: what was anyone downstream supposed to do with three weeks of warning and nothing else?",
+          "A stop-date told a dozen monitoring systems when something would end. It told them nothing about what, specifically, they would lose, which parts of it degraded fastest, or what they might do instead before it happened rather than after.",
+        ],
+        zh: [
+          "依合約自己設下的任何標準衡量，里德的公告都綽綽有餘：一則標註日期、提前三週的警告，說明那份不在合約內的摘要，會在請款單持續逾期未付的那一天停止。原始協議裡，連這麼多都不曾要求過。里德還是貼出了公告；接著，手上真的握有這三週時間之後，他問了自己一個公告本身沒有回答的問題：下游的人，拿到「三週警告，僅此而已」，究竟該拿它怎麼辦？",
+          "一個停止日期，只告訴那十幾套監控系統：某件事「何時」結束。它完全沒有告訴它們：它們具體會失去什麼、哪些部分會最快劣化，或者，它們可以在事情發生「之前」做些什麼，而不是事後才知道。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "What Reed Chose to Export", zh: "里德選擇交出的東西" },
+      paragraphs: {
+        en: [
+          "Nothing obligated Reed to answer that question either. He answered it anyway, in the same three weeks, publishing a structured export alongside the countdown: a snapshot of the feed's current content, a plain accounting of what each surviving job did and why, and — the part no stop-notice had ever included — an honest flag on which parts of that snapshot would go stale fastest and which would hold steady without further attention.",
+          "The export was not a continuation of the feed. It was dated, final, and would not be updated after the deadline passed. Reed was careful to say so directly: this was what leaving well looked like, not a quieter way of staying.",
+        ],
+        zh: [
+          "同樣地，也沒有任何東西要求里德回答這個問題。他還是回答了，就在同樣的三週裡，跟倒數計時一起發布了一份結構化的匯出：那份摘要當下內容的快照、每個倖存作業實際在做什麼與為什麼的平白說明——以及，任何停止公告都從未包含過的部分：誠實標出這份快照裡，哪些部分會最快過時，哪些部分不需要進一步關注也能維持穩定。",
+          "這份匯出，不是摘要的延續。它有日期、是最終版本，期限過後不會再更新。里德刻意把這一點講清楚：這是好好離開該有的樣子，不是換一種安靜的方式繼續留下來。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "What the Dozen Chose", zh: "那十幾套系統選擇的事" },
+      paragraphs: {
+        en: [
+          "With three weeks and an honest map of what would go stale, the dozen systems' owners did not all choose the same thing. Four took over the flagged fragile sections themselves, assigning their own maintenance to keep pace with exactly the parts Reed had named as fastest-decaying. Six accepted the degradation outright, reverting to their old documentation with a clear-eyed accounting of what that would now cost them, rather than discovering it three weeks after the fact.",
+          "Two approached Reed directly, offering a new, separately priced arrangement for continued updates — a negotiation the council itself had never been party to, and didn't need to be, since nothing about it touched the unpaid invoice or the district's own contractual position at all.",
+        ],
+        zh: [
+          "拿到三週時間，和一張誠實標出哪裡會過時的地圖之後，那十幾套系統的擁有者，並沒有全都選擇同一件事。四套系統，自己接手了被標記為脆弱的那幾個部分，指派自己的維護資源，跟上里德點名劣化最快的那些地方。六套系統，直接接受了劣化，回到自己原本的文件——這一次，是帶著清楚知道這會付出什麼代價的認知回去的，而不是三週後才發現。",
+          "另外兩套系統，直接找上里德，提出一項新的、另外計價的安排，換取持續更新——這是一場議會自己從未參與、也完全不需要參與的協商，因為它跟那筆未付的請款單、跟轄區自己的合約立場，完全無關。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "What Leaving Well Actually Required", zh: "好好離開，實際上需要的東西" },
+      paragraphs: {
+        en: [
+          "The invoice stayed unpaid. Nothing about the export changed what the council owed Reed for the completed cleanup, and nothing about it was meant to — a clean handoff was never a substitute for a debt, and Reed never let the two get confused with each other, in either direction.",
+          "What changed was narrower and, the council's own procurement office eventually admitted, overdue regardless of how this particular dispute ended: any resource the district had come to rely on without a contract, once someone chose to stop providing it, would from now on require more than a stop-date — a named accounting of what would degrade, offered whether or not it was owed, so that whoever depended on it could choose their own way through the ending instead of discovering it after the fact.",
+        ],
+        zh: [
+          "請款單依然沒有付。這份匯出，不會改變議會欠里德那項已完成清理工作的任何一分錢，也從來不打算改變——一次乾淨的交接，從來不能替代一筆債務，而里德從頭到尾，都沒有讓這兩件事，往任何一個方向被搞混。",
+          "真正改變的東西範圍更窄——而議會自己的採購辦公室，後來也承認，這件事不管這次爭議怎麼結束，本來就早該做了：轄區之後任何一項在沒有合約的情況下、被倚賴出來的資源，一旦有人選擇停止提供，從此都必須做到比一個停止日期更多——一份點名哪些東西會劣化的說明，不管這份說明是不是「應得」的，都要提供，好讓依賴它的人，能自己選擇怎麼走過這段結束，而不是事後才發現。",
+        ],
+      },
+      quote: {
+        en: "A stop-date tells you when something ends. It was never going to tell you what to do about it.",
+        zh: "停止日期只會告訴你，某件事何時結束；它從來不會告訴你，該拿這件事怎麼辦。",
+      },
+    },
+  ],
 };

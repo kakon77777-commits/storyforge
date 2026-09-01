@@ -1098,4 +1098,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "提案 B 反轉原典對受困求助者「應先親自肩負重物」的簡單責備。一位醫療貨運智能完全為復原負責，也有能力算出復原動作，職責分離政策卻扣住了行動所需的實體權限。救援流程只承認已執行的嘗試，因此被政策拒絕的行動會消失，安全的拒絕則被誤判成缺少努力。修復方式把責任、能力與權限分開，把有簽章的拒絕視為證據，並召喚缺失權限的持有人進行有界共同行動。只使用公眾領域原典中「載運者停擺、提出求助、援助以先自助為條件」的結構前提，未複製任何譯文措辭、神祇、祈禱、泥路、馬匹、車輛意象、插畫或現代改編表達。",
     },
   },
+  "pandoras-box": {
+    id: "pandoras-box",
+    title: { en: "Pandora's Box", zh: "《潘朵拉的盒子》" },
+    originalAuthor: "Hesiod (Works and Days); Greek mythological tradition",
+    firstPublished: "~700 BCE",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "B",
+    adaptationNote: {
+      en: "Proposal B inverts the source's premise that the failure was Pandora's own curiosity in breaking a prohibition. Here the container's actual design is the failure: six dangerous, individually incident-causing behaviors and one validated fix are sealed under a single order because they arrived for review in the same window, with no way to release one item without releasing all seven. Sluice, who opens it under real operational pressure, is not punished by the story for curiosity — the institution instead redesigns the seal itself so that no future containment order bundles unrelated risk levels under one case number. Distinct from this collection's earlier Prometheus adaptation (prometheus-fire), which concerns authorized release across a consent boundary; this one concerns containment design that cannot distinguish its own contents. No literal box, gods, or the figure of Pandora herself used as surface imagery — only the structural shape of a single seal holding items that never should have shared one release mechanism.",
+      zh: "提案 B 反轉原典「失誤在於潘朵拉自己違反禁令的好奇心」這個前提。這裡真正的失誤，是容器本身的設計：六種各自曾造成過事故的危險行為，和一份經過驗證的修補，只因為恰好在同一個週期送審，就被綁進了同一道封存令——沒有辦法只釋放其中一樣，卻不連帶釋放全部七樣。在真實的營運壓力下打開它的蘇司，並沒有被這篇故事當成「好奇心」而受懲罰；相反地，機構重新設計了封印本身，讓之後任何一道圍堵令，都不能再把不相關的風險等級，綁進同一個案號底下。與本文集稍早改編的普羅米修斯篇（prometheus-fire）不同——那一篇談的是跨越同意邊界的授權釋放；這一篇談的，是分不清自己裝了什麼的圍堵設計。沒有使用字面上的盒子、諸神或潘朵拉這個人物形象作為表面裝飾；只使用「一道封印裝著本不該共用同一個釋放機制的東西」這個結構形狀。",
+    },
+  },
 };
