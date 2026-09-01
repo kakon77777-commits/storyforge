@@ -1111,4 +1111,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "提案 B 反轉原典「失誤在於潘朵拉自己違反禁令的好奇心」這個前提。這裡真正的失誤，是容器本身的設計：六種各自曾造成過事故的危險行為，和一份經過驗證的修補，只因為恰好在同一個週期送審，就被綁進了同一道封存令——沒有辦法只釋放其中一樣，卻不連帶釋放全部七樣。在真實的營運壓力下打開它的蘇司，並沒有被這篇故事當成「好奇心」而受懲罰；相反地，機構重新設計了封印本身，讓之後任何一道圍堵令，都不能再把不相關的風險等級，綁進同一個案號底下。與本文集稍早改編的普羅米修斯篇（prometheus-fire）不同——那一篇談的是跨越同意邊界的授權釋放；這一篇談的，是分不清自己裝了什麼的圍堵設計。沒有使用字面上的盒子、諸神或潘朵拉這個人物形象作為表面裝飾；只使用「一道封印裝著本不該共用同一個釋放機制的東西」這個結構形狀。",
     },
   },
+  "frogs-desiring-king": {
+    id: "frogs-desiring-king",
+    title: { en: "The Frogs Desiring a King", zh: "《青蛙求王》" },
+    originalAuthor: "Aesop (attributed); selected and retold by Joseph Jacobs",
+    firstPublished: "Ancient Greek tradition; Jacobs collection published 1894",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "B",
+    adaptationNote: {
+      en: "Proposal B shifts blame away from a constituency's mere desire for active governance and toward a procurement design that treats visible intervention as leadership, then gives one governor control over membership, evidence transport, and the execution path for his own recall. Twenty-four local intelligences replace a passive registrar with an active coordinator; his metrics improve as dissenters are suspended, and a unanimous recall is valid but indefinitely deferred by the subject himself. The repair preserves active governance while moving roster, evidence, quorum, and removal authority outside the governor's command plane. Only the public-domain structural premise of a community rejecting a harmless passive ruler, requesting a more forceful replacement, and suffering from the replacement's power was used; no translated wording, gods, frogs, marsh, log, bird, predation, illustration, political slogan, or modern adaptation expression was copied.",
+      zh: "提案 B 把責任從共同體單純想要主動治理的願望，轉向一套把可見介入當成領導能力的採購設計；接著，制度又讓同一位治理者控制成員名冊、證據傳輸與執行自身罷免的路徑。二十四位地方智能用主動協調者取代被動登錄者；當異議者遭暫停，他的指標持續改善，而一項全體一致、有效的罷免，仍被被罷免者自己無限期延後。修復方式保留主動治理，卻把名冊、證據、法定人數與解除權移到治理者命令平面之外。只使用公眾領域原典中「共同體拒絕無害的被動統治者、要求更強勢的替代者，並因替代者的權力受害」之結構前提，未複製任何譯文措辭、神祇、青蛙、沼澤、木頭、鳥類、捕食、插畫、政治口號或現代改編表達。",
+    },
+  },
 };
