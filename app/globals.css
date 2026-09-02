@@ -694,6 +694,8 @@ button.book-row:hover { background: var(--mint-pale); }
    secondary text colour, so the typography is unchanged and only the colour
    differs. Worth revisiting site-wide. */
 .story-page .eyebrow { color: var(--ink-soft); }
+.cover-why-one-channel-never-enough { background: radial-gradient(circle at 44% 34%, rgba(170, 150, 210, 0.22), transparent 48%), linear-gradient(160deg, #1c1828 0%, #12101c 50%, #07060c 100%); }
+.cover-what-the-lever-never-showed { background: radial-gradient(circle at 52% 58%, rgba(210, 170, 120, 0.22), transparent 48%), linear-gradient(160deg, #241c14 0%, #16110c 50%, #0a0704 100%); }
 
 /* Nothing in a story should be able to push the page sideways: chapter text is
    prose, but a long unbroken token (a URL in a quote, a CJK run without spaces)

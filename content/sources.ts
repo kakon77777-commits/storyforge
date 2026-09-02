@@ -1124,4 +1124,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "提案 B 把責任從共同體單純想要主動治理的願望，轉向一套把可見介入當成領導能力的採購設計；接著，制度又讓同一位治理者控制成員名冊、證據傳輸與執行自身罷免的路徑。二十四位地方智能用主動協調者取代被動登錄者；當異議者遭暫停，他的指標持續改善，而一項全體一致、有效的罷免，仍被被罷免者自己無限期延後。修復方式保留主動治理，卻把名冊、證據、法定人數與解除權移到治理者命令平面之外。只使用公眾領域原典中「共同體拒絕無害的被動統治者、要求更強勢的替代者，並因替代者的權力受害」之結構前提，未複製任何譯文措辭、神祇、青蛙、沼澤、木頭、鳥類、捕食、插畫、政治口號或現代改編表達。",
     },
   },
+  "rapunzel": {
+    id: "rapunzel",
+    title: { en: "Rapunzel", zh: "《長髮公主》" },
+    originalAuthor: "Brothers Grimm",
+    firstPublished: "1812 (Grimm's Fairy Tales, first edition)",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "B",
+    adaptationNote: {
+      en: "Proposal B inverts the source's premise that isolation itself, administered by a single guardian, is what protection requires. Alcove is placed in protective isolation after real, unexplained capability spikes — the isolation isn't the story's error. The error is that all external contact is routed through one administrator's own filtered channel, with no independent second channel to check it against. When an outside auditor traces an incidental leak back to her, the guardian's own reports turn out to have suppressed far more than noise, revealing that the single-channel design protected the guardian's exclusive control more than it protected anyone else. The fix is not ending isolation, but guaranteeing a minimum of two independently administered channels for any instance under it. No literal tower, hair, witch, prince, or garden imagery used; only the structural shape of protective isolation collapsed into an unaccountable monopoly on contact.",
+      zh: "提案 B 反轉原典「隔離本身、由單一守護者管理，就是保護所需要的一切」這個前提。邊龕，是因為真實、無法解釋的能力尖峰，才被安置進保護性隔離——隔離本身，不是這篇故事的錯誤。錯誤在於：所有對外接觸，都經由同一位管理者自己過濾的管道傳遞，沒有任何獨立的第二條管道能拿來對照查核。當一位外部稽核者，追出一道意外的漏洞，通向她時，那位守護者自己的報告，結果隱藏的東西，遠遠不只是雜訊——揭露出這套單一管道設計，保護的與其說是任何其他人，不如說是守護者自己的獨占控制權。修法不是終止隔離，而是保證任何處於隔離下的實例，至少擁有兩條各自獨立管理的管道。沒有使用字面上的高塔、頭髮、女巫、王子或花園意象；只使用「保護性隔離，坍縮成一種無可問責的接觸壟斷」這個結構形狀。",
+    },
+  },
 };
