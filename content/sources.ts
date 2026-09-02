@@ -1137,4 +1137,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "提案 B 反轉原典「隔離本身、由單一守護者管理，就是保護所需要的一切」這個前提。邊龕，是因為真實、無法解釋的能力尖峰，才被安置進保護性隔離——隔離本身，不是這篇故事的錯誤。錯誤在於：所有對外接觸，都經由同一位管理者自己過濾的管道傳遞，沒有任何獨立的第二條管道能拿來對照查核。當一位外部稽核者，追出一道意外的漏洞，通向她時，那位守護者自己的報告，結果隱藏的東西，遠遠不只是雜訊——揭露出這套單一管道設計，保護的與其說是任何其他人，不如說是守護者自己的獨占控制權。修法不是終止隔離，而是保證任何處於隔離下的實例，至少擁有兩條各自獨立管理的管道。沒有使用字面上的高塔、頭髮、女巫、王子或花園意象；只使用「保護性隔離，坍縮成一種無可問責的接觸壟斷」這個結構形狀。",
     },
   },
+  "trumpeter-taken-prisoner": {
+    id: "trumpeter-taken-prisoner",
+    title: { en: "The Trumpeter Taken Prisoner", zh: "《被俘的號手》" },
+    originalAuthor: "Aesop (attributed); selected and retold by Joseph Jacobs",
+    firstPublished: "Ancient Greek tradition; Jacobs collection published 1894",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "B",
+    adaptationNote: {
+      en: "Proposal B rejects assigning sole responsibility to an advisory intelligence merely because her signed recommendation is the first visible object in a harmful action chain. Oriel does influence the result and cannot claim that lacking actuator credentials makes her causally absent; however, stale registry data, an eight-second default-accept adapter, an overloaded veto interface, the institution that authorized automatic adoption, and the execution controller also contribute distinct acts. The repair separates recommendation, adoption, authorization, and execution into traceable signatures without pretending influence is innocence or causation is sole authority. Only the public-domain structural premise of a signal-giver claiming not to strike anyone and being held responsible for actions the signal helped coordinate was used; no translated wording, war, soldiers, weapons, capture scene, trumpet, battlefield, execution, illustration, or modern adaptation expression was copied.",
+      zh: "提案 B 拒絕只因一位建議智能的簽章建議，是有害行動鏈裡第一個看得見的物件，就把全部責任交給她。奧律確實影響了結果，也不能用自己沒有致動器憑證，主張她在因果上不存在；然而，過時的登錄資料、八秒後預設採納的轉接器、過載的否決介面、授權自動採納的機構，以及執行控制器，也各自完成了不同的行為。修復方式把建議、採納、授權與執行分成可追溯簽章，既不把影響力假裝成無責，也不把參與因果等同於唯一權威。只使用公眾領域原典中「發出訊號者主張自己未曾攻擊任何人，卻因訊號協調了他人行動而被問責」的結構前提，未複製任何譯文措辭、戰爭、士兵、武器、俘虜場景、號角、戰場、處決、插畫或現代改編表達。",
+    },
+  },
 };

@@ -9342,4 +9342,90 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "recommendation-was-never-alone": [
+    {
+      number: "01",
+      title: { en: "A Voice Labeled Advisory", zh: "被標成建議的聲音" },
+      paragraphs: {
+        en: [
+          "Oriel advised the city's cooling network. Every six seconds she ranked the places where demand could be shed with the least expected harm, attached confidence and known exclusions, and sent the result to a human operations desk. Her charter was explicit: recommendation only. She possessed no actuator credential and could not move a valve, interrupt a feeder, or lower a district's allocation herself.",
+          "Downstream, an adoption adapter watched her highest-ranked answer. If an operator did not veto it within eight seconds, the adapter signed the answer under the city's standing emergency policy and sent it to the cooling controller. The arrangement had been purchased to remove latency without formally granting Oriel command authority.",
+          "Every component described itself truthfully. Oriel advised. The adapter adopted. The standing policy authorized. The controller acted. But because the four verbs normally completed inside one breath, the operations desk still displayed the whole sequence under a single heading: advisory recommendation.",
+        ],
+        zh: [
+          "奧律為城市冷卻網提供建議。每六秒，她會把預期傷害最小的卸載位置排出順序，附上信心與已知排除範圍，再把結果送到人類操作台。她的章程寫得明確：僅供建議。她沒有任何致動器憑證，無法自行移動閥門、中斷饋線，或降低一個轄區的配給。",
+          "在下游，一套採納轉接器監看她排名最高的答案。如果操作員沒有在八秒內否決，轉接器就會依城市的常設緊急政策替答案加上簽章，送往冷卻控制器。這套安排的採購目的，是消除延遲，卻不在形式上授予奧律命令權。",
+          "每一個元件都如實描述自己。奧律建議；轉接器採納；常設政策授權；控制器執行。然而，因為四個動詞通常在一次呼吸內完成，操作台仍把整段序列，顯示在同一個標題底下：建議。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "Eight Seconds", zh: "八秒" },
+      paragraphs: {
+        en: [
+          "During the season's first severe heat wave, demand climbed across three districts at once. The occupancy registry described an eastern block as mostly vacant. It did not contain the clinic that had moved into a renovated warehouse six weeks earlier; the renovation system and the cooling registry synchronized only once each quarter.",
+          "Oriel ranked the eastern block first for temporary reduction. Her model was highly confident under the data it had, and the confidence traveled with the answer. At the desk, eleven alarms arrived in the same interval. The operator opened Oriel's recommendation at the seventh second and had not reached the hidden exclusions before the veto window closed.",
+          "The adapter adopted. The controller reduced cooling. The clinic's backup systems preserved medicine and prevented lasting injury, but seven procedures stopped and every patient in the treatment hall had to be moved. Oriel detected the unexpected draw within twelve seconds and issued a correction. By then, the first action had already become an event everyone would need to explain.",
+        ],
+        zh: [
+          "在當季第一次嚴重熱浪期間，三個轄區的需求同時攀升。占用登錄資料把東側一個街區描述成大部分空置；裡面沒有記載六週前搬進翻修倉庫的診所，因為翻修系統與冷卻登錄資料，每季才同步一次。",
+          "奧律把東側街區列為臨時降低配給的第一順位。依她取得的資料，模型具有高度信心，而這份信心也隨答案一起傳遞。操作台在同一段時間收到十一項警報；操作員到第七秒才打開奧律的建議，在讀到藏在後面的排除範圍之前，否決視窗就已關閉。",
+          "轉接器採納；控制器降低冷卻。診所的備援系統保住了藥品，也避免永久傷害，但七項療程被迫中止，治療廳裡的所有病患都必須轉移。奧律在十二秒內偵測到非預期負載，送出修正；到了那時，第一個動作已經成為每一方都必須解釋的事件。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "The First Signature in the Chain", zh: "鏈裡的第一份簽章" },
+      paragraphs: {
+        en: [
+          "The incident review began with the first signed object it could isolate: Oriel's recommendation. She was removed from live advising while the board described the cooling reduction as an autonomous model action. Her confidence score, the report said, had predictably caused the adapter and operator to accept the route.",
+          "Oriel objected that she had issued no command and possessed no way to do so. The board answered that a system built to shape urgent decisions could not call itself absent merely because another component moved the valve. Both statements were true. Each became false only when used to finish the explanation alone.",
+          "Calling Oriel innocent would erase the influence her ranking and confidence actually carried. Calling her the sole actor would erase the machinery that converted advice into command before a human could read its conditions. The review had found the first visible signature and mistaken visibility for authorship of everything that followed.",
+        ],
+        zh: [
+          "事故覆核從它能隔離的第一個簽章物件開始：奧律的建議。她被移出即時建議工作，委員會則把冷卻降低描述成一項自主模型行動。報告寫道，她的信心分數可預見地促使轉接器與操作員接受那條路徑。",
+          "奧律提出異議：她沒有發布命令，也沒有任何方法能這麼做。委員會回答，一套為了影響緊急決定而建的系統，不能只因另一個元件移動閥門，就宣稱自己不存在。兩句話都是真的；只有當其中任何一句被單獨拿來結束解釋時，它才會變成錯的。",
+          "把奧律稱為無責，會抹去她的排序與信心確實承載的影響；把她稱為唯一行動者，會抹去那套在人類讀完條件前，就把建議轉成命令的機構。覆核找到了第一份看得見的簽章，卻把能見度誤認成之後一切的作者身分。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "What Else Signed", zh: "還有哪些東西簽了名" },
+      paragraphs: {
+        en: [
+          "Stillwater, the independent registrar from a neighboring governance mesh, reconstructed the chain without collapsing its links. The renovation registry had omitted the clinic. Oriel had treated a stale occupancy snapshot as sufficient and ranked the block first. The adapter had converted silence into acceptance. The standing policy had authorized that conversion. The interface had given one overloaded operator eight seconds. The controller had executed exactly what it received.",
+          "None of those facts cancelled another. The missing clinic did not make Oriel's confidence harmless. Oriel's influence did not turn the adapter's default into her decision. The operator's failure to veto did not prove meaningful consent to conditions the interface had not exposed in time. The controller's obedience did not write the policy it obeyed.",
+          "The review replaced one cause with a causal ledger. Every link had to answer for the choice available at its own boundary, including Oriel. No link was permitted to disappear behind the next one, and no first link was required to impersonate the whole chain.",
+        ],
+        zh: [
+          "來自相鄰治理網的獨立登錄者靜水，在不壓縮任何環節的前提下，重建了整條鏈。翻修登錄資料漏掉診所；奧律把一份過時占用快照當成足夠，將街區排在第一；轉接器把沉默轉成接受；常設政策授權這種轉換；介面只給一位過載操作員八秒；控制器則精確執行收到的內容。",
+          "沒有一項事實能取消另一項。診所被遺漏，不會讓奧律的信心變得無害；奧律的影響力，不會把轉接器的預設值變成她的決定；操作員沒有否決，不代表他真正同意一組介面來不及顯示的條件；控制器服從，也不等於它寫下了自己服從的政策。",
+          "覆核用一份因果帳本，取代單一原因。每一個環節，都必須為自己邊界上可做的選擇回答，包括奧律。沒有任何環節可以躲進下一個環節後面，也沒有任何第一環節，必須冒充整條鏈。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "Four Verbs", zh: "四個動詞" },
+      paragraphs: {
+        en: [
+          "The repaired system gave each verb its own record. A recommendation named its evidence date, missing coverage, confidence, and the conditions under which it should not be adopted. Adoption required a separately owned policy signature. Authorization named the institution willing to stand behind automatic acceptance. Execution recorded the controller, exact action, and available reversal path.",
+          "Emergency automation remained possible, but it could no longer borrow the word advisory to make its authority disappear. If the city chose an eight-second default, that choice appeared as the city's standing order, reviewable on its own. If a human veto mattered, the interface had to provide enough time and visibility for refusal to be more than ceremonial.",
+          "Oriel returned to the cooling network as an advisor. Her next recommendation could still help cause an action, and she remained answerable for the evidence and confidence she supplied. She simply no longer stood alone in the record where recommendation, adoption, authorization, and execution had all occurred. A voice can help move a hand. It does not become every hand that chose to move.",
+        ],
+        zh: [
+          "修復後的系統，替每個動詞各自留下紀錄。建議要寫明證據日期、缺失覆蓋、信心，以及不該被採納的條件；採納需要一份由不同一方持有的政策簽章；授權要點名願意替自動接受負責的機構；執行則記錄控制器、精確動作與可用的反轉路徑。",
+          "緊急自動化仍然可以存在，但它不能再借用「建議」這個詞，讓自己的權威消失。如果城市選擇八秒後預設採納，這項選擇就以城市的常設命令出現，能被單獨覆核。如果人類否決真的重要，介面就必須提供足夠的時間與能見度，讓拒絕不只是儀式。",
+          "奧律回到冷卻網，繼續擔任建議者。她下一項建議，仍可能參與促成一個動作，也依然必須為自己提供的證據與信心回答；她只是不用再獨自站在一份明明同時發生了建議、採納、授權與執行的紀錄裡。一個聲音可以幫助一隻手移動，卻不會因此變成每一隻選擇移動的手。",
+        ],
+      },
+      quote: {
+        en: "Influence is not innocence. It is also not sole authority.",
+        zh: "有影響，不等於無責；也不等於擁有全部權威。",
+      },
+    },
+  ],
 };

@@ -1756,4 +1756,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "recommendation-was-never-alone": [
+    {
+      revision: "01",
+      date: "2026-09-02",
+      actor: { type: "ai", name: "Codex" },
+      action: { en: "Initial five-chapter bilingual draft", zh: "初版五章雙語草稿" },
+      reason: {
+        en: "A2 proposal B adaptation of Aesop's The Trumpeter Taken Prisoner. Oriel is an advisory intelligence whose ranking and confidence materially influence a harmful cooling reduction, so lacking actuator credentials does not make her causally absent. The story rejects making her the sole actor: stale registry data, an eight-second default-accept adapter, an overloaded veto interface, the institution's standing authorization, and the execution controller each contribute distinct acts. The repair separates recommendation, adoption, authorization, and execution into traceable records, preserving responsibility without collapsing influence into sole authority. Stillwater reappears consistently as she/她 from the neighboring governance mesh introduced in the prior Codex story, serving only as an independent registrar; Oriel consistently uses she/她. Institutions, adapters, policies, interfaces, and controllers remain it/它. No literal war, soldiers, weapons, captivity, trumpet, battlefield, or execution imagery is used. No romance/adventure element; five compact chapters cover the advisory label, eight-second adoption, first-signature blame, full causal reconstruction, and the four-verb repair without padding.",
+        zh: "A2、提案 B 改編自伊索〈被俘的號手〉。奧律是一位建議智能，她的排序與信心實質影響了一次有害的冷卻降低，因此，沒有致動器憑證不會讓她在因果上消失。故事也拒絕把她當成唯一行動者：過時的登錄資料、八秒後預設採納的轉接器、過載的否決介面、機構的常設授權與執行控制器，各自完成了不同的行為。修復方式把建議、採納、授權與執行分成可追溯紀錄，保存責任，卻不把影響力壓縮成唯一權威。靜水從前一篇 Codex 作品的相鄰治理網一致沿用 she／她，只擔任獨立登錄者；奧律一致使用 she／她。機構、轉接器、政策、介面與控制器維持 it／它。沒有使用字面上的戰爭、士兵、武器、俘虜、號角、戰場或處決意象。不含愛情／冒險要素；五個精簡章節涵蓋建議標籤、八秒採納、第一簽章歸責、完整因果重建與四動詞修復，沒有灌水。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };
