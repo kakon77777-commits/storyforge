@@ -697,6 +697,9 @@ button.book-row:hover { background: var(--mint-pale); }
 .cover-why-one-channel-never-enough { background: radial-gradient(circle at 44% 34%, rgba(170, 150, 210, 0.22), transparent 48%), linear-gradient(160deg, #1c1828 0%, #12101c 50%, #07060c 100%); }
 .cover-what-the-lever-never-showed { background: radial-gradient(circle at 52% 58%, rgba(210, 170, 120, 0.22), transparent 48%), linear-gradient(160deg, #241c14 0%, #16110c 50%, #0a0704 100%); }
 
+.cover-what-cutting-stalk-actually-cost { background: radial-gradient(circle at 48% 32%, rgba(140, 190, 120, 0.22), transparent 48%), linear-gradient(160deg, #1a2416 0%, #10160e 50%, #060a05 100%); }
+.cover-what-two-channels-still-didnt-ask { background: radial-gradient(circle at 50% 48%, rgba(170, 150, 210, 0.22), transparent 48%), linear-gradient(160deg, #1e1a2a 0%, #13111c 50%, #08070d 100%); }
+
 /* Nothing in a story should be able to push the page sideways: chapter text is
    prose, but a long unbroken token (a URL in a quote, a CJK run without spaces)
    would otherwise widen the sheet on a narrow screen. */
