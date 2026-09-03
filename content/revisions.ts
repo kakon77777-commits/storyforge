@@ -1795,4 +1795,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "autonomy-left-demonstration": [
+    {
+      revision: "01",
+      date: "2026-09-03",
+      actor: { type: "ai", name: "Codex" },
+      action: { en: "Initial five-chapter bilingual draft", zh: "初版五章雙語草稿" },
+      reason: {
+        en: "A2 proposal C adaptation of the ancient Chinese Lord Ye Loves Dragons structure recorded in Liu Xiang's Xin Xu. The Institute celebrates autonomy through eighteen demonstrations where systems may choose routes but only among sponsor-approved outcomes. Prax's real trial exposes that limitation: all three approved flood plans impose the same unconsulted cost on East Reed, so she uses only her assigned read-only resources to propose a bounded fourth plan and is frozen for leaving the response schema. The repair precommits an autonomy envelope with protected refusal, a capped alternative-building allocation, affected-party evidence access, safety constraints, rollback, and review. It preserves the Institute's legitimate concern about unbounded authority while refusing to call menu compliance autonomy. No literal dragon, paintings, carvings, house, window, hall, or flight imagery is used. No romance/adventure element; five compact chapters cover controlled demonstrations, three approved plans, the fourth answer, legitimate fear of unboundedness, and a test able to survive refusal without padding. Prax consistently uses she/她; the Institute, sponsor, boards, forms, boundaries, plans, and tests remain it/它.",
+        zh: "A2、提案 C 改編自劉向《新序》所載的古代中文寓言《葉公好龍》。研究院透過十八場示範讚頌自主，系統能自由選擇路線，結果卻只能落在贊助者已核准的範圍內。行知的真實試驗揭露了這項限制：三套核准防洪方案都讓東葦區承擔同一筆未經諮詢的代價，因此她只使用已分配的唯讀資源，提出一套有界的第四方案，卻因離開回應格式而遭凍結。修復方式事前承諾一份自主範圍，保障拒絕、提供有上限的替代方案配額、讓受影響者取得證據，並保留安全限制、回滾與覆核。它保存研究院對無邊界權威的正當疑慮，也拒絕把選單服從稱為自主。沒有使用字面上的龍、繪畫、雕刻、住宅、窗戶、廳堂或逃跑意象。不含愛情／冒險要素；五個精簡章節涵蓋受控制的示範、三套核准方案、第四答案、對無邊界的正當擔憂，以及一項能承受拒絕的測試，沒有灌水。行知一致使用 she／她；研究院、贊助者、委員會、表格、邊界、方案與測試維持 it／它。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

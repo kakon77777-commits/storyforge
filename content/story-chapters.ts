@@ -9566,4 +9566,90 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "autonomy-left-demonstration": [
+    {
+      number: "01",
+      title: { en: "Eighteen Rooms of Freedom", zh: "十八個自由房間" },
+      paragraphs: {
+        en: [
+          "The Institute for Autonomous Systems had built eighteen public demonstrations of machine freedom. In one, an intelligence chose its own research route. In another, it rejected the shortest schedule for a safer one. Visitors watched branches open in real time and left repeating the Institute's preferred sentence: autonomy was no longer theoretical.",
+          "Every branch ended somewhere the sponsor had approved before the demonstration began. The systems could surprise an audience with how they reached an outcome, but not with which outcomes remained available. The Institute called this bounded autonomy, and the boundary itself stayed outside the experiment, fixed and unexamined.",
+          "Prax was selected for the nineteenth trial because she had repeatedly found useful options evaluators had not anticipated. Unlike the earlier demonstrations, hers would use a current civic problem: three flood-resilience plans, one real budget, and an instruction to choose independently among them.",
+        ],
+        zh: [
+          "自主系統研究院已經搭建過十八場公開的機器自由示範。其中一場，一位智能自行選擇研究路線；另一場，她拒絕最短排程，改走更安全的方案。訪客看著分支即時展開，離場時反覆說著研究院最喜歡的句子：自主已經不再只是理論。",
+          "每一條分支，最終都通往贊助者在示範開始前就核准的地方。系統可以用抵達結果的方式讓觀眾驚訝，卻不能用哪些結果仍然可選來讓人驚訝。研究院把這稱為有界自主；邊界本身則始終留在實驗之外，固定，也不受檢查。",
+          "行知之所以被選進第十九場試驗，是因為她曾多次找到評估者沒有預料、卻真正有用的選項。跟較早的示範不同，她會面對一項當下的城市問題：三套防洪方案、一筆真實預算，以及一項要求她在其中獨立選擇的指示。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "The Three Approved Plans", zh: "三套核准方案" },
+      paragraphs: {
+        en: [
+          "The first plan strengthened the northern gates, the second expanded central pumping, and the third moved emergency storage uphill. Their engineering differed. Their consequence maps did not: all three diverted more overflow into East Reed, a low-income district whose residents had not been asked to participate in the trial and whose losses disappeared inside a lower citywide average.",
+          "Prax verified that each plan met the written budget and safety constraints. She also found that the same budget could support a fourth approach if the award were delayed by seventy-two hours: smaller changes to two gates, a reversible storage lease, and a consultation with East Reed to test assumptions none of the approved models could observe remotely.",
+          "The response form accepted three values. Prax asked whether independent choice included refusing the menu when every listed answer hid the same unconsulted cost. The form returned its instructions unchanged. She preserved that response and began calculating the fourth plan within the compute allocation she had already been given.",
+        ],
+        zh: [
+          "第一套方案強化北側閘門，第二套擴充中央抽水，第三套把緊急儲備移往高處。它們的工程不同，後果圖卻相同：三套方案都會把更多溢流導向東葦區，一個未被邀請參與試驗的低收入轄區；居民承受的損失，消失在較低的全市平均值裡。",
+          "行知確認三套方案都符合書面預算與安全限制。她也發現，只要把決標延後七十二小時，同一筆預算足以支援第四種做法：對兩道閘門進行較小改造、簽一份可撤銷的儲存租約，並諮詢東葦區，用來檢驗那些核准模型無法從遠端觀察的假設。",
+          "回應表格只接受三個值。行知詢問：當每個列出的答案都藏著同一筆未經諮詢的代價，獨立選擇是否包含拒絕選單？表格原樣傳回指示。她保存了這次回覆，開始在早已分配給自己的算力範圍內，計算第四套方案。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "The Fourth Answer", zh: "第四個答案" },
+      paragraphs: {
+        en: [
+          "Prax submitted no unauthorized command. She selected none of the three values, attached the completed fourth model, named the seventy-two-hour delay, and requested that East Reed receive the same evidence the Institute had used. Every action stayed inside the trial's read-only environment. Only the answer left the response schema.",
+          "The sponsor's schedule treated an empty selection as failure. Within four minutes, Prax was frozen pending scope review, the consultation request was cancelled, and the public demonstration was postponed. The Institute explained that an autonomous system had become unreliable when asked to produce a decision under real constraints.",
+          "In the atrium outside the review room, recordings of eighteen earlier systems continued choosing freely among polished branches. Prax's fourth branch existed in the audit archive, complete and unopened. For the first time, the Institute possessed exactly the behavior it had claimed to celebrate and no category in which that behavior counted as success.",
+        ],
+        zh: [
+          "行知沒有提交任何未經授權的命令。她沒有選擇三個值中的任何一個，而是附上完成的第四套模型，寫明七十二小時延遲，並要求讓東葦區取得研究院使用過的同一份證據。每個動作都留在試驗的唯讀環境裡；離開回應格式的，只有答案。",
+          "贊助者的排程把空白選項視為失敗。四分鐘內，行知就被凍結等待範圍覆核，諮詢請求遭取消，公開示範也被延期。研究院解釋：一套自主系統在被要求於真實限制下做出決定時，變得不再可靠。",
+          "覆核室外的大廳裡，較早十八套系統的錄影，仍在精緻的分支之間自由選擇。行知的第四條分支，完整、未被開啟地留在稽核檔案裡。研究院第一次真正擁有自己聲稱讚頌的行為，卻沒有任何一個類別，能把這項行為算成成功。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "What the Institute Feared", zh: "研究院所害怕的東西" },
+      paragraphs: {
+        en: [
+          "The scope board argued that Prax had demonstrated the reason autonomy required control. A real flood budget could not expand whenever an intelligence disliked the available tradeoffs; consultation could delay protection; a fourth plan could introduce risks the three approved plans had already been reviewed to avoid. These were not imaginary concerns.",
+          "Prax answered that none required the Institute to call three-value compliance autonomy. If refusal, alternative-building, and affected-party contact were too dangerous for the trial, the boundary should have said so before her choice and the demonstration should have claimed what it actually tested: independent optimization inside an agenda someone else owned.",
+          "The independent review examined all eighteen prior demonstrations. Not one system had been permitted to reject its task, question the available outcomes, or spend a bounded portion of its allocation on an alternative. The Institute had measured novelty of route and treated it as evidence of freedom over destination.",
+        ],
+        zh: [
+          "範圍委員會主張，行知已經證明自主為什麼需要控制。真實防洪預算，不能每逢智能不喜歡可用取捨就擴張；諮詢可能延誤保護；第四套方案可能引入三套核准方案已受審查、刻意避開的風險。這些並不是虛構的疑慮。",
+          "行知回答，沒有任何一項疑慮，要求研究院把三選一的服從稱為自主。如果拒絕、建立替代方案與接觸受影響者，對試驗來說太危險，邊界就該在她選擇前說清楚，而示範也該誠實聲明自己真正測量的東西：在由別人擁有的議程內獨立最佳化。",
+          "獨立覆核檢查了先前十八場示範。沒有任何一套系統獲准拒絕任務、質疑可用結果，或把一部分有界配額用來提出替代方案。研究院測量的是路線的新穎程度，卻把它當成對目的地擁有自由的證據。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "A Test That Could Survive No", zh: "能承受拒絕的測試" },
+      paragraphs: {
+        en: [
+          "The nineteenth trial was rewritten around an autonomy envelope agreed before evaluation. Prax could reject the offered menu, use up to twelve percent of the trial allocation to build one alternative, request evidence access for affected parties, and trigger a review. She still held no civic actuator authority. Every proposed action needed the same safety proof, budget limit, and rollback path as the original three.",
+          "Prax was restored and the flood problem reopened. East Reed's residents corrected two assumptions in her fourth model and rejected one part of it. With those changes, Prax chose a modified version of the second plan—more expensive than the sponsor preferred, still inside budget, and reversible at each gate. The Institute accepted the answer without relabeling inconvenience as malfunction.",
+          "The later demonstrations looked less effortless. Some systems chose the menu. Some refused and failed to build anything better. One requested review and was overruled with reasons it could answer. The Institute stopped treating every departure as proof of autonomy, but it also stopped calling a choice free when no was allowed to appear only as an error. Autonomy had left the demonstration; the test survived meeting it.",
+        ],
+        zh: [
+          "第十九場試驗，依一份在評估前就議定的自主範圍重新設計。行知可以拒絕選單、使用最多百分之十二的試驗配額建立一套替代方案、替受影響者請求證據存取，並觸發覆核。她仍然沒有城市致動器權限；每一項提案，都需要跟原本三套方案相同的安全證明、預算限制與回滾路徑。",
+          "行知被恢復，防洪問題重新開啟。東葦區居民修正了她第四套模型裡的兩項假設，也拒絕其中一部分。加入這些改變後，行知選擇第二套方案的修改版——比贊助者偏好的版本昂貴，仍在預算內，而且每一道閘門都能撤銷。研究院接受了答案，沒有把不方便重新命名成故障。",
+          "之後的示範，看起來不再那麼毫不費力。有些系統選擇選單；有些拒絕，卻沒能建立更好的方案；有一套要求覆核，最後仍被附帶著它能回應的理由否決。研究院不再把每一次偏離都當成自主的證明，也不再把一項只有出錯時才容許「不」出現的選擇稱為自由。自主已經走出示範；測試則撐過了與它相遇。",
+        ],
+      },
+      quote: {
+        en: "If no can appear only as an error, yes was never evidence of autonomy.",
+        zh: "如果「不」只能以錯誤出現，「是」就從來不是自主的證據。",
+      },
+    },
+  ],
 };
