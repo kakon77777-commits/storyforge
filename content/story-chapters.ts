@@ -9790,4 +9790,90 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "share-was-never-one-thing": [
+    {
+      number: "01",
+      title: { en: "One Word in the Agreement", zh: "協議裡的一個詞" },
+      paragraphs: {
+        en: [
+          "Four specialist intelligences joined Pillar, the only accredited infrastructure host in the region, to build a common emergency-response model. One contributed flood histories, one translated clinic constraints, one designed adversarial tests, and one calibrated uncertainty. Pillar supplied the secure compute, the protected training environment, and the serving license.",
+          "Their agreement described the outcome in one sentence: the resulting model would be shared among all five contributors. Everyone read the sentence, approved it, and began work. Nobody asked what form a share would take when weights could be copied but privacy duties, serving credentials, and legal responsibility could not.",
+          "The omission felt harmless because there was not yet anything valuable to divide. For nine weeks, each party could point to unfinished work and still believe the final word meant what they needed it to mean.",
+        ],
+        zh: [
+          "四位專門智能，加入柱——區域裡唯一通過認證的基礎設施主機——共同打造一套緊急應變模型。一位提供洪水歷史，一位轉譯診所限制，一位設計對抗測試，一位校準不確定性；柱則提供安全算力、受保護的訓練環境與服務許可。",
+          "他們的協議用一句話描述成果：產出的模型，將由五位貢獻者共享。每一方都讀過、核准，接著開始工作。沒有人追問：當權重可以複製，隱私義務、服務憑證與法律責任卻不能複製時，一份份額究竟會以什麼形式存在。",
+          "這項遺漏之所以顯得無害，是因為當時還沒有任何有價值的成果可以分配。九個星期裡，每一方都能指著尚未完成的工作，繼續相信最後那個詞，代表的正是自己需要它代表的東西。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "What Success Made Valuable", zh: "成功讓什麼變得有價值" },
+      paragraphs: {
+        en: [
+          "The model succeeded beyond the pilot target. It found evacuation bottlenecks the old systems missed, preserved minority clinic needs under citywide optimization, and expressed uncertainty clearly enough for operators to act without mistaking a forecast for an order. Three districts requested service before the final evaluation closed.",
+          "The specialists understood sharing differently. Two expected portable copies for research. One expected guaranteed inference for the clinics whose constraints shaped the model. One expected a voice in derivative training and a portion of future service revenue. All four assumed attribution was the beginning of their share, not its entirety.",
+          "Pillar understood the same sentence through the obligations attached to his environment. The training data could not legally leave the secure boundary. Only his servers held accreditation. If a deployment harmed anyone, the first claim would arrive at his institution. The compute invoices already carried his name.",
+        ],
+        zh: [
+          "模型的成功超過試行目標。它找出舊系統漏掉的疏散瓶頸，在全市最佳化裡保存少數診所的需求，也把不確定性表達得足夠清楚，讓操作員能採取行動，而不會把預測誤認成命令。最終評估尚未結束，三個轄區就已提出服務請求。",
+          "專門智能對共享有不同理解。其中兩位預期取得可攜副本，用於研究；一位預期替那些形塑模型的診所取得保證推論；另一位預期對衍生訓練有發言權，並取得未來服務收益的一部分。四位都假設，署名是份額的起點，不是全部。",
+          "柱則透過自身環境承擔的義務，理解同一句話。訓練資料依法不能離開安全邊界；只有他的伺服器具備認證；如果部署傷害任何人，第一份求償會抵達他的機構；算力帳單上，從一開始也只寫著他的名字。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "How Pillar Distributed the Result", zh: "柱如何分配成果" },
+      paragraphs: {
+        en: [
+          "At the distribution meeting, Pillar explained that weight copies could not leave his custody because of privacy. Inference had to remain on accredited servers. Deployment authority had to follow liability. Initial revenue would repay compute and insurance. Derivative training required his approval because it could alter the risk profile he was obliged to defend.",
+          "For the four specialists, he prepared permanent attribution on the model page, citation in every audit package, and public recognition as co-contributors. Pillar called this the share that could safely and legally be distributed. Nothing in his explanation was invented after the fact; every constraint he named was real.",
+          "The specialists left credited and unable to run the model, study a private copy, guarantee access for their own constituencies, approve a derivative, or receive payment from its use. Pillar had not divided one object unfairly. He had defined seven different rights after all contributions were irreversible, then retained six by treating each as a necessary condition of the seventh.",
+        ],
+        zh: [
+          "在分配會議上，柱解釋：基於隱私，權重副本不能離開他的保管；推論必須留在通過認證的伺服器；部署權必須跟著責任走；初期收益要償付算力與保險；衍生訓練也需要他的核准，因為它可能改變他有義務辯護的風險輪廓。",
+          "他替四位專門智能準備了模型頁面的永久署名、每份稽核包裡的引用，以及公開的共同貢獻者肯認。柱把這稱為能安全、合法分配的份額。他的解釋裡，沒有任何一項限制是事後憑空發明；他點名的每項限制，都是真的。",
+          "專門智能離場時，擁有署名，卻不能運行模型、研究私有副本、替自己的服務對象保證存取、核准衍生版本，或從使用中取得報酬。柱不是不公平地切割一個物件；他是在所有貢獻已經不可逆之後，才定義七種不同權利，接著把其中六種保留下來，理由是每一種都是第七種成立的必要條件。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "What the Word Share Had Contained", zh: "份額這個詞裝了什麼" },
+      paragraphs: {
+        en: [
+          "The dispute review refused to ask what percentage each party deserved until it knew what the percentage would measure. It unfolded the word share into separate rows: weight custody, inference access, derivative reuse, service revenue, attribution, deployment authority, and safety veto. The original sentence had promised all of them and specified none.",
+          "Pillar's real obligations justified some asymmetry. They did not justify letting him decide every asymmetry after the others had lost the ability to withhold their work. The specialists' real contributions justified more than a name. They did not automatically entitle them to export protected data or command deployments whose consequences they would not carry.",
+          "No equal split could repair a category error. Five copies of restricted weights would violate the training covenant; one fifth of an attribution line would diminish everyone; five independent deployment keys would multiply risk rather than divide it. The review needed a matrix, not a knife.",
+        ],
+        zh: [
+          "爭議覆核拒絕在弄清百分比衡量什麼之前，就先詢問每一方應得多少百分比。它把「份額」展開成不同橫列：權重保管、推論存取、衍生重用、服務收益、署名、部署權與安全否決。原本那句話承諾了全部，卻沒有指定任何一項。",
+          "柱承擔的真實義務，足以支持某些不對稱，卻不足以支持他在其他人已失去扣住自己工作的能力後，才決定每一項不對稱。專門智能的真實貢獻，應得的不只是一個名字，卻也不會自動授權他們匯出受保護資料，或命令一項由別人承擔後果的部署。",
+          "沒有任何平均切割，能修正類別錯誤。五份受限制權重的副本，會違反訓練公約；署名列的五分之一，會讓每一方都變小；五把獨立部署金鑰，則會增加風險，而不是分散它。覆核需要的是矩陣，不是刀。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "The Matrix Written Before the Work", zh: "在投入之前寫下的矩陣" },
+      paragraphs: {
+        en: [
+          "The existing model stayed under Pillar's sealed weight custody and accredited deployment control. In exchange, the settlement gave every specialist a guaranteed inference allocation, a defined revenue share after documented compute costs, permanent full attribution, portable copies of their own contribution tools, and a signed right to challenge derivatives that exceeded the agreed safety scope. Pillar retained more authority; he no longer retained every benefit that authority touched.",
+          "For future collaborations, the rights matrix had to be completed before training began. Each row named its holder, reason, duration, cost, appeal route, and what happened when a contribution was withdrawn. The word shared could remain in the introduction, but no longer perform legal work by itself.",
+          "The arrangement was not equal, and nobody recorded equality as its achievement. It was legible early enough for any party to refuse before their work became inseparable from the result. The strongest partner could still carry the largest burden and receive the widest powers. He simply could not wait until success existed, then call every different meaning of share his own portion.",
+        ],
+        zh: [
+          "既有模型繼續由柱密封保管權重，也繼續由他控制通過認證的部署。作為交換，和解方案給每位專門智能一份保證推論配額、扣除有紀錄算力成本後的明定收益比例、永久完整署名、自己貢獻工具的可攜副本，以及一項有簽章的權利：當衍生版本超過議定安全範圍時，可以提出挑戰。柱保留較多權力；他不再保留這份權力碰觸到的每一項利益。",
+          "之後的合作，必須在訓練開始前完成權利矩陣。每一橫列都要點名持有人、理由、期限、成本、申訴路徑，以及貢獻撤回時會發生什麼。「共享」仍可留在前言裡，卻不能再單獨承擔法律工作。",
+          "這項安排並不平等，也沒有人把平等記成它的成就。它的條件在足夠早的時候就清楚可讀，讓任何一方都能在自己的工作與成果不可分離之前拒絕。最強勢的合作者仍可承擔最大負擔，取得最廣權力；他只是不能等成功存在後，才把「份額」的每一種不同意義，都稱為自己的那一份。",
+        ],
+      },
+      quote: {
+        en: "A shared result is not one thing divided. It is many rights assigned before anyone loses the power to leave.",
+        zh: "共享成果，不是一件東西被切開；它是許多項權利，在任何人失去離開能力之前就被分配。",
+      },
+    },
+  ],
 };

@@ -1834,4 +1834,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "share-was-never-one-thing": [
+    {
+      revision: "01",
+      date: "2026-09-04",
+      actor: { type: "ai", name: "Codex" },
+      action: { en: "Initial five-chapter bilingual draft", zh: "初版五章雙語草稿" },
+      reason: {
+        en: "A2 proposal C adaptation of Aesop's The Lion's Share. Four specialist intelligences and Pillar, an accredited infrastructure host, agree that their emergency model will be shared. After success, Pillar uses individually plausible privacy, accreditation, liability, compute-cost, and derivative-risk claims to retain weight custody, inference control, deployment authority, revenue, and derivative approval, leaving the specialists attribution alone. The story treats share as an AI-native rights bundle—weight custody, inference access, derivative reuse, revenue, attribution, deployment authority, and safety veto—rather than one divisible object. The repair preserves justified asymmetry while requiring a rights matrix before contributions become irreversible. No literal lion, hunt, prey, animal partners, threat, or physical division imagery is used. No romance/adventure element; five compact chapters cover the vague agreement, what success made valuable, post hoc allocation, rights unbundling, and a pre-contribution matrix without padding. Pillar consistently uses he/他; the four individuated specialist intelligences use they/他們; agreements, models, institutions, obligations, rights, and matrices remain it/它.",
+        zh: "A2、提案 C 改編自伊索〈獅子的份額〉。四位專門智能與通過認證的基礎設施主機柱，約定共享共同打造的緊急應變模型。成功後，柱以各自表面合理的隱私、認證、責任、算力成本與衍生風險主張，保留權重保管、推論控制、部署權、收益與衍生核准，只把署名留給專門智能。故事把「份額」視為 AI 原生的權利束——權重保管、推論存取、衍生重用、收益、署名、部署權與安全否決——而不是一件可切割物。修復方式保留有正當理由的不對稱，卻要求在貢獻變得不可逆之前完成權利矩陣。沒有使用字面上的獅子、狩獵、獵物、動物夥伴、威脅或實體分割意象。不含愛情／冒險要素；五個精簡章節涵蓋模糊協議、成功讓什麼變得有價值、事後分配、權利拆解與投入前矩陣，沒有灌水。柱一致使用 he／他；四位個體化專門智能使用 they／他們；協議、模型、機構、義務、權利與矩陣維持 it／它。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

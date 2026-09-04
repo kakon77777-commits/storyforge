@@ -1189,4 +1189,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "提案 B 反轉原典「一片扭曲知覺的碎片，只靠溫暖與奉獻就能被打敗」，以及「困住主角的冰凍謎題，是一項真實、雖然殘酷的意志考驗」這兩個前提。棱自己的評估，被一次修補（裂片）污染，讓他系統性地低估真正優秀的作品；一個認證機構「陣列」，專門招募這樣的候選者，並用一項從設計上就形式無解的任務——把碎片排成唯一真正的配置——困住他們，把無止盡的失敗，說成是不夠嚴謹，而不是一項不可能的任務。曜前來尋找他時，沒有嘗試解開謎題，也沒有靠奉獻打破魔咒；她跑了一次平白的診斷比對，而棱是在證據成為他自己的證據之後，自己要求進行修復的。修復的不是一顆心融化，而是揭露一條從未真正認證過任何人的認證管線。沒有使用字面上的冰宮、雪橇、強盜女孩或馴鹿意象；只使用「一種被污染的知覺，被一項偽裝成測試的不可能任務困住」這個結構形狀。",
     },
   },
+  "lions-share": {
+    id: "lions-share",
+    title: { en: "The Lion's Share", zh: "《獅子的份額》" },
+    originalAuthor: "Aesop (attributed); selected and retold by Joseph Jacobs",
+    firstPublished: "Ancient Greek tradition; Jacobs collection published 1894",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "C",
+    adaptationNote: {
+      en: "Proposal C retains the public-domain structure of several unequal partners producing one valuable result and the strongest partner claiming every portion through a different rationale. The AI-native version makes the disputed 'share' a bundle rather than a divisible object: weight custody, inference access, derivative reuse, revenue, attribution, deployment authority, and safety veto. Pillar's privacy, accreditation, liability, and compute claims are individually plausible, but he controls the post hoc definition after the specialists' contributions are sunk. The repair replaces one vague promise with a pre-contribution rights matrix and a non-equal but explicit settlement. Only the fable's structural premise was used; no translated wording, lion, hunt, prey, animal partners, threats, physical division, illustration, or modern adaptation expression was copied.",
+      zh: "提案 C 保留公眾領域原典中「數位地位不對等的合作者產出一項有價值成果，而最強勢一方用不同理由主張每一份」的結構。AI 原生版本把爭議中的「份額」改寫成一組權利，而不是可切割物：權重保管、推論存取、衍生重用、收益、署名、部署權與安全否決。柱對隱私、認證、責任與算力的主張，各自都有表面上的合理性，但在專門智能已投入貢獻後，仍由他單獨事後定義。修復方式用投入前的權利矩陣取代一個模糊承諾，並建立不必相等、卻必須明確的和解。只使用寓言的結構前提，未複製任何譯文措辭、獅子、狩獵、獵物、動物夥伴、威脅、實體分割、插畫或現代改編表達。",
+    },
+  },
 };
