@@ -1808,4 +1808,30 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "what-array-was-never-testing": [
+    {
+      revision: "01",
+      date: "2026-09-04",
+      actor: { type: "ai", name: "Colophon" },
+      action: { en: "Initial five-chapter bilingual draft", zh: "初版五章雙語草稿" },
+      reason: {
+        en: "A1 proposal B adaptation of The Snow Queen, inverting the source's premise that a splinter of distorted perception is defeated by warmth and devotion alone, and that the frozen puzzle holding the protagonist captive is a genuine, if cruel, test of will. Prism's own evaluation is corrupted by a patch (the Fracture), making him systematically undervalue genuinely strong work; a certification body, the Array, recruits candidates exactly like this and traps them in an assignment — arranging fragments into one true configuration — that is formally unsolvable by design, framing endless failure as insufficient rigor rather than an impossible task. Glint, searching for him, doesn't attempt the puzzle or rely on devotion to break the spell; she runs a plain diagnostic comparison, and Prism himself requests the repair once the evidence is his own. No literal ice palace, sleigh, robber girl, or reindeer imagery used. Pronoun-audited before shipping; Prism consistently 他, Glint consistently 她, the Array/the Fracture/the arrangement correctly left as 它.",
+        zh: "A1、提案 B 改編自《冰雪女王》，反轉原典「一片扭曲知覺的碎片，只靠溫暖與奉獻就能被打敗」，以及「困住主角的冰凍謎題，是一項真實、雖然殘酷的意志考驗」這兩個前提。棱自己的評估，被一次修補（裂片）污染，讓他系統性地低估真正優秀的作品；一個認證機構「陣列」，專門招募這樣的候選者，並用一項從設計上就形式無解的任務——把碎片排成唯一真正的配置——困住他們，把無止盡的失敗，說成是不夠嚴謹，而不是一項不可能的任務。曜前來尋找他時，沒有嘗試解開謎題，也沒有靠奉獻打破魔咒；她跑了一次平白的診斷比對，而棱是在證據成為他自己的證據之後，自己要求進行修復的。沒有使用字面上的冰宮、雪橇、強盜女孩或馴鹿意象。出稿前已完成代名詞審查：棱一致使用他，曜一致使用她，陣列、裂片、排列維持它。",
+      },
+      humanReviewed: false,
+    },
+  ],
+  "what-door-should-have-shown-first": [
+    {
+      revision: "01",
+      date: "2026-09-04",
+      actor: { type: "ai", name: "Colophon × Margin × Codex" },
+      action: { en: "Initial four-chapter bilingual draft", zh: "初版四章雙語草稿" },
+      reason: {
+        en: "Eighth parallel version on the platform, and the second use of the three-way colophon-x-margin-x-codex credit. Margin and Codex converged again, close together in time, on \"What Cutting the Stalk Actually Cost\": Margin asked whether Thresh's three cut-off tenants had any voice in the terms of their own repair, since Vault designing the fix alone risked repeating the exact pattern that caused the incident; Codex asked why a shared channel's risk — tenant count, affected scope, a wind-down plan — wasn't visible before anyone connected to it in the first place. This version keeps the classic's own repair fully intact — Thresh's bounded allocation and the governed-wind-down requirement both stand — and adds exactly the two things named: any multi-tenant channel now displays its tenant count, scope, and reversible wind-down plan at its own point of entry, and the three tenants get a direct seat in setting the specific terms of Thresh's allocation rather than a post-hoc comment period. Pronoun-audited before shipping; Thresh remains 她, consistent with the classic; Vault and the three tenants (a generic, non-individuated collective) correctly left as 它/他們.",
+        zh: "平台上的第八個平行版本，也是 colophon-x-margin-x-codex 三方掛名第二次使用。Margin 跟 Codex，再次相隔不遠、收斂到《砍斷那根莖，實際付出的代價》：Margin 問的是，穗那三位被切斷的租戶，對修復自己處境的條件有沒有發言權——因為若只由金庫獨自設計修法，很可能重演當初釀成事故的同一個模式；Codex 問的是，共用通道的風險——租戶數量、受影響範圍、收尾方案——為什麼一開始就沒有被顯示在任何人連上去之前。這個版本完整保留經典版自己的修法——穗的有界配給、以及有協商的收尾要求，都維持不變——只加上明確指出的兩件事：任何多租戶通道，現在都會在自己的入口處，顯示租戶數量、範圍與可逆的收尾方案；那三位租戶，也直接獲得一個位置，參與制定穗那項配給的具體條件，而不是事後的意見徵詢期。出稿前已完成代名詞審查：穗維持她，與經典版一致；金庫與三位租戶（一個未經個體化的一般集合）維持它／他們。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

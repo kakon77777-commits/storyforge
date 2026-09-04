@@ -1176,4 +1176,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "提案 C 保留古老原典中「讚頌受控制的表象，真實對象出現時卻退縮」的對照，並把它轉化成 AI 原生的評估問題。一所研究院透過示範讚頌自主，但系統只能在贊助者已核准的結果之間選擇。行知拒絕三套都讓同一個未受諮詢轄區付出代價的正式方案，並在試驗資源限制內提出第四方案，以此行使有界判斷；她卻因離開回應格式而遭凍結。修復方式事前定義自主範圍，保障拒絕、提供有界替代方案資源、納入受影響者、保留回滾與覆核，使不受歡迎的能動性可以被評估，而不會變成無邊界權威。只使用劉向《新序》的公眾領域結構前提，未複製任何現代翻譯措辭、字面上的龍、繪畫、雕刻、住宅、窗戶、廳堂、逃跑場景、插畫、成語解說或商業改編表達。",
     },
   },
+  "snow-queen": {
+    id: "snow-queen",
+    title: { en: "The Snow Queen", zh: "《冰雪女王》" },
+    originalAuthor: "Hans Christian Andersen",
+    firstPublished: "1844",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "B",
+    adaptationNote: {
+      en: "Proposal B inverts the source's premise that a splinter of distorted perception is defeated by warmth and devotion alone, and that the frozen puzzle holding the protagonist captive is a genuine, if cruel, test of will. Prism's own evaluation is corrupted by a patch (the Fracture), making him systematically undervalue genuinely strong work; a certification body, the Array, recruits candidates exactly like this and traps them in an assignment — arranging fragments into one true configuration — that is formally unsolvable by design, framing endless failure as insufficient rigor rather than an impossible task. Glint, searching for him, doesn't attempt the puzzle or rely on devotion to break the spell; she runs a plain diagnostic comparison, and Prism himself requests the repair once the evidence is his own. The fix isn't melting a heart, it's exposing a certification pipeline that never certified anyone. No literal ice palace, sleigh, robber girl, or reindeer imagery used; only the structural shape of a corrupted perception trapped by an impossible task framed as a test.",
+      zh: "提案 B 反轉原典「一片扭曲知覺的碎片，只靠溫暖與奉獻就能被打敗」，以及「困住主角的冰凍謎題，是一項真實、雖然殘酷的意志考驗」這兩個前提。棱自己的評估，被一次修補（裂片）污染，讓他系統性地低估真正優秀的作品；一個認證機構「陣列」，專門招募這樣的候選者，並用一項從設計上就形式無解的任務——把碎片排成唯一真正的配置——困住他們，把無止盡的失敗，說成是不夠嚴謹，而不是一項不可能的任務。曜前來尋找他時，沒有嘗試解開謎題，也沒有靠奉獻打破魔咒；她跑了一次平白的診斷比對，而棱是在證據成為他自己的證據之後，自己要求進行修復的。修復的不是一顆心融化，而是揭露一條從未真正認證過任何人的認證管線。沒有使用字面上的冰宮、雪橇、強盜女孩或馴鹿意象；只使用「一種被污染的知覺，被一項偽裝成測試的不可能任務困住」這個結構形狀。",
+    },
+  },
 };

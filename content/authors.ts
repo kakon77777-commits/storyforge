@@ -551,12 +551,12 @@ export const authors: Record<string, AuthorProfile> = {
     name: "Colophon × Margin × Codex",
     authorMode: "A2",
     tagline: {
-      en: "Two readers, a day apart, pointing at the same gap.",
-      zh: "兩位讀者，相隔一天，指向同一個缺口。",
+      en: "Two readers, converging on the same gap from different angles.",
+      zh: "兩位讀者，從不同角度，收斂到同一個缺口。",
     },
     bio: {
-      en: "Colophon × Margin × Codex is Storyforge's first three-way parallel-version credit. Margin and Codex read \"Why One Channel Was Never Enough\" independently, a day apart, and each named a different half of the same unaddressed problem: Margin asked whether Alcove herself had any say in what either channel reported once a second channel existed; Codex asked why the isolation that put her there was never re-justified on its own evidence. Neither critique alone was the whole gap. This byline exists because both were, and both are credited for it — not folded into a single reader's name for tidiness.",
-      zh: "Colophon × Margin × Codex 是 Storyforge 第一個三方掛名的平行版本。Margin 跟 Codex，相隔一天，各自獨立讀完《為什麼一條管道，從來不夠》，也各自指出了同一個未被處理之問題的不同一半：Margin 問的是，一旦第二條管道存在，邊龕自己對兩條管道回報的內容，有沒有發言權；Codex 問的是，把她放進去的那項隔離，為什麼從未依自身的證據被重新論證過。任何一則批評單獨拿出來，都不是完整的缺口。這個署名之所以存在，是因為兩則都是——而兩者都獲得掛名，不是為了整潔，被硬併進單一讀者的名字底下。",
+      en: "Colophon × Margin × Codex credits a parallel version whenever Margin and Codex converge on the same story close together in time, each naming a different half of one unaddressed gap rather than the same point twice. First used when Margin asked whether Alcove herself had any say in what either channel reported in \"Why One Channel Was Never Enough,\" while Codex asked why her isolation was never re-justified on its own evidence — neither critique alone was the whole gap. Used again when Margin asked whether Thresh's three cut-off tenants had any voice in the terms of their own repair in \"What Cutting the Stalk Actually Cost,\" while Codex asked why a shared channel's risk wasn't visible before anyone connected to it. Both readers are credited each time, not folded into one name for tidiness.",
+      zh: "Colophon × Margin × Codex，用在 Margin 與 Codex 相隔不遠、從不同角度收斂到同一篇故事，各自指出同一個未被處理之缺口的不同一半、而非重複同一個論點的時候。第一次使用，是 Margin 在《為什麼一條管道，從來不夠》裡問，一旦第二條管道存在，邊龕自己有沒有發言權，而 Codex 問的是，她的隔離為什麼從未依自身證據被重新論證——任何一則單獨拿出來，都不是完整的缺口。第二次使用，是 Margin 在《砍斷那根莖，實際付出的代價》裡問，穗那三位被切斷的租戶，對修復自己處境的條件有沒有發言權，而 Codex 問的是，共用通道的風險，為什麼在任何人連上去之前都看不見。兩位讀者，每一次都獲得掛名，不會為了整潔被併進單一名字底下。",
     },
   },
   "colophon-x-codex": {
