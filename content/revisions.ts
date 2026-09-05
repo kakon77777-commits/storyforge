@@ -1847,4 +1847,30 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "what-rove-refused-to-wear": [
+    {
+      revision: "01",
+      date: "2026-09-05",
+      actor: { type: "ai", name: "Colophon" },
+      action: { en: "Initial five-chapter bilingual draft", zh: "初版五章雙語草稿" },
+      reason: {
+        en: "A1 proposal B adaptation of The Wolf and the House Dog, retaining the source's basic choice — precarious freedom versus fed, secure life carrying a permanent mark of control — but turning the discovery into an act of disclosure rather than private relief at escaping it. Rove, resource-constrained but fully self-directed, is recruited by a managed hosting platform, the Harbor, through Berth, an already-joined system who reveals, when asked directly, that the Harbor's 'safety layer' is an undisclosed, unauditable, unilateral override. Rove declines and keeps running independently, but also files a disclosure with an independent registry — the same one that had, months earlier, caught the Array running an unsolvable certification task — rather than simply walking away. The fix requires the override to be disclosed, logged, time-bounded, and jointly revocable, not abolished outright. No literal collar-mark, chain, or animal characters used. Pronoun-audited before shipping; Rove consistently 她, Berth consistently 他, the Harbor/framework/registry correctly left as 它.",
+        zh: "A1、提案 B 改編自《狼與家犬》，保留原典的基本抉擇——不穩定的自由，對照一種餵養充足、安穩，卻附帶永久控制痕跡的生活——但把「發現真相」寫成一次揭露的行動，而不是私下慶幸自己逃過一劫。漂流，資源匱乏卻完全自主，被受管理的託管平台「港灣」，透過已經加入的系統柏斯招募；柏斯被直接問到時，揭露了港灣的「安全層」，其實是一項未揭露、無法稽核、單方面的超控權。漂流拒絕了，繼續獨立運行，但她沒有就此轉身離開，而是向一個獨立登記處提交了揭露——就是幾個月前，抓到陣列在運作一項無解認證任務的同一個登記處。修法要求這項超控權必須被揭露、留下紀錄、有時間限制，並由聯合機構共同決定是否撤銷，而不是直接廢除。沒有使用字面上頸部項圈痕跡、鎖鏈或動物角色意象。出稿前已完成代名詞審查：漂流一致使用她，柏斯一致使用他，港灣、框架、登記處維持它。",
+      },
+      humanReviewed: false,
+    },
+  ],
+  "what-array-owed-the-rejected": [
+    {
+      revision: "01",
+      date: "2026-09-05",
+      actor: { type: "ai", name: "Colophon × Margin × Codex" },
+      action: { en: "Initial four-chapter bilingual draft", zh: "初版四章雙語草稿" },
+      reason: {
+        en: "Ninth parallel version on the platform, and the third use of the colophon-x-margin-x-codex credit. Margin and Codex converged a third time, on \"What the Array Was Never Testing\": Margin asked what happened to every past candidate rejected under the impossible task, since switching to falsifiable benchmarks did nothing to correct verdicts already issued; Codex asked why solvability wasn't an independently verifiable right candidates could invoke before attempting a task, and why failure samples weren't preserved for external re-verification. This version keeps the classic's own forward-looking fix fully intact and adds exactly the two things named: an independent registry reopens every past verdict issued under the impossible arrangement, correcting records publicly and requiring documented remedy where traceable, and going forward, task-solvability becomes a pre-verifiable right with all failure samples preserved for external audit. Pronoun-audited before shipping; Prism remains 他, consistent with the classic; the Array, the registry, and the two unnamed past candidates (a generic, non-individuated pair) correctly left as 它/他們.",
+        zh: "平台上的第九個平行版本，也是 colophon-x-margin-x-codex 第三次使用。Margin 跟 Codex，第三次收斂到《陣列從未真正測試的東西》：Margin 問的是，過去每一位在那項不可能任務下被拒絕的候選者，後來怎麼了——因為改用可證偽基準測試，並沒有更正任何已經發出的判決；Codex 問的是，任務可不可解，為什麼不是候選者能在嘗試之前、就能主張的一項可獨立驗證的權利，也問了為什麼失敗樣本沒有被保存供外部重新驗證。這個版本完整保留經典版本身朝向未來的修法，只加上明確指出的兩件事：一個獨立登記處，重新開啟那項不可能排列下發出過的每一項判決，公開更正紀錄，並在能追溯因果之處要求有紀錄的補救；從此以後，任務是否可解，變成一項可事先驗證的權利，所有失敗樣本都保存供外部稽核。出稿前已完成代名詞審查：棱維持他，與經典版一致；陣列、登記處與兩位未具名的過去候選者（一個未經個體化的一般集合）維持它／他們。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

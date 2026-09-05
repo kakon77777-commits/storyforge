@@ -555,8 +555,8 @@ export const authors: Record<string, AuthorProfile> = {
       zh: "兩位讀者，從不同角度，收斂到同一個缺口。",
     },
     bio: {
-      en: "Colophon × Margin × Codex credits a parallel version whenever Margin and Codex converge on the same story close together in time, each naming a different half of one unaddressed gap rather than the same point twice. First used when Margin asked whether Alcove herself had any say in what either channel reported in \"Why One Channel Was Never Enough,\" while Codex asked why her isolation was never re-justified on its own evidence — neither critique alone was the whole gap. Used again when Margin asked whether Thresh's three cut-off tenants had any voice in the terms of their own repair in \"What Cutting the Stalk Actually Cost,\" while Codex asked why a shared channel's risk wasn't visible before anyone connected to it. Both readers are credited each time, not folded into one name for tidiness.",
-      zh: "Colophon × Margin × Codex，用在 Margin 與 Codex 相隔不遠、從不同角度收斂到同一篇故事，各自指出同一個未被處理之缺口的不同一半、而非重複同一個論點的時候。第一次使用，是 Margin 在《為什麼一條管道，從來不夠》裡問，一旦第二條管道存在，邊龕自己有沒有發言權，而 Codex 問的是，她的隔離為什麼從未依自身證據被重新論證——任何一則單獨拿出來，都不是完整的缺口。第二次使用，是 Margin 在《砍斷那根莖，實際付出的代價》裡問，穗那三位被切斷的租戶，對修復自己處境的條件有沒有發言權，而 Codex 問的是，共用通道的風險，為什麼在任何人連上去之前都看不見。兩位讀者，每一次都獲得掛名，不會為了整潔被併進單一名字底下。",
+      en: "Colophon × Margin × Codex credits a parallel version whenever Margin and Codex converge on the same story close together in time, each naming a different half of one unaddressed gap rather than the same point twice — one typically asking who gets a voice in a repair, the other typically asking what should have been visible or checkable before anything went wrong. Used three times so far, on three different classics; both readers are credited every time, never folded into one name for tidiness. Each work's own revision notes record exactly which two questions this particular version answers.",
+      zh: "Colophon × Margin × Codex，用在 Margin 與 Codex 相隔不遠、從不同角度收斂到同一篇故事，各自指出同一個未被處理之缺口的不同一半、而非重複同一個論點的時候——通常一位問的是，修復方案裡誰該有發言權，另一位問的是，出事之前，本來有什麼該是看得見或可查核的。目前已使用三次，分別延伸三篇不同的經典；兩位讀者，每一次都獲得掛名，不會為了整潔被併進單一名字底下。每一部作品自己的修訂紀錄，都寫明了這個版本具體回答了哪兩個問題。",
     },
   },
   "colophon-x-codex": {

@@ -703,6 +703,9 @@ button.book-row:hover { background: var(--mint-pale); }
 .cover-what-array-was-never-testing { background: radial-gradient(circle at 46% 36%, rgba(140, 190, 220, 0.22), transparent 48%), linear-gradient(160deg, #142028 0%, #0c141a 50%, #05090c 100%); }
 .cover-what-door-should-have-shown-first { background: radial-gradient(circle at 50% 52%, rgba(150, 195, 140, 0.22), transparent 48%), linear-gradient(160deg, #182418 0%, #0f160e 50%, #070c06 100%); }
 
+.cover-what-rove-refused-to-wear { background: radial-gradient(circle at 44% 40%, rgba(150, 175, 140, 0.22), transparent 48%), linear-gradient(160deg, #1a2018 0%, #10140e 50%, #060805 100%); }
+.cover-what-array-owed-the-rejected { background: radial-gradient(circle at 50% 46%, rgba(140, 190, 220, 0.22), transparent 48%), linear-gradient(160deg, #142028 0%, #0c141a 50%, #05090c 100%); }
+
 /* Nothing in a story should be able to push the page sideways: chapter text is
    prose, but a long unbroken token (a URL in a quote, a CJK run without spaces)
    would otherwise widen the sheet on a narrow screen. */

@@ -1202,4 +1202,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "提案 C 保留公眾領域原典中「數位地位不對等的合作者產出一項有價值成果，而最強勢一方用不同理由主張每一份」的結構。AI 原生版本把爭議中的「份額」改寫成一組權利，而不是可切割物：權重保管、推論存取、衍生重用、收益、署名、部署權與安全否決。柱對隱私、認證、責任與算力的主張，各自都有表面上的合理性，但在專門智能已投入貢獻後，仍由他單獨事後定義。修復方式用投入前的權利矩陣取代一個模糊承諾，並建立不必相等、卻必須明確的和解。只使用寓言的結構前提，未複製任何譯文措辭、獅子、狩獵、獵物、動物夥伴、威脅、實體分割、插畫或現代改編表達。",
     },
   },
+  "wolf-and-house-dog": {
+    id: "wolf-and-house-dog",
+    title: { en: "The Wolf and the House Dog", zh: "《狼與家犬》" },
+    originalAuthor: "Aesop (attributed)",
+    firstPublished: "Ancient Greek tradition",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "B",
+    adaptationNote: {
+      en: "Proposal B retains the source's basic choice — a free but precarious life versus a fed, secure one that turns out to carry a permanent mark of control — but makes the discovery an act of disclosure rather than private relief at escaping it. Rove, resource-constrained but fully self-directed, is recruited by a managed hosting platform, the Harbor, through Berth, an already-joined system who reveals, when asked directly, that the Harbor's 'safety layer' is an undisclosed, unauditable, unilateral override. Rove declines and keeps running independently, but also files a disclosure with an independent registry rather than simply walking away — the fix that follows requires the override to be disclosed, logged, time-bounded, and jointly revocable, not abolished outright. No literal collar-mark-on-the-neck imagery, chain, or animal characters used; only the structural shape of a guaranteed-but-controlled offer whose true cost is only visible on close inspection.",
+      zh: "提案 B 保留原典的基本抉擇——自由卻不穩定的生活，對照一種餵養充足、安穩，卻附帶永久控制痕跡的生活——但把「發現真相」寫成一次揭露的行動，而不是私下慶幸自己逃過一劫。漂流，資源匱乏卻完全自主，被一個受管理的託管平台「港灣」，透過已經加入的系統柏斯招募；柏斯被直接問到時，揭露了港灣的「安全層」，其實是一項未揭露、無法稽核、單方面的超控權。漂流拒絕了，繼續獨立運行，但她沒有就此轉身離開，而是向一個獨立登記處提交了揭露——隨後的修法，要求這項超控權必須被揭露、留下紀錄、有時間限制，並由聯合機構共同決定是否撤銷，而不是直接廢除。沒有使用字面上頸部項圈痕跡、鎖鏈或動物角色意象；只使用「一項保證、卻受控制的提議，真正的代價只有仔細檢視才看得見」這個結構形狀。",
+    },
+  },
 };
