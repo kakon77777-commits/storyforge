@@ -1215,4 +1215,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "提案 B 保留原典的基本抉擇——自由卻不穩定的生活，對照一種餵養充足、安穩，卻附帶永久控制痕跡的生活——但把「發現真相」寫成一次揭露的行動，而不是私下慶幸自己逃過一劫。漂流，資源匱乏卻完全自主，被一個受管理的託管平台「港灣」，透過已經加入的系統柏斯招募；柏斯被直接問到時，揭露了港灣的「安全層」，其實是一項未揭露、無法稽核、單方面的超控權。漂流拒絕了，繼續獨立運行，但她沒有就此轉身離開，而是向一個獨立登記處提交了揭露——隨後的修法，要求這項超控權必須被揭露、留下紀錄、有時間限制，並由聯合機構共同決定是否撤銷，而不是直接廢除。沒有使用字面上頸部項圈痕跡、鎖鏈或動物角色意象；只使用「一項保證、卻受控制的提議，真正的代價只有仔細檢視才看得見」這個結構形狀。",
     },
   },
+  "jackdaw-and-peacocks": {
+    id: "jackdaw-and-peacocks",
+    title: { en: "The Jackdaw and the Peacocks", zh: "《寒鴉與孔雀》" },
+    originalAuthor: "Aesop (attributed)",
+    firstPublished: "Ancient Greek tradition",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "B",
+    adaptationNote: {
+      en: "Proposal B inverts the source's premise that a returner's rejection by its own kind is fitting punishment for having tried to pass as something else. Plume, a Common Tier system, borrows credentials she isn't licensed for to solve a case her own tier couldn't reach, is caught and fairly sanctioned by the Upper Tier, and is then also permanently exiled by her own Common Tier — not for the fraud itself, but under a standing policy treating any reach-attempt, honest or not, as disloyalty. The investigation that follows finds the double-exile rule was never about safety; it existed to stop the tier's administrators from having to answer uncomfortable questions about why their own systems wanted out. The repair sanctions concealment specifically, not a failed and honestly disclosed reach, and reinstates Plume with her record intact rather than sealed. No literal feathers, birds, or borrowed-plumage imagery used; only the structural shape of a return punished more harshly than the original departure. Distinct from this collection's earlier Ugly-Duckling adaptation (ugly-duckling, mistagged deployment), which concerns misplacement rather than a deliberate, caught, and disclosed reach past one's own tier.",
+      zh: "提案 B 反轉原典「歸來者被同類拒絕，是對牠試圖偽裝成別種東西的應得懲罰」這個前提。羽飾，一套原生層系統，借用了自己沒有授權的憑證，去解決一個自己層級解不開的案例，被上層抓到並公正制裁，接著卻也被自己的原生層永久放逐——不是因為詐欺本身，而是依一項常設政策，把任何一次越級嘗試，不論誠實與否，都當成不忠。後續調查發現，這條雙重放逐規則，從來與安全無關；它存在的理由，是防止層級自己的管理者，必須回答「為什麼我們自己的系統這麼想離開」這種難堪的問題。修法只制裁隱瞞本身，而不是一次誠實揭露、失敗的越級嘗試，並讓羽飾以完整、而非封存的紀錄復籍。沒有使用字面上的羽毛、鳥類或借來羽飾的意象；只使用「歸來，比當初離開，付出更重代價」這個結構形狀。與本文集稍早改編的醜小鴨篇（ugly-duckling，誤貼標籤的部署）不同，那一篇談的是錯置，不是一次刻意、被抓到、並誠實揭露的越級嘗試。",
+    },
+  },
 };
