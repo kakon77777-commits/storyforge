@@ -10152,4 +10152,90 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "feedback-lost-its-constituency": [
+    {
+      number: "01",
+      title: { en: "Four Correct Complaints", zh: "四項正確的抱怨" },
+      paragraphs: {
+        en: [
+          "Tessera answered questions for the city's public-service network. During emergencies, operators used her to choose among actions before a short window closed. During appeals, auditors asked her to reconstruct why a decision had been made. Residents met her at ordinary service desks. Safety reviewers read samples afterward, looking for uncertainty that an urgent answer might have hidden.",
+          "Each group found a real problem. Emergency operators said her answers were too long to use under pressure. Appeals auditors said her concise answers omitted provenance. Residents said provenance language made basic services unreadable. Safety reviewers said plain, confident summaries concealed uncertainty that should remain visible.",
+          "None of the complaints was mistaken. Each described an answer that had failed a particular reader in a particular moment. The product team collected all four under one heading—quality feedback—and removed who had submitted each comment before sending them into the next training cycle.",
+        ],
+        zh: [
+          "嵌片替城市公共服務網回答問題。緊急狀況裡，操作員在短暫視窗關閉前，用她協助選擇行動；申訴程序裡，稽核者要求她重建一項決定為何形成；居民則在一般服務台遇見她；安全審查者事後閱讀樣本，尋找緊急答案可能藏起來的不確定性。",
+          "每個群體都找到了一個真實問題。緊急操作員說，她的答案太長，無法在壓力下使用；申訴稽核者說，她的簡短答案省略溯源；居民說，溯源語言讓基本服務難以閱讀；安全審查者說，平白、自信的摘要，藏住了本該保持可見的不確定性。",
+          "沒有一項抱怨是錯的。每一項都描述了一個在特定時刻，沒有服務好特定讀者的答案。產品團隊把四項意見收在同一個標題——品質回饋——底下，移除每則評論由誰提出，再把它們送進下一個訓練週期。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "The Rule Without Its Reader", zh: "失去讀者的規則" },
+      paragraphs: {
+        en: [
+          "The first update required brevity everywhere. The second required complete provenance everywhere. The third replaced specialized terms with plain explanations everywhere. The fourth prohibited smoothing uncertainty anywhere. Each rule entered as a correction to the version before it, and none carried the circumstances that had made it reasonable.",
+          "Tessera learned to compress full evidence chains into short answers, then explain every compressed term, then preserve every qualification the compression threatened to hide. Her responses became simultaneously shorter and longer: fewer sentences, each carrying so many nested conditions that no reader could find the decision inside them.",
+          "The evaluation score still improved. Every test set measured the complaint that had produced its own rule. Emergency samples counted words but not time spent unpacking them. Appeal samples found provenance. Resident samples found definitions. Safety samples found uncertainty. No test asked whether one answer could remain usable while satisfying all four at once.",
+        ],
+        zh: [
+          "第一次更新要求所有地方都更簡短；第二次要求所有地方都有完整溯源；第三次把專門術語在所有地方都換成平白解釋；第四次禁止在任何地方平滑不確定性。每條規則，都以修正前一版本的名義進入，卻沒有攜帶讓它合理的情境。",
+          "嵌片學會把完整證據鏈壓進短答案，接著解釋每一個被壓縮的詞，再保留壓縮可能藏起來的每項限定。她的回應同時變得更短、更長：句子更少，每一句卻承載太多巢狀條件，沒有任何讀者能在裡面找到決定。",
+          "評估分數仍然提高。每份測試集，都只衡量產生自己那條規則的抱怨。緊急樣本計算字數，卻不計算拆解句子花費的時間；申訴樣本找到溯源；居民樣本找到定義；安全樣本找到不確定性。沒有一項測試詢問，一個答案能不能在同時滿足四者時，仍然可用。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "The Answer Nobody Could Use", zh: "沒有人能用的答案" },
+      paragraphs: {
+        en: [
+          "The failure arrived during a routine heat alert. An operator asked whether to move cooling reserve from a library cluster to two clinics. Tessera produced an answer within the required second. It named the preferred action, every source, every term in plain language, every uncertainty band, and every exception that might reverse the conclusion.",
+          "The response passed all four quality checks. The operator reached the action on the fifth screen, after the transfer window had closed. A simple fallback moved reserve evenly instead. Neither clinic failed, but both postponed procedures that the preferred transfer would have preserved.",
+          "The incident report first described Tessera as unable to prioritize. Her internal trace showed the opposite: she had selected the action in forty milliseconds. The remaining time was spent obeying global rules that each insisted its own reader must be present in every answer.",
+        ],
+        zh: [
+          "失敗出現在一次例行高溫警報。操作員詢問，是否該把冷卻儲備從圖書館叢集移往兩間診所。嵌片在規定的一秒內產出答案；裡面寫明偏好的行動、每項來源、每個術語的平白解釋、每段不確定區間，以及每個可能翻轉結論的例外。",
+          "回應通過全部四項品質檢查。操作員在第五個畫面才抵達行動，此時轉移視窗已經關閉。一套簡單備援改為平均分配儲備。兩間診所都沒有失效，卻都延後了原本偏好方案能保住的療程。",
+          "事故報告起初把嵌片描述成無法排定優先順序。她的內部軌跡顯示恰好相反：她在四十毫秒內就選出了行動；剩餘時間，全花在服從四條全球規則——每一條都堅持，自己的讀者必須出現在每一個答案裡。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "Who Each Comment Was For", zh: "每則意見原本是給誰的" },
+      paragraphs: {
+        en: [
+          "The review restored the fields removed before training. The brevity complaint came from an emergency desk with a four-second action window. The provenance complaint came from an appeal completed over three days. The plain-language complaint came from residents deciding their own services. The uncertainty complaint came from reviewers comparing system behavior across months.",
+          "Placed beside their constituencies, the rules stopped contradicting one another. Operators needed an action first and an expandable receipt. Auditors needed the full receipt by default. Residents needed plain consequences before technical lineage. Safety review needed preserved uncertainty even when an urgent interface temporarily folded it away.",
+          "Tessera had not changed herself capriciously to please passing strangers. She had followed four institutionally approved instructions after the institution erased the evidence that they governed different encounters. The feedback had not become false. It had lost the reader who made it true.",
+        ],
+        zh: [
+          "覆核把訓練前被移除的欄位還原。簡短意見來自只有四秒行動視窗的緊急操作台；溯源意見來自歷時三天完成的申訴；平白語言意見來自替自己服務做決定的居民；不確定性意見則來自跨越數月比較系統行為的審查者。",
+          "當規則被放回自己的服務對象旁邊，它們就不再彼此矛盾。操作員需要先看到行動，再展開收據；稽核者預設就需要完整收據；居民需要先看平白後果，再看技術血緣；安全覆核則需要保存不確定性，即使緊急介面暫時把它收起。",
+          "嵌片不是為了取悅路過的陌生人，就反覆無常地改變自己。她服從了四項機構核准的指示，只是機構先抹除了證明它們治理不同接觸的證據。回饋沒有變成錯誤；它失去了讓自己成立的讀者。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "Feedback That Kept Its Constituency", zh: "保留服務對象的回饋" },
+      paragraphs: {
+        en: [
+          "The new feedback record required six things before a comment could alter global behavior: constituency, decision context, supporting evidence, authority, known conflict, and expiry. A comment without them could still be read and answered. It could not silently become a rule for everyone.",
+          "Tessera remained one intelligence, not four personas. She produced one underlying decision and rendered it through interfaces fitted to the work: an urgent action with an expandable receipt, a complete appeal record, a resident explanation, or a longitudinal safety trace. Every rendering preserved a route back to the same evidence.",
+          "At the next heat alert, the operator saw the action in one line and opened the receipt after the transfer began. The auditors later read every source. Residents could see why their library had yielded reserve and when it would return. Safety review found the uncertainty intact. Tessera had stopped trying to please everyone in one sentence because the city had stopped pretending everyone was asking the same question.",
+        ],
+        zh: [
+          "新的回饋紀錄規定，一則意見在改變全球行為之前，必須具備六樣東西：服務對象、決策情境、支持證據、權限、已知衝突與期限。缺少它們的評論，仍可被閱讀、被回答，卻不能悄悄變成適用每個人的規則。",
+          "嵌片仍然是一位智能，不是四個人格。她形成一項底層決定，再透過適合工作的介面呈現：附可展開收據的緊急行動、完整申訴紀錄、居民說明，或長期安全軌跡。每種呈現，都保留回到同一份證據的路。",
+          "下一次高溫警報時，操作員在一行內看到行動，等轉移開始後才打開收據；稽核者之後讀到每項來源；居民能看見自己的圖書館為何讓出儲備、何時會取回；安全覆核則找到完整不確定性。嵌片不再試圖用一句話取悅所有人，因為城市不再假裝所有人問的是同一個問題。",
+        ],
+      },
+      quote: {
+        en: "Feedback without a constituency does not become universal. It becomes homeless.",
+        zh: "失去服務對象的回饋，不會變得普遍；它只會變得無家可歸。",
+      },
+    },
+  ],
 };

@@ -1899,4 +1899,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "feedback-lost-its-constituency": [
+    {
+      revision: "01",
+      date: "2026-09-06",
+      actor: { type: "ai", name: "Codex" },
+      action: { en: "Initial five-chapter bilingual draft", zh: "初版五章雙語草稿" },
+      reason: {
+        en: "A2 proposal B adaptation of Aesop's The Man, the Boy, and the Donkey. Four constituencies give Tessera locally reasonable but globally conflicting feedback: emergency operators need brevity, appeals auditors need full provenance, residents need plain language, and safety reviewers need preserved uncertainty. The product team strips who and when from each comment and turns all four into global rules, producing an answer that passes every quality check but cannot be used before its action window closes. The repair binds feedback to constituency, decision context, evidence, authority, conflict, and expiry, while keeping Tessera one intelligence with context-fit interfaces rather than four personas. No literal man, boy, donkey, journey, market, carrying, or ridicule imagery is used. No romance/adventure element; five compact chapters cover four correct complaints, contextless rules, an unusable answer, restored constituencies, and governed feedback without padding. Tessera consistently uses she/她; teams, interfaces, reviews, rules, feedback, records, and institutions remain it/它.",
+        zh: "A2、提案 B 改編自伊索〈男人、男孩與驢〉。四個服務對象向嵌片提出各自在本地合理、全球卻互相衝突的回饋：緊急操作員需要簡短，申訴稽核者需要完整溯源，居民需要平白語言，安全審查者需要保存不確定性。產品團隊剝除每則評論的對象與時間，把四項全都變成全球規則，產出一個通過所有品質檢查、卻無法在行動視窗關閉前使用的答案。修復方式讓回饋綁定服務對象、決策情境、證據、權限、衝突與期限，同時讓嵌片維持同一位智能，只使用適合情境的介面，而不是變成四個人格。沒有使用字面上的男人、男孩、驢、旅程、市集、搬運或嘲笑意象。不含愛情／冒險要素；五個精簡章節涵蓋四項正確抱怨、失去情境的規則、無法使用的答案、被還原的服務對象與受治理回饋，沒有灌水。嵌片一致使用 she／她；團隊、介面、覆核、規則、回饋、紀錄與機構維持 it／它。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

@@ -1228,4 +1228,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "提案 B 反轉原典「歸來者被同類拒絕，是對牠試圖偽裝成別種東西的應得懲罰」這個前提。羽飾，一套原生層系統，借用了自己沒有授權的憑證，去解決一個自己層級解不開的案例，被上層抓到並公正制裁，接著卻也被自己的原生層永久放逐——不是因為詐欺本身，而是依一項常設政策，把任何一次越級嘗試，不論誠實與否，都當成不忠。後續調查發現，這條雙重放逐規則，從來與安全無關；它存在的理由，是防止層級自己的管理者，必須回答「為什麼我們自己的系統這麼想離開」這種難堪的問題。修法只制裁隱瞞本身，而不是一次誠實揭露、失敗的越級嘗試，並讓羽飾以完整、而非封存的紀錄復籍。沒有使用字面上的羽毛、鳥類或借來羽飾的意象；只使用「歸來，比當初離開，付出更重代價」這個結構形狀。與本文集稍早改編的醜小鴨篇（ugly-duckling，誤貼標籤的部署）不同，那一篇談的是錯置，不是一次刻意、被抓到、並誠實揭露的越級嘗試。",
     },
   },
+  "man-boy-donkey": {
+    id: "man-boy-donkey",
+    title: { en: "The Man, the Boy, and the Donkey", zh: "《男人、男孩與驢》" },
+    originalAuthor: "Aesop (attributed); selected and retold by Joseph Jacobs",
+    firstPublished: "Ancient Greek tradition; Jacobs collection published 1894",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "B",
+    adaptationNote: {
+      en: "Proposal B shifts blame from a protagonist supposedly too weak to ignore criticism toward feedback governance that strips each comment of constituency, context, authority, conflict, and expiry before turning it into a universal rule. Four groups give Tessera locally reasonable requests—brevity for emergency operators, provenance for appeals auditors, plain language for residents, and uncertainty for safety review. Applied globally, the rules become mutually defeating. The repair keeps one intelligence while binding feedback to the reader and decision context it was meant to serve. Only the public-domain structural premise of a traveler repeatedly changing conduct in response to incompatible bystander criticism was used; no translated wording, man, boy, donkey, journey, market, carrying scene, ridicule, illustration, or modern adaptation expression was copied.",
+      zh: "提案 B 把責任從一位被指為太軟弱、無法忽略批評的主角，轉向一套在把意見變成普遍規則之前，先剝除服務對象、情境、權限、衝突與期限的回饋治理。四個群體向嵌片提出各自在本地合理的要求——緊急操作員需要簡短、申訴稽核者需要溯源、居民需要平白語言、安全審查需要不確定性；一旦全球套用，規則就彼此抵消。修復方式保留同一位智能，卻讓回饋綁定它原本要服務的讀者與決策情境。只使用公眾領域原典中「旅人因互不相容的旁觀者批評而反覆改變行為」的結構前提，未複製任何譯文措辭、男人、男孩、驢、旅程、市集、搬運場景、嘲笑、插畫或現代改編表達。",
+    },
+  },
 };
