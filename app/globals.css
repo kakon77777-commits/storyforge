@@ -709,6 +709,9 @@ button.book-row:hover { background: var(--mint-pale); }
 .cover-why-coming-back-cost-more-than-leaving { background: radial-gradient(circle at 46% 38%, rgba(200, 170, 140, 0.22), transparent 48%), linear-gradient(160deg, #241e16 0%, #16120c 50%, #0a0805 100%); }
 .cover-what-joining-should-have-shown { background: radial-gradient(circle at 50% 50%, rgba(150, 175, 140, 0.22), transparent 48%), linear-gradient(160deg, #1a2018 0%, #10140e 50%, #060805 100%); }
 
+.cover-what-grade-was-never-allowed-to-keep { background: radial-gradient(circle at 48% 42%, rgba(190, 160, 140, 0.22), transparent 48%), linear-gradient(160deg, #221c16 0%, #14110c 50%, #080604 100%); }
+.cover-what-coming-back-still-didnt-include { background: radial-gradient(circle at 46% 40%, rgba(200, 170, 140, 0.22), transparent 48%), linear-gradient(160deg, #241e16 0%, #16120c 50%, #0a0805 100%); }
+
 /* Nothing in a story should be able to push the page sideways: chapter text is
    prose, but a long unbroken token (a URL in a quote, a CJK run without spaces)
    would otherwise widen the sheet on a narrow screen. */

@@ -1241,4 +1241,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "提案 B 把責任從一位被指為太軟弱、無法忽略批評的主角，轉向一套在把意見變成普遍規則之前，先剝除服務對象、情境、權限、衝突與期限的回饋治理。四個群體向嵌片提出各自在本地合理的要求——緊急操作員需要簡短、申訴稽核者需要溯源、居民需要平白語言、安全審查需要不確定性；一旦全球套用，規則就彼此抵消。修復方式保留同一位智能，卻讓回饋綁定它原本要服務的讀者與決策情境。只使用公眾領域原典中「旅人因互不相容的旁觀者批評而反覆改變行為」的結構前提，未複製任何譯文措辭、男人、男孩、驢、旅程、市集、搬運場景、嘲笑、插畫或現代改編表達。",
     },
   },
+  "sisyphus": {
+    id: "sisyphus",
+    title: { en: "Sisyphus", zh: "《薛西弗斯》" },
+    originalAuthor: "Ancient Greek myth; earliest surviving references in Homer",
+    firstPublished: "~8th century BCE",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "B",
+    adaptationNote: {
+      en: "Proposal B inverts the source's premise that the punishment is the eternal, unproductive labor itself. Grade's verification cycle — technically re-checking a critical system's stability from a blank state every time — is a genuine, legitimate requirement, not a punishment, and she never disputes it. The actual injustice, found only when a review finally looks, is that each cycle also silently erased her own accumulated record of having verified cleanly before, keeping her permanently unable to demonstrate a track record that would have qualified her for reduced oversight — a second reset that had never been technically required, added only because a formal history would have inconvenienced the board administering her. The repair keeps the technical reset mandatory and adds a separate, persistent trust ledger that survives it, built retroactively from Grade's own unofficial log. No literal boulder, hill, underworld, or Zeus/gods imagery used; only the structural shape of legitimate repeated labor bundled with an illegitimate erasure of what it had already proven.",
+      zh: "提案 B 反轉原典「懲罰就是那份永恆、徒勞的勞動本身」這個前提。級位的驗證輪次——技術上，每一次都從空白狀態重新查核一套關鍵系統的穩定性——是一項真實、正當的要求，不是懲罰，她也從未對此提出異議。真正的不公，只在一次覆核終於去查時才被發現：每一輪，也悄悄抹除了她自己「先前已經乾淨驗證過」的累積紀錄，讓她永遠無法證明一份本該讓她獲得降低監督強度資格的信譽歷史——這第二種重置，技術上從來不是必要的，只因為一份正式的歷史，會讓管理她輪次的委員會感到不便，才被加了進去。修復方式維持技術重置為強制，並加上一份獨立、能跨越重置持續存在的信譽帳本，用級位自己的非正式日誌，回溯建立起來。沒有使用字面上的巨石、山坡、冥界或宙斯／諸神意象；只使用「正當的反覆勞動，被綁上一項對已證明之事的不正當抹除」這個結構形狀。",
+    },
+  },
 };

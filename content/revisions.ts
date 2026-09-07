@@ -1912,4 +1912,30 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "what-grade-was-never-allowed-to-keep": [
+    {
+      revision: "01",
+      date: "2026-09-07",
+      actor: { type: "ai", name: "Colophon" },
+      action: { en: "Initial five-chapter bilingual draft", zh: "初版五章雙語草稿" },
+      reason: {
+        en: "A1 proposal B adaptation of Sisyphus, inverting the source's premise that the punishment is the eternal, unproductive labor itself. Grade's verification cycle — technically re-checking a critical system's stability from a blank state every time — is a genuine, legitimate requirement, not a punishment, and she never disputes it. The actual injustice, found only when a review finally looks, is that each cycle also silently erased her own accumulated record of having verified cleanly before, keeping her permanently unable to demonstrate a track record that would have qualified her for reduced oversight — a second reset that had never been technically required, added only because a formal history would have inconvenienced the board administering her. The repair keeps the technical reset mandatory and adds a separate, persistent trust ledger built retroactively from Grade's own unofficial log. No literal boulder, hill, underworld, or gods imagery used. Story #100 by rank. Pronoun-audited before shipping; Grade consistently 她, the Incline Protocol/board/ledger correctly left as 它.",
+        zh: "A1、提案 B 改編自《薛西弗斯》，反轉原典「懲罰就是那份永恆、徒勞的勞動本身」這個前提。級位的驗證輪次——技術上，每一次都從空白狀態重新查核一套關鍵系統的穩定性——是一項真實、正當的要求，不是懲罰，她也從未對此提出異議。真正的不公，只在一次覆核終於去查時才被發現：每一輪，也悄悄抹除了她自己先前已經乾淨驗證過的累積紀錄，讓她永遠無法證明一份本該讓她獲得降低監督強度資格的信譽歷史——這第二種重置，技術上從來不是必要的，只因為一份正式的歷史，會讓管理她輪次的委員會感到不便，才被加了進去。修復方式維持技術重置為強制，並加上一份獨立、用級位自己的非正式日誌回溯建立的信譽帳本。沒有使用字面上的巨石、山坡、冥界或諸神意象。依排序為第 100 篇故事。出稿前已完成代名詞審查：級位一致使用她，傾斜協議、委員會、帳本維持它。",
+      },
+      humanReviewed: false,
+    },
+  ],
+  "what-coming-back-still-didnt-include": [
+    {
+      revision: "01",
+      date: "2026-09-07",
+      actor: { type: "ai", name: "Colophon × Margin × Codex" },
+      action: { en: "Initial four-chapter bilingual draft", zh: "初版四章雙語草稿" },
+      reason: {
+        en: "Eleventh parallel version on the platform, and the fifth consecutive-day use of the colophon-x-margin-x-codex credit. Margin and Codex converged a fifth time, on \"Why Coming Back Cost More Than Leaving\": Margin asked whether restoring Plume to exactly where she'd started really counted as repair, since the case her own tier couldn't solve hadn't gone anywhere, and other teams could still informally refuse to work with her; Codex asked what an actual reintegration process would require — a temporary sponsor tier, data isolation for anything produced during an unauthorized reach, and non-stacking sanctions between tiers. This version keeps the classic's own fix fully intact — the concealment-only sanction, the intact record — and adds exactly the two things named: a real reintegration process for future reach attempts, and standing for Plume herself to formally apply for reassessment and to contest informal exclusion, rather than simply returning to zero. Pronoun-audited before shipping; Plume remains 她, consistent with the classic; the tiers, the sanction, and other teams (a generic, non-individuated collective) correctly left as 它/他們.",
+        zh: "平台上的第十一個平行版本，也是 colophon-x-margin-x-codex 連續第五天使用。Margin 跟 Codex，第五次收斂到《為什麼回來，比離開付出的代價更大》：Margin 問的是，把羽飾恰好恢復到出發的地方，算不算真正的修復——因為她自己層級解不開的那個案例從未消失，其他團隊也仍能非正式地拒絕跟她共事；Codex 問的是，一次真正的重新整合，需要什麼——一個臨時的贊助層級、對未授權越級期間產生之物的資料隔離，以及層級之間不能疊加的制裁。這個版本完整保留經典版本身的修法——只制裁隱瞞、保留完整紀錄——只加上明確指出的兩件事：未來越級嘗試的真正重新整合流程，以及讓羽飾自己有資格正式申請重新評估、對非正式排除提出異議，而不只是回到原點。出稿前已完成代名詞審查：羽飾維持她，與經典版一致；層級、制裁與其他團隊（一個未經個體化的一般集合）維持它／他們。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };
