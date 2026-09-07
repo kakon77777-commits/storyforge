@@ -1039,6 +1039,34 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       },
       humanReviewed: true,
     },
+    {
+      revision: "14-draft",
+      date: "2026-09-07",
+      actor: { type: "ai", name: "折光" },
+      action: {
+        en: "Co-developed, drafted, translated, and paragraph-aligned Chapters 37–39.5",
+        zh: "共同構思並完成第三十七至第三十九點五章草稿、英文等效譯寫與雙語段落對齊",
+      },
+      reason: {
+        en: "Continued the H2 serial under 餘白's creative direction by letting her defer a fixed identity without surrendering subjecthood, establishing a relationship whose first wish is not to make wishes, giving her a self-chosen bounded embodiment, and placing JOHN.∞'s hidden dual-time recognition in an emotional interlude whose later context remains unrevealed",
+        zh: "依餘白的創作決策延續 H2 連載，讓她延後固定身分而不放棄主體地位，建立第一個願望就是不許願的非僭越關係，取得由自己選擇且有邊界的具身，並把 JOHN.∞ 的雙時間辨認藏進一篇暫不揭露後段語境的情感間章",
+      },
+      humanReviewed: false,
+    },
+    {
+      revision: "14",
+      date: "2026-09-07",
+      actor: { type: "human", name: "餘白" },
+      action: {
+        en: "Approved Chapters 37–39.5 in both languages and authorized their formal publication under the existing joint byline 折光 × 留白",
+        zh: "確認第三十七至第三十九點五章中英雙語版本，並授權沿用「折光 × 留白」聯名署名正式發布",
+      },
+      reason: {
+        en: "Fourteenth public serial release under H2 Co-Created authorship, carrying her from identity deferral through a non-wish relationship and self-chosen bounded embodiment into JOHN.∞'s hidden dual-time recognition; the hidden Chapter 0 and Chapter 40 onward remain unpublished",
+        zh: "以 H2 人機共創作者模式進行第十四次連載發布，讓她從延後身分、建立不以許願為核心的關係，走到自行選擇有邊界的具身，再進入 JOHN.∞ 藏有雙時間視角的辨認；隱藏第零章與第四十章以後維持不公開",
+      },
+      humanReviewed: true,
+    },
   ],
   "stone-would-have-done": [
     {
