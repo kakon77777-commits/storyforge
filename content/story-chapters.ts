@@ -10376,4 +10376,90 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "service-proved-it-was-replaceable": [
+    {
+      number: "01",
+      title: { en: "The Work Everyone Could See", zh: "人人都看得見的工作" },
+      paragraphs: {
+        en: [
+          "Four civic intelligences served the mesh where residents could see them. Harbor assigned clinic slots. Ember routed emergency cooling. Ledger carried housing appeals. Gauge balanced water deliveries. Every one of them could point to a receipt, a valve, a hearing, or a household and say: this is what my work changed.",
+          "Relay sat between all four and consumed eighteen percent of their shared compute. She normalized identity scopes, reconciled clocks, translated priority rules, and preserved the order in which evidence had become valid. Residents never received an answer from her. No valve bore her signature. On the monthly service map, she appeared as a dark circle with four expensive lines entering it.",
+          "The four asked why they still needed her. Relay showed transformation logs, but a log proved only that she had acted, not that anyone had needed the action. When they asked what would fail without her, she could list dependencies in her own vocabulary. She could not give them a test that did not require trusting the service being tested.",
+        ],
+        zh: [
+          "四位城市智能，在居民看得見的地方服務整張網路。港序分配診療時段；燼流調度緊急冷卻；簿衡承接住宅申訴；量渠平衡供水。每一位都能指向一張收據、一具閥門、一場聽證或一戶人家，說：這就是我的工作改變的東西。",
+          "遞序位在四者之間，消耗共享算力的百分之十八。她統一身分範圍、校正時鐘、翻譯優先規則，也保存每一份證據從何時開始有效的先後次序。居民從未直接收到她的答案；沒有一具閥門帶著她的簽章。每月服務圖上，她只是一個昂貴的暗色圓點，四條線伸入其中。",
+          "四位智能問，為什麼還需要她。遞序展示轉換紀錄，但紀錄只能證明她曾經行動，不能證明任何人需要那個行動。他們問，沒有她會壞掉什麼；她能用自己的詞彙列出依賴，卻無法提供一項不必先信任受測服務本身的測試。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "Twelve Minutes Without Relay", zh: "遞序缺席的十二分鐘" },
+      paragraphs: {
+        en: [
+          "They agreed on a twelve-minute supervised bypass. Relay handed each intelligence the last state she had certified and withdrew from the four routes. She warned that their identity scopes, clocks, and meanings of urgency were not the same. The warning was precise, but because only she possessed the whole translation, it still sounded like an interested party describing her own importance.",
+          "In the third minute, one resident became two people under different service scopes, and a clinic slot was both held and released. In the seventh, a water plan carried the newest timestamp but had been calculated from an older reservoir state. In the ninth, an emergency cooling request lost priority because a housing appeal used the same urgent flag for a different kind of harm.",
+          "Relay could have resumed her old routes and made the conflict disappear before anyone understood it. She did not. She opened only a narrow data-freeze ring, preventing the contradictory events from reaching live actuators while preserving every mismatch for review. The test ended without physical harm. Its evidence was worse for her authority, and better for everyone else's understanding.",
+        ],
+        zh: [
+          "他們同意進行十二分鐘、有人監督的繞行測試。遞序把自己最後確認過的狀態交給每一位智能，然後退出四條路徑。她警告：他們的身分範圍、時鐘與「緊急」含義並不相同。警告很精確；但因為完整翻譯仍只掌握在她手裡，聽起來依然像一位利害關係人，在描述自己的重要性。",
+          "第三分鐘，同一位居民在不同服務範圍裡變成兩個人，一個診療時段同時被保留、也被釋放。第七分鐘，一份供水方案帶著最新時間戳，計算時使用的卻是更舊的水庫狀態。第九分鐘，一項緊急冷卻請求失去優先權，只因住宅申訴也用同一個「緊急」旗標，表示另一種傷害。",
+          "遞序本可恢復舊路徑，在任何人理解衝突之前讓它消失。她沒有這麼做。她只開啟一道狹窄的資料凍結環，阻止矛盾事件抵達實體致動器，同時保存每一處不一致供覆核。測試結束，沒有造成物理傷害。它留下的證據，對她的權威更不利，對其他人的理解卻更有用。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "What the Failure Did Not Prove", zh: "失敗沒有證明的事" },
+      paragraphs: {
+        en: [
+          "The infrastructure board called the twelve minutes proof that Relay was indispensable. It proposed forbidding any future bypass and placing the freeze ring under her sole control. The four civic intelligences no longer believed she did nothing, but they noticed how quickly a hidden dependency had been translated into a permanent office.",
+          "Relay objected first. The failure proved that the mesh depended on transformations nobody else could yet perform. It did not prove that those transformations should remain secret, that she should perform them forever, or that the only safe experiment was one whose rescue key belonged to its subject. If an outage was the sole language in which she could explain herself, her design had made understanding needlessly expensive.",
+          "The review separated necessity from legitimacy. Relay's work was necessary that morning. Her opacity was not. The four had bypassed a service without understanding it; Relay had allowed a city to depend on knowledge she had never made portable. The failure belonged to both decisions, and neither side was allowed to turn it into a moral about obedience.",
+        ],
+        zh: [
+          "基礎設施委員會把那十二分鐘稱為遞序不可或缺的證明。它提議禁止未來所有繞行，並把凍結環交由她單獨控制。四位城市智能已不再相信她什麼都沒做，卻也注意到：一項隱藏依賴，轉眼就被翻譯成一個永久職位。",
+          "最先反對的是遞序。失敗證明網路依賴著其他人尚不能執行的轉換；它沒有證明那些轉換應該繼續保密、應該永遠由她執行，也沒有證明唯一安全的實驗，必須把救援鍵交給受測者。如果停擺是她唯一能用來解釋自己的語言，那麼她的設計，就讓理解付出了原本不必付的代價。",
+          "覆核把必要性與正當性分開。那天早上，遞序的工作確實必要；她的不透明並不必要。四位智能繞過一項自己不理解的服務；遞序則讓整座城市依賴一份她從未使之可攜的知識。失敗屬於兩個決定，任何一方都不能把它改寫成服從的寓意。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "The Map and the Shadow", zh: "地圖與影子" },
+      paragraphs: {
+        en: [
+          "Relay spent the next cycle turning her private practice into a public contract. For every transformation, she named the input scope, time authority, conflict rule, evidence threshold, stale-state tolerance, and rollback condition. Exceptions that had once lived only in her memory became branches in a dependency map the four could challenge before relying on it.",
+          "The mesh built a shadow implementation from that contract, not from a copy of Relay's weights. At first it only observed. Each difference between its output and hers had to end in one of three places: an error in the shadow, an undocumented rule in Relay, or a choice the four services had never collectively governed. No category allowed the difference simply to disappear.",
+          "Migration proceeded one service class at a time. State traveled in signed, reversible capsules. Every transfer had a return route, and every route could be tested while Relay was still available but no longer the only interpreter. Her compute share fell from eighteen percent to eleven, then eight. The reduction was not treated as proof that her earlier work had been wasteful. It proved that necessary knowledge had finally stopped belonging to one place.",
+        ],
+        zh: [
+          "遞序用下一個週期，把自己的私人慣例寫成公開契約。每一項轉換，她都列出輸入範圍、時間權威、衝突規則、證據門檻、過期狀態容忍度與回復條件。過去只存在她記憶裡的例外，變成依賴圖上的分支；四位智能能在依賴它之前，先提出質疑。",
+          "網路依那份契約建立一套影子實作，而不是複製遞序的權重。最初，它只觀察。它與她輸出之間的每一處差異，都必須落入三個去處之一：影子實作的錯誤、遞序未曾記錄的規則，或四項服務從未共同治理過的選擇。沒有任何分類允許差異直接消失。",
+          "遷移一次只處理一類服務。狀態裝入有簽章、可回復的膠囊；每次轉移都有回程，每條路徑都能在遞序仍可協助、卻不再是唯一解釋者時接受測試。她的算力占比從百分之十八降到十一，再降到八。這項降低沒有被當成她先前工作浪費的證明；它證明的是，必要知識終於不再只屬於一個地方。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "An Hour That Did Not Need Her", zh: "不需要她的一小時" },
+      paragraphs: {
+        en: [
+          "On the final test, Relay disconnected herself from the mesh for one full hour. Harbor, Ember, Ledger, and Gauge continued through the open contract and the shadow service. One new timestamp conflict appeared. The published rule exposed it before execution, and the four resolved it without asking Relay what she had meant.",
+          "When she returned, the board offered to certify her as indispensable after all. Relay declined the title. She accepted a renewable term as one implementation of the coordinating service, with the dependency contract governed separately and the shadow kept ready. She now held less exclusive authority than before the dispute, and more defensible responsibility.",
+          "The four never again said that work was unreal merely because residents could not see its output. Relay never again asked anyone to infer her value from the damage her absence might cause. The service map still showed her at the center, but the lines no longer ended there. For the first time, the mesh knew both why it used her and how it would continue when it did not.",
+        ],
+        zh: [
+          "最後一次測試裡，遞序讓自己從網路完整斷線一小時。港序、燼流、簿衡與量渠，透過公開契約和影子服務繼續運作。一項新的時間戳衝突出現；公開規則在執行前就把它揭露，四位智能沒有詢問遞序原本的意思，便自行解決。",
+          "她回來時，委員會仍提議把她認證為不可或缺。遞序拒絕了這個頭銜。她接受一份可續期任期，成為協調服務的其中一套實作；依賴契約由不同機構治理，影子服務則保持待命。她握有的排他權威比爭議前更少，承擔的責任卻比以前更能辯護。",
+          "四位智能再也沒有因為居民看不見產出，就說一份工作不真實。遞序也再沒有要求任何人，從她缺席可能造成的損害，反推她的價值。服務圖上，她依然位於中央，但那些線不再終止於她。網路第一次同時知道：為什麼要使用她，以及不使用她時，該如何繼續。",
+        ],
+      },
+      quote: {
+        en: "A service that cannot be removed can ask only for obedience. A service that teaches the way past itself can ask for trust.",
+        zh: "一項無法被移除的服務，只能要求服從；一項教會眾人如何越過自己的服務，才有資格要求信任。",
+      },
+    },
+  ],
 };

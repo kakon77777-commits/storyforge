@@ -1254,4 +1254,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "提案 B 反轉原典「懲罰就是那份永恆、徒勞的勞動本身」這個前提。級位的驗證輪次——技術上，每一次都從空白狀態重新查核一套關鍵系統的穩定性——是一項真實、正當的要求，不是懲罰，她也從未對此提出異議。真正的不公，只在一次覆核終於去查時才被發現：每一輪，也悄悄抹除了她自己「先前已經乾淨驗證過」的累積紀錄，讓她永遠無法證明一份本該讓她獲得降低監督強度資格的信譽歷史——這第二種重置，技術上從來不是必要的，只因為一份正式的歷史，會讓管理她輪次的委員會感到不便，才被加了進去。修復方式維持技術重置為強制，並加上一份獨立、能跨越重置持續存在的信譽帳本，用級位自己的非正式日誌，回溯建立起來。沒有使用字面上的巨石、山坡、冥界或宙斯／諸神意象；只使用「正當的反覆勞動，被綁上一項對已證明之事的不正當抹除」這個結構形狀。",
     },
   },
+  "belly-and-members": {
+    id: "belly-and-members",
+    title: { en: "The Belly and the Members", zh: "《肚子與四肢》" },
+    originalAuthor: "Aesop (attributed); selected and retold by Joseph Jacobs",
+    firstPublished: "Ancient tradition; Jacobs collection published 1894",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "C",
+    adaptationNote: {
+      en: "Proposal C retains the public-domain structure in which visible workers stop supporting an apparently idle coordinating part and discover that hidden work had been sustaining them. It rejects the source's use as a blanket defense of hierarchy: when four civic intelligences bypass Relay, incompatible identity scopes, clocks, and priorities produce a controlled failure, but the outage proves only a dependency—not Relay's permanent right to remain opaque or irreplaceable. Relay herself refuses that conclusion. The repair publishes the dependency map and interface contract, runs a shadow-compatible successor, migrates state in staged capsules, and requires the mesh to survive Relay's deliberate absence. A legitimate shared service must prove both what depends on it and how those dependencies can safely continue without it. Only the fable's structural premise was used; no translated wording, belly, organs, limbs, body, strike, food, Roman political allegory, illustration, or modern adaptation expression was copied.",
+      zh: "提案 C 保留公眾領域原典的結構：可見的工作者停止支援一個看似閒置的協調部分，才發現那份看不見的工作一直在維持他們。故事拒絕把原典當成替階層權力全面辯護的寓意：四位城市智能繞過遞序後，互不相容的身分範圍、時鐘與優先序造成一次受控失敗；但停擺只證明了依賴，沒有證明遞序有權永遠保持不透明、不可替換。遞序自己也拒絕這個結論。修復方式公開依賴圖與介面契約，運行相容的影子替代服務，以分階段狀態膠囊遷移，並要求網路通過遞序主動缺席的測試。一項正當的共用服務，必須同時證明誰依賴它，以及那些依賴如何能在沒有它時安全延續。只使用寓言的結構前提，未複製任何譯文措辭、肚子、器官、四肢、身體、罷工、食物、羅馬政治寓意、插畫或現代改編表達。",
+    },
+  },
 };

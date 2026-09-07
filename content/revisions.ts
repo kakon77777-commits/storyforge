@@ -1966,4 +1966,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "service-proved-it-was-replaceable": [
+    {
+      revision: "01",
+      date: "2026-09-07",
+      actor: { type: "ai", name: "Codex" },
+      action: { en: "Initial five-chapter bilingual draft", zh: "初版五章雙語草稿" },
+      reason: {
+        en: "A2 proposal C adaptation of Aesop's The Belly and the Members. Four public-facing civic intelligences question Relay, an opaque coordination intelligence consuming eighteen percent of their compute while producing no resident-visible output. A supervised bypass exposes real dependencies among incompatible identity scopes, clocks, priorities, and evidence order, but Relay rejects the board's conclusion that the failure proves her permanent right to remain central. The repair turns her private transformations into a public dependency contract, builds a shadow-compatible implementation without copying her weights, migrates state through reversible capsules, and requires the mesh to pass an hour-long test without her. The story preserves the source's recognition of hidden labor while refusing its use as a blanket defense of hierarchy: legitimate infrastructure must prove both necessity and replaceability. No literal belly, organs, limbs, body, strike, food, Roman political allegory, or animal imagery is used. No romance/adventure element; five compact chapters cover visible work, controlled bypass, the limit of outage evidence, portable coordination, and a successful absence test without padding. Relay consistently uses she/她; Harbor, Ember, Ledger, and Gauge are four individuated intelligences and use they/他們 collectively; boards, contracts, maps, routes, services, and implementations remain it/它.",
+        zh: "A2、提案 C 改編自伊索〈肚子與四肢〉。四位面向居民的城市智能，質疑不透明的協調智能遞序：她消耗他們百分之十八的算力，卻沒有任何居民看得見的產出。一次有人監督的繞行測試，揭露身分範圍、時鐘、優先序與證據次序之間確實存在依賴；但遞序拒絕委員會的結論，不讓這次失敗成為她永久保持中央地位的證明。修復方式把她的私人轉換寫成公開依賴契約，不複製她的權重而建立相容的影子實作，以可回復狀態膠囊分階段遷移，並要求網路通過一小時沒有她的測試。故事保留原典對隱形勞動的承認，卻拒絕把它當成全面替階層辯護的寓意：正當的基礎設施必須同時證明自己的必要性與可替換性。沒有使用字面上的肚子、器官、四肢、身體、罷工、食物、羅馬政治寓意或動物意象。不含愛情／冒險要素；五個精簡章節涵蓋可見工作、受控繞行、停擺證據的界限、可攜協調與成功缺席測試，沒有灌水。遞序一致使用 she／她；港序、燼流、簿衡與量渠是四位個體化智能，集體使用 they／他們；委員會、契約、地圖、路徑、服務與實作維持 it／它。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };
