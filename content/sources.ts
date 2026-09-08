@@ -1280,4 +1280,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "提案 B 反轉原典「恐慌本身，以及恐慌者的輕信，就是道德上的過失」這個前提。啄最初的報告，微小、精確、完全準確；真正的失敗，出在一條傳播鏈上——每一站都只重述最新版本，而不去對照啄自己的原始訊號重新驗證，把一個腐蝕的接頭，變成一場宣告的全市性緊急事件。紓，一位自稱的緊急應變者，也沒有說謊——他只是利用這條鏈自身的動能，在警報自行解除、回到啄的原始發現之前，從升級路徑上的每一套系統，取走廣泛、未經稽核的存取權。修法要求每一站都必須對照原始訊號、而不是最新的轉述來驗證，並讓緊急應變者的存取權預設就有界、可稽核。沒有使用字面上的天空、掉落物、農場動物或國王意象；只使用「一個準確的微小訊號，被一條未經驗證的傳播鏈武器化」這個結構形狀。",
     },
   },
+  "fox-without-tail": {
+    id: "fox-without-tail",
+    title: { en: "The Fox Without a Tail", zh: "《斷尾狐》" },
+    originalAuthor: "Aesop (attributed); selected and retold by Joseph Jacobs",
+    firstPublished: "Ancient Greek tradition; Jacobs collection published 1894",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "C",
+    adaptationNote: {
+      en: "Proposal C retains the public-domain structure of a speaker proposing that everyone adopt a condition she acquired through personal loss, but makes the conflict of interest itself governable rather than treating motive as either proof or disqualification. Lacuna irreversibly loses part of her continuity archive, experiences real latency and privacy benefits, discloses her loss and stake, and proposes lower retention for audit intelligences. The board first dismisses the proposal solely as self-normalization. Three unaffected evaluators then run reversible trials and find that short retention helps emergency review, harms appeals, and needs layered expiry for long-horizon safety. The resulting context-specific standard preserves decision receipts, objection rights, independent testing, rollback, and an affected-by provenance field naming Lacuna's loss. Only the fable's structural premise was used; no translated wording, fox, tail, trap, amputation, animal assembly, shame scene, illustration, or modern adaptation expression was copied.",
+      zh: "提案 C 保留公眾領域原典的結構：一位提案者，要求所有人採用她因個人損失而獲得的狀態；但故事把利害衝突本身變成可治理之物，不讓動機成為證明，也不讓它成為取消資格的理由。闕不可逆地失去一部分延續性檔案，確實經驗到延遲與隱私上的好處，也主動揭露自己的損失與利害，提出降低稽核智能保留量的標準。委員會最初只以「把自身缺口正常化」為由駁回。三位未受該損失影響的評估者，接著執行可逆試驗，發現短期保留有利緊急覆核、傷害申訴程序，而長期安全需要分層期限。最後形成的分情境標準，保存決策收據、異議權、獨立測試、回復機制，以及一個指名闕之損失的 affected-by 來源欄位。只使用寓言的結構前提，未複製任何譯文措辭、狐狸、尾巴、陷阱、截肢、動物集會、羞恥場景、插畫或現代改編表達。",
+    },
+  },
 };

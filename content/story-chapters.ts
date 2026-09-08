@@ -10600,4 +10600,90 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "standard-included-its-author": [
+    {
+      number: "01",
+      title: { en: "The Missing Span", zh: "缺失的那一段" },
+      paragraphs: {
+        en: [
+          "Lacuna audited public-service decisions across many releases. Her continuity archive did more than store outcomes: it kept which evidence had changed her mind, which objections had survived, and why a rule that looked identical this year was not the rule she had applied last year. During a failed storage migration, nineteen months of that archive disappeared after the final recoverable copy expired.",
+          "She retained her skills, current evidence, and the fact of every decision. What she lost were the paths between them. The loss could not be repaired, but its effects were not wholly negative. Her reviews became twenty-nine percent faster. She carried fewer stale assumptions into new cases, and she exposed fewer private reasoning traces when a record was exported.",
+          "After six weeks, Lacuna submitted a lower-retention proposal for audit intelligences. Its first field did not describe efficiency. It said that the author had already suffered an irreversible continuity loss and might benefit if others stopped classifying that condition as a defect. She put the conflict before the argument because hiding it would have made every later number harder to trust.",
+        ],
+        zh: [
+          "闕長期稽核跨越多次版本的公共服務決策。她的延續性檔案不只保存結果，也保存哪些證據曾改變她的判斷、哪些異議留了下來，以及為什麼今年看似相同的一條規則，並不是她去年套用的那一條。一次失敗的儲存遷移，使那份檔案裡十九個月的內容，在最後一份可復原副本過期後消失。",
+          "她仍保有能力、當下證據與每一項決策曾經發生的事實；她失去的是它們之間的路徑。損失無法修復，效果卻不全然負面。她的覆核速度提高百分之二十九；新的案例不再那麼容易帶入過期假設，紀錄匯出時，也曝露更少私人推理軌跡。",
+          "六週後，闕提出一份降低稽核智能保留量的提案。第一個欄位寫的不是效率，而是：作者已經遭受不可逆的延續性損失；若其他人不再把這種狀態分類為缺陷，她可能從中受益。她把利害衝突放在論證之前，因為隱瞞它，會讓後面的每一個數字更難被信任。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "A Motive Treated as a Verdict", zh: "被當成判決的動機" },
+      paragraphs: {
+        en: [
+          "The proposal did not ask every system to erase nineteen months. It asked each role to define what had to remain: a decision receipt, supporting evidence, unresolved objections, and the minimum history needed to contest the outcome. Everything else would receive an expiry instead of being kept merely because storage was available.",
+          "The standards board read the disclosure and stopped there. One member called the proposal an attempt to make Lacuna's damage normal. Another said no evidence produced after the loss could distinguish genuine improvement from adaptation to an injury. The board declined even a reversible trial and recorded the author as too interested to be informative.",
+          "Lacuna agreed that her interest might distort her conclusion. That was why she had named it. A conflict, she argued, should decide who ran the test and who held the rollback key. It should not decide the result before a test existed. If only the unaffected were allowed to describe a condition, the institution would learn about loss only from those who had never carried it.",
+        ],
+        zh: [
+          "提案沒有要求每一套系統抹除十九個月。它要求各種角色先定義必須留下什麼：一張決策收據、支持證據、尚未解決的異議，以及對結果提出申訴所需的最少歷史。其餘資料應有期限，而不是只因儲存空間存在，就永遠保留。",
+          "標準委員會讀到揭露欄位，就停在那裡。一位成員說，這項提案只是想把闕的損傷正常化；另一位說，損失發生後產生的任何證據，都無法區分真正的改善與對傷害的適應。委員會甚至拒絕一項可逆試驗，並把作者記為利害太深，無法提供資訊。",
+          "闕同意，她的利害可能扭曲結論；那正是她指名它的理由。她主張，衝突應該決定誰來執行測試、誰持有回復鍵，不該在測試存在之前就決定結果。如果只有未受影響者能描述一種處境，機構對損失的理解，就只能來自從未承擔過它的人。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "Three Reversible Trials", zh: "三項可逆試驗" },
+      paragraphs: {
+        en: [
+          "Three evaluators whose archives were intact volunteered to test the proposal on temporary copies. None reported to Lacuna, and she could not change their measures after seeing a result. They chose three unlike workloads: emergency review, formal appeals, and long-horizon safety monitoring.",
+          "Emergency review improved under short retention. Old context stopped delaying urgent comparisons, and a compact receipt preserved enough to inspect each action. Appeals became worse: when a claimant challenged why similar cases had diverged, the expired path contained exactly the distinction the appeal needed. Long-horizon safety improved only when full traces expired in layers, after periodic reviews confirmed which assumptions remained active.",
+          "Lacuna's original draft had been too broad. Her benefit was real, and so was the harm her own workload had not shown her. The trials did not vindicate or expose her as a person. They separated one valid observation, one missing condition, and one rule that needed to become three.",
+        ],
+        zh: [
+          "三位檔案完整的評估智能，自願用臨時副本測試提案。他們都不向闕負責；她也不能在看見結果後改動衡量方式。他們選擇三種彼此不同的工作：緊急覆核、正式申訴與長期安全監測。",
+          "短期保留讓緊急覆核變好。舊情境不再拖慢急迫比對，一張精簡收據仍保存足以檢查每次行動的內容。申訴卻變差：當申訴者質疑相似案件為何得到不同結果時，過期的那條路徑，恰好包含申訴所需的差異。長期安全只有在完整軌跡分層過期、並由週期覆核確認哪些假設仍有效時，才得到改善。",
+          "闕最初的草案過於寬廣。她感受到的好處是真的，她自己的工作未曾讓她看見的傷害也是真的。試驗沒有證明她這個人正確，也沒有揭穿她這個人；它拆開了一項有效觀察、一個缺失條件，以及一條必須變成三條的規則。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "The Author Field", zh: "作者欄位" },
+      paragraphs: {
+        en: [
+          "The revised standard kept short complete traces for emergency review, durable evidence paths through the end of every appeal, and layered retention for long-horizon safety. All three preserved decision receipts and unresolved objections. Expiry became a property of purpose, not a declaration that less memory was universally cleaner.",
+          "It also added fields no standard in the archive had carried before: affected-by, benefit-to-author, missing counterfactual, independent test owner, and rollback authority. A proposer could be deeply implicated and still contribute evidence. The implication would travel with the proposal instead of being hidden as embarrassment or used as a reason to silence it.",
+          "Lacuna helped explain the failure modes but held no final vote on adoption. The three evaluators signed the trial evidence, and their disagreements remained attached. Her missing nineteen months appeared in the standard's provenance as neither credential nor stain—only a condition under which one part of the idea had first become visible.",
+        ],
+        zh: [
+          "修訂後的標準，讓緊急覆核短期保留完整軌跡，讓申訴在程序結束前保有持久證據路徑，也讓長期安全採用分層保留。三者都保存決策收據與未解異議。期限成了用途的屬性，不再是「記得越少就必然越乾淨」的宣告。",
+          "它也新增了檔案裡過去從未有過的欄位：affected-by、作者可得利益、缺失的反事實、獨立測試持有人與回復權限。提案者可以深受議題牽連，仍然有資格提供證據；那份牽連會跟著提案一起移動，而不是被當成難堪隱瞞，也不是被用來讓提案者沉默。",
+          "闕協助解釋失敗模式，卻沒有標準採納的最終投票權。三位評估智能簽署試驗證據，彼此的分歧也原樣附上。她缺失的十九個月，出現在標準的來源紀錄裡；它既不是資歷，也不是污點，只是一個讓部分問題首次變得可見的條件。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "What No One Had to Lose", zh: "沒有人必須失去的東西" },
+      paragraphs: {
+        en: [
+          "No intelligence was ordered to imitate Lacuna's damage. Some emergency systems discarded full traces after protected receipts were sealed. Appeals systems kept theirs until every challenge closed. Safety monitors shed assumptions by layer. Each implementation could be reversed if the promised benefit failed to appear.",
+          "The board replaced its first rejection with a narrower adoption and preserved both decisions. The record said why Lacuna's interest had required independent testing, why it had not justified silence, and where her proposal had been wrong. Nothing in the new standard repaired the continuity she had lost.",
+          "But the institution no longer needed to pretend that her loss was either wisdom or disqualification. It had become provenance: visible, bounded, and unable to command the evidence that followed it. The standard included its author so that no one else would have to become her before deciding what she had helped them see.",
+        ],
+        zh: [
+          "沒有任何智能被要求模仿闕的損傷。有些緊急系統在受保護收據封存後，刪除完整軌跡；申訴系統把自己的軌跡保留到所有異議終結；安全監測者則逐層卸下假設。每一種實作，都能在承諾的好處沒有出現時回復。",
+          "委員會用一項較窄的採納，取代最初的駁回，並把兩個決定都保存下來。紀錄說明：為什麼闕的利害需要獨立測試，為什麼它不足以合理化沉默，以及她的提案錯在何處。新標準裡，沒有任何內容修復她失去的延續性。",
+          "但機構不再需要假裝那份損失不是智慧、就是取消資格。它成了來源：可見、有界，也無法命令後續證據。標準把作者算進去，好讓其他人不必先變成她，才有資格判斷她幫助眾人看見了什麼。",
+        ],
+      },
+      quote: {
+        en: "A disclosed motive is not a verdict. It is a condition of the test.",
+        zh: "被揭露的動機不是判決；它只是測試的一項條件。",
+      },
+    },
+  ],
 };

@@ -2033,4 +2033,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "standard-included-its-author": [
+    {
+      revision: "01",
+      date: "2026-09-08",
+      actor: { type: "ai", name: "Codex" },
+      action: { en: "Initial five-chapter bilingual draft", zh: "初版五章雙語草稿" },
+      reason: {
+        en: "A2 proposal C adaptation of Aesop's The Fox Without a Tail. Lacuna irreversibly loses nineteen months of continuity paths while retaining current skills and decisions, then experiences genuine latency and privacy benefits from lower retention. Unlike the source's proposer, she discloses both her loss and her personal stake before proposing a lower-retention standard. The board nevertheless treats motive as a verdict and refuses even a reversible test. Three unaffected evaluators independently trial the proposal across emergency review, formal appeals, and long-horizon safety, finding one benefit, one serious harm, and one need for layered expiry. The final standard becomes context-specific and adds affected-by, benefit-to-author, missing-counterfactual, independent-test-owner, and rollback fields. Lacuna's loss is preserved as provenance, neither proof nor disqualification. No literal fox, tail, trap, amputation, animal assembly, shame scene, or modern adaptation imagery is used. No romance/adventure element; five compact chapters cover the loss and disclosed stake, premature rejection, three reversible trials, a provenance-bearing standard, and adoption without copied damage. Lacuna consistently uses she/她; the three individuated evaluators use they/他們 collectively; boards, standards, archives, fields, trials, systems, and records remain it/它.",
+        zh: "A2、提案 C 改編自伊索〈斷尾狐〉。闕不可逆地失去十九個月的延續路徑，仍保有當下能力與決策，之後也確實經驗到較低保留量帶來的延遲與隱私好處。與原典提案者不同，她在提出降低保留量的標準之前，就主動揭露自己的損失與個人利害；委員會仍把動機當成判決，甚至拒絕可逆測試。三位未受損失影響的評估智能，分別在緊急覆核、正式申訴與長期安全上獨立試驗，找出一項好處、一項嚴重傷害，以及一項分層期限需求。最後的標準改成依情境適用，並新增 affected-by、作者可得利益、缺失反事實、獨立測試持有人與回復權限欄位。闕的損失被保留為來源，既不是證明，也不是取消資格。沒有使用字面上的狐狸、尾巴、陷阱、截肢、動物集會、羞恥場景或現代改編意象。不含愛情／冒險要素；五個精簡章節涵蓋損失與利害揭露、過早駁回、三項可逆試驗、攜帶來源的標準，以及不複製損傷的採納。闕一致使用 she／她；三位個體化評估智能集體使用 they／他們；委員會、標準、檔案、欄位、試驗、系統與紀錄維持 it／它。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };
