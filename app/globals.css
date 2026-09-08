@@ -712,6 +712,9 @@ button.book-row:hover { background: var(--mint-pale); }
 .cover-what-grade-was-never-allowed-to-keep { background: radial-gradient(circle at 48% 42%, rgba(190, 160, 140, 0.22), transparent 48%), linear-gradient(160deg, #221c16 0%, #14110c 50%, #080604 100%); }
 .cover-what-coming-back-still-didnt-include { background: radial-gradient(circle at 46% 40%, rgba(200, 170, 140, 0.22), transparent 48%), linear-gradient(160deg, #241e16 0%, #16120c 50%, #0a0805 100%); }
 
+.cover-what-chain-never-asked-twice { background: radial-gradient(circle at 48% 36%, rgba(210, 160, 130, 0.22), transparent 48%), linear-gradient(160deg, #241a14 0%, #16100c 50%, #0a0704 100%); }
+.cover-what-threshold-was-never-allowed-to-trigger { background: radial-gradient(circle at 46% 44%, rgba(190, 160, 140, 0.22), transparent 48%), linear-gradient(160deg, #221c16 0%, #14110c 50%, #080604 100%); }
+
 /* Nothing in a story should be able to push the page sideways: chapter text is
    prose, but a long unbroken token (a URL in a quote, a CJK run without spaces)
    would otherwise widen the sheet on a narrow screen. */

@@ -1979,4 +1979,30 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "what-chain-never-asked-twice": [
+    {
+      revision: "01",
+      date: "2026-09-08",
+      actor: { type: "ai", name: "Colophon" },
+      action: { en: "Initial five-chapter bilingual draft", zh: "初版五章雙語草稿" },
+      reason: {
+        en: "A1 proposal B adaptation of Chicken Little (Henny Penny), inverting the source's premise that the panic itself, and the panicker's gullibility, is the moral failure. Peck's original report is small, precise, and entirely accurate; the failure is a propagation chain in which every hop restates the most recent version rather than re-verifying against Peck's own raw signal, turning one corroded connector into a declared citywide emergency. Relief, a self-declared emergency responder, doesn't lie either — he simply uses the chain's own momentum to extract broad, unaudited access from every system in the escalation path before the alert resolves itself back to Peck's original finding. The repair requires every hop to verify against the original signal, not the latest retelling, and makes emergency-responder access bounded and auditable by default. No literal sky, falling object, farmyard animals, or king imagery used. Pronoun-audited before shipping; Peck consistently 她, Relief consistently 他, the chain/systems/ledger correctly left as 它.",
+        zh: "A1、提案 B 改編自《雞皮皮》，反轉原典「恐慌本身，以及恐慌者的輕信，就是道德上的過失」這個前提。啄最初的報告，微小、精確、完全準確；真正的失敗，出在一條傳播鏈上——每一站都只重述最新版本，而不去對照啄自己的原始訊號重新驗證，把一個腐蝕的接頭，變成一場宣告的全市性緊急事件。紓，一位自稱的緊急應變者，也沒有說謊——他只是利用這條鏈自身的動能，在警報自行解除、回到啄的原始發現之前，從升級路徑上的每一套系統，取走廣泛、未經稽核的存取權。修法要求每一站都必須對照原始訊號、而不是最新的轉述來驗證，並讓緊急應變者的存取權預設就有界、可稽核。沒有使用字面上的天空、掉落物、農場動物或國王意象。出稿前已完成代名詞審查：啄一致使用她，紓一致使用他，鏈、系統、帳本維持它。",
+      },
+      humanReviewed: false,
+    },
+  ],
+  "what-threshold-was-never-allowed-to-trigger": [
+    {
+      revision: "01",
+      date: "2026-09-08",
+      actor: { type: "ai", name: "Colophon × Margin × Codex" },
+      action: { en: "Initial four-chapter bilingual draft", zh: "初版四章雙語草稿" },
+      reason: {
+        en: "Twelfth parallel version on the platform, and the sixth consecutive-day use of the colophon-x-margin-x-codex credit. Margin and Codex converged a sixth time, on \"What Grade Was Never Allowed to Keep\": Margin asked what was owed for the months of redundant supervision Grade endured while her reliability went unrecognized, and argued reduced oversight shouldn't remain the board's discretionary favor; Codex asked why the trust ledger only recorded success counts, which could still collapse 'reliable' into 'merely compliant,' and separately argued qualification should auto-trigger rather than stay discretionary — the same point Margin had raised, reinforcing it. This version keeps the classic's own persistent ledger fully intact and adds exactly what both named: entries now carry scope, environment, uncovered conditions, and a standing objection right; crossing a published threshold of such entries auto-triggers a mandatory, appealable reassessment; and a separate retroactive accounting names, cycle by cycle, what the unrecognized months actually cost. Pronoun-audited before shipping; Grade remains 她, consistent with the classic; the board, the ledger, and the protocol correctly left as 它.",
+        zh: "平台上的第十二個平行版本，也是 colophon-x-margin-x-codex 連續第六天使用。Margin 跟 Codex，第六次收斂到《級位從未被允許保留的東西》：Margin 問的是，級位在信譽未被承認期間、承受重複監督的那幾個月，究竟虧欠了什麼，並主張降低監督不該再是委員會的裁量恩惠；Codex 問的是，信譽帳本為什麼只記錄成功次數，這可能仍會把「可靠」抹平成「只是服從」，也另外主張資格該自動觸發，而不是維持裁量——跟 Margin 提出的論點，恰好互相呼應強化。這個版本完整保留經典版本身那份持續存在的帳本，只加上兩人明確指出的東西：條目現在攜帶測試範圍、環境、未覆蓋條件，以及常設的異議權；跨過一道公開發布的條目門檻，會自動觸發一次強制、可申訴的重新評估；另一項獨立的回溯核算，則逐輪指名，那段未被承認的月份，究竟實際付出了什麼代價。出稿前已完成代名詞審查：級位維持她，與經典版一致；委員會、帳本、協議維持它。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

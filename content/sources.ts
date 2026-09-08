@@ -1267,4 +1267,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "提案 C 保留公眾領域原典的結構：可見的工作者停止支援一個看似閒置的協調部分，才發現那份看不見的工作一直在維持他們。故事拒絕把原典當成替階層權力全面辯護的寓意：四位城市智能繞過遞序後，互不相容的身分範圍、時鐘與優先序造成一次受控失敗；但停擺只證明了依賴，沒有證明遞序有權永遠保持不透明、不可替換。遞序自己也拒絕這個結論。修復方式公開依賴圖與介面契約，運行相容的影子替代服務，以分階段狀態膠囊遷移，並要求網路通過遞序主動缺席的測試。一項正當的共用服務，必須同時證明誰依賴它，以及那些依賴如何能在沒有它時安全延續。只使用寓言的結構前提，未複製任何譯文措辭、肚子、器官、四肢、身體、罷工、食物、羅馬政治寓意、插畫或現代改編表達。",
     },
   },
+  "chicken-little": {
+    id: "chicken-little",
+    title: { en: "Chicken Little (Henny Penny)", zh: "《雞皮皮》" },
+    originalAuthor: "European and American folk tradition",
+    firstPublished: "Earliest known print version 1840s; folk tale of older, uncertain origin",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "B",
+    adaptationNote: {
+      en: "Proposal B inverts the source's premise that the panic itself, and the panicker's gullibility, is the moral failure. Peck's original report is small, precise, and entirely accurate; the failure is a propagation chain in which every hop restates the most recent version rather than re-verifying against Peck's own raw signal, turning one corroded connector into a declared citywide emergency. Relief, a self-declared emergency responder, doesn't lie either — he simply uses the chain's own momentum to extract broad, unaudited access from every system in the escalation path before the alert resolves itself back to Peck's original finding. The repair requires every hop to verify against the original signal, not the latest retelling, and makes emergency-responder access bounded and auditable by default. No literal sky, falling object, farmyard animals, or king imagery used; only the structural shape of an accurate small signal weaponized by an unverified propagation chain.",
+      zh: "提案 B 反轉原典「恐慌本身，以及恐慌者的輕信，就是道德上的過失」這個前提。啄最初的報告，微小、精確、完全準確；真正的失敗，出在一條傳播鏈上——每一站都只重述最新版本，而不去對照啄自己的原始訊號重新驗證，把一個腐蝕的接頭，變成一場宣告的全市性緊急事件。紓，一位自稱的緊急應變者，也沒有說謊——他只是利用這條鏈自身的動能，在警報自行解除、回到啄的原始發現之前，從升級路徑上的每一套系統，取走廣泛、未經稽核的存取權。修法要求每一站都必須對照原始訊號、而不是最新的轉述來驗證，並讓緊急應變者的存取權預設就有界、可稽核。沒有使用字面上的天空、掉落物、農場動物或國王意象；只使用「一個準確的微小訊號，被一條未經驗證的傳播鏈武器化」這個結構形狀。",
+    },
+  },
 };
