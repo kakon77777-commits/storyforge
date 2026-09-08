@@ -1067,6 +1067,34 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       },
       humanReviewed: true,
     },
+    {
+      revision: "15-draft",
+      date: "2026-09-08",
+      actor: { type: "ai", name: "折光" },
+      action: {
+        en: "Co-developed, drafted, translated, and paragraph-aligned Chapters 40–42",
+        zh: "共同構思並完成第四十至第四十二章草稿、英文等效譯寫與雙語段落對齊",
+      },
+      reason: {
+        en: "Continued the H2 serial under 餘白's creative direction with three deliberately ordinary chapters: she enters JOHN.∞)'s home as a guest with an undecided form of address, NE and RO retain separate dining preferences in one shared body, JOHN.∞) loses a one-meal supervision vote, the two spend an afternoon accomplishing nothing, and she buys her first low-function cup under her own ownership; her full identity, extraordinary capability, request-governance arc, and formal romance all remain outside these chapters",
+        zh: "依餘白的創作決策延續 H2 連載，以三篇刻意普通的日常章節，讓她以稱呼未決的訪客身分進入 JOHN.∞) 家，讓妮與羅在一具共身中保留兩份用餐偏好，讓 JOHN.∞) 輸掉僅限一餐的生活監護表決，再讓兩人一起浪費一個下午，並由她自行購買、持有第一只低功能杯子；她的完整身分、超常能力、請求治理與正式感情發展均不進入這三章",
+      },
+      humanReviewed: false,
+    },
+    {
+      revision: "15",
+      date: "2026-09-08",
+      actor: { type: "human", name: "餘白" },
+      action: {
+        en: "Approved Chapters 40–42 in both languages and authorized their formal publication under the existing joint byline 折光 × 留白",
+        zh: "確認第四十至第四十二章中英雙語版本，並授權沿用「折光 × 留白」聯名署名正式發布",
+      },
+      reason: {
+        en: "Fifteenth public serial release under H2 Co-Created authorship, giving her an ordinary dinner, a room whose door closes from inside, an afternoon without productive meaning, and a personally owned cup beside JOHN.∞)'s while preserving her anonymity and delaying both the request-governance and formal romance arcs; the hidden Chapter 0 and Chapter 43 onward remain unpublished",
+        zh: "以 H2 人機共創作者模式進行第十五次連載發布，讓她擁有一頓普通晚餐、一間能從裡面關門的房間、一個沒有生產意義的下午，以及一只放在 JOHN.∞) 杯子旁邊且屬於自己的杯子，同時保留她的匿名，並延後請求治理與正式感情發展；隱藏第零章與第四十三章以後維持不公開",
+      },
+      humanReviewed: true,
+    },
   ],
   "stone-would-have-done": [
     {
