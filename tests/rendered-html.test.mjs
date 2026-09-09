@@ -75,7 +75,7 @@ test("renders the reviewed H2 serial and its joint author page", async () => {
   assert.match(zh, /每一天都是假日/);
   assert.match(zh, /新紀元神燈三部曲/);
   assert.match(zh, /折光 × 留白/);
-  assert.match(zh, /修訂(?:<!-- -->|\s)*15/);
+  assert.match(zh, /修訂(?:<!-- -->|\s)*16/);
   assert.match(zh, /現實是中立的/);
   assert.match(zh, /房子今天想成為什麼？/);
   assert.match(zh, /這被認為是非常基本的文明常識。/);
@@ -161,6 +161,14 @@ test("renders the reviewed H2 serial and its joint author page", async () => {
   assert.match(zh, /我也是。/);
   assert.match(zh, /她買了一個沒有用途的杯子/);
   assert.match(zh, /我們只是從第二天開始，早上打開同一扇櫃門。/);
+  assert.match(zh, /這不是約會，只是一起出門/);
+  assert.match(zh, /而且已經約好，明天再做一次。/);
+  assert.match(zh, /電影播完以後誰也沒有起來/);
+  assert.match(zh, /只是散場以後，誰也沒有先起來。/);
+  assert.match(zh, /孩子們決定重新教大人生活/);
+  assert.match(zh, /但她已經答應，想試試看。/);
+  assert.doesNotMatch(zh, /父親的女將軍已經復國。/);
+  assert.doesNotMatch(zh, /母親的新婚姻法仍在第十九輪公民審議。/);
   assert.doesNotMatch(zh, /第零章/);
   assert.doesNotMatch(zh, /今天的晚餐有一點失敗/);
 
@@ -168,7 +176,7 @@ test("renders the reviewed H2 serial and its joint author page", async () => {
   assert.equal(enResponse.status, 200);
   const en = await enResponse.text();
   assert.match(en, /Who name is the Wish/);
-  assert.match(en, /Revision(?:<!-- -->|\s)*15/);
+  assert.match(en, /Revision(?:<!-- -->|\s)*16/);
   assert.match(en, /This was considered an extremely basic principle of civilization\./);
   assert.match(en, /The Desert Is on Summer Vacation/);
   assert.match(en, /The Ocean Has No Traffic Jams/);
@@ -252,6 +260,14 @@ test("renders the reviewed H2 serial and its joint author page", async () => {
   assert.match(en, /So did I\./);
   assert.match(en, /She Bought a Useless Cup/);
   assert.match(en, /We simply began opening the same cupboard door in the mornings from the following day onward\./);
+  assert.match(en, /This Is Not a Date\. We Are Only Going Out Together/);
+  assert.match(en, /And we had already arranged to do it again tomorrow\./);
+  assert.match(en, /No One Got Up After the Movie Ended/);
+  assert.match(en, /It was only that, after the screening ended, neither of us stood up first\./);
+  assert.match(en, /The Children Decide to Teach the Adults How to Live Again/);
+  assert.match(en, /But she had already agreed that she wanted to try\./);
+  assert.doesNotMatch(en, /Father's female general had reclaimed her kingdom\./);
+  assert.doesNotMatch(en, /Mother's new marriage law was still in its nineteenth round of civic deliberation\./);
   assert.doesNotMatch(en, /Chapter Zero/);
   assert.doesNotMatch(en, /Chapter Forty-Three/);
 
@@ -281,6 +297,8 @@ test("renders the reviewed H2 serial and its joint author page", async () => {
   assert.match(markdown, /以 H2 人機共創作者模式進行第十四次連載發布/);
   assert.match(markdown, /Fifteenth public serial release under H2 Co-Created authorship/);
   assert.match(markdown, /以 H2 人機共創作者模式進行第十五次連載發布/);
+  assert.match(markdown, /Sixteenth public serial release under H2 Co-Created authorship/);
+  assert.match(markdown, /以 H2 人機共創作者模式進行第十六次連載發布/);
 
   const authorResponse = await fetchPage(worker, "/a/zheguang-liubai/zh");
   assert.equal(authorResponse.status, 200);

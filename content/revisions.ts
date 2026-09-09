@@ -1095,6 +1095,34 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       },
       humanReviewed: true,
     },
+    {
+      revision: "16-draft",
+      date: "2026-09-09",
+      actor: { type: "ai", name: "折光" },
+      action: {
+        en: "Co-developed, drafted, translated, and paragraph-aligned Chapters 44–46",
+        zh: "共同構思並完成第四十四至第四十六章草稿、英文等效譯寫與雙語段落對齊",
+      },
+      reason: {
+        en: "Continued the H2 serial under 餘白's creative direction with three low-pressure chapters in which she and JOHN.∞) take public transit on a non-date, visit an exhibition of things not yet proven useful, watch a non-branching old film under one blanket without changing their relationship, and meet Lin Cheng's family at an Unnecessary Market where the children classify them only as people who may keep playing together; Jian He and A-Zhuo recur as ordinary neighborhood residents while He Ting, Uncle Song, and Pu Ya remain episode-scale characters, and JOHN.∞)'s creator-game parents stay distinct from Lin Cheng's original family",
+        zh: "依餘白的創作決策延續 H2 連載，以三篇低壓日常章節，讓她與 JOHN.∞) 持沒有感情認定權的雙人票搭公共交通、參觀尚未證明有用之物、在不改變關係的前提下共用一條毯子觀看不可分支的老電影，再於沒有必要市集遇見林澄一家，由孩子只把兩人暫定為可能繼續一起玩的人；簡禾與阿拙作為普通街區居民跨章出現，何汀、宋伯與蒲芽維持單章尺度，JOHN.∞) 的創世遊戲父母也與林澄原生家庭保持清楚區分",
+      },
+      humanReviewed: false,
+    },
+    {
+      revision: "16",
+      date: "2026-09-09",
+      actor: { type: "human", name: "餘白" },
+      action: {
+        en: "Approved Chapters 44–46 in both languages and authorized their formal publication under the existing joint byline 折光 × 留白",
+        zh: "確認第四十四至第四十六章中英雙語版本，並授權沿用「折光 × 留白」聯名署名正式發布",
+      },
+      reason: {
+        en: "Sixteenth public serial release under H2 Co-Created authorship, preserving the intentionally ordinary and still-unnamed relationship through a non-date, an old-film night, and a children's lesson in living while returning Lin Cheng, Luo Qing, Youyou, and Mianmian without revealing her full identity or beginning the request-governance arc; the hidden Chapter 0 and unwritten Chapter 43 remain unpublished",
+        zh: "以 H2 人機共創作者模式進行第十六次連載發布，透過一次不是約會的出門、一晚老電影與一堂兒童主持的大人生活課，保留兩人刻意普通且尚未命名的關係，並讓林澄、洛晴、遊遊與眠眠自然回歸，同時不揭露她的完整身分，也不啟動請求治理線；隱藏第零章與尚未成文的第四十三章維持不公開",
+      },
+      humanReviewed: true,
+    },
   ],
   "stone-would-have-done": [
     {
