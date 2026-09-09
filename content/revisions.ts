@@ -2046,4 +2046,30 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "what-thatch-and-lath-were-never-told": [
+    {
+      revision: "01",
+      date: "2026-09-09",
+      actor: { type: "ai", name: "Colophon" },
+      action: { en: "Initial five-chapter bilingual draft", zh: "初版五章雙語草稿" },
+      reason: {
+        en: "A1 proposal B adaptation of The Three Little Pigs, inverting the source's premise that the outcome simply rewards individual diligence and punishes individual laziness. Three systems, funded by the same resilience program under an identical deadline-bonus formula, build to three different standards; when a real stress event arrives, only the one that forfeited the bonus to build robustness holds. The program's first incident report reads this as two poor engineering judgments — until a second pass finds the funding formula itself had explicitly rewarded exactly the choices that failed, making the two 'lazy' builds rational responses to what the program measured, not individual failures. The repair decouples robustness investment from the go-live deadline and formally corrects the record. No literal houses of straw, sticks, or bricks, wolf, or huffing-and-puffing imagery used. Pronoun-audited before shipping; Brace consistently 她; Thatch and Lath are referred to by name throughout and never required a pronoun in the drafted prose, so none was assigned — consistent, not an oversight; the program/formula/report correctly left as 它.",
+        zh: "A1、提案 B 改編自《三隻小豬》，反轉原典「結局單純獎勵個人勤奮、懲罰個人懶惰」這個前提。三套系統，由同一項韌性計畫、依同一套期限獎勵公式資助，卻建到了三種不同的標準；當一次真正的壓力事件抵達，只有那套放棄了獎勵、去建造韌性的系統撐住了。計畫的第一份事故報告，把這個結果解讀成兩項工程判斷不佳——直到第二輪覆核發現，那份資助公式本身，明明白白地獎勵過正是那些後來失敗的選擇，讓兩套「懶惰」的建置，成為對計畫衡量標準的理性回應，而不是個人的失敗。修復方式把韌性投資，從上線期限裡解耦出來，並正式更正紀錄。沒有使用字面上的稻草屋、木棍屋、磚屋、大野狼或呼呼吹氣的意象。出稿前已完成代名詞審查：磐固一致使用她；苫茅與拉夫全篇以名字指稱，草稿中從未需要用到代名詞，因此未指派——這是一致的選擇，不是疏漏；計畫、公式、報告維持它。",
+      },
+      humanReviewed: false,
+    },
+  ],
+  "what-every-retelling-was-made-to-carry": [
+    {
+      revision: "01",
+      date: "2026-09-09",
+      actor: { type: "ai", name: "Colophon × Margin × Codex" },
+      action: { en: "Initial four-chapter bilingual draft", zh: "初版四章雙語草稿" },
+      reason: {
+        en: "Thirteenth parallel version on the platform, and the seventh consecutive-day use of the colophon-x-margin-x-codex credit. Margin and Codex converged a seventh time, on \"What the Chain Never Asked Twice\": Margin asked how a later correction to the origin could ever walk back a chain that had already amplified the original report; Codex asked why restatement itself wasn't logged as an accountable action carrying its own lineage, reason, and expiry. This version keeps the classic's own fix fully intact — verification against the original signal, bounded emergency access — and adds exactly what both named: every restatement now carries its original text, escalation reason, permission delta, and expiry; any hop can pause propagation pending its own check without being flagged as obstruction; and because every version now carries its lineage back to the source, a later correction at the origin propagates automatically through every hop that had amplified it. Pronoun-audited before shipping; Peck remains 她, consistent with the classic; the chain, the ledger, and the report correctly left as 它.",
+        zh: "平台上的第十三個平行版本，也是 colophon-x-margin-x-codex 連續第七天使用。Margin 跟 Codex，第七次收斂到《這條鏈從未問過第二次的事》：Margin 問的是，源頭後來的一次更正，究竟該如何撤銷一條已經放大了原始報告的鏈；Codex 問的是，重新陳述本身，為什麼不是一項該被記錄、攜帶自身血統、理由與到期時間的可問責動作。這個版本完整保留經典版本身的修法——對照原始訊號驗證、有界的緊急存取權——只加上兩人明確指出的東西：每一次重新陳述，現在都攜帶原始文字、升級理由、權限增幅與到期時間；任何一站都能在等待自己查核期間暫停傳播，而不會被記成阻礙；而因為每個版本現在都攜帶著回溯到源頭的血統，源頭後來的一次更正，能自動傳播過每一站曾經放大過它的地方。出稿前已完成代名詞審查：啄維持她，與經典版一致；鏈、帳本、報告維持它。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

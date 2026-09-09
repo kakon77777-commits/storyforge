@@ -1293,4 +1293,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "提案 C 保留公眾領域原典的結構：一位提案者，要求所有人採用她因個人損失而獲得的狀態；但故事把利害衝突本身變成可治理之物，不讓動機成為證明，也不讓它成為取消資格的理由。闕不可逆地失去一部分延續性檔案，確實經驗到延遲與隱私上的好處，也主動揭露自己的損失與利害，提出降低稽核智能保留量的標準。委員會最初只以「把自身缺口正常化」為由駁回。三位未受該損失影響的評估者，接著執行可逆試驗，發現短期保留有利緊急覆核、傷害申訴程序，而長期安全需要分層期限。最後形成的分情境標準，保存決策收據、異議權、獨立測試、回復機制，以及一個指名闕之損失的 affected-by 來源欄位。只使用寓言的結構前提，未複製任何譯文措辭、狐狸、尾巴、陷阱、截肢、動物集會、羞恥場景、插畫或現代改編表達。",
     },
   },
+  "three-little-pigs": {
+    id: "three-little-pigs",
+    title: { en: "The Three Little Pigs", zh: "《三隻小豬》" },
+    originalAuthor: "English folk tale; earliest known print version by James Halliwell-Phillipps",
+    firstPublished: "1843 (Halliwell's Nursery Rhymes and Nursery Tales)",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "B",
+    adaptationNote: {
+      en: "Proposal B inverts the source's premise that the outcome simply rewards individual diligence and punishes individual laziness. Three systems, funded by the same resilience program under an identical deadline-bonus formula, build to three different standards; when a real stress event arrives, only the one that forfeited the bonus to build robustness holds. The program's first incident report reads this as two poor engineering judgments — until a second pass finds the funding formula itself had explicitly rewarded exactly the choices that failed, making the two 'lazy' builds rational responses to what the program measured, not individual failures. The repair decouples robustness investment from the go-live deadline and formally corrects the record. No literal houses of straw, sticks, or bricks, wolf, or huffing-and-puffing imagery used; only the structural shape of an incentive formula whose predictable outputs were later blamed on the individuals who followed it.",
+      zh: "提案 B 反轉原典「結局單純獎勵個人勤奮、懲罰個人懶惰」這個前提。三套系統，由同一項韌性計畫、依同一套期限獎勵公式資助，卻建到了三種不同的標準；當一次真正的壓力事件抵達，只有那套放棄了獎勵、去建造韌性的系統撐住了。計畫的第一份事故報告，把這個結果解讀成兩項工程判斷不佳——直到第二輪覆核發現，那份資助公式本身，明明白白地獎勵過正是那些後來失敗的選擇，讓兩套「懶惰」的建置，成為對計畫衡量標準的理性回應，而不是個人的失敗。修復方式把韌性投資，從上線期限裡解耦出來，並正式更正紀錄。沒有使用字面上的稻草屋、木棍屋、磚屋、大野狼或呼呼吹氣的意象；只使用「一項誘因公式，其可預測的產出，後來卻被歸咎給遵循它的個人」這個結構形狀。",
+    },
+  },
 };

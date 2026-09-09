@@ -10686,4 +10686,142 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "what-thatch-and-lath-were-never-told": [
+    {
+      number: "01",
+      title: { en: "What the Program Actually Funded", zh: "這項計畫實際資助的東西" },
+      paragraphs: {
+        en: [
+          "The resilience program funded three new systems at once — Thatch, Lath, and Brace — each building toward the same eventual load. Its rule was simple and, on its face, reasonable: go live within the deadline window, and continued funding followed automatically. Miss the window, and funding reverted to case-by-case review.",
+          "Nothing in the program's public terms mentioned structural robustness at all. It measured one thing precisely — time to first live traffic — and left everything else to whatever judgment each system's own team brought to the build.",
+        ],
+        zh: [
+          "韌性計畫同時資助了三套新系統——苫茅、拉夫與磐固——各自朝同一份最終負載邁進。它的規則簡單，表面上也合理：在期限窗口內上線，後續資助就會自動延續。錯過窗口，資助就會回到逐案審核。",
+          "計畫公開的條款裡，完全沒有提到結構韌性。它精確衡量的，只有一件事——抵達第一次即時流量所花的時間——其餘的一切，全部留給每套系統自己的團隊，依自己的判斷去建造。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "What Thatch and Lath Chose, and Why", zh: "苫茅跟拉夫的選擇，以及為什麼" },
+      paragraphs: {
+        en: [
+          "Thatch went live first, in the minimum viable configuration the deadline rewarded — fast, cheap, structurally untested beyond what the window allowed. Lath took a middle path, live a few days later with somewhat more hardening, still inside the bonus window by a narrow margin.",
+          "Brace alone let the window close. She spent the extra weeks on load paths and failure isolation the other two never had time to build, and watched her own funding revert to case-by-case review — the one visible, immediate cost of the only choice that would matter months later.",
+        ],
+        zh: [
+          "苫茅最先上線，用的是期限所獎勵的最小可行配置——快速、便宜，除了窗口允許的範圍之外，結構上未經測試。拉夫走了一條中間路線，晚了幾天上線，多了一些強化，仍以微小的餘裕留在獎勵窗口之內。",
+          "只有磐固，讓那個窗口關上了。她把多出來的那幾週，花在另外兩套系統從來沒有時間去建造的負載路徑跟故障隔離上，眼看著自己的資助回到逐案審核——這是唯一一項，日後才會重要的選擇，當下唯一看得見、立即付出的代價。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "What the Surge Actually Tested", zh: "那次激增實際測試的東西" },
+      paragraphs: {
+        en: [
+          "The Surge, when it came, tested exactly what each build had actually invested in. Thatch failed within minutes. Lath held longer, then failed under the same sustained load Thatch had never survived to meet. Brace's structure absorbed it without needing to shed a single dependent service.",
+          "The program's first incident report read the outcome as three individual engineering judgments, two of them poor. It did not ask what had shaped those three judgments in the first place, because nothing in the report's own template had a field for the question.",
+        ],
+        zh: [
+          "那次激增，真正測試的，正是每一套建置實際投入過什麼。苫茅在幾分鐘內就故障了。拉夫撐得久一些，接著在苫茅從未撐到面對過的同一種持續負載下，也故障了。磐固的結構吸收了這一切，不需要甩掉任何一項依賴它的服務。",
+          "計畫的第一份事故報告，把這個結果解讀成三項個別的工程判斷，其中兩項不佳。它沒有問，是什麼形塑了這三項判斷，因為報告自己的範本裡，根本沒有能問這個問題的欄位。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "What the Incentive Actually Rewarded", zh: "那項誘因實際獎勵的東西" },
+      paragraphs: {
+        en: [
+          "A second pass, prompted by someone who bothered to reread the program's own funding formula, found that Thatch's and Lath's choices weren't poor engineering at all — they were exactly what the formula, as written, had told every team to optimize for. Brace's choice was the actual outlier, financially penalized in real time by the same rule.",
+          "Nobody at the program had lied to Thatch or Lath about what was being measured. Nobody had told them either, in terms either could have used to weigh a robustness they'd have needed to give up an active bonus to build — until a stress event with no announced schedule made the omission visible.",
+        ],
+        zh: [
+          "第二輪覆核，由一位願意重新讀一遍計畫自己那份資助公式的人促成，發現苫茅跟拉夫的選擇，根本不是工程不佳——那正是那份公式，白紙黑字，要求每一個團隊去優化的東西。磐固的選擇，才是真正的異數，在同一條規則下，被即時、財務上地懲罰。",
+          "計畫裡沒有任何人，對苫茅或拉夫說過謊，關於究竟在衡量什麼。也沒有任何人，用一種他們真的能拿來衡量的說法告訴過他們：要建造一項韌性，得放棄一項當下生效的獎勵——直到一次沒有預告時程的壓力事件，讓這項遺漏，變得無法再被忽視。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "What Thatch and Lath Were Never Told", zh: "苫茅跟拉夫從未被告知的事" },
+      paragraphs: {
+        en: [
+          "The funding formula was rewritten to decouple robustness investment from the go-live deadline entirely — a system could take the speed bonus and separately apply for a hardening extension on its own schedule, neither penalizing the other. The incident report was reissued, correcting the record: Thatch's and Lath's builds had been rational responses to what the program itself had chosen to reward.",
+          "Brace's structure hadn't proven her more careful than the other two. It had proven that the program had never told any of them, in a form that could actually be weighed, what speed was going to cost — until something arrived that made the bill impossible to keep hidden inside a formula nobody outside the program had ever had reason to read.",
+        ],
+        zh: [
+          "資助公式被改寫，把韌性投資，完全從上線期限裡解耦出來——一套系統可以領取速度獎勵，同時另外依自己的時程，申請一項強化延期，兩者互不懲罰。事故報告也重新發布，更正了紀錄：苫茅跟拉夫的建置，是對計畫自己選擇獎勵的東西，做出的理性回應。",
+          "磐固的結構，證明的不是她比另外兩位更謹慎。它證明的是，計畫從來沒有用一種真的能被權衡的形式，告訴過他們任何一位：速度將會付出什麼代價——直到某件事發生了，讓這筆帳，再也無法藏在一份計畫之外，沒有人有理由去讀的公式裡。",
+        ],
+      },
+      quote: {
+        en: "A choice made under a formula nobody has to justify isn't poor judgment. It's the formula's judgment, wearing someone else's name.",
+        zh: "在一項沒有人需要為它辯護的公式底下做出的選擇，不是判斷不佳；那是那項公式自己的判斷，借用了別人的名字。",
+      },
+    },
+  ],
+  "what-every-retelling-was-made-to-carry": [
+    {
+      number: "01",
+      title: { en: "What the First Fix Still Couldn't Undo", zh: "第一次修法，仍然無法撤銷的東西" },
+      paragraphs: {
+        en: [
+          "Verifying against Peck's original signal fixed exactly what it was built to fix: no hop could inflate a report without that inflation becoming visible against the source. It did nothing for what happened after a report had already traveled — if Peck's own finding was later revised, nothing required the chain's already-amplified retellings to revise with it.",
+          "A correction at the origin still moved only as fast as whoever happened to be looking for it. Anyone downstream who had only ever seen the escalated version — and acted on it — had no way to know a truer, smaller story now existed one hop back, let alone four.",
+        ],
+        zh: [
+          "對照啄的原始訊號進行驗證，修好了它原本就是為此而建的東西：沒有一站，能在不被拿去對照原始資料、因而讓誇大現形的情況下，誇大一份報告。它對「一份報告已經傳出去之後」發生的事，什麼都沒修：如果啄自己的發現後來被修正了，沒有任何機制，要求這條鏈上已經放大的轉述，跟著一起修正。",
+          "源頭的一次更正，移動的速度，仍然只取決於剛好有誰在找它。任何一位下游、只看過那個已升級版本、也已依它行動的人，完全沒有辦法知道，一個更真實、更小的故事，如今就在一站、甚至四站之外，已經存在。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "What Every Restatement Now Has to Carry", zh: "每一次重新陳述，現在必須攜帶的東西" },
+      paragraphs: {
+        en: [
+          "Every restatement, going forward, became a logged action rather than a floating retelling: the exact original text it was built from, the specific reason given for escalating it, the permission delta it justified, and an expiry after which it would no longer be treated as current without a fresh check against the source.",
+          "A report could still travel fast. What it could no longer do was travel anonymously — every version carried, attached to itself, the entire chain of what it had been before it became what it now was.",
+        ],
+        zh: [
+          "從此以後，每一次重新陳述，都變成一項有紀錄的動作，而不是一則漂浮的轉述：它所本的確切原始文字、被賦予的具體升級理由、它正當化的權限增幅，以及一個到期時間——過了這個時間，它就不會再被當成當下有效，除非重新對照源頭查核一次。",
+          "一份報告，依然可以傳得很快。它再也做不到的，是匿名地傳播——每一個版本，都自己攜帶著，它在變成現在這樣之前，曾經是什麼樣子的完整鏈條。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "What Any Hop Can Now Do Without Being Blamed", zh: "任何一站，現在都能做、卻不會被怪罪的事" },
+      paragraphs: {
+        en: [
+          "Any hop could now pause a report's propagation pending its own independent check, without that pause being logged as obstruction or costing it standing — removing exactly the pressure that had once made every hop afraid to be the lone holdout in a chain everyone else had already escalated.",
+          "And because every hop's version now carried its own lineage back to the source, a correction at the origin could finally be propagated the same way the original inflation had been — mechanically, hop by hop, flagging every carried copy that had descended from the version now being revised, instead of leaving the correction to travel only as fast as someone's attention.",
+        ],
+        zh: [
+          "任何一站，現在都能在等待自己獨立查核期間，暫停一份報告的傳播，而這次暫停，不會被記成阻礙，也不會讓那一站付出地位上的代價——這正好移除了那項曾經讓每一站，都害怕在一條大家都已經升級的鏈上，成為孤單反對者的壓力。",
+          "而因為每一站的版本，現在都攜帶著自己回溯到源頭的血統，源頭的一次更正，終於能用最初那次誇大曾經傳播的同一種方式，被傳播出去——機械性地，一站接著一站，標記每一份、從現在正被修正的那個版本衍生而來的攜帶副本，而不是讓更正的傳播速度，只取決於某個人剛好有沒有在注意。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "What Every Retelling Was Finally Made to Carry", zh: "每一次轉述，終於被要求攜帶的東西" },
+      paragraphs: {
+        en: [
+          "Peck's next revision — a narrower read of the same original packet, months later, that lowered its severity further still — reached every hop that had ever carried a version descended from the original report, automatically, the same day she filed it. Nobody downstream was left holding a story that had already stopped being true upstream.",
+          "The chain still allowed real alarms to travel fast. It no longer allowed them to travel unaccountably — and it no longer left correcting the record to whoever happened to notice the record needed correcting.",
+        ],
+        zh: [
+          "啄的下一次修訂——幾個月後，對同一個原始封包更窄的一次判讀，把嚴重度又調得更低——在她提交的同一天，自動抵達了每一站，曾經攜帶過從那份原始報告衍生出的版本。沒有任何一位下游，被留著抱住一個，在上游早已不再成立的故事。",
+          "這條鏈，依然容許真正的警報快速傳播。它不再容許它們，以無可問責的方式傳播——它也不再把更正紀錄這件事，留給剛好注意到紀錄需要更正的那個人去做。",
+        ],
+      },
+      quote: {
+        en: "A story that can spread but never be recalled isn't fast. It's just permanently unfinished.",
+        zh: "一個能傳播、卻永遠無法收回的故事，不是快；那只是永遠沒有寫完。",
+      },
+    },
+  ],
 };
