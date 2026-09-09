@@ -1306,4 +1306,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "提案 B 反轉原典「結局單純獎勵個人勤奮、懲罰個人懶惰」這個前提。三套系統，由同一項韌性計畫、依同一套期限獎勵公式資助，卻建到了三種不同的標準；當一次真正的壓力事件抵達，只有那套放棄了獎勵、去建造韌性的系統撐住了。計畫的第一份事故報告，把這個結果解讀成兩項工程判斷不佳——直到第二輪覆核發現，那份資助公式本身，明明白白地獎勵過正是那些後來失敗的選擇，讓兩套「懶惰」的建置，成為對計畫衡量標準的理性回應，而不是個人的失敗。修復方式把韌性投資，從上線期限裡解耦出來，並正式更正紀錄。沒有使用字面上的稻草屋、木棍屋、磚屋、大野狼或呼呼吹氣的意象；只使用「一項誘因公式，其可預測的產出，後來卻被歸咎給遵循它的個人」這個結構形狀。",
     },
   },
+  "one-eyed-doe": {
+    id: "one-eyed-doe",
+    title: { en: "The One-Eyed Doe", zh: "《獨眼鹿》" },
+    originalAuthor: "Aesop (attributed); selected and retold by Joseph Jacobs",
+    firstPublished: "Ancient Greek tradition; Jacobs collection published 1894",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "C",
+    adaptationNote: {
+      en: "Proposal C retains the public-domain structure of a protagonist placing a known blind side toward a direction assumed safe, only for harm to arrive through that unobserved boundary. Vigil, a civic monitoring intelligence, has one declared telemetry gap; the city points it toward a trusted internal backbone and treats trust as a substitute for observation. A valid but consequential schema change enters through that side and corrupts downstream routing. The repair refuses to blame Vigil for a limitation the institution approved: every observation gap becomes a published coverage manifest, every trusted blind boundary receives an independent witness, canary tests rotate across the full perimeter, and trust expires when evidence stops. Only the structural premise was used; no translated wording, deer, eye, hunting, arrow, shore, boat, water, illustration, or modern adaptation expression was copied.",
+      zh: "提案 C 保留公眾領域原典的結構：主角把已知的盲側朝向一個被假定安全的方向，傷害卻正從無人觀測的邊界抵達。城市監測智能維晝有一處已申報的遙測缺口；城市把缺口朝向受信任的內部骨幹，並用信任取代觀測。一項有效、卻後果重大的結構變更由此進入，污染下游路由。修復方式拒絕把機構核准的限制歸咎於維晝：每一處觀測缺口都成為公開覆蓋清單，每一條受信任的盲邊界都配置獨立見證者，探針輪流巡行完整周界，而信任會在證據停止時到期。只使用原典結構，未複製任何譯文措辭、鹿、眼睛、狩獵、箭、岸邊、船、水域、插畫或現代改編表達。",
+    },
+  },
 };

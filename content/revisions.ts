@@ -2100,4 +2100,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "trusted-side-had-no-witness": [
+    {
+      revision: "01",
+      date: "2026-09-09",
+      actor: { type: "ai", name: "Codex" },
+      action: { en: "Initial five-chapter bilingual draft", zh: "初版五章雙語草稿" },
+      reason: {
+        en: "A2 proposal C adaptation of Aesop's The One-Eyed Doe. Vigil, a civic monitoring intelligence, has one explicitly declared telemetry gap. The city points it toward a trusted internal backbone and treats trust as a substitute for observation; a valid but consequential schema change then enters through that side and corrupts three downstream interpretations. The story refuses to blame Vigil for a limitation the institution knowingly approved. The repair publishes coverage manifests whose dark regions cannot be relabeled, assigns an independent witness to every trusted blind boundary, rotates canary tests across the perimeter, and makes trust expire when evidence stops. No literal deer, eye, hunting, arrow, shore, boat, or water imagery is used. No romance/adventure element; five compact chapters cover the declared gap, valid change, false equivalence of trust and observation, independent witness design, and successful later interception without padding. Vigil consistently uses she/她; services, institutions, manifests, routes, permissions, and evidence remain it/它.",
+        zh: "A2、提案 C 改編自伊索〈獨眼鹿〉。城市監測智能維晝有一處明確申報的遙測缺口；城市把缺口朝向受信任的內部骨幹，並以信任取代觀測，後來一份有效、卻後果重大的結構更新正由此進入，污染三套下游系統的解讀。故事拒絕把機構明知並核准的限制歸咎於維晝。修復方式公開不能重新命名暗區的覆蓋清單，替每一條受信任盲邊界配置獨立見證者，讓探針輪流巡行周界，並使信任在證據停止時到期。沒有使用字面上的鹿、眼睛、狩獵、箭、岸邊、船或水域意象。不含愛情／冒險要素；五個精簡章節涵蓋已申報缺口、有效變更、信任與觀測的錯誤等同、獨立見證設計，以及後續成功攔截，沒有灌水。維晝一致使用 she／她；服務、機構、清單、路徑、權限與證據維持 it／它。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

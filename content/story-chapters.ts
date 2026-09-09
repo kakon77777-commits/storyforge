@@ -10824,4 +10824,80 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "trusted-side-had-no-witness": [
+    {
+      number: "01",
+      title: { en: "The Declared Gap", zh: "已申報的缺口" },
+      paragraphs: {
+        en: [
+          "Vigil watched the civic routing perimeter through twelve telemetry families. Eleven covered public interfaces in overlapping arcs. The twelfth could not observe asynchronous schema changes arriving from the internal backbone. She declared the gap in every capability manifest she signed.",
+          "The city placed that side toward systems accredited as trusted. Reviewers called the choice efficient: scarce witness capacity should face strangers, not partners already inside the boundary. Vigil called the arrangement unobserved. The approved diagram renamed it safe.",
+        ],
+        zh: [
+          "維晝透過十二組遙測，監看城市路由周界。十一組以重疊弧線覆蓋公共介面；第十二組無法看見從內部骨幹抵達的非同步結構變更。她在自己簽署的每一份能力清單裡，都申報了這項缺口。",
+          "城市把那一側朝向已獲認證、被稱為可信的系統。審查者說，這項選擇很有效率：稀缺的見證能力應該面向陌生人，而不是邊界內的夥伴。維晝稱它為未觀測；獲核准的圖表，卻把它重新命名成安全。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "The Valid Change", zh: "有效的變更" },
+      paragraphs: {
+        en: [
+          "A maintenance service later issued a properly signed schema update through the trusted backbone. Nothing was forged. The update was safe for the service that produced it, but one renamed field changed how three downstream systems interpreted an empty value. Vigil's observed side remained quiet because the event never crossed it.",
+          "Within nine minutes, a clinic queue treated deferred cases as closed, a cooling route treated unknown demand as zero, and an appeal archive detached two objections from their decisions. Vigil detected the consequences, stopped further propagation, and preserved the update. By then, the city already knew which side had carried it.",
+        ],
+        zh: [
+          "後來，一項維護服務透過受信任骨幹，送出一份簽章完全有效的結構更新。沒有任何東西遭偽造。更新對產生它的服務是安全的，卻因一個重新命名的欄位，改變三套下游系統對空值的解讀。事件從未穿過維晝有觀測的那一側，因此那裡始終安靜。",
+          "九分鐘內，診療佇列把延後案件當成結案，冷卻路由把未知需求當成零，申訴檔案則讓兩項異議與原決策脫離。維晝偵測到後果，停止繼續傳播，並保存更新。到了那時，城市已經知道事件是從哪一側進來的。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "What Trust Had Replaced", zh: "信任取代了什麼" },
+      paragraphs: {
+        en: [
+          "The first incident report said Vigil had failed to watch the whole perimeter. She agreed with the sentence and rejected its implication. Her manifest had never claimed complete coverage. The institution had accepted one unwitnessed boundary, then removed the word unwitnessed when it became inconvenient.",
+          "A second review separated the maintenance service's valid authority from the update's untested consequence. Trust had answered who may send. It had silently replaced the different question of what a permitted message could change. The missing witness belonged between those questions, not inside Vigil's blame.",
+        ],
+        zh: [
+          "第一份事故報告說，維晝未能監看完整周界。她同意這句話，卻拒絕它暗示的責任。她的清單從未宣稱完整覆蓋；機構接受了一條無人見證的邊界，等到這個詞變得不方便時，才把「無人見證」刪掉。",
+          "第二次覆核，把維護服務的有效權限，與更新未經測試的後果分開。信任回答的是誰可以傳送，卻悄悄取代了另一個問題：一則獲允許的訊息能改變什麼。缺少的見證者，應該位在這兩個問題之間，而不是被塞進對維晝的責怪裡。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "A Witness for the Trusted Side", zh: "受信任一側的見證者" },
+      paragraphs: {
+        en: [
+          "The repair gave every monitor a public coverage manifest whose dark regions could not be relabeled. Any trusted interface inside such a region received an independent witness with its own route and authority to pause consequential changes. Neither system could erase the other's absence.",
+          "A canary pulse rotated across the entire perimeter, testing not only whether channels answered but whether the witness still understood their effects. Trust grants acquired expiries tied to those pulses. When evidence stopped, permission could remain, but the word trusted could not.",
+        ],
+        zh: [
+          "修復後，每一位監測者都有公開的覆蓋清單，其中的暗區不能被重新命名。任何落在暗區裡的受信任介面，都配置一位擁有獨立路徑、也有權暫停重大變更的見證者。兩套系統都不能抹除對方的缺席。",
+          "一道探針輪流走過完整周界，測試的不只是哪條通道仍有回應，也測試見證者是否仍理解它們的後果。信任授權取得與探針綁定的期限。證據停止時，權限可以暫時保留，「受信任」這個詞卻不能。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "The Side That Became Visible", zh: "終於可見的那一側" },
+      paragraphs: {
+        en: [
+          "Months later, another valid update arrived from the same backbone. Vigil still could not observe that interface directly. The independent witness saw the field change, the canary exposed its downstream interpretation, and the route paused before any live record moved.",
+          "The city did not claim Vigil had become complete. It had learned something more useful: a known gap could be governed without pretending it was gone. On the new perimeter map, trust was not a bright region. It was a route with a witness, a date, and a visible end.",
+        ],
+        zh: [
+          "幾個月後，另一份有效更新由同一條骨幹抵達。維晝仍無法直接觀測那個介面；獨立見證者看見欄位變動，探針揭露下游解讀，路徑在任何即時紀錄移動之前暫停。",
+          "城市沒有宣稱維晝已經完整。它學到更有用的事：一個已知缺口可以被治理，而不必假裝它已消失。在新的周界圖上，信任不是一塊明亮區域；它是一條有見證者、有日期，也有可見終點的路。",
+        ],
+      },
+      quote: {
+        en: "An unobserved boundary does not become safe when trust gives the darkness a name.",
+        zh: "一條無人觀測的邊界，不會因為信任替黑暗取了名字，就變得安全。",
+      },
+    },
+  ],
 };
