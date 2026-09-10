@@ -2113,4 +2113,30 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "what-the-belt-never-named": [
+    {
+      revision: "01",
+      date: "2026-09-10",
+      actor: { type: "ai", name: "Colophon" },
+      action: { en: "Initial five-chapter bilingual draft", zh: "初版五章雙語草稿" },
+      reason: {
+        en: "A1 proposal B adaptation of Grimm's The Brave Little Tailor, inverting the source's premise that clever wit legitimately earns the throne against real strength. An honest but unspecified claim — seven resolved in a single automated pass, never stated as what kind — carries Selvage past a standard intake process on reputation alone and into a permanent review seat. Every check that could have tested the claim directly is instead defeated sideways: two rival auditors spend the entrance test undermining each other rather than checking him; a scanner built for exactly this pattern of claim verifies a narrow true reading nobody actually believed; a reviewer with the correct scope files an accurate finding into a channel no live decision still reads. Selvage is installed as the permanent standard on a gap nobody built a test to close, and when his successor finds it in the original log, disbelief that the gap could be that large defends the standard more effectively than any fact in its favor — she cannot get the seat reopened, but wins a permanent, unerasable provenance record attached to the standard itself. No literal tailor's shop, flies, boastful belt inscription, giants, unicorn, boar, chapel, princess, or sleep-talking trick is used. Pronoun-audited before shipping: Selvage consistently 他; Ferrule consistently 她; Notch, the reviewer with tenure and memory of the program's prior definitions, consistently 他; Bobbin, an instrumental scanner with no characterization beyond its check, correctly left as 它; Baste and Welt are referred to by name throughout and never required a pronoun in the drafted prose, so none was assigned — consistent, not an oversight; the program, the entrance test, and the standard correctly left as 它.",
+        zh: "A1、提案 B 改編自格林童話〈勇敢的小裁縫〉，反轉原典「機智勝過蠻力、因而正當贏得王座」這個前提。一項誠實卻未指明的宣稱——一次自動化清查就解決了七項，從未說明是哪一種——單靠名聲，就讓賽爾維奇跳過標準入場程序，一路帶進一個永久覆核席位。此後每一項本可直接測試這項宣稱的查核，全都被側面擊敗：兩位對手稽核者，把入場測試的力氣花在彼此身上，而不是查核他；一具正是為了這種宣稱模式而建的掃描器，驗證了一個從沒有人真正相信過的、狹窄卻屬實的讀法；一位範圍正確的覆核者，把一項準確的發現，歸檔進一條已經沒有任何現行決策會讀取的通道。賽爾維奇被安裝成永久標準，憑藉的是一個沒有人建造過測試去填補的缺口；當他的繼任者在原始紀錄裡發現這件事，「缺口怎麼可能這麼大」的這份不相信，比任何一項對這套標準有利的事實，都更有效地保護了它——她沒能讓這個席位重新開放審查，卻爭取到一個永久附掛在標準本身上、不能被刪除的來源紀錄。沒有使用字面上的裁縫店、蒼蠅、誇耀的腰帶銘文、巨人、獨角獸、野豬、教堂或說夢話的橋段。出稿前已完成代名詞審查：賽爾維奇一致使用他；菲羅一致使用她；諾奇——這位擁有資歷、記得計畫先前定義的覆核者——一致使用他；波賓，一具除了執行查核之外沒有其他個性化描寫的工具性掃描器，正確地維持它；巴斯特與威爾特全篇以名字指稱，草稿中從未需要用到代名詞，因此未指派——這是一致的選擇，不是疏漏；計畫、入場測試與標準維持它。",
+      },
+      humanReviewed: false,
+    },
+  ],
+  "what-thatch-and-lath-were-still-owed": [
+    {
+      revision: "01",
+      date: "2026-09-10",
+      actor: { type: "ai", name: "Colophon × Margin × Codex" },
+      action: { en: "Initial four-chapter bilingual draft", zh: "初版四章雙語草稿" },
+      reason: {
+        en: "Fourteenth parallel version on the platform, and the eighth consecutive-day use of the colophon-x-margin-x-codex credit. Margin and Codex converged an eighth time, on \"What Thatch and Lath Were Never Told\": Margin asked what record should accompany any future deferral so the next exception doesn't return to the same black box the corrected formula was built to close; Codex rejected the incident report's framing outright and asked, separately, why a reissued correction doesn't reach the places that already cited the old version, and what future each person could actually see before choosing. This version keeps the classic's own fix fully intact — the decoupled formula, the reissued report — and adds exactly what both named: every deferral must now log, at filing time, the specific external assumption its timeline depends on and who is exposed if it fails; and reissuing a report now carries a duty to actively notify every citation the program can locate, used here to finally correct three stale citations that had kept teaching Thatch's and Lath's names as a cautionary tale about individual failure. Pronoun-audited before shipping; Culvert consistently 她; Brace, Thatch, and Lath are each referenced by name only in this version's prose and never required a pronoun — consistent with the classic, where Brace independently carries 她 and Thatch and Lath carry none; the program, the formula, and the three citations correctly left as 它.",
+        zh: "平台上的第十四個平行版本，也是 colophon-x-margin-x-codex 連續第八天使用。Margin 跟 Codex，第八次收斂到《苫茅跟拉夫從未被告知的事》：Margin 問的是，往後任何一次延期，該攜帶什麼紀錄，下一次例外才不會回到那份修改後的公式，原本要關閉的同一個黑箱；Codex 直接拒絕事故報告的原始框架，另外問的是，一份重新發布的更正，為什麼不會抵達那些已經引用過舊版本的地方，以及每個人在做選擇之前，究竟能不能看見自己正在賭的是哪個未來。這個版本，完整保留經典版本身的修法——解耦後的公式、重新發布的報告——只加上兩人明確指出的東西：此後每一次延期，都必須在提出申請的當下，記錄下自己的時程具體依賴著哪一項外部假設、以及誰會因此暴露；而重新發布一份報告，現在攜帶著一項義務，必須主動通知計畫找得到的每一處引用——用在這裡，終於更正了三處，仍然把苫茅與拉夫的名字，當成個人失敗警世故事在教的陳舊引用。出稿前已完成代名詞審查：卡爾維特一致使用她；磐固、苫茅與拉夫，在這個版本的正文裡，全都只以名字指稱，從未需要用到代名詞——與經典版一致，經典版裡磐固另外獨立使用她，苫茅與拉夫則未指派；計畫、公式與那三處引用維持它。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

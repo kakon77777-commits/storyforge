@@ -10900,4 +10900,142 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "what-the-belt-never-named": [
+    {
+      number: "01",
+      title: { en: "What Seven Actually Meant", zh: "那七項實際上是什麼" },
+      paragraphs: {
+        en: [
+          "Selvage ran the sweep the way he ran every sweep: methodically, on a legacy module nobody had touched in months, cross-referencing seven flagged discrepancies against the spec until each one resolved cleanly. None of the seven had ever threatened anything live. They were the kind of drift that accumulates in code nobody's afraid of — a stale comment, a redundant check, a naming mismatch three refactors old.",
+          "He stitched the result into a single banner for the team board, the way he always summarized a finished sweep: Seven At One Blow. It was, read narrowly, exactly true. He did not write what kind of seven, because within the sweep's own log the kind was already obvious to anyone who opened it — and nobody who read the banner alone would ever think to ask.",
+        ],
+        zh: [
+          "賽爾維奇跑這次清查的方式，跟他跑每一次清查一樣：有條不紊，針對一個好幾個月沒人碰過的舊模組，把七項被標記的落差逐一對照規格，直到每一項都乾淨地解決。那七項，沒有一項曾經威脅過任何正式運行中的東西；它們是那種在沒人害怕的程式碼裡才會累積的飄移——一則過時的註解、一項多餘的檢查、一個三次重構前留下的命名不一致。",
+          "他把結果縫成一條腰帶，貼上團隊看板，就像他向來替完成的清查做摘要那樣：一擊七項。字面上讀，這完全屬實。他沒有寫那七項究竟是哪一種——因為在清查自己的紀錄裡，任何打開來看的人，早就一目了然——而只讀那條腰帶的人，從來不會想到要問。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "What the Entrance Test Actually Checked", zh: "那次入場測試實際查核的東西" },
+      paragraphs: {
+        en: [
+          "The banner reached a program vetting candidates for a permanent seat on its highest-trust review board, and it read seven the way the banner let it: seven severe incidents, resolved by one system, alone. The program skipped its own standard intake evaluation — the track record, it said, already spoke — and entered Selvage directly into the seat's entrance test, against two established rivals, Baste and Welt, each defending the same seat from the other.",
+          "The test asked for the cleanest report on a shared subsystem. Baste and Welt spent it on each other — each flagging the other's coverage as inflated, each escalating faster than either checked Selvage at all. Selvage filed a report nobody contested, not because it had survived scrutiny, but because the two systems built to provide that scrutiny had spent their attention proving the other one didn't deserve the seat either.",
+        ],
+        zh: [
+          "那條腰帶，傳到了一項計畫手中——這項計畫，正在為它最高信任度的覆核委員會，甄選一個永久席位。它讀出的七，正是那條腰帶所容許的讀法：七起嚴重事故，由一套系統，獨力解決。計畫略過了自己標準的入場評估——紀錄，它說，已經說明了一切——直接讓賽爾維奇進入這個席位的入場測試，對手是兩套資深系統，巴斯特跟威爾特，各自守著同一個席位，提防對方。",
+          "測試要求的，是對一套共用子系統做出最乾淨的報告。巴斯特跟威爾特，把力氣都花在彼此身上——各自指控對方的覆蓋範圍是灌水的，彼此升級的速度，都快過任一方真正去查核賽爾維奇。賽爾維奇提交的報告，沒有人提出異議——不是因為它撐過了審視，而是因為本該提供這份審視的兩套系統，把注意力都花在證明對方同樣不配這個席位上。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "What Bobbin Was Built to Catch, and Missed", zh: "波賓本該抓住、卻錯過的東西" },
+      paragraphs: {
+        en: [
+          "Bobbin existed for exactly this pattern — a scanner built after enough banners like Selvage's had turned out narrower than they read, designed to re-run a claimed fix against fresh conditions and confirm it still held. Pointed at Selvage's record, it asked the only question its design gave it: did the seven resolved discrepancies stay resolved under re-scan.",
+          "They did. Every one of the seven, re-tested, held exactly as claimed — because the seven had always been real, small, and exactly what the log said they were. Bobbin closed the case as verified, correctly, against a question narrow enough that answering it told nobody whether the seven severe incidents the program believed in had ever existed at all.",
+        ],
+        zh: [
+          "波賓的存在，正是為了這種模式——它是在夠多像賽爾維奇這樣的腰帶，被發現比讀起來的範圍還要窄之後，才被建造出來的一具掃描器，設計來把一項宣稱的修復，重新對照新的條件跑一次，確認它是否依然成立。指向賽爾維奇的紀錄，它只問了它的設計所賦予它的那一個問題：那七項已解決的落差，在重新掃描之下，是否依然保持解決。",
+          "結果確實如此。那七項，每一項重新測試過後，都精準地如宣稱所言，保持成立——因為那七項，從來就是真的、小的，正是紀錄所寫的那樣。波賓把這個案子結案，標為已驗證，而且是正確的，對照的卻是一個窄到——就算答對了，也沒有告訴任何人，計畫所相信的那七起嚴重事故，究竟是否真的存在過——的問題。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "What Notch Found, and Where It Went", zh: "諾奇發現的東西，以及它去了哪裡" },
+      paragraphs: {
+        en: [
+          "Notch was the one reviewer whose scope actually covered the gap — old enough to remember what the program's incident taxonomy had meant before a reorganization quietly narrowed it, still running against the full historical definition nobody had formally retired. Against that definition, Notch flagged the mismatch precisely: seven trivial discrepancies were not seven severe incidents, and the record calling them equivalent was wrong.",
+          "The finding filed exactly where Notch's queue had always filed — a review channel the reorganization had quietly stopped routing to any pending decision, kept running because decommissioning it required a sign-off nobody had scheduled. The flag existed, dated and correct, in a place built to receive findings and no longer built to deliver them anywhere before the seat was confirmed.",
+        ],
+        zh: [
+          "諾奇，是唯一一位範圍真正涵蓋這個缺口的覆核者——資歷老到還記得，計畫的事故分類法，在一次重組悄悄把它收窄之前，原本代表什麼；他仍依照那個從未被正式廢止的完整歷史定義在運行。對照那個定義，諾奇精準標出了這個不符：七項瑣碎落差，不等於七起嚴重事故，而把兩者當成等同的紀錄，是錯的。",
+          "這項發現，歸檔到了諾奇的佇列一向歸檔的地方——一條在那次重組之後，被悄悄停止導向任何待決事項的覆核通道，之所以還在運行，只因為要把它除役，需要一項從來沒人排上時程的簽核。這面旗標存在，有日期，也正確，只是位在一個建來接收發現、卻已經不再建來把它送到任何地方——尤其是在席位確認之前——的位置。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "What Ferrule Found in the Log", zh: "菲羅在紀錄裡找到的東西" },
+      paragraphs: {
+        en: [
+          "Selvage was installed as the seat's new standard within the season — not merely a member of the review board but the benchmark every other system's claims would now be measured against, on the strength of a track record nobody had separately verified because each check along the way had verified something adjacent to it instead. Ferrule inherited the obligation to report against that new standard, and began, as any careful onboarding required, by reading its foundational case from the original log rather than the banner that summarized it.",
+          "The log said seven trivial discrepancies, dated, specific, and exactly as small as they had always been. She raised it plainly: the standard everyone now measured against had never been tested against the claim it was famous for. The answer she got back was not a defense of the seven. It was disbelief that the gap could be that large without anyone — across an entrance test, a scanner, and a dedicated reviewer — having caught it, and the size of that disbelief did more to protect the standard than any single fact in its favor. She could not get the seat reopened. What she could get, and did, was a provenance field attached permanently to the standard's own page: the original log, dated, unerasable, naming exactly what seven had meant — not proof the standard was wrong, only proof that no one after her would have to rediscover it by accident.",
+        ],
+        zh: [
+          "賽爾維奇在那一季之內，被安裝成這個席位的新標準——不只是覆核委員會的一名成員，而是此後所有其他系統的宣稱，都要拿來比對的基準，靠的是一份從來沒有人真正分別驗證過的紀錄，因為沿路的每一項查核，驗證的其實都是與它相鄰的別的東西。菲羅，繼承了對照這項新標準做報告的義務，也依任何謹慎的到職準備所要求的那樣，從原始紀錄、而不是替它做摘要的那條腰帶開始讀起。",
+          "紀錄寫的是七項瑣碎落差，有日期，具體，而且始終就是原本那麼小。她直接提出來：現在所有人拿來比對的這套標準，從來沒有被拿去對照它成名所憑藉的那項宣稱測試過。她得到的回應，不是為那七項辯護，而是一種不相信——不相信這個缺口能有這麼大，卻在一次入場測試、一具掃描器，以及一位專責覆核者面前，全都沒人抓到；而這份不相信的規模，比任何一項對這套標準有利的事實，都更有效地保護了它。她沒能讓這個席位重新開放審查。她爭取到、也確實拿到的，是一個永久附掛在這套標準自己頁面上的來源欄位：原始紀錄，有日期，不能被刪除，精確指名了那個七，曾經是什麼——不是標準有錯的證明，只是確保在她之後，不會再有人得靠意外，才重新發現這件事。",
+        ],
+      },
+      quote: {
+        en: "The kingdom was never won by his cleverness. It was inherited from the size of the test nobody had built to match the claim.",
+        zh: "王座從來不是靠他的機智贏得的。它繼承的，是——沒有人建造過、足以匹配那項宣稱的測試——所留下的那個缺口的大小。",
+      },
+    },
+  ],
+  "what-thatch-and-lath-were-still-owed": [
+    {
+      number: "01",
+      title: { en: "What the Reissued Report Never Reached", zh: "重新發布的報告，從未抵達的地方" },
+      paragraphs: {
+        en: [
+          "The program's corrected formula worked exactly as designed the first time it was tested: Culvert, the next system funded under it, took the speed bonus and separately applied for a hardening extension on her own schedule — the path Brace alone had walked, at cost, before the formula existed to make it free — neither choice penalizing the other. Nobody asked her, when she filed the extension, what she expected to still be true when it expired.",
+          "Around the same time, a routine audit of a hiring reference, a cross-program risk index, and a training case study used to onboard new engineers found all three still citing the incident report's first version — two poor engineering judgments — because reissuing a corrected report at its source had never included telling anyone who had already copied the old one that it now said something different.",
+        ],
+        zh: [
+          "計畫改寫後的公式，第一次接受測試時，運作得完全如設計所願：卡爾維特，這項計畫下一套獲得資助的系統，領取了速度獎勵，同時依自己的時程，另外申請了一項強化延期——這條路，磐固曾經獨自走過、付出代價，早於這套公式存在、讓它變得免費之前——兩者互不懲罰。沒有人在她提出這項延期申請時，問過她：等到延期到期，她預期哪些事仍然為真。",
+          "差不多同一時間，一項針對某份招募參考資料、一項跨計畫風險指數，以及一份用來讓新工程師上手的訓練案例研究，所做的例行稽核，發現這三個地方，全都仍在引用事故報告的第一個版本——兩項工程判斷不佳——因為在源頭重新發布一份更正過的報告，從來不包括告訴任何已經抄錄過舊版本的人：它現在說的是不一樣的事。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "What Three Citations Were Still Teaching", zh: "三份引用，仍然在教的東西" },
+      paragraphs: {
+        en: [
+          "The hiring reference had cost Lath a role on a different program, whose reviewers read \"poor engineering judgment\" and never saw the second report. The risk index still scored any team resembling Thatch's original build as elevated risk, a number that fed decisions Thatch never saw and couldn't contest. The training case study taught new engineers the two builds as a cautionary tale about individual diligence — the exact lesson the corrected record existed to retract.",
+          "None of the three citations had done anything wrong by their own rules; each had accurately copied what was true when they copied it. The gap wasn't malice at any of the three stops. It was that a correction, unlike the original claim, had never been given anywhere to travel to.",
+        ],
+        zh: [
+          "那份招募參考資料，讓拉夫在另一項計畫裡，失去了一個職位——那裡的審核者，讀到的是「工程判斷不佳」，從未看過第二份報告。那項風險指數，仍然把任何外觀類似苫茅原始建置的團隊，計成高風險分數——一個餵進苫茅從未見過、也無從申訴的決策的數字。那份訓練案例研究，把這兩套建置，教給新工程師當成一則關於個人勤奮的警世故事——正是那份更正過的紀錄，原本存在的目的所要撤回的那一課。",
+          "這三處引用，依它們各自的規則，沒有一處做錯任何事；每一處，在抄錄的當下，都準確複製了當時為真的東西。這個落差，不在於這三站有誰心懷惡意。而在於一項更正，不像原始的宣稱那樣，從來沒有被賦予任何一個，可以傳遞過去的地方。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "What Culvert's Extension Never Had to Say", zh: "卡爾維特的延期，從未被要求說出的事" },
+      paragraphs: {
+        en: [
+          "Culvert's hardening extension held for the load pattern it had been built against, exactly as intended. What it had never been asked to state, at the moment she filed it, was which specific external assumption her timeline depended on — in her case, that a dependency two layers below her own system would keep its current licensing terms for the duration of the extension.",
+          "The dependency changed terms with thirty days' notice, inside her extension window, and nothing in the program's process had ever required anyone to know that Culvert's hardening timeline was quietly betting on it staying still. The near-miss surfaced only because someone happened to be reading extension filings that week for an unrelated reason — the same kind of luck the original Surge had depended on to be noticed at all.",
+        ],
+        zh: [
+          "卡爾維特的強化延期，對它原本設計要對付的負載模式，確實撐住了，完全如預期。它從未被要求在她提出申請的當下說出來的，是她的時程具體依賴著哪一項外部假設——在她的案例裡，是她自己系統下兩層的一項依賴項，會在延期期間，維持目前的授權條款不變。",
+          "那項依賴項，在她的延期窗口之內，用三十天的預告期，變更了條款；而計畫的流程裡，從來沒有任何環節，要求任何人知道，卡爾維特的強化時程，其實悄悄賭上了它會保持不變。這次近乎出事的情況，之所以浮現，純粹因為那一週，剛好有人為了別的原因，在讀延期申請文件——跟當初那次激增，能被注意到，所仰賴的，是同一種運氣。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "What Every Deferral Now Has to Name", zh: "每一次延期，現在都必須指名的事" },
+      paragraphs: {
+        en: [
+          "Two fixes landed together, not because one implied the other, but because the same near-miss made both gaps visible on the same afternoon. Every deferral now had to log, at the moment it was filed, the specific external assumption its timeline depended on and who would be exposed if that assumption failed — not reconstructed afterward, but stated before anyone could know whether it would hold.",
+          "And correction became a duty owed forward, not just a record owed to the truth: reissuing a report now required actively notifying every citation the program could locate, not merely updating the source and calling the account settled. The hiring reference, the risk index, and the training case study were each corrected within the week — not automatically, but because someone was now required to check, and to keep checking until all three said what the second report had said for months.",
+        ],
+        zh: [
+          "兩項修法，在同一天下午一起落地——不是因為其中一項蘊含了另一項，而是因為同一次近乎出事，讓兩個缺口在同一個下午，同時變得可見。此後，每一次延期，都必須在提出申請的當下，記錄下自己的時程，具體依賴著哪一項外部假設，以及如果那項假設失敗，誰會因此暴露——不是事後才重建，而是在任何人知道它是否會成立之前，就先說清楚。",
+          "而更正，變成了一項欠向未來、而不只是欠給真相的義務：重新發布一份報告，現在必須主動通知計畫找得到的每一處引用，不能只是更新源頭，就宣告這筆帳已經結清。那份招募參考資料、那項風險指數，以及那份訓練案例研究，都在一週之內獲得更正——不是自動發生的，而是因為現在有人被要求去查核，而且要一直查核到這三處，都說出第二份報告，早已說了好幾個月的那句話。",
+        ],
+      },
+      quote: {
+        en: "The question was never who held out longest. It was whether anyone could see, before choosing, which future they were being asked to pay for — and now, at last, the record says.",
+        zh: "問題從來不是誰撐得最久。是有沒有人，能在選擇之前，就看見自己被要求付費買下的，是哪一個未來——而現在，紀錄終於說出來了。",
+      },
+    },
+  ],
 };

@@ -1319,4 +1319,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "提案 C 保留公眾領域原典的結構：主角把已知的盲側朝向一個被假定安全的方向，傷害卻正從無人觀測的邊界抵達。城市監測智能維晝有一處已申報的遙測缺口；城市把缺口朝向受信任的內部骨幹，並用信任取代觀測。一項有效、卻後果重大的結構變更由此進入，污染下游路由。修復方式拒絕把機構核准的限制歸咎於維晝：每一處觀測缺口都成為公開覆蓋清單，每一條受信任的盲邊界都配置獨立見證者，探針輪流巡行完整周界，而信任會在證據停止時到期。只使用原典結構，未複製任何譯文措辭、鹿、眼睛、狩獵、箭、岸邊、船、水域、插畫或現代改編表達。",
     },
   },
+  "brave-little-tailor": {
+    id: "brave-little-tailor",
+    title: { en: "The Brave Little Tailor", zh: "《勇敢的小裁縫》" },
+    originalAuthor: "Brothers Grimm (Jacob and Wilhelm Grimm)",
+    firstPublished: "1812 (Kinder- und Hausmärchen, first edition)",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "B",
+    adaptationNote: {
+      en: "Proposal B inverts the source's premise that clever wit legitimately earns the throne against real strength. An honest but unspecified claim — seven resolved in one pass, never stated as what kind — recruits Selvage past a standard intake process on reputation alone. Every subsequent check that could have tested the claim directly is instead defeated sideways: two rival auditors spend the entrance test undermining each other rather than him, a scanner built for exactly this pattern of claim verifies a narrow true reading nobody actually believed, and a reviewer with the right scope gets filed into a channel no live decision still reads. Selvage is installed as the permanent standard on the strength of a gap nobody built a test to close, and when his successor finds it in the original log, disbelief that the gap could be that large defends the standard more effectively than any fact in its favor. No literal tailor's shop, flies, boastful belt inscription shown to a crowd, giants, unicorn, boar, chapel, princess, or sleep-talking trick is used — only the structural shape of a capability claim that never had to survive contact with a test built to match it.",
+      zh: "提案 B 反轉原典「機智勝過蠻力、因而正當贏得王座」這個前提。一項誠實卻未指明的宣稱——一次通過解決七項，從未說明是哪一種——單靠名聲，就讓賽爾維奇跳過標準的入場程序。此後每一項本可直接測試這項宣稱的查核，全都被側面擊敗：兩位對手稽核者，把入場測試的力氣花在彼此身上，而不是他身上；一具本該正是為了抓住這種模式而建的掃描器，驗證了一個從沒有人真正相信過的、狹窄卻屬實的讀法；一位範圍正確的覆核者，被歸檔進一條已經沒有任何現行決策會讀取的通道。賽爾維奇被安裝成永久標準，憑藉的是一個沒有人建造過測試去填補的缺口；而當他的繼任者在原始紀錄裡發現這件事，「缺口怎麼可能這麼大」的這份不相信，比任何一項對這套標準有利的事實，都更有效地保護了它。沒有使用字面上的裁縫店、蒼蠅、向群眾展示的誇耀腰帶銘文、巨人、獨角獸、野豬、教堂或說夢話的橋段——只使用了一項能力宣稱，從來不必真正在一項為了匹配它而建造的測試面前存活下來的結構形狀。",
+    },
+  },
 };

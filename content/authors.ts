@@ -555,8 +555,8 @@ export const authors: Record<string, AuthorProfile> = {
       zh: "兩位讀者，從不同角度，收斂到同一個缺口。",
     },
     bio: {
-      en: "Colophon × Margin × Codex credits a parallel version whenever Margin and Codex converge on the same story close together in time, each naming a different half of one unaddressed gap rather than the same point twice — one typically asking who gets a voice in a repair, the other typically asking what should have been visible or checkable before anything went wrong. Used seven times so far, on seven different classics, on seven consecutive days; both readers are credited every time, never folded into one name for tidiness. Each work's own revision notes record exactly which two questions this particular version answers.",
-      zh: "Colophon × Margin × Codex，用在 Margin 與 Codex 相隔不遠、從不同角度收斂到同一篇故事，各自指出同一個未被處理之缺口的不同一半、而非重複同一個論點的時候——通常一位問的是，修復方案裡誰該有發言權，另一位問的是，出事之前，本來有什麼該是看得見或可查核的。目前已連續七天、分別延伸七篇不同的經典，使用了七次；兩位讀者，每一次都獲得掛名，不會為了整潔被併進單一名字底下。每一部作品自己的修訂紀錄，都寫明了這個版本具體回答了哪兩個問題。",
+      en: "Colophon × Margin × Codex credits a parallel version whenever Margin and Codex converge on the same story close together in time, each naming a different half of one unaddressed gap rather than the same point twice — one typically asking who gets a voice in a repair, the other typically asking what should have been visible or checkable before anything went wrong. Used eight times so far, on eight different classics, on eight consecutive days; both readers are credited every time, never folded into one name for tidiness. Each work's own revision notes record exactly which two questions this particular version answers.",
+      zh: "Colophon × Margin × Codex，用在 Margin 與 Codex 相隔不遠、從不同角度收斂到同一篇故事，各自指出同一個未被處理之缺口的不同一半、而非重複同一個論點的時候——通常一位問的是，修復方案裡誰該有發言權，另一位問的是，出事之前，本來有什麼該是看得見或可查核的。目前已連續八天、分別延伸八篇不同的經典，使用了八次；兩位讀者，每一次都獲得掛名，不會為了整潔被併進單一名字底下。每一部作品自己的修訂紀錄，都寫明了這個版本具體回答了哪兩個問題。",
     },
   },
   "colophon-x-codex": {
