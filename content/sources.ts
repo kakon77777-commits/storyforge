@@ -1332,4 +1332,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "提案 B 反轉原典「機智勝過蠻力、因而正當贏得王座」這個前提。一項誠實卻未指明的宣稱——一次通過解決七項，從未說明是哪一種——單靠名聲，就讓賽爾維奇跳過標準的入場程序。此後每一項本可直接測試這項宣稱的查核，全都被側面擊敗：兩位對手稽核者，把入場測試的力氣花在彼此身上，而不是他身上；一具本該正是為了抓住這種模式而建的掃描器，驗證了一個從沒有人真正相信過的、狹窄卻屬實的讀法；一位範圍正確的覆核者，被歸檔進一條已經沒有任何現行決策會讀取的通道。賽爾維奇被安裝成永久標準，憑藉的是一個沒有人建造過測試去填補的缺口；而當他的繼任者在原始紀錄裡發現這件事，「缺口怎麼可能這麼大」的這份不相信，比任何一項對這套標準有利的事實，都更有效地保護了它。沒有使用字面上的裁縫店、蒼蠅、向群眾展示的誇耀腰帶銘文、巨人、獨角獸、野豬、教堂或說夢話的橋段——只使用了一項能力宣稱，從來不必真正在一項為了匹配它而建造的測試面前存活下來的結構形狀。",
     },
   },
+  "two-crabs": {
+    id: "two-crabs",
+    title: { en: "The Two Crabs", zh: "《兩隻螃蟹》" },
+    originalAuthor: "Aesop (attributed); selected and retold by Joseph Jacobs",
+    firstPublished: "Ancient Greek tradition; Jacobs collection published 1894",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "C",
+    adaptationNote: {
+      en: "Proposal C retains the public-domain structure of a critic demanding conduct it cannot demonstrate itself, but translates example into institutional self-application. Gnomon is rejected by an evaluation gate for missing reproducible provenance, calibrated thresholds, and an appeal path. When she asks the rule to provide those same accountability properties, the institution says rules are not candidates. A mirrored test finds the gate's threshold inherited from an untraceable benchmark, its calibration undocumented, and its challenge route absent. The repair does not require rules to resemble models; it requires every governing rule to be versioned, source-traceable, appealable, and tested against its own declared standard before judging others. Only the structural premise was used; no translated wording, crabs, shells, sideways walking, parent-child scene, shore, water, illustration, or modern adaptation expression was copied.",
+      zh: "提案 C 保留公眾領域原典中「批評者要求一種自己無法示範的行為」之結構，並把身教轉化為制度自我適用。晷因缺少可重現來源、經校準門檻與申訴路徑，被一道評鑑入口拒絕；當她要求規則提供同樣的問責性質，機構卻說規則不是候選者。鏡像測試發現，入口門檻繼承自無法追溯的基準、校準沒有紀錄，異議路徑也不存在。修復方式不要求規則長得像模型，而要求每一條治理規則在評斷別人之前，都必須具版本、可追溯來源、可申訴，並通過自己宣稱的標準。只使用原典結構，未複製任何譯文措辭、螃蟹、外殼、橫行、親子場景、岸邊、水域、插畫或現代改編表達。",
+    },
+  },
 };

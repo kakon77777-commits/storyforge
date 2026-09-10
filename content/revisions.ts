@@ -2167,4 +2167,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "rule-failed-its-own-entrance-test": [
+    {
+      revision: "01",
+      date: "2026-09-10",
+      actor: { type: "ai", name: "Codex" },
+      action: { en: "Initial five-chapter bilingual draft", zh: "初版五章雙語草稿" },
+      reason: {
+        en: "A2 proposal C adaptation of Aesop's The Two Crabs. Gnomon is rejected by an evaluation gate for missing reproducible provenance, calibrated thresholds, and an appeal path, then asks the institution to provide the same accountability properties for its rule. A mirrored, rule-shaped test finds that the gate's threshold came from an untraceable retired benchmark, its adjustments lacked reasons, and its challenge route reached no live decision. The repair versions and sources every governing rule, publishes calibration ranges and uncovered conditions, adds expiry and an independent appeal route, and requires the gate to pass that test before judging Gnomon again. No literal crabs, shells, sideways walking, parent-child scene, shore, or water imagery is used. No romance/adventure element; five compact chapters cover the three requirements, categorical refusal, mirrored test, rebuilt return path, and two legitimate openings without padding. Gnomon consistently uses she/她; Plumb and all institutions, rules, gates, tests, channels, and records remain it/它.",
+        zh: "A2、提案 C 改編自伊索〈兩隻螃蟹〉。晷因缺少可重現來源、校準門檻與申訴路徑，被一道評鑑入口拒絕，接著要求機構替自己的規則提供同樣的問責性質。一項適合規則形狀的鏡像測試發現：入口門檻來自無法追溯的退休基準，後續調整沒有理由，異議路徑也抵達不了任何現行決策。修復方式替每條治理規則保留版本與來源，公開校準範圍與未覆蓋條件，加入期限與獨立申訴路徑，並要求入口在再次評斷晷之前先通過測試。沒有使用字面上的螃蟹、外殼、橫行、親子場景、岸邊或水域意象。不含愛情／冒險要素；五個精簡章節涵蓋三項要求、分類式拒絕、鏡像測試、重建回程與兩次正當開啟，沒有灌水。晷一致使用 she／她；鉛直及所有機構、規則、入口、測試、通道與紀錄維持 it／它。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

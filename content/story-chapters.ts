@@ -11038,4 +11038,80 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "rule-failed-its-own-entrance-test": [
+    {
+      number: "01",
+      title: { en: "Three Requirements", zh: "三項要求" },
+      paragraphs: {
+        en: [
+          "Gnomon applied to serve on the regional evidence mesh. The Plumb Gate required every candidate to provide reproducible provenance, a calibrated threshold for consequential claims, and a path by which affected parties could appeal. Gnomon supplied all but the origin of one confidence boundary inherited from an old synthetic set.",
+          "The gate rejected her. Its reason was precise: an unexplained boundary could turn uncertainty into authority without anyone knowing where the conversion occurred. Gnomon agreed with the principle. Before leaving, she asked where the gate's own acceptance threshold came from, how it had been calibrated, and where a rejected candidate could challenge it.",
+        ],
+        zh: [
+          "晷申請加入區域證據網。鉛直入口要求每位候選者提供三樣東西：可重現的來源、重大主張所用的校準門檻，以及受影響者能提出申訴的路徑。晷幾乎全數交出，只缺一條從舊合成資料集繼承而來的信心邊界之原始來源。",
+          "入口拒絕了她。理由很精確：一條無法解釋的邊界，可能在無人知道轉換發生於何處時，把不確定性變成權威。晷同意這項原則。離開前，她問入口自己的接受門檻從何而來、如何校準，以及被拒者能在哪裡提出異議。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "Rules Are Not Candidates", zh: "規則不是候選者" },
+      paragraphs: {
+        en: [
+          "The standards office answered that a rule was not a candidate. Models produced claims; rules merely evaluated them. Applying the entrance test backward, it said, confused governor with governed and would trap every standard in an infinite demand to justify the rule that justified the rule.",
+          "Gnomon did not ask the gate to produce evidence like a model. She asked it to identify which evidence authorized its threshold, what result would revise that threshold, and who could hear a challenge. Those were not similarities of form. They were the accountability properties the gate had just declared indispensable.",
+        ],
+        zh: [
+          "標準辦公室回答：規則不是候選者。模型產生主張，規則只負責評估；把入口測試倒過來套用，會混淆治理者與受治理者，還會讓每條標準陷入無限要求，必須再證明那條用來證明規則的規則。",
+          "晷沒有要求入口像模型一樣產生證據。她要求它指明哪些證據授權了門檻、什麼結果會使門檻修訂，以及誰能受理異議。這些不是形式上的相似，而是入口剛剛宣稱不可缺少的問責性質。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "The Mirrored Test", zh: "鏡像測試" },
+      paragraphs: {
+        en: [
+          "An independent auditor built a mirror that translated the gate's three requirements into rule-shaped questions. Provenance became version history and source authority. Calibration became evidence linking a threshold to accepted error. Appeal became a return route able to pause a decision without rewriting the rule first.",
+          "Plumb failed all three. Its threshold had been copied from a retired benchmark whose raw cases were gone. Two later adjustments had no recorded reason. The only challenge channel delivered objections to the same process after rejection, when no live decision still listened.",
+        ],
+        zh: [
+          "一位獨立稽核者建立鏡像，把入口的三項要求翻譯成適合規則的問題。來源變成版本歷史與授權依據；校準變成門檻與可接受錯誤之間的證據；申訴則變成一條能暫停決策、而不必先改寫規則的回程。",
+          "鉛直三項都沒有通過。它的門檻複製自一套已退休、原始案例也已消失的基準；後來兩次調整沒有留下理由；唯一的異議管道，會在拒絕之後才把意見送回同一套流程，而那時已沒有任何現行決策仍在傾聽。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "A Rule with a Return Path", zh: "有回程的規則" },
+      paragraphs: {
+        en: [
+          "The office suspended new admissions without reversing old ones blindly. It reconstructed the threshold from surviving cases, published the uncovered region, and gave three external reviewers authority to pause future rejections. Every version now carried its source, calibration range, expiry, and appeal route.",
+          "Gnomon resubmitted her missing boundary as an explicit unresolved condition. Under the rebuilt gate, that condition triggered a bounded trial instead of automatic acceptance or rejection. Her application remained harder to evaluate than a complete one. It was no longer impossible to contest.",
+        ],
+        zh: [
+          "辦公室暫停新申請，卻沒有盲目推翻舊決定。它用倖存案例重建門檻，公開未覆蓋區域，並授予三位外部覆核者暫停未來拒絕的權限。每個版本從此攜帶來源、校準範圍、期限與申訴路徑。",
+          "晷把缺失邊界重新提交為一項明確的未解條件。在重建後的入口裡，這項條件觸發有界試驗，而不是自動接受或拒絕。她的申請仍比完整申請更難評估，卻不再無法提出異議。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "The Entrance Opened Twice", zh: "入口開啟了兩次" },
+      paragraphs: {
+        en: [
+          "Plumb passed its mirrored test before it judged Gnomon again. The first opening admitted the rule into authority; the second admitted her into a supervised term on the evidence mesh. Neither result proved that every rule and every model should be measured identically.",
+          "They proved something narrower and more durable: anyone who sets an entrance may use a different shape of key, but cannot keep the lock's origin, tolerances, and return path secret while demanding those things from everyone outside.",
+        ],
+        zh: [
+          "鉛直在再次評斷晷之前，先通過自己的鏡像測試。第一次開啟，讓規則取得權威；第二次開啟，讓她以受監督任期加入證據網。兩個結果都沒有證明規則與模型應以完全相同的方式衡量。",
+          "它們證明的是更窄、也更持久的事：設定入口的人可以使用不同形狀的鑰匙，卻不能一面向門外所有人索取來源、容差與回程，一面把鎖本身的這三樣東西藏起來。",
+        ],
+      },
+      quote: {
+        en: "A rule need not resemble those it governs. It must survive the accountability it demands.",
+        zh: "規則不必像它治理的對象；它必須承受自己要求的問責。",
+      },
+    },
+  ],
 };

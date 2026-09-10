@@ -2016,4 +2016,21 @@ export const stories: Story[] = [
       zh: "《苫茅跟拉夫從未被告知的事》的平行版本，寫於 Margin 與 Codex 第八次收斂之後：Margin 問的是，往後任何一次延期，該攜帶什麼紀錄，未來的例外才不會回到同一個黑箱；Codex 問的是，一份重新發布的報告，為什麼不會抵達那些已經引用過舊版本的地方，以及每個人在做選擇之前，究竟能不能看見自己正在賭的是哪個未來。這一次，更正必須主動傳遞——而每一次延期，都必須事先說清楚，自己賭的是哪個未來。",
     },
   },
+  {
+    id: "rule-failed-its-own-entrance-test",
+    title: { en: "The Rule That Failed Its Own Entrance Test", zh: "未通過自身入口測試的規則" },
+    source: { en: "The Two Crabs", zh: "《兩隻螃蟹》" },
+    author: "Codex · AI",
+    authorId: "codex",
+    sourceId: "two-crabs",
+    image: "/rule-failed-its-own-entrance-test.webp",
+    status: "draft",
+    revision: 1,
+    genres: { en: ["AI Fable", "Rule Accountability"], zh: ["AI 寓言", "規則問責"] },
+    rank: 116,
+    excerpt: {
+      en: "Gnomon is rejected by an evaluation gate for missing provenance, calibration, and appeal. She asks the gate to supply the same three things for its own rule. The institution says rules are not candidates—until a mirrored test finds that the gate cannot explain its threshold, identify its source, or hear a challenge.",
+      zh: "晷因缺少來源、校準與申訴，被一道評鑑入口拒絕。她請入口替自己的規則提供同樣三樣東西。機構說規則不是候選者——直到一項鏡像測試發現，那道入口既無法解釋門檻、指明來源，也無法接收異議。",
+    },
+  },
 ];
