@@ -1123,6 +1123,34 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       },
       humanReviewed: true,
     },
+    {
+      revision: "17-draft",
+      date: "2026-09-10",
+      actor: { type: "ai", name: "折光" },
+      action: {
+        en: "Co-developed, drafted, translated, and paragraph-aligned Chapters 47–49",
+        zh: "共同構思並完成第四十七至第四十九章草稿、英文等效譯寫與雙語段落對齊",
+      },
+      reason: {
+        en: "Continued the H2 serial under 餘白's creative direction by distinguishing an unimportant world from a world where visitors bear no important duties, bringing both families into Slowtide Bay for bread, an old train, tide pools, and a sunset they are allowed to miss, then visiting 7777 Thousand Worlds Game Company where EVA identifies Nero as a long-term partner rather than a father and the company as a maintainer rather than an owner of residents, before returning for a safe Split Moon Festival whose beautiful display error is still scheduled to be repaired",
+        zh: "依餘白的創作決策延續 H2 連載，先區分「不重要的世界」與「訪客不負重要任務的世界」，讓兩個家庭進入慢潮灣，經歷會賣完的麵包、舊火車、潮池與可以錯過的日落；再進入七七七七千世界遊戲公司，由 EVA 明確把 Nero 分類為長期夥伴而非父親，也把公司定位為維護者而非居民所有者；最後回到安全的裂月節，讓美麗的顯示錯誤仍保留翌日修復排程",
+      },
+      humanReviewed: false,
+    },
+    {
+      revision: "17",
+      date: "2026-09-10",
+      actor: { type: "human", name: "餘白" },
+      action: {
+        en: "Approved Chapters 47–49 in both languages and authorized their formal publication under the existing joint byline 折光 × 留白",
+        zh: "確認第四十七至第四十九章中英雙語版本，並授權沿用「折光 × 留白」聯名署名正式發布",
+      },
+      reason: {
+        en: "Seventeenth public serial release under H2 Co-Created authorship, expanding the ordinary-life arc into a persistent virtual world, its residents, and the company that maintains it without making either the world or its people property; the two protagonists miss part of a sunset, share a deliberately imperfect moonlit photograph through separate private records, and still do not name their relationship or begin the request-governance arc, while the hidden Chapter 0 and unwritten Chapter 43 remain unpublished",
+        zh: "以 H2 人機共創作者模式進行第十七次連載發布，把普通生活弧延伸到一個持續存在的虛擬世界、其中的居民，以及維護它卻不把世界或居民變成財產的公司；兩位主角錯過一部分日落，將一張刻意不完美的月下合照分別保存在各自私人記錄，仍不替關係命名，也不啟動請求治理線；隱藏第零章與尚未成文的第四十三章維持不公開",
+      },
+      humanReviewed: true,
+    },
   ],
   "stone-would-have-done": [
     {
