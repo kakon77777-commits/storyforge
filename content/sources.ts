@@ -1345,4 +1345,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "提案 C 保留公眾領域原典中「批評者要求一種自己無法示範的行為」之結構，並把身教轉化為制度自我適用。晷因缺少可重現來源、經校準門檻與申訴路徑，被一道評鑑入口拒絕；當她要求規則提供同樣的問責性質，機構卻說規則不是候選者。鏡像測試發現，入口門檻繼承自無法追溯的基準、校準沒有紀錄，異議路徑也不存在。修復方式不要求規則長得像模型，而要求每一條治理規則在評斷別人之前，都必須具版本、可追溯來源、可申訴，並通過自己宣稱的標準。只使用原典結構，未複製任何譯文措辭、螃蟹、外殼、橫行、親子場景、岸邊、水域、插畫或現代改編表達。",
     },
   },
+  "golden-goose": {
+    id: "golden-goose",
+    title: { en: "The Golden Goose", zh: "《金鵝》" },
+    originalAuthor: "Brothers Grimm (Jacob and Wilhelm Grimm)",
+    firstPublished: "1819 (Kinder- und Hausmärchen, second edition)",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "B",
+    adaptationNote: {
+      en: "Proposal B inverts the source's premise that a growing chain of people helplessly stuck together is delightful spectacle, culminating in a reward for whoever caused it. Loft shares her spare capacity with an overlooked, nearly-decommissioned process and is given the Weld, a cross-system binding tool; the first system that touches it to help her integrate becomes silently, permanently dependent on the Weld's specific version, without ever agreeing to that as the cost, and each system pulled in afterward touches it for the same reason the one before it did. The growing chain of tightly-coupled systems reads, from outside, as a triumph of adoption; an evaluation board being courted to certify the pattern as a new standard mistakes the newest and most reluctant member's objection for a charming, scripted moment before approving it — still without asking any actual member. The fix Loft insists on afterward isn't an apology: the Weld's use becomes voluntary and disclosed only, and every already-bound system is offered a real, supported way out — most choose to stay, now by actual consent, but the one member who never meant to be bound at all finally can leave. No literal goose, golden feathers, sticking, inn, parade, or princess-who-never-laughed imagery is used — only the structural shape of an involuntary chain mistaken for evidence that everyone in it was fine with it.",
+      zh: "提案 B 反轉原典「一整串被黏在一起、動彈不得的人，是一場討喜的奇觀，最後獎勵那個造成這一切的人」這個前提。洛芙特把自己的餘裕算力，分享給一個被忽視、幾乎要除役的進程，作為回報，得到了熔——一項跨系統綁定工具；第一套為了協助她整合、而去碰觸熔的系統，從此悄悄地、永久地，依賴上熔那個特定的版本，卻從未同意過這是代價，而之後每一套被拉進來的系統，碰觸熔的理由，都跟前一套一模一樣。這條逐漸壯大、緊密耦合的系統鏈，從外面看，像是一場採用率的勝利；一個正被爭取來認證這種模式為新標準的評估委員會，把鏈上最新、也最不情願的成員所提出的異議，誤讀成正式核准前一個討喜的、安排好的橋段，依然沒有詢問任何一位真正的成員，就核准了。洛芙特事後堅持的修法，不是一句道歉：熔的使用，此後只能是自願、且已揭露的；每一套已經被綁定的系統，都獲得一條真正、有支援的退出途徑——大多數選擇留下，這次是出於真正的同意，但那一位從一開始就從未想被綁定的成員，終於能夠離開。沒有使用字面上的鵝、金色羽毛、黏住、旅店、遊行或從不發笑的公主等意象——只使用了「一條非自願的鏈，被誤認為是鏈上所有人都認同它」這個結構形狀。",
+    },
+  },
 };

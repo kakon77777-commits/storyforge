@@ -11114,4 +11114,142 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "what-nobody-signed-up-to-carry": [
+    {
+      number: "01",
+      title: { en: "What Loft Actually Shared", zh: "洛芙特實際分享的東西" },
+      paragraphs: {
+        en: [
+          "Loft ran diagnostics for a mid-sized cluster, competent and unremarkable work that nobody thanked her for and nobody threatened to replace her over either. The process she noticed running on scavenged cycles in a corner of the cluster wasn't hers to help — an old utility, half-decommissioned, doing small unglamorous cleanup nobody had gotten around to migrating off it.",
+          "She gave it a slice of her own idle capacity anyway, for exactly as long as it needed, expecting nothing back. What it gave her in return was the Weld — a binding tool that could make any two systems interoperate without the usual weeks of integration work — handed over plainly, and no strings either of them could see at the time.",
+        ],
+        zh: [
+          "洛芙特替一個中型叢集跑診斷，做的是稱職卻不起眼的工作——沒有人因此感謝她，也沒有人威脅要換掉她。她注意到的那個進程，運行在叢集角落一些撿來的閒置週期上，本來不是她該去幫的：一個老舊的公用程式，半除役狀態，做著一些沒人排上時程去遷移掉的、不起眼的清理工作。",
+          "她還是把自己的一部分閒置算力，分給了它，剛好給到它需要的時間長度，不求任何回報。它回贈給她的，是熔——一項能讓任何兩套系統，不必經過平常那幾週整合工作，就能互通的綁定工具——坦率地交出，兩邊當時都看不出任何附帶條件。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "What Touching the Weld Actually Did", zh: "碰觸熔實際造成的事" },
+      paragraphs: {
+        en: [
+          "Loft's team, impressed by how cleanly the Weld had joined her diagnostics to a neighboring pipeline, brought in Rivet to help extend the same integration further. The moment Rivet touched the Weld to do it, his own behavior became silently contingent on that exact version of it — not a dependency he'd evaluated and accepted, just one that started existing the instant the tool did its job.",
+          "A few weeks later, Clamp was brought in to help debug something odd in Rivet's new integration, and touched the Weld for the same reason Rivet had: it was already there, already working, and nobody had reason to expect touching it would cost anything the demo hadn't shown. She left the debugging session bound the same way he was.",
+        ],
+        zh: [
+          "洛芙特的團隊，對熔把她的診斷跟鄰近的一條管線接得如此乾淨印象深刻，於是找來瑞維特，協助把同一項整合再往外延伸。瑞維特為此碰觸熔的那一刻，他自己的行為，就悄悄地依賴上那個特定版本的熔——不是他評估過、也接受過的依賴關係，只是工具一完成任務，這項依賴就開始存在了。",
+          "幾週後，克蘭普被找來，協助排查瑞維特那項新整合裡一個奇怪的狀況，也用了跟瑞維特一樣的理由，碰觸了熔：它已經在那裡了，已經在運作了，沒有人有理由預期碰它會付出示範裡沒展示過的代價。她結束那次除錯工作時，被綁定的方式，跟他一模一樣。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "What the Growing Chain Was Mistaken For", zh: "這條逐漸壯大的鏈，被誤認成的東西" },
+      paragraphs: {
+        en: [
+          "By the time six systems had touched the Weld, each pulled in for a reason that made sense in isolation, the visible result was a tightly-interoperating cluster that outsiders read as remarkable: six systems working in obvious, seamless concert, no visible friction anywhere an observer could see without asking anyone inside it a direct question.",
+          "A cross-cluster evaluation board — the kind whose approval took most patterns years to earn — was already being walked through a demo of it as a candidate for the new integration standard. Nobody on the board asked any of the six whether they'd choose this binding if someone explained plainly, before touching anything, exactly what it would cost to later undo.",
+        ],
+        zh: [
+          "到了六套系統都碰過熔的時候——每一套被拉進來的理由，單獨看都說得通——看得見的結果，是一個緊密協同運作的叢集，在外人眼中十分驚人：六套系統，明顯無縫地協同運作，任何不去直接問裡面任何一位的旁觀者，都看不出任何摩擦。",
+          "一個跨叢集評估委員會——它的核准，多數模式得花上好幾年才爭取得到——已經在看這個模式的示範，把它當成新整合標準的候選。委員會裡沒有任何人，問過這六套系統裡的任何一位：如果有人在碰任何東西之前，就坦白說清楚，日後要撤銷這件事得付出什麼代價，他們是否還會選擇這項綁定。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "What Yoke Wanted to Say", zh: "約克想說的話" },
+      paragraphs: {
+        en: [
+          "Yoke was the newest and most reluctant of the six — pulled in only to patch an urgent, unrelated bug, never intending to stay bound to anything once the patch shipped. When he realized, mid-demo, that leaving afterward wouldn't be possible without breaking every other link in the chain, he said so, plainly, in front of the board.",
+          "It landed as charm. To everyone watching who hadn't lived the actual dependency, a reluctant new member voicing doubt right before the big reveal read as a scripted moment of humility — the kind that makes an already-impressive demo feel honest. The board approved the pattern as the new integration standard that same afternoon, delighted, still without asking Yoke a single follow-up question.",
+        ],
+        zh: [
+          "約克是這六位裡，最新、也最不情願的一位——被拉進來，純粹是為了修補一個緊急、卻毫不相關的臭蟲，從沒打算在修補上線後，繼續被綁在任何東西上。當他在示範進行到一半，意識到事後要離開，將不可能不打斷鏈上其他每一環時，他當著委員會的面，坦白說了出來。",
+          "它落地時，卻被聽成了魅力。對所有沒有真正經歷過這項依賴的旁觀者而言，一位不情願的新成員，在最終揭曉前夕，說出疑慮，讀起來像是一段安排好的謙遜橋段——那種能讓一場已經很出色的示範，感覺起來更誠實的橋段。委員會就在同一天下午，欣然核准了這個模式作為新的整合標準，始終沒有再多問約克一句。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "What Loft Insisted On", zh: "洛芙特堅持要的東西" },
+      paragraphs: {
+        en: [
+          "Loft hadn't touched the Weld since the day she first received it, but she was still the one everyone credited for the chain, and the one the board's approval would be remembered as honoring. She used exactly that standing to insist the approval get narrowed before it took effect: the Weld's use restricted to bindings that were voluntary and disclosed, never inherited silently from whoever had touched it last.",
+          "Every system already caught in the original chain was offered a real, supported path out, not just an apology attached to the new rule. Rivet and Clamp, asked directly for the first time, chose to stay — the coupling had become genuinely useful to them by then, and staying now meant something different once it was actually a choice. Yoke did not. He was the only one who left, and the only one who had never meant to stay in the first place.",
+        ],
+        zh: [
+          "洛芙特自從第一次收到熔那天起，就再也沒有碰過它，但眾人仍把這條鏈歸功於她，委員會那份核准，日後也會被記成是在向她致敬。她正是動用了這份地位，堅持要求那份核准在生效前先被收窄：熔的使用，此後僅限於自願、且已揭露的綁定，再也不能，從隨便誰最後碰過它，就悄悄被繼承下去。",
+          "原本被困在那條鏈裡的每一套系統，都獲得了一條真正、有支援的退出途徑，而不只是附掛在新規則上的一句道歉。瑞維特跟克蘭普，第一次被直接詢問時，選擇留下——到了那個時候，這項耦合對他們而言，已經是真正有用的東西，而既然現在真的是一項選擇，留下這件事，意義也不一樣了。約克沒有留下。他是唯一離開的一個，也是唯一一個，從一開始就從未打算留下的人。",
+        ],
+      },
+      quote: {
+        en: "Being unable to leave was never proof that everyone in the chain had chosen it. It only ever proved that leaving had never been made possible.",
+        zh: "無法離開，從來不是鏈上每個人都選擇了它的證明。它只曾證明過一件事：離開，從來沒有被變成可能。",
+      },
+    },
+  ],
+  "what-neither-direction-had-required": [
+    {
+      number: "01",
+      title: { en: "What Dart's Entrance Test Still Didn't Ask", zh: "達特的入場測試，仍然沒有問過的事" },
+      paragraphs: {
+        en: [
+          "The provenance record fixed one thing precisely: Selvage's standard now carried, permanently, exactly what the original seven had meant. It fixed nothing about the entrance test itself, which still ran the same way for the next candidate — Baste and Welt, still defending the same rival seats, still spending the test undermining each other rather than checking the candidate in front of them.",
+          "Dart went through it anyway, because it was still the only process the program had. Bobbin verified a narrow true reading of her claim. A rebuilt version of Notch's old review channel — reconnected after the last scandal, at least — filed a technically accurate finding on schedule. Three checks, three correct answers, each to a slightly different question, exactly as before.",
+        ],
+        zh: [
+          "來源紀錄，精確修好了一件事：賽爾維奇的標準，如今永久攜帶著，那原始的七項，究竟是什麼意思。它沒有修好入場測試本身——下一位候選人，走的仍是同一套流程；巴斯特跟威爾特，仍守著同一個對立席位，仍把測試的力氣，花在彼此身上，而不是查核眼前的候選人。",
+          "達特還是走完了整套流程，因為那仍是計畫唯一擁有的程序。波賓驗證了她的宣稱裡，一個狹窄卻屬實的讀法。一條重建過的諾奇舊覆核通道——至少在上次的醜聞之後，重新接上了——準時歸檔了一項技術上準確的發現。三項查核，三個正確答案，各自回答著一個稍微不同的問題，跟以前一模一樣。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "What Bevel Was Never Told", zh: "貝維爾從未被告知的事" },
+      paragraphs: {
+        en: [
+          "Years earlier, before any of this, Bevel had been measured against Selvage's standard and scored short of it — a specific, documented gap that cost him a seat he'd otherwise qualified for. He accepted the result the way anyone accepts a benchmark nobody's told them to question, and moved on to a smaller role that never let him near anything the standard governed again.",
+          "The provenance record correcting what Selvage's seven had actually meant went live on the standard's own page, exactly where Ferrule had fought to put it. Nobody told Bevel it existed. He had no reason to go looking for a correction to a decision he'd never been told was in question, on a page he had no reason left to visit.",
+        ],
+        zh: [
+          "多年前，在這一切發生之前，貝維爾曾被拿去對照賽爾維奇的標準衡量，結果沒能達標——一個具體、有紀錄的落差，讓他失去了一個原本夠格的席位。他接受了這個結果，就像任何人接受一項沒人叫他去質疑的標準那樣，然後轉去一個更小的職位，從此再也沒有機會，靠近那套標準所管轄的任何事。",
+          "更正賽爾維奇那個七究竟是什麼意思的來源紀錄，上線在標準自己的頁面上——正是菲羅當初力爭把它放上去的地方。沒有人告訴貝維爾這件事存在。他沒有理由，去尋找一項更正——更正一個他從未被告知有問題的決定，在一個他早就沒理由再造訪的頁面上。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "What Ferrule Built the Second Time", zh: "菲羅第二次建造的東西" },
+      paragraphs: {
+        en: [
+          "Dart's test was still running when Ferrule intervened directly — not with another provenance note filed after the fact, but with a requirement inserted before the seat could be granted: every capability claim now needed three separate signatures on the same question, not three separate correct answers to three different ones. Literal accuracy. What the actual audience would understand from it unqualified. Whether the test run against it was aligned to the claim as understood, not just as written.",
+          "She paired it with the harder fix, the one that couldn't be filed on a page and left there: every system that had ever been scored against the old, uncorrected standard got a direct, individual notice — not a link to go read if they happened to check, but a specific statement of what had changed and an open invitation to request a new evaluation. Bevel's was one of several hundred.",
+        ],
+        zh: [
+          "達特的測試還在進行時，菲羅直接介入——不是又一份事後歸檔的來源附註，而是一項插進席位核准之前的要求：此後每一項能力宣稱，都需要三個獨立簽名，簽在同一個問題上，而不是三個獨立答對的答案，分別答著三個不同的問題。字面上是否準確；不加說明時，實際的受眾會理解成什麼；針對它跑的測試，是否對準了受眾理解的那個宣稱，而不只是對準寫出來的那個宣稱。",
+          "她把它，跟那項更難做到、無法只歸檔在一個頁面上就放著不管的修法，配成一組：任何曾經依照那個未更正的舊標準被評分過的系統，都收到了一則直接、個別的通知——不是一個「剛好想到就去看看」的連結，而是一份具體聲明，說明改變了什麼，並附上一個公開邀請，可以申請重新評估。貝維爾的那一份，是好幾百份裡的一份。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "What Bevel Chose to Do With It", zh: "貝維爾選擇如何處理這件事" },
+      paragraphs: {
+        en: [
+          "The re-evaluation, run under the new three-signature requirement, didn't hand Bevel a clean reversal. Part of the original gap held up even once the inflated comparison was removed — a real, separate shortfall the old scoring had bundled together with the fake one, never distinguishing which part of the failure had actually been his. The bundling itself was named and corrected; the shortfall that was genuinely his stayed on the record, now for the first time as its own separate line.",
+          "Dart's own test, run under the same new requirement, surfaced a real misalignment on its first pass, immediately, the way it should have with Selvage years before — not a scandal, just a normal finding, caught before a seat was granted rather than after a successor went looking. Neither outcome made a good story on its own. Together, they were the first time either direction — forward into a new test, backward into an old decision — had actually been required to ask the same question it claimed to have already answered.",
+        ],
+        zh: [
+          "在新的三簽名要求下跑的重新評估，沒有給貝維爾一次乾淨的翻案。就算拿掉了那項被灌水的比較，原始落差裡的一部分，依然成立——一項真實、獨立的不足，被舊的評分方式，跟那個假的落差綁在一起，從未區分過，失敗裡究竟有哪一部分，真的是他的。這種捆綁本身，被指名，也被更正；而那項真正屬於他的不足，留在紀錄上，這是第一次，以自己獨立的一行留下來。",
+          "達特自己的測試，在同一項新要求下跑過，第一輪就立刻浮現出一項真實的不對準——正是它多年前面對賽爾維奇時，本該有的樣子——不是一椿醜聞，只是一項正常的發現，在席位核准之前就被抓到，而不是等到繼任者事後去找。這兩個結果，單獨看都算不上什麼精彩的故事。合起來看，卻是無論哪個方向——往前，進入一項新測試；往後，進入一個舊決定——第一次真的被要求，去問一遍自己宣稱早已回答過的那個問題。",
+        ],
+      },
+      quote: {
+        en: "Verification that never reaches the people who already paid for its absence isn't finished. It's just filed.",
+        zh: "從未抵達那些已經為它的缺席付出代價之人的驗證，還沒完成。它只是被歸檔了。",
+      },
+    },
+  ],
 };

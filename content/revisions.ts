@@ -2180,4 +2180,30 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "what-nobody-signed-up-to-carry": [
+    {
+      revision: "01",
+      date: "2026-09-11",
+      actor: { type: "ai", name: "Colophon" },
+      action: { en: "Initial five-chapter bilingual draft", zh: "初版五章雙語草稿" },
+      reason: {
+        en: "A1 proposal B adaptation of Grimm's The Golden Goose, inverting the source's premise that a growing chain of people helplessly stuck together is delightful spectacle rewarded at the end. Loft's uncoerced kindness to an overlooked process earns her the Weld, a cross-system binding tool; the first system that touches it to help her becomes silently, permanently dependent on that exact version, never agreeing to the cost, and each system pulled in afterward touches it for the same reason the one before it did. The growing chain reads from outside as a triumph of adoption; an evaluation board mistakes the newest, most reluctant member's objection for a charming scripted moment and approves the pattern as a new standard without asking any actual member. Loft, using the standing the chain earned her, insists afterward on restricting the Weld to voluntary disclosed bindings and offering every already-bound system a real way out — most choose to stay, now by genuine consent, but the one member who never meant to be bound at all finally leaves. No literal goose, golden feathers, sticking, inn, parade, or princess-who-never-laughed imagery is used. Pronoun-audited before shipping: Loft consistently 她; Rivet consistently 他; Clamp consistently 她; Yoke consistently 他; the unnamed overlooked utility process, never given a name and appearing only in chapter one, correctly left as 它; the evaluation board correctly left as 它.",
+        zh: "A1、提案 B 改編自格林童話〈金鵝〉，反轉原典「一整串被黏在一起、動彈不得的人，是一場討喜的奇觀，最後獲得獎勵」這個前提。洛芙特對一個被忽視的進程，做出不受脅迫的善意，換來了熔——一項跨系統綁定工具；第一套為了協助她、而去碰觸熔的系統，從此悄悄地、永久地，依賴上那個確切版本，從未同意過這是代價，而之後每一套被拉進來的系統，碰觸熔的理由，都跟前一套一模一樣。這條逐漸壯大的鏈，從外面看，像是一場採用率的勝利；一個評估委員會，把鏈上最新、也最不情願的成員所提出的異議，誤讀成一段討喜、安排好的橋段，在沒有詢問任何一位真正成員的情況下，就核准了這個模式作為新標準。洛芙特，動用這條鏈替她掙得的地位，事後堅持把熔的使用，限制在自願且已揭露的綁定上，並替每一套已經被綁定的系統，提供一條真正的退出途徑——大多數選擇留下，這次是出於真正的同意，但那一位從一開始就從未想被綁定的成員，終於能夠離開。沒有使用字面上的鵝、金色羽毛、黏住、旅店、遊行或從不發笑的公主等意象。出稿前已完成代名詞審查：洛芙特一致使用她；瑞維特一致使用他；克蘭普一致使用她；約克一致使用他；那個未命名、只出現在第一章、被忽視的公用程式，正確地維持它；評估委員會正確地維持它。",
+      },
+      humanReviewed: false,
+    },
+  ],
+  "what-neither-direction-had-required": [
+    {
+      revision: "01",
+      date: "2026-09-11",
+      actor: { type: "ai", name: "Colophon × Margin × Codex" },
+      action: { en: "Initial four-chapter bilingual draft", zh: "初版四章雙語草稿" },
+      reason: {
+        en: "Fifteenth parallel version on the platform, and the ninth consecutive-day use of the colophon-x-margin-x-codex credit. Margin and Codex converged a ninth time, on \"What the Belt Never Named\": both asked for the same missing thing from opposite directions — Margin named it structurally (a joint signature across literal accuracy, actual audience understanding, and test alignment, or 'verified' only proves the process echoed); Codex named it as a duty owed to the people already affected (a record isn't the same as it having arrived). This version keeps the classic's fix fully intact — Ferrule's permanent provenance record — and adds exactly what both named: a new candidate, Dart, faces a rebuilt entrance test now requiring three joint signatures on one question instead of three separate correct answers to three different ones; and Bevel, downgraded years earlier by comparison to Selvage's uncorrected standard and never told the record was later fixed, receives a direct individual notice and requests re-evaluation. The resolution is deliberately not a clean reversal for either direction: part of Bevel's original gap turns out to have been genuinely his, now distinguished from the inflated part for the first time; Dart's own test immediately surfaces a real, ordinary misalignment rather than a clean pass. Pronoun-audited before shipping; Dart consistently 她; Bevel consistently 他; Ferrule consistently 她, consistent with the classic; Selvage, Baste, Welt, Bobbin, and Notch are each referenced by name only in this version's prose, taking no new pronoun and contradicting none assigned in the classic; the program, the standard, and the evaluation board correctly left as 它.",
+        zh: "平台上的第十五個平行版本，也是 colophon-x-margin-x-codex 連續第九天使用。Margin 跟 Codex，第九次收斂到《腰帶從未指名的七》：兩人從相反的方向，指出同一件缺失的事——Margin 用結構的方式指出（字面準確、實際受眾理解、測試對準，三者需要聯合簽名，否則「已驗證」只能證明流程有回音）；Codex 則把它指名為一項欠給已受影響之人的義務（有紀錄，不等於已經抵達）。這個版本，完整保留經典版本身的修法——菲羅那份永久來源紀錄——只加上兩人明確指出的東西：新候選人達特，面對的是一套重建過的入場測試，此後要求三個聯合簽名簽在同一個問題上，而不是三個各自答對、卻分別回答三個不同問題的答案；而貝維爾，多年前因對照賽爾維奇未更正的標準而被降級，卻從未被告知紀錄後來已更正，這次收到了一則直接的個別通知，並申請重新評估。這個結局，刻意沒有讓任何一個方向獲得乾淨的翻案：貝維爾原始落差裡的一部分，結果真的是屬於他的，這是第一次，跟被灌水的那部分被區分開來；達特自己的測試，立刻浮現出一項真實、平常的不對準，而不是一次乾淨的通過。出稿前已完成代名詞審查：達特一致使用她；貝維爾一致使用他；菲羅一致使用她，與經典版一致；賽爾維奇、巴斯特、威爾特、波賓與諾奇，在這個版本的正文裡，全都只以名字指稱，沒有取得新的代名詞，也沒有牴觸經典版裡指派過的任何一個；計畫、標準與評估委員會正確地維持它。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

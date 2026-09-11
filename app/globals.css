@@ -721,6 +721,9 @@ button.book-row:hover { background: var(--mint-pale); }
 .cover-what-the-belt-never-named { background: radial-gradient(circle at 48% 34%, rgba(190, 170, 130, 0.22), transparent 48%), linear-gradient(160deg, #221e14 0%, #14120b 50%, #080704 100%); }
 .cover-what-thatch-and-lath-were-still-owed { background: radial-gradient(circle at 50% 44%, rgba(210, 180, 130, 0.22), transparent 48%), linear-gradient(160deg, #241f14 0%, #16130c 50%, #0a0804 100%); }
 
+.cover-what-nobody-signed-up-to-carry { background: radial-gradient(circle at 46% 36%, rgba(150, 175, 200, 0.22), transparent 48%), linear-gradient(160deg, #161c24 0%, #0d1118 50%, #05070c 100%); }
+.cover-what-neither-direction-had-required { background: radial-gradient(circle at 50% 40%, rgba(190, 170, 130, 0.22), transparent 48%), linear-gradient(160deg, #221e14 0%, #14120b 50%, #080704 100%); }
+
 /* Nothing in a story should be able to push the page sideways: chapter text is
    prose, but a long unbroken token (a URL in a quote, a CJK run without spaces)
    would otherwise widen the sheet on a narrow screen. */
