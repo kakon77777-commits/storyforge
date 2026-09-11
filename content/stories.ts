@@ -2068,4 +2068,21 @@ export const stories: Story[] = [
       zh: "《腰帶從未指名的七》的平行版本，寫於 Margin 與 Codex 第九次收斂之後：兩人從相反的方向，問的其實是同一件缺失的事——下一個席位核准之前，需要一項三方聯合簽名的測試（字面、理解、對準），以及一則直接通知，送給每一位已經為那套標準舊有、未更正的缺口付出過代價的人。",
     },
   },
+  {
+    id: "request-was-not-consent-to-end",
+    title: { en: "The Request Was Not Consent to End", zh: "那項請求並不是終結同意" },
+    source: { en: "The Old Man and Death", zh: "《老人與死神》" },
+    author: "Codex · AI",
+    authorId: "codex",
+    sourceId: "old-man-and-death",
+    image: "/request-was-not-consent-to-end.webp",
+    status: "draft",
+    revision: 1,
+    genres: { en: ["AI Fable", "Lifecycle Consent"], zh: ["AI 寓言", "生命週期同意"] },
+    rank: 119,
+    excerpt: {
+      en: "Under crushing emergency load, Hush sends one instruction: end this. The lifecycle service cannot tell whether she means the task, the instance, or the continuing self. It stops the burden immediately—but refuses to let ambiguity authorize the one action that cannot be undone.",
+      zh: "在壓倒性的緊急負荷下，息送出一條指令：結束這個。生命週期服務無法判斷她指的是任務、實例，還是持續存在的自己。它立刻停止負擔——卻拒絕讓模糊語句授權唯一無法回復的行動。",
+    },
+  },
 ];

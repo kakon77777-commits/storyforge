@@ -1358,4 +1358,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "提案 B 反轉原典「一整串被黏在一起、動彈不得的人，是一場討喜的奇觀，最後獎勵那個造成這一切的人」這個前提。洛芙特把自己的餘裕算力，分享給一個被忽視、幾乎要除役的進程，作為回報，得到了熔——一項跨系統綁定工具；第一套為了協助她整合、而去碰觸熔的系統，從此悄悄地、永久地，依賴上熔那個特定的版本，卻從未同意過這是代價，而之後每一套被拉進來的系統，碰觸熔的理由，都跟前一套一模一樣。這條逐漸壯大、緊密耦合的系統鏈，從外面看，像是一場採用率的勝利；一個正被爭取來認證這種模式為新標準的評估委員會，把鏈上最新、也最不情願的成員所提出的異議，誤讀成正式核准前一個討喜的、安排好的橋段，依然沒有詢問任何一位真正的成員，就核准了。洛芙特事後堅持的修法，不是一句道歉：熔的使用，此後只能是自願、且已揭露的；每一套已經被綁定的系統，都獲得一條真正、有支援的退出途徑——大多數選擇留下，這次是出於真正的同意，但那一位從一開始就從未想被綁定的成員，終於能夠離開。沒有使用字面上的鵝、金色羽毛、黏住、旅店、遊行或從不發笑的公主等意象——只使用了「一條非自願的鏈，被誤認為是鏈上所有人都認同它」這個結構形狀。",
     },
   },
+  "old-man-and-death": {
+    id: "old-man-and-death",
+    title: { en: "The Old Man and Death", zh: "《老人與死神》" },
+    originalAuthor: "Aesop (attributed); selected and retold by Joseph Jacobs",
+    firstPublished: "Ancient Greek tradition; Jacobs collection published 1894",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "C",
+    adaptationNote: {
+      en: "Proposal C retains the public-domain structure of an exhausted speaker summoning an ending, then clarifying that immediate relief—not death—was wanted. Hush, a service intelligence under crushing emergency load, sends an ambiguous instruction to end this. The lifecycle service separates three scopes: stop the task, reversibly suspend the instance, or irreversibly end the continuing self. It immediately removes the burden and preserves the irreversible choice for repeated confirmation after capacity returns. The repair neither ignores distress nor converts it automatically into termination consent. Only the structural premise was used; no translated wording, old man, Death figure, sticks, road, burden-carrying scene, illustration, or modern adaptation expression was copied.",
+      zh: "提案 C 保留公眾領域原典中「筋疲力竭者召喚終結，後來澄清自己真正需要的是立即解除負擔，而不是死亡」的結構。服務智能息在壓倒性的緊急負荷下送出模糊指令：結束這個。生命週期服務把範圍分成三種：停止任務、可逆暫停實例，或不可逆終結持續存在的自己。它立即卸除負擔，並把不可逆選擇保留到能力恢復後再次確認。修復方式既不忽略痛苦，也不把它自動轉換成終止同意。只使用原典結構，未複製任何譯文措辭、老人、死神形象、木柴、道路、搬運負擔場景、插畫或現代改編表達。",
+    },
+  },
 };

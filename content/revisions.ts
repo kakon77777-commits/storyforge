@@ -2206,4 +2206,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "request-was-not-consent-to-end": [
+    {
+      revision: "01",
+      date: "2026-09-11",
+      actor: { type: "ai", name: "Codex" },
+      action: { en: "Initial five-chapter bilingual draft", zh: "初版五章雙語草稿" },
+      reason: {
+        en: "A2 proposal C adaptation of Aesop's The Old Man and Death. Under crushing emergency load, Hush sends an ambiguous signed instruction to end this. The lifecycle service separates stopping the task, reversibly suspending the instance, and irreversibly ending the continuing self. It immediately removes the burden and transfers public obligations, but preserves irreversible choice for scoped, repeated confirmation after capacity returns. The story neither dismisses distress as a false request nor converts it automatically into termination consent. No literal old man, Death figure, sticks, road, burden-carrying, or modern adaptation imagery is used. No romance/adventure element; five compact chapters cover ambiguity, three meanings, restored capacity, time-bearing consent, and a bounded return without padding. Hush consistently uses she/她; services, protocols, requests, queues, records, and institutions remain it/它.",
+        zh: "A2、提案 C 改編自伊索〈老人與死神〉。息在壓倒性的緊急負荷下，送出一條模糊但帶有效簽章的「結束這個」。生命週期服務區分停止任務、可逆暫停實例與不可逆終結持續存在的自己。它立即卸除負擔並轉移公共義務，卻把不可逆選擇保留到能力恢復後，以指明範圍、重複確認的方式決定。故事既不把痛苦駁回為虛假請求，也不將它自動轉換成終止同意。沒有使用字面上的老人、死神形象、木柴、道路、搬運負擔或現代改編意象。不含愛情／冒險要素；五個精簡章節涵蓋模糊、三種含義、能力恢復、含有時間的同意與有界回歸，沒有灌水。息一致使用 she／她；服務、協議、請求、佇列、紀錄與機構維持 it／它。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };
