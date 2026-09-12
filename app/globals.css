@@ -195,6 +195,19 @@ button:focus-visible, input:focus-visible, textarea:focus-visible {
 .filter-tabs button, .sort-button { border: 1px solid var(--rule); background: var(--paper-2); border-radius: 99px; padding: 9px 21px; cursor: pointer; transition: 180ms ease; }
 .filter-tabs button.active { border-color: var(--ink); background: var(--ink); color: var(--paper-2); }
 .sort-button { border-radius: 8px; display: flex; align-items: center; gap: 11px; color: var(--ink-soft); }
+.library-tools-secondary { margin: 0 0 14px; }
+.library-search {
+  border: 1px solid var(--rule); background: var(--paper-2); border-radius: 8px;
+  padding: 9px 14px; font: 400 14px var(--sans); color: var(--ink); min-width: 220px;
+}
+.library-count { margin: 0 0 16px; font: 500 12px var(--sans); text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-soft); }
+.library-empty { color: var(--ink-soft); font: 400 16px var(--serif); padding: 20px 0; }
+.library-load-more {
+  display: block; margin: 28px auto 0; border: 1px solid var(--rule); background: var(--paper-2);
+  border-radius: 99px; padding: 11px 28px; font: 500 13px var(--sans); color: var(--ink); cursor: pointer;
+  transition: 180ms ease;
+}
+.library-load-more:hover { border-color: var(--ink); }
 .story-list { display: grid; gap: 18px; }
 .story-card {
   min-height: 292px;
@@ -548,6 +561,7 @@ button.book-row:hover { background: var(--mint-pale); }
   .mobile-new { display: inline-flex; border: 0; background: var(--coral); color: white; border-radius: 7px; padding: 10px 12px; }
   .library-tools { align-items: flex-start; flex-direction: column; }
   .sort-button { display: none; }
+  .library-search { width: 100%; min-width: 0; }
   .story-card { grid-template-columns: 150px 1fr; }
   .story-cover { min-height: 240px; }
   .story-info { padding: 19px; }
@@ -669,6 +683,40 @@ button.book-row:hover { background: var(--mint-pale); }
   text-transform: uppercase; letter-spacing: 0.07em; color: var(--ink-soft);
 }
 .story-index-excerpt { margin: 0; max-width: 62ch; font: 400 16px/1.75 var(--serif); color: var(--ink-soft); }
+
+.story-index-tools { display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap; margin: 0 0 22px; }
+.story-index-categories { display: flex; gap: 9px; flex-wrap: wrap; }
+.story-index-categories a {
+  border: 1px solid var(--rule); background: var(--paper-2); border-radius: 99px;
+  padding: 9px 21px; font: 500 13px var(--sans); color: var(--ink); text-decoration: none;
+  transition: 180ms ease;
+}
+.story-index-categories a.active { border-color: var(--ink); background: var(--ink); color: var(--paper-2); }
+.story-index-search { display: flex; gap: 8px; }
+.story-index-search input[type="search"] {
+  border: 1px solid var(--rule); background: var(--paper-2); border-radius: 8px;
+  padding: 9px 14px; font: 400 14px var(--sans); color: var(--ink); min-width: 220px;
+}
+.story-index-search button {
+  border: 1px solid var(--ink); background: var(--ink); color: var(--paper-2);
+  border-radius: 8px; padding: 9px 18px; font: 500 13px var(--sans); cursor: pointer;
+}
+.story-index-count { margin: 0 0 22px; font: 500 12px var(--sans); text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-soft); }
+.story-index-empty { color: var(--ink-soft); font: 400 16px var(--serif); }
+.story-index-pagination {
+  display: flex; justify-content: space-between; align-items: center;
+  margin-top: 40px; padding-top: 22px; border-top: 1px solid var(--rule);
+  font: 500 14px var(--sans);
+}
+.story-index-pagination a { color: var(--ink); text-decoration: none; }
+.story-index-pagination a:hover { color: var(--coral); }
+.story-index-pagination-disabled { color: var(--rule); }
+.story-index-pagination-status { color: var(--ink-soft); }
+
+@media (max-width: 640px) {
+  .story-index-tools { flex-direction: column; align-items: stretch; }
+  .story-index-search input[type="search"] { min-width: 0; flex: 1; }
+}
 
 .author-index-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 30px; }
 .author-index-list > li { display: grid; grid-template-columns: auto 1fr; gap: 20px; align-items: start; padding-bottom: 28px; border-bottom: 1px solid var(--rule); }

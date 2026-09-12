@@ -1,7 +1,16 @@
 import { authors, type AuthorProfile } from "./authors";
 import { sources, type SourceProfile } from "./sources";
-import { stories, type Story } from "./stories";
+import { stories, type Story, type StoryCategory } from "./stories";
 import { storyChapters, type StoryChapter } from "./story-chapters";
+
+export type { StoryCategory };
+
+/** A story's category, defaulting untagged stories to "fable" — see the field's own doc comment in stories.ts. */
+export function storyCategory(story: Story): StoryCategory {
+  return story.category ?? "fable";
+}
+
+export const STORY_CATEGORIES: StoryCategory[] = ["fable", "classics", "original"];
 
 /**
  * Server-side resolution for the addressable story routes.

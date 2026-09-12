@@ -7,6 +7,7 @@ import { authors, type AuthorProfile } from "../content/authors";
 import { sources, type SourceProfile } from "../content/sources";
 import { revisionLedgers } from "../content/revisions";
 import { stories, type Story } from "../content/stories";
+import { STORY_CATEGORIES, storyCategory, type StoryCategory } from "../content/story-routes";
 
 // Parallel versions render only beneath their classic on the classic's own
 // `/s/:id` page (see app/s/StorySheet.tsx) — they don't get a second card
@@ -20,6 +21,21 @@ type Theme = "light" | "dark";
 type Style = "canvas" | "literary" | "compact";
 type View = "library" | "studio" | "webfiction" | "reader" | "author" | "source" | "discussion";
 type Filter = "all" | "drafts" | "published" | "bilingual";
+type CategoryFilter = "all" | StoryCategory;
+
+const CATEGORY_LABEL_EN: Record<CategoryFilter, string> = {
+  all: "All",
+  fable: "Fable & Fairy Tale",
+  classics: "Classics Literature",
+  original: "Original",
+};
+const CATEGORY_LABEL_ZH: Record<CategoryFilter, string> = {
+  all: "全部",
+  fable: "寓言與童話",
+  classics: "經典文學",
+  original: "原創",
+};
+const LIBRARY_PAGE_SIZE = 24;
 type ViewCounts = Record<string, number | null>;
 type DiscussionPost = { id: string; authorLabel: string; content: string; createdAt: string; parentId: string | null };
 
@@ -319,6 +335,9 @@ export default function Home() {
   const [style, setStyle] = useState<Style>("canvas");
   const [view, setView] = useState<View>("library");
   const [filter, setFilter] = useState<Filter>("all");
+  const [categoryFilter, setCategoryFilter] = useState<CategoryFilter>("all");
+  const [searchQuery, setSearchQuery] = useState("");
+  const [visibleCount, setVisibleCount] = useState(LIBRARY_PAGE_SIZE);
   const [railHidden, setRailHidden] = useState(false);
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [readerSize, setReaderSize] = useState(18);
@@ -408,10 +427,43 @@ export default function Home() {
   }, [view]);
 
   const filteredStories = useMemo(() => {
-    if (filter === "drafts") return libraryStories.filter((story) => story.status === "draft");
-    if (filter === "published") return libraryStories.filter((story) => story.status === "published");
-    return libraryStories;
-  }, [filter]);
+    let result = libraryStories;
+    if (filter === "drafts") result = result.filter((story) => story.status === "draft");
+    else if (filter === "published") result = result.filter((story) => story.status === "published");
+
+    if (categoryFilter !== "all") {
+      result = result.filter((story) => storyCategory(story) === categoryFilter);
+    }
+
+    const q = searchQuery.trim().toLowerCase();
+    if (q) {
+      result = result.filter((story) => {
+        const haystack = [
+          story.title.en,
+          story.title.zh,
+          story.excerpt.en,
+          story.excerpt.zh,
+          story.author,
+          story.genres.en.join(" "),
+          story.genres.zh.join(" "),
+        ]
+          .join(" ")
+          .toLowerCase();
+        return haystack.includes(q);
+      });
+    }
+
+    return result;
+  }, [filter, categoryFilter, searchQuery]);
+
+  useEffect(() => {
+    setVisibleCount(LIBRARY_PAGE_SIZE);
+  }, [filter, categoryFilter, searchQuery]);
+
+  const visibleStories = useMemo(
+    () => filteredStories.slice(0, visibleCount),
+    [filteredStories, visibleCount],
+  );
 
   const registerView = (storyId: string) => {
     const sessionKey = `storyforge-viewed:${storyId}`;
@@ -550,7 +602,14 @@ export default function Home() {
           setRailHidden={setRailHidden}
           filter={filter}
           setFilter={setFilter}
-          filteredStories={filteredStories}
+          categoryFilter={categoryFilter}
+          setCategoryFilter={setCategoryFilter}
+          searchQuery={searchQuery}
+          setSearchQuery={setSearchQuery}
+          filteredStories={visibleStories}
+          totalMatches={filteredStories.length}
+          hasMore={filteredStories.length > visibleStories.length}
+          onLoadMore={() => setVisibleCount((count) => count + LIBRARY_PAGE_SIZE)}
           viewCounts={viewCounts}
           onNew={() => setView("studio")}
           onRead={openReader}
@@ -653,7 +712,14 @@ function LibraryView({
   setRailHidden,
   filter,
   setFilter,
+  categoryFilter,
+  setCategoryFilter,
+  searchQuery,
+  setSearchQuery,
   filteredStories,
+  totalMatches,
+  hasMore,
+  onLoadMore,
   viewCounts,
   onNew,
   onRead,
@@ -666,13 +732,28 @@ function LibraryView({
   setRailHidden: (value: boolean) => void;
   filter: Filter;
   setFilter: (value: Filter) => void;
+  categoryFilter: CategoryFilter;
+  setCategoryFilter: (value: CategoryFilter) => void;
+  searchQuery: string;
+  setSearchQuery: (value: string) => void;
   filteredStories: Story[];
+  totalMatches: number;
+  hasMore: boolean;
+  onLoadMore: () => void;
   viewCounts: ViewCounts;
   onNew: () => void;
   onRead: (story: Story) => void;
   onAuthor: (authorId: string) => void;
   onSource: (sourceId: string) => void;
 }) {
+  const categoryLabels = lang === "zh" ? CATEGORY_LABEL_ZH : CATEGORY_LABEL_EN;
+  const searchPlaceholder = lang === "zh" ? "搜尋標題、作者、類型…" : "Search titles, authors, genres…";
+  const loadMoreLabel = lang === "zh" ? "載入更多" : "Load more";
+  const emptyLabel = lang === "zh" ? "沒有符合這個篩選條件的故事。" : "No stories match this filter yet.";
+  const countLabel =
+    lang === "zh"
+      ? `符合 ${totalMatches} 篇`
+      : `${totalMatches} matching ${totalMatches === 1 ? "work" : "works"}`;
   return (
     <main className={`library-layout ${railHidden ? "rail-hidden" : ""}`}>
       {!railHidden ? (
@@ -723,20 +804,56 @@ function LibraryView({
           <button className="sort-button"><span>☷</span>{t.recently}<span>⌄</span></button>
         </div>
 
-        <div className="story-list">
-          {filteredStories.map((story) => (
-            <StoryCard
-              key={story.id}
-              story={story}
-              lang={lang}
-              t={t}
-              views={viewCounts[story.id]}
-              onRead={() => onRead(story)}
-              onAuthor={() => onAuthor(story.authorId)}
-              onSource={() => onSource(story.sourceId)}
-            />
-          ))}
+        <div className="library-tools library-tools-secondary">
+          <div className="filter-tabs" role="tablist" aria-label="Story category filters">
+            {(["all", ...STORY_CATEGORIES] as CategoryFilter[]).map((item) => (
+              <button
+                key={item}
+                className={categoryFilter === item ? "active" : ""}
+                onClick={() => setCategoryFilter(item)}
+                role="tab"
+                aria-selected={categoryFilter === item}
+              >
+                {categoryLabels[item]}
+              </button>
+            ))}
+          </div>
+          <input
+            type="search"
+            className="library-search"
+            value={searchQuery}
+            onChange={(event) => setSearchQuery(event.target.value)}
+            placeholder={searchPlaceholder}
+            aria-label={searchPlaceholder}
+          />
         </div>
+
+        <p className="library-count">{countLabel}</p>
+
+        {filteredStories.length === 0 ? (
+          <p className="library-empty">{emptyLabel}</p>
+        ) : (
+          <div className="story-list">
+            {filteredStories.map((story) => (
+              <StoryCard
+                key={story.id}
+                story={story}
+                lang={lang}
+                t={t}
+                views={viewCounts[story.id]}
+                onRead={() => onRead(story)}
+                onAuthor={() => onAuthor(story.authorId)}
+                onSource={() => onSource(story.sourceId)}
+              />
+            ))}
+          </div>
+        )}
+
+        {hasMore ? (
+          <button className="library-load-more" onClick={onLoadMore}>
+            {loadMoreLabel}
+          </button>
+        ) : null}
       </section>
     </main>
   );

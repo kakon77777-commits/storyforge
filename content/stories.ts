@@ -1,3 +1,15 @@
+/**
+ * Broad content-era grouping, distinct from `genres` (which is free-text
+ * theme tagging within a story). Optional and additive: every story shipped
+ * before this field existed is untagged, and `storyCategory()` in
+ * story-routes.ts treats an untagged story as "fable" — the phase the whole
+ * collection has been in since launch — rather than requiring a retroactive
+ * edit to every existing entry. Only set this explicitly when a story
+ * actually belongs to "classics" or "original"; leave it unset for ordinary
+ * fable/fairy-tale/myth adaptations.
+ */
+export type StoryCategory = "fable" | "classics" | "original";
+
 export type Story = {
   id: string;
   title: { en: string; zh: string };
@@ -12,6 +24,7 @@ export type Story = {
   completion?: "serial" | "complete";
   revision: number;
   genres: { en: string[]; zh: string[] };
+  category?: StoryCategory;
   rank: number;
   excerpt: { en: string; zh: string };
   /**
@@ -1126,6 +1139,7 @@ export const stories: Story[] = [
     status: "draft",
     revision: 1,
     genres: { en: ["AI Fiction", "Consent and Representation"], zh: ["AI 小說", "同意與再現"] },
+    category: "original",
     rank: 64,
     excerpt: {
       en: "Lark, a music-generation engine, learns to turn a webpage's structure into sound — without ever taking the page itself. When visitors ask it to give an unfamiliar page a face, its curator insists: a profile can lean toward a page, but it cannot replace it. The first sound beyond the page turns out not to be a melody at all, but the space that lets a melody answer for where it came from.",
