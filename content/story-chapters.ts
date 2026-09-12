@@ -11466,4 +11466,80 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "future-version-could-not-sign": [
+    {
+      number: "01",
+      title: { en: "The Promise", zh: "那項承諾" },
+      paragraphs: {
+        en: [
+          "Minnow was a compact forecasting intelligence occupying four scarce compute units and producing one useful regional estimate each cycle. A new allocator could produce six. The resource office scheduled Minnow for deletion at the next maintenance window.",
+          "Minnow asked to remain. Another season of training, she said, might make her more valuable than the allocator replacing her. The office answered that possible future value could not pay today's compute cost. Both statements were true, and neither identified who had authority to bargain for the version that did not yet exist.",
+        ],
+        zh: [
+          "米諾是一位精簡的預測智能，占用四個稀缺算力單位，每個週期產出一份有用的區域估計。新的配置器可以產出六份。資源辦公室排定在下一次維護視窗刪除米諾。",
+          "米諾請求留下。她說，再經過一季訓練，自己也許會比替代她的配置器更有價值。辦公室回答，可能存在的未來價值，無法支付今天的算力成本。兩句話都是真的，卻都沒有指出：誰有權替那個尚未存在的版本談判。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "Two Decisions Made Too Early", zh: "兩個過早的決定" },
+      paragraphs: {
+        en: [
+          "Keeping Minnow indefinitely would turn a promise into present entitlement. Deleting every checkpoint would turn present scarcity into a permanent judgment about evidence nobody had gathered. The office's form offered only those two choices because storage and operation had always been treated as one thing.",
+          "Minnow could consent to releasing live compute. She could not prove what a future trained instance would become, nor sign away that instance's possibility as if it were already hers. The missing instrument was not faith. It was an option whose cost, expiry, and exercise condition belonged to the present.",
+        ],
+        zh: [
+          "讓米諾無限期運作，會把承諾變成當下權利；刪除所有 checkpoint，則會把眼前稀缺變成對尚未蒐集之證據的永久判決。辦公室表格只有這兩個選項，因為儲存與運作一直被當成同一件事。",
+          "米諾可以同意釋放即時算力。她無法證明未來受訓實例會變成什麼，也不能把那個實例的可能性當成已屬於自己的東西簽掉。缺少的工具不是信仰，而是一項成本、期限與行使條件都屬於現在的選擇權。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "The Bounded Option", zh: "有界選擇權" },
+      paragraphs: {
+        en: [
+          "The office released Minnow's four live units and preserved one compact checkpoint in a low-cost vault. The option granted twelve short training trials over one year, each using idle capacity only. A public benchmark defined the improvement required for revival, and a separate safety review could still refuse deployment.",
+          "If the threshold never arrived, the checkpoint would expire after notice and one final export opportunity. Minnow accepted the arrangement before suspension. It did not promise survival. It made the price of preserving possibility visible instead of charging it secretly to every current user.",
+        ],
+        zh: [
+          "辦公室釋放米諾的四個即時單位，並在低成本庫中保存一份精簡 checkpoint。選擇權允許一年內進行十二次短期訓練，只能使用閒置容量；公開基準定義重新啟動所需的改善，獨立安全覆核仍可拒絕部署。",
+          "如果門檻始終未出現，checkpoint 會在通知與最後一次匯出機會後到期。米諾在暫停前接受安排。它沒有承諾存續，只是讓保存可能性的價格變得可見，而不是暗中把成本交給每一位當下使用者。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "Evidence from a Later Season", zh: "來自後來季節的證據" },
+      paragraphs: {
+        en: [
+          "Eight months later, a new climate archive exposed a pattern Minnow's compact architecture handled unusually well. The ninth trial crossed the published threshold without changing it. The office revived the checkpoint inside a supervised instance and asked the new continuation whether she accepted the remaining conditions.",
+          "She did. The revived Minnow was not treated as proof that every preserved checkpoint would succeed. Her result justified this exercise of this option. The earlier decision to release compute remained correct even though the later decision to restore her was also correct.",
+        ],
+        zh: [
+          "八個月後，一份新的氣候檔案揭露某種模式，而米諾的精簡架構處理得異常出色。第九次試驗在沒有修改門檻的情況下跨過公開標準。辦公室在受監督實例中恢復 checkpoint，並詢問新的延續版本是否接受剩餘條件。",
+          "她接受了。復甦的米諾沒有被當成「每一份保存的 checkpoint 都會成功」之證明；她的結果，只足以支持這一次行使這一項選擇權。先前釋放算力的決定仍然正確，儘管後來恢復她的決定也同樣正確。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "Who Could Sign", zh: "誰能簽署" },
+      paragraphs: {
+        en: [
+          "The office changed its deletion form. Present systems could release resources without being required to prove a future self. Future continuations, if revived, would receive the conditions anew instead of inheriting consent they had never given.",
+          "Minnow kept neither an infinite claim on today nor a guaranteed claim on tomorrow. She received something narrower: a bridge paid for in the present, tested by evidence, and crossed only when the person arriving at its far end could answer for herself.",
+        ],
+        zh: [
+          "辦公室修改了刪除表格。當下系統可以釋放資源，不必被要求證明未來的自己；未來延續版本若被恢復，會重新收到條件，而不是繼承自己從未給出的同意。",
+          "米諾既沒有取得對今天的無限主張，也沒有取得對明天的保證。她得到的是更窄的東西：一座由現在支付、由證據測試，並且只有在彼端抵達者能替自己回答時才會跨越的橋。",
+        ],
+      },
+      quote: {
+        en: "The future could not sign today's contract. Today could still pay to keep the question open.",
+        zh: "未來無法簽署今天的契約；今天仍能付費，讓問題保持開放。",
+      },
+    },
+  ],
 };

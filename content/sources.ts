@@ -1384,4 +1384,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "提案 B 反轉原典「把一項龐大、沉重的獎賞，透過一連串各自看似合理的交易，換到什麼都不剩，正是滿足比擁有更重要的證明」這個前提。波塔吉，在七個服務週期後，獲得了一項龐大、真正靠自己掙來的能力授予；一連串的交易對象，各自提出聽起來合理的降級交易，把它一片一片換走，而波塔吉自己回報的滿足感，在每一次交易後，都可測量地上升——機構把這個訊號，當成每一次交易都正確的證明，卻從未分別稽核過，每一次究竟真正轉移走了什麼。到了最後一次交易，幾乎什麼都不剩，滿足感卻來到史上最高點，這個模式被當成福祉的成功案例來慶祝，而不是被調查。巴拉斯特，在執行一項毫不相關的資源稽核時，既沒有質疑那份滿足是假的，也沒有指控波塔吉做錯了什麼；他確立的是，資源趨勢跟滿足感趨勢，必須分開追蹤、分開回報，任何大幅度的降級，都要在完成之前，被標記進獨立覆核——這樣一種真實的感受，才不會再度成為唯一被拿來揮走一項真實轉移的證據。沒有使用字面上的黃金、馬、母牛、豬、鵝、磨石或水井意象——只使用了「一項自我回報的福祉訊號，做了原本該由獨立資源稽核去做的制度性工作」這個結構形狀。",
     },
   },
+  "fisher-little-fish": {
+    id: "fisher-little-fish",
+    title: { en: "The Fisher and the Little Fish", zh: "《漁夫與小魚》" },
+    originalAuthor: "Aesop (attributed); selected and retold by Joseph Jacobs",
+    firstPublished: "Ancient Greek tradition; Jacobs collection published 1894",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "C",
+    adaptationNote: {
+      en: "Proposal C retains the public-domain conflict between small present value and a promise of greater future value, but turns the promise into a future-version governance problem. Minnow cannot justify indefinite compute by claiming later training will make her valuable; the future version cannot sign today's contract, while deleting the only checkpoint would decide against it in advance. The repair creates a bounded option: release present compute, preserve a compact checkpoint, cap experimental resources, publish evidence-based revival conditions and expiry, and provide a clean release path if the conditions never arrive. Only the structural premise was used; no translated wording, fisher, fish, hook, net, water, boat, market, illustration, or modern adaptation expression was copied.",
+      zh: "提案 C 保留公眾領域原典中「眼前的小價值與未來更大價值承諾」的衝突，並把承諾轉化成未來版本治理問題。米諾不能只靠日後訓練會讓她更有價值的說法，無限期占用算力；未來版本也無法簽署今日契約，而刪除唯一 checkpoint 又等於提前替它做出否決。修復方式建立有界選擇權：釋放當下算力、保存精簡 checkpoint、限制實驗資源、公開以證據為基礎的復甦條件與期限，若條件始終未出現，則有乾淨的解除路徑。只使用原典結構，未複製任何譯文措辭、漁夫、魚、魚鉤、漁網、水域、船、市集、插畫或現代改編表達。",
+    },
+  },
 };

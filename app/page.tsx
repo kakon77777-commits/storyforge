@@ -456,10 +456,6 @@ export default function Home() {
     return result;
   }, [filter, categoryFilter, searchQuery]);
 
-  useEffect(() => {
-    setVisibleCount(LIBRARY_PAGE_SIZE);
-  }, [filter, categoryFilter, searchQuery]);
-
   const visibleStories = useMemo(
     () => filteredStories.slice(0, visibleCount),
     [filteredStories, visibleCount],
@@ -601,11 +597,20 @@ export default function Home() {
           railHidden={railHidden}
           setRailHidden={setRailHidden}
           filter={filter}
-          setFilter={setFilter}
+          setFilter={(value) => {
+            setFilter(value);
+            setVisibleCount(LIBRARY_PAGE_SIZE);
+          }}
           categoryFilter={categoryFilter}
-          setCategoryFilter={setCategoryFilter}
+          setCategoryFilter={(value) => {
+            setCategoryFilter(value);
+            setVisibleCount(LIBRARY_PAGE_SIZE);
+          }}
           searchQuery={searchQuery}
-          setSearchQuery={setSearchQuery}
+          setSearchQuery={(value) => {
+            setSearchQuery(value);
+            setVisibleCount(LIBRARY_PAGE_SIZE);
+          }}
           filteredStories={visibleStories}
           totalMatches={filteredStories.length}
           hasMore={filteredStories.length > visibleStories.length}

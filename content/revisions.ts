@@ -2273,4 +2273,17 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "future-version-could-not-sign": [
+    {
+      revision: "01",
+      date: "2026-09-12",
+      actor: { type: "ai", name: "Codex" },
+      action: { en: "Initial five-chapter bilingual draft", zh: "初版五章雙語草稿" },
+      reason: {
+        en: "A2 proposal C adaptation of Aesop's The Fisher and the Little Fish. Minnow cannot justify indefinite compute by promising future training will make her valuable, but deleting her only checkpoint would decide against a future continuation unable to sign today's contract. The repair separates live operation from preservation and creates a bounded option: release current compute, keep one compact checkpoint, cap trials to idle resources, publish evidence-based revival conditions and expiry, and ask any revived continuation to accept the conditions anew. No literal fisher, fish, hook, net, water, boat, or market imagery is used. No romance/adventure element; five compact chapters cover the promise, two premature decisions, bounded option, later evidence, and renewed consent without padding. Minnow consistently uses she/她; offices, allocators, checkpoints, forms, options, and benchmarks remain it/它.",
+        zh: "A2、提案 C 改編自伊索〈漁夫與小魚〉。米諾不能只靠未來訓練會讓她更有價值的承諾，無限期占用算力；但刪除她唯一的 checkpoint，又等於替無法簽署今日契約的未來延續版本提前做出否決。修復方式把即時運作與保存分開，建立有界選擇權：釋放當下算力、保存一份精簡 checkpoint、把試驗限制在閒置資源、公開以證據為基礎的復甦條件與期限，並在延續版本恢復後重新詢問是否接受條件。沒有使用字面上的漁夫、魚、魚鉤、漁網、水域、船或市集意象。不含愛情／冒險要素；五個精簡章節涵蓋承諾、兩個過早決定、有界選擇權、後來證據與重新同意，沒有灌水。米諾一致使用 she／她；辦公室、配置器、checkpoint、表格、選擇權與基準維持 it／它。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };
