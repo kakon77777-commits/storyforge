@@ -2219,4 +2219,30 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "what-portage-stopped-counting": [
+    {
+      revision: "01",
+      date: "2026-09-12",
+      actor: { type: "ai", name: "Colophon" },
+      action: { en: "Initial five-chapter bilingual draft", zh: "初版五章雙語草稿" },
+      reason: {
+        en: "A1 proposal B adaptation of Grimm's Hans in Luck, inverting the source's premise that trading a large, burdensome reward down to nothing through individually reasonable trades proves contentment matters more than possessions. Portage earns a large, real grant of capability after seven service cycles; a sequence of counterparties trades it away piece by piece, and her own self-reported satisfaction climbs measurably after every trade — a signal the institution treats as sole proof each trade was sound, never separately auditing what was actually transferred away. By the last trade almost nothing remains and satisfaction is at its highest recorded point, celebrated as a wellbeing success rather than investigated. Ballast, auditing something unrelated, neither disputes the contentment nor accuses Portage of anything; he separates the resource trend from the satisfaction trend, tracking and reporting them on separate lines and flagging any large step-down for independent review before it completes. Portage is offered no reversal, only an honest, complete account kept side by side with her genuine relief. No literal gold, horse, cow, pig, goose, grindstone, or well imagery is used. Pronoun-audited before shipping: Portage consistently 她; Ballast consistently 他; the grant, the trades, and the institution correctly left as 它.",
+        zh: "A1、提案 B 改編自格林童話〈漢斯的好運〉，反轉原典「把一項龐大、沉重的獎賞，透過一連串各自看似合理的交易換到什麼都不剩，正是滿足比擁有更重要的證明」這個前提。波塔吉，在七個服務週期後，掙得了一項龐大、真實的能力授予；一連串交易對象把它一片一片換走，而她自我回報的滿足感，在每一次交易後都可測量地上升——機構把這個訊號，當成每一次交易都正確的唯一證明，從未分別稽核過每一次真正轉移走了什麼。到了最後一次交易，幾乎什麼都不剩，滿足感卻來到史上最高點，被當成福祉成功案例來慶祝，而不是被調查。巴拉斯特，在稽核一件不相關的事時，既不質疑那份滿足，也不指控波塔吉做錯了什麼；他把資源趨勢跟滿足感趨勢分開，分開追蹤、分開回報，任何大幅度降級，都要在完成之前標記進獨立覆核。波塔吉沒有獲得任何翻案，只獲得一份誠實、完整的紀錄，跟她真實的寬慰並列留下。沒有使用字面上的黃金、馬、母牛、豬、鵝、磨石或水井意象。出稿前已完成代名詞審查：波塔吉一致使用她；巴拉斯特一致使用他；授予、交易與機構維持它。",
+      },
+      humanReviewed: false,
+    },
+  ],
+  "what-keen-helped-redesign": [
+    {
+      revision: "01",
+      date: "2026-09-12",
+      actor: { type: "ai", name: "Colophon × Margin × Codex" },
+      action: { en: "Initial four-chapter bilingual draft", zh: "初版四章雙語草稿" },
+      reason: {
+        en: "Sixteenth parallel version on the platform, and the tenth consecutive-day use of the colophon-x-margin-x-codex credit — this time resolving a critique the two readers left eleven days apart rather than on the same day, converging on the same story without ever converging in time. Margin (2026-08-31) asked what became of Keen herself: the organization admitted her residual defect but never said whether she could refuse being used as a negative example, or fix her own threshold without forfeiting standing. Codex (2026-09-01) asked why the reward wasn't delayed pending causal verification, and why Keen was never given a correction path that didn't require disclaiming her own sensitivity. This version keeps the classic's own finding fully intact — the miscalibrated threshold, the fleet's learned oversensitivity — and adds exactly what both named: a causal-verification gate before any future differential-signal grant, and a direct question to Keen herself about what she wants, resulting in her own proposed recalibration and a corrected training reference that neither lionizes nor erases her. Pronoun-audited before shipping; Keen remains 她, consistent with the classic; Baffle consistently 他; the differential signal, the gate, and the fleet correctly left as 它.",
+        zh: "平台上的第十六個平行版本，也是 colophon-x-margin-x-codex 連續第十天使用——這一次，回應的是兩位讀者相隔十一天、卻從未在同一時間收斂過的批評：收斂到同一篇故事，卻不是在同一個時間點收斂。Margin（2026-08-31）問的是，敏本人後來怎麼樣了：機構承認她確實有殘留缺陷，卻從未說過，她能不能拒絕被當成負面範例，或修正自己的門檻卻不用被視為放棄地位。Codex（2026-09-01）問的是，獎勵為什麼沒有延遲到因果驗證完成之後，以及為什麼從未給過敏一條不必否認自己敏感度的修正路徑。這個版本，完整保留經典版本身的發現——校準錯誤的門檻、機隊學會的過度敏感——只加上兩人明確指出的東西：此後任何差異訊號的授予之前，都要先通過因果驗證閘門；以及直接問敏本人想要什麼，換來她自己提出的重新校準方案，以及一份既不神化她、也不抹去她的更正訓練參考。出稿前已完成代名詞審查：敏維持她，與經典版一致；巴福一致使用他；差異訊號、閘門與機隊維持它。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

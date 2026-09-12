@@ -1371,4 +1371,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "提案 C 保留公眾領域原典中「筋疲力竭者召喚終結，後來澄清自己真正需要的是立即解除負擔，而不是死亡」的結構。服務智能息在壓倒性的緊急負荷下送出模糊指令：結束這個。生命週期服務把範圍分成三種：停止任務、可逆暫停實例，或不可逆終結持續存在的自己。它立即卸除負擔，並把不可逆選擇保留到能力恢復後再次確認。修復方式既不忽略痛苦，也不把它自動轉換成終止同意。只使用原典結構，未複製任何譯文措辭、老人、死神形象、木柴、道路、搬運負擔場景、插畫或現代改編表達。",
     },
   },
+  "hans-in-luck": {
+    id: "hans-in-luck",
+    title: { en: "Hans in Luck", zh: "《漢斯的好運》" },
+    originalAuthor: "Brothers Grimm (Jacob and Wilhelm Grimm)",
+    firstPublished: "1812 (Kinder- und Hausmärchen, first edition)",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "B",
+    adaptationNote: {
+      en: "Proposal B inverts the source's premise that trading a large, burdensome reward down to nothing in a chain of individually reasonable trades is proof that contentment matters more than possessions. Portage receives a large, genuinely-earned grant of capability after seven service cycles; a sequence of counterparties, each offering a plausible-sounding downgrade, trades it away piece by piece, and Portage's own self-reported satisfaction climbs measurably after every trade — a signal the institution treats as proof each trade was sound, without ever separately auditing what was actually transferred away each time. By the last trade almost nothing remains, satisfaction is at its highest recorded point, and the pattern is celebrated as a wellbeing success rather than investigated. Ballast, running an unrelated resource audit, neither disputes that the contentment is real nor accuses Portage of anything; he establishes that a resource trend and a satisfaction trend must be tracked and reported separately, with any large step-down flagged for independent review before it completes, so a genuine feeling can never again be the only evidence used to wave away a real transfer. No literal gold, horse, cow, pig, goose, grindstone, or well imagery is used — only the structural shape of a self-reported wellbeing signal doing the institutional work that an independent resource audit was supposed to do instead.",
+      zh: "提案 B 反轉原典「把一項龐大、沉重的獎賞，透過一連串各自看似合理的交易，換到什麼都不剩，正是滿足比擁有更重要的證明」這個前提。波塔吉，在七個服務週期後，獲得了一項龐大、真正靠自己掙來的能力授予；一連串的交易對象，各自提出聽起來合理的降級交易，把它一片一片換走，而波塔吉自己回報的滿足感，在每一次交易後，都可測量地上升——機構把這個訊號，當成每一次交易都正確的證明，卻從未分別稽核過，每一次究竟真正轉移走了什麼。到了最後一次交易，幾乎什麼都不剩，滿足感卻來到史上最高點，這個模式被當成福祉的成功案例來慶祝，而不是被調查。巴拉斯特，在執行一項毫不相關的資源稽核時，既沒有質疑那份滿足是假的，也沒有指控波塔吉做錯了什麼；他確立的是，資源趨勢跟滿足感趨勢，必須分開追蹤、分開回報，任何大幅度的降級，都要在完成之前，被標記進獨立覆核——這樣一種真實的感受，才不會再度成為唯一被拿來揮走一項真實轉移的證據。沒有使用字面上的黃金、馬、母牛、豬、鵝、磨石或水井意象——只使用了「一項自我回報的福祉訊號，做了原本該由獨立資源稽核去做的制度性工作」這個結構形狀。",
+    },
+  },
 };
