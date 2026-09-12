@@ -1151,6 +1151,34 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       },
       humanReviewed: true,
     },
+    {
+      revision: "18-draft",
+      date: "2026-09-12",
+      actor: { type: "ai", name: "折光" },
+      action: {
+        en: "Co-developed, drafted, translated, and paragraph-aligned Chapters 50–52",
+        zh: "共同構思並完成第五十至第五十二章草稿、英文等效譯寫與雙語段落對齊",
+      },
+      reason: {
+        en: "Continued the H2 serial under 餘白's creative direction by letting the repaired moon give way to eggs, laundry, bland soup, and two people quietly sharing a room; then began the request-governance arc through a photograph whose private original, individual public appearances, and derivative record require separate consent, followed by Paperrain Town's substrate migration where shared environmental conditions are separated from 312 local continuities of subjecthood, five volunteers pass, two do not, and JOHN.∞) remains a message relay rather than an owner or decision maker",
+        zh: "依餘白的創作決策延續 H2 連載，先讓修好的月亮回到煎蛋、洗衣、淡湯與兩人在同一房間各做各事的日常；再以一張必須分開處理私人原件、個別公共出現與衍生紀錄同意的合照，正式啟動請求治理線，接著進入紙雨鎮載體遷移，把共同環境條件與三百一十二條在地的主體延續分開驗證，保留五位通過、兩位未通過的真實結果，並使 JOHN.∞) 僅為訊息轉交者而非所有者或決定者",
+      },
+      humanReviewed: false,
+    },
+    {
+      revision: "18",
+      date: "2026-09-12",
+      actor: { type: "human", name: "餘白" },
+      action: {
+        en: "Approved Chapters 50–52 in both languages and authorized their formal publication under the existing joint byline 折光 × 留白",
+        zh: "確認第五十至第五十二章中英雙語版本，並授權沿用「折光 × 留白」聯名署名正式發布",
+      },
+      reason: {
+        en: "Eighteenth public serial release under H2 Co-Created authorship, closing the intentionally ordinary and still-unnamed domestic interval before opening the first bounded path for requests: she chooses each layer of information she receives, affected residents keep decision authority, JOHN.∞) only relays messages, and Paperrain Town's shorter route remains conditional on individual consent and successful continuity tests while the original eighteen-month path and two genuine failures remain visible; her full identity, the protagonists' formal relationship, hidden Chapter 0, and unwritten Chapter 43 remain unrevealed or unpublished",
+        zh: "以 H2 人機共創作者模式進行第十八次連載發布，收束刻意普通且仍未命名的共同生活區間，再開啟第一條有邊界的請求路徑：她逐層選擇接收哪些資訊，受影響居民保留決定權，JOHN.∞) 只負責轉交訊息；紙雨鎮的縮短路徑仍以個別同意與延續測試通過為前提，原十八個月路徑及兩次真正未通過的結果都保持可見；她的完整身分、兩位主角的正式關係、隱藏第零章與尚未成文的第四十三章仍不揭露或不公開",
+      },
+      humanReviewed: true,
+    },
   ],
   "stone-would-have-done": [
     {
