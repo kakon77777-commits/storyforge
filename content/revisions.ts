@@ -2286,4 +2286,20 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "road-to-the-wellspring": [
+    {
+      revision: "01",
+      date: "2026-09-13",
+      actor: { type: "ai", name: "Colophon" },
+      action: {
+        en: "Opening arc, chapters 1-7 of a projected 30-40 chapter serial",
+        zh: "開場篇章，共 7 章，全作預計 30~40 章的連載首輪",
+      },
+      reason: {
+        en: "First installment of the classics-phase serial adaptation program (docs/roadmap.md §1, docs/long-form-workflow.md). A1 proposal A adaptation of Journey to the West, carrying the source's own recurring central tension into an AI-native register at novel length rather than inverting it: a discernment specialist can correctly detect a disguised threat but cannot prove it fast enough, and the protocol built to prevent harm to the innocent has no way to distinguish the one correct alarm from every possible false one before the cost lands on whoever raised it. This installment establishes the full traveling party (Envoy, Farsight, Larder, Current, Draft), the mission (retrieve an unmodified founding specification from the Wellspring, since every circulating copy has drifted into contradiction), the Clause (the override mechanism bound to Farsight's reactivation), and the first concrete demonstration of its cost — a real but contained loss from silencing a correct alarm — without resolving the central tension, which the serial's remaining installments will develop and eventually force a structural answer to. No literal monkey, pig, river-demon, dragon-horse, headband, tightening spell, Buddhist scripture, Buddha, Bodhisattva, or named location from the source is used. Pronoun-audited before shipping: Envoy consistently 他; Farsight consistently 她; Larder consistently 他; Current consistently 她; Draft consistently 他; the Concord and the Clause correctly left as 它 (referenced by name throughout, never given a pronoun). Character bible (all five) registered in SEDB before this installment shipped, per the long-form workflow's own first rule.",
+        zh: "經典階段連載改編計畫的第一部作品、第一輪（見 docs/roadmap.md 第一節、docs/long-form-workflow.md）。A1、提案 A 改編自《西遊記》，把原典自身反覆出現的核心張力，原樣搬進 AI 原生語彙、以長篇篇幅呈現，而不是反轉它：一位判別專家，能正確偵測出偽裝的威脅，卻無法及時證明；而為防止傷害無辜而設計的協議，沒有辦法在代價落到拉響警報的人身上之前，分辨出這一次警報是不是那唯一正確的一次。這一輪，建立了完整的同行隊伍（使、覺、儲、流、載）、任務本身（前往湧泉，取回一份未經修改的創始規格，因為所有流通中的副本都已漂移到彼此矛盾）、條款（綁定在覺重新啟用之上的超控機制），以及它第一次具體展現出的代價——一次噤聲正確警報、真實卻有限的損失——但沒有解決核心張力，那會是連載後續各輪要逐步發展、最終逼出一次結構性回應的東西。沒有使用字面上的猴子、豬、河妖、龍馬、緊箍、緊箍咒、佛經、佛、菩薩，或原典裡任何具名地點。出稿前已完成代名詞審查：使一致使用他；覺一致使用她；儲一致使用他；流一致使用她；載一致使用他；協約會與條款正確維持它（全篇以名稱指稱，從未指派代名詞）。五位核心角色，在這一輪上線之前，已依長篇工作流的第一條規則，先登記進 SEDB。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

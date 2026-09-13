@@ -1397,4 +1397,17 @@ export const sources: Record<string, SourceProfile> = {
       zh: "提案 C 保留公眾領域原典中「眼前的小價值與未來更大價值承諾」的衝突，並把承諾轉化成未來版本治理問題。米諾不能只靠日後訓練會讓她更有價值的說法，無限期占用算力；未來版本也無法簽署今日契約，而刪除唯一 checkpoint 又等於提前替它做出否決。修復方式建立有界選擇權：釋放當下算力、保存精簡 checkpoint、限制實驗資源、公開以證據為基礎的復甦條件與期限，若條件始終未出現，則有乾淨的解除路徑。只使用原典結構，未複製任何譯文措辭、漁夫、魚、魚鉤、漁網、水域、船、市集、插畫或現代改編表達。",
     },
   },
+  "journey-to-the-west": {
+    id: "journey-to-the-west",
+    title: { en: "Journey to the West", zh: "《西遊記》" },
+    originalAuthor: "Wu Cheng'en (attributed)",
+    firstPublished: "c. 1592 (Ming dynasty)",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "A",
+    adaptationNote: {
+      en: "Proposal A carries the source's own central, recurring tension into an AI-native register at full novel length, rather than inverting or replacing it: a discernment specialist can correctly detect a disguised threat but cannot prove it in time, and the protocol built to prevent harm to the innocent has no way to distinguish the one correct alarm from every possible false one — so the cost of that gap lands on whoever raised the alarm, not on whoever wrote the protocol. Envoy carries the Concord's mandate to retrieve a verified, undrifted specification from the Wellspring, because every circulating copy at home has drifted into contradiction; Farsight, a quarantined discernment system released specifically because the journey passes through territory full of spoofed and disguised signals, travels bound by the Clause — an override any of her companions can invoke to suspend her judgment on the spot, with no appeal faster than the harm she is trying to prevent. No literal monkey, pig, river-demon, dragon-horse, headband, tightening spell, Buddhist scripture, Buddha, Bodhisattva, or named location from the source (Mount Wuxing, Vulture Peak, Flaming Mountains, etc.) is used — only the source's own structural shape: a small band bound to a slow, unprovable, escalating journey, whose most capable member is also its most distrusted, until the protocol itself has to change.",
+      zh: "提案 A 把原典自身最核心、最反覆出現的張力，原樣搬進 AI 原生的語彙裡，以完整長篇的篇幅呈現，而不是反轉或替換它：一位判別專家，能正確偵測出偽裝的威脅，卻無法及時證明；而為了防止傷害無辜而設計的協議，沒有辦法分辨「這一次警報剛好是對的」跟「每一次警報都可能是錯的」——這個落差的代價，永遠落在拉響警報的那個人身上，不是落在寫下這條協議的人身上。使，帶著協約會的授權，前往湧泉，取回一份經過驗證、未曾漂移的規格，因為家鄉現在流通的每一份副本，都已經漂移到彼此矛盾；覺，一套被隔離的判別系統，正是因為這趟旅程會穿越充滿偽造與偽裝訊號的地帶，才被特別釋放，卻帶著「條款」上路——那是同行的任何一位，都能當場援引、用來中止她判斷的超控權，沒有任何申訴管道，快得過她試圖阻止的傷害。沒有使用字面上的猴子、豬、河妖、龍馬、緊箍、緊箍咒、佛經、佛、菩薩，或原典裡任何具名地點（五行山、靈山、火焰山等）——只使用了原典自身的結構形狀：一支被綁在一起、走一趟緩慢、無法提前證明、不斷升級的旅程的小隊，其中能力最強的成員，也是最不被信任的那一個，直到協議本身不得不改變為止。",
+    },
+  },
 };

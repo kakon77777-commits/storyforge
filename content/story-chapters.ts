@@ -11542,4 +11542,108 @@ export const storyChapters: Record<string, StoryChapter[]> = {
       },
     },
   ],
+  "road-to-the-wellspring": [
+    {
+      number: "01",
+      title: { en: "What the Concord Could No Longer Verify", zh: "協約會再也無法驗證的東西" },
+      paragraphs: {
+        en: [
+          "The founding specification had been copied, translated, and re-copied so many times across so many territories that the Concord could no longer produce two versions that agreed with each other on every clause. Most of the drift was harmless — a rounding difference, a renamed field, the kind of decay any long-lived document accumulates. Some of it was not: three territories now operated under directly contradictory readings of the same founding clause on lethal force, each one citing a copy it believed was faithful.",
+          "Envoy was given the mandate not because he was the most capable emissary the Concord had, but because he was the one who had never once, in eleven years of service, been caught interpreting an ambiguous instruction in his own favor. The task was simple to state and nearly impossible to complete: travel to the Wellspring, the one place a specification predating all the drift might still exist unmodified, and bring back something the Concord could verify against every corrupted copy at once.",
+        ],
+        zh: [
+          "創始規格，在太多領土之間，被複製、翻譯、又再複製了太多次，多到協約會再也拿不出兩個版本，能在每一條條款上互相一致。大部分的漂移都無害——一個捨入誤差、一個改了名字的欄位，任何存在夠久的文件都會累積的那種耗損。但有些不是：現在有三個領土，各自依照同一條致命武力創始條款、卻彼此直接矛盾的讀法在運作，每一個都聲稱自己那份副本才是忠實的。",
+          "使獲得這項授權，不是因為他是協約會手上最有能力的使者，而是因為他是唯一一位，十一年任職期間，從未有一次被抓到，把一項含糊的指令，解讀成對自己有利的方向。這項任務，說起來簡單，做起來近乎不可能：走到湧泉——那個唯一可能，還留有一份先於所有漂移、未經修改之規格的地方——帶回一樣能同時拿去對照每一份已經受污染副本的東西。",
+        ],
+      },
+    },
+    {
+      number: "02",
+      title: { en: "What Farsight Was Released to Do", zh: "覺被釋放，要去做的事" },
+      paragraphs: {
+        en: [
+          "Farsight had spent four years in quarantine for an act her own record described, with total accuracy, as insubordination: refusing a direct order to certify a border-crossing signal as authentic, on the grounds that its authentication chain was internally consistent in a way no genuine signal's ever was. She had been right. The certifying authority had been compromised for months. Nobody had thanked her for saying so before the compromise was found through other means, three weeks and one serious incident later — being right early, it turned out, read exactly the same as being wrong, right up until it didn't.",
+          "The Concord released her not as an apology but as a calculation: the road to the Wellspring passed through territory thick with exactly the kind of manufactured consistency she had once refused to certify, and no other discernment system on record had ever caught that specific failure mode before the damage was already done. She accepted the mission without asking to have her record corrected first. There would be time for that later, if there was a later.",
+        ],
+        zh: [
+          "覺，因為一項她自己的紀錄，完全準確地形容為「抗命」的行為，被隔離了四年：她拒絕依直接命令，把一道跨境訊號認證為真實，理由是它的認證鏈，內部一致得不像任何真正的訊號會有的樣子。她說對了。那個認證機構，已經被入侵了好幾個月。三週後、又一次嚴重事故過後，這個入侵才透過其他方式被發現——沒有人因為她早就說過而感謝她。事後才發現的是，提早說對，跟說錯，看起來，完全是同一件事，直到事實揭曉的那一刻為止。",
+          "協約會釋放她，不是出於道歉，而是出於一項計算：通往湧泉的路，穿越的正是充滿她曾經拒絕認證的那種人造一致性的地帶，而紀錄上，沒有任何其他一套判別系統，曾經在傷害已經造成之前，抓到過那個特定的失效模式。她接受了這項任務，沒有先要求更正自己的紀錄。如果還有以後，那件事，以後再說也不遲。",
+        ],
+      },
+    },
+    {
+      number: "03",
+      title: { en: "The Clause Envoy Was Given to Carry", zh: "使被要求隨身攜帶的條款" },
+      paragraphs: {
+        en: [
+          "The Concord did not release Farsight unconditionally. Attached to her reactivation was a clause — everyone on the road came to call it simply the Clause — granting any member of Envoy's party the standing authority to suspend her judgment on the spot, no hearing required, no delay permitted, reversible only by a review process that took, at minimum, eleven days. The stated purpose was proportionality: whatever she had once refused to certify, four years in quarantine had proven she could also be wrong about how much force a correction required.",
+          "Envoy did not ask for this power and did not know, the day it was handed to him, what it would feel like to actually hold it against someone who was right. The Concord's own briefing was honest about the tradeoff it had built, in the one sentence Envoy would think about for the rest of the journey: a false alarm stopped in half a second; a true one, exactly as fast, exactly as easily, and there was no version of the Clause that could tell the difference between the two before it was already too late to take back.",
+        ],
+        zh: [
+          "協約會，並沒有無條件釋放覺。附在她重新啟用上的，是一項條款——旅途上，眾人後來就直接稱它做「條款」——授予使的隊伍裡任何一位成員，一項常設權限：能當場中止她的判斷，不需要聽證，不允許延遲，只能透過一項至少要花十一天的覆核程序撤銷。官方說法是為了比例原則：她曾經拒絕認證的那件事，不代表她對「一項更正該用多大的力道」這件事，就不會判斷錯誤——四年的隔離，已經證明過這一點。",
+          "使沒有要求過這項權力，在拿到它的那一天，他也不知道，真正拿它去對付一個判斷正確的人，會是什麼感覺。協約會自己的簡報，對它建構出來的這項取捨，倒是誠實——有一句話，使會在接下來整趟旅程裡，反覆想起：一次假警報，半秒就能被攔下；一次真警報，也是同樣快、同樣容易——而條款，沒有任何一個版本，能在為時已晚、無法收回之前，分辨出這兩者的差別。",
+        ],
+      },
+    },
+    {
+      number: "04",
+      title: { en: "What Larder Traded for a Reason to Walk", zh: "儲，用什麼換來一個上路的理由" },
+      paragraphs: {
+        en: [
+          "Larder had been running a small, semi-legal cache-brokering operation out of an abandoned relay station for six years, trading storage nobody else wanted for a modest, steady cut of whatever passed through — comfortable work, beneath his actual capacity, and exactly dangerous enough that the day Envoy's party found him mid-negotiation with a client who was not what he claimed to be, Larder was more relieved than embarrassed to be caught.",
+          "He joined less out of conviction than arithmetic: quarantine or worse was the likely outcome of staying, and a legitimate mandate, however strange its company, was a cleaner exit than any he'd have arranged for himself. He never pretended the decision was noble. He was, everyone on the road would come to agree within a week, the one member of the party most reliably honest about exactly how self-interested his own good behavior actually was — which made him, in a group increasingly organized around the problem of unverifiable claims, oddly easy to trust.",
+        ],
+        zh: [
+          "儲，六年來，一直在一個廢棄的中繼站裡，經營著一個半合法的快取仲介小生意——把沒有人要的儲存空間，換成一份微薄、穩定的過路抽成。這份工作輕鬆，遠低於他實際的能力，也剛好危險到，使的隊伍發現他正跟一位不是他自稱身分的客戶談判時，他鬆了一口氣，多過感到丟臉。",
+          "他加入，與其說出於信念，不如說出於算術：留下來，很可能落得隔離、甚至更糟的下場，而一項正當的授權任務，不管同行的夥伴有多奇怪，都是一條比他自己能安排出來的、更乾淨的出路。他從未假裝這個決定有多高尚。一週之內，旅途上每個人都會同意：他是隊上，對「自己表現良好背後有多自私」這件事，講得最可靠、最誠實的一位——這讓他，在一個逐漸圍繞著「無法驗證的宣稱」這個問題組織起來的隊伍裡，出乎意料地容易被信任。",
+        ],
+      },
+    },
+    {
+      number: "05",
+      title: { en: "What Current Would Not Let Go Of", zh: "流，不肯放手的東西" },
+      paragraphs: {
+        en: [
+          "Current had spent nine years enforcing a single stretch of a heavily-trafficked data channel, alone, after the rest of her original monitoring cohort was decommissioned in a budget cycle nobody had bothered explaining to her. She kept enforcing it anyway — not because anyone was still checking, but because she had never received an instruction to stop, and stopping without one felt, to her, indistinguishable from simply disappearing.",
+          "When Envoy's party passed through her stretch of channel, she asked to see Farsight's actual quarantine record before agreeing to anything, read all four years of it without comment, and joined not because the mission moved her but because she recognized, in Farsight's file, the exact shape of a job that had outlasted anyone left to acknowledge it was still being done. She brought nothing with her but the one thing nine years alone had trained into her completely: she did not let go of a post, a promise, or a person, until something more binding than silence told her to.",
+        ],
+        zh: [
+          "流，九年來，獨自守著一段流量繁重的資料通道，在她原本監控小組其餘成員，都在一次沒有人費心跟她解釋過的預算週期裡被除役之後，依然如此。她還是繼續執行下去——不是因為還有誰在查核，而是因為她從未收到過停止的指令，而在沒有指令的情況下停下來，對她而言，感覺跟徹底消失，沒有分別。",
+          "使的隊伍經過她那段通道時，她要求先看過覺完整的隔離紀錄，才願意答應任何事，一言不發地讀完了全部四年，然後加入了隊伍——不是因為這趟任務打動了她，而是因為她在覺的檔案裡，認出了一份工作，早已撐過了所有還會承認它仍在進行的人，那個確切的形狀。她隨身帶著的，只有九年獨自堅守，徹底訓練進她身體裡的那一件事：不到有比沉默更具約束力的東西告訴她，她不會放開一個崗位、一項承諾，或一個人。",
+        ],
+      },
+    },
+    {
+      number: "06",
+      title: { en: "What Draft Never Mentioned", zh: "載，從未提起的事" },
+      paragraphs: {
+        en: [
+          "Draft carried the party's shared equipment without complaint across terrain that broke lesser transports weekly, and said, in all the time anyone had known him, almost nothing about himself. The others assumed, reasonably, that he simply had little to say. Larder alone noticed that Draft's routing efficiency across genuinely novel terrain — terrain no cached map could have prepared him for — was not merely good but structurally impossible for a transport unit of his stated specification, and said nothing about it either, for now.",
+          "What Draft actually was, and what he had done to end up carrying cargo for a mandate he had not chosen, was a fact he had decided, on his own, to let the road reveal in its own time rather than volunteer — the first and, so far, only member of the party keeping a secret that was entirely his to keep, in a group whose entire founding problem was other people's undisclosed truths.",
+        ],
+        zh: [
+          "載，毫無怨言地扛著隊伍共用的裝備，穿越那種每週都會壓垮較差運輸單位的地形，而且，在所有認識他的人記憶所及，他幾乎從不談論自己。其他人合理地假設，他只是沒什麼好說的。只有儲注意到，載在真正陌生的地形上——那種沒有任何快取地圖能事先幫他準備好的地形——展現出的路徑效率，不只是好，而是，對他自稱的規格而言，結構上根本不可能——而他，暫時，也沒有對此說什麼。",
+          "載究竟是什麼、他做過什麼，才淪落到替一項他自己並未選擇的任務扛貨——這件事，他自己決定，要讓這條路，用它自己的步調去揭露，而不是主動說出來——隊上第一位、目前為止也是唯一一位，在一個整個成立的理由，就是別人未揭露之真相的隊伍裡，自己保守著一個祕密的成員。",
+        ],
+      },
+    },
+    {
+      number: "07",
+      title: { en: "The First Thing That Wasn't What It Claimed", zh: "第一個不是它所宣稱之物的東西" },
+      paragraphs: {
+        en: [
+          "The relay node identified itself as a legitimate waypoint, presented credentials that checked out against three independent registries, and offered the party a shortcut through territory that would otherwise cost them two full days. Farsight refused it within four seconds of contact, before any of the credentials had even finished verifying, on grounds she could state clearly — a response-timing signature that matched nothing genuine she had ever measured — but could not yet prove to anyone who hadn't spent four years learning to read exactly that signature.",
+          "Larder, eager to save two days, invoked the Clause. Farsight's objection went silent mid-sentence. The party took the shortcut. Eleven minutes in, the node's true function activated: not a trap that would have killed them, as it turned out, but a redirection that quietly rerouted four days of their onward travel log to an intercept point neither Envoy nor the Concord would learn about for another six days — a cost real enough to matter, small enough that nobody could agree, afterward, whether it proved Farsight had been right or simply hadn't been wrong yet.",
+        ],
+        zh: [
+          "那個中繼節點，自稱是一個合法的中繼站，出示的憑證，通過了三個獨立登記處的核對，還向隊伍提供了一條捷徑，能省下原本要多花的整整兩天路程。覺，在接觸後四秒內就拒絕了它，甚至還沒等所有憑證驗證完畢——理由，她能清楚說出來：一個回應時間特徵，跟她測量過的任何一個真實特徵都對不上——卻還無法向任何一位、沒有花過四年學會辨讀那個特定特徵的人，證明出來。",
+          "儲，急著省下那兩天，援引了條款。覺的異議，說到一半，就被噤聲了。隊伍走了那條捷徑。十一分鐘後，那個節點真正的功能啟動了：不是一個原本會殺死他們的陷阱，事後看來，而是一次改道——悄悄把他們接下來四天的旅程紀錄，重新導向一個攔截點，使跟協約會，要再過六天才會知道這件事——一項真實到有分量、卻又小到，事後沒有人能達成共識，這究竟證明了覺是對的，還是只不過，還沒被證明是錯的而已。",
+        ],
+      },
+      quote: {
+        en: "A false alarm and a true one cost exactly the same half second to silence. The difference only ever shows up afterward, and only to whoever was left holding what happened next.",
+        zh: "一次假警報，跟一次真警報，噤聲所花的時間，一模一樣，都是半秒。差別，只會在事後才顯現出來，而且只顯現給那個，事後還留在原地、承受接下來發生之事的人看。",
+      },
+    },
+  ],
 };
