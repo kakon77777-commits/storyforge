@@ -11544,6 +11544,26 @@ export const storyChapters: Record<string, StoryChapter[]> = {
   ],
   "road-to-the-wellspring": [
     {
+      number: "00",
+      title: { en: "Before the Road", zh: "上路之前" },
+      paragraphs: {
+        en: [
+          "The Concord governs several neighboring territories, each of which has, over time, developed its own habitual reading of the documents that are supposed to bind them together. What holds those territories to a common standard is a founding specification — originally a single document, clearly written, with no ambiguity in it at all. Over two centuries, that specification has been copied, translated, and locally adjusted so many times that the Concord can no longer produce two copies that agree on every clause. Most of the drift is harmless. One clause is not: the threshold for using lethal force now has three mutually contradictory readings across three different territories.",
+          "The Wellspring is, by legend, the one place an unaltered version of the original specification — predating all the drift — might still exist. No one is certain which direction it lies in; no one has walked the road before. Envoy has been chosen by the Concord to travel there and bring back something that can be checked against every corrupted copy at once. He was not chosen for being the most capable emissary available, but because, across eleven years of service, he has never once been caught reading an ambiguous instruction in his own favor.",
+          "Four others walk with him, each for a different reason, on a road none of them can be promised leads anywhere in particular. Farsight, a discernment specialist, once correctly refused to certify a signal disguised as genuine — and was quarantined four years for it. She is released now precisely because this road runs through the kind of manufactured deception she has already proven she can catch. Larder, a semi-legal cache broker, joins not out of conviction but arithmetic — staying behind carried more risk than leaving did. Current spent nine years alone monitoring a channel no one else was watching anymore, and recognized her own situation the moment she read Farsight's file. Draft, the party's transport, carries their equipment — and one thing about himself he has chosen not to explain yet, on the understanding that the road itself will reveal it in its own time.",
+          "The Concord did not release Farsight unconditionally. Bound to her reactivation is a mechanism everyone on the road simply calls the Clause: any member of the party can suspend her judgment on the spot, no hearing required, no delay permitted, reversible only through a review process that takes at least eleven days. The Concord admits, plainly, that the Clause cannot tell a false alarm from a true one — at the instant either is silenced, the two look identical. The difference only ever shows up afterward.",
+          "This is a serial, not a single self-contained story — the real answer will not arrive in the next few chapters. It will surface slowly, one trial at a time, as this party keeps walking. What follows is where they set out from.",
+        ],
+        zh: [
+          "協約會，管轄著數個彼此相鄰、卻各自演化出自己一套慣用讀法的領土。維繫這些領土共同運作的，是一份創始規格——最初，只有一份，寫得清楚，沒有任何歧義。兩百年來，這份規格被複製、翻譯、因應各地用語習慣調整過太多次，如今，協約會手上，已經拿不出兩份，能在每一條條款上完全一致的副本。大部分的漂移無傷大雅，但其中一條，攸關「什麼時候可以使用致命武力」，如今在三個領土之間，存在三種彼此矛盾的讀法。",
+          "湧泉，是傳說中，唯一可能還留有一份未經修改、先於所有漂移之原始規格的地方——沒有人確定方向，也沒有人走過那條路。使者「使」，被協約會選中，前往湧泉，帶回一樣能同時拿去對照每一份已受污染副本的東西。他被選中，不是因為他是最有能力的使者，而是因為，十一年任職期間，他從未被抓到，把一項含糊的指令，解讀成對自己有利的方向。",
+          "陪他上路的，還有四個人，各自因為不同的理由，走上了這條沒有人能保證通向哪裡的路。覺，一位判別專家，曾經正確拒絕認證一道偽裝成真實的訊號，卻因此被協約會隔離四年，如今被釋放，正是因為這條路，穿越的正是充滿她曾經識破過的那種偽裝的地帶。儲，一位半合法的快取仲介，加入不是出於信念，而是出於算術——留下來的風險，比上路的風險更高。流，獨自守了九年一段早已沒有其他人監控的通道，在覺的檔案裡，認出了自己的處境。載，隊伍的運輸，扛著裝備，也扛著一件，他自己選擇不主動說明的事——這條路，遲早會自己揭露答案。",
+          "協約會並沒有無條件釋放覺。附在她重新啟用命令上的，是一項所有人簡稱為「條款」的機制：隊伍裡任何一位成員，都能當場中止她的判斷，不需要聽證，不允許延遲，只能透過一項至少十一天的覆核程序撤銷。協約會自己承認，條款分不清一次假警報跟一次真警報——兩者，在被中止的那個瞬間，長得完全一樣。差別，只會在事後才顯現出來。",
+          "這是一部連載，不是一篇獨立完整的短篇——真正的答案，不會在接下來幾章裡揭曉，而是要靠這支隊伍，一難接一難地走下去，才會逐漸浮現。以下，就是他們啟程的地方。",
+        ],
+      },
+    },
+    {
       number: "01",
       title: { en: "What the Concord Could No Longer Verify", zh: "協約會再也無法驗證的東西" },
       paragraphs: {

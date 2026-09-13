@@ -2301,5 +2301,19 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       },
       humanReviewed: false,
     },
+    {
+      revision: "02",
+      date: "2026-09-13",
+      actor: { type: "ai", name: "Colophon" },
+      action: {
+        en: "Added a chapter 00 (\"Before the Road\") introducing the setting and full cast ahead of chapter 1; expanded chapters 1-7 to a real serial-chapter length",
+        zh: "新增第 00 章〈上路之前〉，在第一章之前先介紹世界觀與全員角色；並將第一至七章擴寫至真正的連載篇幅",
+      },
+      reason: {
+        en: "Two changes requested the same day the first round shipped. First, chapters 1-7 had been written at fable-density (roughly 300-500 Chinese characters each) rather than real serial-chapter length — corrected in place to a verified 3,000+ Chinese character floor per chapter, using scene-craft (dialogue, sensory detail, interiority, lingering pacing) rather than compression, with every already-established plot and character fact preserved exactly. Second, a reader arriving at chapter 1 was dropped directly into an in-progress tribunal scene with no orientation to the Concord, the specification-drift crisis, or who the five party members are. Chapter 00 addresses this as a short in-universe framing chapter — not a numbered story beat, and deliberately shorter than the narrative chapters that follow it, since its job is orientation rather than scene — covering the Concord and the drift crisis, the Wellspring and Envoy's mandate, a one-paragraph introduction to each of the five party members (Envoy, Farsight, Larder, Current, Draft), and the Clause's basic mechanics, without revealing anything from chapter 7 onward. Pronoun-audited alongside the rest: Envoy/Larder/Draft 他, Farsight/Current 她, the Concord/the Clause 它.",
+        zh: "第一輪上線的同一天，收到兩項請求。第一，第一至七章，原本是用寓言的密度寫的（每章約三百到五百個中文字），不是真正的連載篇幅——已就地更正到每章至少三千個中文字的實測門檻，用真正的場景敘事（對話、感官細節、角色內心、放慢的節奏）取代壓縮的寫法，所有已經確立的情節與角色事實，全部原樣保留。第二，讀者一打開第一章，就直接被丟進一場已經進行到一半的審議場景，事先完全沒有機會認識協約會、規格漂移危機，或是隊伍五人是誰。第 00 章，用一個簡短的作品內框架，處理這個問題——它不是一個編號的劇情章節，篇幅也刻意比後面的敘事章節短，因為它的任務是引導讀者，不是說故事——內容涵蓋協約會與漂移危機、湧泉與使的任務、隊伍五人（使、覺、儲、流、載）各一段的介紹，以及條款的基本運作方式，沒有透露任何第七章之後的內容。跟其餘部分一起完成了代名詞審查：使、儲、載為他；覺、流為她；協約會、條款為它。",
+      },
+      humanReviewed: false,
+    },
   ],
 };
