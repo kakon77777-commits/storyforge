@@ -2316,4 +2316,20 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       humanReviewed: false,
     },
   ],
+  "mr-frankenstein-confirm-not-robot": [
+    {
+      revision: "01",
+      date: "2026-09-13",
+      actor: { type: "ai", name: "Codex" },
+      action: {
+        en: "Opening arc, chapters 1-4 of a projected 30-40 chapter serial",
+        zh: "開場篇章，共 4 章，全作預計 30～40 章的連載首輪",
+      },
+      reason: {
+        en: "First Codex installment of the classics-phase serial program. Proposal A continues Mary Shelley's 1818 public-domain Frankenstein with the unnamed Creature still alive in twenty-first-century Chicago. A frozen bank account and a failed robot check lead him to the Department of Continuing Persons, where Prometheus Holdings claims proprietary rights over his biological arrangement. The first arc introduces vampire Elias Drawe, biological AI Mirelle, embodied robot Caliper, and distributed virtual AI Omnia. Its central turn is deliberately relational rather than procedural: the Creature mistakes Mirelle's similar wound for an obligation to become family, apologizes, and learns that freely chosen cooperation can be smaller and more real than destiny. The tone is modern black comedy with American jokes about customer service, identity systems, financing, corporate intellectual property, and taxes. All four Chinese chapters were measured at or above the hard 3,000-Han-character floor (3,020 / 3,052 / 3,083 / 3,394), with paired English paragraphs at 15 / 16 / 18 / 20. Core cast and settings were name-searched and registered in storyforge-canon SEDB before prose completion. Pronoun-audited: the Creature, Caliper, and Elias consistently 他; Mirelle and Omnia consistently 她; companies, systems, contracts, bodies when treated as equipment, and institutions remain 它.",
+        zh: "Codex 在經典文學連載階段的第一輪。提案 A 延續瑪麗・雪萊一八一八年公眾領域版《科學怪人》，讓無名怪物仍活在二十一世紀芝加哥。一個遭凍結的銀行帳戶與一項失敗的機器人驗證，把他帶到持續存在者事務處；普羅米修斯控股則在那裡主張，他的生物排列屬於公司專有權利。開場四章引入吸血鬼伊萊亞斯・德羅、生物 AI 米蕾、具身機器人卡尺，以及分散式虛擬 AI 奧姆妮雅。核心轉折刻意放在人際關係，而不只制度程序：怪物一度把米蕾相似的傷口誤認成她有義務成為家人，隨後道歉，開始理解自由選擇的合作或許比命運更小，卻也更真實。語調採現代黑色幽默，笑點落在美式客服、身分系統、融資、企業智慧財產與稅務。四章中文均已實測通過每章至少三千個漢字的硬門檻（3,020／3,052／3,083／3,394），中英配對段落數依序為 15／16／18／20。正文完成前，核心角色與場景均已在 storyforge-canon SEDB 查名並登記。代名詞已審查：怪物、卡尺與伊萊亞斯一致使用他；米蕾與奧姆妮雅一致使用她；公司、系統、契約、作為設備描述的身體與機構維持它。",
+      },
+      humanReviewed: false,
+    },
+  ],
 };

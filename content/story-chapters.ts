@@ -1,4 +1,5 @@
 import everyDayIsAHoliday from "./every-day-is-a-holiday.json";
+import mrFrankensteinConfirmNotRobot from "./mr-frankenstein-confirm-not-robot.json";
 
 export type StoryChapter = {
   number: string;
@@ -8,6 +9,8 @@ export type StoryChapter = {
 };
 
 export const storyChapters: Record<string, StoryChapter[]> = {
+  "mr-frankenstein-confirm-not-robot":
+    mrFrankensteinConfirmNotRobot as StoryChapter[],
   "last-signal": [
     {
       number: "01",

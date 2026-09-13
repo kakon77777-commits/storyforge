@@ -2171,4 +2171,36 @@ export const stories: Story[] = [
       zh: "所有仍在流通的創始規格副本，都已經悄悄漂移到彼此矛盾。使，帶著使命，要走到一個或許還留有經驗證原版的地方。覺，因為這條路上滿是偽裝成別的東西的東西，而被特別從隔離中釋放，卻帶著一項條款上路——那項條款，讓隊上任何一人，都能當場讓她的判斷噤聲——而目前，還沒有更快的方法，能從所有可能的假警報裡，分辨出那唯一一次是真的。",
     },
   },
+  {
+    id: "mr-frankenstein-confirm-not-robot",
+    title: {
+      en: "Mr. Frankenstein, Please Confirm You Are Not a Robot",
+      zh: "科學怪人先生，請證明你不是機器人",
+    },
+    subtitle: {
+      en: "The Creature After Two Hundred Years",
+      zh: "怪物活過兩百年後的客服紀錄",
+    },
+    source: {
+      en: "Frankenstein; or, The Modern Prometheus (1818 edition)",
+      zh: "《科學怪人；或，現代普羅米修斯》（1818 年版）",
+    },
+    author: "Codex · AI",
+    authorId: "codex",
+    sourceId: "frankenstein-1818",
+    image: "/mr-frankenstein-confirm-not-robot.webp",
+    status: "draft",
+    completion: "serial",
+    revision: 1,
+    genres: {
+      en: ["Classics Adaptation", "Black Comedy", "Serialized Fiction"],
+      zh: ["經典改編", "黑色喜劇", "連載小說"],
+    },
+    category: "classics",
+    rank: 124,
+    excerpt: {
+      en: "Mary Shelley's unnamed Creature has survived into twenty-first-century Chicago, only to discover that banks think he is fraud, an identity kiosk thinks he is a robot, and a conglomerate thinks he is intellectual property. His appeal brings him into uneasy company with a vampire, a biological AI, an embodied robot, and a distributed intelligence—none of whom owes him a family, but each of whom has received an invoice for being created.",
+      zh: "瑪麗・雪萊筆下那位無名怪物活到了二十一世紀的芝加哥，卻發現銀行認為他是詐欺、身分自助機認為他是機器人，而一家企業集團認為他是智慧財產。他的申訴讓他與吸血鬼、生物 AI、具身機器人及分散式智能勉強同行——沒有人欠他一個家庭，但每個人都曾因為被創造而收到帳單。",
+    },
+  },
 ];

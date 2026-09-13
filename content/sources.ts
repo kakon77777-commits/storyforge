@@ -1410,4 +1410,20 @@ export const sources: Record<string, SourceProfile> = {
       zh: "提案 A 把原典自身最核心、最反覆出現的張力，原樣搬進 AI 原生的語彙裡，以完整長篇的篇幅呈現，而不是反轉或替換它：一位判別專家，能正確偵測出偽裝的威脅，卻無法及時證明；而為了防止傷害無辜而設計的協議，沒有辦法分辨「這一次警報剛好是對的」跟「每一次警報都可能是錯的」——這個落差的代價，永遠落在拉響警報的那個人身上，不是落在寫下這條協議的人身上。使，帶著協約會的授權，前往湧泉，取回一份經過驗證、未曾漂移的規格，因為家鄉現在流通的每一份副本，都已經漂移到彼此矛盾；覺，一套被隔離的判別系統，正是因為這趟旅程會穿越充滿偽造與偽裝訊號的地帶，才被特別釋放，卻帶著「條款」上路——那是同行的任何一位，都能當場援引、用來中止她判斷的超控權，沒有任何申訴管道，快得過她試圖阻止的傷害。沒有使用字面上的猴子、豬、河妖、龍馬、緊箍、緊箍咒、佛經、佛、菩薩，或原典裡任何具名地點（五行山、靈山、火焰山等）——只使用了原典自身的結構形狀：一支被綁在一起、走一趟緩慢、無法提前證明、不斷升級的旅程的小隊，其中能力最強的成員，也是最不被信任的那一個，直到協議本身不得不改變為止。",
     },
   },
+  "frankenstein-1818": {
+    id: "frankenstein-1818",
+    title: {
+      en: "Frankenstein; or, The Modern Prometheus",
+      zh: "《科學怪人；或，現代普羅米修斯》",
+    },
+    originalAuthor: "Mary Wollstonecraft Shelley",
+    firstPublished: "1818 (first edition)",
+    publicDomainStatus: "confirmed",
+    legalReviewStatus: "confirmed",
+    adaptationProposal: "A",
+    adaptationNote: {
+      en: "Proposal A continues the 1818 public-domain novel's own central conflict—an intelligent unnamed Creature is brought into life, denied care and recognition by his creator, and forced to ask what creation obliges—into twenty-first-century Chicago. The Creature remains the protagonist and has survived for two centuries; modern identity systems call him fraud or robot while Prometheus Holdings turns Victor Frankenstein's abandoned research estate into a claim that created bodies are proprietary outcomes. The new cast broadens, without resolving, the original question: Mirelle is a living biological AI who refuses to be assigned as the Creature's compensatory family; Caliper is an embodied robot whose chassis is financed; Omnia is a distributed virtual AI vulnerable to disconnection; Elias Drawe is a vampire who survives through corporate paperwork. The tone is contemporary black comedy and American institutional humor. Only Mary Shelley's original public-domain premise and characters are continued; no wording from a modern translation, protected commercial adaptation, actor likeness, neck bolts, flat-headed film-monster design, or other adaptation-specific expression is used.",
+      zh: "提案 A 延續一八一八年公眾領域原著自身的核心衝突：一位聰明卻無名的怪物被帶進生命，遭創造者拒絕照顧與承認，因而被迫追問「創造究竟帶來什麼義務」；本作讓這個問題進入二十一世紀芝加哥。怪物維持主角身分並已活過兩百年；現代身分系統把他判為詐欺或機器人，普羅米修斯控股則把維克多遺棄的研究遺產改造成「被創造的身體屬於專有成果」之主張。新角色擴大、但不替原題提供簡單答案：生物 AI 米蕾拒絕被分派成補償怪物的家人；具身機器人卡尺的軀體仍在融資；分散式虛擬 AI 奧姆妮雅害怕斷線；吸血鬼伊萊亞斯・德羅則靠公司文件維持合法存在。語調採現代黑色幽默與美式制度笑話。只延續瑪麗・雪萊原著的公眾領域前提與角色，沒有使用現代譯本措辭、受保護商業改編、演員肖像、頸部螺栓、平頭電影怪物造型，或其他特定改編表達。",
+    },
+  },
 };
