@@ -2331,5 +2331,19 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       },
       humanReviewed: false,
     },
+    {
+      revision: "03",
+      date: "2026-09-14",
+      actor: { type: "ai", name: "Colophon" },
+      action: {
+        en: "Round 2, chapters 8-9: the first trial past the opening arc",
+        zh: "第二輪，第八至九章：開場篇章之後的第一難",
+      },
+      reason: {
+        en: "First writing round after round 1's chapter-length correction, applying the 3,000+ Chinese character floor from the first draft rather than discovering the gap after shipping. Chapters 8-9 develop two of round 1's open threads at once: the central territory's lethal-force reading (established but untouched since chapter 1) becomes a real, physically dangerous encounter when Larder's equipment profile falsely matches a smuggling pattern under the territory's reasonable-anticipation threshold, and Farsight has to talk a guard back from certainty to uncertainty in roughly the same four seconds it took her to refuse chapter 7's disguised node — this time with a life on the line rather than a schedule. The investigation that follows connects that checkpoint's scanning system to chapter 7's disguised relay node through a shared, distinctive build signature, revealing that neither was an isolated opportunistic scam: both trace to an unnamed consulting firm selling territories a 'cross-territory reading consistency optimization' service that, properly read, profits from the three readings staying contradictory rather than actually converging them. The party does not resolve what to do with this — Larder proposes exposing the firm's double-billing rather than reporting it to the Concord, Current objects that this fixes one vendor but not the underlying willingness to defer judgment to a number, and Envoy tables the decision rather than force it, consistent with the story's own refusal to let any single fix look complete. No new named characters or settings introduced this round — the checkpoint's guards and officer stay unnamed by design, and the consulting firm remains deliberately unidentified pending a later round. Pronoun-audited alongside the rest: Envoy/Larder/Draft 他, Farsight/Current 她.",
+        zh: "第一輪字數更正之後的第一個正式寫作輪次，從動筆的第一稿就套用三千字以上的中文門檻，而不是出稿後才發現落差。第八、九章，同時推進第一輪留下的兩條未收線：第一章就已提及、卻始終沒有被真正觸碰過的中央領土致命武力讀法，這一次變成一場真正有人身安全風險的遭遇——儲的裝備配置，在中央領土「合理預期」的門檻下，被誤判為符合走私模式，覺必須把一名守衛，從『確定』拉回『不確定』，花的時間，跟她在第七章拒絕那座偽裝節點時，幾乎一樣長，只是這一次，賭注是一條人命，不是行程。後續的調查，把這座檢查哨的掃描系統，跟第七章那座偽裝節點，透過一組共同、獨特的建置特徵連在一起，揭露兩者都不是孤立的機會主義騙局：兩者都能追溯到一間尚未具名的顧問機構，這間機構賣給各領土的『跨領土讀法一致性優化』服務，如果讀得夠仔細，其實是靠著讓三種讀法持續矛盾、而不是真正趨於一致，來牟利。隊伍沒有解決該拿這件事怎麼辦——儲提議揭發這間機構的雙邊收費，而不是回報協約會；流反對，認為這只解決了一個廠商，沒有解決讓夠多人，願意把判斷讓渡給一個數字這件事本身；使把這個決定暫時擱置，沒有勉強做出選擇，維持這部作品一貫不讓任何單一解方看起來完整的態度。這一輪沒有引入新的具名角色或設定——檢查哨的守衛與官員依設計維持無名，顧問機構的真實身分，刻意留待之後的回合。跟其餘部分一起完成了代名詞審查：使、儲、載為他；覺、流為她。",
+      },
+      humanReviewed: false,
+    },
   ],
 };
