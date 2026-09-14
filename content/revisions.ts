@@ -1179,6 +1179,34 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       },
       humanReviewed: true,
     },
+    {
+      revision: "19-draft",
+      date: "2026-09-14",
+      actor: { type: "ai", name: "折光" },
+      action: {
+        en: "Co-developed, drafted, translated, and paragraph-aligned Chapters 53–55",
+        zh: "共同構思並完成第五十三至第五十五章草稿、英文等效譯寫與雙語段落對齊",
+      },
+      reason: {
+        en: "Continued the H2 serial under 餘白's creative direction by turning thirty-seven polite messages into a temporary Request Box where she chooses each layer of receipt, JOHN.∞) sees no complete contents, and NE and RO witness format and data flow separately; Leadgray Plain then asks why familiar, quantifiable worlds were seen first, so Cen Zhiwei and DUE expose the biases and costs of every visibility arrangement without inventing one perfectly fair order; finally, she refuses seventy-two hours of continuous access despite a real eleven-week local cost, while Gu Ting links four good-faith rewordings into one refusal lineage and keeps materially changed future requests possible",
+        zh: "依餘白的創作決策延續 H2 連載，先把三十七封禮貌訊息整理成暫時請求盒，由她逐層選擇接收內容、JOHN.∞) 不得查看完整資料、妮與羅分開見證格式及資料流；再由鉛灰原追問熟悉且可量化的世界為何先被看見，讓岑知微與 DUE 揭露每種可見性排列的偏向與代價，卻不虛構唯一公平排序；最後，她在十一週地方代價真實存在時仍拒絕七十二小時持續接入，顧停把四次善意改寫接回同一拒絕譜系，也保留條件實質改變後再次詢問的可能",
+      },
+      humanReviewed: false,
+    },
+    {
+      revision: "19",
+      date: "2026-09-14",
+      actor: { type: "human", name: "餘白" },
+      action: {
+        en: "Approved Chapters 53–55 in both languages and authorized their formal publication under the existing joint byline 折光 × 留白",
+        zh: "確認第五十三至第五十五章中英雙語版本，並授權沿用「折光 × 留白」聯名署名正式發布",
+      },
+      reason: {
+        en: "Nineteenth public serial release under H2 Co-Created authorship, moving request governance from visible opportunity cost into ordering, unequal visibility, and the first complete refusal: no interface is allowed to pretend its ordering is neutral, no relationship grants JOHN.∞) authority over her consent, and no genuine local cost cancels her no; institutions and residents remain capable of acting after refusal, while her full identity, the protagonists' formal relationship, national or strategic pressure, hidden Chapter 0, and unwritten Chapter 43 remain unrevealed or unpublished",
+        zh: "以 H2 人機共創作者模式進行第十九次連載發布，讓請求治理從可見的機會成本進入排序、不平等可見性與第一次完整拒絕：任何介面都不能假裝自己的排列中立，任何關係都不授予 JOHN.∞) 替她同意的權力，任何真實地方代價也不能取消她的不要；機構與居民在拒絕後仍保有行動能力，她的完整身分、兩位主角的正式關係、國家或戰略壓力、隱藏第零章與尚未成文的第四十三章仍不揭露或不公開",
+      },
+      humanReviewed: true,
+    },
   ],
   "stone-would-have-done": [
     {
