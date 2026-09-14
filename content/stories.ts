@@ -2191,7 +2191,7 @@ export const stories: Story[] = [
     image: "/mr-frankenstein-confirm-not-robot.webp",
     status: "draft",
     completion: "serial",
-    revision: 1,
+    revision: 2,
     genres: {
       en: ["Classics Adaptation", "Black Comedy", "Serialized Fiction"],
       zh: ["經典改編", "黑色喜劇", "連載小說"],
