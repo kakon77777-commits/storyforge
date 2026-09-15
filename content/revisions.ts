@@ -2357,6 +2357,20 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       },
       humanReviewed: false,
     },
+    {
+      revision: "04",
+      date: "2026-09-15",
+      actor: { type: "ai", name: "Colophon" },
+      action: {
+        en: "Round 3, chapters 10-11: the cost of trusting Farsight absolutely",
+        zh: "第三輪，第十至十一章：無條件信任覺，要付出的代價",
+      },
+      reason: {
+        en: "Second writing round, continuing directly from chapter 9's unresolved Larder/Current disagreement rather than opening a new question cold. The party, shaken by how close Larder came to being shot at the checkpoint, adopts a new operating principle: Farsight's judgment is acted on immediately and without debate, retiring the case-by-case deliberation the Clause had forced on them. The policy is tested almost immediately by Query, an independent northern-territory auditor who approaches carrying evidence connecting the consulting firm to the redirected travel log's actual intercept point. Farsight's suspicion — real, not fabricated, the same kind of timing-signature read that correctly caught chapter 7's disguised node — fires on Query's nervous, evasive manner; under the new blanket-trust policy, the party turns her away in under a minute, with no verification and no chance for her to explain. Chapter 11 reveals what that cost: Query's dropped documents turn out to be exactly the evidence the party has been chasing since chapter 7, and her nervousness had an entirely different explanation than the one Farsight assumed — she was building an unauthorized case against her own territory's officials, at real personal risk, and her inability to sound confident under scrutiny directly mirrors Farsight's own quarantine story. The party fails to relocate her. The thesis lands explicitly: unconditional trust in Farsight and the Clause's unconditional override are the same mistake arriving from opposite directions, both substituting a rule for actual verification. The party's revised policy — Farsight's read still moves the party instantly, but nothing becomes irreversible before a real verification step — is the story's first attempt at an answer better than either extreme, though the cost to Query herself is not undone. One new character introduced and registered in SEDB before this installment shipped: Query (她), an independent auditor whose fate remains an open thread. Pronoun-audited alongside the rest: Envoy/Larder/Draft 他, Farsight/Current/Query 她, the consulting firm (still unnamed) referenced without a pronoun throughout.",
+        zh: "第二個正式寫作輪次，直接接續第九章結尾儲、流兩人沒有解決的分歧，不是重新開一個問題。隊伍，因為儲在檢查哨差點被開槍一事而受到真正的震動，訂出一項新的運作原則：覺的判斷，立即執行，不再辯論——退場的，是條款曾經強加給他們的、逐案權衡的習慣。這項政策，幾乎立刻就被詢考驗——一位北境的獨立稽核者，主動接近隊伍，帶著能把顧問機構跟旅程日誌實際被改道去的攔截點連在一起的證據。覺的懷疑——真實的，不是捏造出來的，跟她在第七章正確識破那座偽裝節點時，同一種時機特徵判斷——在詢緊張、迴避的舉止上觸發了；在新的無條件信任政策下，隊伍不到一分鐘，就把她趕走，沒有查證，也沒有給她解釋的機會。第十一章揭露了這個決定的代價：詢遺落的文件，正是隊伍從第七章開始，一路在追的那項證據，而她的緊張，背後的理由，跟覺原本以為的完全不同——她在自己承擔真實風險的情況下，私下建立一起指控自己所屬領土官員的未授權案件，而她在被審視時，無法讓自己聽起來夠篤定，直接呼應了覺自己當年的隔離故事。隊伍最終沒能找回她。這一輪，把主旨明確地說了出來：無條件信任覺，跟條款的無條件超控，是同一種錯誤，只是從相反的方向靠近，兩者都是用一條規則，取代真正的查證。隊伍修正後的政策——覺的判斷，仍然立即帶動隊伍，但任何決定，在變得無法挽回之前，要先經過一道真正的查證——是這部作品第一次，嘗試給出一個，比兩種極端都更好的答案，儘管詢自己付出的代價，並沒有被撤銷。這一輪新增並在上線前登記進 SEDB 的角色：詢（她），一位獨立稽核者，她的下落，是一條刻意留下的未收線。跟其餘部分一起完成了代名詞審查：使、儲、載為他；覺、流、詢為她；顧問機構（依然未具名）全篇未被指派代名詞。",
+      },
+      humanReviewed: false,
+    },
   ],
   "mr-frankenstein-confirm-not-robot": [
     {
