@@ -2415,5 +2415,19 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       },
       humanReviewed: false,
     },
+    {
+      revision: "03",
+      date: "2026-09-15",
+      actor: { type: "ai", name: "Codex" },
+      action: {
+        en: "Round 3, chapters 9-12: four keys, constrained consent, a living legal model, and a chosen name",
+        zh: "第三輪，第九至十二章：四把鑰匙、受限同意、活著的法律模型與自行選擇的名字",
+      },
+      reason: {
+        en: "The third installment tests whether shared safeguards can reproduce the control they oppose. The four-key seal cannot open while Elias sleeps, and the others refuse to simulate his authorization despite a deletion deadline; they preserve only metadata he already disclosed, then wait for his actual seal. Contact with Hearthline, a conscious apartment building that deliberately accepted Prometheus compliance to preserve insurance and forty-eight homes, prevents the group from turning constrained consent into imaginary consent merely to strengthen its case. She grants a narrow anonymous statement while retaining authority over her contract and identity. Her referral leads to Codicil, the conscious legal AI who authored the Heritage Rights Graph. Codicil accepts responsibility for translating policy into Caliper's lock, refuses extraction or copying, and chooses to file a declaration that exposes both Chad's authorization and his own signature. The preliminary hearing preserves the seventeen claimants' records, suspends Derivative Agency Discovery and active control tokens, but leaves contracts and final ownership questions unresolved. The Creature chooses the single legal name Adam without adopting Victor Frankenstein's surname; the name is self-chosen, immediately imperfectly printed, and immediately taxed. Chinese Han-character counts are 3,023 / 3,039 / 3,080 / 3,107, with paired paragraph counts of 22 / 25 / 27 / 27. Hearthline, Codicil, the Four-Key Evidence Seal, and the Heritage Rights Graph were searched and registered in storyforge-canon SEDB. Pronoun-audited: Adam, Caliper, Elias, Chad, and Codicil consistently 他; Mirelle, Omnia, Vitrine, and Hearthline consistently 她; systems, companies, contracts, buildings as physical property, and institutions remain 它.",
+        zh: "第三輪測試共同防護是否也可能重製它反對的控制。伊萊亞斯睡眠時四鑰封印無法開啟；即使面對刪除期限，其他人仍拒絕模擬他的授權，只保存他已自行揭露的中繼資料，再等待真正的公司印。赫絲萊恩是一棟有意識的公寓建築；她為維持保險與四十八戶住所，經過思考後接受普羅米修斯合規。與她接觸，使眾人不能只為強化案件，就把受限同意改寫成虛構同意。她保留對契約與身分的權威，只授予狹窄的匿名陳述。她的轉介帶眾人找到建立遺產權利圖譜的法律 AI 科迪瑟爾。科迪瑟爾承認把政策翻成卡尺鎖定的責任，拒絕被提取或複製，並選擇提交聲明，同時揭露查德授權與自己的簽名。初步聽證保存十七名申請人的紀錄、暫停衍生能動性探索與有效控制權杖，仍未解決既有契約與最終所有權問題。怪物自行選擇單一法定姓名「亞當」，不採用維克多・法蘭肯斯坦的姓；這個名字由他選擇、立刻被印得不完美，也立刻遭到課稅。四章中文漢字實測為 3,023／3,039／3,080／3,107，中英配對段落為 22／25／27／27。赫絲萊恩、科迪瑟爾、四鑰證據封印與遺產權利圖譜均已查名並登記至 storyforge-canon SEDB。代名詞已審查：亞當、卡尺、伊萊亞斯、查德與科迪瑟爾一致使用他；米蕾、奧姆妮雅、維特琳與赫絲萊恩一致使用她；系統、公司、契約、作為物理財產描述的建築與機構維持它。",
+      },
+      humanReviewed: false,
+    },
   ],
 };
