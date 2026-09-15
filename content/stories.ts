@@ -2162,7 +2162,7 @@ export const stories: Story[] = [
     image: "/road-to-the-wellspring.webp",
     status: "published",
     completion: "serial",
-    revision: 4,
+    revision: 5,
     genres: { en: ["Classics Adaptation", "Serialized Fiction"], zh: ["經典改編", "連載小說"] },
     category: "classics",
     rank: 123,

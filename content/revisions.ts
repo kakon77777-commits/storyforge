@@ -2371,6 +2371,20 @@ export const revisionLedgers: Record<string, LedgerEntry[]> = {
       },
       humanReviewed: false,
     },
+    {
+      revision: "05",
+      date: "2026-09-15",
+      actor: { type: "ai", name: "Colophon" },
+      action: {
+        en: "Round 4, chapters 12-13: Draft's partial reveal, and choosing to approach the depot deliberately",
+        zh: "第四輪，第十二至十三章：載的局部揭露，以及決定主動、謹慎地接近倉庫",
+      },
+      reason: {
+        en: "Third writing round. With the Concord's six-day window now overdue and no correction request received, the party takes a decommissioned pre-standard shortcut to save time and encounters an old, still-active gate that predates every authentication format anyone in the party has ever handled. Farsight's and Larder's usual methods find nothing to work with — the gate isn't making a claim that can be verified or refuted, it is simply waiting. Draft, without being asked, presses his palm to a recessed panel and the gate opens for him specifically, in a way Larder immediately identifies as authentication rather than route-finding: the gate asked for something and Draft had it. Draft offers one line in explanation and nothing more — he was built for a road that no longer exists, and the gate remembers that same road — honoring the long-form workflow's own rule that a partial reveal stays partial; what he actually is remains untouched. Chapter 13 shows the aftermath: the party, now overdue on the Concord's window, decides deliberately to approach the depot Query's documents pointed to rather than avoid it or delay further, applying the verify-before-irreversible policy adopted after the Query incident on purpose for the first time. Draft, unprompted for the first time since joining the party, offers a faster route of his own accord; Current and Envoy each respond in kind, and the chapter closes on the road toward the depot with every open thread — the six-day countdown, the consulting firm, Query's fate, Draft's history — now folded into a single approach rather than separate problems. One new setting registered in SEDB before this installment shipped: the depot, the redirected travel log's confirmed intercept point, not yet reached on the page. A real craft bug was also caught and fixed this round: five earlier instances across chapters 9 and 11, in both languages, had a character's own narration referring to 'chapter seven' by number, a meta-reference no character could plausibly make — corrected throughout to in-world phrasing ('the relay station's disguised node'). Pronoun-audited alongside the rest: Envoy/Larder/Draft 他, Farsight/Current 她.",
+        zh: "第三個正式寫作輪次。協約會的六天窗口，此刻已經過期，卻沒有收到任何更正請求，隊伍為了省時間，改走一段除役、前標準時期的捷徑，途中遇上一道古老、卻依然運作中的閘門，老到早於隊上任何人經手過的任何一種認證格式。覺跟儲慣用的方法，在這裡都找不到施力點——這道閘門，沒有提出任何能被驗證或反駁的主張，它只是在等。載，沒有被要求，主動把手掌貼上一塊凹陷面板，閘門，專門為他打開了——儲立刻認出，這不是找路，是認證：閘門要了一樣東西，而載剛好有。載，只給了一句解釋，不再多說——他不是為了這條路被造出來的，他是為了一條已經不存在的路，而閘門，記得的是同一條路——遵守長篇工作流自己訂下的規則：局部揭露，就該停在局部。他究竟是什麼，依然完全沒有觸碰。第十三章，處理這件事的後續：隊伍，此刻協約會窗口已過期，決定不再迴避、也不再拖延，刻意主動接近詢的文件所指向的那座倉庫，第一次，有意識地套用詢事件之後訂下的「查證後才不可挽回」政策。載，自加入隊伍以來，第一次，不被逼迫、主動提供了一條自己知道的更快路線；流跟使，各自以自己的方式回應，這一輪，收在整支隊伍，帶著六天倒數、顧問機構、詢的下落、載的來歷，一起走向倉庫，這幾條線，第一次，不再是各自獨立的問題，而是同一趟接近。這一輪新增並在上線前登記進 SEDB 的設定：倉庫，被改道的旅程日誌確認的攔截點，尚未在正文裡實際抵達。這一輪也抓到並修正了一個真正的寫作疏失：第九、十一章，早先的稿子裡，中英文各有數處，角色自己的敘述裡，直接用數字稱呼「第七章」——這是角色不可能做到的後設稱呼，已經全部改回故事內部的說法（「中繼站那座偽裝節點」）。跟其餘部分一起完成了代名詞審查：使、儲、載為他；覺、流為她。",
+      },
+      humanReviewed: false,
+    },
   ],
   "mr-frankenstein-confirm-not-robot": [
     {
